@@ -5,8 +5,8 @@
       "name" : "Slow Ride",
       "application" : "Helix",
       "build_sha" : "47fcc00",
-      "modifieddate" : 1468058592,
-      "appversion" : 33554688
+      "modifieddate" : 1479868847,
+      "appversion" : 33619968
     },
     "device" : 2162689,
     "tone" : {
@@ -348,7 +348,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 33554464
+    "device_version" : 33620000
   },
   "schema" : "L6Preset"
 }

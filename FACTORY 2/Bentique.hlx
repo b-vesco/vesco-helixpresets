@@ -4,9 +4,9 @@
     "meta" : {
       "name" : "Bentique",
       "application" : "Helix",
-      "build_sha" : "3583e0d",
-      "modifieddate" : 1468058568,
-      "appversion" : 33554688
+      "build_sha" : "73211ae",
+      "modifieddate" : 1479868842,
+      "appversion" : 33619968
     },
     "device" : 2162689,
     "tone" : {
@@ -300,7 +300,7 @@
         "@topology0" : "A",
         "@cursor_dsp" : 0,
         "@cursor_path" : 0,
-        "@guitarinputZ" : 8,
+        "@guitarinputZ" : 0,
         "@tempo" : 120,
         "@topology1" : "A",
         "@cursor_position" : 5,
@@ -385,7 +385,7 @@
       "snapshot0" : {
         "blocks" : {
           "dsp1" : {
-            "block1" : false,
+            "block1" : true,
             "block0" : false
           },
           "dsp0" : {
@@ -420,7 +420,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 33554464
+    "device_version" : 33620000
   },
   "schema" : "L6Preset"
 }
