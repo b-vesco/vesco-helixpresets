@@ -4,9 +4,9 @@
     "meta" : {
       "name" : "Alternative YES",
       "application" : "Helix",
-      "build_sha" : "daacb04",
-      "modifieddate" : 1490931788,
-      "appversion" : 34668544
+      "build_sha" : "6a7d211",
+      "modifieddate" : 1490936308,
+      "appversion" : 35651584
     },
     "device" : 2162689,
     "tone" : {
@@ -107,7 +107,7 @@
           "A Pan" : 0.5,
           "@position" : 8,
           "Level" : 0,
-          "@enabled" : false,
+          "@enabled" : true,
           "B Polarity" : false
         },
         "block3" : {
@@ -119,7 +119,7 @@
           "@path" : 0,
           "@type" : 0,
           "Mix" : 0.5,
-          "LevelVoice1" : 1,
+          "LevelVoice1" : 0.4,
           "Interval1" : 24,
           "Level" : 0,
           "@stereo" : false,
@@ -228,7 +228,7 @@
           "Master" : 0.73,
           "@position" : 4,
           "Cut" : 0.17,
-          "ChVol" : 0.95,
+          "ChVol" : 0.8599999,
           "@enabled" : true,
           "Ripple" : 0.5,
           "@path" : 0,
@@ -360,7 +360,7 @@
           "A Pan" : 0.5,
           "@position" : 8,
           "Level" : 0,
-          "@enabled" : false,
+          "@enabled" : true,
           "B Polarity" : false
         },
         "block3" : {
@@ -477,7 +477,7 @@
           "Cut" : 0.23,
           "Drive" : 0.53,
           "Treble" : 0.35,
-          "ChVol" : 0.9,
+          "ChVol" : 0.8399999,
           "@enabled" : true,
           "Ripple" : 0.5,
           "@path" : 0,
@@ -570,7 +570,7 @@
       "global" : {
         "@variax_volumeknob" : -0.1,
         "@pedalstate" : 2,
-        "@variax_customtuning" : true,
+        "@variax_customtuning" : false,
         "@variax_str1tuning" : 0,
         "@variax_str2tuning" : 0,
         "@variax_str4tuning" : 0,
@@ -809,7 +809,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 34734112
+    "device_version" : 35651616
   },
   "schema" : "L6Preset"
 }

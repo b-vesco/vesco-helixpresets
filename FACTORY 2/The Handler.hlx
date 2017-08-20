@@ -4,9 +4,9 @@
     "meta" : {
       "name" : "The Handler",
       "application" : "Helix",
-      "build_sha" : "87b59c5",
-      "modifieddate" : 1490931780,
-      "appversion" : 34668544
+      "build_sha" : "6a7d211",
+      "modifieddate" : 1490936279,
+      "appversion" : 35651584
     },
     "device" : 2162689,
     "tone" : {
@@ -45,8 +45,19 @@
           "Spread" : 0
         },
         "block1" : {
-          "@model" : "HD2_ReverbHall",
+          "@model" : "HD2_EQLowCutHighCut",
+          "LowCut" : 19.9,
+          "@path" : 0,
+          "@stereo" : false,
+          "@type" : 0,
           "@position" : 1,
+          "Level" : 0,
+          "@enabled" : true,
+          "HighCut" : 11000
+        },
+        "block2" : {
+          "@model" : "HD2_ReverbHall",
+          "@position" : 2,
           "LowCut" : 166,
           "@enabled" : true,
           "@path" : 0,
@@ -58,9 +69,9 @@
           "HighCut" : 4600,
           "Predelay" : 0.08000004
         },
-        "block2" : {
+        "block3" : {
           "@model" : "HD2_ReverbHall",
-          "@position" : 2,
+          "@position" : 3,
           "LowCut" : 166,
           "@enabled" : false,
           "@path" : 0,
@@ -327,7 +338,7 @@
       "global" : {
         "@variax_volumeknob" : -0.1,
         "@pedalstate" : 2,
-        "@variax_customtuning" : true,
+        "@variax_customtuning" : false,
         "@variax_str1tuning" : 0,
         "@variax_str2tuning" : 0,
         "@variax_str4tuning" : 0,
@@ -357,11 +368,11 @@
       },
       "footswitch" : {
         "dsp1" : {
-          "block1" : {
+          "block3" : {
             "@fs_label" : "Hall",
-            "@fs_enabled" : true,
-            "@fs_index" : 9,
-            "@fs_ledcolor" : 16723200,
+            "@fs_enabled" : false,
+            "@fs_index" : 10,
+            "@fs_ledcolor" : 1049600,
             "@fs_momentary" : false
           },
           "block0" : {
@@ -373,9 +384,9 @@
           },
           "block2" : {
             "@fs_label" : "Hall",
-            "@fs_enabled" : false,
-            "@fs_index" : 10,
-            "@fs_ledcolor" : 1049600,
+            "@fs_enabled" : true,
+            "@fs_index" : 9,
+            "@fs_ledcolor" : 16723200,
             "@fs_momentary" : false
           }
         },
@@ -449,9 +460,10 @@
         },
         "blocks" : {
           "dsp1" : {
-            "block1" : true,
             "block0" : true,
-            "block2" : false
+            "block1" : true,
+            "block2" : true,
+            "block3" : false
           },
           "dsp0" : {
             "block0" : false,
@@ -470,7 +482,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 34734112
+    "device_version" : 35651616
   },
   "schema" : "L6Preset"
 }

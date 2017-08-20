@@ -4,9 +4,9 @@
     "meta" : {
       "name" : "Rebel Yell",
       "application" : "Helix",
-      "build_sha" : "87b59c5",
-      "modifieddate" : 1490931784,
-      "appversion" : 34668544
+      "build_sha" : "6a7d211",
+      "modifieddate" : 1490936283,
+      "appversion" : 35651584
     },
     "device" : 2162689,
     "tone" : {
@@ -261,14 +261,14 @@
           "HighCut" : 20100
         },
         "cab0" : {
-          "@model" : "HD2_Cab4x12Greenback25",
+          "@model" : "HD2_Cab2x12BlueBell",
           "LowCut" : 19.9,
-          "@mic" : 10,
-          "EarlyReflections" : 0.12,
-          "Distance" : 3.5,
-          "Level" : 0,
+          "@mic" : 3,
+          "EarlyReflections" : 0,
+          "Distance" : 1,
+          "High Cut" : 20100,
           "@enabled" : true,
-          "HighCut" : 20100
+          "Level" : 0
         },
         "outputA" : {
           "@model" : "HD2_AppDSPFlowOutput",
@@ -342,6 +342,13 @@
             "@fs_index" : 11,
             "@fs_ledcolor" : 16723200,
             "@fs_momentary" : false
+          },
+          "block0" : {
+            "@fs_label" : "Looper",
+            "@fs_enabled" : false,
+            "@fs_index" : 5,
+            "@fs_ledcolor" : 462860,
+            "@fs_momentary" : false
           }
         },
         "dsp0" : {
@@ -356,7 +363,7 @@
             "@fs_label" : "Simple Delay",
             "@fs_enabled" : false,
             "@fs_index" : 4,
-            "@fs_customlabel" : "Ray Gun .",
+            "@fs_customlabel" : "RAY GUN!",
             "@fs_ledcolor" : 67840,
             "@fs_momentary" : false
           },
@@ -435,7 +442,7 @@
         "@tempo" : 167
       }
     },
-    "device_version" : 34734112
+    "device_version" : 35651616
   },
   "schema" : "L6Preset"
 }

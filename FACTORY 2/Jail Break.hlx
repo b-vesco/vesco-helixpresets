@@ -4,9 +4,9 @@
     "meta" : {
       "name" : "Jail Break",
       "application" : "Helix",
-      "build_sha" : "87b59c5",
-      "modifieddate" : 1490931787,
-      "appversion" : 34668544
+      "build_sha" : "37cfcb5",
+      "modifieddate" : 1490936376,
+      "appversion" : 35651584
     },
     "device" : 2162689,
     "tone" : {
@@ -23,13 +23,17 @@
         "@tempo" : 145
       },
       "dsp1" : {
-        "split" : {
-          "BalanceA" : 0.5,
-          "@model" : "HD2_AppDSPFlowSplitY",
-          "@enabled" : true,
-          "bypass" : false,
-          "@position" : 0,
-          "BalanceB" : 0.5
+        "block0" : {
+          "@model" : "HD2_Looper",
+          "Overdub" : 0,
+          "Playback" : 0,
+          "@path" : 0,
+          "@stereo" : true,
+          "@type" : 6,
+          "highCut" : 20000,
+          "lowCut" : 20,
+          "@position" : 7,
+          "@enabled" : false
         },
         "inputA" : {
           "@input" : 0,
@@ -45,6 +49,14 @@
           "decay" : 0.5,
           "threshold" : -48
         },
+        "split" : {
+          "BalanceA" : 0.5,
+          "@model" : "HD2_AppDSPFlowSplitY",
+          "@enabled" : true,
+          "bypass" : false,
+          "@position" : 0,
+          "BalanceB" : 0.5
+        },
         "join" : {
           "@model" : "HD2_AppDSPFlowJoin",
           "B Pan" : 0.5,
@@ -56,13 +68,13 @@
           "@enabled" : true,
           "B Polarity" : false
         },
-        "outputA" : {
+        "outputB" : {
           "@model" : "HD2_AppDSPFlowOutput",
           "@output" : 1,
           "pan" : 0.5,
           "gain" : 0
         },
-        "outputB" : {
+        "outputA" : {
           "@model" : "HD2_AppDSPFlowOutput",
           "@output" : 1,
           "pan" : 0.5,
@@ -254,7 +266,7 @@
         },
         "outputA" : {
           "@model" : "HD2_AppDSPFlowOutput",
-          "@output" : 1,
+          "@output" : 2,
           "pan" : 0.5,
           "gain" : 0
         },
@@ -318,6 +330,15 @@
         "@tempo" : 145
       },
       "footswitch" : {
+        "dsp1" : {
+          "block0" : {
+            "@fs_label" : "Looper",
+            "@fs_enabled" : false,
+            "@fs_index" : 5,
+            "@fs_ledcolor" : 462860,
+            "@fs_momentary" : false
+          }
+        },
         "dsp0" : {
           "block0" : {
             "@fs_label" : "Volume Pedal",
@@ -394,6 +415,9 @@
           }
         },
         "blocks" : {
+          "dsp1" : {
+            "block0" : false
+          },
           "dsp0" : {
             "block0" : true,
             "block1" : false,
@@ -411,7 +435,7 @@
         "@tempo" : 145
       }
     },
-    "device_version" : 34734112
+    "device_version" : 35651616
   },
   "schema" : "L6Preset"
 }

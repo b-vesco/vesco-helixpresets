@@ -4,9 +4,9 @@
     "meta" : {
       "name" : "Lead of Leads",
       "application" : "Helix",
-      "build_sha" : "87b59c5",
-      "modifieddate" : 1490931786,
-      "appversion" : 34668544
+      "build_sha" : "6a7d211",
+      "modifieddate" : 1490936286,
+      "appversion" : 35651584
     },
     "device" : 2162689,
     "tone" : {
@@ -53,7 +53,7 @@
           "A Pan" : 0.5,
           "@position" : 8,
           "Level" : 0,
-          "@enabled" : false,
+          "@enabled" : true,
           "B Polarity" : false
         },
         "outputA" : {
@@ -90,25 +90,12 @@
           "A Pan" : 0.5,
           "@position" : 8,
           "Level" : 0,
-          "@enabled" : false,
+          "@enabled" : true,
           "B Polarity" : false
         },
         "block3" : {
-          "@model" : "HD2_DistTeemah",
-          "Treble" : 0.72,
-          "Bass" : 0.5,
-          "@path" : 0,
-          "@stereo" : false,
-          "@type" : 0,
-          "Clipping" : 0,
-          "Gain" : 0.52,
-          "@position" : 2,
-          "Level" : 0.625,
-          "@enabled" : true
-        },
-        "block2" : {
           "@model" : "HD2_CompressorLAStudioComp",
-          "@position" : 1,
+          "@position" : 2,
           "@enabled" : true,
           "Emphasis" : 0.09000003,
           "@path" : 0,
@@ -119,6 +106,17 @@
           "Level" : 0,
           "@stereo" : false,
           "Gain" : 0.62
+        },
+        "block2" : {
+          "@model" : "HD2_GateNoiseGate",
+          "Decay" : 0.5,
+          "@path" : 0,
+          "@stereo" : false,
+          "@type" : 0,
+          "Threshold" : -48,
+          "@position" : 1,
+          "Level" : 0,
+          "@enabled" : true
         },
         "inputB" : {
           "@input" : 0,
@@ -156,13 +154,19 @@
           "decay" : 0.5,
           "threshold" : -48
         },
-        "split" : {
-          "BalanceA" : 0.5,
-          "@model" : "HD2_AppDSPFlowSplitY",
-          "@enabled" : true,
-          "bypass" : false,
-          "@position" : 0,
-          "BalanceB" : 0.5
+        "block6" : {
+          "@model" : "HD2_ReverbPlate",
+          "@position" : 5,
+          "LowCut" : 90,
+          "@enabled" : false,
+          "@path" : 0,
+          "@trails" : false,
+          "@type" : 7,
+          "Mix" : 0.16,
+          "Level" : -0.6,
+          "Decay" : 0.7,
+          "HighCut" : 4570,
+          "Predelay" : 0.01499999
         },
         "block0" : {
           "@model" : "HD2_Looper",
@@ -176,19 +180,35 @@
           "@position" : 7,
           "@enabled" : false
         },
+        "split" : {
+          "BalanceA" : 0.5,
+          "@model" : "HD2_AppDSPFlowSplitY",
+          "@enabled" : true,
+          "bypass" : false,
+          "@position" : 0,
+          "BalanceB" : 0.5
+        },
         "block5" : {
-          "@model" : "HD2_ReverbPlate",
-          "@position" : 4,
-          "LowCut" : 90,
-          "@enabled" : false,
+          "NrmDrive" : 0.72,
+          "@enabled" : true,
+          "@bypassvolume" : 1,
+          "Mid" : 0.8099999,
+          "BiasX" : 0.5,
+          "Bias" : 0.65,
+          "@type" : 3,
+          "Hum" : 0.5,
+          "Treble" : 0.78,
+          "@cab" : "cab0",
+          "@model" : "HD2_AmpBritPlexiJump",
+          "Master" : 1,
+          "ChVol" : 0.55,
           "@path" : 0,
-          "@trails" : false,
-          "@type" : 7,
-          "Mix" : 0.16,
-          "Level" : -0.6,
-          "Decay" : 0.7,
-          "HighCut" : 4570,
-          "Predelay" : 0.01499999
+          "Presence" : 0.7,
+          "Ripple" : 0.5,
+          "@position" : 4,
+          "Sag" : 0.5,
+          "BrtDrive" : 0.8099999,
+          "Bass" : 0.9
         },
         "cab0" : {
           "@model" : "HD2_Cab4x12Greenback25",
@@ -207,26 +227,17 @@
           "gain" : 0
         },
         "block4" : {
-          "NrmDrive" : 0.72,
-          "@enabled" : true,
-          "@bypassvolume" : 1,
-          "Mid" : 0.8099999,
-          "BiasX" : 0.5,
-          "Bias" : 0.65,
-          "@type" : 3,
-          "Hum" : 0.5,
-          "Treble" : 0.78,
-          "@cab" : "cab0",
-          "@model" : "HD2_AmpBritPlexiJump",
-          "Master" : 1,
-          "ChVol" : 0.6900001,
+          "@model" : "HD2_DistTeemah",
+          "Treble" : 0.72,
+          "Bass" : 0.5,
           "@path" : 0,
-          "Presence" : 0.7,
-          "Ripple" : 0.5,
+          "@stereo" : false,
+          "@type" : 0,
+          "Clipping" : 0,
+          "Gain" : 0.52,
           "@position" : 3,
-          "Sag" : 0.5,
-          "BrtDrive" : 0.8099999,
-          "Bass" : 0.9
+          "Level" : 0.625,
+          "@enabled" : true
         }
       },
       "snapshot2" : {
@@ -238,7 +249,7 @@
       "global" : {
         "@variax_volumeknob" : -0.1,
         "@pedalstate" : 2,
-        "@variax_customtuning" : true,
+        "@variax_customtuning" : false,
         "@variax_str1tuning" : 0,
         "@variax_str2tuning" : 0,
         "@variax_str4tuning" : 0,
@@ -251,14 +262,14 @@
         "@guitarinputZ" : 0,
         "@tempo" : 125.8,
         "@topology1" : "A",
-        "@cursor_position" : 3,
+        "@cursor_position" : 4,
         "@variax_lockctrls" : 0,
         "@variax_magmode" : true,
         "@variax_str3tuning" : 0,
         "@variax_str5tuning" : 0,
         "@variax_toneknob" : -0.1,
         "@current_snapshot" : 0,
-        "@cursor_group" : "block4"
+        "@cursor_group" : "block5"
       },
       "snapshot6" : {
         "@pedalstate" : 2,
@@ -275,6 +286,13 @@
             "@fs_ledcolor" : 462860,
             "@fs_momentary" : false
           },
+          "block4" : {
+            "@fs_label" : "Teemah!",
+            "@fs_enabled" : true,
+            "@fs_index" : 10,
+            "@fs_ledcolor" : 13676288,
+            "@fs_momentary" : false
+          },
           "block1" : {
             "@fs_momentary" : false,
             "@fs_customcolor" : 7,
@@ -284,25 +302,25 @@
             "@fs_customlabel" : "Octave +2",
             "@fs_label" : "Simple Pitch"
           },
-          "block5" : {
+          "block2" : {
+            "@fs_label" : "Noise Gate",
+            "@fs_enabled" : true,
+            "@fs_index" : 2,
+            "@fs_ledcolor" : 8716032,
+            "@fs_momentary" : false
+          },
+          "block6" : {
             "@fs_label" : "Plate",
             "@fs_enabled" : false,
             "@fs_index" : 11,
             "@fs_ledcolor" : 1049600,
             "@fs_momentary" : false
           },
-          "block2" : {
+          "block3" : {
             "@fs_label" : "LA Studio Comp",
             "@fs_enabled" : true,
             "@fs_index" : 3,
             "@fs_ledcolor" : 8716032,
-            "@fs_momentary" : false
-          },
-          "block3" : {
-            "@fs_label" : "Teemah!",
-            "@fs_enabled" : true,
-            "@fs_index" : 10,
-            "@fs_ledcolor" : 13676288,
             "@fs_momentary" : false
           }
         }
@@ -317,11 +335,12 @@
         "blocks" : {
           "dsp0" : {
             "block0" : false,
-            "block4" : true,
             "block1" : true,
-            "block5" : false,
             "block2" : true,
-            "block3" : true
+            "block3" : true,
+            "block4" : true,
+            "block5" : true,
+            "block6" : false
           }
         },
         "@pedalstate" : 2,
@@ -330,7 +349,7 @@
         "@tempo" : 125.8
       }
     },
-    "device_version" : 34734112
+    "device_version" : 35651616
   },
   "schema" : "L6Preset"
 }

@@ -4,9 +4,9 @@
     "meta" : {
       "name" : "Sunset Shimmer",
       "application" : "Helix",
-      "build_sha" : "87b59c5",
-      "modifieddate" : 1490931781,
-      "appversion" : 34668544
+      "build_sha" : "6a7d211",
+      "modifieddate" : 1490936280,
+      "appversion" : 35651584
     },
     "device" : 2162689,
     "tone" : {
@@ -29,7 +29,7 @@
           "B Level" : 0,
           "A Level" : 0,
           "A Pan" : 0.5,
-          "@position" : 4,
+          "@position" : 3,
           "Level" : 0,
           "@enabled" : true,
           "B Polarity" : false
@@ -48,6 +48,17 @@
           "Mix" : 1,
           "Level" : -1,
           "@stereo" : false
+        },
+        "block8" : {
+          "@model" : "HD2_EQLowCutHighCut",
+          "LowCut" : 19.9,
+          "@path" : 0,
+          "@stereo" : true,
+          "@type" : 0,
+          "@position" : 6,
+          "Level" : 0,
+          "@enabled" : true,
+          "HighCut" : 12000
         },
         "block2" : {
           "SlowSpeed" : 0.33,
@@ -78,7 +89,7 @@
         },
         "block7" : {
           "@model" : "HD2_ReverbOcto",
-          "@position" : 6,
+          "@position" : 5,
           "LowCut" : 122,
           "Intensity" : 0.63,
           "@enabled" : true,
@@ -124,7 +135,7 @@
           "@type" : 7,
           "Dwell" : 0.8,
           "Condition" : 2,
-          "@position" : 5,
+          "@position" : 4,
           "@trails" : true,
           "Level" : 0,
           "@enabled" : false,
@@ -162,7 +173,7 @@
           "FMPitch" : 1.4,
           "@model" : "HD2_RingModulatorPitchRingMod",
           "FMAmount" : 0.6700001,
-          "@position" : 4,
+          "@position" : 3,
           "FMOctave" : 1,
           "LowCut" : 19.9,
           "Octave" : -1,
@@ -235,7 +246,7 @@
         "block3" : {
           "@model" : "HD2_AmpJazzRivet120",
           "Master" : 1,
-          "@position" : 4,
+          "@position" : 3,
           "Drive" : 0.39,
           "Bright" : 0,
           "ChVol" : 0.7,
@@ -287,7 +298,7 @@
         "block1" : {
           "@model" : "HD2_AmpJazzRivet120",
           "Master" : 1,
-          "@position" : 4,
+          "@position" : 3,
           "Drive" : 0.3,
           "Bright" : 0,
           "ChVol" : 0.7,
@@ -396,7 +407,7 @@
       "global" : {
         "@variax_volumeknob" : -0.1,
         "@pedalstate" : 2,
-        "@variax_customtuning" : true,
+        "@variax_customtuning" : false,
         "@variax_str1tuning" : 0,
         "@variax_str2tuning" : 0,
         "@variax_str4tuning" : 0,
@@ -409,14 +420,14 @@
         "@guitarinputZ" : 0,
         "@tempo" : 120,
         "@topology1" : "ABJ",
-        "@cursor_position" : 2,
+        "@cursor_position" : 3,
         "@variax_lockctrls" : 0,
         "@variax_magmode" : true,
         "@variax_str3tuning" : 0,
         "@variax_str5tuning" : 0,
         "@variax_toneknob" : -0.1,
         "@current_snapshot" : 0,
-        "@cursor_group" : "block0"
+        "@cursor_group" : "block1"
       },
       "snapshot6" : {
         "@pedalstate" : 2,
@@ -528,7 +539,8 @@
             "block4" : false,
             "block5" : false,
             "block6" : false,
-            "block7" : true
+            "block7" : true,
+            "block8" : true
           },
           "dsp0" : {
             "block0" : true,
@@ -544,7 +556,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 34734112
+    "device_version" : 35651616
   },
   "schema" : "L6Preset"
 }

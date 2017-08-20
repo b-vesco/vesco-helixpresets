@@ -4,9 +4,9 @@
     "meta" : {
       "name" : "Sweet Dispozish",
       "application" : "Helix",
-      "build_sha" : "87b59c5",
-      "modifieddate" : 1490931782,
-      "appversion" : 34668544
+      "build_sha" : "7a0432b",
+      "modifieddate" : 1490936281,
+      "appversion" : 35651584
     },
     "device" : 2162689,
     "tone" : {
@@ -158,16 +158,16 @@
         "block6" : {
           "@model" : "HD2_DelayPingPong",
           "@position" : 5,
-          "Feedback" : 0.4,
+          "Feedback" : 0.4400001,
           "LowCut" : 100,
-          "SyncSelect1" : 5,
+          "SyncSelect1" : 8,
           "Scale" : 0.5,
           "@enabled" : true,
           "TempoSync1" : true,
           "@path" : 0,
           "@trails" : false,
           "@type" : 7,
-          "Mix" : 0.52,
+          "Mix" : 0.5,
           "Time" : 0.666,
           "Level" : 0,
           "Spread" : 1,
@@ -272,7 +272,7 @@
         "@cursor_dsp" : 0,
         "@cursor_path" : 0,
         "@guitarinputZ" : 0,
-        "@tempo" : 130,
+        "@tempo" : 135,
         "@topology1" : "A",
         "@cursor_position" : 5,
         "@variax_lockctrls" : 0,
@@ -369,7 +369,7 @@
         "@tempo" : 130
       }
     },
-    "device_version" : 34734112
+    "device_version" : 35651616
   },
   "schema" : "L6Preset"
 }

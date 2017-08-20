@@ -4,9 +4,9 @@
     "meta" : {
       "name" : "BAS:Brit Bass",
       "application" : "Helix",
-      "build_sha" : "87b59c5",
-      "modifieddate" : 1490931784,
-      "appversion" : 34668544
+      "build_sha" : "6a7d211",
+      "modifieddate" : 1490936284,
+      "appversion" : 35651584
     },
     "device" : 2162689,
     "tone" : {
@@ -105,29 +105,42 @@
           "B Polarity" : false
         },
         "block3" : {
-          "@model" : "HD2_DistMinotaur",
-          "@path" : 0,
-          "@stereo" : false,
-          "@type" : 0,
-          "Gain" : 0.42,
+          "ODTone" : 0.6,
+          "@model" : "HD2_DistClawthornDrive",
+          "FuzzOct" : false,
           "@position" : 2,
-          "Level" : 0.6,
-          "Tone" : 0.53,
-          "@enabled" : false
+          "Fuzz" : false,
+          "ODLowBoost" : true,
+          "FuzzTone" : 0.5,
+          "@enabled" : false,
+          "FuzzLevel" : 0.2,
+          "@path" : 0,
+          "@type" : 0,
+          "ODGain" : 0.26,
+          "FuzzGain" : 0.5,
+          "@stereo" : false,
+          "ODLevel" : 0.54
         },
         "block2" : {
-          "@model" : "HD2_CompressorLAStudioComp",
+          "Hi Gain" : -2,
+          "@model" : "HD2_Compressor3BandComp",
+          "Lo X Freq" : 400,
           "@position" : 1,
+          "Mid Thresh" : -35,
+          "Hi X Freq" : 3000,
           "@enabled" : true,
-          "Emphasis" : 0.09000003,
+          "Release" : 0.2,
           "@path" : 0,
           "@type" : 0,
-          "Mix" : 1,
-          "PeakReduction" : 0.78,
-          "Type" : false,
-          "Level" : 0,
+          "Attack" : 0.03499997,
+          "Detector" : true,
+          "Lo Thresh" : -24,
+          "Lo Gain" : 3.5,
+          "Mid Gain" : 4,
+          "Level" : 2,
           "@stereo" : false,
-          "Gain" : 0.62
+          "Ratio" : 2,
+          "Hi Thresh" : -50
         },
         "inputB" : {
           "@input" : 0,
@@ -180,15 +193,26 @@
           "@enabled" : false
         },
         "block5" : {
-          "@model" : "HD2_Cab4x10TweedP10R",
-          "Level" : 0,
-          "LowCut" : 19.9,
-          "@path" : 0,
-          "@mic" : 12,
-          "@type" : 2,
+          "@model" : "HD2_Cab4x10Rhino",
           "@position" : 4,
+          "LowCut" : 19.9,
+          "@enabled" : true,
+          "EarlyReflections" : 0,
+          "@path" : 0,
+          "@mic" : 2,
+          "@type" : 4,
           "Distance" : 1,
-          "EarlyReflections" : 0.1900001,
+          "Level" : 0,
+          "@cab" : "cab0",
+          "HighCut" : 20100
+        },
+        "cab0" : {
+          "@model" : "HD2_Cab1x12Lead80",
+          "LowCut" : 19.9,
+          "@mic" : 1,
+          "EarlyReflections" : 0,
+          "Distance" : 4,
+          "Level" : 0,
           "@enabled" : true,
           "HighCut" : 20100
         },
@@ -203,9 +227,9 @@
           "@model" : "HD2_AmpWhoWatt100",
           "Master" : 0.6600001,
           "@position" : 3,
-          "Drive" : 0.54,
+          "Drive" : 0.45,
           "Treble" : 0.47,
-          "ChVol" : 0.64,
+          "ChVol" : 0.75,
           "@enabled" : true,
           "Ripple" : 0.5,
           "@path" : 0,
@@ -228,7 +252,7 @@
       "global" : {
         "@variax_volumeknob" : -0.1,
         "@pedalstate" : 2,
-        "@variax_customtuning" : true,
+        "@variax_customtuning" : false,
         "@variax_str1tuning" : 0,
         "@variax_str2tuning" : 0,
         "@variax_str4tuning" : 0,
@@ -273,14 +297,14 @@
             "@fs_momentary" : false
           },
           "block2" : {
-            "@fs_label" : "LA Studio Comp",
+            "@fs_label" : "3-Band Comp",
             "@fs_enabled" : true,
             "@fs_index" : 8,
             "@fs_ledcolor" : 8716032,
             "@fs_momentary" : false
           },
           "block3" : {
-            "@fs_label" : "Minotaur",
+            "@fs_label" : "Clawthorn Drive",
             "@fs_enabled" : false,
             "@fs_index" : 9,
             "@fs_ledcolor" : 525824,
@@ -321,7 +345,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 34734112
+    "device_version" : 35651616
   },
   "schema" : "L6Preset"
 }

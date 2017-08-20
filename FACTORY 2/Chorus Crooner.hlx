@@ -4,9 +4,9 @@
     "meta" : {
       "name" : "Chorus Crooner",
       "application" : "Helix",
-      "build_sha" : "87b59c5",
-      "modifieddate" : 1490931780,
-      "appversion" : 34668544
+      "build_sha" : "6a7d211",
+      "modifieddate" : 1490936280,
+      "appversion" : 35651584
     },
     "device" : 2162689,
     "tone" : {
@@ -183,25 +183,22 @@
           "@enabled" : false
         },
         "block5" : {
-          "VibratoRate" : 0.7,
-          "@model" : "HD2_Chorus70sChorus",
+          "@model" : "HD2_ChorusPlastiChorus",
+          "Rate" : 0.35,
           "@position" : 4,
           "SyncSelect1" : 6,
-          "SyncSelect2" : 6,
           "TempoSync1" : false,
           "@enabled" : true,
           "@path" : 0,
           "@type" : 0,
           "Mix" : 0.5,
-          "Headroom" : 12,
-          "Stereo" : false,
-          "TempoSync2" : false,
-          "VibratoDepth" : 0.5,
-          "Level" : -1,
+          "Headroom" : 0,
+          "Tone" : 0.75,
+          "Level" : 0,
           "@stereo" : true,
-          "ChorusIntensity" : 0.5699999,
           "Mode" : false,
-          "Spread" : 1
+          "Spread" : 1,
+          "Depth" : 0.47
         },
         "cab0" : {
           "@model" : "HD2_Cab2x12JazzRivet",
@@ -239,7 +236,7 @@
       "global" : {
         "@variax_volumeknob" : -0.1,
         "@pedalstate" : 2,
-        "@variax_customtuning" : true,
+        "@variax_customtuning" : false,
         "@variax_str1tuning" : 0,
         "@variax_str2tuning" : 0,
         "@variax_str4tuning" : 0,
@@ -291,7 +288,7 @@
             "@fs_momentary" : false
           },
           "block5" : {
-            "@fs_label" : "70s Chorus",
+            "@fs_label" : "PlastiChorus",
             "@fs_enabled" : true,
             "@fs_index" : 10,
             "@fs_ledcolor" : 13055,
@@ -339,7 +336,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 34734112
+    "device_version" : 35651616
   },
   "schema" : "L6Preset"
 }
