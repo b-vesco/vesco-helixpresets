@@ -5,11 +5,102 @@
       "name" : "BAS:Dommyz Go 2",
       "application" : "Helix",
       "build_sha" : "69d8fa6",
-      "modifieddate" : 1459029814,
-      "appversion" : 17039360
+      "modifieddate" : 1459289939,
+      "appversion" : 17825792
     },
     "device" : 2162689,
     "tone" : {
+      "dsp1" : {
+        "block0" : {
+          "@model" : "HD2_DistIndustrialFuzz",
+          "@position" : 4,
+          "Compress" : 0.5699999,
+          "Drive" : 1,
+          "@enabled" : false,
+          "@path" : 0,
+          "@type" : 0,
+          "Stability" : 0.73,
+          "Oscillator" : false,
+          "Gate" : 0.52,
+          "Level" : 0.77,
+          "@stereo" : false
+        },
+        "block1" : {
+          "@model" : "HD2_DelayElephantMan",
+          "@position" : 5,
+          "Feedback" : 0.36,
+          "SyncSelect1" : 15,
+          "TempoSync1" : true,
+          "Scale" : 1,
+          "@enabled" : false,
+          "@path" : 0,
+          "@trails" : false,
+          "@type" : 7,
+          "Headroom" : 0,
+          "Mix" : 0.5,
+          "Noise" : 0.1,
+          "Time" : 0.375,
+          "Level" : 0,
+          "@stereo" : false,
+          "Mode" : false,
+          "Spread" : 0.272,
+          "Depth" : 0.28
+        },
+        "block2" : {
+          "@model" : "HD2_ReverbParticle",
+          "@path" : 0,
+          "@type" : 7,
+          "Dwell" : 0.23,
+          "Condition" : 0,
+          "@position" : 6,
+          "@trails" : false,
+          "Level" : 3.2,
+          "@enabled" : false,
+          "Mix" : 0.52
+        },
+        "inputA" : {
+          "@input" : 0,
+          "@model" : "HD2_AppDSPFlow1Input",
+          "noiseGate" : false,
+          "decay" : 0.5,
+          "threshold" : -48
+        },
+        "inputB" : {
+          "@input" : 0,
+          "@model" : "HD2_AppDSPFlow2Input",
+          "noiseGate" : false,
+          "decay" : 0.5,
+          "threshold" : -48
+        },
+        "join" : {
+          "@model" : "HD2_AppDSPFlowJoin",
+          "B Pan" : 0.5,
+          "B Level" : 0,
+          "A Level" : 0,
+          "A Pan" : 0.5,
+          "@position" : 8,
+          "Level" : 0,
+          "@enabled" : true,
+          "B Polarity" : false
+        },
+        "split" : {
+          "@position" : 0,
+          "@model" : "HD2_AppDSPFlowSplitY",
+          "@enabled" : true
+        },
+        "outputB" : {
+          "@model" : "HD2_AppDSPFlowOutput",
+          "@output" : 1,
+          "pan" : 0.5,
+          "gain" : 0
+        },
+        "outputA" : {
+          "@model" : "HD2_AppDSPFlowOutput",
+          "@output" : 1,
+          "pan" : 0.5,
+          "gain" : 0
+        }
+      },
       "global" : {
         "@variax_volumeknob" : -0.1,
         "@pedalstate" : 2,
@@ -26,177 +117,107 @@
         "@tempo" : 120,
         "@topology1" : "A",
         "@variax_magmode" : true,
-        "@cursor_position" : 0,
+        "@cursor_position" : 5,
         "@variax_lockctrls" : 0,
         "@variax_str3tuning" : 0,
         "@variax_str5tuning" : 0,
         "@variax_toneknob" : -0.1,
         "@cursor_group" : "block1"
       },
-      "footswitches" : {
-        "@fs3" : [
-          {
-            "@group" : "block2",
-            "@label" : "Deluxe Comp",
-            "@dsp" : 0,
-            "@type" : 1,
-            "@ledcolor" : 8716032,
-            "@momentary" : false,
-            "@enabled" : true
-          }
-        ],
-        "@fsExp" : [
-          {
-            "@group" : "block1",
-            "@label" : "Volume Pedal",
-            "@dsp" : 0,
-            "@type" : 1,
-            "@ledcolor" : 65408,
-            "@momentary" : false,
-            "@enabled" : true
-          }
-        ],
-        "@fs4" : [
-          {
-            "@group" : "block6",
-            "@label" : "SV Beast Brt",
-            "@dsp" : 0,
-            "@type" : 1,
-            "@customcolor" : 1,
-            "@ledcolor" : 16711683,
-            "@momentary" : false,
-            "@enabled" : true
-          }
-        ],
-        "@fs11" : [
-          {
-            "@customlabel" : "GRITZ!",
-            "@group" : "block5",
-            "@dsp" : 0,
-            "@label" : "Vermin Dist",
-            "@customcolor" : 2,
-            "@type" : 1,
-            "@ledcolor" : 525824,
-            "@momentary" : false,
-            "@enabled" : false
+      "footswitch" : {
+        "dsp1" : {
+          "block1" : {
+            "@fs_momentary" : false,
+            "@fs_customcolor" : 6,
+            "@fs_index" : 2,
+            "@fs_enabled" : false,
+            "@fs_ledcolor" : 67840,
+            "@fs_customlabel" : "DECAPITATE!",
+            "@fs_label" : "Elephant Man"
           },
-          {
-            "@customlabel" : "GRITZ!",
-            "@group" : "block4",
-            "@dsp" : 0,
-            "@label" : "Minotaur",
-            "@customcolor" : 2,
-            "@type" : 1,
-            "@ledcolor" : 13676288,
-            "@momentary" : false,
-            "@enabled" : true
-          }
-        ],
-        "@fs5" : [
-          {
-            "@group" : "block0",
-            "@label" : "Looper",
-            "@dsp" : 0,
-            "@type" : 1,
-            "@ledcolor" : 462860,
-            "@momentary" : false,
-            "@enabled" : false
-          }
-        ],
-        "@fs2" : [
-          {
-            "@customlabel" : "DECAPITATE!",
-            "@group" : "block1",
-            "@dsp" : 1,
-            "@label" : "Elephant Man",
-            "@customcolor" : 6,
-            "@type" : 1,
-            "@ledcolor" : 67840,
-            "@momentary" : false,
-            "@enabled" : false
+          "block0" : {
+            "@fs_momentary" : false,
+            "@fs_customcolor" : 6,
+            "@fs_index" : 2,
+            "@fs_enabled" : false,
+            "@fs_ledcolor" : 525824,
+            "@fs_customlabel" : "DECAPITATE!",
+            "@fs_label" : "Industrial Fuzz"
           },
-          {
-            "@customlabel" : "DECAPITATE!",
-            "@group" : "block0",
-            "@dsp" : 1,
-            "@label" : "Industrial Fuzz",
-            "@customcolor" : 6,
-            "@type" : 1,
-            "@ledcolor" : 525824,
-            "@momentary" : false,
-            "@enabled" : false
+          "block2" : {
+            "@fs_label" : "Particle Verb",
+            "@fs_enabled" : false,
+            "@fs_index" : 8,
+            "@fs_customlabel" : "Dominus Verb",
+            "@fs_ledcolor" : 1049600,
+            "@fs_momentary" : false
           }
-        ],
-        "@fs8" : [
-          {
-            "@customlabel" : "Dominus Verb",
-            "@group" : "block2",
-            "@dsp" : 1,
-            "@label" : "Particle Verb",
-            "@type" : 1,
-            "@ledcolor" : 1049600,
-            "@momentary" : false,
-            "@enabled" : false
-          }
-        ],
-        "@fs9" : [
-          {
-            "@customlabel" : "Octaver",
-            "@group" : "block3",
-            "@dsp" : 0,
-            "@label" : "Pitch Wham",
-            "@type" : 1,
-            "@ledcolor" : 196619,
-            "@momentary" : false,
-            "@enabled" : false
-          }
-        ],
-        "@fs10" : [
-          {
-            "@customlabel" : "of CHORUS!",
-            "@group" : "block7",
-            "@dsp" : 0,
-            "@label" : "Chorus",
-            "@type" : 1,
-            "@ledcolor" : 13055,
-            "@momentary" : false,
-            "@enabled" : true
-          }
-        ]
-      },
-      "controllers" : {
-        "@expPedal2" : [
-          {
-            "@dsp" : 0,
-            "@min" : 0,
-            "@max" : 1,
-            "@group" : "block1",
-            "@param" : "Pedal"
-          }
-        ],
-        "@expPedal1" : [
-          {
-            "@dsp" : 0,
-            "@min" : 0,
-            "@max" : 1,
-            "@group" : "block3",
-            "@param" : "Pedal"
+        },
+        "dsp0" : {
+          "block0" : {
+            "@fs_label" : "Looper",
+            "@fs_enabled" : false,
+            "@fs_index" : 5,
+            "@fs_ledcolor" : 462860,
+            "@fs_momentary" : false
           },
-          {
-            "@dsp" : 1,
-            "@min" : 0,
-            "@max" : 1,
-            "@group" : "block1",
-            "@param" : "Feedback"
+          "block1" : {
+            "@fs_label" : "Volume Pedal",
+            "@fs_enabled" : true,
+            "@fs_index" : 13,
+            "@fs_ledcolor" : 65408,
+            "@fs_momentary" : false
           },
-          {
-            "@dsp" : 1,
-            "@min" : 19,
-            "@max" : 1,
-            "@group" : "block1",
-            "@param" : "SyncSelect1"
+          "block2" : {
+            "@fs_label" : "Deluxe Comp",
+            "@fs_enabled" : true,
+            "@fs_index" : 3,
+            "@fs_ledcolor" : 8716032,
+            "@fs_momentary" : false
+          },
+          "block3" : {
+            "@fs_label" : "Pitch Wham",
+            "@fs_enabled" : false,
+            "@fs_index" : 9,
+            "@fs_customlabel" : "Octaver",
+            "@fs_ledcolor" : 196619,
+            "@fs_momentary" : false
+          },
+          "block4" : {
+            "@fs_momentary" : false,
+            "@fs_customcolor" : 2,
+            "@fs_index" : 11,
+            "@fs_enabled" : true,
+            "@fs_ledcolor" : 13676288,
+            "@fs_customlabel" : "GRITZ!",
+            "@fs_label" : "Minotaur"
+          },
+          "block5" : {
+            "@fs_momentary" : false,
+            "@fs_customcolor" : 2,
+            "@fs_index" : 11,
+            "@fs_enabled" : false,
+            "@fs_ledcolor" : 525824,
+            "@fs_customlabel" : "GRITZ!",
+            "@fs_label" : "Vermin Dist"
+          },
+          "block6" : {
+            "@fs_momentary" : false,
+            "@fs_label" : "SV Beast Brt",
+            "@fs_enabled" : true,
+            "@fs_index" : 4,
+            "@fs_ledcolor" : 16711683,
+            "@fs_customcolor" : 1
+          },
+          "block7" : {
+            "@fs_label" : "Chorus",
+            "@fs_enabled" : true,
+            "@fs_index" : 10,
+            "@fs_customlabel" : "of CHORUS!",
+            "@fs_ledcolor" : 13055,
+            "@fs_momentary" : false
           }
-        ]
+        }
       },
       "dsp0" : {
         "join" : {
@@ -363,99 +384,40 @@
           "@enabled" : true
         }
       },
-      "dsp1" : {
-        "block0" : {
-          "@model" : "HD2_DistIndustrialFuzz",
-          "@position" : 4,
-          "Compress" : 0.5699999,
-          "Drive" : 1,
-          "@enabled" : false,
-          "@path" : 0,
-          "@type" : 0,
-          "Stability" : 0.73,
-          "Oscillator" : false,
-          "Gate" : 0.52,
-          "Level" : 0.77,
-          "@stereo" : false
+      "controller" : {
+        "dsp1" : {
+          "block1" : {
+            "SyncSelect1" : {
+              "@min" : 19,
+              "@controller" : 1,
+              "@max" : 1
+            },
+            "Feedback" : {
+              "@min" : 0,
+              "@controller" : 1,
+              "@max" : 1
+            }
+          }
         },
-        "block1" : {
-          "@model" : "HD2_DelayElephantMan",
-          "@position" : 5,
-          "Feedback" : 0.36,
-          "SyncSelect1" : 15,
-          "TempoSync1" : true,
-          "Scale" : 1,
-          "@enabled" : false,
-          "@path" : 0,
-          "@trails" : false,
-          "@type" : 7,
-          "Headroom" : 0,
-          "Mix" : 0.5,
-          "Noise" : 0.1,
-          "Time" : 0.375,
-          "Level" : 0,
-          "@stereo" : false,
-          "Mode" : false,
-          "Spread" : 0.272,
-          "Depth" : 0.28
-        },
-        "block2" : {
-          "@model" : "HD2_ReverbParticle",
-          "@path" : 0,
-          "@type" : 7,
-          "Dwell" : 0.23,
-          "Condition" : 0,
-          "@position" : 6,
-          "@trails" : false,
-          "Level" : 3.2,
-          "@enabled" : false,
-          "Mix" : 0.52
-        },
-        "inputA" : {
-          "@input" : 0,
-          "@model" : "HD2_AppDSPFlow1Input",
-          "noiseGate" : false,
-          "decay" : 0.5,
-          "threshold" : -48
-        },
-        "inputB" : {
-          "@input" : 0,
-          "@model" : "HD2_AppDSPFlow2Input",
-          "noiseGate" : false,
-          "decay" : 0.5,
-          "threshold" : -48
-        },
-        "join" : {
-          "@model" : "HD2_AppDSPFlowJoin",
-          "B Pan" : 0.5,
-          "B Level" : 0,
-          "A Level" : 0,
-          "A Pan" : 0.5,
-          "@position" : 8,
-          "Level" : 0,
-          "@enabled" : true,
-          "B Polarity" : false
-        },
-        "split" : {
-          "@position" : 0,
-          "@model" : "HD2_AppDSPFlowSplitY",
-          "@enabled" : true
-        },
-        "outputB" : {
-          "@model" : "HD2_AppDSPFlowOutput",
-          "@output" : 1,
-          "pan" : 0.5,
-          "gain" : 0
-        },
-        "outputA" : {
-          "@model" : "HD2_AppDSPFlowOutput",
-          "@output" : 1,
-          "pan" : 0.5,
-          "gain" : 0
+        "dsp0" : {
+          "block1" : {
+            "Pedal" : {
+              "@min" : 0,
+              "@controller" : 2,
+              "@max" : 1
+            }
+          },
+          "block3" : {
+            "Pedal" : {
+              "@min" : 0,
+              "@controller" : 1,
+              "@max" : 1
+            }
+          }
         }
       }
     },
-    "device_version" : 17171744
+    "device_version" : 17825824
   },
   "schema" : "L6Preset"
 }

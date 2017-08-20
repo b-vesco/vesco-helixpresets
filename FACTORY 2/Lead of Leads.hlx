@@ -5,8 +5,8 @@
       "name" : "Lead of Leads",
       "application" : "Helix",
       "build_sha" : "9532b30",
-      "modifieddate" : 1459029854,
-      "appversion" : 17039360
+      "modifieddate" : 1459289963,
+      "appversion" : 17825792
     },
     "device" : 2162689,
     "tone" : {
@@ -26,71 +26,53 @@
         "@tempo" : 125.8,
         "@topology1" : "A",
         "@variax_magmode" : true,
-        "@cursor_position" : 0,
+        "@cursor_position" : 3,
         "@variax_lockctrls" : 0,
         "@variax_str3tuning" : 0,
         "@variax_str5tuning" : 0,
         "@variax_toneknob" : -0.1,
         "@cursor_group" : "block4"
       },
-      "footswitches" : {
-        "@fs5" : [
-          {
-            "@group" : "block0",
-            "@label" : "Looper",
-            "@dsp" : 0,
-            "@type" : 1,
-            "@ledcolor" : 462860,
-            "@momentary" : false,
-            "@enabled" : false
+      "footswitch" : {
+        "dsp0" : {
+          "block0" : {
+            "@fs_label" : "Looper",
+            "@fs_enabled" : false,
+            "@fs_index" : 5,
+            "@fs_ledcolor" : 462860,
+            "@fs_momentary" : false
+          },
+          "block1" : {
+            "@fs_momentary" : false,
+            "@fs_customcolor" : 7,
+            "@fs_index" : 8,
+            "@fs_enabled" : true,
+            "@fs_ledcolor" : 3277055,
+            "@fs_customlabel" : "Octave +2",
+            "@fs_label" : "Simple Pitch"
+          },
+          "block5" : {
+            "@fs_label" : "Plate",
+            "@fs_enabled" : false,
+            "@fs_index" : 11,
+            "@fs_ledcolor" : 1049600,
+            "@fs_momentary" : false
+          },
+          "block2" : {
+            "@fs_label" : "LA Studio Comp",
+            "@fs_enabled" : true,
+            "@fs_index" : 3,
+            "@fs_ledcolor" : 8716032,
+            "@fs_momentary" : false
+          },
+          "block3" : {
+            "@fs_label" : "Teemah!",
+            "@fs_enabled" : true,
+            "@fs_index" : 10,
+            "@fs_ledcolor" : 13676288,
+            "@fs_momentary" : false
           }
-        ],
-        "@fs3" : [
-          {
-            "@group" : "block2",
-            "@label" : "LA Studio Comp",
-            "@dsp" : 0,
-            "@type" : 1,
-            "@ledcolor" : 8716032,
-            "@momentary" : false,
-            "@enabled" : true
-          }
-        ],
-        "@fs11" : [
-          {
-            "@group" : "block5",
-            "@label" : "Plate",
-            "@dsp" : 0,
-            "@type" : 1,
-            "@ledcolor" : 1049600,
-            "@momentary" : false,
-            "@enabled" : false
-          }
-        ],
-        "@fs8" : [
-          {
-            "@customlabel" : "Octave +2",
-            "@group" : "block1",
-            "@dsp" : 0,
-            "@label" : "Simple Pitch",
-            "@customcolor" : 7,
-            "@type" : 1,
-            "@ledcolor" : 3277055,
-            "@momentary" : false,
-            "@enabled" : true
-          }
-        ],
-        "@fs10" : [
-          {
-            "@group" : "block3",
-            "@label" : "Teemah!",
-            "@dsp" : 0,
-            "@type" : 1,
-            "@ledcolor" : 13676288,
-            "@momentary" : false,
-            "@enabled" : true
-          }
-        ]
+        }
       },
       "dsp0" : {
         "join" : {
@@ -282,7 +264,7 @@
         }
       }
     },
-    "device_version" : 17171744
+    "device_version" : 17825824
   },
   "schema" : "L6Preset"
 }
