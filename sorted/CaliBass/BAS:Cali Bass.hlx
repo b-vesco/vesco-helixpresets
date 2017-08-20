@@ -2,11 +2,11 @@
   "version" : 6,
   "data" : {
     "meta" : {
-      "name" : "BAS:TBTV Bass",
+      "name" : "BAS:Cali Bass",
       "application" : "Helix",
       "build_sha" : "87b59c5",
-      "modifieddate" : 1503182407,
-      "appversion" : 35651584
+      "modifieddate" : 1490931664,
+      "appversion" : 34668544
     },
     "device" : 2162689,
     "tone" : {
@@ -54,7 +54,7 @@
           "@position" : 8,
           "Level" : 0,
           "@enabled" : true,
-          "B Polarity" : false
+          "B Polarity" : true
         },
         "outputA" : {
           "@model" : "HD2_AppDSPFlowOutput",
@@ -99,42 +99,38 @@
           "B Level" : 0,
           "A Level" : 0,
           "A Pan" : 0.5,
-          "@position" : 2,
+          "@position" : 8,
           "Level" : 0,
           "@enabled" : true,
           "B Polarity" : false
         },
         "block3" : {
-          "Bias" : 0.74,
-          "@model" : "HD2_AmpSVBeastBrt",
-          "Master" : 1,
+          "@model" : "HD2_AmpCaliBass",
+          "Master" : 0.6,
           "@position" : 2,
-          "Drive" : 0.5,
-          "Treble" : 0.75,
-          "ChVol" : 0.85,
+          "Drive" : 0.3099999,
+          "Voice" : 1,
+          "ChVol" : 0.9200001,
           "@enabled" : true,
-          "Ripple" : 0.5,
+          "HighMid" : 0.72,
           "@path" : 0,
           "@type" : 3,
-          "Bass" : 0.41,
-          "BiasX" : 0.5,
-          "Hum" : 0.5,
-          "Mid" : 0.79,
+          "Bass" : 0.49,
+          "Mid" : 0.53,
           "@bypassvolume" : 1,
           "@cab" : "cab0",
-          "Sag" : 0.5,
-          "MidFreq" : 2
+          "Sag" : 0.3,
+          "Treble" : 0.86
         },
         "block2" : {
-          "@model" : "HD2_Looper",
-          "Overdub" : 0,
-          "Playback" : 0,
+          "@model" : "HD2_DistMinotaur",
           "@path" : 0,
-          "@stereo" : true,
-          "@type" : 6,
-          "highCut" : 20000,
-          "lowCut" : 20,
-          "@position" : 7,
+          "@stereo" : false,
+          "@type" : 0,
+          "Gain" : 0.51,
+          "@position" : 1,
+          "Level" : 0.6,
+          "Tone" : 0.52,
           "@enabled" : false
         },
         "inputB" : {
@@ -163,63 +159,50 @@
         "inputA" : {
           "@input" : 1,
           "@model" : "HD2_AppDSPFlow1Input",
-          "noiseGate" : true,
-          "decay" : 0.1159999,
-          "threshold" : -29.5
+          "noiseGate" : false,
+          "decay" : 0.5,
+          "threshold" : -48
         },
         "split" : {
           "BalanceA" : 0.5,
           "@model" : "HD2_AppDSPFlowSplitY",
           "@enabled" : true,
           "bypass" : false,
-          "@position" : 1,
+          "@position" : 0,
           "BalanceB" : 0.5
         },
         "block0" : {
-          "@model" : "HD2_DistValveDriver",
-          "Treble" : 0.38,
-          "Bass" : 0.7,
-          "@path" : 1,
-          "@stereo" : false,
-          "@type" : 0,
-          "Gain" : 0.3,
-          "@position" : 1,
-          "Level" : 0.6600001,
-          "@enabled" : true
-        },
-        "block5" : {
-          "@model" : "HD2_EQSimple3Band",
+          "@model" : "HD2_Looper",
+          "Overdub" : 0,
+          "Playback" : 0,
           "@path" : 0,
           "@stereo" : false,
-          "@type" : 0,
-          "HighGain" : 0,
-          "LowGain" : 3,
-          "@position" : 4,
-          "Level" : 0,
-          "MidFreq" : 600,
-          "@enabled" : true,
-          "MidGain" : 0
+          "@type" : 6,
+          "highCut" : 20000,
+          "lowCut" : 20,
+          "@position" : 7,
+          "@enabled" : false
         },
         "cab0" : {
-          "@model" : "HD2_Cab8x10SVBeast",
-          "LowCut" : 20,
-          "@mic" : 12,
+          "@model" : "HD2_Cab6x10CaliPower",
+          "LowCut" : 19.9,
+          "@mic" : 14,
           "EarlyReflections" : 0,
           "Distance" : 1,
-          "High Cut" : 20000,
+          "Level" : 0,
           "@enabled" : true,
-          "Level" : 0
+          "HighCut" : 20100
         },
         "outputA" : {
           "@model" : "HD2_AppDSPFlowOutput",
           "@output" : 1,
           "pan" : 0.5,
-          "gain" : -3
+          "gain" : 0
         },
         "block4" : {
           "@model" : "HD2_CompressorLAStudioComp",
           "@position" : 3,
-          "@enabled" : true,
+          "@enabled" : false,
           "Emphasis" : 0.09000003,
           "@path" : 0,
           "@type" : 0,
@@ -245,9 +228,9 @@
         "@variax_str2tuning" : 0,
         "@variax_str4tuning" : 0,
         "@variax_str6tuning" : 0,
-        "@variax_model" : 0,
+        "@variax_model" : 10,
         "@model" : "@global_params",
-        "@topology0" : "SABJ",
+        "@topology0" : "A",
         "@cursor_dsp" : 0,
         "@cursor_path" : 0,
         "@guitarinputZ" : 0,
@@ -271,17 +254,17 @@
       "footswitch" : {
         "dsp0" : {
           "block0" : {
-            "@fs_label" : "Valve Driver",
-            "@fs_enabled" : true,
-            "@fs_index" : 8,
-            "@fs_ledcolor" : 13676288,
+            "@fs_label" : "Looper",
+            "@fs_enabled" : false,
+            "@fs_index" : 5,
+            "@fs_ledcolor" : 462860,
             "@fs_momentary" : false
           },
           "block4" : {
             "@fs_label" : "LA Studio Comp",
-            "@fs_enabled" : true,
-            "@fs_index" : 9,
-            "@fs_ledcolor" : 8716032,
+            "@fs_enabled" : false,
+            "@fs_index" : 8,
+            "@fs_ledcolor" : 527360,
             "@fs_momentary" : false
           },
           "block1" : {
@@ -291,18 +274,11 @@
             "@fs_ledcolor" : 65408,
             "@fs_momentary" : false
           },
-          "block5" : {
-            "@fs_label" : "Simple EQ",
-            "@fs_enabled" : true,
-            "@fs_index" : 10,
-            "@fs_ledcolor" : 8716032,
-            "@fs_momentary" : false
-          },
           "block2" : {
-            "@fs_label" : "Looper",
+            "@fs_label" : "Minotaur",
             "@fs_enabled" : false,
-            "@fs_index" : 5,
-            "@fs_ledcolor" : 462860,
+            "@fs_index" : 9,
+            "@fs_ledcolor" : 525824,
             "@fs_momentary" : false
           }
         }
@@ -326,10 +302,9 @@
         },
         "blocks" : {
           "dsp0" : {
-            "block0" : true,
-            "block4" : true,
+            "block0" : false,
+            "block4" : false,
             "block1" : true,
-            "block5" : true,
             "block2" : false,
             "block3" : true
           }
@@ -340,7 +315,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 34668576
+    "device_version" : 34734112
   },
   "schema" : "L6Preset"
 }

@@ -4,9 +4,9 @@
     "meta" : {
       "name" : "Plug In Baby",
       "application" : "Helix",
-      "build_sha" : "87b59c5",
-      "modifieddate" : 1503182385,
-      "appversion" : 35651584
+      "build_sha" : "b37ee00",
+      "modifieddate" : 1490931665,
+      "appversion" : 34668544
     },
     "device" : 2162689,
     "tone" : {
@@ -225,13 +225,6 @@
       },
       "controller" : {
         "dsp0" : {
-          "inputA" : {
-            "noiseGate" : {
-              "@min" : false,
-              "@controller" : 5,
-              "@max" : true
-            }
-          },
           "block3" : {
             "Pedal" : {
               "@min" : 0,
@@ -517,12 +510,6 @@
       "snapshot0" : {
         "controllers" : {
           "dsp0" : {
-            "inputA" : {
-              "noiseGate" : {
-                "@fs_enabled" : false,
-                "@value" : false
-              }
-            },
             "block3" : {
               "Pedal" : {
                 "@fs_enabled" : false,
@@ -565,7 +552,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 34668576
+    "device_version" : 34734112
   },
   "schema" : "L6Preset"
 }
