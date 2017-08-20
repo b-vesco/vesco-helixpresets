@@ -2,11 +2,11 @@
   "version" : 6,
   "data" : {
     "meta" : {
-      "name" : "BAS:Cali Bass",
+      "name" : "BAS:Treasure",
       "application" : "Helix",
       "build_sha" : "87b59c5",
-      "modifieddate" : 1503182381,
-      "appversion" : 35651584
+      "modifieddate" : 1490931682,
+      "appversion" : 34668544
     },
     "device" : 2162689,
     "tone" : {
@@ -54,7 +54,7 @@
           "@position" : 8,
           "Level" : 0,
           "@enabled" : true,
-          "B Polarity" : true
+          "B Polarity" : false
         },
         "outputA" : {
           "@model" : "HD2_AppDSPFlowOutput",
@@ -105,33 +105,36 @@
           "B Polarity" : false
         },
         "block3" : {
-          "@model" : "HD2_AmpCaliBass",
-          "Master" : 0.6,
+          "Hi Pass" : 10,
+          "@model" : "HD2_PreampVintagePre",
+          "Output" : 0.65,
           "@position" : 2,
-          "Drive" : 0.3099999,
-          "Voice" : 1,
-          "ChVol" : 0.9200001,
           "@enabled" : true,
-          "HighMid" : 0.72,
           "@path" : 0,
-          "@type" : 3,
-          "Bass" : 0.49,
-          "Mid" : 0.53,
+          "@type" : 1,
+          "Polarity" : false,
+          "Low Pass" : 20000,
           "@bypassvolume" : 1,
-          "@cab" : "cab0",
-          "Sag" : 0.3,
-          "Treble" : 0.86
+          "MicLine" : false,
+          "Input" : 0.45
         },
         "block2" : {
-          "@model" : "HD2_DistMinotaur",
-          "@path" : 0,
-          "@stereo" : false,
-          "@type" : 0,
-          "Gain" : 0.51,
+          "WaveShape" : 2,
+          "@model" : "HD2_Chorus",
           "@position" : 1,
-          "Level" : 0.6,
-          "Tone" : 0.52,
-          "@enabled" : false
+          "SyncSelect1" : 6,
+          "TempoSync1" : false,
+          "Speed" : 0.25,
+          "@enabled" : true,
+          "@path" : 0,
+          "@type" : 0,
+          "Mix" : 0.5,
+          "Tone" : 0.5,
+          "Level" : 0,
+          "@stereo" : true,
+          "Spread" : 1,
+          "Predelay" : 0.3199999,
+          "Depth" : 0.5699999
         },
         "inputB" : {
           "@input" : 0,
@@ -176,17 +179,31 @@
           "Overdub" : 0,
           "Playback" : 0,
           "@path" : 0,
-          "@stereo" : false,
+          "@stereo" : true,
           "@type" : 6,
           "highCut" : 20000,
           "lowCut" : 20,
           "@position" : 7,
           "@enabled" : false
         },
+        "block5" : {
+          "@model" : "HD2_CompressorLAStudioComp",
+          "@position" : 4,
+          "@enabled" : true,
+          "Emphasis" : 0.09000003,
+          "@path" : 0,
+          "@type" : 0,
+          "Mix" : 1,
+          "PeakReduction" : 0.78,
+          "Type" : false,
+          "Level" : 0,
+          "@stereo" : true,
+          "Gain" : 0.62
+        },
         "cab0" : {
-          "@model" : "HD2_Cab6x10CaliPower",
+          "@model" : "HD2_Cab1x15TucknGo",
           "LowCut" : 19.9,
-          "@mic" : 14,
+          "@mic" : 15,
           "EarlyReflections" : 0,
           "Distance" : 1,
           "Level" : 0,
@@ -200,18 +217,25 @@
           "gain" : 0
         },
         "block4" : {
-          "@model" : "HD2_CompressorLAStudioComp",
+          "Bias" : 0.6600001,
+          "@model" : "HD2_AmpTucknGo",
+          "Master" : 0.5,
           "@position" : 3,
-          "@enabled" : false,
-          "Emphasis" : 0.09000003,
+          "Drive" : 0.7,
+          "ChVol" : 0.8,
+          "@enabled" : true,
+          "HighMid" : 0.85,
+          "Ripple" : 0.5,
           "@path" : 0,
-          "@type" : 0,
-          "Mix" : 1,
-          "PeakReduction" : 0.78,
-          "Type" : false,
-          "Level" : 0,
-          "@stereo" : false,
-          "Gain" : 0.62
+          "@type" : 3,
+          "LowMid" : 0.65,
+          "Bass" : 0.6700001,
+          "BiasX" : 0.5,
+          "Hum" : 0.5,
+          "@bypassvolume" : 1,
+          "@cab" : "cab0",
+          "Sag" : 0.5,
+          "Treble" : 1
         }
       },
       "snapshot2" : {
@@ -228,7 +252,7 @@
         "@variax_str2tuning" : 0,
         "@variax_str4tuning" : 0,
         "@variax_str6tuning" : 0,
-        "@variax_model" : 10,
+        "@variax_model" : 0,
         "@model" : "@global_params",
         "@topology0" : "A",
         "@cursor_dsp" : 0,
@@ -260,13 +284,6 @@
             "@fs_ledcolor" : 462860,
             "@fs_momentary" : false
           },
-          "block4" : {
-            "@fs_label" : "LA Studio Comp",
-            "@fs_enabled" : false,
-            "@fs_index" : 8,
-            "@fs_ledcolor" : 527360,
-            "@fs_momentary" : false
-          },
           "block1" : {
             "@fs_label" : "Volume Pedal",
             "@fs_enabled" : true,
@@ -274,11 +291,25 @@
             "@fs_ledcolor" : 65408,
             "@fs_momentary" : false
           },
+          "block5" : {
+            "@fs_label" : "LA Studio Comp",
+            "@fs_enabled" : true,
+            "@fs_index" : 8,
+            "@fs_ledcolor" : 8716032,
+            "@fs_momentary" : false
+          },
           "block2" : {
-            "@fs_label" : "Minotaur",
-            "@fs_enabled" : false,
+            "@fs_label" : "Chorus",
+            "@fs_enabled" : true,
             "@fs_index" : 9,
-            "@fs_ledcolor" : 525824,
+            "@fs_ledcolor" : 13055,
+            "@fs_momentary" : false
+          },
+          "block3" : {
+            "@fs_label" : "Studio Tube Pre",
+            "@fs_enabled" : true,
+            "@fs_index" : 10,
+            "@fs_ledcolor" : 16711683,
             "@fs_momentary" : false
           }
         }
@@ -303,9 +334,10 @@
         "blocks" : {
           "dsp0" : {
             "block0" : false,
-            "block4" : false,
+            "block4" : true,
             "block1" : true,
-            "block2" : false,
+            "block5" : true,
+            "block2" : true,
             "block3" : true
           }
         },
@@ -315,7 +347,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 34668576
+    "device_version" : 34734112
   },
   "schema" : "L6Preset"
 }

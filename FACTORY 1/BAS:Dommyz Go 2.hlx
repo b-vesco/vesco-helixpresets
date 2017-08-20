@@ -4,9 +4,9 @@
     "meta" : {
       "name" : "BAS:Dommyz Go 2",
       "application" : "Helix",
-      "build_sha" : "87b59c5",
-      "modifieddate" : 1503182407,
-      "appversion" : 35651584
+      "build_sha" : "b37ee00",
+      "modifieddate" : 1490931682,
+      "appversion" : 34668544
     },
     "device" : 2162689,
     "tone" : {
@@ -40,7 +40,7 @@
         "block1" : {
           "@model" : "HD2_DelayElephantMan",
           "@position" : 5,
-          "Feedback" : 0.36,
+          "Feedback" : 0.8599999,
           "SyncSelect1" : 15,
           "TempoSync1" : true,
           "Scale" : 1,
@@ -123,27 +123,11 @@
         "@tempo" : 120
       },
       "controller" : {
-        "dsp1" : {
-          "block1" : {
-            "Time" : {
-              "@min" : 0,
-              "@controller" : 1,
-              "@max" : 1
-            }
-          }
-        },
         "dsp0" : {
           "block1" : {
             "Pedal" : {
               "@min" : 0,
               "@controller" : 2,
-              "@max" : 1
-            }
-          },
-          "block3" : {
-            "Pedal" : {
-              "@min" : 0,
-              "@controller" : 1,
               "@max" : 1
             }
           }
@@ -168,17 +152,20 @@
           "B Polarity" : false
         },
         "block3" : {
-          "@model" : "HD2_PitchPitchWham",
-          "Heel" : -12,
-          "@path" : 0,
-          "@stereo" : false,
-          "@type" : 0,
-          "Pedal" : 0,
+          "@model" : "HD2_PitchSimplePitch",
+          "Cents1" : 0,
           "@position" : 2,
-          "Level" : 0,
-          "Mix" : 0.5,
+          "Time1" : 0,
           "@enabled" : false,
-          "Toe" : 12
+          "@path" : 0,
+          "@type" : 0,
+          "Mix" : 0.5,
+          "LevelVoice1" : 1,
+          "Interval1" : -12,
+          "Level" : 0,
+          "@stereo" : false,
+          "PanDry" : 0.5,
+          "PanVoice1" : 0.125
         },
         "block2" : {
           "@model" : "HD2_CompressorDeluxeComp",
@@ -412,10 +399,10 @@
             "@fs_momentary" : false
           },
           "block3" : {
-            "@fs_label" : "Pitch Wham",
+            "@fs_label" : "Simple Pitch",
             "@fs_enabled" : false,
             "@fs_index" : 9,
-            "@fs_customlabel" : "Octaver",
+            "@fs_customlabel" : "Octave Down",
             "@fs_ledcolor" : 196619,
             "@fs_momentary" : false
           },
@@ -463,25 +450,11 @@
       },
       "snapshot0" : {
         "controllers" : {
-          "dsp1" : {
-            "block1" : {
-              "Time" : {
-                "@fs_enabled" : false,
-                "@value" : 0.375
-              }
-            }
-          },
           "dsp0" : {
             "block1" : {
               "Pedal" : {
                 "@fs_enabled" : false,
                 "@value" : 1
-              }
-            },
-            "block3" : {
-              "Pedal" : {
-                "@fs_enabled" : false,
-                "@value" : 0
               }
             }
           }
@@ -509,7 +482,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 34668576
+    "device_version" : 34734112
   },
   "schema" : "L6Preset"
 }

@@ -2,11 +2,11 @@
   "version" : 6,
   "data" : {
     "meta" : {
-      "name" : "BAS:SV Beast Nrm",
+      "name" : "BAS:SV Beast Brt",
       "application" : "Helix",
       "build_sha" : "87b59c5",
-      "modifieddate" : 1503182380,
-      "appversion" : 35651584
+      "modifieddate" : 1490931664,
+      "appversion" : 34668544
     },
     "device" : 2162689,
     "tone" : {
@@ -105,19 +105,17 @@
           "B Polarity" : false
         },
         "block3" : {
-          "@model" : "HD2_DistKWB",
-          "@position" : 2,
-          "PullDiode" : 2,
-          "@enabled" : false,
+          "@model" : "HD2_DistTeemah",
+          "Treble" : 0.5,
+          "Bass" : 0.6900001,
           "@path" : 0,
-          "@type" : 0,
-          "Asym" : 0.51,
-          "Bass" : 0,
-          "Level" : 0.6919999,
           "@stereo" : false,
-          "Gain" : 0.6700001,
-          "Treble" : 6.8,
-          "PushDiode" : 1
+          "@type" : 0,
+          "Clipping" : 2,
+          "Gain" : 0.1900001,
+          "@position" : 2,
+          "Level" : 0.65,
+          "@enabled" : false
         },
         "block2" : {
           "@model" : "HD2_CompressorLAStudioComp",
@@ -186,7 +184,7 @@
         "cab0" : {
           "@model" : "HD2_Cab8x10SVBeast",
           "LowCut" : 19.9,
-          "@mic" : 13,
+          "@mic" : 14,
           "EarlyReflections" : 0,
           "Distance" : 1,
           "High Cut" : 20100,
@@ -200,13 +198,13 @@
           "gain" : 0
         },
         "block4" : {
-          "Bias" : 0.75,
-          "@model" : "HD2_AmpSVBeastNrm",
-          "Master" : 0.85,
+          "Bias" : 0.74,
+          "@model" : "HD2_AmpSVBeastBrt",
+          "Master" : 1,
           "@position" : 3,
-          "Drive" : 0.5,
-          "Treble" : 0.89,
-          "ChVol" : 0.86,
+          "Drive" : 0.5799999,
+          "Treble" : 0.85,
+          "ChVol" : 0.8,
           "@enabled" : true,
           "Ripple" : 0.5,
           "@path" : 0,
@@ -214,11 +212,11 @@
           "Bass" : 0.52,
           "BiasX" : 0.5,
           "Hum" : 0.5,
-          "Mid" : 0.64,
+          "Mid" : 0.79,
           "@bypassvolume" : 1,
           "@cab" : "cab0",
           "Sag" : 0.5,
-          "MidFreq" : 1
+          "MidFreq" : 2
         }
       },
       "snapshot2" : {
@@ -282,7 +280,7 @@
             "@fs_momentary" : false
           },
           "block3" : {
-            "@fs_label" : "KWB",
+            "@fs_label" : "Teemah!",
             "@fs_enabled" : false,
             "@fs_index" : 9,
             "@fs_ledcolor" : 525824,
@@ -322,7 +320,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 34668576
+    "device_version" : 34734112
   },
   "schema" : "L6Preset"
 }

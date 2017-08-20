@@ -2,11 +2,11 @@
   "version" : 6,
   "data" : {
     "meta" : {
-      "name" : "BAS:Cali 400 Ch1",
+      "name" : "BAS:Cougar 800",
       "application" : "Helix",
       "build_sha" : "87b59c5",
-      "modifieddate" : 1503182381,
-      "appversion" : 35651584
+      "modifieddate" : 1490931664,
+      "appversion" : 34668544
     },
     "device" : 2162689,
     "tone" : {
@@ -105,14 +105,14 @@
           "B Polarity" : false
         },
         "block3" : {
-          "@model" : "HD2_DistScream808",
+          "@model" : "HD2_DistMinotaur",
           "@path" : 0,
           "@stereo" : false,
           "@type" : 0,
-          "Gain" : 0.52,
+          "Gain" : 0.42,
           "@position" : 2,
-          "Level" : 0.6700001,
-          "Tone" : 0.65,
+          "Level" : 0.6,
+          "Tone" : 0.53,
           "@enabled" : false
         },
         "block2" : {
@@ -180,9 +180,9 @@
           "@enabled" : false
         },
         "cab0" : {
-          "@model" : "HD2_Cab2x15Brute",
+          "@model" : "HD2_Cab4x10Rhino",
           "LowCut" : 19.9,
-          "@mic" : 12,
+          "@mic" : 10,
           "EarlyReflections" : 0,
           "Distance" : 1,
           "Level" : 0,
@@ -196,25 +196,22 @@
           "gain" : 0
         },
         "block4" : {
-          "Bias" : 0.55,
-          "@model" : "HD2_AmpCali400Ch1",
-          "Master" : 0.6,
+          "@model" : "HD2_AmpGCougar800",
+          "Master" : 0.9,
           "@position" : 3,
-          "Drive" : 0.55,
-          "ChVol" : 0.8,
+          "Boost" : 0.5,
+          "Contour" : false,
+          "Drive" : 0.4,
+          "ChVol" : 0.8099999,
           "@enabled" : true,
-          "HighMid" : 0.5,
-          "Ripple" : 0.5,
+          "HighMid" : 0.79,
           "@path" : 0,
           "@type" : 3,
-          "Bass" : 0.5,
-          "BiasX" : 0.5,
-          "Hum" : 0.5,
-          "Mid" : 0.5599999,
+          "LowMid" : 0.39,
+          "Bass" : 0.78,
           "@bypassvolume" : 1,
           "@cab" : "cab0",
-          "Sag" : 0.5,
-          "Treble" : 0.4
+          "Treble" : 0.79
         }
       },
       "snapshot2" : {
@@ -278,7 +275,7 @@
             "@fs_momentary" : false
           },
           "block3" : {
-            "@fs_label" : "Scream 808",
+            "@fs_label" : "Minotaur",
             "@fs_enabled" : false,
             "@fs_index" : 9,
             "@fs_ledcolor" : 525824,
@@ -318,7 +315,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 34668576
+    "device_version" : 34734112
   },
   "schema" : "L6Preset"
 }
