@@ -1,0 +1,591 @@
+{
+  "version" : 6,
+  "data" : {
+    "meta" : {
+      "name" : "Stereo Mixer",
+      "application" : "Helix",
+      "build_sha" : "69d8fa6",
+      "modifieddate" : 1459029873,
+      "appversion" : 17039360
+    },
+    "device" : 2162689,
+    "tone" : {
+      "global" : {
+        "@variax_volumeknob" : -0.1,
+        "@pedalstate" : 2,
+        "@variax_customtuning" : true,
+        "@variax_str1tuning" : 0,
+        "@variax_str2tuning" : 0,
+        "@variax_str4tuning" : 0,
+        "@variax_str6tuning" : 0,
+        "@variax_model" : 10,
+        "@model" : "@global_params",
+        "@topology0" : "AB",
+        "@cursor_dsp" : 0,
+        "@cursor_path" : 0,
+        "@tempo" : 120,
+        "@topology1" : "AB",
+        "@variax_magmode" : true,
+        "@cursor_position" : 0,
+        "@variax_lockctrls" : 0,
+        "@variax_str3tuning" : 0,
+        "@variax_str5tuning" : 0,
+        "@variax_toneknob" : -0.1,
+        "@cursor_group" : "block4"
+      },
+      "footswitches" : {
+        "@fsExp" : [
+          {
+            "@group" : "block5",
+            "@label" : "Volume Pedal",
+            "@dsp" : 1,
+            "@type" : 1,
+            "@ledcolor" : 65408,
+            "@momentary" : false,
+            "@enabled" : true
+          },
+          {
+            "@group" : "block12",
+            "@label" : "Volume Pedal",
+            "@dsp" : 0,
+            "@type" : 1,
+            "@ledcolor" : 65408,
+            "@momentary" : false,
+            "@enabled" : true
+          },
+          {
+            "@group" : "block5",
+            "@label" : "Volume Pedal",
+            "@dsp" : 0,
+            "@type" : 1,
+            "@ledcolor" : 65408,
+            "@momentary" : false,
+            "@enabled" : true
+          },
+          {
+            "@group" : "block0",
+            "@label" : "Send 1",
+            "@dsp" : 0,
+            "@type" : 1,
+            "@ledcolor" : 65408,
+            "@momentary" : false,
+            "@enabled" : true
+          }
+        ],
+        "@fs11" : [
+          {
+            "@customlabel" : "MUTE KEYBOARDS",
+            "@group" : "block10",
+            "@dsp" : 1,
+            "@label" : "Gain",
+            "@type" : 1,
+            "@ledcolor" : 3334,
+            "@momentary" : false,
+            "@enabled" : false
+          }
+        ],
+        "@fs8" : [
+          {
+            "@customlabel" : "MUTE GUITAR",
+            "@group" : "block3",
+            "@dsp" : 0,
+            "@label" : "Gain",
+            "@type" : 1,
+            "@ledcolor" : 3334,
+            "@momentary" : false,
+            "@enabled" : false
+          }
+        ],
+        "@fs10" : [
+          {
+            "@customlabel" : "MUTE BASS",
+            "@group" : "block3",
+            "@dsp" : 1,
+            "@label" : "Gain",
+            "@type" : 1,
+            "@ledcolor" : 3334,
+            "@momentary" : false,
+            "@enabled" : false
+          }
+        ],
+        "@fs9" : [
+          {
+            "@customlabel" : "MUTE VOCALS",
+            "@group" : "block10",
+            "@dsp" : 0,
+            "@label" : "Gain",
+            "@type" : 1,
+            "@ledcolor" : 3334,
+            "@momentary" : false,
+            "@enabled" : false
+          }
+        ]
+      },
+      "controllers" : {
+        "@expPedal2" : [
+          {
+            "@dsp" : 0,
+            "@min" : 0,
+            "@max" : 1,
+            "@group" : "block12",
+            "@param" : "Pedal"
+          }
+        ],
+        "@expPedal1" : [
+          {
+            "@dsp" : 0,
+            "@min" : 0,
+            "@max" : 1,
+            "@group" : "block5",
+            "@param" : "Pedal"
+          }
+        ],
+        "@expPedal3" : [
+          {
+            "@dsp" : 1,
+            "@min" : 0,
+            "@max" : 1,
+            "@group" : "block5",
+            "@param" : "Pedal"
+          }
+        ]
+      },
+      "dsp0" : {
+        "block6" : {
+          "@model" : "HD2_SendMono2",
+          "Send" : 0,
+          "@path" : 0,
+          "@type" : 0,
+          "DryThru" : 0,
+          "@position" : 7,
+          "@enabled" : true
+        },
+        "inputB" : {
+          "@input" : 6,
+          "@model" : "HD2_AppDSPFlow2Input",
+          "noiseGate" : false,
+          "decay" : 0.5,
+          "threshold" : -48
+        },
+        "block1" : {
+          "@model" : "HD2_CompressorDeluxeComp",
+          "@position" : 1,
+          "Threshold" : -37.1,
+          "Release" : 0.2,
+          "@enabled" : true,
+          "Knee" : 6,
+          "@path" : 0,
+          "@type" : 0,
+          "Attack" : 0.03799999,
+          "Mix" : 1,
+          "Ratio" : 3,
+          "Level" : 7,
+          "@stereo" : false
+        },
+        "block8" : {
+          "@model" : "HD2_CompressorDeluxeComp",
+          "@position" : 1,
+          "Threshold" : -37.1,
+          "Release" : 0.2,
+          "@enabled" : true,
+          "Knee" : 6,
+          "@path" : 1,
+          "@type" : 0,
+          "Attack" : 0.03799999,
+          "Mix" : 1,
+          "Ratio" : 3,
+          "Level" : 7,
+          "@stereo" : false
+        },
+        "block10" : {
+          "@model" : "HD2_VolPanGain",
+          "@path" : 1,
+          "@stereo" : false,
+          "@type" : 0,
+          "Gain" : -120,
+          "@position" : 3,
+          "@enabled" : false
+        },
+        "block3" : {
+          "@model" : "HD2_VolPanGain",
+          "@path" : 0,
+          "@stereo" : false,
+          "@type" : 0,
+          "Gain" : -120,
+          "@position" : 3,
+          "@enabled" : false
+        },
+        "split" : {
+          "@position" : 0,
+          "@model" : "HD2_AppDSPFlowSplitY",
+          "@enabled" : false
+        },
+        "block11" : {
+          "Hi Pass" : 10,
+          "@model" : "HD2_PreampVintagePre",
+          "Output" : 0.5,
+          "@position" : 4,
+          "@enabled" : true,
+          "@path" : 1,
+          "@type" : 1,
+          "Polarity" : false,
+          "Low Pass" : 20000,
+          "@bypassvolume" : 1,
+          "MicLine" : false,
+          "Input" : 0.45
+        },
+        "block5" : {
+          "@model" : "HD2_VolPanVol",
+          "@path" : 0,
+          "@stereo" : false,
+          "@type" : 0,
+          "Pedal" : 1,
+          "@position" : 6,
+          "@enabled" : true,
+          "VolumeTaper" : false
+        },
+        "inputA" : {
+          "@input" : 2,
+          "@model" : "HD2_AppDSPFlow1Input",
+          "noiseGate" : false,
+          "decay" : 0.5,
+          "threshold" : -48
+        },
+        "outputA" : {
+          "@model" : "HD2_AppDSPFlowOutput",
+          "@output" : 1,
+          "pan" : 0.5,
+          "gain" : 0
+        },
+        "block0" : {
+          "@model" : "HD2_SendMono1",
+          "Send" : 0,
+          "@path" : 0,
+          "@type" : 0,
+          "DryThru" : 0,
+          "@position" : 0,
+          "@enabled" : true
+        },
+        "block12" : {
+          "@model" : "HD2_VolPanVol",
+          "@path" : 1,
+          "@stereo" : false,
+          "@type" : 0,
+          "Pedal" : 1,
+          "@position" : 6,
+          "@enabled" : true,
+          "VolumeTaper" : false
+        },
+        "block7" : {
+          "@model" : "HD2_SendMono1",
+          "Send" : 0,
+          "@path" : 1,
+          "@type" : 0,
+          "DryThru" : 0,
+          "@position" : 0,
+          "@enabled" : true
+        },
+        "outputB" : {
+          "@model" : "HD2_AppDSPFlowOutput",
+          "@output" : 1,
+          "pan" : 0.5,
+          "gain" : 0
+        },
+        "cab0" : {
+          "@model" : "HD2_Cab1x12USDeluxe",
+          "LowCut" : 19.9,
+          "@mic" : 8,
+          "EarlyReflections" : 0,
+          "Distance" : 2,
+          "Level" : 0,
+          "@enabled" : true,
+          "HighCut" : 20100
+        },
+        "block13" : {
+          "@model" : "HD2_SendMono2",
+          "Send" : 0,
+          "@path" : 1,
+          "@type" : 0,
+          "DryThru" : 0,
+          "@position" : 7,
+          "@enabled" : true
+        },
+        "block2" : {
+          "@model" : "HD2_EQSimple3Band",
+          "@path" : 0,
+          "@stereo" : false,
+          "@type" : 0,
+          "HighGain" : 0,
+          "LowGain" : 0,
+          "@position" : 2,
+          "Level" : 0,
+          "MidFreq" : 600,
+          "@enabled" : true,
+          "MidGain" : 0
+        },
+        "block9" : {
+          "@model" : "HD2_EQSimple3Band",
+          "@path" : 1,
+          "@stereo" : false,
+          "@type" : 0,
+          "HighGain" : 0,
+          "LowGain" : 0,
+          "@position" : 2,
+          "Level" : 0,
+          "MidFreq" : 600,
+          "@enabled" : true,
+          "MidGain" : 0
+        },
+        "join" : {
+          "@model" : "HD2_AppDSPFlowJoin",
+          "B Pan" : 0.5,
+          "B Level" : 0,
+          "A Level" : 0,
+          "A Pan" : 0.5,
+          "@position" : 8,
+          "Level" : 0,
+          "@enabled" : false,
+          "B Polarity" : false
+        },
+        "block4" : {
+          "Bias" : 0.65,
+          "@model" : "HD2_AmpUSDeluxeNrm",
+          "Master" : 1,
+          "@position" : 4,
+          "Drive" : 0.5,
+          "Treble" : 0.4400001,
+          "ChVol" : 0.8,
+          "@enabled" : true,
+          "Ripple" : 0.5,
+          "@path" : 0,
+          "@type" : 3,
+          "Bass" : 0.51,
+          "BiasX" : 0.5,
+          "Hum" : 0.5,
+          "Mid" : 0.5,
+          "@bypassvolume" : 1,
+          "@cab" : "cab0",
+          "Presence" : 0.2,
+          "Sag" : 0.5
+        }
+      },
+      "dsp1" : {
+        "block6" : {
+          "@model" : "HD2_SendMono2",
+          "Send" : 0,
+          "@path" : 0,
+          "@type" : 0,
+          "DryThru" : 0,
+          "@position" : 7,
+          "@enabled" : true
+        },
+        "inputB" : {
+          "@input" : 12,
+          "@model" : "HD2_AppDSPFlow2Input",
+          "noiseGate" : false,
+          "decay" : 0.5,
+          "threshold" : -48
+        },
+        "block1" : {
+          "@model" : "HD2_CompressorDeluxeComp",
+          "@position" : 1,
+          "Threshold" : -37.1,
+          "Release" : 0.2,
+          "@enabled" : true,
+          "Knee" : 6,
+          "@path" : 0,
+          "@type" : 0,
+          "Attack" : 0.03799999,
+          "Mix" : 1,
+          "Ratio" : 3,
+          "Level" : 7,
+          "@stereo" : false
+        },
+        "block8" : {
+          "@model" : "HD2_CompressorDeluxeComp",
+          "@position" : 1,
+          "Threshold" : -37.1,
+          "Release" : 0.2,
+          "@enabled" : true,
+          "Knee" : 6,
+          "@path" : 1,
+          "@type" : 0,
+          "Attack" : 0.03799999,
+          "Mix" : 1,
+          "Ratio" : 3,
+          "Level" : 7,
+          "@stereo" : true
+        },
+        "block10" : {
+          "@model" : "HD2_VolPanGain",
+          "@path" : 1,
+          "@stereo" : true,
+          "@type" : 0,
+          "Gain" : -120,
+          "@position" : 3,
+          "@enabled" : false
+        },
+        "block3" : {
+          "@model" : "HD2_VolPanGain",
+          "@path" : 0,
+          "@stereo" : false,
+          "@type" : 0,
+          "Gain" : -120,
+          "@position" : 3,
+          "@enabled" : false
+        },
+        "split" : {
+          "@position" : 0,
+          "@model" : "HD2_AppDSPFlowSplitY",
+          "@enabled" : false
+        },
+        "block11" : {
+          "SlowSpeed" : 2.72,
+          "@model" : "HD2_Rotary145Rotary",
+          "@position" : 4,
+          "Drive" : 0.42,
+          "SyncSelect1" : 6,
+          "Speed" : true,
+          "SyncSelect2" : 6,
+          "@enabled" : true,
+          "TempoSync1" : false,
+          "Blend" : 0.5,
+          "@path" : 1,
+          "@type" : 0,
+          "Mix" : 1,
+          "Headroom" : 0,
+          "FastSpeed" : 5.3,
+          "TempoSync2" : false,
+          "RampTime" : 1,
+          "Level" : -6
+        },
+        "block5" : {
+          "@model" : "HD2_VolPanVol",
+          "@path" : 0,
+          "@stereo" : false,
+          "@type" : 0,
+          "Pedal" : 1,
+          "@position" : 6,
+          "@enabled" : true,
+          "VolumeTaper" : false
+        },
+        "inputA" : {
+          "@input" : 2,
+          "@model" : "HD2_AppDSPFlow1Input",
+          "noiseGate" : false,
+          "decay" : 0.5,
+          "threshold" : -48
+        },
+        "outputA" : {
+          "@model" : "HD2_AppDSPFlowOutput",
+          "@output" : 1,
+          "pan" : 0.5,
+          "gain" : 0
+        },
+        "block0" : {
+          "@model" : "HD2_SendMono1",
+          "Send" : 0,
+          "@path" : 0,
+          "@type" : 0,
+          "DryThru" : 0,
+          "@position" : 0,
+          "@enabled" : true
+        },
+        "block12" : {
+          "@model" : "HD2_SendMono2",
+          "Send" : 0,
+          "@path" : 1,
+          "@type" : 0,
+          "DryThru" : 0,
+          "@position" : 7,
+          "@enabled" : true
+        },
+        "block7" : {
+          "@model" : "HD2_SendMono1",
+          "Send" : 0,
+          "@path" : 1,
+          "@type" : 0,
+          "DryThru" : 0,
+          "@position" : 0,
+          "@enabled" : true
+        },
+        "outputB" : {
+          "@model" : "HD2_AppDSPFlowOutput",
+          "@output" : 1,
+          "pan" : 0.5,
+          "gain" : 0
+        },
+        "cab0" : {
+          "@model" : "HD2_Cab8x10SVBeast",
+          "LowCut" : 19.9,
+          "@mic" : 14,
+          "EarlyReflections" : 0,
+          "Distance" : 1,
+          "High Cut" : 20100,
+          "@enabled" : true,
+          "Level" : 0
+        },
+        "block2" : {
+          "@model" : "HD2_EQSimple3Band",
+          "@path" : 0,
+          "@stereo" : false,
+          "@type" : 0,
+          "HighGain" : 0,
+          "LowGain" : 0,
+          "@position" : 2,
+          "Level" : 0,
+          "MidFreq" : 600,
+          "@enabled" : true,
+          "MidGain" : 0
+        },
+        "block9" : {
+          "@model" : "HD2_EQSimple3Band",
+          "@path" : 1,
+          "@stereo" : true,
+          "@type" : 0,
+          "HighGain" : 0,
+          "LowGain" : 0,
+          "@position" : 2,
+          "Level" : 0,
+          "MidFreq" : 600,
+          "@enabled" : true,
+          "MidGain" : 0
+        },
+        "join" : {
+          "@model" : "HD2_AppDSPFlowJoin",
+          "B Pan" : 0.5,
+          "B Level" : 0,
+          "A Level" : 0,
+          "A Pan" : 0.5,
+          "@position" : 8,
+          "Level" : 0,
+          "@enabled" : false,
+          "B Polarity" : false
+        },
+        "block4" : {
+          "Bias" : 0.75,
+          "@model" : "HD2_AmpSVBeastNrm",
+          "Master" : 0.85,
+          "@position" : 4,
+          "Drive" : 0.52,
+          "Treble" : 0.7,
+          "ChVol" : 0.8,
+          "@enabled" : true,
+          "Ripple" : 0.5,
+          "@path" : 0,
+          "@type" : 3,
+          "Bass" : 0.52,
+          "BiasX" : 0.5,
+          "Hum" : 0.5,
+          "Mid" : 0.45,
+          "@bypassvolume" : 1,
+          "@cab" : "cab0",
+          "Sag" : 0.5,
+          "MidFreq" : 0
+        }
+      }
+    },
+    "device_version" : 17171744
+  },
+  "schema" : "L6Preset"
+}

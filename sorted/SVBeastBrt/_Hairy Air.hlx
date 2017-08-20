@@ -1,0 +1,312 @@
+{
+  "version" : 6,
+  "data" : {
+    "meta" : {
+      "name" : "Hairy Air",
+      "application" : "Helix",
+      "build_sha" : "9532b30",
+      "modifieddate" : 1459029854,
+      "appversion" : 17039360
+    },
+    "device" : 2162689,
+    "tone" : {
+      "global" : {
+        "@variax_volumeknob" : -0.1,
+        "@pedalstate" : 0,
+        "@variax_customtuning" : true,
+        "@variax_str1tuning" : 0,
+        "@variax_str2tuning" : 0,
+        "@variax_str4tuning" : 0,
+        "@variax_str6tuning" : 0,
+        "@variax_model" : 0,
+        "@model" : "@global_params",
+        "@topology0" : "A",
+        "@cursor_dsp" : 0,
+        "@cursor_path" : 0,
+        "@tempo" : 120,
+        "@topology1" : "A",
+        "@variax_magmode" : true,
+        "@cursor_position" : 0,
+        "@variax_lockctrls" : 0,
+        "@variax_str3tuning" : 0,
+        "@variax_str5tuning" : 0,
+        "@variax_toneknob" : -0.1,
+        "@cursor_group" : "block1"
+      },
+      "footswitches" : {
+        "@fs5" : [
+          {
+            "@group" : "block0",
+            "@label" : "Looper",
+            "@dsp" : 1,
+            "@type" : 1,
+            "@ledcolor" : 462860,
+            "@momentary" : false,
+            "@enabled" : false
+          }
+        ],
+        "@fs11" : [
+          {
+            "@customlabel" : "Sasquatch",
+            "@group" : "block1",
+            "@dsp" : 1,
+            "@label" : "Tweed Blues Nrm",
+            "@type" : 1,
+            "@ledcolor" : 786434,
+            "@momentary" : false,
+            "@enabled" : false
+          }
+        ],
+        "@fs8" : [
+          {
+            "@customlabel" : "H A I R",
+            "@group" : "block0",
+            "@dsp" : 0,
+            "@label" : "KWB",
+            "@type" : 1,
+            "@ledcolor" : 13676288,
+            "@momentary" : false,
+            "@enabled" : true
+          }
+        ],
+        "@fs10" : [
+          {
+            "@customlabel" : "A I R",
+            "@group" : "block2",
+            "@dsp" : 1,
+            "@label" : "Cave",
+            "@type" : 1,
+            "@ledcolor" : 16723200,
+            "@momentary" : false,
+            "@enabled" : true
+          }
+        ],
+        "@fs9" : [
+          {
+            "@group" : "block1",
+            "@label" : "Dual Pitch",
+            "@dsp" : 0,
+            "@type" : 1,
+            "@ledcolor" : 3277055,
+            "@momentary" : false,
+            "@enabled" : true
+          }
+        ]
+      },
+      "dsp0" : {
+        "block0" : {
+          "@model" : "HD2_DistKWB",
+          "@position" : 0,
+          "PullDiode" : 3,
+          "@enabled" : true,
+          "@path" : 0,
+          "@type" : 0,
+          "Asym" : 0.45,
+          "Bass" : 0,
+          "Level" : 0.6919999,
+          "@stereo" : false,
+          "Gain" : 0.88,
+          "Treble" : 2.2,
+          "PushDiode" : 1
+        },
+        "block1" : {
+          "Time2" : 0,
+          "@model" : "HD2_PitchDualPitch",
+          "Cents1" : 0,
+          "@position" : 1,
+          "Interval2" : 16,
+          "PanVoice2" : 0.875,
+          "Time1" : 0,
+          "@enabled" : true,
+          "@path" : 0,
+          "@type" : 0,
+          "Mix" : 0.79,
+          "LevelVoice1" : 1,
+          "LevelVoice2" : 1,
+          "Interval1" : 7,
+          "Level" : 0,
+          "@stereo" : true,
+          "PanDry" : 0.5,
+          "Cents2" : -5,
+          "PanVoice1" : 0.125
+        },
+        "block2" : {
+          "Bias" : 0.74,
+          "@model" : "HD2_AmpSVBeastBrt",
+          "Master" : 1,
+          "@position" : 2,
+          "Drive" : 0.6900001,
+          "Treble" : 0.85,
+          "ChVol" : 0.8,
+          "@enabled" : true,
+          "Ripple" : 0.5,
+          "@path" : 0,
+          "@type" : 3,
+          "Bass" : 0.41,
+          "BiasX" : 0.5,
+          "Hum" : 0.5,
+          "Mid" : 0.79,
+          "@bypassvolume" : 1,
+          "@cab" : "cab0",
+          "Sag" : 0.5,
+          "MidFreq" : 2
+        },
+        "cab0" : {
+          "@model" : "HD2_Cab8x10SVBeast",
+          "LowCut" : 19.9,
+          "@mic" : 14,
+          "EarlyReflections" : 0,
+          "Distance" : 1,
+          "High Cut" : 20100,
+          "@enabled" : true,
+          "Level" : 0
+        },
+        "inputA" : {
+          "@input" : 1,
+          "@model" : "HD2_AppDSPFlow1Input",
+          "noiseGate" : false,
+          "decay" : 0.5,
+          "threshold" : -48
+        },
+        "inputB" : {
+          "@input" : 0,
+          "@model" : "HD2_AppDSPFlow2Input",
+          "noiseGate" : false,
+          "decay" : 0.5,
+          "threshold" : -48
+        },
+        "join" : {
+          "@model" : "HD2_AppDSPFlowJoin",
+          "B Pan" : 0.5,
+          "B Level" : 0,
+          "A Level" : 0,
+          "A Pan" : 0.5,
+          "@position" : 8,
+          "Level" : 0,
+          "@enabled" : false,
+          "B Polarity" : false
+        },
+        "split" : {
+          "@position" : 0,
+          "@model" : "HD2_AppDSPFlowSplitY",
+          "@enabled" : false
+        },
+        "outputB" : {
+          "@model" : "HD2_AppDSPFlowOutput",
+          "@output" : 1,
+          "pan" : 0.5,
+          "gain" : 0
+        },
+        "outputA" : {
+          "@model" : "HD2_AppDSPFlowOutput",
+          "@output" : 2,
+          "pan" : 0.5,
+          "gain" : 0
+        }
+      },
+      "dsp1" : {
+        "block0" : {
+          "@model" : "HD2_Looper",
+          "Overdub" : 0,
+          "Playback" : 0,
+          "@path" : 0,
+          "@stereo" : true,
+          "@type" : 6,
+          "highCut" : 20000,
+          "lowCut" : 20,
+          "@position" : 7,
+          "@enabled" : false
+        },
+        "block1" : {
+          "Bias" : 0.5699999,
+          "@model" : "HD2_AmpTweedBluesNrm",
+          "Master" : 1,
+          "@position" : 2,
+          "Drive" : 0.42,
+          "Treble" : 0.64,
+          "ChVol" : 0.8,
+          "@enabled" : false,
+          "Ripple" : 0.5,
+          "@path" : 0,
+          "@type" : 3,
+          "Bass" : 0.54,
+          "BiasX" : 0.5,
+          "Hum" : 0.5,
+          "Mid" : 0.65,
+          "@bypassvolume" : 1,
+          "@cab" : "cab0",
+          "Presence" : 0.27,
+          "Sag" : 0.5
+        },
+        "block2" : {
+          "@model" : "HD2_ReverbCave",
+          "@position" : 4,
+          "LowCut" : 59,
+          "@enabled" : true,
+          "@path" : 0,
+          "@trails" : false,
+          "@type" : 7,
+          "Mix" : 0.71,
+          "Level" : -0.4,
+          "Decay" : 0.8199999,
+          "HighCut" : 9400,
+          "Predelay" : 0.04999995
+        },
+        "cab0" : {
+          "@model" : "HD2_Cab4x10TweedP10R",
+          "LowCut" : 19.9,
+          "@mic" : 8,
+          "EarlyReflections" : 0,
+          "Distance" : 2,
+          "Level" : 0,
+          "@enabled" : true,
+          "HighCut" : 20100
+        },
+        "inputA" : {
+          "@input" : 0,
+          "@model" : "HD2_AppDSPFlow1Input",
+          "noiseGate" : false,
+          "decay" : 0.5,
+          "threshold" : -48
+        },
+        "inputB" : {
+          "@input" : 0,
+          "@model" : "HD2_AppDSPFlow2Input",
+          "noiseGate" : false,
+          "decay" : 0.5,
+          "threshold" : -48
+        },
+        "join" : {
+          "@model" : "HD2_AppDSPFlowJoin",
+          "B Pan" : 0.5,
+          "B Level" : 0,
+          "A Level" : 0,
+          "A Pan" : 0.5,
+          "@position" : 8,
+          "Level" : 0,
+          "@enabled" : false,
+          "B Polarity" : false
+        },
+        "split" : {
+          "@position" : 0,
+          "@model" : "HD2_AppDSPFlowSplitY",
+          "@enabled" : false
+        },
+        "outputB" : {
+          "@model" : "HD2_AppDSPFlowOutput",
+          "@output" : 1,
+          "pan" : 0.5,
+          "gain" : 0
+        },
+        "outputA" : {
+          "@model" : "HD2_AppDSPFlowOutput",
+          "@output" : 1,
+          "pan" : 0.5,
+          "gain" : 0
+        }
+      }
+    },
+    "device_version" : 17171744
+  },
+  "schema" : "L6Preset"
+}

@@ -1,0 +1,214 @@
+{
+  "version" : 6,
+  "data" : {
+    "meta" : {
+      "name" : "4 Tone Switcher",
+      "application" : "Helix",
+      "build_sha" : "69d8fa6",
+      "modifieddate" : 1459029872,
+      "appversion" : 17039360
+    },
+    "device" : 2162689,
+    "tone" : {
+      "global" : {
+        "@variax_volumeknob" : -0.1,
+        "@pedalstate" : 2,
+        "@variax_customtuning" : true,
+        "@variax_str1tuning" : 0,
+        "@variax_str2tuning" : 0,
+        "@variax_str4tuning" : 0,
+        "@variax_str6tuning" : 0,
+        "@variax_model" : 10,
+        "@model" : "@global_params",
+        "@topology0" : "AB",
+        "@cursor_dsp" : 0,
+        "@cursor_path" : 0,
+        "@tempo" : 120,
+        "@topology1" : "AB",
+        "@variax_magmode" : true,
+        "@cursor_position" : 1,
+        "@variax_lockctrls" : 0,
+        "@variax_str3tuning" : 0,
+        "@variax_str5tuning" : 0,
+        "@variax_toneknob" : -0.1,
+        "@cursor_group" : ""
+      },
+      "footswitches" : {
+        "@fs11" : [
+          {
+            "@customlabel" : "TONE 2B MUTE",
+            "@group" : "block1",
+            "@dsp" : 1,
+            "@label" : "Gain",
+            "@type" : 1,
+            "@ledcolor" : 3334,
+            "@momentary" : false,
+            "@enabled" : false
+          }
+        ],
+        "@fs8" : [
+          {
+            "@customlabel" : "TONE 1A MUTE",
+            "@group" : "block0",
+            "@dsp" : 0,
+            "@label" : "Gain",
+            "@type" : 1,
+            "@ledcolor" : 3334,
+            "@momentary" : false,
+            "@enabled" : false
+          }
+        ],
+        "@fs10" : [
+          {
+            "@customlabel" : "TONE 2A MUTE",
+            "@group" : "block0",
+            "@dsp" : 1,
+            "@label" : "Gain",
+            "@type" : 1,
+            "@ledcolor" : 3334,
+            "@momentary" : false,
+            "@enabled" : false
+          }
+        ],
+        "@fs9" : [
+          {
+            "@customlabel" : "TONE 1B MUTE",
+            "@group" : "block1",
+            "@dsp" : 0,
+            "@label" : "Gain",
+            "@type" : 1,
+            "@ledcolor" : 3334,
+            "@momentary" : false,
+            "@enabled" : false
+          }
+        ]
+      },
+      "dsp0" : {
+        "block0" : {
+          "@model" : "HD2_VolPanGain",
+          "@path" : 0,
+          "@stereo" : false,
+          "@type" : 0,
+          "Gain" : -120,
+          "@position" : 0,
+          "@enabled" : false
+        },
+        "block1" : {
+          "@model" : "HD2_VolPanGain",
+          "@path" : 1,
+          "@stereo" : false,
+          "@type" : 0,
+          "Gain" : -120,
+          "@position" : 0,
+          "@enabled" : false
+        },
+        "inputA" : {
+          "@input" : 1,
+          "@model" : "HD2_AppDSPFlow1Input",
+          "noiseGate" : false,
+          "decay" : 0.5,
+          "threshold" : -48
+        },
+        "inputB" : {
+          "@input" : 1,
+          "@model" : "HD2_AppDSPFlow2Input",
+          "noiseGate" : false,
+          "decay" : 0.5,
+          "threshold" : -48
+        },
+        "join" : {
+          "@model" : "HD2_AppDSPFlowJoin",
+          "B Pan" : 0.5,
+          "B Level" : 0,
+          "A Level" : 0,
+          "A Pan" : 0.5,
+          "@position" : 8,
+          "Level" : 0,
+          "@enabled" : false,
+          "B Polarity" : false
+        },
+        "split" : {
+          "@position" : 0,
+          "@model" : "HD2_AppDSPFlowSplitY",
+          "@enabled" : false
+        },
+        "outputB" : {
+          "@model" : "HD2_AppDSPFlowOutput",
+          "@output" : 1,
+          "pan" : 0.5,
+          "gain" : 0
+        },
+        "outputA" : {
+          "@model" : "HD2_AppDSPFlowOutput",
+          "@output" : 1,
+          "pan" : 0.5,
+          "gain" : 0
+        }
+      },
+      "dsp1" : {
+        "block0" : {
+          "@model" : "HD2_VolPanGain",
+          "@path" : 0,
+          "@stereo" : false,
+          "@type" : 0,
+          "Gain" : -120,
+          "@position" : 0,
+          "@enabled" : false
+        },
+        "block1" : {
+          "@model" : "HD2_VolPanGain",
+          "@path" : 1,
+          "@stereo" : false,
+          "@type" : 0,
+          "Gain" : -120,
+          "@position" : 0,
+          "@enabled" : false
+        },
+        "inputA" : {
+          "@input" : 1,
+          "@model" : "HD2_AppDSPFlow1Input",
+          "noiseGate" : false,
+          "decay" : 0.5,
+          "threshold" : -48
+        },
+        "inputB" : {
+          "@input" : 1,
+          "@model" : "HD2_AppDSPFlow2Input",
+          "noiseGate" : false,
+          "decay" : 0.5,
+          "threshold" : -48
+        },
+        "join" : {
+          "@model" : "HD2_AppDSPFlowJoin",
+          "B Pan" : 0.5,
+          "B Level" : 0,
+          "A Level" : 0,
+          "A Pan" : 0.5,
+          "@position" : 8,
+          "Level" : 0,
+          "@enabled" : false,
+          "B Polarity" : false
+        },
+        "split" : {
+          "@position" : 0,
+          "@model" : "HD2_AppDSPFlowSplitY",
+          "@enabled" : false
+        },
+        "outputB" : {
+          "@model" : "HD2_AppDSPFlowOutput",
+          "@output" : 1,
+          "pan" : 0.5,
+          "gain" : 0
+        },
+        "outputA" : {
+          "@model" : "HD2_AppDSPFlowOutput",
+          "@output" : 1,
+          "pan" : 0.5,
+          "gain" : 0
+        }
+      }
+    },
+    "device_version" : 17171744
+  },
+  "schema" : "L6Preset"
+}

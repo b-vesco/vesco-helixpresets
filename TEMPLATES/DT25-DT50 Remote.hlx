@@ -1,0 +1,305 @@
+{
+  "version" : 6,
+  "data" : {
+    "meta" : {
+      "name" : "DT25-DT50 Remote",
+      "application" : "Helix",
+      "build_sha" : "69d8fa6",
+      "modifieddate" : 1459029873,
+      "appversion" : 17039360
+    },
+    "device" : 2162689,
+    "tone" : {
+      "global" : {
+        "@variax_volumeknob" : -0.1,
+        "@pedalstate" : 2,
+        "@variax_customtuning" : true,
+        "@variax_str1tuning" : 0,
+        "@variax_str2tuning" : 0,
+        "@variax_str4tuning" : 0,
+        "@variax_str6tuning" : 0,
+        "@variax_model" : 10,
+        "@model" : "@global_params",
+        "@topology0" : "SABJ",
+        "@cursor_dsp" : 0,
+        "@cursor_path" : 0,
+        "@tempo" : 120,
+        "@topology1" : "A",
+        "@variax_magmode" : true,
+        "@cursor_position" : 0,
+        "@variax_lockctrls" : 0,
+        "@variax_str3tuning" : 0,
+        "@variax_str5tuning" : 0,
+        "@variax_toneknob" : -0.1,
+        "@cursor_group" : "block2"
+      },
+      "footswitches" : {
+        "@fs3" : [
+          {
+            "@initial" : 0,
+            "@enabled" : false,
+            "@momentary" : false,
+            "@customlabel" : "Ch.A CLASS A-AB",
+            "@command" : 1,
+            "@cc" : 73,
+            "@channel" : 0,
+            "@type" : 3,
+            "@current" : 0,
+            "@toggle" : 127,
+            "@ledcolor" : 462860,
+            "@label" : "CC Toggle"
+          }
+        ],
+        "@fsExp" : [
+          {
+            "@group" : "block1",
+            "@label" : "Volume Pedal",
+            "@dsp" : 0,
+            "@type" : 1,
+            "@ledcolor" : 65408,
+            "@momentary" : false,
+            "@enabled" : true
+          }
+        ],
+        "@fs4" : [
+          {
+            "@initial" : 0,
+            "@enabled" : false,
+            "@momentary" : false,
+            "@customlabel" : "Ch.A TRIODE-PENT",
+            "@command" : 1,
+            "@cc" : 75,
+            "@channel" : 0,
+            "@type" : 3,
+            "@current" : 0,
+            "@toggle" : 127,
+            "@ledcolor" : 462860,
+            "@label" : "CC Toggle"
+          }
+        ],
+        "@fs11" : [
+          {
+            "@initial" : 0,
+            "@enabled" : false,
+            "@momentary" : false,
+            "@customlabel" : "Ch.B REVERB",
+            "@command" : 1,
+            "@cc" : 105,
+            "@channel" : 0,
+            "@type" : 3,
+            "@current" : 0,
+            "@toggle" : 127,
+            "@ledcolor" : 462860,
+            "@label" : "CC Toggle"
+          }
+        ],
+        "@fs5" : [
+          {
+            "@initial" : 0,
+            "@enabled" : false,
+            "@momentary" : false,
+            "@customlabel" : "Ch.A REVERB",
+            "@command" : 1,
+            "@cc" : 36,
+            "@channel" : 0,
+            "@type" : 3,
+            "@current" : 0,
+            "@toggle" : 127,
+            "@ledcolor" : 462860,
+            "@label" : "CC Toggle"
+          }
+        ],
+        "@fs8" : [
+          {
+            "@command" : 2,
+            "@customlabel" : "CHANNEL A-B",
+            "@label" : "CC Value",
+            "@max" : 0,
+            "@type" : 3,
+            "@ledcolor" : 462860,
+            "@cc" : 66,
+            "@channel" : 0,
+            "@min" : 0,
+            "@enabled" : false,
+            "@momentary" : true
+          }
+        ],
+        "@fs9" : [
+          {
+            "@initial" : 0,
+            "@enabled" : false,
+            "@momentary" : false,
+            "@customlabel" : "Ch.B CLASS A-AB",
+            "@command" : 1,
+            "@cc" : 115,
+            "@channel" : 0,
+            "@type" : 3,
+            "@current" : 0,
+            "@toggle" : 127,
+            "@ledcolor" : 462860,
+            "@label" : "CC Toggle"
+          }
+        ],
+        "@fs10" : [
+          {
+            "@initial" : 0,
+            "@enabled" : false,
+            "@momentary" : false,
+            "@customlabel" : "Ch.B TRIODE-PENT",
+            "@command" : 1,
+            "@cc" : 116,
+            "@channel" : 0,
+            "@type" : 3,
+            "@current" : 0,
+            "@toggle" : 127,
+            "@ledcolor" : 462860,
+            "@label" : "CC Toggle"
+          }
+        ]
+      },
+      "controllers" : {
+        "@expPedal2" : [
+          {
+            "@dsp" : 0,
+            "@min" : 0,
+            "@max" : 1,
+            "@group" : "block1",
+            "@param" : "Pedal"
+          }
+        ]
+      },
+      "dsp0" : {
+        "block0" : {
+          "@model" : "HD2_PreampEssexA15",
+          "Master" : 1,
+          "@position" : 2,
+          "Drive" : 0.3099999,
+          "ChVol" : 0.8,
+          "@enabled" : true,
+          "@path" : 1,
+          "@type" : 1,
+          "Bass" : 0.5,
+          "Hum" : 0.5,
+          "Mid" : 0.41,
+          "@bypassvolume" : 1,
+          "Sag" : 0.5,
+          "Treble" : 0.5799999
+        },
+        "block1" : {
+          "@model" : "HD2_VolPanVol",
+          "@path" : 0,
+          "@stereo" : false,
+          "@type" : 0,
+          "Pedal" : 1,
+          "@position" : 0,
+          "@enabled" : true,
+          "VolumeTaper" : false
+        },
+        "block2" : {
+          "@model" : "HD2_PreampUSDeluxeNrm",
+          "Master" : 1,
+          "@position" : 2,
+          "Drive" : 0.5,
+          "ChVol" : 0.8,
+          "@enabled" : true,
+          "@path" : 0,
+          "@type" : 1,
+          "Bass" : 0.51,
+          "Hum" : 0.5,
+          "Mid" : 0.5,
+          "@bypassvolume" : 1,
+          "Sag" : 0.5,
+          "Treble" : 0.4400001
+        },
+        "inputA" : {
+          "@input" : 1,
+          "@model" : "HD2_AppDSPFlow1Input",
+          "noiseGate" : false,
+          "decay" : 0.5,
+          "threshold" : -48
+        },
+        "inputB" : {
+          "@input" : 0,
+          "@model" : "HD2_AppDSPFlow2Input",
+          "noiseGate" : false,
+          "decay" : 0.5,
+          "threshold" : -48
+        },
+        "join" : {
+          "@model" : "HD2_AppDSPFlowJoin",
+          "B Pan" : 0.5,
+          "B Level" : 0,
+          "A Level" : 0,
+          "A Pan" : 0.5,
+          "@position" : 8,
+          "Level" : 0,
+          "@enabled" : true,
+          "B Polarity" : false
+        },
+        "split" : {
+          "@position" : 3,
+          "@model" : "HD2_AppDSPFlowSplitY",
+          "@enabled" : true
+        },
+        "outputB" : {
+          "@model" : "HD2_AppDSPFlowOutput",
+          "@output" : 0,
+          "pan" : 0.5,
+          "gain" : 0
+        },
+        "outputA" : {
+          "@model" : "HD2_AppDSPFlowOutput",
+          "@output" : 1,
+          "pan" : 0.5,
+          "gain" : 0
+        }
+      },
+      "dsp1" : {
+        "split" : {
+          "@position" : 0,
+          "@model" : "HD2_AppDSPFlowSplitY",
+          "@enabled" : true
+        },
+        "inputA" : {
+          "@input" : 0,
+          "@model" : "HD2_AppDSPFlow1Input",
+          "noiseGate" : false,
+          "decay" : 0.5,
+          "threshold" : -48
+        },
+        "inputB" : {
+          "@input" : 0,
+          "@model" : "HD2_AppDSPFlow2Input",
+          "noiseGate" : false,
+          "decay" : 0.5,
+          "threshold" : -48
+        },
+        "join" : {
+          "@model" : "HD2_AppDSPFlowJoin",
+          "B Pan" : 0.5,
+          "B Level" : 0,
+          "A Level" : 0,
+          "A Pan" : 0.5,
+          "@position" : 8,
+          "Level" : 0,
+          "@enabled" : true,
+          "B Polarity" : false
+        },
+        "outputA" : {
+          "@model" : "HD2_AppDSPFlowOutput",
+          "@output" : 1,
+          "pan" : 0.5,
+          "gain" : 0
+        },
+        "outputB" : {
+          "@model" : "HD2_AppDSPFlowOutput",
+          "@output" : 1,
+          "pan" : 0.5,
+          "gain" : 0
+        }
+      }
+    },
+    "device_version" : 17171744
+  },
+  "schema" : "L6Preset"
+}

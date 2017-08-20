@@ -1,0 +1,448 @@
+{
+  "version" : 6,
+  "data" : {
+    "meta" : {
+      "name" : "Mandarine Gaze",
+      "application" : "Helix",
+      "build_sha" : "69d8fa6",
+      "modifieddate" : 1459029851,
+      "appversion" : 17039360
+    },
+    "device" : 2162689,
+    "tone" : {
+      "global" : {
+        "@variax_volumeknob" : -0.1,
+        "@pedalstate" : 2,
+        "@variax_customtuning" : true,
+        "@variax_str1tuning" : 0,
+        "@variax_str2tuning" : 0,
+        "@variax_str4tuning" : 0,
+        "@variax_str6tuning" : 0,
+        "@variax_model" : 0,
+        "@model" : "@global_params",
+        "@topology0" : "A",
+        "@cursor_dsp" : 0,
+        "@cursor_path" : 0,
+        "@tempo" : 120,
+        "@topology1" : "SABJ",
+        "@variax_magmode" : true,
+        "@cursor_position" : 0,
+        "@variax_lockctrls" : 0,
+        "@variax_str3tuning" : 0,
+        "@variax_str5tuning" : 0,
+        "@variax_toneknob" : -0.1,
+        "@cursor_group" : "block1"
+      },
+      "footswitches" : {
+        "@fs3" : [
+          {
+            "@group" : "block5",
+            "@label" : "Ducked Delay",
+            "@dsp" : 0,
+            "@type" : 1,
+            "@ledcolor" : 458496,
+            "@momentary" : false,
+            "@enabled" : true
+          }
+        ],
+        "@fsExp" : [
+          {
+            "@group" : "block2",
+            "@label" : "Volume Pedal",
+            "@dsp" : 0,
+            "@type" : 1,
+            "@ledcolor" : 65408,
+            "@momentary" : false,
+            "@enabled" : true
+          },
+          {
+            "@group" : "block3",
+            "@label" : "Volume Pedal",
+            "@dsp" : 0,
+            "@type" : 1,
+            "@ledcolor" : 65408,
+            "@momentary" : false,
+            "@enabled" : true
+          }
+        ],
+        "@fs4" : [
+          {
+            "@group" : "block0",
+            "@label" : "Simple Delay",
+            "@dsp" : 1,
+            "@type" : 1,
+            "@ledcolor" : 458496,
+            "@momentary" : false,
+            "@enabled" : true
+          }
+        ],
+        "@fs11" : [
+          {
+            "@group" : "block4",
+            "@label" : "Octo",
+            "@dsp" : 1,
+            "@type" : 1,
+            "@ledcolor" : 16723200,
+            "@momentary" : false,
+            "@enabled" : true
+          }
+        ],
+        "@fs5" : [
+          {
+            "@group" : "block1",
+            "@label" : "Plate",
+            "@dsp" : 1,
+            "@type" : 1,
+            "@ledcolor" : 16723200,
+            "@momentary" : false,
+            "@enabled" : true
+          }
+        ],
+        "@fs2" : [
+          {
+            "@group" : "block4",
+            "@label" : "Harmonic Flanger",
+            "@dsp" : 0,
+            "@type" : 1,
+            "@ledcolor" : 13055,
+            "@momentary" : false,
+            "@enabled" : true
+          }
+        ],
+        "@fs8" : [
+          {
+            "@customlabel" : "Octo Bump",
+            "@group" : "block4",
+            "@dsp" : 1,
+            "@label" : "Mix",
+            "@max" : 0.55,
+            "@param" : "Mix",
+            "@ledcolor" : 462860,
+            "@type" : 2,
+            "@min" : 0.2,
+            "@momentary" : false,
+            "@enabled" : false
+          }
+        ],
+        "@fs9" : [
+          {
+            "@group" : "block0",
+            "@label" : "Hedgehog D9",
+            "@dsp" : 0,
+            "@type" : 1,
+            "@ledcolor" : 525824,
+            "@momentary" : false,
+            "@enabled" : false
+          }
+        ],
+        "@fs10" : [
+          {
+            "@group" : "block3",
+            "@label" : "Mod\/Chorus Echo",
+            "@dsp" : 1,
+            "@type" : 1,
+            "@ledcolor" : 458496,
+            "@momentary" : false,
+            "@enabled" : true
+          }
+        ]
+      },
+      "controllers" : {
+        "@expPedal2" : [
+          {
+            "@dsp" : 0,
+            "@min" : 0,
+            "@max" : 1,
+            "@group" : "block3",
+            "@param" : "Pedal"
+          },
+          {
+            "@dsp" : 0,
+            "@min" : 0,
+            "@max" : 1,
+            "@group" : "block2",
+            "@param" : "Pedal"
+          }
+        ]
+      },
+      "dsp0" : {
+        "join" : {
+          "@model" : "HD2_AppDSPFlowJoin",
+          "B Pan" : 0.5,
+          "B Level" : 0,
+          "A Level" : 0,
+          "A Pan" : 0.5,
+          "@position" : 8,
+          "Level" : 0,
+          "@enabled" : true,
+          "B Polarity" : false
+        },
+        "block3" : {
+          "@model" : "HD2_VolPanVol",
+          "@path" : 0,
+          "@stereo" : false,
+          "@type" : 0,
+          "Pedal" : 1,
+          "@position" : 3,
+          "@enabled" : true,
+          "VolumeTaper" : true
+        },
+        "block2" : {
+          "@model" : "HD2_VolPanVol",
+          "@path" : 0,
+          "@stereo" : false,
+          "@type" : 0,
+          "Pedal" : 1,
+          "@position" : 2,
+          "@enabled" : true,
+          "VolumeTaper" : false
+        },
+        "inputB" : {
+          "@input" : 0,
+          "@model" : "HD2_AppDSPFlow2Input",
+          "noiseGate" : false,
+          "decay" : 0.5,
+          "threshold" : -48
+        },
+        "block1" : {
+          "Bias" : 0.6700001,
+          "@model" : "HD2_AmpMandarin80",
+          "Master" : 0.8,
+          "@position" : 1,
+          "Drive" : 0.6,
+          "Treble" : 0.48,
+          "ChVol" : 1,
+          "@enabled" : true,
+          "FAC" : 0,
+          "Ripple" : 0.5,
+          "@path" : 0,
+          "@type" : 1,
+          "Bass" : 0.6,
+          "BiasX" : 0.5,
+          "Hum" : 0.5,
+          "Mid" : 0.48,
+          "@bypassvolume" : 1,
+          "Presence" : 0.5,
+          "Sag" : 0.5
+        },
+        "outputB" : {
+          "@model" : "HD2_AppDSPFlowOutput",
+          "@output" : 0,
+          "pan" : 0.5,
+          "gain" : 0
+        },
+        "inputA" : {
+          "@input" : 1,
+          "@model" : "HD2_AppDSPFlow1Input",
+          "noiseGate" : false,
+          "decay" : 0.5,
+          "threshold" : -48
+        },
+        "split" : {
+          "@position" : 0,
+          "@model" : "HD2_AppDSPFlowSplitY",
+          "@enabled" : true
+        },
+        "block0" : {
+          "@model" : "HD2_DistHedgehogD9",
+          "@path" : 0,
+          "@stereo" : false,
+          "@type" : 0,
+          "Gain" : 0.2,
+          "@position" : 0,
+          "Level" : 0.6,
+          "Tone" : 0.35,
+          "@enabled" : false
+        },
+        "block5" : {
+          "@trails" : false,
+          "@enabled" : true,
+          "@type" : 7,
+          "DynAttack" : 0.5599999,
+          "Ducking" : 0.61,
+          "SyncSelect1" : 6,
+          "@model" : "HD2_DelayDuckedDelay",
+          "@stereo" : false,
+          "DynRel" : 0.51,
+          "LowCut" : 60,
+          "@path" : 0,
+          "Level" : 0,
+          "Mix" : 0.4400001,
+          "Feedback" : 0.46,
+          "HighCut" : 10300,
+          "Scale" : 1,
+          "Threshold" : 0.49,
+          "@position" : 5,
+          "TempoSync1" : true,
+          "DynType" : false,
+          "Time" : 0.4990001
+        },
+        "outputA" : {
+          "@model" : "HD2_AppDSPFlowOutput",
+          "@output" : 2,
+          "pan" : 0.5,
+          "gain" : 0
+        },
+        "block4" : {
+          "@model" : "HD2_FlangerHarmonicFlanger",
+          "Rate" : 0.35,
+          "@position" : 4,
+          "Harmonic" : true,
+          "SyncSelect1" : 5,
+          "TempoSync1" : false,
+          "@enabled" : true,
+          "@path" : 0,
+          "@type" : 0,
+          "Mix" : 0.5,
+          "Headroom" : 0,
+          "Width" : 0.8,
+          "Enhance" : 0.4300001,
+          "Level" : 0,
+          "@stereo" : true,
+          "Manual" : 0.8399999,
+          "Spread" : 0.26
+        }
+      },
+      "dsp1" : {
+        "join" : {
+          "@model" : "HD2_AppDSPFlowJoin",
+          "B Pan" : 0.875,
+          "B Level" : 0,
+          "A Level" : 0,
+          "A Pan" : 0.125,
+          "@position" : 8,
+          "Level" : 0,
+          "@enabled" : true,
+          "B Polarity" : false
+        },
+        "block3" : {
+          "Depth" : 0.04999995,
+          "@trails" : false,
+          "@enabled" : true,
+          "@type" : 7,
+          "Speed" : 0.3,
+          "SyncSelect1" : 8,
+          "@model" : "HD2_DelayModChorusEcho",
+          "@stereo" : true,
+          "LowCut" : 155,
+          "@path" : 1,
+          "Level" : 1,
+          "Mix" : 0.5699999,
+          "Spread" : 1,
+          "Feedback" : 0.5,
+          "HighCut" : 4000,
+          "ModulationMode" : 0,
+          "Scale" : 1,
+          "@position" : 5,
+          "TempoSync1" : true,
+          "Time" : 0.538
+        },
+        "block2" : {
+          "@model" : "HD2_Cab4x12MandarinEM",
+          "Level" : 0,
+          "LowCut" : 100,
+          "@path" : 0,
+          "@mic" : 7,
+          "@type" : 2,
+          "@position" : 7,
+          "Distance" : 3,
+          "EarlyReflections" : 0.1,
+          "@enabled" : true,
+          "HighCut" : 8000
+        },
+        "inputB" : {
+          "@input" : 0,
+          "@model" : "HD2_AppDSPFlow2Input",
+          "noiseGate" : false,
+          "decay" : 0.5,
+          "threshold" : -48
+        },
+        "block1" : {
+          "@model" : "HD2_ReverbPlate",
+          "@position" : 6,
+          "LowCut" : 90,
+          "@enabled" : true,
+          "@path" : 0,
+          "@trails" : false,
+          "@type" : 7,
+          "Mix" : 0.41,
+          "Level" : 0,
+          "Decay" : 0.35,
+          "HighCut" : 6000,
+          "Predelay" : 0
+        },
+        "outputB" : {
+          "@model" : "HD2_AppDSPFlowOutput",
+          "@output" : 0,
+          "pan" : 0.875,
+          "gain" : 0
+        },
+        "inputA" : {
+          "@input" : 0,
+          "@model" : "HD2_AppDSPFlow1Input",
+          "noiseGate" : false,
+          "decay" : 0.5,
+          "threshold" : -48
+        },
+        "split" : {
+          "@model" : "HD2_AppDSPFlowSplitAB",
+          "@enabled" : true,
+          "RouteTo" : 0.375,
+          "@position" : 4,
+          "bypass" : false
+        },
+        "block0" : {
+          "@model" : "HD2_DelaySimpleDelay",
+          "@position" : 5,
+          "Feedback" : 0.4,
+          "SyncSelect1" : 6,
+          "TempoSync1" : true,
+          "Scale" : 1,
+          "@enabled" : true,
+          "@path" : 0,
+          "@trails" : false,
+          "@type" : 7,
+          "Mix" : 0.34,
+          "Time" : 0.8,
+          "Level" : 2.6,
+          "@stereo" : true
+        },
+        "block5" : {
+          "@model" : "HD2_Cab2x12DoubleC12N",
+          "Level" : 0,
+          "LowCut" : 100,
+          "@path" : 1,
+          "@mic" : 6,
+          "@type" : 2,
+          "@position" : 7,
+          "Distance" : 3,
+          "EarlyReflections" : 0.1,
+          "@enabled" : true,
+          "HighCut" : 8000
+        },
+        "outputA" : {
+          "@model" : "HD2_AppDSPFlowOutput",
+          "@output" : 1,
+          "pan" : 0.5,
+          "gain" : 0
+        },
+        "block4" : {
+          "@model" : "HD2_ReverbOcto",
+          "@position" : 6,
+          "LowCut" : 122,
+          "Intensity" : 0.63,
+          "@enabled" : true,
+          "@path" : 1,
+          "@trails" : false,
+          "@type" : 7,
+          "Mix" : 0.2,
+          "Level" : 0,
+          "Decay" : 0.72,
+          "HighCut" : 9760
+        }
+      }
+    },
+    "device_version" : 17171744
+  },
+  "schema" : "L6Preset"
+}
