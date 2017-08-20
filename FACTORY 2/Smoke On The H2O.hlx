@@ -4,19 +4,23 @@
     "meta" : {
       "name" : "Smoke On The H2O",
       "application" : "Helix",
-      "build_sha" : "47fcc00",
-      "modifieddate" : 1479868847,
-      "appversion" : 33619968
+      "build_sha" : "87b59c5",
+      "modifieddate" : 1479876234,
+      "appversion" : 34603008
     },
     "device" : 2162689,
     "tone" : {
       "snapshot7" : {
+        "@pedalstate" : 2,
+        "@ledcolor" : 0,
         "@name" : "SNAPSHOT 8",
-        "@tempo" : 120
+        "@tempo" : 113.636
       },
       "snapshot4" : {
+        "@pedalstate" : 2,
+        "@ledcolor" : 0,
         "@name" : "SNAPSHOT 5",
-        "@tempo" : 120
+        "@tempo" : 113.636
       },
       "dsp1" : {
         "block0" : {
@@ -46,9 +50,12 @@
           "threshold" : -48
         },
         "split" : {
-          "@position" : 0,
+          "BalanceA" : 0.5,
           "@model" : "HD2_AppDSPFlowSplitY",
-          "@enabled" : true
+          "@enabled" : true,
+          "bypass" : false,
+          "@position" : 0,
+          "BalanceB" : 0.5
         },
         "join" : {
           "@model" : "HD2_AppDSPFlowJoin",
@@ -75,8 +82,10 @@
         }
       },
       "snapshot1" : {
+        "@pedalstate" : 2,
+        "@ledcolor" : 0,
         "@name" : "SNAPSHOT 2",
-        "@tempo" : 120
+        "@tempo" : 113.636
       },
       "controller" : {
         "dsp0" : {
@@ -90,8 +99,10 @@
         }
       },
       "snapshot5" : {
+        "@pedalstate" : 2,
+        "@ledcolor" : 0,
         "@name" : "SNAPSHOT 6",
-        "@tempo" : 120
+        "@tempo" : 113.636
       },
       "dsp0" : {
         "join" : {
@@ -180,7 +191,7 @@
           "@position" : 6,
           "Drive" : 0.96,
           "Treble" : 0.6,
-          "ChVol" : 0.61,
+          "ChVol" : 0.76,
           "@enabled" : true,
           "Ripple" : 0.7,
           "@path" : 0,
@@ -205,9 +216,12 @@
           "VolumeTaper" : false
         },
         "split" : {
-          "@position" : 0,
+          "BalanceA" : 0.5,
           "@model" : "HD2_AppDSPFlowSplitY",
-          "@enabled" : true
+          "@enabled" : true,
+          "bypass" : false,
+          "@position" : 0,
+          "BalanceB" : 0.5
         },
         "block5" : {
           "@model" : "HD2_DelayTransistorTape",
@@ -260,8 +274,10 @@
         }
       },
       "snapshot2" : {
+        "@pedalstate" : 2,
+        "@ledcolor" : 0,
         "@name" : "SNAPSHOT 3",
-        "@tempo" : 120
+        "@tempo" : 113.636
       },
       "global" : {
         "@variax_volumeknob" : 10,
@@ -289,8 +305,10 @@
         "@cursor_group" : "block6"
       },
       "snapshot6" : {
+        "@pedalstate" : 2,
+        "@ledcolor" : 0,
         "@name" : "SNAPSHOT 7",
-        "@tempo" : 120
+        "@tempo" : 113.636
       },
       "footswitch" : {
         "dsp1" : {
@@ -355,10 +373,22 @@
         }
       },
       "snapshot3" : {
+        "@pedalstate" : 2,
+        "@ledcolor" : 0,
         "@name" : "SNAPSHOT 4",
-        "@tempo" : 120
+        "@tempo" : 113.636
       },
       "snapshot0" : {
+        "controllers" : {
+          "dsp0" : {
+            "block0" : {
+              "Pedal" : {
+                "@fs_enabled" : false,
+                "@value" : 1
+              }
+            }
+          }
+        },
         "blocks" : {
           "dsp1" : {
             "block0" : false
@@ -374,21 +404,13 @@
             "block7" : true
           }
         },
-        "controllers" : {
-          "dsp0" : {
-            "block0" : {
-              "Pedal" : {
-                "@fs_enabled" : false,
-                "@value" : 1
-              }
-            }
-          }
-        },
+        "@pedalstate" : 2,
+        "@ledcolor" : 0,
         "@name" : "SNAPSHOT 1",
-        "@tempo" : 120
+        "@tempo" : 113.636
       }
     },
-    "device_version" : 33620000
+    "device_version" : 34603040
   },
   "schema" : "L6Preset"
 }
