@@ -4,24 +4,36 @@
     "meta" : {
       "name" : "DT25-DT50 Remote",
       "application" : "Helix",
-      "build_sha" : "69d8fa6",
-      "modifieddate" : 1463021854,
-      "appversion" : 17956864
+      "build_sha" : "73211ae",
+      "modifieddate" : 1483915572,
+      "appversion" : 34668544
     },
     "device" : 2162689,
     "tone" : {
-      "commandFS10" : {
-        "@command" : 1,
-        "@fs_ledcolor" : 462860,
-        "@current" : 0,
-        "@fs_momentary" : false,
-        "@toggle" : 127,
-        "@initial" : 0,
-        "@cc" : 116,
-        "@channel" : 0,
-        "@fs_enabled" : false,
-        "@fs_customlabel" : "Ch.B TRIODE-PENT",
-        "@fs_label" : "CC Toggle"
+      "global" : {
+        "@variax_volumeknob" : -0.1,
+        "@pedalstate" : 2,
+        "@variax_customtuning" : true,
+        "@variax_str1tuning" : 0,
+        "@variax_str2tuning" : 0,
+        "@variax_str4tuning" : 0,
+        "@variax_str6tuning" : 0,
+        "@variax_model" : 10,
+        "@model" : "@global_params",
+        "@topology0" : "SABJ",
+        "@cursor_dsp" : 0,
+        "@cursor_path" : 0,
+        "@guitarinputZ" : 0,
+        "@tempo" : 120,
+        "@topology1" : "A",
+        "@cursor_position" : 2,
+        "@variax_lockctrls" : 0,
+        "@variax_magmode" : true,
+        "@variax_str3tuning" : 0,
+        "@variax_str5tuning" : 0,
+        "@variax_toneknob" : -0.1,
+        "@current_snapshot" : 0,
+        "@cursor_group" : "block2"
       },
       "commandFS11" : {
         "@command" : 1,
@@ -36,97 +48,230 @@
         "@fs_customlabel" : "Ch.B REVERB",
         "@fs_label" : "CC Toggle"
       },
-      "commandFS8" : {
-        "@command" : 2,
-        "@fs_ledcolor" : 462860,
-        "@fs_momentary" : true,
-        "@value" : 0,
-        "@cc" : 66,
-        "@channel" : 0,
-        "@fs_enabled" : false,
-        "@fs_customlabel" : "CHANNEL A-B",
-        "@fs_label" : "CC Value"
-      },
-      "dsp1" : {
-        "split" : {
-          "@position" : 0,
-          "@model" : "HD2_AppDSPFlowSplitY",
-          "@enabled" : true
-        },
-        "inputA" : {
-          "@input" : 0,
-          "@model" : "HD2_AppDSPFlow1Input",
-          "noiseGate" : false,
-          "decay" : 0.5,
-          "threshold" : -48
-        },
-        "inputB" : {
-          "@input" : 0,
-          "@model" : "HD2_AppDSPFlow2Input",
-          "noiseGate" : false,
-          "decay" : 0.5,
-          "threshold" : -48
-        },
-        "join" : {
-          "@model" : "HD2_AppDSPFlowJoin",
-          "B Pan" : 0.5,
-          "B Level" : 0,
-          "A Level" : 0,
-          "A Pan" : 0.5,
-          "@position" : 8,
-          "Level" : 0,
-          "@enabled" : true,
-          "B Polarity" : false
-        },
-        "outputA" : {
-          "@model" : "HD2_AppDSPFlowOutput",
-          "@output" : 1,
-          "pan" : 0.5,
-          "gain" : 0
-        },
-        "outputB" : {
-          "@model" : "HD2_AppDSPFlowOutput",
-          "@output" : 1,
-          "pan" : 0.5,
-          "gain" : 0
-        }
-      },
-      "commandFS3" : {
+      "commandFS10" : {
         "@command" : 1,
         "@fs_ledcolor" : 462860,
         "@current" : 0,
         "@fs_momentary" : false,
         "@toggle" : 127,
         "@initial" : 0,
-        "@cc" : 73,
+        "@cc" : 116,
         "@channel" : 0,
         "@fs_enabled" : false,
-        "@fs_customlabel" : "Ch.A CLASS A-AB",
+        "@fs_customlabel" : "Ch.B TRIODE-PENT",
         "@fs_label" : "CC Toggle"
       },
-      "controller" : {
-        "dsp0" : {
-          "block1" : {
-            "Pedal" : {
-              "@min" : 0,
-              "@controller" : 2,
-              "@max" : 1
+      "snapshot0" : {
+        "@name" : "SNAPSHOT 1",
+        "@tempo" : 120,
+        "blocks" : {
+          "dsp0" : {
+            "block1" : true,
+            "block0" : true,
+            "block2" : true
+          }
+        },
+        "commands" : {
+          "commandFS3" : {
+            "@fs_enabled" : false,
+            "@value" : 0
+          },
+          "commandFS9" : {
+            "@fs_enabled" : false,
+            "@value" : 0
+          },
+          "commandFS10" : {
+            "@fs_enabled" : false,
+            "@value" : 0
+          },
+          "commandFS8" : {
+            "@fs_enabled" : false,
+            "@value" : 0
+          },
+          "commandFS5" : {
+            "@fs_enabled" : false,
+            "@value" : 0
+          },
+          "commandFS11" : {
+            "@fs_enabled" : false,
+            "@value" : 0
+          },
+          "commandFS4" : {
+            "@fs_enabled" : false,
+            "@value" : 0
+          }
+        },
+        "@pedalstate" : 0,
+        "@ledcolor" : 0,
+        "controllers" : {
+          "dsp0" : {
+            "block1" : {
+              "Pedal" : {
+                "@fs_enabled" : false,
+                "@value" : 1
+              }
             }
           }
         }
       },
-      "commandFS5" : {
-        "@command" : 1,
-        "@fs_ledcolor" : 462860,
-        "@current" : 0,
-        "@fs_momentary" : false,
-        "@toggle" : 127,
-        "@initial" : 0,
-        "@cc" : 36,
-        "@channel" : 0,
-        "@fs_enabled" : false,
-        "@fs_customlabel" : "Ch.A REVERB",
-        "@fs_label" : "CC Toggle"
+      "snapshot2" : {
+        "@name" : "SNAPSHOT 3",
+        "@tempo" : 120,
+        "blocks" : {
+          "dsp0" : {
+            "block1" : true,
+            "block0" : true,
+            "block2" : true
+          }
+        },
+        "commands" : {
+          "commandFS3" : {
+            "@fs_enabled" : false,
+            "@value" : 0
+          },
+          "commandFS9" : {
+            "@fs_enabled" : false,
+            "@value" : 0
+          },
+          "commandFS10" : {
+            "@fs_enabled" : false,
+            "@value" : 0
+          },
+          "commandFS8" : {
+            "@fs_enabled" : false,
+            "@value" : 0
+          },
+          "commandFS5" : {
+            "@fs_enabled" : false,
+            "@value" : 0
+          },
+          "commandFS11" : {
+            "@fs_enabled" : false,
+            "@value" : 0
+          },
+          "commandFS4" : {
+            "@fs_enabled" : false,
+            "@value" : 0
+          }
+        },
+        "@pedalstate" : 0,
+        "@ledcolor" : 0,
+        "controllers" : {
+          "dsp0" : {
+            "block1" : {
+              "Pedal" : {
+                "@fs_enabled" : false,
+                "@value" : 1
+              }
+            }
+          }
+        }
+      },
+      "snapshot4" : {
+        "@name" : "SNAPSHOT 5",
+        "@tempo" : 120,
+        "blocks" : {
+          "dsp0" : {
+            "block1" : true,
+            "block0" : true,
+            "block2" : true
+          }
+        },
+        "commands" : {
+          "commandFS3" : {
+            "@fs_enabled" : false,
+            "@value" : 0
+          },
+          "commandFS9" : {
+            "@fs_enabled" : false,
+            "@value" : 0
+          },
+          "commandFS10" : {
+            "@fs_enabled" : false,
+            "@value" : 0
+          },
+          "commandFS8" : {
+            "@fs_enabled" : false,
+            "@value" : 0
+          },
+          "commandFS5" : {
+            "@fs_enabled" : false,
+            "@value" : 0
+          },
+          "commandFS11" : {
+            "@fs_enabled" : false,
+            "@value" : 0
+          },
+          "commandFS4" : {
+            "@fs_enabled" : false,
+            "@value" : 0
+          }
+        },
+        "@pedalstate" : 0,
+        "@ledcolor" : 0,
+        "controllers" : {
+          "dsp0" : {
+            "block1" : {
+              "Pedal" : {
+                "@fs_enabled" : false,
+                "@value" : 1
+              }
+            }
+          }
+        }
+      },
+      "snapshot6" : {
+        "@name" : "SNAPSHOT 7",
+        "@tempo" : 120,
+        "blocks" : {
+          "dsp0" : {
+            "block1" : true,
+            "block0" : true,
+            "block2" : true
+          }
+        },
+        "commands" : {
+          "commandFS3" : {
+            "@fs_enabled" : false,
+            "@value" : 0
+          },
+          "commandFS9" : {
+            "@fs_enabled" : false,
+            "@value" : 0
+          },
+          "commandFS10" : {
+            "@fs_enabled" : false,
+            "@value" : 0
+          },
+          "commandFS8" : {
+            "@fs_enabled" : false,
+            "@value" : 0
+          },
+          "commandFS5" : {
+            "@fs_enabled" : false,
+            "@value" : 0
+          },
+          "commandFS11" : {
+            "@fs_enabled" : false,
+            "@value" : 0
+          },
+          "commandFS4" : {
+            "@fs_enabled" : false,
+            "@value" : 0
+          }
+        },
+        "@pedalstate" : 0,
+        "@ledcolor" : 0,
+        "controllers" : {
+          "dsp0" : {
+            "block1" : {
+              "Pedal" : {
+                "@fs_enabled" : false,
+                "@value" : 1
+              }
+            }
+          }
+        }
       },
       "dsp0" : {
         "block0" : {
@@ -197,9 +342,12 @@
           "B Polarity" : false
         },
         "split" : {
-          "@position" : 3,
+          "BalanceA" : 0.5,
           "@model" : "HD2_AppDSPFlowSplitY",
-          "@enabled" : true
+          "@enabled" : true,
+          "bypass" : false,
+          "@position" : 3,
+          "BalanceB" : 0.5
         },
         "outputB" : {
           "@model" : "HD2_AppDSPFlowOutput",
@@ -214,28 +362,55 @@
           "gain" : 0
         }
       },
-      "global" : {
-        "@variax_volumeknob" : -0.1,
-        "@pedalstate" : 2,
-        "@variax_customtuning" : true,
-        "@variax_str1tuning" : 0,
-        "@variax_str2tuning" : 0,
-        "@variax_str4tuning" : 0,
-        "@variax_str6tuning" : 0,
-        "@variax_model" : 10,
-        "@model" : "@global_params",
-        "@topology0" : "SABJ",
-        "@cursor_dsp" : 0,
-        "@cursor_path" : 0,
-        "@tempo" : 120,
-        "@topology1" : "A",
-        "@variax_magmode" : true,
-        "@cursor_position" : 2,
-        "@variax_lockctrls" : 0,
-        "@variax_str3tuning" : 0,
-        "@variax_str5tuning" : 0,
-        "@variax_toneknob" : -0.1,
-        "@cursor_group" : "block2"
+      "commandFS3" : {
+        "@command" : 1,
+        "@fs_ledcolor" : 462860,
+        "@current" : 0,
+        "@fs_momentary" : false,
+        "@toggle" : 127,
+        "@initial" : 0,
+        "@cc" : 73,
+        "@channel" : 0,
+        "@fs_enabled" : false,
+        "@fs_customlabel" : "Ch.A CLASS A-AB",
+        "@fs_label" : "CC Toggle"
+      },
+      "commandFS4" : {
+        "@command" : 1,
+        "@fs_ledcolor" : 462860,
+        "@current" : 0,
+        "@fs_momentary" : false,
+        "@toggle" : 127,
+        "@initial" : 0,
+        "@cc" : 75,
+        "@channel" : 0,
+        "@fs_enabled" : false,
+        "@fs_customlabel" : "Ch.A TRIODE-PENT",
+        "@fs_label" : "CC Toggle"
+      },
+      "commandFS5" : {
+        "@command" : 1,
+        "@fs_ledcolor" : 462860,
+        "@current" : 0,
+        "@fs_momentary" : false,
+        "@toggle" : 127,
+        "@initial" : 0,
+        "@cc" : 36,
+        "@channel" : 0,
+        "@fs_enabled" : false,
+        "@fs_customlabel" : "Ch.A REVERB",
+        "@fs_label" : "CC Toggle"
+      },
+      "commandFS8" : {
+        "@command" : 2,
+        "@fs_ledcolor" : 462860,
+        "@fs_momentary" : true,
+        "@value" : 0,
+        "@cc" : 66,
+        "@channel" : 0,
+        "@fs_enabled" : false,
+        "@fs_customlabel" : "CHANNEL A-B",
+        "@fs_label" : "CC Value"
       },
       "commandFS9" : {
         "@command" : 1,
@@ -250,6 +425,17 @@
         "@fs_customlabel" : "Ch.B CLASS A-AB",
         "@fs_label" : "CC Toggle"
       },
+      "controller" : {
+        "dsp0" : {
+          "block1" : {
+            "Pedal" : {
+              "@min" : 0,
+              "@controller" : 2,
+              "@max" : 1
+            }
+          }
+        }
+      },
       "footswitch" : {
         "dsp0" : {
           "block1" : {
@@ -261,21 +447,267 @@
           }
         }
       },
-      "commandFS4" : {
-        "@command" : 1,
-        "@fs_ledcolor" : 462860,
-        "@current" : 0,
-        "@fs_momentary" : false,
-        "@toggle" : 127,
-        "@initial" : 0,
-        "@cc" : 75,
-        "@channel" : 0,
-        "@fs_enabled" : false,
-        "@fs_customlabel" : "Ch.A TRIODE-PENT",
-        "@fs_label" : "CC Toggle"
+      "dsp1" : {
+        "split" : {
+          "BalanceA" : 0.5,
+          "@model" : "HD2_AppDSPFlowSplitY",
+          "@enabled" : true,
+          "bypass" : false,
+          "@position" : 0,
+          "BalanceB" : 0.5
+        },
+        "inputA" : {
+          "@input" : 0,
+          "@model" : "HD2_AppDSPFlow1Input",
+          "noiseGate" : false,
+          "decay" : 0.5,
+          "threshold" : -48
+        },
+        "inputB" : {
+          "@input" : 0,
+          "@model" : "HD2_AppDSPFlow2Input",
+          "noiseGate" : false,
+          "decay" : 0.5,
+          "threshold" : -48
+        },
+        "join" : {
+          "@model" : "HD2_AppDSPFlowJoin",
+          "B Pan" : 0.5,
+          "B Level" : 0,
+          "A Level" : 0,
+          "A Pan" : 0.5,
+          "@position" : 8,
+          "Level" : 0,
+          "@enabled" : true,
+          "B Polarity" : false
+        },
+        "outputA" : {
+          "@model" : "HD2_AppDSPFlowOutput",
+          "@output" : 1,
+          "pan" : 0.5,
+          "gain" : 0
+        },
+        "outputB" : {
+          "@model" : "HD2_AppDSPFlowOutput",
+          "@output" : 1,
+          "pan" : 0.5,
+          "gain" : 0
+        }
+      },
+      "snapshot1" : {
+        "@name" : "SNAPSHOT 2",
+        "@tempo" : 120,
+        "blocks" : {
+          "dsp0" : {
+            "block1" : true,
+            "block0" : true,
+            "block2" : true
+          }
+        },
+        "commands" : {
+          "commandFS3" : {
+            "@fs_enabled" : false,
+            "@value" : 0
+          },
+          "commandFS9" : {
+            "@fs_enabled" : false,
+            "@value" : 0
+          },
+          "commandFS10" : {
+            "@fs_enabled" : false,
+            "@value" : 0
+          },
+          "commandFS8" : {
+            "@fs_enabled" : false,
+            "@value" : 0
+          },
+          "commandFS5" : {
+            "@fs_enabled" : false,
+            "@value" : 0
+          },
+          "commandFS11" : {
+            "@fs_enabled" : false,
+            "@value" : 0
+          },
+          "commandFS4" : {
+            "@fs_enabled" : false,
+            "@value" : 0
+          }
+        },
+        "@pedalstate" : 0,
+        "@ledcolor" : 0,
+        "controllers" : {
+          "dsp0" : {
+            "block1" : {
+              "Pedal" : {
+                "@fs_enabled" : false,
+                "@value" : 1
+              }
+            }
+          }
+        }
+      },
+      "snapshot3" : {
+        "@name" : "SNAPSHOT 4",
+        "@tempo" : 120,
+        "blocks" : {
+          "dsp0" : {
+            "block1" : true,
+            "block0" : true,
+            "block2" : true
+          }
+        },
+        "commands" : {
+          "commandFS3" : {
+            "@fs_enabled" : false,
+            "@value" : 0
+          },
+          "commandFS9" : {
+            "@fs_enabled" : false,
+            "@value" : 0
+          },
+          "commandFS10" : {
+            "@fs_enabled" : false,
+            "@value" : 0
+          },
+          "commandFS8" : {
+            "@fs_enabled" : false,
+            "@value" : 0
+          },
+          "commandFS5" : {
+            "@fs_enabled" : false,
+            "@value" : 0
+          },
+          "commandFS11" : {
+            "@fs_enabled" : false,
+            "@value" : 0
+          },
+          "commandFS4" : {
+            "@fs_enabled" : false,
+            "@value" : 0
+          }
+        },
+        "@pedalstate" : 0,
+        "@ledcolor" : 0,
+        "controllers" : {
+          "dsp0" : {
+            "block1" : {
+              "Pedal" : {
+                "@fs_enabled" : false,
+                "@value" : 1
+              }
+            }
+          }
+        }
+      },
+      "snapshot5" : {
+        "@name" : "SNAPSHOT 6",
+        "@tempo" : 120,
+        "blocks" : {
+          "dsp0" : {
+            "block1" : true,
+            "block0" : true,
+            "block2" : true
+          }
+        },
+        "commands" : {
+          "commandFS3" : {
+            "@fs_enabled" : false,
+            "@value" : 0
+          },
+          "commandFS9" : {
+            "@fs_enabled" : false,
+            "@value" : 0
+          },
+          "commandFS10" : {
+            "@fs_enabled" : false,
+            "@value" : 0
+          },
+          "commandFS8" : {
+            "@fs_enabled" : false,
+            "@value" : 0
+          },
+          "commandFS5" : {
+            "@fs_enabled" : false,
+            "@value" : 0
+          },
+          "commandFS11" : {
+            "@fs_enabled" : false,
+            "@value" : 0
+          },
+          "commandFS4" : {
+            "@fs_enabled" : false,
+            "@value" : 0
+          }
+        },
+        "@pedalstate" : 0,
+        "@ledcolor" : 0,
+        "controllers" : {
+          "dsp0" : {
+            "block1" : {
+              "Pedal" : {
+                "@fs_enabled" : false,
+                "@value" : 1
+              }
+            }
+          }
+        }
+      },
+      "snapshot7" : {
+        "@name" : "SNAPSHOT 8",
+        "@tempo" : 120,
+        "blocks" : {
+          "dsp0" : {
+            "block1" : true,
+            "block0" : true,
+            "block2" : true
+          }
+        },
+        "commands" : {
+          "commandFS3" : {
+            "@fs_enabled" : false,
+            "@value" : 0
+          },
+          "commandFS9" : {
+            "@fs_enabled" : false,
+            "@value" : 0
+          },
+          "commandFS10" : {
+            "@fs_enabled" : false,
+            "@value" : 0
+          },
+          "commandFS8" : {
+            "@fs_enabled" : false,
+            "@value" : 0
+          },
+          "commandFS5" : {
+            "@fs_enabled" : false,
+            "@value" : 0
+          },
+          "commandFS11" : {
+            "@fs_enabled" : false,
+            "@value" : 0
+          },
+          "commandFS4" : {
+            "@fs_enabled" : false,
+            "@value" : 0
+          }
+        },
+        "@pedalstate" : 0,
+        "@ledcolor" : 0,
+        "controllers" : {
+          "dsp0" : {
+            "block1" : {
+              "Pedal" : {
+                "@fs_enabled" : false,
+                "@value" : 1
+              }
+            }
+          }
+        }
       }
     },
-    "device_version" : 17956896
+    "device_version" : 34668576
   },
   "schema" : "L6Preset"
 }

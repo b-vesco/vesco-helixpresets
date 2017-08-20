@@ -5,8 +5,8 @@
       "name" : "Solo Lead Crunch",
       "application" : "Helix",
       "build_sha" : "87b59c5",
-      "modifieddate" : 1479876184,
-      "appversion" : 34603008
+      "modifieddate" : 1503182375,
+      "appversion" : 35651584
     },
     "device" : 2162689,
     "tone" : {
@@ -378,7 +378,7 @@
         "@tempo" : 105.171
       }
     },
-    "device_version" : 34603040
+    "device_version" : 34668576
   },
   "schema" : "L6Preset"
 }
