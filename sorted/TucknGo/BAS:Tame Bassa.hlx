@@ -5,8 +5,8 @@
       "name" : "BAS:Tame Bassa",
       "application" : "Helix",
       "build_sha" : "c3f1cfb",
-      "modifieddate" : 1459289939,
-      "appversion" : 17825792
+      "modifieddate" : 1463021818,
+      "appversion" : 17956864
     },
     "device" : 2162689,
     "tone" : {
@@ -262,7 +262,7 @@
         }
       }
     },
-    "device_version" : 17825824
+    "device_version" : 17956896
   },
   "schema" : "L6Preset"
 }

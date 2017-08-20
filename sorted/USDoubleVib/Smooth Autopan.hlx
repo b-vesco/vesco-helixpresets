@@ -5,8 +5,8 @@
       "name" : "Smooth Autopan",
       "application" : "Helix",
       "build_sha" : "69d8fa6",
-      "modifieddate" : 1459289960,
-      "appversion" : 17825792
+      "modifieddate" : 1463021833,
+      "appversion" : 17956864
     },
     "device" : 2162689,
     "tone" : {
@@ -325,7 +325,7 @@
         }
       }
     },
-    "device_version" : 17825824
+    "device_version" : 17956896
   },
   "schema" : "L6Preset"
 }

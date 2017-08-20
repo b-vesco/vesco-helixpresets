@@ -5,8 +5,8 @@
       "name" : "Brit J-45 Brt",
       "application" : "Helix",
       "build_sha" : "b4fb225",
-      "modifieddate" : 1459289933,
-      "appversion" : 17825792
+      "modifieddate" : 1463021804,
+      "appversion" : 17956864
     },
     "device" : 2162689,
     "tone" : {
@@ -288,7 +288,7 @@
         }
       }
     },
-    "device_version" : 17825824
+    "device_version" : 17956896
   },
   "schema" : "L6Preset"
 }
