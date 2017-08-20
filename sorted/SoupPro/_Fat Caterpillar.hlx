@@ -4,9 +4,9 @@
     "meta" : {
       "name" : "Fat Caterpillar",
       "application" : "Helix",
-      "build_sha" : "e2528f3",
-      "modifieddate" : 1468058518,
-      "appversion" : 33554688
+      "build_sha" : "73211ae",
+      "modifieddate" : 1479868806,
+      "appversion" : 33619968
     },
     "device" : 2162689,
     "tone" : {
@@ -379,7 +379,7 @@
         "@topology0" : "SABJ",
         "@cursor_dsp" : 0,
         "@cursor_path" : 0,
-        "@guitarinputZ" : 8,
+        "@guitarinputZ" : 0,
         "@tempo" : 120,
         "@topology1" : "A",
         "@cursor_position" : 3,
@@ -469,11 +469,48 @@
         "@tempo" : 120
       },
       "snapshot0" : {
+        "blocks" : {
+          "dsp1" : {
+            "block0" : true,
+            "block4" : true,
+            "block1" : true,
+            "block5" : false,
+            "block2" : true,
+            "block3" : true
+          },
+          "dsp0" : {
+            "block0" : true,
+            "block1" : true,
+            "block2" : true,
+            "block3" : true,
+            "block4" : true,
+            "block5" : false,
+            "block6" : true
+          }
+        },
+        "controllers" : {
+          "dsp1" : {
+            "block0" : {
+              "Pedal" : {
+                "@fs_enabled" : false,
+                "@value" : 1
+              }
+            }
+          },
+          "dsp0" : {
+            "block2" : {
+              "Pedal" : {
+                "@fs_enabled" : false,
+                "@value" : 1
+              }
+            }
+          }
+        },
         "@name" : "SNAPSHOT 1",
         "@tempo" : 120
       }
     },
-    "device_version" : 33554464
+    "device_version" : 33620000
   },
   "schema" : "L6Preset"
 }

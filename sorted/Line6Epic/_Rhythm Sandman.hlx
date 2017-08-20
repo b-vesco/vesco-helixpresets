@@ -4,9 +4,9 @@
     "meta" : {
       "name" : "Rhythm Sandman",
       "application" : "Helix",
-      "build_sha" : "3583e0d",
-      "modifieddate" : 1468058579,
-      "appversion" : 33554688
+      "build_sha" : "73211ae",
+      "modifieddate" : 1479868845,
+      "appversion" : 33619968
     },
     "device" : 2162689,
     "tone" : {
@@ -356,7 +356,7 @@
         "@topology0" : "A",
         "@cursor_dsp" : 1,
         "@cursor_path" : 0,
-        "@guitarinputZ" : 8,
+        "@guitarinputZ" : 0,
         "@tempo" : 120,
         "@topology1" : "SABJ",
         "@cursor_position" : 3,
@@ -461,7 +461,7 @@
           "dsp1" : {
             "block0" : true,
             "block4" : true,
-            "block1" : false,
+            "block1" : true,
             "block2" : true,
             "block3" : true
           },
@@ -502,7 +502,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 33554464
+    "device_version" : 33620000
   },
   "schema" : "L6Preset"
 }

@@ -5,8 +5,8 @@
       "name" : "Lead of Leads",
       "application" : "Helix",
       "build_sha" : "9532b30",
-      "modifieddate" : 1468058591,
-      "appversion" : 33554688
+      "modifieddate" : 1479868847,
+      "appversion" : 33619968
     },
     "device" : 2162689,
     "tone" : {
@@ -308,7 +308,7 @@
         }
       }
     },
-    "device_version" : 33554464
+    "device_version" : 33620000
   },
   "schema" : "L6Preset"
 }
