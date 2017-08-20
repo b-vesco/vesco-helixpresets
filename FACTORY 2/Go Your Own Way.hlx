@@ -5,7 +5,7 @@
       "name" : "Go Your Own Way",
       "application" : "Helix",
       "build_sha" : "905c912",
-      "modifieddate" : 1490936286,
+      "modifieddate" : 1503218443,
       "appversion" : 35651584
     },
     "device" : 2162689,
@@ -388,7 +388,7 @@
         "@tempo" : 105.171
       }
     },
-    "device_version" : 35651616
+    "device_version" : 35717152
   },
   "schema" : "L6Preset"
 }
