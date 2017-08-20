@@ -4,9 +4,9 @@
     "meta" : {
       "name" : "New Jimmy",
       "application" : "Helix",
-      "build_sha" : "e2528f3",
-      "modifieddate" : 1468058517,
-      "appversion" : 33554688
+      "build_sha" : "73211ae",
+      "modifieddate" : 1479868804,
+      "appversion" : 33619968
     },
     "device" : 2162689,
     "tone" : {
@@ -292,7 +292,7 @@
         "@topology0" : "A",
         "@cursor_dsp" : 0,
         "@cursor_path" : 0,
-        "@guitarinputZ" : 8,
+        "@guitarinputZ" : 0,
         "@tempo" : 120,
         "@topology1" : "A",
         "@cursor_position" : 6,
@@ -375,11 +375,43 @@
         "@tempo" : 120
       },
       "snapshot0" : {
+        "blocks" : {
+          "dsp1" : {
+            "block1" : false,
+            "block0" : false
+          },
+          "dsp0" : {
+            "block0" : false,
+            "block1" : true,
+            "block2" : false,
+            "block3" : true,
+            "block4" : false,
+            "block5" : false,
+            "block6" : false,
+            "block7" : true
+          }
+        },
+        "controllers" : {
+          "dsp0" : {
+            "block1" : {
+              "Pedal" : {
+                "@fs_enabled" : false,
+                "@value" : 1
+              }
+            },
+            "block2" : {
+              "Pedal" : {
+                "@fs_enabled" : false,
+                "@value" : 0
+              }
+            }
+          }
+        },
         "@name" : "SNAPSHOT 1",
         "@tempo" : 120
       }
     },
-    "device_version" : 33554464
+    "device_version" : 33620000
   },
   "schema" : "L6Preset"
 }

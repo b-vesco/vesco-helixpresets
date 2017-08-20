@@ -4,9 +4,9 @@
     "meta" : {
       "name" : "Solo Lead Clean",
       "application" : "Helix",
-      "build_sha" : "3583e0d",
-      "modifieddate" : 1468058499,
-      "appversion" : 33554688
+      "build_sha" : "73211ae",
+      "modifieddate" : 1479868766,
+      "appversion" : 33619968
     },
     "device" : 2162689,
     "tone" : {
@@ -259,7 +259,7 @@
         "@topology0" : "A",
         "@cursor_dsp" : 0,
         "@cursor_path" : 0,
-        "@guitarinputZ" : 8,
+        "@guitarinputZ" : 0,
         "@tempo" : 78.637,
         "@topology1" : "A",
         "@cursor_position" : 3,
@@ -351,7 +351,7 @@
         "@tempo" : 78.637
       }
     },
-    "device_version" : 33554464
+    "device_version" : 33620000
   },
   "schema" : "L6Preset"
 }
