@@ -4,9 +4,9 @@
     "meta" : {
       "name" : "Quadraphonic",
       "application" : "Helix",
-      "build_sha" : "73211ae",
-      "modifieddate" : 1490931839,
-      "appversion" : 34668544
+      "build_sha" : "dd24475",
+      "modifieddate" : 1490936964,
+      "appversion" : 35651584
     },
     "device" : 2162689,
     "tone" : {
@@ -233,7 +233,7 @@
       "global" : {
         "@variax_volumeknob" : -0.1,
         "@pedalstate" : 2,
-        "@variax_customtuning" : true,
+        "@variax_customtuning" : false,
         "@variax_str1tuning" : 0,
         "@variax_str2tuning" : 0,
         "@variax_str4tuning" : 0,
@@ -246,14 +246,14 @@
         "@guitarinputZ" : 0,
         "@tempo" : 120,
         "@topology1" : "SAB",
-        "@cursor_position" : 1,
+        "@cursor_position" : 7,
         "@variax_lockctrls" : 0,
         "@variax_magmode" : true,
         "@variax_str3tuning" : 0,
         "@variax_str5tuning" : 0,
         "@variax_toneknob" : -0.1,
         "@current_snapshot" : 0,
-        "@cursor_group" : ""
+        "@cursor_group" : "block0"
       },
       "snapshot6" : {
         "@pedalstate" : 0,
@@ -346,13 +346,13 @@
             "block2" : true
           }
         },
-        "@pedalstate" : 0,
+        "@pedalstate" : 2,
         "@ledcolor" : 0,
         "@name" : "SNAPSHOT 1",
         "@tempo" : 120
       }
     },
-    "device_version" : 34734112
+    "device_version" : 35651616
   },
   "schema" : "L6Preset"
 }

@@ -1,0 +1,1589 @@
+{
+  "version" : 6,
+  "data" : {
+    "meta" : {
+      "name" : "Real Bass Pedals",
+      "application" : "Helix",
+      "build_sha" : "dd24475",
+      "modifieddate" : 1490936964,
+      "appversion" : 35651584
+    },
+    "device" : 2162689,
+    "tone" : {
+      "snapshot7" : {
+        "controllers" : {
+          "dsp1" : {
+            "block0" : {
+              "Osc1Shape" : {
+                "@fs_enabled" : false,
+                "@value" : 3
+              }
+            },
+            "block1" : {
+              "Osc1Shape" : {
+                "@fs_enabled" : false,
+                "@value" : 3
+              }
+            },
+            "block2" : {
+              "Osc1Shape" : {
+                "@fs_enabled" : false,
+                "@value" : 3
+              }
+            },
+            "block3" : {
+              "Osc1Shape" : {
+                "@fs_enabled" : false,
+                "@value" : 3
+              }
+            },
+            "block4" : {
+              "Osc1Shape" : {
+                "@fs_enabled" : false,
+                "@value" : 3
+              }
+            },
+            "block5" : {
+              "Osc1Shape" : {
+                "@fs_enabled" : false,
+                "@value" : 3
+              }
+            },
+            "block6" : {
+              "Osc1Shape" : {
+                "@fs_enabled" : false,
+                "@value" : 3
+              }
+            },
+            "block7" : {
+              "Osc1Shape" : {
+                "@fs_enabled" : false,
+                "@value" : 3
+              }
+            }
+          },
+          "dsp0" : {
+            "block0" : {
+              "Osc1Shape" : {
+                "@fs_enabled" : false,
+                "@value" : 3
+              }
+            },
+            "block4" : {
+              "Osc1Shape" : {
+                "@fs_enabled" : false,
+                "@value" : 3
+              }
+            },
+            "block1" : {
+              "Osc1Shape" : {
+                "@fs_enabled" : false,
+                "@value" : 3
+              }
+            },
+            "block2" : {
+              "Osc1Shape" : {
+                "@fs_enabled" : false,
+                "@value" : 3
+              }
+            },
+            "block3" : {
+              "Osc1Shape" : {
+                "@fs_enabled" : false,
+                "@value" : 3
+              }
+            }
+          }
+        },
+        "blocks" : {
+          "dsp1" : {
+            "block0" : false,
+            "block1" : false,
+            "block2" : false,
+            "block3" : false,
+            "block4" : false,
+            "block5" : false,
+            "block6" : false,
+            "block7" : false
+          },
+          "dsp0" : {
+            "block0" : false,
+            "block4" : false,
+            "block1" : false,
+            "block2" : false,
+            "block3" : false
+          }
+        },
+        "@pedalstate" : 0,
+        "@ledcolor" : 0,
+        "@name" : "SNAPSHOT 8",
+        "@tempo" : 120
+      },
+      "snapshot4" : {
+        "controllers" : {
+          "dsp1" : {
+            "block0" : {
+              "Osc1Shape" : {
+                "@fs_enabled" : false,
+                "@value" : 4
+              }
+            },
+            "block1" : {
+              "Osc1Shape" : {
+                "@fs_enabled" : false,
+                "@value" : 4
+              }
+            },
+            "block2" : {
+              "Osc1Shape" : {
+                "@fs_enabled" : false,
+                "@value" : 4
+              }
+            },
+            "block3" : {
+              "Osc1Shape" : {
+                "@fs_enabled" : false,
+                "@value" : 4
+              }
+            },
+            "block4" : {
+              "Osc1Shape" : {
+                "@fs_enabled" : false,
+                "@value" : 4
+              }
+            },
+            "block5" : {
+              "Osc1Shape" : {
+                "@fs_enabled" : false,
+                "@value" : 4
+              }
+            },
+            "block6" : {
+              "Osc1Shape" : {
+                "@fs_enabled" : false,
+                "@value" : 4
+              }
+            },
+            "block7" : {
+              "Osc1Shape" : {
+                "@fs_enabled" : false,
+                "@value" : 4
+              }
+            }
+          },
+          "dsp0" : {
+            "block0" : {
+              "Osc1Shape" : {
+                "@fs_enabled" : false,
+                "@value" : 4
+              }
+            },
+            "block4" : {
+              "Osc1Shape" : {
+                "@fs_enabled" : false,
+                "@value" : 4
+              }
+            },
+            "block1" : {
+              "Osc1Shape" : {
+                "@fs_enabled" : false,
+                "@value" : 4
+              }
+            },
+            "block2" : {
+              "Osc1Shape" : {
+                "@fs_enabled" : false,
+                "@value" : 4
+              }
+            },
+            "block3" : {
+              "Osc1Shape" : {
+                "@fs_enabled" : false,
+                "@value" : 4
+              }
+            }
+          }
+        },
+        "blocks" : {
+          "dsp1" : {
+            "block0" : false,
+            "block1" : false,
+            "block2" : false,
+            "block3" : false,
+            "block4" : false,
+            "block5" : false,
+            "block6" : false,
+            "block7" : false
+          },
+          "dsp0" : {
+            "block0" : false,
+            "block4" : false,
+            "block1" : false,
+            "block2" : false,
+            "block3" : false
+          }
+        },
+        "@pedalstate" : 2,
+        "@ledcolor" : 0,
+        "@name" : "Square",
+        "@tempo" : 120
+      },
+      "dsp1" : {
+        "join" : {
+          "@model" : "HD2_AppDSPFlowJoin",
+          "B Pan" : 0.5,
+          "B Level" : 0,
+          "A Level" : 0,
+          "A Pan" : 0.5,
+          "@position" : 8,
+          "Level" : 0,
+          "@enabled" : true,
+          "B Polarity" : false
+        },
+        "block3" : {
+          "Osc1Note" : 5,
+          "Osc1Octave" : 2,
+          "Osc1Shape" : 0,
+          "Osc2Octave" : 3,
+          "@enabled" : false,
+          "DryLevel" : 1,
+          "Osc2Note" : 0,
+          "DryPan" : 0.5,
+          "Attack" : 0.01,
+          "@type" : 8,
+          "Osc2Shape" : 3,
+          "Osc3Note" : 4,
+          "Osc3Octave" : 4,
+          "Osc3Pan" : 0.5,
+          "Osc3Shape" : 3,
+          "@model" : "HD2_Synth3NoteGenerator",
+          "@stereo" : false,
+          "Decay" : 0.01,
+          "Osc2Pan" : 0.544,
+          "@path" : 0,
+          "Level" : 0,
+          "Osc1Glide" : 0.25,
+          "Osc1Level" : 0.5,
+          "Osc2Glide" : 0.25,
+          "Osc2Level" : 0,
+          "Osc1Pan" : 0.478,
+          "Osc3Glide" : 0.25,
+          "@position" : 3,
+          "Osc3Level" : 0,
+          "RiseTimeSwitch" : true
+        },
+        "block2" : {
+          "Osc1Note" : 4,
+          "Osc1Octave" : 2,
+          "Osc1Shape" : 0,
+          "Osc2Octave" : 3,
+          "@enabled" : false,
+          "DryLevel" : 1,
+          "Osc2Note" : 0,
+          "DryPan" : 0.5,
+          "Attack" : 0.01,
+          "@type" : 8,
+          "Osc2Shape" : 3,
+          "Osc3Note" : 4,
+          "Osc3Octave" : 4,
+          "Osc3Pan" : 0.5,
+          "Osc3Shape" : 3,
+          "@model" : "HD2_Synth3NoteGenerator",
+          "@stereo" : false,
+          "Decay" : 0.01,
+          "Osc2Pan" : 0.544,
+          "@path" : 0,
+          "Level" : 0,
+          "Osc1Glide" : 0.25,
+          "Osc1Level" : 0.5,
+          "Osc2Glide" : 0.25,
+          "Osc2Level" : 0,
+          "Osc1Pan" : 0.478,
+          "Osc3Glide" : 0.25,
+          "@position" : 2,
+          "Osc3Level" : 0,
+          "RiseTimeSwitch" : true
+        },
+        "inputB" : {
+          "@input" : 0,
+          "@model" : "HD2_AppDSPFlow2Input",
+          "noiseGate" : false,
+          "decay" : 0.5,
+          "threshold" : -48
+        },
+        "block7" : {
+          "Osc1Note" : 0,
+          "Osc1Octave" : 3,
+          "Osc1Shape" : 0,
+          "Osc2Octave" : 3,
+          "@enabled" : false,
+          "DryLevel" : 1,
+          "Osc2Note" : 0,
+          "DryPan" : 0.5,
+          "Attack" : 0.01,
+          "@type" : 8,
+          "Osc2Shape" : 3,
+          "Osc3Note" : 4,
+          "Osc3Octave" : 4,
+          "Osc3Pan" : 0.5,
+          "Osc3Shape" : 3,
+          "@model" : "HD2_Synth3NoteGenerator",
+          "@stereo" : false,
+          "Decay" : 0.01,
+          "Osc2Pan" : 0.544,
+          "@path" : 0,
+          "Level" : 0,
+          "Osc1Glide" : 0.25,
+          "Osc1Level" : 0.5,
+          "Osc2Glide" : 0.25,
+          "Osc2Level" : 0,
+          "Osc1Pan" : 0.478,
+          "Osc3Glide" : 0.25,
+          "@position" : 7,
+          "Osc3Level" : 0,
+          "RiseTimeSwitch" : true
+        },
+        "block1" : {
+          "Osc1Note" : 2,
+          "Osc1Octave" : 2,
+          "Osc1Shape" : 0,
+          "Osc2Octave" : 3,
+          "@enabled" : false,
+          "DryLevel" : 1,
+          "Osc2Note" : 0,
+          "DryPan" : 0.5,
+          "Attack" : 0.01,
+          "@type" : 8,
+          "Osc2Shape" : 3,
+          "Osc3Note" : 4,
+          "Osc3Octave" : 4,
+          "Osc3Pan" : 0.5,
+          "Osc3Shape" : 3,
+          "@model" : "HD2_Synth3NoteGenerator",
+          "@stereo" : false,
+          "Decay" : 0.01,
+          "Osc2Pan" : 0.544,
+          "@path" : 0,
+          "Level" : 0,
+          "Osc1Glide" : 0.25,
+          "Osc1Level" : 0.5,
+          "Osc2Glide" : 0.25,
+          "Osc2Level" : 0,
+          "Osc1Pan" : 0.478,
+          "Osc3Glide" : 0.25,
+          "@position" : 1,
+          "Osc3Level" : 0,
+          "RiseTimeSwitch" : true
+        },
+        "outputB" : {
+          "@model" : "HD2_AppDSPFlowOutput",
+          "@output" : 1,
+          "pan" : 0.5,
+          "gain" : 0
+        },
+        "inputA" : {
+          "@input" : 0,
+          "@model" : "HD2_AppDSPFlow1Input",
+          "noiseGate" : false,
+          "decay" : 0.5,
+          "threshold" : -48
+        },
+        "block6" : {
+          "Osc1Note" : 11,
+          "Osc1Octave" : 2,
+          "Osc1Shape" : 0,
+          "Osc2Octave" : 3,
+          "@enabled" : false,
+          "DryLevel" : 1,
+          "Osc2Note" : 0,
+          "DryPan" : 0.5,
+          "Attack" : 0.01,
+          "@type" : 8,
+          "Osc2Shape" : 3,
+          "Osc3Note" : 4,
+          "Osc3Octave" : 4,
+          "Osc3Pan" : 0.5,
+          "Osc3Shape" : 3,
+          "@model" : "HD2_Synth3NoteGenerator",
+          "@stereo" : false,
+          "Decay" : 0.01,
+          "Osc2Pan" : 0.544,
+          "@path" : 0,
+          "Level" : 0,
+          "Osc1Glide" : 0.25,
+          "Osc1Level" : 0.5,
+          "Osc2Glide" : 0.25,
+          "Osc2Level" : 0,
+          "Osc1Pan" : 0.478,
+          "Osc3Glide" : 0.25,
+          "@position" : 6,
+          "Osc3Level" : 0,
+          "RiseTimeSwitch" : true
+        },
+        "block0" : {
+          "Osc1Note" : 0,
+          "Osc1Octave" : 2,
+          "Osc1Shape" : 0,
+          "Osc2Octave" : 3,
+          "@enabled" : false,
+          "DryLevel" : 1,
+          "Osc2Note" : 0,
+          "DryPan" : 0.5,
+          "Attack" : 0.01,
+          "@type" : 8,
+          "Osc2Shape" : 3,
+          "Osc3Note" : 4,
+          "Osc3Octave" : 4,
+          "Osc3Pan" : 0.5,
+          "Osc3Shape" : 3,
+          "@model" : "HD2_Synth3NoteGenerator",
+          "@stereo" : false,
+          "Decay" : 0.01,
+          "Osc2Pan" : 0.544,
+          "@path" : 0,
+          "Level" : 0,
+          "Osc1Glide" : 0.25,
+          "Osc1Level" : 0.5,
+          "Osc2Glide" : 0.25,
+          "Osc2Level" : 0,
+          "Osc1Pan" : 0.478,
+          "Osc3Glide" : 0.25,
+          "@position" : 0,
+          "Osc3Level" : 0,
+          "RiseTimeSwitch" : true
+        },
+        "split" : {
+          "BalanceA" : 0.5,
+          "@model" : "HD2_AppDSPFlowSplitY",
+          "@enabled" : true,
+          "bypass" : false,
+          "@position" : 0,
+          "BalanceB" : 0.5
+        },
+        "block5" : {
+          "Osc1Note" : 9,
+          "Osc1Octave" : 2,
+          "Osc1Shape" : 0,
+          "Osc2Octave" : 3,
+          "@enabled" : false,
+          "DryLevel" : 1,
+          "Osc2Note" : 0,
+          "DryPan" : 0.5,
+          "Attack" : 0.01,
+          "@type" : 8,
+          "Osc2Shape" : 3,
+          "Osc3Note" : 4,
+          "Osc3Octave" : 4,
+          "Osc3Pan" : 0.5,
+          "Osc3Shape" : 3,
+          "@model" : "HD2_Synth3NoteGenerator",
+          "@stereo" : false,
+          "Decay" : 0.01,
+          "Osc2Pan" : 0.544,
+          "@path" : 0,
+          "Level" : 0,
+          "Osc1Glide" : 0.25,
+          "Osc1Level" : 0.5,
+          "Osc2Glide" : 0.25,
+          "Osc2Level" : 0,
+          "Osc1Pan" : 0.478,
+          "Osc3Glide" : 0.25,
+          "@position" : 5,
+          "Osc3Level" : 0,
+          "RiseTimeSwitch" : true
+        },
+        "outputA" : {
+          "@model" : "HD2_AppDSPFlowOutput",
+          "@output" : 1,
+          "pan" : 0.5,
+          "gain" : 0
+        },
+        "block4" : {
+          "Osc1Note" : 7,
+          "Osc1Octave" : 2,
+          "Osc1Shape" : 0,
+          "Osc2Octave" : 3,
+          "@enabled" : false,
+          "DryLevel" : 1,
+          "Osc2Note" : 0,
+          "DryPan" : 0.5,
+          "Attack" : 0.01,
+          "@type" : 8,
+          "Osc2Shape" : 3,
+          "Osc3Note" : 4,
+          "Osc3Octave" : 4,
+          "Osc3Pan" : 0.5,
+          "Osc3Shape" : 3,
+          "@model" : "HD2_Synth3NoteGenerator",
+          "@stereo" : false,
+          "Decay" : 0.01,
+          "Osc2Pan" : 0.544,
+          "@path" : 0,
+          "Level" : 0,
+          "Osc1Glide" : 0.25,
+          "Osc1Level" : 0.5,
+          "Osc2Glide" : 0.25,
+          "Osc2Level" : 0,
+          "Osc1Pan" : 0.478,
+          "Osc3Glide" : 0.25,
+          "@position" : 4,
+          "Osc3Level" : 0,
+          "RiseTimeSwitch" : true
+        }
+      },
+      "snapshot1" : {
+        "controllers" : {
+          "dsp1" : {
+            "block0" : {
+              "Osc1Shape" : {
+                "@fs_enabled" : false,
+                "@value" : 1
+              }
+            },
+            "block1" : {
+              "Osc1Shape" : {
+                "@fs_enabled" : false,
+                "@value" : 1
+              }
+            },
+            "block2" : {
+              "Osc1Shape" : {
+                "@fs_enabled" : false,
+                "@value" : 1
+              }
+            },
+            "block3" : {
+              "Osc1Shape" : {
+                "@fs_enabled" : false,
+                "@value" : 1
+              }
+            },
+            "block4" : {
+              "Osc1Shape" : {
+                "@fs_enabled" : false,
+                "@value" : 1
+              }
+            },
+            "block5" : {
+              "Osc1Shape" : {
+                "@fs_enabled" : false,
+                "@value" : 1
+              }
+            },
+            "block6" : {
+              "Osc1Shape" : {
+                "@fs_enabled" : false,
+                "@value" : 1
+              }
+            },
+            "block7" : {
+              "Osc1Shape" : {
+                "@fs_enabled" : false,
+                "@value" : 1
+              }
+            }
+          },
+          "dsp0" : {
+            "block0" : {
+              "Osc1Shape" : {
+                "@fs_enabled" : false,
+                "@value" : 1
+              }
+            },
+            "block4" : {
+              "Osc1Shape" : {
+                "@fs_enabled" : false,
+                "@value" : 1
+              }
+            },
+            "block1" : {
+              "Osc1Shape" : {
+                "@fs_enabled" : false,
+                "@value" : 1
+              }
+            },
+            "block2" : {
+              "Osc1Shape" : {
+                "@fs_enabled" : false,
+                "@value" : 1
+              }
+            },
+            "block3" : {
+              "Osc1Shape" : {
+                "@fs_enabled" : false,
+                "@value" : 1
+              }
+            }
+          }
+        },
+        "blocks" : {
+          "dsp1" : {
+            "block0" : false,
+            "block1" : false,
+            "block2" : false,
+            "block3" : false,
+            "block4" : false,
+            "block5" : false,
+            "block6" : false,
+            "block7" : false
+          },
+          "dsp0" : {
+            "block0" : false,
+            "block4" : false,
+            "block1" : false,
+            "block2" : false,
+            "block3" : false
+          }
+        },
+        "@pedalstate" : 2,
+        "@ledcolor" : 0,
+        "@name" : "Saw Down",
+        "@tempo" : 120
+      },
+      "controller" : {
+        "dsp1" : {
+          "block0" : {
+            "Osc1Shape" : {
+              "@min" : 0,
+              "@controller" : 19,
+              "@max" : 4
+            }
+          },
+          "block1" : {
+            "Osc1Shape" : {
+              "@min" : 0,
+              "@controller" : 19,
+              "@max" : 4
+            }
+          },
+          "block2" : {
+            "Osc1Shape" : {
+              "@min" : 0,
+              "@controller" : 19,
+              "@max" : 4
+            }
+          },
+          "block3" : {
+            "Osc1Shape" : {
+              "@min" : 0,
+              "@controller" : 19,
+              "@max" : 4
+            }
+          },
+          "block4" : {
+            "Osc1Shape" : {
+              "@min" : 0,
+              "@controller" : 19,
+              "@max" : 4
+            }
+          },
+          "block5" : {
+            "Osc1Shape" : {
+              "@min" : 0,
+              "@controller" : 19,
+              "@max" : 4
+            }
+          },
+          "block6" : {
+            "Osc1Shape" : {
+              "@min" : 0,
+              "@controller" : 19,
+              "@max" : 4
+            }
+          },
+          "block7" : {
+            "Osc1Shape" : {
+              "@min" : 0,
+              "@controller" : 19,
+              "@max" : 4
+            }
+          }
+        },
+        "dsp0" : {
+          "block0" : {
+            "Osc1Shape" : {
+              "@min" : 0,
+              "@controller" : 19,
+              "@max" : 4
+            }
+          },
+          "block4" : {
+            "Osc1Shape" : {
+              "@min" : 0,
+              "@controller" : 19,
+              "@max" : 4
+            }
+          },
+          "block1" : {
+            "Osc1Shape" : {
+              "@min" : 0,
+              "@controller" : 19,
+              "@max" : 4
+            }
+          },
+          "block2" : {
+            "Osc1Shape" : {
+              "@min" : 0,
+              "@controller" : 19,
+              "@max" : 4
+            }
+          },
+          "block3" : {
+            "Osc1Shape" : {
+              "@min" : 0,
+              "@controller" : 19,
+              "@max" : 4
+            }
+          }
+        }
+      },
+      "snapshot5" : {
+        "controllers" : {
+          "dsp1" : {
+            "block0" : {
+              "Osc1Shape" : {
+                "@fs_enabled" : false,
+                "@value" : 3
+              }
+            },
+            "block1" : {
+              "Osc1Shape" : {
+                "@fs_enabled" : false,
+                "@value" : 3
+              }
+            },
+            "block2" : {
+              "Osc1Shape" : {
+                "@fs_enabled" : false,
+                "@value" : 3
+              }
+            },
+            "block3" : {
+              "Osc1Shape" : {
+                "@fs_enabled" : false,
+                "@value" : 3
+              }
+            },
+            "block4" : {
+              "Osc1Shape" : {
+                "@fs_enabled" : false,
+                "@value" : 3
+              }
+            },
+            "block5" : {
+              "Osc1Shape" : {
+                "@fs_enabled" : false,
+                "@value" : 3
+              }
+            },
+            "block6" : {
+              "Osc1Shape" : {
+                "@fs_enabled" : false,
+                "@value" : 3
+              }
+            },
+            "block7" : {
+              "Osc1Shape" : {
+                "@fs_enabled" : false,
+                "@value" : 3
+              }
+            }
+          },
+          "dsp0" : {
+            "block0" : {
+              "Osc1Shape" : {
+                "@fs_enabled" : false,
+                "@value" : 3
+              }
+            },
+            "block4" : {
+              "Osc1Shape" : {
+                "@fs_enabled" : false,
+                "@value" : 3
+              }
+            },
+            "block1" : {
+              "Osc1Shape" : {
+                "@fs_enabled" : false,
+                "@value" : 3
+              }
+            },
+            "block2" : {
+              "Osc1Shape" : {
+                "@fs_enabled" : false,
+                "@value" : 3
+              }
+            },
+            "block3" : {
+              "Osc1Shape" : {
+                "@fs_enabled" : false,
+                "@value" : 3
+              }
+            }
+          }
+        },
+        "blocks" : {
+          "dsp1" : {
+            "block0" : false,
+            "block1" : false,
+            "block2" : false,
+            "block3" : false,
+            "block4" : false,
+            "block5" : false,
+            "block6" : false,
+            "block7" : false
+          },
+          "dsp0" : {
+            "block0" : false,
+            "block4" : false,
+            "block1" : false,
+            "block2" : false,
+            "block3" : false
+          }
+        },
+        "@pedalstate" : 0,
+        "@ledcolor" : 0,
+        "@name" : "SNAPSHOT 6",
+        "@tempo" : 120
+      },
+      "dsp0" : {
+        "block0" : {
+          "Osc1Note" : 1,
+          "Osc1Octave" : 2,
+          "Osc1Shape" : 0,
+          "Osc2Octave" : 3,
+          "@enabled" : false,
+          "DryLevel" : 1,
+          "Osc2Note" : 0,
+          "DryPan" : 0.5,
+          "Attack" : 0.01,
+          "@type" : 8,
+          "Osc2Shape" : 3,
+          "Osc3Note" : 4,
+          "Osc3Octave" : 4,
+          "Osc3Pan" : 0.5,
+          "Osc3Shape" : 3,
+          "@model" : "HD2_Synth3NoteGenerator",
+          "@stereo" : false,
+          "Decay" : 0.01,
+          "Osc2Pan" : 0.544,
+          "@path" : 0,
+          "Level" : 0,
+          "Osc1Glide" : 0.25,
+          "Osc1Level" : 0.5,
+          "Osc2Glide" : 0.25,
+          "Osc2Level" : 0,
+          "Osc1Pan" : 0.478,
+          "Osc3Glide" : 0.25,
+          "@position" : 1,
+          "Osc3Level" : 0,
+          "RiseTimeSwitch" : true
+        },
+        "block1" : {
+          "Osc1Note" : 3,
+          "Osc1Octave" : 2,
+          "Osc1Shape" : 0,
+          "Osc2Octave" : 3,
+          "@enabled" : false,
+          "DryLevel" : 1,
+          "Osc2Note" : 0,
+          "DryPan" : 0.5,
+          "Attack" : 0.01,
+          "@type" : 8,
+          "Osc2Shape" : 3,
+          "Osc3Note" : 4,
+          "Osc3Octave" : 4,
+          "Osc3Pan" : 0.5,
+          "Osc3Shape" : 3,
+          "@model" : "HD2_Synth3NoteGenerator",
+          "@stereo" : false,
+          "Decay" : 0.01,
+          "Osc2Pan" : 0.544,
+          "@path" : 0,
+          "Level" : 0,
+          "Osc1Glide" : 0.25,
+          "Osc1Level" : 0.5,
+          "Osc2Glide" : 0.25,
+          "Osc2Level" : 0,
+          "Osc1Pan" : 0.478,
+          "Osc3Glide" : 0.25,
+          "@position" : 2,
+          "Osc3Level" : 0,
+          "RiseTimeSwitch" : true
+        },
+        "block2" : {
+          "Osc1Note" : 6,
+          "Osc1Octave" : 2,
+          "Osc1Shape" : 0,
+          "Osc2Octave" : 3,
+          "@enabled" : false,
+          "DryLevel" : 1,
+          "Osc2Note" : 0,
+          "DryPan" : 0.5,
+          "Attack" : 0.01,
+          "@type" : 8,
+          "Osc2Shape" : 3,
+          "Osc3Note" : 4,
+          "Osc3Octave" : 4,
+          "Osc3Pan" : 0.5,
+          "Osc3Shape" : 3,
+          "@model" : "HD2_Synth3NoteGenerator",
+          "@stereo" : false,
+          "Decay" : 0.01,
+          "Osc2Pan" : 0.544,
+          "@path" : 0,
+          "Level" : 0,
+          "Osc1Glide" : 0.25,
+          "Osc1Level" : 0.5,
+          "Osc2Glide" : 0.25,
+          "Osc2Level" : 0,
+          "Osc1Pan" : 0.478,
+          "Osc3Glide" : 0.25,
+          "@position" : 4,
+          "Osc3Level" : 0,
+          "RiseTimeSwitch" : true
+        },
+        "block3" : {
+          "Osc1Note" : 8,
+          "Osc1Octave" : 2,
+          "Osc1Shape" : 0,
+          "Osc2Octave" : 3,
+          "@enabled" : false,
+          "DryLevel" : 1,
+          "Osc2Note" : 0,
+          "DryPan" : 0.5,
+          "Attack" : 0.01,
+          "@type" : 8,
+          "Osc2Shape" : 3,
+          "Osc3Note" : 4,
+          "Osc3Octave" : 4,
+          "Osc3Pan" : 0.5,
+          "Osc3Shape" : 3,
+          "@model" : "HD2_Synth3NoteGenerator",
+          "@stereo" : false,
+          "Decay" : 0.01,
+          "Osc2Pan" : 0.544,
+          "@path" : 0,
+          "Level" : 0,
+          "Osc1Glide" : 0.25,
+          "Osc1Level" : 0.5,
+          "Osc2Glide" : 0.25,
+          "Osc2Level" : 0,
+          "Osc1Pan" : 0.478,
+          "Osc3Glide" : 0.25,
+          "@position" : 5,
+          "Osc3Level" : 0,
+          "RiseTimeSwitch" : true
+        },
+        "block4" : {
+          "Osc1Note" : 10,
+          "Osc1Octave" : 2,
+          "Osc1Shape" : 0,
+          "Osc2Octave" : 3,
+          "@enabled" : false,
+          "DryLevel" : 1,
+          "Osc2Note" : 0,
+          "DryPan" : 0.5,
+          "Attack" : 0.01,
+          "@type" : 8,
+          "Osc2Shape" : 3,
+          "Osc3Note" : 4,
+          "Osc3Octave" : 4,
+          "Osc3Pan" : 0.5,
+          "Osc3Shape" : 3,
+          "@model" : "HD2_Synth3NoteGenerator",
+          "@stereo" : false,
+          "Decay" : 0.01,
+          "Osc2Pan" : 0.544,
+          "@path" : 0,
+          "Level" : 0,
+          "Osc1Glide" : 0.25,
+          "Osc1Level" : 0.5,
+          "Osc2Glide" : 0.25,
+          "Osc2Level" : 0,
+          "Osc1Pan" : 0.478,
+          "Osc3Glide" : 0.25,
+          "@position" : 6,
+          "Osc3Level" : 0,
+          "RiseTimeSwitch" : true
+        },
+        "inputA" : {
+          "@input" : 8,
+          "@model" : "HD2_AppDSPFlow1Input",
+          "noiseGate" : false,
+          "decay" : 0.5,
+          "threshold" : -48
+        },
+        "inputB" : {
+          "@input" : 0,
+          "@model" : "HD2_AppDSPFlow2Input",
+          "noiseGate" : false,
+          "decay" : 0.5,
+          "threshold" : -48
+        },
+        "join" : {
+          "@model" : "HD2_AppDSPFlowJoin",
+          "B Pan" : 0.5,
+          "B Level" : 0,
+          "A Level" : 0,
+          "A Pan" : 0.5,
+          "@position" : 8,
+          "Level" : 0,
+          "@enabled" : true,
+          "B Polarity" : false
+        },
+        "split" : {
+          "BalanceA" : 0.5,
+          "@model" : "HD2_AppDSPFlowSplitY",
+          "@enabled" : true,
+          "bypass" : false,
+          "@position" : 0,
+          "BalanceB" : 0.5
+        },
+        "outputB" : {
+          "@model" : "HD2_AppDSPFlowOutput",
+          "@output" : 0,
+          "pan" : 0.5,
+          "gain" : 0
+        },
+        "outputA" : {
+          "@model" : "HD2_AppDSPFlowOutput",
+          "@output" : 2,
+          "pan" : 0.5,
+          "gain" : 0
+        }
+      },
+      "snapshot2" : {
+        "controllers" : {
+          "dsp1" : {
+            "block0" : {
+              "Osc1Shape" : {
+                "@fs_enabled" : false,
+                "@value" : 2
+              }
+            },
+            "block1" : {
+              "Osc1Shape" : {
+                "@fs_enabled" : false,
+                "@value" : 2
+              }
+            },
+            "block2" : {
+              "Osc1Shape" : {
+                "@fs_enabled" : false,
+                "@value" : 2
+              }
+            },
+            "block3" : {
+              "Osc1Shape" : {
+                "@fs_enabled" : false,
+                "@value" : 2
+              }
+            },
+            "block4" : {
+              "Osc1Shape" : {
+                "@fs_enabled" : false,
+                "@value" : 2
+              }
+            },
+            "block5" : {
+              "Osc1Shape" : {
+                "@fs_enabled" : false,
+                "@value" : 2
+              }
+            },
+            "block6" : {
+              "Osc1Shape" : {
+                "@fs_enabled" : false,
+                "@value" : 2
+              }
+            },
+            "block7" : {
+              "Osc1Shape" : {
+                "@fs_enabled" : false,
+                "@value" : 2
+              }
+            }
+          },
+          "dsp0" : {
+            "block0" : {
+              "Osc1Shape" : {
+                "@fs_enabled" : false,
+                "@value" : 2
+              }
+            },
+            "block4" : {
+              "Osc1Shape" : {
+                "@fs_enabled" : false,
+                "@value" : 2
+              }
+            },
+            "block1" : {
+              "Osc1Shape" : {
+                "@fs_enabled" : false,
+                "@value" : 2
+              }
+            },
+            "block2" : {
+              "Osc1Shape" : {
+                "@fs_enabled" : false,
+                "@value" : 2
+              }
+            },
+            "block3" : {
+              "Osc1Shape" : {
+                "@fs_enabled" : false,
+                "@value" : 2
+              }
+            }
+          }
+        },
+        "blocks" : {
+          "dsp1" : {
+            "block0" : false,
+            "block1" : false,
+            "block2" : false,
+            "block3" : false,
+            "block4" : false,
+            "block5" : false,
+            "block6" : false,
+            "block7" : false
+          },
+          "dsp0" : {
+            "block0" : false,
+            "block4" : false,
+            "block1" : false,
+            "block2" : false,
+            "block3" : false
+          }
+        },
+        "@pedalstate" : 2,
+        "@ledcolor" : 0,
+        "@name" : "Triangle",
+        "@tempo" : 120
+      },
+      "global" : {
+        "@variax_volumeknob" : -0.1,
+        "@pedalstate" : 2,
+        "@variax_customtuning" : false,
+        "@variax_str1tuning" : 0,
+        "@variax_str2tuning" : 0,
+        "@variax_str4tuning" : 0,
+        "@variax_str6tuning" : 0,
+        "@variax_model" : 10,
+        "@model" : "@global_params",
+        "@topology0" : "A",
+        "@cursor_dsp" : 1,
+        "@guitarinputZ" : 8,
+        "@tempo" : 120,
+        "@topology1" : "A",
+        "@variax_magmode" : true,
+        "@variax_str3tuning" : 0,
+        "@variax_lockctrls" : 0,
+        "@variax_str5tuning" : 0,
+        "@variax_toneknob" : -0.1,
+        "@current_snapshot" : 0,
+        "@cursor_group" : "inputA"
+      },
+      "snapshot6" : {
+        "controllers" : {
+          "dsp1" : {
+            "block0" : {
+              "Osc1Shape" : {
+                "@fs_enabled" : false,
+                "@value" : 3
+              }
+            },
+            "block1" : {
+              "Osc1Shape" : {
+                "@fs_enabled" : false,
+                "@value" : 3
+              }
+            },
+            "block2" : {
+              "Osc1Shape" : {
+                "@fs_enabled" : false,
+                "@value" : 3
+              }
+            },
+            "block3" : {
+              "Osc1Shape" : {
+                "@fs_enabled" : false,
+                "@value" : 3
+              }
+            },
+            "block4" : {
+              "Osc1Shape" : {
+                "@fs_enabled" : false,
+                "@value" : 3
+              }
+            },
+            "block5" : {
+              "Osc1Shape" : {
+                "@fs_enabled" : false,
+                "@value" : 3
+              }
+            },
+            "block6" : {
+              "Osc1Shape" : {
+                "@fs_enabled" : false,
+                "@value" : 3
+              }
+            },
+            "block7" : {
+              "Osc1Shape" : {
+                "@fs_enabled" : false,
+                "@value" : 3
+              }
+            }
+          },
+          "dsp0" : {
+            "block0" : {
+              "Osc1Shape" : {
+                "@fs_enabled" : false,
+                "@value" : 3
+              }
+            },
+            "block4" : {
+              "Osc1Shape" : {
+                "@fs_enabled" : false,
+                "@value" : 3
+              }
+            },
+            "block1" : {
+              "Osc1Shape" : {
+                "@fs_enabled" : false,
+                "@value" : 3
+              }
+            },
+            "block2" : {
+              "Osc1Shape" : {
+                "@fs_enabled" : false,
+                "@value" : 3
+              }
+            },
+            "block3" : {
+              "Osc1Shape" : {
+                "@fs_enabled" : false,
+                "@value" : 3
+              }
+            }
+          }
+        },
+        "blocks" : {
+          "dsp1" : {
+            "block0" : false,
+            "block1" : false,
+            "block2" : false,
+            "block3" : false,
+            "block4" : false,
+            "block5" : false,
+            "block6" : false,
+            "block7" : false
+          },
+          "dsp0" : {
+            "block0" : false,
+            "block4" : false,
+            "block1" : false,
+            "block2" : false,
+            "block3" : false
+          }
+        },
+        "@pedalstate" : 0,
+        "@ledcolor" : 0,
+        "@name" : "SNAPSHOT 7",
+        "@tempo" : 120
+      },
+      "footswitch" : {
+        "dsp1" : {
+          "block0" : {
+            "@fs_label" : "3 Note Generator",
+            "@fs_enabled" : false,
+            "@fs_index" : 7,
+            "@fs_customlabel" : "C",
+            "@fs_ledcolor" : 196619,
+            "@fs_momentary" : true
+          },
+          "block4" : {
+            "@fs_label" : "3 Note Generator",
+            "@fs_enabled" : false,
+            "@fs_index" : 11,
+            "@fs_customlabel" : "G",
+            "@fs_ledcolor" : 196619,
+            "@fs_momentary" : true
+          },
+          "block1" : {
+            "@fs_label" : "3 Note Generator",
+            "@fs_enabled" : false,
+            "@fs_index" : 8,
+            "@fs_customlabel" : "D",
+            "@fs_ledcolor" : 196619,
+            "@fs_momentary" : true
+          },
+          "block2" : {
+            "@fs_label" : "3 Note Generator",
+            "@fs_enabled" : false,
+            "@fs_index" : 9,
+            "@fs_customlabel" : "E",
+            "@fs_ledcolor" : 196619,
+            "@fs_momentary" : true
+          },
+          "block3" : {
+            "@fs_label" : "3 Note Generator",
+            "@fs_enabled" : false,
+            "@fs_index" : 10,
+            "@fs_customlabel" : "F",
+            "@fs_ledcolor" : 196619,
+            "@fs_momentary" : true
+          }
+        },
+        "dsp0" : {
+          "block1" : {
+            "@fs_label" : "3 Note Generator",
+            "@fs_enabled" : false,
+            "@fs_index" : 3,
+            "@fs_customlabel" : "D#",
+            "@fs_ledcolor" : 196619,
+            "@fs_momentary" : true
+          },
+          "block0" : {
+            "@fs_label" : "3 Note Generator",
+            "@fs_enabled" : false,
+            "@fs_index" : 2,
+            "@fs_customlabel" : "C#",
+            "@fs_ledcolor" : 196619,
+            "@fs_momentary" : true
+          },
+          "block2" : {
+            "@fs_label" : "3 Note Generator",
+            "@fs_enabled" : false,
+            "@fs_index" : 5,
+            "@fs_customlabel" : "F#",
+            "@fs_ledcolor" : 196619,
+            "@fs_momentary" : true
+          }
+        }
+      },
+      "snapshot3" : {
+        "controllers" : {
+          "dsp1" : {
+            "block0" : {
+              "Osc1Shape" : {
+                "@fs_enabled" : false,
+                "@value" : 3
+              }
+            },
+            "block1" : {
+              "Osc1Shape" : {
+                "@fs_enabled" : false,
+                "@value" : 3
+              }
+            },
+            "block2" : {
+              "Osc1Shape" : {
+                "@fs_enabled" : false,
+                "@value" : 3
+              }
+            },
+            "block3" : {
+              "Osc1Shape" : {
+                "@fs_enabled" : false,
+                "@value" : 3
+              }
+            },
+            "block4" : {
+              "Osc1Shape" : {
+                "@fs_enabled" : false,
+                "@value" : 3
+              }
+            },
+            "block5" : {
+              "Osc1Shape" : {
+                "@fs_enabled" : false,
+                "@value" : 3
+              }
+            },
+            "block6" : {
+              "Osc1Shape" : {
+                "@fs_enabled" : false,
+                "@value" : 3
+              }
+            },
+            "block7" : {
+              "Osc1Shape" : {
+                "@fs_enabled" : false,
+                "@value" : 3
+              }
+            }
+          },
+          "dsp0" : {
+            "block0" : {
+              "Osc1Shape" : {
+                "@fs_enabled" : false,
+                "@value" : 3
+              }
+            },
+            "block4" : {
+              "Osc1Shape" : {
+                "@fs_enabled" : false,
+                "@value" : 3
+              }
+            },
+            "block1" : {
+              "Osc1Shape" : {
+                "@fs_enabled" : false,
+                "@value" : 3
+              }
+            },
+            "block2" : {
+              "Osc1Shape" : {
+                "@fs_enabled" : false,
+                "@value" : 3
+              }
+            },
+            "block3" : {
+              "Osc1Shape" : {
+                "@fs_enabled" : false,
+                "@value" : 3
+              }
+            }
+          }
+        },
+        "blocks" : {
+          "dsp1" : {
+            "block0" : false,
+            "block1" : false,
+            "block2" : false,
+            "block3" : false,
+            "block4" : false,
+            "block5" : false,
+            "block6" : false,
+            "block7" : false
+          },
+          "dsp0" : {
+            "block0" : false,
+            "block4" : false,
+            "block1" : false,
+            "block2" : false,
+            "block3" : false
+          }
+        },
+        "@pedalstate" : 2,
+        "@ledcolor" : 0,
+        "@name" : "Sine",
+        "@tempo" : 120
+      },
+      "snapshot0" : {
+        "controllers" : {
+          "dsp1" : {
+            "block0" : {
+              "Osc1Shape" : {
+                "@fs_enabled" : false,
+                "@value" : 0
+              }
+            },
+            "block1" : {
+              "Osc1Shape" : {
+                "@fs_enabled" : false,
+                "@value" : 0
+              }
+            },
+            "block2" : {
+              "Osc1Shape" : {
+                "@fs_enabled" : false,
+                "@value" : 0
+              }
+            },
+            "block3" : {
+              "Osc1Shape" : {
+                "@fs_enabled" : false,
+                "@value" : 0
+              }
+            },
+            "block4" : {
+              "Osc1Shape" : {
+                "@fs_enabled" : false,
+                "@value" : 0
+              }
+            },
+            "block5" : {
+              "Osc1Shape" : {
+                "@fs_enabled" : false,
+                "@value" : 0
+              }
+            },
+            "block6" : {
+              "Osc1Shape" : {
+                "@fs_enabled" : false,
+                "@value" : 0
+              }
+            },
+            "block7" : {
+              "Osc1Shape" : {
+                "@fs_enabled" : false,
+                "@value" : 0
+              }
+            }
+          },
+          "dsp0" : {
+            "block0" : {
+              "Osc1Shape" : {
+                "@fs_enabled" : false,
+                "@value" : 0
+              }
+            },
+            "block4" : {
+              "Osc1Shape" : {
+                "@fs_enabled" : false,
+                "@value" : 0
+              }
+            },
+            "block1" : {
+              "Osc1Shape" : {
+                "@fs_enabled" : false,
+                "@value" : 0
+              }
+            },
+            "block2" : {
+              "Osc1Shape" : {
+                "@fs_enabled" : false,
+                "@value" : 0
+              }
+            },
+            "block3" : {
+              "Osc1Shape" : {
+                "@fs_enabled" : false,
+                "@value" : 0
+              }
+            }
+          }
+        },
+        "blocks" : {
+          "dsp1" : {
+            "block0" : false,
+            "block1" : false,
+            "block2" : false,
+            "block3" : false,
+            "block4" : false,
+            "block5" : false,
+            "block6" : false,
+            "block7" : false
+          },
+          "dsp0" : {
+            "block0" : false,
+            "block4" : false,
+            "block1" : false,
+            "block2" : false,
+            "block3" : false
+          }
+        },
+        "@pedalstate" : 2,
+        "@ledcolor" : 0,
+        "@name" : "Saw Up",
+        "@tempo" : 120
+      }
+    },
+    "device_version" : 35651616
+  },
+  "schema" : "L6Preset"
+}
