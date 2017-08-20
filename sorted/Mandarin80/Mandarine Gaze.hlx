@@ -4,9 +4,9 @@
     "meta" : {
       "name" : "Mandarine Gaze",
       "application" : "Helix",
-      "build_sha" : "87b59c5",
-      "modifieddate" : 1490931780,
-      "appversion" : 34668544
+      "build_sha" : "6a7d211",
+      "modifieddate" : 1490936279,
+      "appversion" : 35651584
     },
     "device" : 2162689,
     "tone" : {
@@ -154,7 +154,7 @@
           "@path" : 1,
           "@trails" : false,
           "@type" : 7,
-          "Mix" : 0,
+          "Mix" : 0.2,
           "Level" : 0,
           "Decay" : 0.72,
           "HighCut" : 9760
@@ -170,18 +170,19 @@
         "dsp1" : {
           "block4" : {
             "Mix" : {
+              "@fs_momentary" : false,
               "@min" : 0.2,
               "@max" : 0.55,
               "@controller" : 13,
               "@fs_enabled" : false,
               "@fs_ledcolor" : 462860,
-              "@fs_label" : "Mix",
-              "@fs_momentary" : false
+              "@fs_customlabel" : "More Reverb",
+              "@fs_label" : "Mix"
             }
           }
         },
         "dsp0" : {
-          "block2" : {
+          "block3" : {
             "Pedal" : {
               "@min" : 0,
               "@controller" : 2,
@@ -209,25 +210,6 @@
           "B Polarity" : false
         },
         "block3" : {
-          "@model" : "HD2_FlangerHarmonicFlanger",
-          "Rate" : 0.35,
-          "@position" : 4,
-          "Harmonic" : true,
-          "SyncSelect1" : 5,
-          "TempoSync1" : false,
-          "@enabled" : true,
-          "@path" : 0,
-          "@type" : 0,
-          "Mix" : 0.5,
-          "Headroom" : 0,
-          "Width" : 0.8,
-          "Enhance" : 0.4300001,
-          "Level" : 0,
-          "@stereo" : true,
-          "Manual" : 0.8399999,
-          "Spread" : 0.26
-        },
-        "block2" : {
           "@model" : "HD2_VolPanVol",
           "@path" : 0,
           "@stereo" : false,
@@ -237,14 +219,7 @@
           "@enabled" : true,
           "VolumeTaper" : true
         },
-        "inputB" : {
-          "@input" : 0,
-          "@model" : "HD2_AppDSPFlow2Input",
-          "noiseGate" : false,
-          "decay" : 0.5,
-          "threshold" : -48
-        },
-        "block1" : {
+        "block2" : {
           "Bias" : 0.6700001,
           "@model" : "HD2_AmpMandarin80",
           "Master" : 0.8,
@@ -265,6 +240,24 @@
           "Presence" : 0.5,
           "Sag" : 0.5
         },
+        "inputB" : {
+          "@input" : 0,
+          "@model" : "HD2_AppDSPFlow2Input",
+          "noiseGate" : false,
+          "decay" : 0.5,
+          "threshold" : -48
+        },
+        "block1" : {
+          "@model" : "HD2_DistHedgehogD9",
+          "@path" : 0,
+          "@stereo" : false,
+          "@type" : 0,
+          "Gain" : 0.2,
+          "@position" : 0,
+          "Level" : 0.6,
+          "Tone" : 0.35,
+          "@enabled" : false
+        },
         "outputB" : {
           "@model" : "HD2_AppDSPFlowOutput",
           "@output" : 0,
@@ -278,26 +271,7 @@
           "decay" : 0.5,
           "threshold" : -48
         },
-        "split" : {
-          "BalanceA" : 0.5,
-          "@model" : "HD2_AppDSPFlowSplitY",
-          "@enabled" : true,
-          "bypass" : false,
-          "@position" : 0,
-          "BalanceB" : 0.5
-        },
-        "block0" : {
-          "@model" : "HD2_DistHedgehogD9",
-          "@path" : 0,
-          "@stereo" : false,
-          "@type" : 0,
-          "Gain" : 0.2,
-          "@position" : 0,
-          "Level" : 0.6,
-          "Tone" : 0.35,
-          "@enabled" : false
-        },
-        "block5" : {
+        "block6" : {
           "@model" : "HD2_DistTeemah",
           "Treble" : 0.5,
           "Bass" : 0.5,
@@ -310,13 +284,27 @@
           "Level" : 0.625,
           "@enabled" : true
         },
-        "outputA" : {
-          "@model" : "HD2_AppDSPFlowOutput",
-          "@output" : 2,
-          "pan" : 0.5,
-          "gain" : 0
+        "block0" : {
+          "@model" : "HD2_Looper",
+          "Overdub" : 0,
+          "Playback" : 0,
+          "@path" : 0,
+          "@stereo" : true,
+          "@type" : 6,
+          "highCut" : 20000,
+          "lowCut" : 20,
+          "@position" : 7,
+          "@enabled" : false
         },
-        "block4" : {
+        "split" : {
+          "BalanceA" : 0.5,
+          "@model" : "HD2_AppDSPFlowSplitY",
+          "@enabled" : true,
+          "bypass" : false,
+          "@position" : 0,
+          "BalanceB" : 0.5
+        },
+        "block5" : {
           "@trails" : false,
           "@enabled" : true,
           "@type" : 7,
@@ -338,6 +326,31 @@
           "TempoSync1" : true,
           "DynType" : false,
           "Time" : 0.4990001
+        },
+        "outputA" : {
+          "@model" : "HD2_AppDSPFlowOutput",
+          "@output" : 2,
+          "pan" : 0.5,
+          "gain" : 0
+        },
+        "block4" : {
+          "@model" : "HD2_FlangerHarmonicFlanger",
+          "Rate" : 0.35,
+          "@position" : 4,
+          "Harmonic" : true,
+          "SyncSelect1" : 5,
+          "TempoSync1" : false,
+          "@enabled" : true,
+          "@path" : 0,
+          "@type" : 0,
+          "Mix" : 0.5,
+          "Headroom" : 0,
+          "Width" : 0.8,
+          "Enhance" : 0.4300001,
+          "Level" : 0,
+          "@stereo" : true,
+          "Manual" : 0.8399999,
+          "Spread" : 0.26
         }
       },
       "snapshot2" : {
@@ -349,7 +362,7 @@
       "global" : {
         "@variax_volumeknob" : -0.1,
         "@pedalstate" : 2,
-        "@variax_customtuning" : true,
+        "@variax_customtuning" : false,
         "@variax_str1tuning" : 0,
         "@variax_str2tuning" : 0,
         "@variax_str4tuning" : 0,
@@ -369,7 +382,7 @@
         "@variax_str5tuning" : 0,
         "@variax_toneknob" : -0.1,
         "@current_snapshot" : 0,
-        "@cursor_group" : "block1"
+        "@cursor_group" : "block2"
       },
       "snapshot6" : {
         "@pedalstate" : 2,
@@ -379,25 +392,19 @@
       },
       "footswitch" : {
         "dsp1" : {
+          "block4" : {
+            "@fs_label" : "Octo",
+            "@fs_enabled" : true,
+            "@fs_index" : 11,
+            "@fs_customlabel" : "Verbs",
+            "@fs_ledcolor" : 16723200,
+            "@fs_momentary" : false
+          },
           "block0" : {
             "@fs_label" : "Simple Delay",
             "@fs_enabled" : true,
             "@fs_index" : 4,
             "@fs_ledcolor" : 458496,
-            "@fs_momentary" : false
-          },
-          "block4" : {
-            "@fs_label" : "Octo",
-            "@fs_enabled" : true,
-            "@fs_index" : 11,
-            "@fs_ledcolor" : 16723200,
-            "@fs_momentary" : false
-          },
-          "block1" : {
-            "@fs_label" : "Plate",
-            "@fs_enabled" : true,
-            "@fs_index" : 5,
-            "@fs_ledcolor" : 16723200,
             "@fs_momentary" : false
           },
           "block3" : {
@@ -410,31 +417,38 @@
         },
         "dsp0" : {
           "block0" : {
+            "@fs_label" : "Looper",
+            "@fs_enabled" : false,
+            "@fs_index" : 5,
+            "@fs_ledcolor" : 462860,
+            "@fs_momentary" : false
+          },
+          "block4" : {
+            "@fs_label" : "Harmonic Flanger",
+            "@fs_enabled" : true,
+            "@fs_index" : 2,
+            "@fs_ledcolor" : 13055,
+            "@fs_momentary" : false
+          },
+          "block1" : {
             "@fs_label" : "Hedgehog D9",
             "@fs_enabled" : false,
             "@fs_index" : 9,
             "@fs_ledcolor" : 525824,
             "@fs_momentary" : false
           },
-          "block4" : {
+          "block5" : {
             "@fs_label" : "Ducked Delay",
             "@fs_enabled" : true,
             "@fs_index" : 3,
             "@fs_ledcolor" : 458496,
             "@fs_momentary" : false
           },
-          "block2" : {
+          "block3" : {
             "@fs_label" : "Volume Pedal",
             "@fs_enabled" : true,
             "@fs_index" : 13,
             "@fs_ledcolor" : 65408,
-            "@fs_momentary" : false
-          },
-          "block3" : {
-            "@fs_label" : "Harmonic Flanger",
-            "@fs_enabled" : true,
-            "@fs_index" : 2,
-            "@fs_ledcolor" : 13055,
             "@fs_momentary" : false
           }
         }
@@ -451,12 +465,12 @@
             "block4" : {
               "Mix" : {
                 "@fs_enabled" : false,
-                "@value" : 0
+                "@value" : 0.2
               }
             }
           },
           "dsp0" : {
-            "block2" : {
+            "block3" : {
               "Pedal" : {
                 "@fs_enabled" : false,
                 "@value" : 1
@@ -475,11 +489,12 @@
           },
           "dsp0" : {
             "block0" : false,
-            "block4" : true,
-            "block1" : true,
-            "block5" : true,
+            "block1" : false,
             "block2" : true,
-            "block3" : true
+            "block3" : true,
+            "block4" : true,
+            "block5" : true,
+            "block6" : true
           }
         },
         "@pedalstate" : 2,
@@ -488,7 +503,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 34734112
+    "device_version" : 35651616
   },
   "schema" : "L6Preset"
 }

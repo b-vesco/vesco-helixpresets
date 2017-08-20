@@ -4,9 +4,9 @@
     "meta" : {
       "name" : "Oh No Stereo",
       "application" : "Helix",
-      "build_sha" : "87b59c5",
-      "modifieddate" : 1490931780,
-      "appversion" : 34668544
+      "build_sha" : "6a7d211",
+      "modifieddate" : 1490936279,
+      "appversion" : 35651584
     },
     "device" : 2162689,
     "tone" : {
@@ -123,7 +123,7 @@
           "@position" : 2,
           "Drive" : 0.61,
           "Treble" : 0.36,
-          "ChVol" : 0.6900001,
+          "ChVol" : 0.62,
           "@enabled" : true,
           "Ripple" : 0.5,
           "@path" : 0,
@@ -263,7 +263,7 @@
       "global" : {
         "@variax_volumeknob" : -0.1,
         "@pedalstate" : 2,
-        "@variax_customtuning" : true,
+        "@variax_customtuning" : false,
         "@variax_str1tuning" : 0,
         "@variax_str2tuning" : 0,
         "@variax_str4tuning" : 0,
@@ -377,7 +377,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 34734112
+    "device_version" : 35651616
   },
   "schema" : "L6Preset"
 }

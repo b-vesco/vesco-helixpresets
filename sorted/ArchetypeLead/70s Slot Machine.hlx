@@ -4,9 +4,9 @@
     "meta" : {
       "name" : "70s Slot Machine",
       "application" : "Helix",
-      "build_sha" : "daacb04",
-      "modifieddate" : 1490931788,
-      "appversion" : 34668544
+      "build_sha" : "905c912",
+      "modifieddate" : 1490936308,
+      "appversion" : 35651584
     },
     "device" : 2162689,
     "tone" : {
@@ -53,7 +53,7 @@
           "A Pan" : 0.5,
           "@position" : 8,
           "Level" : 0,
-          "@enabled" : false,
+          "@enabled" : true,
           "B Polarity" : false
         },
         "outputA" : {
@@ -135,7 +135,7 @@
           "A Pan" : 0.5,
           "@position" : 8,
           "Level" : 0,
-          "@enabled" : false,
+          "@enabled" : true,
           "B Polarity" : false
         },
         "block3" : {
@@ -331,7 +331,7 @@
       "global" : {
         "@variax_volumeknob" : -0.1,
         "@pedalstate" : 1,
-        "@variax_customtuning" : true,
+        "@variax_customtuning" : false,
         "@variax_str1tuning" : 0,
         "@variax_str2tuning" : 0,
         "@variax_str4tuning" : 0,
@@ -472,7 +472,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 34734112
+    "device_version" : 35651616
   },
   "schema" : "L6Preset"
 }

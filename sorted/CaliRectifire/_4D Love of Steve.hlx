@@ -4,9 +4,9 @@
     "meta" : {
       "name" : "4D Love of Steve",
       "application" : "Helix",
-      "build_sha" : "87b59c5",
-      "modifieddate" : 1490931782,
-      "appversion" : 34668544
+      "build_sha" : "6a7d211",
+      "modifieddate" : 1490936282,
+      "appversion" : 35651584
     },
     "device" : 2162689,
     "tone" : {
@@ -35,20 +35,6 @@
           "B Polarity" : false
         },
         "block3" : {
-          "@model" : "HD2_PhaserScriptModPhase",
-          "Rate" : 0.1900001,
-          "@position" : 3,
-          "SyncSelect1" : 6,
-          "TempoSync1" : false,
-          "@enabled" : false,
-          "@path" : 0,
-          "@type" : 0,
-          "Mix" : 0.5,
-          "Level" : 1,
-          "@stereo" : false,
-          "Spread" : 0
-        },
-        "block2" : {
           "VibratoRate" : 0.7,
           "@model" : "HD2_Chorus70sChorus",
           "@position" : 2,
@@ -69,14 +55,7 @@
           "Mode" : false,
           "Spread" : 0
         },
-        "inputB" : {
-          "@input" : 0,
-          "@model" : "HD2_AppDSPFlow2Input",
-          "noiseGate" : false,
-          "decay" : 0.5,
-          "threshold" : -48
-        },
-        "block1" : {
+        "block2" : {
           "Bias" : 0.6,
           "@model" : "HD2_AmpUSDoubleNrm",
           "Master" : 1,
@@ -97,6 +76,41 @@
           "Presence" : 0.1,
           "Sag" : 0.5
         },
+        "inputB" : {
+          "@input" : 0,
+          "@model" : "HD2_AppDSPFlow2Input",
+          "noiseGate" : false,
+          "decay" : 0.5,
+          "threshold" : -48
+        },
+        "block7" : {
+          "@model" : "HD2_ReverbChamber",
+          "@position" : 6,
+          "LowCut" : 143,
+          "@enabled" : true,
+          "@path" : 0,
+          "@trails" : false,
+          "@type" : 7,
+          "Mix" : 0.39,
+          "Level" : 0,
+          "Decay" : 0.6600001,
+          "HighCut" : 4700,
+          "Predelay" : 0.1
+        },
+        "block1" : {
+          "@model" : "HD2_CompressorLAStudioComp",
+          "@position" : 0,
+          "@enabled" : false,
+          "Emphasis" : 0.09000003,
+          "@path" : 0,
+          "@type" : 0,
+          "Mix" : 1,
+          "PeakReduction" : 0.78,
+          "Type" : false,
+          "Level" : 0,
+          "@stereo" : false,
+          "Gain" : 0.6
+        },
         "outputB" : {
           "@model" : "HD2_AppDSPFlowOutput",
           "@output" : 1,
@@ -111,42 +125,6 @@
           "threshold" : -48
         },
         "block6" : {
-          "@model" : "HD2_ReverbChamber",
-          "@position" : 6,
-          "LowCut" : 143,
-          "@enabled" : true,
-          "@path" : 0,
-          "@trails" : false,
-          "@type" : 7,
-          "Mix" : 0.39,
-          "Level" : 0,
-          "Decay" : 0.6600001,
-          "HighCut" : 4700,
-          "Predelay" : 0.1
-        },
-        "block0" : {
-          "@model" : "HD2_CompressorLAStudioComp",
-          "@position" : 0,
-          "@enabled" : false,
-          "Emphasis" : 0.09000003,
-          "@path" : 0,
-          "@type" : 0,
-          "Mix" : 1,
-          "PeakReduction" : 0.78,
-          "Type" : false,
-          "Level" : 0,
-          "@stereo" : false,
-          "Gain" : 0.6
-        },
-        "split" : {
-          "BalanceA" : 0.5,
-          "@model" : "HD2_AppDSPFlowSplitY",
-          "@enabled" : true,
-          "bypass" : false,
-          "@position" : 0,
-          "BalanceB" : 0.5
-        },
-        "block5" : {
           "@model" : "HD2_DelaySimpleDelay",
           "@position" : 5,
           "Feedback" : 0.35,
@@ -161,6 +139,45 @@
           "Time" : 0.6,
           "Level" : 0,
           "@stereo" : false
+        },
+        "block0" : {
+          "@model" : "HD2_Looper",
+          "Overdub" : 0,
+          "Playback" : 0,
+          "@path" : 0,
+          "@stereo" : true,
+          "@type" : 6,
+          "highCut" : 20000,
+          "lowCut" : 20,
+          "@position" : 7,
+          "@enabled" : false
+        },
+        "split" : {
+          "BalanceA" : 0.5,
+          "@model" : "HD2_AppDSPFlowSplitY",
+          "@enabled" : true,
+          "bypass" : false,
+          "@position" : 0,
+          "BalanceB" : 0.5
+        },
+        "block5" : {
+          "@model" : "HD2_DelayTransistorTape",
+          "@position" : 4,
+          "Feedback" : 0.54,
+          "SyncSelect1" : 6,
+          "TempoSync1" : false,
+          "Scale" : 1,
+          "@enabled" : false,
+          "WowFlutter" : 0.36,
+          "@path" : 0,
+          "@trails" : false,
+          "@type" : 7,
+          "Headroom" : 0,
+          "Mix" : 0.23,
+          "Time" : 0.488,
+          "Level" : 0,
+          "@stereo" : false,
+          "Spread" : 0.29
         },
         "cab0" : {
           "@model" : "HD2_Cab2x12DoubleC12N",
@@ -179,23 +196,18 @@
           "gain" : 0
         },
         "block4" : {
-          "@model" : "HD2_DelayTransistorTape",
-          "@position" : 4,
-          "Feedback" : 0.54,
+          "@model" : "HD2_PhaserScriptModPhase",
+          "Rate" : 0.1900001,
+          "@position" : 3,
           "SyncSelect1" : 6,
           "TempoSync1" : false,
-          "Scale" : 1,
           "@enabled" : false,
-          "WowFlutter" : 0.36,
           "@path" : 0,
-          "@trails" : false,
-          "@type" : 7,
-          "Headroom" : 0,
-          "Mix" : 0.23,
-          "Time" : 0.488,
-          "Level" : 0,
+          "@type" : 0,
+          "Mix" : 0.5,
+          "Level" : 1,
           "@stereo" : false,
-          "Spread" : 0.29
+          "Spread" : 0
         }
       },
       "snapshot1" : {
@@ -303,13 +315,16 @@
           "decay" : 0.5,
           "threshold" : -48
         },
-        "split" : {
-          "BalanceA" : 0.5,
-          "@model" : "HD2_AppDSPFlowSplitY",
+        "block6" : {
+          "@model" : "HD2_EQLowCutHighCut",
+          "LowCut" : 60,
+          "@path" : 0,
+          "@stereo" : false,
+          "@type" : 0,
+          "@position" : 6,
+          "Level" : 0,
           "@enabled" : true,
-          "bypass" : false,
-          "@position" : 0,
-          "BalanceB" : 0.5
+          "HighCut" : 12000
         },
         "block0" : {
           "@model" : "HD2_WahTeardrop310",
@@ -321,6 +336,14 @@
           "Level" : 0,
           "Mix" : 1,
           "@enabled" : false
+        },
+        "split" : {
+          "BalanceA" : 0.5,
+          "@model" : "HD2_AppDSPFlowSplitY",
+          "@enabled" : true,
+          "bypass" : false,
+          "@position" : 0,
+          "BalanceB" : 0.5
         },
         "block5" : {
           "Bias" : 0.6,
@@ -379,7 +402,7 @@
       "global" : {
         "@variax_volumeknob" : -0.1,
         "@pedalstate" : 2,
-        "@variax_customtuning" : true,
+        "@variax_customtuning" : false,
         "@variax_str1tuning" : 0,
         "@variax_str2tuning" : 0,
         "@variax_str4tuning" : 0,
@@ -410,6 +433,13 @@
       "footswitch" : {
         "dsp1" : {
           "block0" : {
+            "@fs_label" : "Looper",
+            "@fs_enabled" : false,
+            "@fs_index" : 5,
+            "@fs_ledcolor" : 462860,
+            "@fs_momentary" : false
+          },
+          "block1" : {
             "@fs_label" : "LA Studio Comp",
             "@fs_enabled" : false,
             "@fs_index" : 8,
@@ -417,7 +447,7 @@
             "@fs_ledcolor" : 527360,
             "@fs_momentary" : false
           },
-          "block1" : {
+          "block2" : {
             "@fs_label" : "US Double Nrm",
             "@fs_enabled" : false,
             "@fs_index" : 8,
@@ -425,35 +455,37 @@
             "@fs_ledcolor" : 786434,
             "@fs_momentary" : false
           },
-          "block2" : {
+          "block3" : {
             "@fs_label" : "70s Chorus",
             "@fs_enabled" : false,
             "@fs_index" : 4,
-            "@fs_ledcolor" : 1037,
-            "@fs_momentary" : false
-          },
-          "block3" : {
-            "@fs_label" : "Script Mod Phase",
-            "@fs_enabled" : false,
-            "@fs_index" : 5,
+            "@fs_customlabel" : "Mods",
             "@fs_ledcolor" : 1037,
             "@fs_momentary" : false
           },
           "block4" : {
+            "@fs_label" : "Script Mod Phase",
+            "@fs_enabled" : false,
+            "@fs_index" : 4,
+            "@fs_customlabel" : "Mods",
+            "@fs_ledcolor" : 1037,
+            "@fs_momentary" : false
+          },
+          "block5" : {
             "@fs_label" : "Transistor Tape",
             "@fs_enabled" : false,
             "@fs_index" : 9,
             "@fs_ledcolor" : 67840,
             "@fs_momentary" : false
           },
-          "block5" : {
+          "block6" : {
             "@fs_label" : "Simple Delay",
             "@fs_enabled" : true,
             "@fs_index" : 10,
             "@fs_ledcolor" : 458496,
             "@fs_momentary" : false
           },
-          "block6" : {
+          "block7" : {
             "@fs_label" : "Chamber",
             "@fs_enabled" : true,
             "@fs_index" : 11,
@@ -536,16 +568,18 @@
             "block2" : false,
             "block3" : false,
             "block4" : false,
-            "block5" : true,
-            "block6" : true
+            "block5" : false,
+            "block6" : true,
+            "block7" : true
           },
           "dsp0" : {
             "block0" : false,
-            "block4" : true,
             "block1" : false,
-            "block5" : true,
             "block2" : false,
-            "block3" : true
+            "block3" : true,
+            "block4" : true,
+            "block5" : true,
+            "block6" : true
           }
         },
         "@pedalstate" : 2,
@@ -554,7 +588,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 34734112
+    "device_version" : 35651616
   },
   "schema" : "L6Preset"
 }

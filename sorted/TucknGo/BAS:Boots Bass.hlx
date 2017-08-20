@@ -4,9 +4,9 @@
     "meta" : {
       "name" : "BAS:Boots Bass",
       "application" : "Helix",
-      "build_sha" : "87b59c5",
-      "modifieddate" : 1490931785,
-      "appversion" : 34668544
+      "build_sha" : "37cfcb5",
+      "modifieddate" : 1490936284,
+      "appversion" : 35651584
     },
     "device" : 2162689,
     "tone" : {
@@ -83,6 +83,13 @@
               "@controller" : 2,
               "@max" : 1
             }
+          },
+          "block4" : {
+            "Mix" : {
+              "@min" : 0,
+              "@controller" : 19,
+              "@max" : 1
+            }
           }
         }
       },
@@ -105,31 +112,41 @@
           "B Polarity" : false
         },
         "block3" : {
-          "@model" : "HD2_PitchPitchWham",
-          "Heel" : -12,
-          "@path" : 0,
-          "@stereo" : false,
-          "@type" : 0,
-          "Pedal" : 0,
+          "@model" : "HD2_PitchSimplePitch",
+          "Cents1" : 0,
           "@position" : 2,
-          "Level" : 0,
-          "Mix" : 0.5,
+          "Time1" : 0,
           "@enabled" : false,
-          "Toe" : 12
+          "@path" : 0,
+          "@type" : 0,
+          "Mix" : 0.5,
+          "LevelVoice1" : 1,
+          "Interval1" : -12,
+          "Level" : 0,
+          "@stereo" : false,
+          "PanDry" : 0.5,
+          "PanVoice1" : 0.125
         },
         "block2" : {
-          "@model" : "HD2_CompressorLAStudioComp",
+          "Hi Gain" : -4.6,
+          "@model" : "HD2_Compressor3BandComp",
+          "Lo X Freq" : 400,
           "@position" : 1,
+          "Mid Thresh" : -35,
+          "Hi X Freq" : 3000,
           "@enabled" : true,
-          "Emphasis" : 0.09000003,
+          "Release" : 0.2,
           "@path" : 0,
           "@type" : 0,
-          "Mix" : 1,
-          "PeakReduction" : 0.51,
-          "Type" : false,
-          "Level" : 0,
+          "Attack" : 0.03499997,
+          "Detector" : true,
+          "Lo Thresh" : -40,
+          "Lo Gain" : 3.5,
+          "Mid Gain" : -5.6,
+          "Level" : 0.9000001,
           "@stereo" : false,
-          "Gain" : 0.62
+          "Ratio" : 2,
+          "Hi Thresh" : -50
         },
         "inputB" : {
           "@input" : 0,
@@ -270,7 +287,7 @@
       "global" : {
         "@variax_volumeknob" : -0.1,
         "@pedalstate" : 2,
-        "@variax_customtuning" : true,
+        "@variax_customtuning" : false,
         "@variax_str1tuning" : 0,
         "@variax_str2tuning" : 0,
         "@variax_str4tuning" : 0,
@@ -315,16 +332,17 @@
             "@fs_momentary" : false
           },
           "block2" : {
-            "@fs_label" : "LA Studio Comp",
+            "@fs_label" : "3-Band Comp",
             "@fs_enabled" : true,
             "@fs_index" : 2,
             "@fs_ledcolor" : 8716032,
             "@fs_momentary" : false
           },
           "block3" : {
-            "@fs_label" : "Pitch Wham",
+            "@fs_label" : "Simple Pitch",
             "@fs_enabled" : false,
             "@fs_index" : 9,
+            "@fs_customlabel" : "Octaver",
             "@fs_ledcolor" : 196619,
             "@fs_momentary" : false
           },
@@ -372,6 +390,12 @@
                 "@fs_enabled" : false,
                 "@value" : 1
               }
+            },
+            "block4" : {
+              "Mix" : {
+                "@fs_enabled" : false,
+                "@value" : 1
+              }
             }
           }
         },
@@ -393,7 +417,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 34734112
+    "device_version" : 35651616
   },
   "schema" : "L6Preset"
 }

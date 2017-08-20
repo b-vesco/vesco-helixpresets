@@ -4,9 +4,9 @@
     "meta" : {
       "name" : "Goin' Home",
       "application" : "Helix",
-      "build_sha" : "87b59c5",
-      "modifieddate" : 1490931787,
-      "appversion" : 34668544
+      "build_sha" : "905c912",
+      "modifieddate" : 1490936388,
+      "appversion" : 35651584
     },
     "device" : 2162689,
     "tone" : {
@@ -366,7 +366,7 @@
         "@tempo" : 208
       }
     },
-    "device_version" : 34734112
+    "device_version" : 35651616
   },
   "schema" : "L6Preset"
 }

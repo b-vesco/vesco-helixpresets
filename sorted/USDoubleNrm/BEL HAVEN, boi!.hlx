@@ -4,9 +4,9 @@
     "meta" : {
       "name" : "BEL HAVEN, boi!",
       "application" : "Helix",
-      "build_sha" : "87b59c5",
-      "modifieddate" : 1490931780,
-      "appversion" : 34668544
+      "build_sha" : "37cfcb5",
+      "modifieddate" : 1490936279,
+      "appversion" : 35651584
     },
     "device" : 2162689,
     "tone" : {
@@ -45,25 +45,22 @@
           "Sag" : 0.5
         },
         "block1" : {
-          "@model" : "HD2_ChorusTrinityChorus",
-          "Rate" : 0.33,
+          "@model" : "HD2_ChorusPlastiChorus",
+          "Rate" : 0.35,
           "@position" : 1,
           "SyncSelect1" : 6,
-          "Preset" : true,
-          "Left" : 0.79,
-          "Right" : 0.85,
-          "@enabled" : true,
-          "RightBoost" : false,
           "TempoSync1" : false,
+          "@enabled" : true,
           "@path" : 0,
           "@type" : 0,
-          "Center" : 0.52,
           "Mix" : 0.5,
-          "LeftBoost" : false,
+          "Headroom" : 0,
+          "Tone" : 0.75,
           "Level" : 0,
-          "Manual" : true,
-          "Mode" : true,
-          "CenterBoost" : false
+          "@stereo" : true,
+          "Mode" : false,
+          "Spread" : 1,
+          "Depth" : 0.47
         },
         "block2" : {
           "@model" : "HD2_DelayTransistorTape",
@@ -300,7 +297,7 @@
       "global" : {
         "@variax_volumeknob" : -0.1,
         "@pedalstate" : 2,
-        "@variax_customtuning" : true,
+        "@variax_customtuning" : false,
         "@variax_str1tuning" : 0,
         "@variax_str2tuning" : 0,
         "@variax_str4tuning" : 0,
@@ -331,7 +328,7 @@
       "footswitch" : {
         "dsp1" : {
           "block1" : {
-            "@fs_label" : "Trinity Chorus",
+            "@fs_label" : "PlastiChorus",
             "@fs_enabled" : true,
             "@fs_index" : 9,
             "@fs_ledcolor" : 13055,
@@ -428,7 +425,7 @@
         "@tempo" : 102
       }
     },
-    "device_version" : 34734112
+    "device_version" : 35651616
   },
   "schema" : "L6Preset"
 }

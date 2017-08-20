@@ -4,9 +4,9 @@
     "meta" : {
       "name" : "PhD May",
       "application" : "Helix",
-      "build_sha" : "87b59c5",
-      "modifieddate" : 1490931783,
-      "appversion" : 34668544
+      "build_sha" : "6a7d211",
+      "modifieddate" : 1490936283,
+      "appversion" : 35651584
     },
     "device" : 2162689,
     "tone" : {
@@ -23,6 +23,89 @@
         "@tempo" : 120
       },
       "dsp1" : {
+        "join" : {
+          "@model" : "HD2_AppDSPFlowJoin",
+          "B Pan" : 0.5,
+          "B Level" : 0,
+          "A Level" : 0,
+          "A Pan" : 0.5,
+          "@position" : 0,
+          "Level" : 0,
+          "@enabled" : true,
+          "B Polarity" : false
+        },
+        "block3" : {
+          "VibratoRate" : 0.28,
+          "@model" : "HD2_Chorus70sChorus",
+          "@position" : 5,
+          "SyncSelect1" : 6,
+          "SyncSelect2" : 6,
+          "TempoSync1" : false,
+          "@enabled" : true,
+          "@path" : 0,
+          "@type" : 0,
+          "Mix" : 0.1900001,
+          "Headroom" : 0,
+          "Stereo" : false,
+          "TempoSync2" : false,
+          "VibratoDepth" : 0.5,
+          "Level" : 1,
+          "@stereo" : false,
+          "ChorusIntensity" : 0.5699999,
+          "Mode" : false,
+          "Spread" : 0
+        },
+        "block2" : {
+          "@model" : "HD2_EQLowCutHighCut",
+          "LowCut" : 100,
+          "@path" : 0,
+          "@stereo" : false,
+          "@type" : 0,
+          "@position" : 4,
+          "Level" : 0,
+          "@enabled" : true,
+          "HighCut" : 10200
+        },
+        "inputB" : {
+          "@input" : 0,
+          "@model" : "HD2_AppDSPFlow2Input",
+          "noiseGate" : false,
+          "decay" : 0.5,
+          "threshold" : -48
+        },
+        "block1" : {
+          "@model" : "HD2_Looper",
+          "Overdub" : 0,
+          "Playback" : 0,
+          "@path" : 0,
+          "@stereo" : false,
+          "@type" : 6,
+          "highCut" : 20000,
+          "lowCut" : 20,
+          "@position" : 7,
+          "@enabled" : false
+        },
+        "outputB" : {
+          "@model" : "HD2_AppDSPFlowOutput",
+          "@output" : 0,
+          "pan" : 0.5,
+          "gain" : 0
+        },
+        "inputA" : {
+          "@input" : 0,
+          "@model" : "HD2_AppDSPFlow1Input",
+          "noiseGate" : false,
+          "decay" : 0.5,
+          "threshold" : -48
+        },
+        "split" : {
+          "BalanceA" : 0.5,
+          "@model" : "HD2_AppDSPFlowSplitY",
+          "@enabled" : true,
+          "bypass" : false,
+          "@position" : 0,
+          "BalanceB" : 0.5
+        },
         "block0" : {
           "Bias" : 0.7,
           "@model" : "HD2_AmpA30FawnBrt",
@@ -44,40 +127,23 @@
           "Presence" : 0.8,
           "Sag" : 0.5
         },
-        "block1" : {
-          "@model" : "HD2_Looper",
-          "Overdub" : 0,
-          "Playback" : 0,
-          "@path" : 0,
-          "@stereo" : false,
-          "@type" : 6,
-          "highCut" : 20000,
-          "lowCut" : 20,
-          "@position" : 7,
-          "@enabled" : false
-        },
-        "block2" : {
-          "VibratoRate" : 0.28,
-          "@model" : "HD2_Chorus70sChorus",
-          "@position" : 5,
-          "SyncSelect1" : 6,
-          "SyncSelect2" : 6,
-          "TempoSync1" : false,
+        "cab0" : {
+          "@model" : "HD2_Cab2x12BlueBell",
+          "LowCut" : 20,
+          "@mic" : 2,
+          "EarlyReflections" : 0,
+          "Distance" : 1,
+          "High Cut" : 20000,
           "@enabled" : true,
-          "@path" : 0,
-          "@type" : 0,
-          "Mix" : 0.1900001,
-          "Headroom" : 0,
-          "Stereo" : false,
-          "TempoSync2" : false,
-          "VibratoDepth" : 0.5,
-          "Level" : 1,
-          "@stereo" : false,
-          "ChorusIntensity" : 0.5699999,
-          "Mode" : false,
-          "Spread" : 0
+          "Level" : 0
         },
-        "block3" : {
+        "outputA" : {
+          "@model" : "HD2_AppDSPFlowOutput",
+          "@output" : 1,
+          "pan" : 0.5,
+          "gain" : 0
+        },
+        "block4" : {
           "@model" : "HD2_ReverbPlate",
           "@position" : 6,
           "LowCut" : 90,
@@ -90,61 +156,6 @@
           "Decay" : 0.1900001,
           "HighCut" : 3000,
           "Predelay" : 0.1
-        },
-        "cab0" : {
-          "@model" : "HD2_Cab2x12BlueBell",
-          "LowCut" : 20,
-          "@mic" : 2,
-          "EarlyReflections" : 0,
-          "Distance" : 1,
-          "High Cut" : 20000,
-          "@enabled" : true,
-          "Level" : 0
-        },
-        "inputA" : {
-          "@input" : 0,
-          "@model" : "HD2_AppDSPFlow1Input",
-          "noiseGate" : false,
-          "decay" : 0.5,
-          "threshold" : -48
-        },
-        "inputB" : {
-          "@input" : 0,
-          "@model" : "HD2_AppDSPFlow2Input",
-          "noiseGate" : false,
-          "decay" : 0.5,
-          "threshold" : -48
-        },
-        "join" : {
-          "@model" : "HD2_AppDSPFlowJoin",
-          "B Pan" : 0.5,
-          "B Level" : 0,
-          "A Level" : 0,
-          "A Pan" : 0.5,
-          "@position" : 0,
-          "Level" : 0,
-          "@enabled" : true,
-          "B Polarity" : false
-        },
-        "split" : {
-          "BalanceA" : 0.5,
-          "@model" : "HD2_AppDSPFlowSplitY",
-          "@enabled" : true,
-          "bypass" : false,
-          "@position" : 0,
-          "BalanceB" : 0.5
-        },
-        "outputB" : {
-          "@model" : "HD2_AppDSPFlowOutput",
-          "@output" : 0,
-          "pan" : 0.5,
-          "gain" : 0
-        },
-        "outputA" : {
-          "@model" : "HD2_AppDSPFlowOutput",
-          "@output" : 1,
-          "pan" : 0.5,
-          "gain" : 0
         }
       },
       "snapshot1" : {
@@ -320,7 +331,7 @@
       "global" : {
         "@variax_volumeknob" : -0.1,
         "@pedalstate" : 2,
-        "@variax_customtuning" : true,
+        "@variax_customtuning" : false,
         "@variax_str1tuning" : 0,
         "@variax_str2tuning" : 0,
         "@variax_str4tuning" : 0,
@@ -358,17 +369,17 @@
             "@fs_momentary" : false
           },
           "block3" : {
-            "@fs_label" : "Plate",
-            "@fs_enabled" : true,
-            "@fs_index" : 11,
-            "@fs_ledcolor" : 16723200,
-            "@fs_momentary" : false
-          },
-          "block2" : {
             "@fs_label" : "70s Chorus",
             "@fs_enabled" : true,
             "@fs_index" : 10,
             "@fs_ledcolor" : 13055,
+            "@fs_momentary" : false
+          },
+          "block4" : {
+            "@fs_label" : "Plate",
+            "@fs_enabled" : true,
+            "@fs_index" : 11,
+            "@fs_ledcolor" : 16723200,
             "@fs_momentary" : false
           }
         },
@@ -430,6 +441,7 @@
         "blocks" : {
           "dsp1" : {
             "block0" : true,
+            "block4" : true,
             "block1" : false,
             "block2" : true,
             "block3" : true
@@ -449,7 +461,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 34734112
+    "device_version" : 35651616
   },
   "schema" : "L6Preset"
 }

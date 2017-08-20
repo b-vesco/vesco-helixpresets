@@ -4,9 +4,9 @@
     "meta" : {
       "name" : "None More Black",
       "application" : "Helix",
-      "build_sha" : "87b59c5",
-      "modifieddate" : 1490931779,
-      "appversion" : 34668544
+      "build_sha" : "6a7d211",
+      "modifieddate" : 1490936278,
+      "appversion" : 35651584
     },
     "device" : 2162689,
     "tone" : {
@@ -53,6 +53,18 @@
           "Level" : 0,
           "@stereo" : false
         },
+        "block2" : {
+          "@model" : "HD2_Looper",
+          "Overdub" : 0,
+          "Playback" : 0,
+          "@path" : 0,
+          "@stereo" : true,
+          "@type" : 6,
+          "highCut" : 20000,
+          "lowCut" : 20,
+          "@position" : 7,
+          "@enabled" : false
+        },
         "inputA" : {
           "@input" : 0,
           "@model" : "HD2_AppDSPFlow1Input",
@@ -73,7 +85,7 @@
           "B Level" : 0,
           "A Level" : 8.2,
           "A Pan" : 0.5,
-          "@position" : 8,
+          "@position" : 7,
           "Level" : 0,
           "@enabled" : true,
           "B Polarity" : false
@@ -150,7 +162,7 @@
           "A Pan" : 0.5,
           "@position" : 8,
           "Level" : 0,
-          "@enabled" : false,
+          "@enabled" : true,
           "B Polarity" : false
         },
         "block3" : {
@@ -305,7 +317,7 @@
           "@position" : 3,
           "Drive" : 0.77,
           "Treble" : 0.6,
-          "ChVol" : 1,
+          "ChVol" : 0.78,
           "@enabled" : true,
           "Ripple" : 0.34,
           "@path" : 1,
@@ -371,6 +383,13 @@
             "@fs_enabled" : true,
             "@fs_index" : 11,
             "@fs_ledcolor" : 16723200,
+            "@fs_momentary" : false
+          },
+          "block2" : {
+            "@fs_label" : "Looper",
+            "@fs_enabled" : false,
+            "@fs_index" : 5,
+            "@fs_ledcolor" : 462860,
             "@fs_momentary" : false
           }
         },
@@ -444,7 +463,8 @@
         "blocks" : {
           "dsp1" : {
             "block1" : false,
-            "block0" : true
+            "block0" : true,
+            "block2" : false
           },
           "dsp0" : {
             "block0" : true,
@@ -462,7 +482,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 34734112
+    "device_version" : 35651616
   },
   "schema" : "L6Preset"
 }

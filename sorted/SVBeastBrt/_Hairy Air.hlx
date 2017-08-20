@@ -4,9 +4,9 @@
     "meta" : {
       "name" : "Hairy Air",
       "application" : "Helix",
-      "build_sha" : "87b59c5",
-      "modifieddate" : 1490931785,
-      "appversion" : 34668544
+      "build_sha" : "6a7d211",
+      "modifieddate" : 1490936285,
+      "appversion" : 35651584
     },
     "device" : 2162689,
     "tone" : {
@@ -57,6 +57,17 @@
           "Sag" : 0.5
         },
         "block2" : {
+          "@model" : "HD2_EQLowCutHighCut",
+          "LowCut" : 40,
+          "@path" : 0,
+          "@stereo" : false,
+          "@type" : 0,
+          "@position" : 3,
+          "Level" : 0,
+          "@enabled" : true,
+          "HighCut" : 11000
+        },
+        "block3" : {
           "@model" : "HD2_ReverbCave",
           "@position" : 4,
           "LowCut" : 59,
@@ -102,7 +113,7 @@
           "A Pan" : 0.5,
           "@position" : 8,
           "Level" : 0,
-          "@enabled" : false,
+          "@enabled" : true,
           "B Polarity" : false
         },
         "split" : {
@@ -182,7 +193,7 @@
           "@position" : 2,
           "Drive" : 0.6900001,
           "Treble" : 0.85,
-          "ChVol" : 0.8,
+          "ChVol" : 0.9,
           "@enabled" : true,
           "Ripple" : 0.5,
           "@path" : 0,
@@ -228,7 +239,7 @@
           "A Pan" : 0.5,
           "@position" : 8,
           "Level" : 0,
-          "@enabled" : false,
+          "@enabled" : true,
           "B Polarity" : false
         },
         "split" : {
@@ -261,7 +272,7 @@
       "global" : {
         "@variax_volumeknob" : -0.1,
         "@pedalstate" : 2,
-        "@variax_customtuning" : true,
+        "@variax_customtuning" : false,
         "@variax_str1tuning" : 0,
         "@variax_str2tuning" : 0,
         "@variax_str4tuning" : 0,
@@ -306,7 +317,7 @@
             "@fs_ledcolor" : 462860,
             "@fs_momentary" : false
           },
-          "block2" : {
+          "block3" : {
             "@fs_label" : "Cave",
             "@fs_enabled" : true,
             "@fs_index" : 10,
@@ -342,9 +353,10 @@
       "snapshot0" : {
         "blocks" : {
           "dsp1" : {
-            "block1" : false,
             "block0" : false,
-            "block2" : true
+            "block1" : false,
+            "block2" : true,
+            "block3" : true
           },
           "dsp0" : {
             "block1" : true,
@@ -358,7 +370,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 34734112
+    "device_version" : 35651616
   },
   "schema" : "L6Preset"
 }

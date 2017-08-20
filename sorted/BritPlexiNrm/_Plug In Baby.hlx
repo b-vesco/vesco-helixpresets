@@ -4,9 +4,9 @@
     "meta" : {
       "name" : "Plug In Baby",
       "application" : "Helix",
-      "build_sha" : "b37ee00",
-      "modifieddate" : 1490931665,
-      "appversion" : 34668544
+      "build_sha" : "6a7d211",
+      "modifieddate" : 1490936195,
+      "appversion" : 35651584
     },
     "device" : 2162689,
     "tone" : {
@@ -226,6 +226,11 @@
       "controller" : {
         "dsp0" : {
           "block3" : {
+            "Level" : {
+              "@min" : 0,
+              "@controller" : 1,
+              "@max" : -6
+            },
             "Pedal" : {
               "@min" : 0,
               "@controller" : 1,
@@ -265,7 +270,7 @@
           "@path" : 0,
           "@stereo" : false,
           "@type" : 0,
-          "Pedal" : 1,
+          "Pedal" : 0,
           "@position" : 1,
           "Level" : 0,
           "Mix" : 0.5,
@@ -296,7 +301,7 @@
           "@position" : 3,
           "Drive" : 0.9,
           "Treble" : 0.72,
-          "ChVol" : 0.4,
+          "ChVol" : 0.3,
           "@enabled" : true,
           "Ripple" : 0.5,
           "@path" : 1,
@@ -338,7 +343,7 @@
           "Cut" : 0.5599999,
           "Drive" : 0.9100001,
           "Treble" : 0.5599999,
-          "ChVol" : 0.4,
+          "ChVol" : 0.3,
           "@enabled" : true,
           "Ripple" : 0.5,
           "@path" : 0,
@@ -390,7 +395,7 @@
       "global" : {
         "@variax_volumeknob" : -0.1,
         "@pedalstate" : 1,
-        "@variax_customtuning" : true,
+        "@variax_customtuning" : false,
         "@variax_str1tuning" : 0,
         "@variax_str2tuning" : 0,
         "@variax_str4tuning" : 0,
@@ -511,9 +516,13 @@
         "controllers" : {
           "dsp0" : {
             "block3" : {
+              "Level" : {
+                "@fs_enabled" : false,
+                "@value" : 0
+              },
               "Pedal" : {
                 "@fs_enabled" : false,
-                "@value" : 1
+                "@value" : 0
               }
             },
             "block2" : {
@@ -552,7 +561,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 34734112
+    "device_version" : 35651616
   },
   "schema" : "L6Preset"
 }

@@ -4,9 +4,9 @@
     "meta" : {
       "name" : "BAS:DangeRuss",
       "application" : "Helix",
-      "build_sha" : "87b59c5",
-      "modifieddate" : 1490931785,
-      "appversion" : 34668544
+      "build_sha" : "6a7d211",
+      "modifieddate" : 1490936284,
+      "appversion" : 35651584
     },
     "device" : 2162689,
     "tone" : {
@@ -176,7 +176,7 @@
           "@path" : 0,
           "@mic" : 12,
           "@type" : 2,
-          "@position" : 3,
+          "@position" : 4,
           "Distance" : 1,
           "EarlyReflections" : 0,
           "@enabled" : true,
@@ -187,7 +187,7 @@
           "@model" : "HD2_AppDSPFlowSplitY",
           "@enabled" : true,
           "bypass" : false,
-          "@position" : 3,
+          "@position" : 4,
           "BalanceB" : 0.5
         },
         "block5" : {
@@ -212,9 +212,9 @@
           "Bias" : 0.6600001,
           "@model" : "HD2_AmpTucknGo",
           "Master" : 0.72,
-          "@position" : 2,
+          "@position" : 3,
           "Drive" : 0.55,
-          "ChVol" : 0.9200001,
+          "ChVol" : 1,
           "@enabled" : true,
           "HighMid" : 0.6,
           "Ripple" : 0.5,
@@ -238,7 +238,7 @@
       "global" : {
         "@variax_volumeknob" : -0.1,
         "@pedalstate" : 2,
-        "@variax_customtuning" : true,
+        "@variax_customtuning" : false,
         "@variax_str1tuning" : 0,
         "@variax_str2tuning" : 0,
         "@variax_str4tuning" : 0,
@@ -251,14 +251,14 @@
         "@guitarinputZ" : 0,
         "@tempo" : 120,
         "@topology1" : "A",
-        "@cursor_position" : 1,
+        "@cursor_position" : 3,
         "@variax_lockctrls" : 0,
         "@variax_magmode" : true,
         "@variax_str3tuning" : 0,
         "@variax_str5tuning" : 0,
         "@variax_toneknob" : -0.1,
         "@current_snapshot" : 0,
-        "@cursor_group" : "block3"
+        "@cursor_group" : "block4"
       },
       "snapshot6" : {
         "@pedalstate" : 2,
@@ -339,7 +339,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 34734112
+    "device_version" : 35651616
   },
   "schema" : "L6Preset"
 }
