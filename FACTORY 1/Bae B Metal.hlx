@@ -4,9 +4,9 @@
     "meta" : {
       "name" : "Bae B Metal",
       "application" : "Helix",
-      "build_sha" : "87b59c5",
-      "modifieddate" : 1503182405,
-      "appversion" : 35651584
+      "build_sha" : "b37ee00",
+      "modifieddate" : 1490931681,
+      "appversion" : 34668544
     },
     "device" : 2162689,
     "tone" : {
@@ -105,7 +105,7 @@
           "gain" : 0
         },
         "inputA" : {
-          "@input" : 2,
+          "@input" : 1,
           "@model" : "HD2_AppDSPFlow1Input",
           "noiseGate" : true,
           "decay" : 0.271898,
@@ -270,7 +270,7 @@
           "gain" : 0
         },
         "inputA" : {
-          "@input" : 2,
+          "@input" : 1,
           "@model" : "HD2_AppDSPFlow1Input",
           "noiseGate" : true,
           "decay" : 0.09374046,
@@ -467,7 +467,7 @@
         "@tempo" : 98
       }
     },
-    "device_version" : 34668576
+    "device_version" : 34734112
   },
   "schema" : "L6Preset"
 }
