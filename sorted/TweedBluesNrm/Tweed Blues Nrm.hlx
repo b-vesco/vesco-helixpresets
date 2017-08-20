@@ -4,19 +4,19 @@
     "meta" : {
       "name" : "Tweed Blues Nrm",
       "application" : "Helix",
-      "build_sha" : "e2528f3",
-      "modifieddate" : 1468058498,
-      "appversion" : 33554688
+      "build_sha" : "73211ae",
+      "modifieddate" : 1479868765,
+      "appversion" : 33619968
     },
     "device" : 2162689,
     "tone" : {
       "snapshot7" : {
         "@name" : "SNAPSHOT 8",
-        "@tempo" : 120
+        "@tempo" : 101.266
       },
       "snapshot4" : {
         "@name" : "SNAPSHOT 5",
-        "@tempo" : 120
+        "@tempo" : 101.266
       },
       "dsp1" : {
         "split" : {
@@ -64,7 +64,7 @@
       },
       "snapshot1" : {
         "@name" : "SNAPSHOT 2",
-        "@tempo" : 120
+        "@tempo" : 101.266
       },
       "controller" : {
         "dsp0" : {
@@ -79,7 +79,7 @@
       },
       "snapshot5" : {
         "@name" : "SNAPSHOT 6",
-        "@tempo" : 120
+        "@tempo" : 101.266
       },
       "dsp0" : {
         "join" : {
@@ -222,7 +222,7 @@
       },
       "snapshot2" : {
         "@name" : "SNAPSHOT 3",
-        "@tempo" : 120
+        "@tempo" : 101.266
       },
       "global" : {
         "@variax_volumeknob" : -0.1,
@@ -237,7 +237,7 @@
         "@topology0" : "A",
         "@cursor_dsp" : 0,
         "@cursor_path" : 0,
-        "@guitarinputZ" : 8,
+        "@guitarinputZ" : 0,
         "@tempo" : 101.266,
         "@topology1" : "A",
         "@cursor_position" : 3,
@@ -251,7 +251,7 @@
       },
       "snapshot6" : {
         "@name" : "SNAPSHOT 7",
-        "@tempo" : 120
+        "@tempo" : 101.266
       },
       "footswitch" : {
         "dsp0" : {
@@ -294,14 +294,34 @@
       },
       "snapshot3" : {
         "@name" : "SNAPSHOT 4",
-        "@tempo" : 120
+        "@tempo" : 101.266
       },
       "snapshot0" : {
+        "blocks" : {
+          "dsp0" : {
+            "block0" : false,
+            "block4" : true,
+            "block1" : true,
+            "block5" : true,
+            "block2" : false,
+            "block3" : false
+          }
+        },
+        "controllers" : {
+          "dsp0" : {
+            "block1" : {
+              "Pedal" : {
+                "@fs_enabled" : false,
+                "@value" : 1
+              }
+            }
+          }
+        },
         "@name" : "SNAPSHOT 1",
-        "@tempo" : 120
+        "@tempo" : 101.266
       }
     },
-    "device_version" : 33554464
+    "device_version" : 33620000
   },
   "schema" : "L6Preset"
 }

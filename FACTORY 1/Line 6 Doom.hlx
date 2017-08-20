@@ -4,9 +4,9 @@
     "meta" : {
       "name" : "Line 6 Doom",
       "application" : "Helix",
-      "build_sha" : "c150707",
-      "modifieddate" : 1468058501,
-      "appversion" : 33554688
+      "build_sha" : "73211ae",
+      "modifieddate" : 1479868779,
+      "appversion" : 33619968
     },
     "device" : 2162689,
     "tone" : {
@@ -119,7 +119,7 @@
           "@type" : 0,
           "Gain" : 0.5,
           "@position" : 1,
-          "Level" : 0.5999999,
+          "Level" : 0.6,
           "@enabled" : false
         },
         "inputB" : {
@@ -176,7 +176,7 @@
           "@model" : "HD2_AmpLine6Doom",
           "Master" : 1,
           "@position" : 5,
-          "Drive" : 0.7447274,
+          "Drive" : 0.744727,
           "Treble" : 0.3,
           "ChVol" : 0.6700001,
           "@enabled" : true,
@@ -270,7 +270,7 @@
         "@topology0" : "A",
         "@cursor_dsp" : 0,
         "@cursor_path" : 0,
-        "@guitarinputZ" : 8,
+        "@guitarinputZ" : 0,
         "@tempo" : 120,
         "@topology1" : "A",
         "@cursor_position" : 5,
@@ -376,7 +376,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 33554464
+    "device_version" : 33620000
   },
   "schema" : "L6Preset"
 }

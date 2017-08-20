@@ -4,19 +4,19 @@
     "meta" : {
       "name" : "Knife Fight",
       "application" : "Helix",
-      "build_sha" : "e2528f3",
-      "modifieddate" : 1468058589,
-      "appversion" : 33554688
+      "build_sha" : "73211ae",
+      "modifieddate" : 1479868847,
+      "appversion" : 33619968
     },
     "device" : 2162689,
     "tone" : {
       "snapshot7" : {
         "@name" : "SNAPSHOT 8",
-        "@tempo" : 120
+        "@tempo" : 81.1176
       },
       "snapshot4" : {
         "@name" : "SNAPSHOT 5",
-        "@tempo" : 120
+        "@tempo" : 81.1176
       },
       "dsp1" : {
         "join" : {
@@ -158,7 +158,7 @@
       },
       "snapshot1" : {
         "@name" : "SNAPSHOT 2",
-        "@tempo" : 120
+        "@tempo" : 81.1176
       },
       "controller" : {
         "dsp1" : {
@@ -192,7 +192,7 @@
       },
       "snapshot5" : {
         "@name" : "SNAPSHOT 6",
-        "@tempo" : 120
+        "@tempo" : 81.1176
       },
       "dsp0" : {
         "join" : {
@@ -349,7 +349,7 @@
       },
       "snapshot2" : {
         "@name" : "SNAPSHOT 3",
-        "@tempo" : 120
+        "@tempo" : 81.1176
       },
       "global" : {
         "@variax_volumeknob" : 10,
@@ -364,7 +364,7 @@
         "@topology0" : "A",
         "@cursor_dsp" : 0,
         "@cursor_path" : 0,
-        "@guitarinputZ" : 8,
+        "@guitarinputZ" : 0,
         "@tempo" : 81.1176,
         "@topology1" : "ABJ",
         "@cursor_position" : 2,
@@ -378,7 +378,7 @@
       },
       "snapshot6" : {
         "@name" : "SNAPSHOT 7",
-        "@tempo" : 120
+        "@tempo" : 81.1176
       },
       "footswitch" : {
         "dsp1" : {
@@ -438,14 +438,48 @@
       },
       "snapshot3" : {
         "@name" : "SNAPSHOT 4",
-        "@tempo" : 120
+        "@tempo" : 81.1176
       },
       "snapshot0" : {
+        "blocks" : {
+          "dsp1" : {
+            "block0" : true,
+            "block1" : true,
+            "block2" : true,
+            "block3" : true
+          },
+          "dsp0" : {
+            "block0" : true,
+            "block4" : true,
+            "block1" : true,
+            "block5" : true,
+            "block2" : false,
+            "block3" : true
+          }
+        },
+        "controllers" : {
+          "dsp1" : {
+            "block2" : {
+              "Pedal" : {
+                "@fs_enabled" : true,
+                "@value" : 1
+              }
+            }
+          },
+          "dsp0" : {
+            "block5" : {
+              "Pedal" : {
+                "@fs_enabled" : true,
+                "@value" : 1
+              }
+            }
+          }
+        },
         "@name" : "SNAPSHOT 1",
-        "@tempo" : 120
+        "@tempo" : 81.1176
       }
     },
-    "device_version" : 33554464
+    "device_version" : 33620000
   },
   "schema" : "L6Preset"
 }

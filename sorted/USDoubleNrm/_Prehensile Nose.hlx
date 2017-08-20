@@ -4,9 +4,9 @@
     "meta" : {
       "name" : "Prehensile Nose",
       "application" : "Helix",
-      "build_sha" : "3583e0d",
-      "modifieddate" : 1468058512,
-      "appversion" : 33554688
+      "build_sha" : "73211ae",
+      "modifieddate" : 1479868796,
+      "appversion" : 33619968
     },
     "device" : 2162689,
     "tone" : {
@@ -320,9 +320,9 @@
         "@variax_model" : 11,
         "@model" : "@global_params",
         "@topology0" : "SAB",
-        "@cursor_dsp" : 1,
+        "@cursor_dsp" : 0,
         "@cursor_path" : 0,
-        "@guitarinputZ" : 8,
+        "@guitarinputZ" : 0,
         "@tempo" : 120,
         "@topology1" : "ABJ",
         "@cursor_position" : 3,
@@ -332,7 +332,7 @@
         "@variax_str5tuning" : 0,
         "@variax_toneknob" : -0.1,
         "@current_snapshot" : 0,
-        "@cursor_group" : ""
+        "@cursor_group" : "block0"
       },
       "snapshot6" : {
         "@name" : "SNAPSHOT 7",
@@ -443,7 +443,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 33554464
+    "device_version" : 33620000
   },
   "schema" : "L6Preset"
 }

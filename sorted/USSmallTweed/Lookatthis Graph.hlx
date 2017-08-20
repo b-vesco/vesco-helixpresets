@@ -5,8 +5,8 @@
       "name" : "Lookatthis Graph",
       "application" : "Helix",
       "build_sha" : "2ed0c3d",
-      "modifieddate" : 1468058595,
-      "appversion" : 33554688
+      "modifieddate" : 1479868848,
+      "appversion" : 33619968
     },
     "device" : 2162689,
     "tone" : {
@@ -238,7 +238,7 @@
         }
       }
     },
-    "device_version" : 33554464
+    "device_version" : 33620000
   },
   "schema" : "L6Preset"
 }

@@ -5,8 +5,8 @@
       "name" : "Sunshine Of Love",
       "application" : "Helix",
       "build_sha" : "487f7a4",
-      "modifieddate" : 1468058522,
-      "appversion" : 33554688
+      "modifieddate" : 1479868812,
+      "appversion" : 33619968
     },
     "device" : 2162689,
     "tone" : {
@@ -376,7 +376,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 33554464
+    "device_version" : 33620000
   },
   "schema" : "L6Preset"
 }

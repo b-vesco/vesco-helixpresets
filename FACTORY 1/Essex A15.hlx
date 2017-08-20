@@ -4,9 +4,9 @@
     "meta" : {
       "name" : "Essex A15",
       "application" : "Helix",
-      "build_sha" : "c150707",
-      "modifieddate" : 1468058492,
-      "appversion" : 33554688
+      "build_sha" : "73211ae",
+      "modifieddate" : 1479868756,
+      "appversion" : 33619968
     },
     "device" : 2162689,
     "tone" : {
@@ -247,7 +247,7 @@
         "@topology0" : "A",
         "@cursor_dsp" : 0,
         "@cursor_path" : 0,
-        "@guitarinputZ" : 8,
+        "@guitarinputZ" : 0,
         "@tempo" : 124.87,
         "@topology1" : "A",
         "@cursor_position" : 3,
@@ -332,7 +332,7 @@
         "@tempo" : 124.87
       }
     },
-    "device_version" : 33554464
+    "device_version" : 33620000
   },
   "schema" : "L6Preset"
 }

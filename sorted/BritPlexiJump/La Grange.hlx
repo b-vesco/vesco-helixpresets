@@ -5,8 +5,8 @@
       "name" : "La Grange",
       "application" : "Helix",
       "build_sha" : "c150707",
-      "modifieddate" : 1468058597,
-      "appversion" : 33554688
+      "modifieddate" : 1479868848,
+      "appversion" : 33619968
     },
     "device" : 2162689,
     "tone" : {
@@ -230,7 +230,7 @@
         "block4" : {
           "@model" : "HD2_Cab4x121960T75",
           "Level" : 0,
-          "LowCut" : 49.86924,
+          "LowCut" : 49.8692,
           "@path" : 0,
           "@mic" : 0,
           "@type" : 2,
@@ -351,7 +351,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 33554464
+    "device_version" : 33620000
   },
   "schema" : "L6Preset"
 }
