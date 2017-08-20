@@ -2,11 +2,11 @@
   "version" : 6,
   "data" : {
     "meta" : {
-      "name" : "BAS:Dommyz Go 2",
+      "name" : "BAS:Domz Go 2.2",
       "application" : "Helix",
-      "build_sha" : "b37ee00",
-      "modifieddate" : 1490931682,
-      "appversion" : 34668544
+      "build_sha" : "6a7d211",
+      "modifieddate" : 1490936208,
+      "appversion" : 35651584
     },
     "device" : 2162689,
     "tone" : {
@@ -237,7 +237,7 @@
           "@position" : 5,
           "Drive" : 0.3,
           "Treble" : 0.85,
-          "ChVol" : 0.85,
+          "ChVol" : 0.8399999,
           "@enabled" : true,
           "Ripple" : 0.5,
           "@path" : 0,
@@ -280,7 +280,7 @@
           "Gain" : 0.37,
           "@position" : 4,
           "Level" : 0.85,
-          "@enabled" : false
+          "@enabled" : true
         },
         "cab0" : {
           "@model" : "HD2_Cab8x10SVBeast",
@@ -307,7 +307,7 @@
           "@position" : 3,
           "Level" : 0.6,
           "Tone" : 0.54,
-          "@enabled" : true
+          "@enabled" : false
         }
       },
       "snapshot2" : {
@@ -319,7 +319,7 @@
       "global" : {
         "@variax_volumeknob" : -0.1,
         "@pedalstate" : 2,
-        "@variax_customtuning" : true,
+        "@variax_customtuning" : false,
         "@variax_str1tuning" : 0,
         "@variax_str2tuning" : 0,
         "@variax_str4tuning" : 0,
@@ -410,8 +410,8 @@
             "@fs_momentary" : false,
             "@fs_customcolor" : 2,
             "@fs_index" : 11,
-            "@fs_enabled" : true,
-            "@fs_ledcolor" : 13676288,
+            "@fs_enabled" : false,
+            "@fs_ledcolor" : 525824,
             "@fs_customlabel" : "GRITZ!",
             "@fs_label" : "Minotaur"
           },
@@ -419,8 +419,8 @@
             "@fs_momentary" : false,
             "@fs_customcolor" : 2,
             "@fs_index" : 11,
-            "@fs_enabled" : false,
-            "@fs_ledcolor" : 525824,
+            "@fs_enabled" : true,
+            "@fs_ledcolor" : 13676288,
             "@fs_customlabel" : "GRITZ!",
             "@fs_label" : "Vermin Dist"
           },
@@ -470,8 +470,8 @@
             "block1" : true,
             "block2" : true,
             "block3" : false,
-            "block4" : true,
-            "block5" : false,
+            "block4" : false,
+            "block5" : true,
             "block6" : true,
             "block7" : true
           }
@@ -482,7 +482,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 34734112
+    "device_version" : 35651616
   },
   "schema" : "L6Preset"
 }
