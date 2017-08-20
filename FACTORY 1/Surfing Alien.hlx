@@ -4,9 +4,9 @@
     "meta" : {
       "name" : "Surfing Alien",
       "application" : "Helix",
-      "build_sha" : "87b59c5",
-      "modifieddate" : 1490931681,
-      "appversion" : 34668544
+      "build_sha" : "6a7d211",
+      "modifieddate" : 1490936205,
+      "appversion" : 35651584
     },
     "device" : 2162689,
     "tone" : {
@@ -222,7 +222,7 @@
           "@position" : 4,
           "Drive" : 0.72,
           "Treble" : 0.5799999,
-          "ChVol" : 0.85,
+          "ChVol" : 0.5999999,
           "@enabled" : true,
           "Ripple" : 0.5,
           "@path" : 0,
@@ -402,7 +402,7 @@
         "@tempo" : 171
       }
     },
-    "device_version" : 34734112
+    "device_version" : 35651616
   },
   "schema" : "L6Preset"
 }

@@ -4,9 +4,9 @@
     "meta" : {
       "name" : "Space Cadet",
       "application" : "Helix",
-      "build_sha" : "87b59c5",
-      "modifieddate" : 1490931680,
-      "appversion" : 34668544
+      "build_sha" : "6a7d211",
+      "modifieddate" : 1490936202,
+      "appversion" : 35651584
     },
     "device" : 2162689,
     "tone" : {
@@ -106,11 +106,11 @@
           "block2" : {
             "Dwell" : {
               "@fs_momentary" : true,
-              "@min" : 1,
-              "@max" : 0,
+              "@min" : 0,
+              "@max" : 1,
               "@controller" : 9,
-              "@fs_enabled" : true,
-              "@fs_ledcolor" : 7077838,
+              "@fs_enabled" : false,
+              "@fs_ledcolor" : 462860,
               "@fs_customlabel" : "HOLD FOR AIRLOCK",
               "@fs_label" : "Dwell"
             }
@@ -149,7 +149,7 @@
           "@model" : "HD2_ReverbParticle",
           "@path" : 1,
           "@type" : 7,
-          "Dwell" : 0.23,
+          "Dwell" : 0,
           "Condition" : 0,
           "@position" : 5,
           "@trails" : true,
@@ -290,7 +290,7 @@
       "global" : {
         "@variax_volumeknob" : -0.1,
         "@pedalstate" : 2,
-        "@variax_customtuning" : true,
+        "@variax_customtuning" : false,
         "@variax_str1tuning" : 0,
         "@variax_str2tuning" : 0,
         "@variax_str4tuning" : 0,
@@ -397,8 +397,8 @@
             },
             "block2" : {
               "Dwell" : {
-                "@fs_enabled" : true,
-                "@value" : 0.23
+                "@fs_enabled" : false,
+                "@value" : 0
               }
             }
           }
@@ -424,7 +424,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 34734112
+    "device_version" : 35651616
   },
   "schema" : "L6Preset"
 }

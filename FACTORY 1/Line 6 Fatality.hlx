@@ -4,9 +4,9 @@
     "meta" : {
       "name" : "Line 6 Fatality",
       "application" : "Helix",
-      "build_sha" : "87b59c5",
-      "modifieddate" : 1490931663,
-      "appversion" : 34668544
+      "build_sha" : "dd24475",
+      "modifieddate" : 1490936192,
+      "appversion" : 35651584
     },
     "device" : 2162689,
     "tone" : {
@@ -119,13 +119,13 @@
           "@model" : "HD2_ReverbPlate",
           "@position" : 6,
           "LowCut" : 135.156,
-          "@enabled" : false,
+          "@enabled" : true,
           "@path" : 0,
           "@trails" : false,
           "@type" : 7,
           "Mix" : 0.1208611,
           "Level" : 0,
-          "Decay" : 0.7,
+          "Decay" : 0.3299999,
           "HighCut" : 10224.3,
           "Predelay" : 0.009823442
         },
@@ -276,7 +276,7 @@
       "global" : {
         "@variax_volumeknob" : -0.1,
         "@pedalstate" : 2,
-        "@variax_customtuning" : true,
+        "@variax_customtuning" : false,
         "@variax_str1tuning" : 0,
         "@variax_str2tuning" : 0,
         "@variax_str4tuning" : 0,
@@ -329,9 +329,9 @@
           },
           "block8" : {
             "@fs_label" : "Plate",
-            "@fs_enabled" : false,
+            "@fs_enabled" : true,
             "@fs_index" : 11,
-            "@fs_ledcolor" : 1049600,
+            "@fs_ledcolor" : 16723200,
             "@fs_momentary" : false
           },
           "block2" : {
@@ -370,7 +370,7 @@
             "block5" : true,
             "block6" : true,
             "block7" : false,
-            "block8" : false
+            "block8" : true
           }
         },
         "@pedalstate" : 2,
@@ -379,7 +379,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 34734112
+    "device_version" : 35651616
   },
   "schema" : "L6Preset"
 }
