@@ -2,11 +2,11 @@
   "version" : 6,
   "data" : {
     "meta" : {
-      "name" : "Gimme 3 Steps",
+      "name" : "Gimme +\/-3 Steps",
       "application" : "Helix",
-      "build_sha" : "87b59c5",
-      "modifieddate" : 1490931787,
-      "appversion" : 34668544
+      "build_sha" : "6a7d211",
+      "modifieddate" : 1490936401,
+      "appversion" : 35651584
     },
     "device" : 2162689,
     "tone" : {
@@ -401,7 +401,7 @@
         "@tempo" : 132
       }
     },
-    "device_version" : 34734112
+    "device_version" : 35651616
   },
   "schema" : "L6Preset"
 }
