@@ -4,25 +4,32 @@
     "meta" : {
       "name" : "Hellish Cowboys",
       "application" : "Helix",
-      "build_sha" : "3583e0d",
-      "modifieddate" : 1479868848,
-      "appversion" : 33619968
+      "build_sha" : "87b59c5",
+      "modifieddate" : 1479876234,
+      "appversion" : 34603008
     },
     "device" : 2162689,
     "tone" : {
       "snapshot7" : {
+        "@pedalstate" : 2,
+        "@ledcolor" : 0,
         "@name" : "SNAPSHOT 8",
-        "@tempo" : 120
+        "@tempo" : 116
       },
       "snapshot4" : {
+        "@pedalstate" : 2,
+        "@ledcolor" : 0,
         "@name" : "SNAPSHOT 5",
-        "@tempo" : 120
+        "@tempo" : 116
       },
       "dsp1" : {
         "split" : {
-          "@position" : 0,
+          "BalanceA" : 0.5,
           "@model" : "HD2_AppDSPFlowSplitY",
-          "@enabled" : true
+          "@enabled" : true,
+          "bypass" : false,
+          "@position" : 0,
+          "BalanceB" : 0.5
         },
         "inputA" : {
           "@input" : 0,
@@ -63,8 +70,10 @@
         }
       },
       "snapshot1" : {
+        "@pedalstate" : 2,
+        "@ledcolor" : 0,
         "@name" : "SNAPSHOT 2",
-        "@tempo" : 120
+        "@tempo" : 116
       },
       "controller" : {
         "dsp0" : {
@@ -85,8 +94,10 @@
         }
       },
       "snapshot5" : {
+        "@pedalstate" : 2,
+        "@ledcolor" : 0,
         "@name" : "SNAPSHOT 6",
-        "@tempo" : 120
+        "@tempo" : 116
       },
       "dsp0" : {
         "join" : {
@@ -207,9 +218,12 @@
           "Toe" : 12
         },
         "split" : {
-          "@position" : 0,
+          "BalanceA" : 0.5,
           "@model" : "HD2_AppDSPFlowSplitY",
-          "@enabled" : true
+          "@enabled" : true,
+          "bypass" : false,
+          "@position" : 0,
+          "BalanceB" : 0.5
         },
         "block5" : {
           "Bias" : 0.62,
@@ -267,8 +281,10 @@
         }
       },
       "snapshot2" : {
+        "@pedalstate" : 2,
+        "@ledcolor" : 0,
         "@name" : "SNAPSHOT 3",
-        "@tempo" : 120
+        "@tempo" : 116
       },
       "global" : {
         "@variax_volumeknob" : 10,
@@ -296,8 +312,10 @@
         "@cursor_group" : "block5"
       },
       "snapshot6" : {
+        "@pedalstate" : 2,
+        "@ledcolor" : 0,
         "@name" : "SNAPSHOT 7",
-        "@tempo" : 120
+        "@tempo" : 116
       },
       "footswitch" : {
         "dsp0" : {
@@ -353,22 +371,12 @@
         }
       },
       "snapshot3" : {
+        "@pedalstate" : 2,
+        "@ledcolor" : 0,
         "@name" : "SNAPSHOT 4",
-        "@tempo" : 120
+        "@tempo" : 116
       },
       "snapshot0" : {
-        "blocks" : {
-          "dsp0" : {
-            "block0" : false,
-            "block1" : false,
-            "block2" : false,
-            "block3" : false,
-            "block4" : false,
-            "block5" : true,
-            "block6" : true,
-            "block7" : false
-          }
-        },
         "controllers" : {
           "dsp0" : {
             "block1" : {
@@ -385,11 +393,25 @@
             }
           }
         },
+        "blocks" : {
+          "dsp0" : {
+            "block0" : false,
+            "block1" : false,
+            "block2" : false,
+            "block3" : false,
+            "block4" : false,
+            "block5" : true,
+            "block6" : true,
+            "block7" : false
+          }
+        },
+        "@pedalstate" : 2,
+        "@ledcolor" : 0,
         "@name" : "SNAPSHOT 1",
-        "@tempo" : 120
+        "@tempo" : 116
       }
     },
-    "device_version" : 33620000
+    "device_version" : 34603040
   },
   "schema" : "L6Preset"
 }

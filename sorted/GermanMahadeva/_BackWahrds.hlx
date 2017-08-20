@@ -4,17 +4,21 @@
     "meta" : {
       "name" : "BackWahrds",
       "application" : "Helix",
-      "build_sha" : "73211ae",
-      "modifieddate" : 1479868843,
-      "appversion" : 33619968
+      "build_sha" : "87b59c5",
+      "modifieddate" : 1479876229,
+      "appversion" : 34603008
     },
     "device" : 2162689,
     "tone" : {
       "snapshot7" : {
+        "@pedalstate" : 1,
+        "@ledcolor" : 0,
         "@name" : "SNAPSHOT 8",
         "@tempo" : 120
       },
       "snapshot4" : {
+        "@pedalstate" : 1,
+        "@ledcolor" : 0,
         "@name" : "SNAPSHOT 5",
         "@tempo" : 120
       },
@@ -81,9 +85,12 @@
           "B Polarity" : false
         },
         "split" : {
-          "@position" : 0,
+          "BalanceA" : 0.5,
           "@model" : "HD2_AppDSPFlowSplitY",
-          "@enabled" : true
+          "@enabled" : true,
+          "bypass" : false,
+          "@position" : 0,
+          "BalanceB" : 0.5
         },
         "outputB" : {
           "@model" : "HD2_AppDSPFlowOutput",
@@ -99,6 +106,8 @@
         }
       },
       "snapshot1" : {
+        "@pedalstate" : 1,
+        "@ledcolor" : 0,
         "@name" : "SNAPSHOT 2",
         "@tempo" : 120
       },
@@ -128,6 +137,8 @@
         }
       },
       "snapshot5" : {
+        "@pedalstate" : 1,
+        "@ledcolor" : 0,
         "@name" : "SNAPSHOT 6",
         "@tempo" : 120
       },
@@ -150,7 +161,7 @@
           "@position" : 3,
           "Drive" : 0.72,
           "Treble" : 0.54,
-          "ChVol" : 0.52,
+          "ChVol" : 0.7,
           "@enabled" : true,
           "Ripple" : 0.5,
           "@path" : 1,
@@ -218,9 +229,12 @@
           "threshold" : -40
         },
         "split" : {
-          "@position" : 2,
+          "BalanceA" : 0.5,
           "@model" : "HD2_AppDSPFlowSplitY",
-          "@enabled" : true
+          "@enabled" : true,
+          "bypass" : false,
+          "@position" : 2,
+          "BalanceB" : 0.5
         },
         "block0" : {
           "@model" : "HD2_WahChrome",
@@ -275,6 +289,8 @@
         }
       },
       "snapshot2" : {
+        "@pedalstate" : 1,
+        "@ledcolor" : 0,
         "@name" : "SNAPSHOT 3",
         "@tempo" : 120
       },
@@ -290,7 +306,7 @@
         "@model" : "@global_params",
         "@topology0" : "SABJ",
         "@cursor_dsp" : 0,
-        "@cursor_path" : 1,
+        "@cursor_path" : 0,
         "@guitarinputZ" : 0,
         "@tempo" : 120,
         "@topology1" : "A",
@@ -301,9 +317,11 @@
         "@variax_str5tuning" : 0,
         "@variax_toneknob" : -0.1,
         "@current_snapshot" : 0,
-        "@cursor_group" : "block3"
+        "@cursor_group" : "block1"
       },
       "snapshot6" : {
+        "@pedalstate" : 1,
+        "@ledcolor" : 0,
         "@name" : "SNAPSHOT 7",
         "@tempo" : 120
       },
@@ -359,24 +377,12 @@
         }
       },
       "snapshot3" : {
+        "@pedalstate" : 1,
+        "@ledcolor" : 0,
         "@name" : "SNAPSHOT 4",
         "@tempo" : 120
       },
       "snapshot0" : {
-        "blocks" : {
-          "dsp1" : {
-            "block1" : false,
-            "block0" : false
-          },
-          "dsp0" : {
-            "block0" : true,
-            "block4" : false,
-            "block1" : true,
-            "block5" : false,
-            "block2" : true,
-            "block3" : true
-          }
-        },
         "controllers" : {
           "dsp0" : {
             "block4" : {
@@ -399,11 +405,27 @@
             }
           }
         },
+        "blocks" : {
+          "dsp1" : {
+            "block1" : false,
+            "block0" : false
+          },
+          "dsp0" : {
+            "block0" : true,
+            "block4" : false,
+            "block1" : true,
+            "block5" : false,
+            "block2" : true,
+            "block3" : true
+          }
+        },
+        "@pedalstate" : 1,
+        "@ledcolor" : 0,
         "@name" : "SNAPSHOT 1",
         "@tempo" : 120
       }
     },
-    "device_version" : 33620000
+    "device_version" : 34603040
   },
   "schema" : "L6Preset"
 }

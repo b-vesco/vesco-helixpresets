@@ -4,19 +4,23 @@
     "meta" : {
       "name" : "Plush",
       "application" : "Helix",
-      "build_sha" : "3583e0d",
-      "modifieddate" : 1479868847,
-      "appversion" : 33619968
+      "build_sha" : "87b59c5",
+      "modifieddate" : 1479876234,
+      "appversion" : 34603008
     },
     "device" : 2162689,
     "tone" : {
       "snapshot7" : {
+        "@pedalstate" : 2,
+        "@ledcolor" : 0,
         "@name" : "SNAPSHOT 8",
-        "@tempo" : 120
+        "@tempo" : 73.8
       },
       "snapshot4" : {
+        "@pedalstate" : 2,
+        "@ledcolor" : 0,
         "@name" : "SNAPSHOT 5",
-        "@tempo" : 120
+        "@tempo" : 73.8
       },
       "dsp1" : {
         "block0" : {
@@ -85,9 +89,12 @@
           "B Polarity" : false
         },
         "split" : {
-          "@position" : 0,
+          "BalanceA" : 0.5,
           "@model" : "HD2_AppDSPFlowSplitY",
-          "@enabled" : false
+          "@enabled" : false,
+          "bypass" : false,
+          "@position" : 0,
+          "BalanceB" : 0.5
         },
         "outputB" : {
           "@model" : "HD2_AppDSPFlowOutput",
@@ -103,8 +110,10 @@
         }
       },
       "snapshot1" : {
+        "@pedalstate" : 2,
+        "@ledcolor" : 0,
         "@name" : "SNAPSHOT 2",
-        "@tempo" : 120
+        "@tempo" : 73.8
       },
       "controller" : {
         "dsp1" : {
@@ -127,8 +136,10 @@
         }
       },
       "snapshot5" : {
+        "@pedalstate" : 2,
+        "@ledcolor" : 0,
         "@name" : "SNAPSHOT 6",
-        "@tempo" : 120
+        "@tempo" : 73.8
       },
       "dsp0" : {
         "join" : {
@@ -190,7 +201,7 @@
           "Cut" : 0.35,
           "Drive" : 0.29,
           "Treble" : 0.6,
-          "ChVol" : 0.74,
+          "ChVol" : 0.8399999,
           "@enabled" : true,
           "Ripple" : 0.5,
           "@path" : 0,
@@ -248,9 +259,12 @@
           "@enabled" : false
         },
         "split" : {
-          "@position" : 2,
+          "BalanceA" : 0.5,
           "@model" : "HD2_AppDSPFlowSplitY",
-          "@enabled" : true
+          "@enabled" : true,
+          "bypass" : false,
+          "@position" : 2,
+          "BalanceB" : 0.5
         },
         "block5" : {
           "@model" : "HD2_WahFassel",
@@ -286,8 +300,10 @@
         }
       },
       "snapshot2" : {
+        "@pedalstate" : 2,
+        "@ledcolor" : 0,
         "@name" : "SNAPSHOT 3",
-        "@tempo" : 120
+        "@tempo" : 73.8
       },
       "global" : {
         "@variax_volumeknob" : 10,
@@ -315,8 +331,10 @@
         "@cursor_group" : "block1"
       },
       "snapshot6" : {
+        "@pedalstate" : 2,
+        "@ledcolor" : 0,
         "@name" : "SNAPSHOT 7",
-        "@tempo" : 120
+        "@tempo" : 73.8
       },
       "footswitch" : {
         "dsp1" : {
@@ -367,26 +385,12 @@
         }
       },
       "snapshot3" : {
+        "@pedalstate" : 2,
+        "@ledcolor" : 0,
         "@name" : "SNAPSHOT 4",
-        "@tempo" : 120
+        "@tempo" : 73.8
       },
       "snapshot0" : {
-        "blocks" : {
-          "dsp1" : {
-            "block1" : true,
-            "block0" : false,
-            "block2" : true
-          },
-          "dsp0" : {
-            "block0" : false,
-            "block1" : true,
-            "block2" : true,
-            "block3" : true,
-            "block4" : true,
-            "block5" : false,
-            "block6" : true
-          }
-        },
         "controllers" : {
           "dsp1" : {
             "block2" : {
@@ -405,11 +409,29 @@
             }
           }
         },
+        "blocks" : {
+          "dsp1" : {
+            "block1" : true,
+            "block0" : false,
+            "block2" : true
+          },
+          "dsp0" : {
+            "block0" : false,
+            "block1" : true,
+            "block2" : true,
+            "block3" : true,
+            "block4" : true,
+            "block5" : false,
+            "block6" : true
+          }
+        },
+        "@pedalstate" : 2,
+        "@ledcolor" : 0,
         "@name" : "SNAPSHOT 1",
-        "@tempo" : 120
+        "@tempo" : 73.8
       }
     },
-    "device_version" : 33620000
+    "device_version" : 34603040
   },
   "schema" : "L6Preset"
 }

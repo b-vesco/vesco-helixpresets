@@ -4,25 +4,32 @@
     "meta" : {
       "name" : "Mystery Train",
       "application" : "Helix",
-      "build_sha" : "73211ae",
-      "modifieddate" : 1479868792,
-      "appversion" : 33619968
+      "build_sha" : "87b59c5",
+      "modifieddate" : 1479876186,
+      "appversion" : 34603008
     },
     "device" : 2162689,
     "tone" : {
       "snapshot7" : {
+        "@pedalstate" : 2,
+        "@ledcolor" : 0,
         "@name" : "SNAPSHOT 8",
         "@tempo" : 119
       },
       "snapshot4" : {
+        "@pedalstate" : 2,
+        "@ledcolor" : 0,
         "@name" : "SNAPSHOT 5",
         "@tempo" : 119
       },
       "dsp1" : {
         "split" : {
-          "@position" : 0,
+          "BalanceA" : 0.5,
           "@model" : "HD2_AppDSPFlowSplitY",
-          "@enabled" : true
+          "@enabled" : true,
+          "bypass" : false,
+          "@position" : 0,
+          "BalanceB" : 0.5
         },
         "inputA" : {
           "@input" : 0,
@@ -63,6 +70,8 @@
         }
       },
       "snapshot1" : {
+        "@pedalstate" : 2,
+        "@ledcolor" : 0,
         "@name" : "SNAPSHOT 2",
         "@tempo" : 119
       },
@@ -78,6 +87,8 @@
         }
       },
       "snapshot5" : {
+        "@pedalstate" : 2,
+        "@ledcolor" : 0,
         "@name" : "SNAPSHOT 6",
         "@tempo" : 119
       },
@@ -154,9 +165,12 @@
           "threshold" : -80
         },
         "split" : {
-          "@position" : 5,
+          "BalanceA" : 0.5,
           "@model" : "HD2_AppDSPFlowSplitY",
-          "@enabled" : true
+          "@enabled" : true,
+          "bypass" : false,
+          "@position" : 5,
+          "BalanceB" : 0.5
         },
         "block0" : {
           "@model" : "HD2_ReverbPlate",
@@ -221,6 +235,8 @@
         }
       },
       "snapshot2" : {
+        "@pedalstate" : 2,
+        "@ledcolor" : 0,
         "@name" : "SNAPSHOT 3",
         "@tempo" : 119
       },
@@ -250,6 +266,8 @@
         "@cursor_group" : "block3"
       },
       "snapshot6" : {
+        "@pedalstate" : 2,
+        "@ledcolor" : 0,
         "@name" : "SNAPSHOT 7",
         "@tempo" : 119
       },
@@ -293,20 +311,12 @@
         }
       },
       "snapshot3" : {
+        "@pedalstate" : 2,
+        "@ledcolor" : 0,
         "@name" : "SNAPSHOT 4",
         "@tempo" : 119
       },
       "snapshot0" : {
-        "blocks" : {
-          "dsp0" : {
-            "block0" : true,
-            "block4" : true,
-            "block1" : true,
-            "block5" : false,
-            "block2" : false,
-            "block3" : true
-          }
-        },
         "controllers" : {
           "dsp0" : {
             "block1" : {
@@ -317,11 +327,23 @@
             }
           }
         },
+        "blocks" : {
+          "dsp0" : {
+            "block0" : true,
+            "block4" : true,
+            "block1" : true,
+            "block5" : false,
+            "block2" : false,
+            "block3" : true
+          }
+        },
+        "@pedalstate" : 2,
+        "@ledcolor" : 0,
         "@name" : "SNAPSHOT 1",
         "@tempo" : 119
       }
     },
-    "device_version" : 33620000
+    "device_version" : 34603040
   },
   "schema" : "L6Preset"
 }

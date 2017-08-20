@@ -4,25 +4,32 @@
     "meta" : {
       "name" : "US Small Tweed",
       "application" : "Helix",
-      "build_sha" : "73211ae",
-      "modifieddate" : 1479868756,
-      "appversion" : 33619968
+      "build_sha" : "87b59c5",
+      "modifieddate" : 1479876182,
+      "appversion" : 34603008
     },
     "device" : 2162689,
     "tone" : {
       "snapshot7" : {
+        "@pedalstate" : 2,
+        "@ledcolor" : 0,
         "@name" : "SNAPSHOT 8",
-        "@tempo" : 101.266
+        "@tempo" : 120
       },
       "snapshot4" : {
+        "@pedalstate" : 2,
+        "@ledcolor" : 0,
         "@name" : "SNAPSHOT 5",
-        "@tempo" : 101.266
+        "@tempo" : 120
       },
       "dsp1" : {
         "split" : {
-          "@position" : 0,
+          "BalanceA" : 0.5,
           "@model" : "HD2_AppDSPFlowSplitY",
-          "@enabled" : true
+          "@enabled" : true,
+          "bypass" : false,
+          "@position" : 0,
+          "BalanceB" : 0.5
         },
         "inputA" : {
           "@input" : 0,
@@ -46,7 +53,7 @@
           "A Pan" : 0.5,
           "@position" : 8,
           "Level" : 0,
-          "@enabled" : true,
+          "@enabled" : false,
           "B Polarity" : false
         },
         "outputA" : {
@@ -63,8 +70,10 @@
         }
       },
       "snapshot1" : {
+        "@pedalstate" : 2,
+        "@ledcolor" : 0,
         "@name" : "SNAPSHOT 2",
-        "@tempo" : 101.266
+        "@tempo" : 120
       },
       "controller" : {
         "dsp0" : {
@@ -78,8 +87,10 @@
         }
       },
       "snapshot5" : {
+        "@pedalstate" : 2,
+        "@ledcolor" : 0,
         "@name" : "SNAPSHOT 6",
-        "@tempo" : 101.266
+        "@tempo" : 120
       },
       "dsp0" : {
         "join" : {
@@ -90,7 +101,7 @@
           "A Pan" : 0.5,
           "@position" : 8,
           "Level" : 0,
-          "@enabled" : true,
+          "@enabled" : false,
           "B Polarity" : false
         },
         "block3" : {
@@ -157,9 +168,12 @@
           "threshold" : -48
         },
         "split" : {
-          "@position" : 0,
+          "BalanceA" : 0.5,
           "@model" : "HD2_AppDSPFlowSplitY",
-          "@enabled" : true
+          "@enabled" : true,
+          "bypass" : false,
+          "@position" : 0,
+          "BalanceB" : 0.5
         },
         "block0" : {
           "@model" : "HD2_Looper",
@@ -181,7 +195,7 @@
           "@path" : 0,
           "@trails" : false,
           "@type" : 7,
-          "Mix" : 0.2,
+          "Mix" : 0.34,
           "Level" : 0,
           "Decay" : 0.2,
           "HighCut" : 3929,
@@ -191,7 +205,7 @@
           "@model" : "HD2_Cab1x8SmallTweed",
           "Early Reflections" : 0,
           "LowCut" : 19.9,
-          "@mic" : 4,
+          "@mic" : 8,
           "Distance" : 4,
           "Level" : 0,
           "@enabled" : true,
@@ -204,13 +218,13 @@
           "gain" : 0
         },
         "block4" : {
-          "Bias" : 0.73,
+          "Bias" : 0.6,
           "@model" : "HD2_AmpUSSmallTweed",
-          "Master" : 0.97,
+          "Master" : 1,
           "@position" : 3,
-          "Drive" : 0.75,
-          "Treble" : 0.6,
-          "ChVol" : 0.9400001,
+          "Drive" : 0.52,
+          "Treble" : 0.6800001,
+          "ChVol" : 0.8,
           "@enabled" : true,
           "Ripple" : 0.5,
           "@path" : 0,
@@ -218,16 +232,18 @@
           "Bass" : 0.33,
           "BiasX" : 0.5,
           "Hum" : 0.5,
-          "Mid" : 0.42,
+          "Mid" : 0.6,
           "@bypassvolume" : 1,
           "@cab" : "cab0",
-          "Presence" : 0,
+          "Presence" : 0.35,
           "Sag" : 0.5
         }
       },
       "snapshot2" : {
+        "@pedalstate" : 2,
+        "@ledcolor" : 0,
         "@name" : "SNAPSHOT 3",
-        "@tempo" : 101.266
+        "@tempo" : 120
       },
       "global" : {
         "@variax_volumeknob" : -0.1,
@@ -237,13 +253,13 @@
         "@variax_str2tuning" : 0,
         "@variax_str4tuning" : 0,
         "@variax_str6tuning" : 0,
-        "@variax_model" : 37,
+        "@variax_model" : 0,
         "@model" : "@global_params",
         "@topology0" : "A",
         "@cursor_dsp" : 0,
         "@cursor_path" : 0,
         "@guitarinputZ" : 0,
-        "@tempo" : 101.266,
+        "@tempo" : 120,
         "@topology1" : "A",
         "@cursor_position" : 3,
         "@variax_lockctrls" : 0,
@@ -255,8 +271,10 @@
         "@cursor_group" : "block4"
       },
       "snapshot6" : {
+        "@pedalstate" : 2,
+        "@ledcolor" : 0,
         "@name" : "SNAPSHOT 7",
-        "@tempo" : 101.266
+        "@tempo" : 120
       },
       "footswitch" : {
         "dsp0" : {
@@ -298,20 +316,12 @@
         }
       },
       "snapshot3" : {
+        "@pedalstate" : 2,
+        "@ledcolor" : 0,
         "@name" : "SNAPSHOT 4",
-        "@tempo" : 101.266
+        "@tempo" : 120
       },
       "snapshot0" : {
-        "blocks" : {
-          "dsp0" : {
-            "block0" : false,
-            "block4" : true,
-            "block1" : true,
-            "block5" : true,
-            "block2" : true,
-            "block3" : false
-          }
-        },
         "controllers" : {
           "dsp0" : {
             "block1" : {
@@ -322,11 +332,23 @@
             }
           }
         },
+        "blocks" : {
+          "dsp0" : {
+            "block0" : false,
+            "block4" : true,
+            "block1" : true,
+            "block5" : true,
+            "block2" : true,
+            "block3" : false
+          }
+        },
+        "@pedalstate" : 2,
+        "@ledcolor" : 0,
         "@name" : "SNAPSHOT 1",
-        "@tempo" : 101.266
+        "@tempo" : 120
       }
     },
-    "device_version" : 33620000
+    "device_version" : 34603040
   },
   "schema" : "L6Preset"
 }
