@@ -2,11 +2,11 @@
   "version" : 6,
   "data" : {
     "meta" : {
-      "name" : "Chem Trails",
+      "name" : "Chemtrails",
       "application" : "Helix",
-      "build_sha" : "daacb04",
-      "modifieddate" : 1490931788,
-      "appversion" : 34668544
+      "build_sha" : "6a7d211",
+      "modifieddate" : 1490936308,
+      "appversion" : 35651584
     },
     "device" : 2162689,
     "tone" : {
@@ -37,7 +37,7 @@
         },
         "block1" : {
           "@model" : "HD2_ReverbOcto",
-          "@position" : 4,
+          "@position" : 2,
           "LowCut" : 122,
           "Intensity" : 1,
           "@enabled" : false,
@@ -45,7 +45,7 @@
           "@trails" : false,
           "@type" : 7,
           "Mix" : 0.5,
-          "Level" : 0,
+          "Level" : -2,
           "Decay" : 0.72,
           "HighCut" : 9760
         },
@@ -57,7 +57,7 @@
           "@stereo" : true,
           "@type" : 0,
           "Gain" : 0.65,
-          "@position" : 5,
+          "@position" : 3,
           "Level" : 0.75,
           "@enabled" : false
         },
@@ -151,12 +151,12 @@
           "A Pan" : 0.5,
           "@position" : 8,
           "Level" : 0,
-          "@enabled" : false,
+          "@enabled" : true,
           "B Polarity" : false
         },
         "block3" : {
           "@model" : "HD2_DelayElephantMan",
-          "@position" : 2,
+          "@position" : 3,
           "Feedback" : 0.39,
           "SyncSelect1" : 3,
           "TempoSync1" : true,
@@ -179,7 +179,7 @@
           "Bias" : 0.5,
           "@model" : "HD2_AmpLine6Litigator",
           "Master" : 0.5,
-          "@position" : 1,
+          "@position" : 2,
           "Drive" : 0.5,
           "Treble" : 0.5,
           "ChVol" : 0.79,
@@ -324,7 +324,7 @@
       "global" : {
         "@variax_volumeknob" : -0.1,
         "@pedalstate" : 2,
-        "@variax_customtuning" : true,
+        "@variax_customtuning" : false,
         "@variax_str1tuning" : 0,
         "@variax_str2tuning" : 0,
         "@variax_str4tuning" : 0,
@@ -459,7 +459,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 34734112
+    "device_version" : 35651616
   },
   "schema" : "L6Preset"
 }
