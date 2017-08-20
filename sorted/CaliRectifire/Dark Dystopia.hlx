@@ -4,9 +4,9 @@
     "meta" : {
       "name" : "Dark Dystopia",
       "application" : "Helix",
-      "build_sha" : "87b59c5",
-      "modifieddate" : 1490931782,
-      "appversion" : 34668544
+      "build_sha" : "6a7d211",
+      "modifieddate" : 1490936282,
+      "appversion" : 35651584
     },
     "device" : 2162689,
     "tone" : {
@@ -142,6 +142,17 @@
           "decay" : 0.5,
           "threshold" : -48
         },
+        "block7" : {
+          "@model" : "HD2_EQLowCutHighCut",
+          "LowCut" : 19.9,
+          "@path" : 0,
+          "@stereo" : false,
+          "@type" : 0,
+          "@position" : 6,
+          "Level" : 0,
+          "@enabled" : true,
+          "HighCut" : 10500
+        },
         "block1" : {
           "@model" : "HD2_VolPanVol",
           "@path" : 0,
@@ -255,7 +266,7 @@
       "global" : {
         "@variax_volumeknob" : -0.1,
         "@pedalstate" : 2,
-        "@variax_customtuning" : true,
+        "@variax_customtuning" : false,
         "@variax_str1tuning" : 0,
         "@variax_str2tuning" : 0,
         "@variax_str4tuning" : 0,
@@ -347,7 +358,8 @@
             "block3" : true,
             "block4" : true,
             "block5" : true,
-            "block6" : true
+            "block6" : true,
+            "block7" : true
           }
         },
         "@pedalstate" : 2,
@@ -356,7 +368,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 34734112
+    "device_version" : 35651616
   },
   "schema" : "L6Preset"
 }

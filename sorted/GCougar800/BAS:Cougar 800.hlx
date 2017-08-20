@@ -4,9 +4,9 @@
     "meta" : {
       "name" : "BAS:Cougar 800",
       "application" : "Helix",
-      "build_sha" : "87b59c5",
-      "modifieddate" : 1490931664,
-      "appversion" : 34668544
+      "build_sha" : "37cfcb5",
+      "modifieddate" : 1490936193,
+      "appversion" : 35651584
     },
     "device" : 2162689,
     "tone" : {
@@ -118,7 +118,7 @@
         "block2" : {
           "@model" : "HD2_CompressorLAStudioComp",
           "@position" : 1,
-          "@enabled" : false,
+          "@enabled" : true,
           "Emphasis" : 0.09000003,
           "@path" : 0,
           "@type" : 0,
@@ -223,7 +223,7 @@
       "global" : {
         "@variax_volumeknob" : -0.1,
         "@pedalstate" : 2,
-        "@variax_customtuning" : true,
+        "@variax_customtuning" : false,
         "@variax_str1tuning" : 0,
         "@variax_str2tuning" : 0,
         "@variax_str4tuning" : 0,
@@ -269,9 +269,9 @@
           },
           "block2" : {
             "@fs_label" : "LA Studio Comp",
-            "@fs_enabled" : false,
+            "@fs_enabled" : true,
             "@fs_index" : 8,
-            "@fs_ledcolor" : 527360,
+            "@fs_ledcolor" : 8716032,
             "@fs_momentary" : false
           },
           "block3" : {
@@ -305,7 +305,7 @@
             "block0" : false,
             "block4" : true,
             "block1" : true,
-            "block2" : false,
+            "block2" : true,
             "block3" : false
           }
         },
@@ -315,7 +315,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 34734112
+    "device_version" : 35651616
   },
   "schema" : "L6Preset"
 }

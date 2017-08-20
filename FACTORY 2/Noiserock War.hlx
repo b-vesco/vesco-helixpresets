@@ -4,9 +4,9 @@
     "meta" : {
       "name" : "Noiserock War",
       "application" : "Helix",
-      "build_sha" : "87b59c5",
-      "modifieddate" : 1490931779,
-      "appversion" : 34668544
+      "build_sha" : "6a7d211",
+      "modifieddate" : 1490936279,
+      "appversion" : 35651584
     },
     "device" : 2162689,
     "tone" : {
@@ -132,6 +132,20 @@
           "decay" : 0.5,
           "threshold" : -48
         },
+        "block7" : {
+          "@model" : "HD2_ReverbRoom",
+          "@position" : 6,
+          "LowCut" : 150,
+          "@enabled" : true,
+          "@path" : 0,
+          "@trails" : false,
+          "@type" : 7,
+          "Mix" : 0.203429,
+          "Level" : 0,
+          "Decay" : 0.168754,
+          "HighCut" : 4700,
+          "Predelay" : 0.03699994
+        },
         "block1" : {
           "@model" : "HD2_VolPanVol",
           "@path" : 0,
@@ -156,18 +170,15 @@
           "threshold" : -48
         },
         "block6" : {
-          "@model" : "HD2_ReverbRoom",
-          "@position" : 6,
-          "LowCut" : 150,
-          "@enabled" : true,
+          "@model" : "HD2_EQLowCutHighCut",
+          "LowCut" : 65,
           "@path" : 0,
-          "@trails" : false,
-          "@type" : 7,
-          "Mix" : 0.203429,
+          "@stereo" : false,
+          "@type" : 0,
+          "@position" : 5,
           "Level" : 0,
-          "Decay" : 0.168754,
-          "HighCut" : 4700,
-          "Predelay" : 0.03699994
+          "@enabled" : true,
+          "HighCut" : 9000
         },
         "block0" : {
           "@model" : "HD2_Looper",
@@ -255,7 +266,7 @@
       "global" : {
         "@variax_volumeknob" : -0.1,
         "@pedalstate" : 2,
-        "@variax_customtuning" : true,
+        "@variax_customtuning" : false,
         "@variax_str1tuning" : 0,
         "@variax_str2tuning" : 0,
         "@variax_str4tuning" : 0,
@@ -292,13 +303,6 @@
             "@fs_ledcolor" : 462860,
             "@fs_momentary" : false
           },
-          "block4" : {
-            "@fs_label" : "Transistor Tape",
-            "@fs_enabled" : false,
-            "@fs_index" : 10,
-            "@fs_ledcolor" : 67840,
-            "@fs_momentary" : false
-          },
           "block1" : {
             "@fs_label" : "Volume Pedal",
             "@fs_enabled" : true,
@@ -313,18 +317,32 @@
             "@fs_ledcolor" : 8716032,
             "@fs_momentary" : false
           },
-          "block6" : {
-            "@fs_label" : "Room",
-            "@fs_enabled" : true,
-            "@fs_index" : 11,
-            "@fs_ledcolor" : 16723200,
-            "@fs_momentary" : false
-          },
           "block3" : {
             "@fs_label" : "Top Secret OD",
             "@fs_enabled" : false,
             "@fs_index" : 9,
             "@fs_ledcolor" : 525824,
+            "@fs_momentary" : false
+          },
+          "block4" : {
+            "@fs_label" : "Transistor Tape",
+            "@fs_enabled" : false,
+            "@fs_index" : 10,
+            "@fs_ledcolor" : 67840,
+            "@fs_momentary" : false
+          },
+          "block6" : {
+            "@fs_label" : "Low and High Cut",
+            "@fs_enabled" : true,
+            "@fs_index" : 4,
+            "@fs_ledcolor" : 8716032,
+            "@fs_momentary" : false
+          },
+          "block7" : {
+            "@fs_label" : "Room",
+            "@fs_enabled" : true,
+            "@fs_index" : 11,
+            "@fs_ledcolor" : 16723200,
             "@fs_momentary" : false
           }
         }
@@ -354,7 +372,8 @@
             "block3" : false,
             "block4" : false,
             "block5" : true,
-            "block6" : true
+            "block6" : true,
+            "block7" : true
           }
         },
         "@pedalstate" : 2,
@@ -363,7 +382,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 34734112
+    "device_version" : 35651616
   },
   "schema" : "L6Preset"
 }

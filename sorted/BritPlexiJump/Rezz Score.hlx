@@ -4,9 +4,9 @@
     "meta" : {
       "name" : "Rezz Score",
       "application" : "Helix",
-      "build_sha" : "87b59c5",
-      "modifieddate" : 1490931784,
-      "appversion" : 34668544
+      "build_sha" : "6a7d211",
+      "modifieddate" : 1490936283,
+      "appversion" : 35651584
     },
     "device" : 2162689,
     "tone" : {
@@ -24,8 +24,19 @@
       },
       "dsp1" : {
         "block0" : {
-          "@model" : "HD2_TremoloOpticalTrem",
+          "@model" : "HD2_EQLowCutHighCut",
+          "LowCut" : 80,
+          "@path" : 0,
+          "@stereo" : false,
+          "@type" : 0,
           "@position" : 0,
+          "Level" : 0,
+          "@enabled" : true,
+          "HighCut" : 10200
+        },
+        "block1" : {
+          "@model" : "HD2_TremoloOpticalTrem",
+          "@position" : 1,
           "SyncSelect1" : 6,
           "TempoSync1" : false,
           "Intensity" : 0.6700001,
@@ -37,7 +48,7 @@
           "@stereo" : false,
           "Spread" : 1
         },
-        "block1" : {
+        "block2" : {
           "SweepDepth" : 2830,
           "SweepResonance" : 0.45,
           "SweepShape" : 0,
@@ -58,15 +69,15 @@
           "Feedback" : 0.5799999,
           "HighCut" : 8000,
           "Scale" : 1,
-          "@position" : 1,
+          "@position" : 2,
           "Headroom" : 0,
           "TempoSync1" : false,
           "SweepSymmetry" : 0.5,
           "Time" : 0.45
         },
-        "block2" : {
+        "block3" : {
           "@model" : "HD2_ReverbCave",
-          "@position" : 2,
+          "@position" : 3,
           "LowCut" : 59,
           "@enabled" : true,
           "@path" : 0,
@@ -327,7 +338,7 @@
       "global" : {
         "@variax_volumeknob" : -0.1,
         "@pedalstate" : 2,
-        "@variax_customtuning" : true,
+        "@variax_customtuning" : false,
         "@variax_str1tuning" : 0,
         "@variax_str2tuning" : 0,
         "@variax_str4tuning" : 0,
@@ -340,14 +351,14 @@
         "@guitarinputZ" : 0,
         "@tempo" : 120,
         "@topology1" : "A",
-        "@cursor_position" : 2,
+        "@cursor_position" : 5,
         "@variax_lockctrls" : 0,
         "@variax_magmode" : true,
         "@variax_str3tuning" : 0,
         "@variax_str5tuning" : 0,
         "@variax_toneknob" : -0.1,
         "@current_snapshot" : 0,
-        "@cursor_group" : "block2"
+        "@cursor_group" : "block5"
       },
       "snapshot6" : {
         "@pedalstate" : 2,
@@ -358,24 +369,24 @@
       "footswitch" : {
         "dsp1" : {
           "block1" : {
-            "@fs_label" : "Sweep Echo",
-            "@fs_enabled" : true,
-            "@fs_index" : 10,
-            "@fs_ledcolor" : 458496,
-            "@fs_momentary" : false
-          },
-          "block0" : {
             "@fs_label" : "Optical Trem",
             "@fs_enabled" : true,
             "@fs_index" : 9,
             "@fs_ledcolor" : 13055,
             "@fs_momentary" : false
           },
-          "block2" : {
+          "block3" : {
             "@fs_label" : "Cave",
             "@fs_enabled" : true,
             "@fs_index" : 11,
             "@fs_ledcolor" : 16723200,
+            "@fs_momentary" : false
+          },
+          "block2" : {
+            "@fs_label" : "Sweep Echo",
+            "@fs_enabled" : true,
+            "@fs_index" : 10,
+            "@fs_ledcolor" : 458496,
             "@fs_momentary" : false
           }
         },
@@ -443,9 +454,10 @@
         },
         "blocks" : {
           "dsp1" : {
-            "block1" : true,
             "block0" : true,
-            "block2" : true
+            "block1" : true,
+            "block2" : true,
+            "block3" : true
           },
           "dsp0" : {
             "block0" : false,
@@ -463,7 +475,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 34734112
+    "device_version" : 35651616
   },
   "schema" : "L6Preset"
 }

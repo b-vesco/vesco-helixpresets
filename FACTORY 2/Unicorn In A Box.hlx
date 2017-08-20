@@ -4,9 +4,9 @@
     "meta" : {
       "name" : "Unicorn In A Box",
       "application" : "Helix",
-      "build_sha" : "87b59c5",
-      "modifieddate" : 1490931785,
-      "appversion" : 34668544
+      "build_sha" : "37cfcb5",
+      "modifieddate" : 1490936284,
+      "appversion" : 35651584
     },
     "device" : 2162689,
     "tone" : {
@@ -38,6 +38,18 @@
           "HighCut" : 9760
         },
         "block1" : {
+          "@model" : "HD2_Looper",
+          "Overdub" : 0,
+          "Playback" : 0,
+          "@path" : 1,
+          "@stereo" : true,
+          "@type" : 6,
+          "highCut" : 20000,
+          "lowCut" : 20,
+          "@position" : 7,
+          "@enabled" : false
+        },
+        "block2" : {
           "@model" : "HD2_ReverbPlate",
           "@position" : 0,
           "LowCut" : 90,
@@ -73,7 +85,7 @@
           "A Pan" : 0.5,
           "@position" : 8,
           "Level" : 0,
-          "@enabled" : false,
+          "@enabled" : true,
           "B Polarity" : false
         },
         "split" : {
@@ -129,7 +141,7 @@
           "A Pan" : 0.5,
           "@position" : 8,
           "Level" : 0,
-          "@enabled" : false,
+          "@enabled" : true,
           "B Polarity" : false
         },
         "block3" : {
@@ -293,7 +305,7 @@
       "global" : {
         "@variax_volumeknob" : -0.1,
         "@pedalstate" : 2,
-        "@variax_customtuning" : true,
+        "@variax_customtuning" : false,
         "@variax_str1tuning" : 0,
         "@variax_str2tuning" : 0,
         "@variax_str4tuning" : 0,
@@ -306,14 +318,14 @@
         "@guitarinputZ" : 0,
         "@tempo" : 123.267,
         "@topology1" : "AB",
-        "@cursor_position" : 2,
+        "@cursor_position" : 1,
         "@variax_lockctrls" : 0,
         "@variax_magmode" : true,
         "@variax_str3tuning" : 0,
         "@variax_str5tuning" : 0,
         "@variax_toneknob" : -0.1,
         "@current_snapshot" : 0,
-        "@cursor_group" : "block4"
+        "@cursor_group" : "block3"
       },
       "snapshot6" : {
         "@pedalstate" : 2,
@@ -324,16 +336,23 @@
       "footswitch" : {
         "dsp1" : {
           "block1" : {
-            "@fs_label" : "Plate",
-            "@fs_enabled" : true,
-            "@fs_index" : 10,
-            "@fs_ledcolor" : 16723200,
+            "@fs_label" : "Looper",
+            "@fs_enabled" : false,
+            "@fs_index" : 5,
+            "@fs_ledcolor" : 462860,
             "@fs_momentary" : false
           },
           "block0" : {
             "@fs_label" : "Octo",
             "@fs_enabled" : true,
             "@fs_index" : 4,
+            "@fs_ledcolor" : 16723200,
+            "@fs_momentary" : false
+          },
+          "block2" : {
+            "@fs_label" : "Plate",
+            "@fs_enabled" : true,
+            "@fs_index" : 10,
             "@fs_ledcolor" : 16723200,
             "@fs_momentary" : false
           }
@@ -388,8 +407,9 @@
         },
         "blocks" : {
           "dsp1" : {
-            "block1" : true,
-            "block0" : true
+            "block1" : false,
+            "block0" : true,
+            "block2" : true
           },
           "dsp0" : {
             "block0" : true,
@@ -405,7 +425,7 @@
         "@tempo" : 123.267
       }
     },
-    "device_version" : 34734112
+    "device_version" : 35651616
   },
   "schema" : "L6Preset"
 }

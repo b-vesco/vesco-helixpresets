@@ -4,9 +4,9 @@
     "meta" : {
       "name" : "Nine Inch Pills",
       "application" : "Helix",
-      "build_sha" : "87b59c5",
-      "modifieddate" : 1490931781,
-      "appversion" : 34668544
+      "build_sha" : "6a7d211",
+      "modifieddate" : 1490936281,
+      "appversion" : 35651584
     },
     "device" : 2162689,
     "tone" : {
@@ -195,7 +195,7 @@
               "@max" : 1
             }
           },
-          "block2" : {
+          "block0" : {
             "Pedal" : {
               "@min" : 0,
               "@controller" : 1,
@@ -217,7 +217,7 @@
           "B Level" : 0,
           "A Level" : 0,
           "A Pan" : 0.5,
-          "@position" : 8,
+          "@position" : 3,
           "Level" : 0,
           "@enabled" : true,
           "B Polarity" : false
@@ -233,17 +233,16 @@
           "@enabled" : true
         },
         "block2" : {
-          "@model" : "HD2_PitchPitchWham",
-          "Heel" : 12,
+          "@model" : "HD2_Looper",
+          "Overdub" : 0,
+          "Playback" : 0,
           "@path" : 0,
-          "@stereo" : false,
-          "@type" : 0,
-          "Pedal" : 1,
-          "@position" : 2,
-          "Level" : 0,
-          "Mix" : 0.7,
-          "@enabled" : true,
-          "Toe" : 24
+          "@stereo" : true,
+          "@type" : 6,
+          "highCut" : 20000,
+          "lowCut" : 20,
+          "@position" : 7,
+          "@enabled" : false
         },
         "inputB" : {
           "@input" : 0,
@@ -254,20 +253,20 @@
         },
         "block1" : {
           "@model" : "HD2_PitchPitchWham",
-          "Heel" : -24,
-          "@path" : 0,
+          "Heel" : 12,
+          "@path" : 1,
           "@stereo" : false,
           "@type" : 0,
-          "Pedal" : 0,
-          "@position" : 1,
+          "Pedal" : 1,
+          "@position" : 2,
           "Level" : 0,
-          "Mix" : 0.76,
+          "Mix" : 0.7,
           "@enabled" : true,
-          "Toe" : 0
+          "Toe" : 24
         },
         "outputB" : {
           "@model" : "HD2_AppDSPFlowOutput",
-          "@output" : 1,
+          "@output" : 0,
           "pan" : 0.5,
           "gain" : 0
         },
@@ -290,23 +289,24 @@
           "HighCut" : 1900
         },
         "block0" : {
-          "@model" : "HD2_Looper",
-          "Overdub" : 0,
-          "Playback" : 0,
+          "@model" : "HD2_PitchPitchWham",
+          "Heel" : -24,
           "@path" : 0,
-          "@stereo" : true,
-          "@type" : 6,
-          "highCut" : 20000,
-          "lowCut" : 20,
-          "@position" : 7,
-          "@enabled" : false
+          "@stereo" : false,
+          "@type" : 0,
+          "Pedal" : 0,
+          "@position" : 2,
+          "Level" : 0,
+          "Mix" : 0.76,
+          "@enabled" : true,
+          "Toe" : 0
         },
         "split" : {
           "BalanceA" : 0.5,
           "@model" : "HD2_AppDSPFlowSplitY",
           "@enabled" : true,
           "bypass" : false,
-          "@position" : 0,
+          "@position" : 2,
           "BalanceB" : 0.5
         },
         "block5" : {
@@ -347,14 +347,14 @@
       "global" : {
         "@variax_volumeknob" : -0.1,
         "@pedalstate" : 2,
-        "@variax_customtuning" : true,
+        "@variax_customtuning" : false,
         "@variax_str1tuning" : 0,
         "@variax_str2tuning" : 0,
         "@variax_str4tuning" : 0,
         "@variax_str6tuning" : 0,
         "@variax_model" : 0,
         "@model" : "@global_params",
-        "@topology0" : "A",
+        "@topology0" : "SABJ",
         "@cursor_dsp" : 1,
         "@cursor_path" : 0,
         "@guitarinputZ" : 0,
@@ -408,10 +408,11 @@
         },
         "dsp0" : {
           "block0" : {
-            "@fs_label" : "Looper",
-            "@fs_enabled" : false,
-            "@fs_index" : 5,
-            "@fs_ledcolor" : 462860,
+            "@fs_label" : "Pitch Wham",
+            "@fs_enabled" : true,
+            "@fs_index" : 8,
+            "@fs_customlabel" : "2 Oct Down",
+            "@fs_ledcolor" : 3277055,
             "@fs_momentary" : false
           },
           "block4" : {
@@ -424,17 +425,16 @@
           "block1" : {
             "@fs_label" : "Pitch Wham",
             "@fs_enabled" : true,
-            "@fs_index" : 8,
-            "@fs_customlabel" : "2 Oct Down",
+            "@fs_index" : 9,
+            "@fs_customlabel" : "1 Oct Up",
             "@fs_ledcolor" : 3277055,
             "@fs_momentary" : false
           },
           "block2" : {
-            "@fs_label" : "Pitch Wham",
-            "@fs_enabled" : true,
-            "@fs_index" : 9,
-            "@fs_customlabel" : "1 Oct Up",
-            "@fs_ledcolor" : 3277055,
+            "@fs_label" : "Looper",
+            "@fs_enabled" : false,
+            "@fs_index" : 5,
+            "@fs_ledcolor" : 462860,
             "@fs_momentary" : false
           },
           "block3" : {
@@ -472,13 +472,13 @@
             "block1" : {
               "Pedal" : {
                 "@fs_enabled" : false,
-                "@value" : 0
+                "@value" : 1
               }
             },
-            "block2" : {
+            "block0" : {
               "Pedal" : {
                 "@fs_enabled" : false,
-                "@value" : 1
+                "@value" : 0
               }
             }
           }
@@ -492,9 +492,9 @@
             "block3" : true
           },
           "dsp0" : {
-            "block0" : false,
+            "block0" : true,
             "block1" : true,
-            "block2" : true,
+            "block2" : false,
             "block3" : true,
             "block4" : true,
             "block5" : true,
@@ -507,7 +507,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 34734112
+    "device_version" : 35651616
   },
   "schema" : "L6Preset"
 }

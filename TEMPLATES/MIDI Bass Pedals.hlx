@@ -4,16 +4,16 @@
     "meta" : {
       "name" : "MIDI Bass Pedals",
       "application" : "Helix",
-      "build_sha" : "e2528f3",
-      "modifieddate" : 1490931838,
-      "appversion" : 34668544
+      "build_sha" : "dd24475",
+      "modifieddate" : 1490936964,
+      "appversion" : 35651584
     },
     "device" : 2162689,
     "tone" : {
       "global" : {
         "@variax_volumeknob" : -0.1,
         "@pedalstate" : 2,
-        "@variax_customtuning" : true,
+        "@variax_customtuning" : false,
         "@variax_str1tuning" : 0,
         "@variax_str2tuning" : 0,
         "@variax_str4tuning" : 0,
@@ -73,6 +73,10 @@
           }
         },
         "commands" : {
+          "commandFS3" : {
+            "@fs_enabled" : false,
+            "@value" : 39
+          },
           "commandFS9" : {
             "@fs_enabled" : false,
             "@value" : 40
@@ -83,34 +87,26 @@
           },
           "commandFS2" : {
             "@fs_enabled" : false,
-            "@value" : 39
-          },
-          "commandFS1" : {
-            "@fs_enabled" : false,
             "@value" : 37
-          },
-          "commandFS7" : {
-            "@fs_enabled" : false,
-            "@value" : 36
           },
           "commandFS8" : {
             "@fs_enabled" : false,
             "@value" : 38
           },
-          "commandFS5" : {
+          "commandFS7" : {
             "@fs_enabled" : false,
             "@value" : 44
+          },
+          "commandFS5" : {
+            "@fs_enabled" : false,
+            "@value" : 0
           },
           "commandFS11" : {
             "@fs_enabled" : false,
             "@value" : 43
-          },
-          "commandFS4" : {
-            "@fs_enabled" : false,
-            "@value" : 42
           }
         },
-        "@pedalstate" : 0,
+        "@pedalstate" : 2,
         "@ledcolor" : 0,
         "controllers" : {
           "dsp0" : {
@@ -135,6 +131,10 @@
           }
         },
         "commands" : {
+          "commandFS3" : {
+            "@fs_enabled" : false,
+            "@value" : 39
+          },
           "commandFS9" : {
             "@fs_enabled" : false,
             "@value" : 40
@@ -147,29 +147,21 @@
             "@fs_enabled" : false,
             "@value" : 39
           },
-          "commandFS1" : {
-            "@fs_enabled" : false,
-            "@value" : 37
-          },
-          "commandFS7" : {
-            "@fs_enabled" : false,
-            "@value" : 36
-          },
           "commandFS8" : {
             "@fs_enabled" : false,
             "@value" : 38
           },
-          "commandFS5" : {
+          "commandFS7" : {
             "@fs_enabled" : false,
             "@value" : 44
+          },
+          "commandFS5" : {
+            "@fs_enabled" : false,
+            "@value" : 0
           },
           "commandFS11" : {
             "@fs_enabled" : false,
             "@value" : 43
-          },
-          "commandFS4" : {
-            "@fs_enabled" : false,
-            "@value" : 42
           }
         },
         "@pedalstate" : 0,
@@ -197,6 +189,10 @@
           }
         },
         "commands" : {
+          "commandFS3" : {
+            "@fs_enabled" : false,
+            "@value" : 39
+          },
           "commandFS9" : {
             "@fs_enabled" : false,
             "@value" : 40
@@ -209,29 +205,21 @@
             "@fs_enabled" : false,
             "@value" : 39
           },
-          "commandFS1" : {
-            "@fs_enabled" : false,
-            "@value" : 37
-          },
-          "commandFS7" : {
-            "@fs_enabled" : false,
-            "@value" : 36
-          },
           "commandFS8" : {
             "@fs_enabled" : false,
             "@value" : 38
           },
-          "commandFS5" : {
+          "commandFS7" : {
             "@fs_enabled" : false,
             "@value" : 44
+          },
+          "commandFS5" : {
+            "@fs_enabled" : false,
+            "@value" : 0
           },
           "commandFS11" : {
             "@fs_enabled" : false,
             "@value" : 43
-          },
-          "commandFS4" : {
-            "@fs_enabled" : false,
-            "@value" : 42
           }
         },
         "@pedalstate" : 0,
@@ -259,6 +247,10 @@
           }
         },
         "commands" : {
+          "commandFS3" : {
+            "@fs_enabled" : false,
+            "@value" : 39
+          },
           "commandFS9" : {
             "@fs_enabled" : false,
             "@value" : 40
@@ -271,29 +263,21 @@
             "@fs_enabled" : false,
             "@value" : 39
           },
-          "commandFS1" : {
-            "@fs_enabled" : false,
-            "@value" : 37
-          },
-          "commandFS7" : {
-            "@fs_enabled" : false,
-            "@value" : 36
-          },
           "commandFS8" : {
             "@fs_enabled" : false,
             "@value" : 38
           },
-          "commandFS5" : {
+          "commandFS7" : {
             "@fs_enabled" : false,
             "@value" : 44
+          },
+          "commandFS5" : {
+            "@fs_enabled" : false,
+            "@value" : 0
           },
           "commandFS11" : {
             "@fs_enabled" : false,
             "@value" : 43
-          },
-          "commandFS4" : {
-            "@fs_enabled" : false,
-            "@value" : 42
           }
         },
         "@pedalstate" : 0,
@@ -409,7 +393,7 @@
           "gain" : 0
         }
       },
-      "commandFS1" : {
+      "commandFS2" : {
         "@command" : 5,
         "@fs_momentary" : true,
         "@noteoff" : 1,
@@ -422,7 +406,7 @@
         "@fs_customlabel" : "C#",
         "@fs_label" : "Note"
       },
-      "commandFS2" : {
+      "commandFS3" : {
         "@command" : 5,
         "@fs_momentary" : true,
         "@noteoff" : 1,
@@ -435,7 +419,7 @@
         "@fs_customlabel" : "D#",
         "@fs_label" : "Note"
       },
-      "commandFS4" : {
+      "commandFS5" : {
         "@command" : 5,
         "@fs_momentary" : true,
         "@noteoff" : 1,
@@ -446,19 +430,6 @@
         "@fs_enabled" : false,
         "@fs_ledcolor" : 462860,
         "@fs_customlabel" : "F#",
-        "@fs_label" : "Note"
-      },
-      "commandFS5" : {
-        "@command" : 5,
-        "@fs_momentary" : true,
-        "@noteoff" : 1,
-        "@pending" : 0,
-        "@velocity" : 100,
-        "@note" : 44,
-        "@channel" : 0,
-        "@fs_enabled" : false,
-        "@fs_ledcolor" : 462860,
-        "@fs_customlabel" : "G#",
         "@fs_label" : "Note"
       },
       "commandFS7" : {
@@ -588,6 +559,10 @@
           }
         },
         "commands" : {
+          "commandFS3" : {
+            "@fs_enabled" : false,
+            "@value" : 39
+          },
           "commandFS9" : {
             "@fs_enabled" : false,
             "@value" : 40
@@ -600,29 +575,21 @@
             "@fs_enabled" : false,
             "@value" : 39
           },
-          "commandFS1" : {
-            "@fs_enabled" : false,
-            "@value" : 37
-          },
-          "commandFS7" : {
-            "@fs_enabled" : false,
-            "@value" : 36
-          },
           "commandFS8" : {
             "@fs_enabled" : false,
             "@value" : 38
           },
-          "commandFS5" : {
+          "commandFS7" : {
             "@fs_enabled" : false,
             "@value" : 44
+          },
+          "commandFS5" : {
+            "@fs_enabled" : false,
+            "@value" : 0
           },
           "commandFS11" : {
             "@fs_enabled" : false,
             "@value" : 43
-          },
-          "commandFS4" : {
-            "@fs_enabled" : false,
-            "@value" : 42
           }
         },
         "@pedalstate" : 0,
@@ -650,6 +617,10 @@
           }
         },
         "commands" : {
+          "commandFS3" : {
+            "@fs_enabled" : false,
+            "@value" : 39
+          },
           "commandFS9" : {
             "@fs_enabled" : false,
             "@value" : 40
@@ -662,29 +633,21 @@
             "@fs_enabled" : false,
             "@value" : 39
           },
-          "commandFS1" : {
-            "@fs_enabled" : false,
-            "@value" : 37
-          },
-          "commandFS7" : {
-            "@fs_enabled" : false,
-            "@value" : 36
-          },
           "commandFS8" : {
             "@fs_enabled" : false,
             "@value" : 38
           },
-          "commandFS5" : {
+          "commandFS7" : {
             "@fs_enabled" : false,
             "@value" : 44
+          },
+          "commandFS5" : {
+            "@fs_enabled" : false,
+            "@value" : 0
           },
           "commandFS11" : {
             "@fs_enabled" : false,
             "@value" : 43
-          },
-          "commandFS4" : {
-            "@fs_enabled" : false,
-            "@value" : 42
           }
         },
         "@pedalstate" : 0,
@@ -712,6 +675,10 @@
           }
         },
         "commands" : {
+          "commandFS3" : {
+            "@fs_enabled" : false,
+            "@value" : 39
+          },
           "commandFS9" : {
             "@fs_enabled" : false,
             "@value" : 40
@@ -724,29 +691,21 @@
             "@fs_enabled" : false,
             "@value" : 39
           },
-          "commandFS1" : {
-            "@fs_enabled" : false,
-            "@value" : 37
-          },
-          "commandFS7" : {
-            "@fs_enabled" : false,
-            "@value" : 36
-          },
           "commandFS8" : {
             "@fs_enabled" : false,
             "@value" : 38
           },
-          "commandFS5" : {
+          "commandFS7" : {
             "@fs_enabled" : false,
             "@value" : 44
+          },
+          "commandFS5" : {
+            "@fs_enabled" : false,
+            "@value" : 0
           },
           "commandFS11" : {
             "@fs_enabled" : false,
             "@value" : 43
-          },
-          "commandFS4" : {
-            "@fs_enabled" : false,
-            "@value" : 42
           }
         },
         "@pedalstate" : 0,
@@ -774,6 +733,10 @@
           }
         },
         "commands" : {
+          "commandFS3" : {
+            "@fs_enabled" : false,
+            "@value" : 39
+          },
           "commandFS9" : {
             "@fs_enabled" : false,
             "@value" : 40
@@ -786,29 +749,21 @@
             "@fs_enabled" : false,
             "@value" : 39
           },
-          "commandFS1" : {
-            "@fs_enabled" : false,
-            "@value" : 37
-          },
-          "commandFS7" : {
-            "@fs_enabled" : false,
-            "@value" : 36
-          },
           "commandFS8" : {
             "@fs_enabled" : false,
             "@value" : 38
           },
-          "commandFS5" : {
+          "commandFS7" : {
             "@fs_enabled" : false,
             "@value" : 44
+          },
+          "commandFS5" : {
+            "@fs_enabled" : false,
+            "@value" : 0
           },
           "commandFS11" : {
             "@fs_enabled" : false,
             "@value" : 43
-          },
-          "commandFS4" : {
-            "@fs_enabled" : false,
-            "@value" : 42
           }
         },
         "@pedalstate" : 0,
@@ -825,7 +780,7 @@
         }
       }
     },
-    "device_version" : 34734112
+    "device_version" : 35651616
   },
   "schema" : "L6Preset"
 }

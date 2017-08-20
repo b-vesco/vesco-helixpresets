@@ -4,9 +4,9 @@
     "meta" : {
       "name" : "Low E Sludge",
       "application" : "Helix",
-      "build_sha" : "87b59c5",
-      "modifieddate" : 1490931783,
-      "appversion" : 34668544
+      "build_sha" : "6a7d211",
+      "modifieddate" : 1490936282,
+      "appversion" : 35651584
     },
     "device" : 2162689,
     "tone" : {
@@ -225,7 +225,7 @@
           "@trails" : false,
           "@type" : 7,
           "Mix" : 1,
-          "Time" : 0.001000047,
+          "Time" : 0.004999995,
           "Level" : 0,
           "@stereo" : false
         },
@@ -319,7 +319,7 @@
           "@position" : 2,
           "Drive" : 0.75,
           "Treble" : 0.6,
-          "ChVol" : 0.9,
+          "ChVol" : 1,
           "@enabled" : true,
           "FAC" : 2,
           "Ripple" : 0.5,
@@ -337,7 +337,7 @@
           "@model" : "HD2_AppDSPFlowOutput",
           "@output" : 1,
           "pan" : 0.5,
-          "gain" : -8
+          "gain" : -4
         },
         "block4" : {
           "@model" : "HD2_DistWringerFuzz",
@@ -506,7 +506,7 @@
         "@tempo" : 146
       }
     },
-    "device_version" : 34734112
+    "device_version" : 35651616
   },
   "schema" : "L6Preset"
 }

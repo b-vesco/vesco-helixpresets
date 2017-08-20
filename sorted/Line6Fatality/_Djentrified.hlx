@@ -4,9 +4,9 @@
     "meta" : {
       "name" : "Djentrified",
       "application" : "Helix",
-      "build_sha" : "87b59c5",
-      "modifieddate" : 1490931779,
-      "appversion" : 34668544
+      "build_sha" : "6a7d211",
+      "modifieddate" : 1490936278,
+      "appversion" : 35651584
     },
     "device" : 2162689,
     "tone" : {
@@ -40,7 +40,7 @@
           "@stereo" : true,
           "@type" : 0,
           "Gain" : 3,
-          "@position" : 5,
+          "@position" : 4,
           "@enabled" : false
         },
         "block2" : {
@@ -135,6 +135,17 @@
           "@position" : 0,
           "BalanceB" : 0.5
         },
+        "block5" : {
+          "@model" : "HD2_EQLowCutHighCut",
+          "LowCut" : 19.9,
+          "@path" : 0,
+          "@stereo" : true,
+          "@type" : 0,
+          "@position" : 6,
+          "Level" : 0,
+          "@enabled" : true,
+          "HighCut" : 9800
+        },
         "cab0" : {
           "@model" : "HD2_Cab4x12XXLV30",
           "LowCut" : 19.9,
@@ -159,7 +170,7 @@
           "@type" : 0,
           "HoldTime" : 0.01,
           "OpenThreshold" : -32,
-          "@position" : 6,
+          "@position" : 5,
           "CloseThreshold" : -40,
           "Level" : 0,
           "@enabled" : true
@@ -278,7 +289,7 @@
       "global" : {
         "@variax_volumeknob" : -0.1,
         "@pedalstate" : 2,
-        "@variax_customtuning" : true,
+        "@variax_customtuning" : false,
         "@variax_str1tuning" : 0,
         "@variax_str2tuning" : 0,
         "@variax_str4tuning" : 0,
@@ -378,6 +389,7 @@
             "block0" : true,
             "block4" : true,
             "block1" : true,
+            "block5" : true,
             "block2" : false,
             "block3" : false
           },
@@ -393,7 +405,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 34734112
+    "device_version" : 35651616
   },
   "schema" : "L6Preset"
 }

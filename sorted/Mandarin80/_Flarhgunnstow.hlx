@@ -4,9 +4,9 @@
     "meta" : {
       "name" : "Flarhgunnstow",
       "application" : "Helix",
-      "build_sha" : "87b59c5",
-      "modifieddate" : 1490931780,
-      "appversion" : 34668544
+      "build_sha" : "6a7d211",
+      "modifieddate" : 1490936280,
+      "appversion" : 35651584
     },
     "device" : 2162689,
     "tone" : {
@@ -48,7 +48,7 @@
           "Drive" : 0.8399999,
           "FAC" : 2,
           "Master" : 1,
-          "ChVol" : 0.63,
+          "ChVol" : 0.7,
           "@path" : 0,
           "Presence" : 0.64,
           "Ripple" : 0.5,
@@ -221,7 +221,7 @@
           "Boost" : 0.47,
           "Contour" : true,
           "Drive" : 0.6700001,
-          "ChVol" : 1,
+          "ChVol" : 0.7,
           "@enabled" : true,
           "HighMid" : 0.51,
           "@path" : 0,
@@ -297,7 +297,7 @@
       "global" : {
         "@variax_volumeknob" : -0.1,
         "@pedalstate" : 2,
-        "@variax_customtuning" : true,
+        "@variax_customtuning" : false,
         "@variax_str1tuning" : 0,
         "@variax_str2tuning" : 0,
         "@variax_str4tuning" : 0,
@@ -426,7 +426,7 @@
         "@tempo" : 30
       }
     },
-    "device_version" : 34734112
+    "device_version" : 35651616
   },
   "schema" : "L6Preset"
 }

@@ -4,9 +4,9 @@
     "meta" : {
       "name" : "Royal Power Duo",
       "application" : "Helix",
-      "build_sha" : "b37ee00",
-      "modifieddate" : 1490931667,
-      "appversion" : 34668544
+      "build_sha" : "6a7d211",
+      "modifieddate" : 1490936196,
+      "appversion" : 35651584
     },
     "device" : 2162689,
     "tone" : {
@@ -70,7 +70,7 @@
           "@path" : 0,
           "@stereo" : false,
           "@type" : 0,
-          "Gain" : -120,
+          "Gain" : 12,
           "@position" : 1,
           "@enabled" : true
         },
@@ -178,8 +178,8 @@
               "@min" : -120,
               "@max" : 12,
               "@controller" : 14,
-              "@fs_enabled" : false,
-              "@fs_ledcolor" : 462860,
+              "@fs_enabled" : true,
+              "@fs_ledcolor" : 7077838,
               "@fs_customlabel" : "BASS DROP!",
               "@fs_label" : "Gain"
             }
@@ -397,7 +397,7 @@
       "global" : {
         "@variax_volumeknob" : -0.1,
         "@pedalstate" : 2,
-        "@variax_customtuning" : true,
+        "@variax_customtuning" : false,
         "@variax_str1tuning" : 0,
         "@variax_str2tuning" : 0,
         "@variax_str4tuning" : 0,
@@ -500,8 +500,8 @@
           "dsp1" : {
             "block1" : {
               "Gain" : {
-                "@fs_enabled" : false,
-                "@value" : -120
+                "@fs_enabled" : true,
+                "@value" : 12
               }
             },
             "block0" : {
@@ -552,7 +552,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 34734112
+    "device_version" : 35651616
   },
   "schema" : "L6Preset"
 }

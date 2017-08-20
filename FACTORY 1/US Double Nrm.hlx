@@ -4,9 +4,9 @@
     "meta" : {
       "name" : "US Double Nrm",
       "application" : "Helix",
-      "build_sha" : "87b59c5",
-      "modifieddate" : 1490931656,
-      "appversion" : 34668544
+      "build_sha" : "07d9434",
+      "modifieddate" : 1490936186,
+      "appversion" : 35651584
     },
     "device" : 2162689,
     "tone" : {
@@ -123,7 +123,7 @@
           "@position" : 1,
           "Level" : 5.8,
           "Mix" : 0.64,
-          "@enabled" : false,
+          "@enabled" : true,
           "Sensitivity" : 0.26
         },
         "inputB" : {
@@ -269,7 +269,7 @@
       "global" : {
         "@variax_volumeknob" : -0.1,
         "@pedalstate" : 2,
-        "@variax_customtuning" : true,
+        "@variax_customtuning" : false,
         "@variax_str1tuning" : 0,
         "@variax_str2tuning" : 0,
         "@variax_str4tuning" : 0,
@@ -315,9 +315,9 @@
           },
           "block2" : {
             "@fs_label" : "Red Squeeze",
-            "@fs_enabled" : false,
+            "@fs_enabled" : true,
             "@fs_index" : 2,
-            "@fs_ledcolor" : 527360,
+            "@fs_ledcolor" : 8716032,
             "@fs_momentary" : false
           },
           "block3" : {
@@ -371,7 +371,7 @@
           "dsp0" : {
             "block0" : false,
             "block1" : true,
-            "block2" : false,
+            "block2" : true,
             "block3" : false,
             "block4" : false,
             "block5" : true,
@@ -385,7 +385,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 34734112
+    "device_version" : 35651616
   },
   "schema" : "L6Preset"
 }

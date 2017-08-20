@@ -4,9 +4,9 @@
     "meta" : {
       "name" : "WookieSpongeBath",
       "application" : "Helix",
-      "build_sha" : "87b59c5",
-      "modifieddate" : 1490931678,
-      "appversion" : 34668544
+      "build_sha" : "6a7d211",
+      "modifieddate" : 1490936202,
+      "appversion" : 35651584
     },
     "device" : 2162689,
     "tone" : {
@@ -77,17 +77,6 @@
       },
       "controller" : {
         "dsp0" : {
-          "block1" : {
-            "Drive" : {
-              "@min" : 0.4,
-              "@max" : 1,
-              "@controller" : 13,
-              "@fs_enabled" : false,
-              "@fs_ledcolor" : 462860,
-              "@fs_label" : "Drive",
-              "@fs_momentary" : false
-            }
-          },
           "block6" : {
             "Pedal" : {
               "@min" : 0,
@@ -172,7 +161,7 @@
           "@position" : 2,
           "Drive" : 0.55,
           "Treble" : 0.5,
-          "ChVol" : 1,
+          "ChVol" : 0.8,
           "@enabled" : true,
           "Ripple" : 0,
           "@path" : 0,
@@ -239,14 +228,14 @@
           "HighCut" : 8000
         },
         "cab0" : {
-          "@model" : "HD2_Cab1x12FieldCoil",
-          "LowCut" : 20,
-          "@mic" : 2,
-          "EarlyReflections" : 0.1,
-          "Distance" : 2.5,
+          "@model" : "HD2_Cab2x12SilverBell",
+          "LowCut" : 19.9,
+          "@mic" : 5,
+          "EarlyReflections" : 0,
+          "Distance" : 5,
           "Level" : 0,
           "@enabled" : true,
-          "HighCut" : 12000
+          "HighCut" : 20100
         },
         "outputA" : {
           "@model" : "HD2_AppDSPFlowOutput",
@@ -277,7 +266,7 @@
       "global" : {
         "@variax_volumeknob" : -0.1,
         "@pedalstate" : 2,
-        "@variax_customtuning" : true,
+        "@variax_customtuning" : false,
         "@variax_str1tuning" : 0,
         "@variax_str2tuning" : 0,
         "@variax_str4tuning" : 0,
@@ -368,12 +357,6 @@
       "snapshot0" : {
         "controllers" : {
           "dsp0" : {
-            "block1" : {
-              "Drive" : {
-                "@fs_enabled" : false,
-                "@value" : 0.55
-              }
-            },
             "block6" : {
               "Pedal" : {
                 "@fs_enabled" : false,
@@ -400,7 +383,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 34734112
+    "device_version" : 35651616
   },
   "schema" : "L6Preset"
 }

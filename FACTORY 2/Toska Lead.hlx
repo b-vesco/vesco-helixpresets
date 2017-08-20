@@ -4,9 +4,9 @@
     "meta" : {
       "name" : "Toska Lead",
       "application" : "Helix",
-      "build_sha" : "87b59c5",
-      "modifieddate" : 1490931780,
-      "appversion" : 34668544
+      "build_sha" : "6a7d211",
+      "modifieddate" : 1490936280,
+      "appversion" : 35651584
     },
     "device" : 2162689,
     "tone" : {
@@ -147,7 +147,7 @@
           "@stereo" : false,
           "@type" : 0,
           "FcLow" : 435,
-          "Pedal" : 0.993889,
+          "Pedal" : 1,
           "@position" : 6,
           "Level" : 0,
           "Mix" : 1,
@@ -290,7 +290,7 @@
       "global" : {
         "@variax_volumeknob" : -0.1,
         "@pedalstate" : 2,
-        "@variax_customtuning" : true,
+        "@variax_customtuning" : false,
         "@variax_str1tuning" : 0,
         "@variax_str2tuning" : 0,
         "@variax_str4tuning" : 0,
@@ -341,6 +341,13 @@
             "@fs_ledcolor" : 196619,
             "@fs_momentary" : false
           },
+          "block3" : {
+            "@fs_label" : "Noise Gate",
+            "@fs_enabled" : true,
+            "@fs_index" : 2,
+            "@fs_ledcolor" : 8716032,
+            "@fs_momentary" : false
+          },
           "block4" : {
             "@fs_label" : "Deluxe Comp",
             "@fs_enabled" : true,
@@ -389,7 +396,7 @@
             "block2" : {
               "Pedal" : {
                 "@fs_enabled" : false,
-                "@value" : 0.993889
+                "@value" : 1
               }
             }
           }
@@ -413,7 +420,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 34734112
+    "device_version" : 35651616
   },
   "schema" : "L6Preset"
 }

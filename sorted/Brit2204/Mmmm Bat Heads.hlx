@@ -4,9 +4,9 @@
     "meta" : {
       "name" : "Mmmm Bat Heads",
       "application" : "Helix",
-      "build_sha" : "87b59c5",
-      "modifieddate" : 1490931779,
-      "appversion" : 34668544
+      "build_sha" : "6a7d211",
+      "modifieddate" : 1490936279,
+      "appversion" : 35651584
     },
     "device" : 2162689,
     "tone" : {
@@ -131,6 +131,18 @@
           "Presence" : 0.6,
           "Sag" : 0.5
         },
+        "block8" : {
+          "@model" : "HD2_Looper",
+          "Overdub" : 0,
+          "Playback" : 0,
+          "@path" : 0,
+          "@stereo" : true,
+          "@type" : 6,
+          "highCut" : 20000,
+          "lowCut" : 20,
+          "@position" : 7,
+          "@enabled" : false
+        },
         "block2" : {
           "@model" : "HD2_WahFassel",
           "FcHigh" : 2155,
@@ -152,16 +164,15 @@
           "threshold" : -48
         },
         "block7" : {
-          "@model" : "HD2_Looper",
-          "Overdub" : 0,
-          "Playback" : 0,
+          "@model" : "HD2_EQLowCutHighCut",
+          "LowCut" : 80,
           "@path" : 0,
           "@stereo" : true,
-          "@type" : 6,
-          "highCut" : 20000,
-          "lowCut" : 20,
-          "@position" : 7,
-          "@enabled" : false
+          "@type" : 0,
+          "@position" : 5,
+          "Level" : 0,
+          "@enabled" : true,
+          "HighCut" : 11000
         },
         "block1" : {
           "@model" : "HD2_ReverbChamber",
@@ -227,7 +238,7 @@
           "@model" : "HD2_AppDSPFlowSplitY",
           "@enabled" : true,
           "bypass" : false,
-          "@position" : 5,
+          "@position" : 6,
           "BalanceB" : 0.5
         },
         "block5" : {
@@ -284,7 +295,7 @@
       "global" : {
         "@variax_volumeknob" : -0.1,
         "@pedalstate" : 2,
-        "@variax_customtuning" : true,
+        "@variax_customtuning" : false,
         "@variax_str1tuning" : 0,
         "@variax_str2tuning" : 0,
         "@variax_str4tuning" : 0,
@@ -349,7 +360,7 @@
             "@fs_ledcolor" : 196619,
             "@fs_momentary" : false
           },
-          "block7" : {
+          "block8" : {
             "@fs_label" : "Looper",
             "@fs_enabled" : false,
             "@fs_index" : 5,
@@ -390,7 +401,8 @@
             "block4" : true,
             "block5" : true,
             "block6" : true,
-            "block7" : false
+            "block7" : true,
+            "block8" : false
           }
         },
         "@pedalstate" : 2,
@@ -399,7 +411,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 34734112
+    "device_version" : 35651616
   },
   "schema" : "L6Preset"
 }

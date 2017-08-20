@@ -4,9 +4,9 @@
     "meta" : {
       "name" : "Hair of The Dog",
       "application" : "Helix",
-      "build_sha" : "87b59c5",
-      "modifieddate" : 1490931786,
-      "appversion" : 34668544
+      "build_sha" : "6a7d211",
+      "modifieddate" : 1490936286,
+      "appversion" : 35651584
     },
     "device" : 2162689,
     "tone" : {
@@ -228,7 +228,7 @@
           "@cab" : "cab0",
           "@model" : "HD2_AmpBritPlexiJump",
           "Master" : 1,
-          "ChVol" : 0.72,
+          "ChVol" : 0.6700001,
           "@path" : 0,
           "Presence" : 0.7,
           "Ripple" : 0.74,
@@ -406,7 +406,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 34734112
+    "device_version" : 35651616
   },
   "schema" : "L6Preset"
 }

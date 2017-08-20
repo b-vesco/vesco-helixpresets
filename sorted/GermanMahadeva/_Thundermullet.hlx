@@ -4,9 +4,9 @@
     "meta" : {
       "name" : "Thundermullet",
       "application" : "Helix",
-      "build_sha" : "87b59c5",
-      "modifieddate" : 1490931783,
-      "appversion" : 34668544
+      "build_sha" : "37cfcb5",
+      "modifieddate" : 1490936282,
+      "appversion" : 35651584
     },
     "device" : 2162689,
     "tone" : {
@@ -29,7 +29,7 @@
           "B Level" : 0,
           "A Level" : 0,
           "A Pan" : 0,
-          "@position" : 6,
+          "@position" : 5,
           "Level" : 0,
           "@enabled" : true,
           "B Polarity" : false
@@ -97,27 +97,9 @@
           "decay" : 0.5,
           "threshold" : -48
         },
-        "split" : {
-          "BalanceA" : 0.5,
-          "@model" : "HD2_AppDSPFlowSplitY",
-          "@enabled" : true,
-          "bypass" : false,
-          "@position" : 0,
-          "BalanceB" : 0.5
-        },
-        "block0" : {
-          "@model" : "HD2_VolPanVol",
-          "@path" : 0,
-          "@stereo" : false,
-          "@type" : 0,
-          "Pedal" : 1,
-          "@position" : 5,
-          "@enabled" : true,
-          "VolumeTaper" : false
-        },
-        "block5" : {
+        "block6" : {
           "@model" : "HD2_ReverbChamber",
-          "@position" : 7,
+          "@position" : 6,
           "LowCut" : 143,
           "@enabled" : true,
           "@path" : 0,
@@ -129,15 +111,27 @@
           "HighCut" : 4700,
           "Predelay" : 0.1
         },
-        "outputA" : {
-          "@model" : "HD2_AppDSPFlowOutput",
-          "@output" : 1,
-          "pan" : 0.5,
-          "gain" : 0
+        "block0" : {
+          "@model" : "HD2_VolPanVol",
+          "@path" : 0,
+          "@stereo" : false,
+          "@type" : 0,
+          "Pedal" : 1,
+          "@position" : 4,
+          "@enabled" : true,
+          "VolumeTaper" : false
         },
-        "block4" : {
+        "split" : {
+          "BalanceA" : 0.5,
+          "@model" : "HD2_AppDSPFlowSplitY",
+          "@enabled" : true,
+          "bypass" : false,
+          "@position" : 0,
+          "BalanceB" : 0.5
+        },
+        "block5" : {
           "@model" : "HD2_DelayPingPong",
-          "@position" : 6,
+          "@position" : 5,
           "Feedback" : 0.4,
           "LowCut" : 100,
           "SyncSelect1" : 6,
@@ -152,6 +146,24 @@
           "Level" : 0,
           "Spread" : 1,
           "HighCut" : 8900
+        },
+        "outputA" : {
+          "@model" : "HD2_AppDSPFlowOutput",
+          "@output" : 1,
+          "pan" : 0.5,
+          "gain" : 0
+        },
+        "block4" : {
+          "@model" : "HD2_Looper",
+          "Overdub" : 0,
+          "Playback" : 0,
+          "@path" : 0,
+          "@stereo" : true,
+          "@type" : 6,
+          "highCut" : 20000,
+          "lowCut" : 20,
+          "@position" : 7,
+          "@enabled" : false
         }
       },
       "snapshot1" : {
@@ -293,7 +305,7 @@
       "global" : {
         "@variax_volumeknob" : -0.1,
         "@pedalstate" : 2,
-        "@variax_customtuning" : true,
+        "@variax_customtuning" : false,
         "@variax_str1tuning" : 0,
         "@variax_str2tuning" : 0,
         "@variax_str4tuning" : 0,
@@ -331,13 +343,20 @@
             "@fs_momentary" : false
           },
           "block4" : {
+            "@fs_label" : "Looper",
+            "@fs_enabled" : false,
+            "@fs_index" : 5,
+            "@fs_ledcolor" : 462860,
+            "@fs_momentary" : false
+          },
+          "block5" : {
             "@fs_label" : "Ping Pong",
             "@fs_enabled" : false,
             "@fs_index" : 10,
             "@fs_ledcolor" : 67840,
             "@fs_momentary" : false
           },
-          "block5" : {
+          "block6" : {
             "@fs_label" : "Chamber",
             "@fs_enabled" : true,
             "@fs_index" : 11,
@@ -395,11 +414,12 @@
         "blocks" : {
           "dsp1" : {
             "block0" : true,
-            "block4" : false,
             "block1" : true,
-            "block5" : true,
             "block2" : true,
-            "block3" : true
+            "block3" : true,
+            "block4" : false,
+            "block5" : false,
+            "block6" : true
           },
           "dsp0" : {
             "block0" : true,
@@ -414,7 +434,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 34734112
+    "device_version" : 35651616
   },
   "schema" : "L6Preset"
 }

@@ -4,9 +4,9 @@
     "meta" : {
       "name" : "Chalice of M'eh",
       "application" : "Helix",
-      "build_sha" : "87b59c5",
-      "modifieddate" : 1490931779,
-      "appversion" : 34668544
+      "build_sha" : "6a7d211",
+      "modifieddate" : 1490936279,
+      "appversion" : 35651584
     },
     "device" : 2162689,
     "tone" : {
@@ -84,15 +84,28 @@
               "@max" : 1
             }
           },
+          "block3" : {
+            "Drive" : {
+              "@fs_momentary" : false,
+              "@min" : 0.3,
+              "@max" : 0.45,
+              "@controller" : 14,
+              "@fs_enabled" : false,
+              "@fs_ledcolor" : 462860,
+              "@fs_customlabel" : "Gain",
+              "@fs_label" : "Drive"
+            }
+          },
           "block2" : {
             "Gain" : {
+              "@fs_momentary" : false,
               "@min" : 0.46,
               "@max" : 0.6,
               "@controller" : 14,
               "@fs_enabled" : false,
               "@fs_ledcolor" : 462860,
-              "@fs_label" : "Gain",
-              "@fs_momentary" : false
+              "@fs_customlabel" : "Gain",
+              "@fs_label" : "Gain"
             }
           }
         }
@@ -141,7 +154,7 @@
           "@path" : 0,
           "@stereo" : false,
           "@type" : 0,
-          "Gain" : 0.6700001,
+          "Gain" : 0.46,
           "@position" : 0,
           "Level" : 0.46,
           "Tone" : 0.46,
@@ -258,7 +271,7 @@
       "global" : {
         "@variax_volumeknob" : -0.1,
         "@pedalstate" : 2,
-        "@variax_customtuning" : true,
+        "@variax_customtuning" : false,
         "@variax_str1tuning" : 0,
         "@variax_str2tuning" : 0,
         "@variax_str4tuning" : 0,
@@ -341,10 +354,16 @@
                 "@value" : 1
               }
             },
+            "block3" : {
+              "Drive" : {
+                "@fs_enabled" : false,
+                "@value" : 0.3
+              }
+            },
             "block2" : {
               "Gain" : {
                 "@fs_enabled" : false,
-                "@value" : 0.6700001
+                "@value" : 0.46
               }
             }
           }
@@ -365,7 +384,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 34734112
+    "device_version" : 35651616
   },
   "schema" : "L6Preset"
 }

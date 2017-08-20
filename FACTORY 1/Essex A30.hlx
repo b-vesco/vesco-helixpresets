@@ -4,9 +4,9 @@
     "meta" : {
       "name" : "Essex A30",
       "application" : "Helix",
-      "build_sha" : "87b59c5",
-      "modifieddate" : 1490931657,
-      "appversion" : 34668544
+      "build_sha" : "dd24475",
+      "modifieddate" : 1490936186,
+      "appversion" : 35651584
     },
     "device" : 2162689,
     "tone" : {
@@ -105,34 +105,28 @@
           "B Polarity" : false
         },
         "block3" : {
-          "HighQ" : 0.4,
-          "@model" : "HD2_EQParametric",
-          "HighGain" : 9,
-          "@position" : 2,
-          "LowQ" : 0.707,
-          "LowCut" : 20,
-          "LowFreq" : 110,
-          "MidFreq" : 635,
-          "@enabled" : false,
-          "MidGain" : 7.8,
-          "MidQ" : 0.5,
-          "@path" : 0,
-          "@type" : 0,
-          "LowGain" : 0,
-          "Level" : 0,
-          "@stereo" : false,
-          "HighCut" : 20000,
-          "HighFreq" : 1200
-        },
-        "block2" : {
           "@model" : "HD2_DistArbitratorFuzz",
           "Fuzz" : 1,
           "@path" : 0,
           "@stereo" : false,
           "@type" : 0,
-          "@position" : 1,
+          "@position" : 2,
           "Level" : 0.75,
           "@enabled" : false
+        },
+        "block2" : {
+          "@model" : "HD2_CompressorLAStudioComp",
+          "@position" : 1,
+          "@enabled" : true,
+          "Emphasis" : 0.09000003,
+          "@path" : 0,
+          "@type" : 0,
+          "Mix" : 1,
+          "PeakReduction" : 0.45,
+          "Type" : false,
+          "Level" : 0,
+          "@stereo" : false,
+          "Gain" : 0.55
         },
         "inputB" : {
           "@input" : 0,
@@ -140,6 +134,20 @@
           "noiseGate" : false,
           "decay" : 0.5,
           "threshold" : -48
+        },
+        "block7" : {
+          "@model" : "HD2_ReverbHall",
+          "@position" : 6,
+          "LowCut" : 260,
+          "@enabled" : true,
+          "@path" : 0,
+          "@trails" : false,
+          "@type" : 7,
+          "Mix" : 0.27,
+          "Level" : 0,
+          "Decay" : 0.3,
+          "HighCut" : 4300,
+          "Predelay" : 0.02199996
         },
         "block1" : {
           "@model" : "HD2_VolPanVol",
@@ -165,18 +173,25 @@
           "threshold" : -48
         },
         "block6" : {
-          "@model" : "HD2_ReverbHall",
+          "Bias" : 0.5,
+          "@model" : "HD2_AmpEssexA30",
+          "Master" : 1,
           "@position" : 5,
-          "LowCut" : 260,
+          "Cut" : 0.5599999,
+          "Drive" : 0.52,
+          "Treble" : 0.5599999,
+          "ChVol" : 0.72,
           "@enabled" : true,
+          "Ripple" : 0.5,
           "@path" : 0,
-          "@trails" : false,
-          "@type" : 7,
-          "Mix" : 0.27,
-          "Level" : 0,
-          "Decay" : 0.3,
-          "HighCut" : 4300,
-          "Predelay" : 0.02199996
+          "@type" : 3,
+          "Bass" : 0.5,
+          "BiasX" : 0.5,
+          "Hum" : 0.5,
+          "@bypassvolume" : 1,
+          "@cab" : "cab0",
+          "Presence" : 0,
+          "Sag" : 0.5
         },
         "block0" : {
           "@model" : "HD2_Looper",
@@ -199,25 +214,23 @@
           "BalanceB" : 0.5
         },
         "block5" : {
-          "Bias" : 0.5,
-          "@model" : "HD2_AmpEssexA30",
-          "Master" : 1,
+          "@model" : "HD2_DelayTransistorTape",
           "@position" : 4,
-          "Cut" : 0.5599999,
-          "Drive" : 0.52,
-          "Treble" : 0.5599999,
-          "ChVol" : 0.72,
-          "@enabled" : true,
-          "Ripple" : 0.5,
+          "Feedback" : 0,
+          "SyncSelect1" : 6,
+          "TempoSync1" : false,
+          "Scale" : 1,
+          "@enabled" : false,
+          "WowFlutter" : 0.36,
           "@path" : 0,
-          "@type" : 3,
-          "Bass" : 0.4,
-          "BiasX" : 0.5,
-          "Hum" : 0.5,
-          "@bypassvolume" : 1,
-          "@cab" : "cab0",
-          "Presence" : 0,
-          "Sag" : 0.5
+          "@trails" : false,
+          "@type" : 7,
+          "Headroom" : 0,
+          "Mix" : 0.4,
+          "Time" : 0.08399999,
+          "Level" : 0,
+          "@stereo" : false,
+          "Spread" : 0.29
         },
         "cab0" : {
           "@model" : "HD2_Cab2x12SilverBell",
@@ -236,23 +249,24 @@
           "gain" : 0
         },
         "block4" : {
-          "@model" : "HD2_DelayTransistorTape",
+          "HighQ" : 0.4,
+          "@model" : "HD2_EQParametric",
+          "HighGain" : 9,
           "@position" : 3,
-          "Feedback" : 0,
-          "SyncSelect1" : 6,
-          "TempoSync1" : false,
-          "Scale" : 1,
+          "LowQ" : 0.707,
+          "LowCut" : 20,
+          "LowFreq" : 110,
+          "MidFreq" : 635,
           "@enabled" : false,
-          "WowFlutter" : 0.36,
+          "MidGain" : 7.8,
+          "MidQ" : 0.5,
           "@path" : 0,
-          "@trails" : false,
-          "@type" : 7,
-          "Headroom" : 0,
-          "Mix" : 0.4,
-          "Time" : 0.08399999,
+          "@type" : 0,
+          "LowGain" : 0,
           "Level" : 0,
           "@stereo" : false,
-          "Spread" : 0.29
+          "HighCut" : 20000,
+          "HighFreq" : 1200
         }
       },
       "snapshot2" : {
@@ -264,7 +278,7 @@
       "global" : {
         "@variax_volumeknob" : -0.1,
         "@pedalstate" : 2,
-        "@variax_customtuning" : true,
+        "@variax_customtuning" : false,
         "@variax_str1tuning" : 0,
         "@variax_str2tuning" : 0,
         "@variax_str4tuning" : 0,
@@ -277,14 +291,14 @@
         "@guitarinputZ" : 0,
         "@tempo" : 124.87,
         "@topology1" : "A",
-        "@cursor_position" : 4,
+        "@cursor_position" : 5,
         "@variax_lockctrls" : 0,
         "@variax_magmode" : true,
         "@variax_str3tuning" : 0,
         "@variax_str5tuning" : 0,
         "@variax_toneknob" : -0.1,
         "@current_snapshot" : 0,
-        "@cursor_group" : "block5"
+        "@cursor_group" : "block6"
       },
       "snapshot6" : {
         "@pedalstate" : 2,
@@ -301,13 +315,6 @@
             "@fs_ledcolor" : 462860,
             "@fs_momentary" : false
           },
-          "block4" : {
-            "@fs_label" : "Transistor Tape",
-            "@fs_enabled" : false,
-            "@fs_index" : 10,
-            "@fs_ledcolor" : 67840,
-            "@fs_momentary" : false
-          },
           "block1" : {
             "@fs_label" : "Volume Pedal",
             "@fs_enabled" : true,
@@ -316,25 +323,39 @@
             "@fs_momentary" : false
           },
           "block2" : {
+            "@fs_label" : "LA Studio Comp",
+            "@fs_enabled" : true,
+            "@fs_index" : 2,
+            "@fs_ledcolor" : 8716032,
+            "@fs_momentary" : false
+          },
+          "block3" : {
             "@fs_label" : "Arbitrator Fuzz",
             "@fs_enabled" : false,
             "@fs_index" : 8,
             "@fs_ledcolor" : 525824,
             "@fs_momentary" : false
           },
-          "block6" : {
-            "@fs_label" : "Hall",
-            "@fs_enabled" : true,
-            "@fs_index" : 11,
-            "@fs_ledcolor" : 16723200,
-            "@fs_momentary" : false
-          },
-          "block3" : {
+          "block4" : {
             "@fs_label" : "Parametric",
             "@fs_enabled" : false,
             "@fs_index" : 9,
             "@fs_customlabel" : "Mid Boost",
             "@fs_ledcolor" : 527360,
+            "@fs_momentary" : false
+          },
+          "block5" : {
+            "@fs_label" : "Transistor Tape",
+            "@fs_enabled" : false,
+            "@fs_index" : 10,
+            "@fs_ledcolor" : 67840,
+            "@fs_momentary" : false
+          },
+          "block7" : {
+            "@fs_label" : "Hall",
+            "@fs_enabled" : true,
+            "@fs_index" : 11,
+            "@fs_ledcolor" : 16723200,
             "@fs_momentary" : false
           }
         }
@@ -360,11 +381,12 @@
           "dsp0" : {
             "block0" : false,
             "block1" : true,
-            "block2" : false,
+            "block2" : true,
             "block3" : false,
             "block4" : false,
-            "block5" : true,
-            "block6" : true
+            "block5" : false,
+            "block6" : true,
+            "block7" : true
           }
         },
         "@pedalstate" : 2,
@@ -373,7 +395,7 @@
         "@tempo" : 124.87
       }
     },
-    "device_version" : 34734112
+    "device_version" : 35651616
   },
   "schema" : "L6Preset"
 }

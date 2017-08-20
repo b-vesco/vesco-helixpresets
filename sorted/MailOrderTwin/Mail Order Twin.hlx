@@ -4,9 +4,9 @@
     "meta" : {
       "name" : "Mail Order Twin",
       "application" : "Helix",
-      "build_sha" : "87b59c5",
-      "modifieddate" : 1490931662,
-      "appversion" : 34668544
+      "build_sha" : "dd24475",
+      "modifieddate" : 1490936191,
+      "appversion" : 35651584
     },
     "device" : 2162689,
     "tone" : {
@@ -77,7 +77,7 @@
       },
       "controller" : {
         "dsp0" : {
-          "block1" : {
+          "block2" : {
             "Pedal" : {
               "@min" : 0,
               "@controller" : 2,
@@ -105,24 +105,25 @@
           "B Polarity" : false
         },
         "block3" : {
-          "@model" : "HD2_VolPanGain",
-          "@path" : 0,
-          "@stereo" : false,
-          "@type" : 0,
-          "Gain" : 12,
-          "@position" : 2,
-          "@enabled" : false
-        },
-        "block2" : {
           "@model" : "HD2_DistTriangleFuzz",
           "@path" : 0,
           "@stereo" : false,
           "@type" : 0,
           "Sustain" : 0.78,
-          "@position" : 1,
+          "@position" : 2,
           "Level" : 0.87,
           "Tone" : 0.5599999,
           "@enabled" : false
+        },
+        "block2" : {
+          "@model" : "HD2_VolPanVol",
+          "@path" : 0,
+          "@stereo" : false,
+          "@type" : 0,
+          "Pedal" : 1,
+          "@position" : 1,
+          "@enabled" : true,
+          "VolumeTaper" : false
         },
         "inputB" : {
           "@input" : 0,
@@ -132,14 +133,18 @@
           "threshold" : -48
         },
         "block1" : {
-          "@model" : "HD2_VolPanVol",
-          "@path" : 0,
-          "@stereo" : false,
-          "@type" : 0,
-          "Pedal" : 1,
+          "@model" : "HD2_CompressorLAStudioComp",
           "@position" : 0,
           "@enabled" : true,
-          "VolumeTaper" : false
+          "Emphasis" : 0.09000003,
+          "@path" : 0,
+          "@type" : 0,
+          "Mix" : 1,
+          "PeakReduction" : 0.78,
+          "Type" : false,
+          "Level" : 0,
+          "@stereo" : false,
+          "Gain" : 0.62
         },
         "outputB" : {
           "@model" : "HD2_AppDSPFlowOutput",
@@ -154,13 +159,19 @@
           "decay" : 0.5,
           "threshold" : -48
         },
-        "split" : {
-          "BalanceA" : 0.5,
-          "@model" : "HD2_AppDSPFlowSplitY",
+        "block6" : {
+          "@model" : "HD2_ReverbSpring",
+          "@position" : 5,
+          "LowCut" : 400,
           "@enabled" : true,
-          "bypass" : false,
-          "@position" : 0,
-          "BalanceB" : 0.5
+          "@path" : 0,
+          "@trails" : false,
+          "@type" : 7,
+          "Mix" : 0.1800001,
+          "Level" : 0,
+          "Decay" : 0.25,
+          "HighCut" : 10300,
+          "Predelay" : 0
         },
         "block0" : {
           "@model" : "HD2_Looper",
@@ -174,19 +185,34 @@
           "@position" : 7,
           "@enabled" : false
         },
-        "block5" : {
-          "@model" : "HD2_ReverbSpring",
-          "@position" : 4,
-          "LowCut" : 400,
+        "split" : {
+          "BalanceA" : 0.5,
+          "@model" : "HD2_AppDSPFlowSplitY",
           "@enabled" : true,
+          "bypass" : false,
+          "@position" : 0,
+          "BalanceB" : 0.5
+        },
+        "block5" : {
+          "Bias" : 0.6600001,
+          "@model" : "HD2_AmpMailOrderTwin",
+          "Master" : 1,
+          "@position" : 4,
+          "Drive" : 0.5699999,
+          "Treble" : 0.55,
+          "ChVol" : 0.9400001,
+          "@enabled" : true,
+          "Ripple" : 0.5,
           "@path" : 0,
-          "@trails" : false,
-          "@type" : 7,
-          "Mix" : 0.1800001,
-          "Level" : 0,
-          "Decay" : 0.25,
-          "HighCut" : 10300,
-          "Predelay" : 0
+          "@type" : 3,
+          "Bass" : 0.5899999,
+          "BiasX" : 0.5,
+          "Hum" : 0.5,
+          "Mid" : 0.5,
+          "@bypassvolume" : 1,
+          "@cab" : "cab0",
+          "Presence" : 0,
+          "Sag" : 0.5
         },
         "cab0" : {
           "@model" : "HD2_Cab2x12MailC12Q",
@@ -205,25 +231,13 @@
           "gain" : 0
         },
         "block4" : {
-          "Bias" : 0.6600001,
-          "@model" : "HD2_AmpMailOrderTwin",
-          "Master" : 1,
-          "@position" : 3,
-          "Drive" : 0.5699999,
-          "Treble" : 0.55,
-          "ChVol" : 0.9400001,
-          "@enabled" : true,
-          "Ripple" : 0.5,
+          "@model" : "HD2_VolPanGain",
           "@path" : 0,
-          "@type" : 3,
-          "Bass" : 0.5899999,
-          "BiasX" : 0.5,
-          "Hum" : 0.5,
-          "Mid" : 0.5,
-          "@bypassvolume" : 1,
-          "@cab" : "cab0",
-          "Presence" : 0,
-          "Sag" : 0.5
+          "@stereo" : false,
+          "@type" : 0,
+          "Gain" : 12,
+          "@position" : 3,
+          "@enabled" : false
         }
       },
       "snapshot2" : {
@@ -235,7 +249,7 @@
       "global" : {
         "@variax_volumeknob" : -0.1,
         "@pedalstate" : 2,
-        "@variax_customtuning" : true,
+        "@variax_customtuning" : false,
         "@variax_str1tuning" : 0,
         "@variax_str2tuning" : 0,
         "@variax_str4tuning" : 0,
@@ -248,14 +262,14 @@
         "@guitarinputZ" : 0,
         "@tempo" : 120,
         "@topology1" : "A",
-        "@cursor_position" : 3,
+        "@cursor_position" : 4,
         "@variax_lockctrls" : 0,
         "@variax_magmode" : true,
         "@variax_str3tuning" : 0,
         "@variax_str5tuning" : 0,
         "@variax_toneknob" : -0.1,
         "@current_snapshot" : 0,
-        "@cursor_group" : "block4"
+        "@cursor_group" : "block5"
       },
       "snapshot6" : {
         "@pedalstate" : 2,
@@ -272,32 +286,39 @@
             "@fs_ledcolor" : 462860,
             "@fs_momentary" : false
           },
+          "block4" : {
+            "@fs_label" : "Gain",
+            "@fs_enabled" : false,
+            "@fs_index" : 10,
+            "@fs_ledcolor" : 3334,
+            "@fs_momentary" : false
+          },
           "block1" : {
+            "@fs_label" : "LA Studio Comp",
+            "@fs_enabled" : true,
+            "@fs_index" : 8,
+            "@fs_ledcolor" : 8716032,
+            "@fs_momentary" : false
+          },
+          "block2" : {
             "@fs_label" : "Volume Pedal",
             "@fs_enabled" : true,
             "@fs_index" : 13,
             "@fs_ledcolor" : 65408,
             "@fs_momentary" : false
           },
-          "block5" : {
+          "block6" : {
             "@fs_label" : "Spring",
             "@fs_enabled" : true,
-            "@fs_index" : 10,
+            "@fs_index" : 11,
             "@fs_ledcolor" : 16723200,
             "@fs_momentary" : false
           },
-          "block2" : {
+          "block3" : {
             "@fs_label" : "Triangle Fuzz",
             "@fs_enabled" : false,
-            "@fs_index" : 8,
-            "@fs_ledcolor" : 525824,
-            "@fs_momentary" : false
-          },
-          "block3" : {
-            "@fs_label" : "Gain",
-            "@fs_enabled" : false,
             "@fs_index" : 9,
-            "@fs_ledcolor" : 3334,
+            "@fs_ledcolor" : 525824,
             "@fs_momentary" : false
           }
         }
@@ -311,7 +332,7 @@
       "snapshot0" : {
         "controllers" : {
           "dsp0" : {
-            "block1" : {
+            "block2" : {
               "Pedal" : {
                 "@fs_enabled" : false,
                 "@value" : 1
@@ -322,11 +343,12 @@
         "blocks" : {
           "dsp0" : {
             "block0" : false,
-            "block4" : true,
             "block1" : true,
+            "block2" : true,
+            "block3" : false,
+            "block4" : false,
             "block5" : true,
-            "block2" : false,
-            "block3" : false
+            "block6" : true
           }
         },
         "@pedalstate" : 2,
@@ -335,7 +357,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 34734112
+    "device_version" : 35651616
   },
   "schema" : "L6Preset"
 }

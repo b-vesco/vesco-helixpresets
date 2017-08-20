@@ -4,9 +4,9 @@
     "meta" : {
       "name" : "SFX:EXP Disturb",
       "application" : "Helix",
-      "build_sha" : "87b59c5",
-      "modifieddate" : 1490931784,
-      "appversion" : 34668544
+      "build_sha" : "6a7d211",
+      "modifieddate" : 1490936283,
+      "appversion" : 35651584
     },
     "device" : 2162689,
     "tone" : {
@@ -36,7 +36,7 @@
           "@trails" : false,
           "@type" : 7,
           "Mix" : 0.45,
-          "Time" : 4.25787,
+          "Time" : 8,
           "Level" : 0,
           "Spread" : 1,
           "HighCut" : 8900
@@ -247,7 +247,7 @@
           "@path" : 0,
           "@stereo" : false,
           "@type" : 0,
-          "Pedal" : 0.467766,
+          "Pedal" : 0,
           "@position" : 4,
           "Level" : 0,
           "Mix" : 1,
@@ -264,7 +264,7 @@
       "global" : {
         "@variax_volumeknob" : -0.1,
         "@pedalstate" : 2,
-        "@variax_customtuning" : true,
+        "@variax_customtuning" : false,
         "@variax_str1tuning" : 0,
         "@variax_str2tuning" : 0,
         "@variax_str4tuning" : 0,
@@ -346,7 +346,7 @@
             "block0" : {
               "Time" : {
                 "@fs_enabled" : false,
-                "@value" : 4.25787
+                "@value" : 8
               }
             }
           },
@@ -354,7 +354,7 @@
             "block4" : {
               "Pedal" : {
                 "@fs_enabled" : false,
-                "@value" : 0.467766
+                "@value" : 0
               }
             }
           }
@@ -377,7 +377,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 34734112
+    "device_version" : 35651616
   },
   "schema" : "L6Preset"
 }

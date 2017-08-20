@@ -4,9 +4,9 @@
     "meta" : {
       "name" : "Another Stab",
       "application" : "Helix",
-      "build_sha" : "b37ee00",
-      "modifieddate" : 1490931667,
-      "appversion" : 34668544
+      "build_sha" : "6a7d211",
+      "modifieddate" : 1490936196,
+      "appversion" : 35651584
     },
     "device" : 2162689,
     "tone" : {
@@ -316,7 +316,7 @@
           "@position" : 3,
           "Drive" : 0.3,
           "Treble" : 0.5,
-          "ChVol" : 0.54,
+          "ChVol" : 0.49,
           "@enabled" : true,
           "Ripple" : 0,
           "@path" : 0,
@@ -366,7 +366,7 @@
       "global" : {
         "@variax_volumeknob" : -0.1,
         "@pedalstate" : 2,
-        "@variax_customtuning" : true,
+        "@variax_customtuning" : false,
         "@variax_str1tuning" : 0,
         "@variax_str2tuning" : 0,
         "@variax_str4tuning" : 0,
@@ -512,7 +512,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 34734112
+    "device_version" : 35651616
   },
   "schema" : "L6Preset"
 }
