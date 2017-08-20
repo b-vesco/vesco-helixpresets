@@ -5,7 +5,7 @@
       "name" : "BAS:SV Beast Brt",
       "application" : "Helix",
       "build_sha" : "37cfcb5",
-      "modifieddate" : 1490936193,
+      "modifieddate" : 1503218325,
       "appversion" : 35651584
     },
     "device" : 2162689,
@@ -320,7 +320,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 35651616
+    "device_version" : 35717152
   },
   "schema" : "L6Preset"
 }

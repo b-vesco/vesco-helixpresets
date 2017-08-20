@@ -5,7 +5,7 @@
       "name" : "Hanger 18 & Over",
       "application" : "Helix",
       "build_sha" : "37cfcb5",
-      "modifieddate" : 1490936388,
+      "modifieddate" : 1503218519,
       "appversion" : 35651584
     },
     "device" : 2162689,
@@ -388,7 +388,7 @@
         "@tempo" : 163
       }
     },
-    "device_version" : 35651616
+    "device_version" : 35717152
   },
   "schema" : "L6Preset"
 }

@@ -5,7 +5,7 @@
       "name" : "Line 6 Fatality",
       "application" : "Helix",
       "build_sha" : "dd24475",
-      "modifieddate" : 1490936192,
+      "modifieddate" : 1503218324,
       "appversion" : 35651584
     },
     "device" : 2162689,
@@ -379,7 +379,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 35651616
+    "device_version" : 35717152
   },
   "schema" : "L6Preset"
 }
