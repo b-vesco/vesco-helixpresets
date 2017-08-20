@@ -4,12 +4,20 @@
     "meta" : {
       "name" : "Plug In Baby",
       "application" : "Helix",
-      "build_sha" : "69d8fa6",
-      "modifieddate" : 1463021815,
-      "appversion" : 17956864
+      "build_sha" : "e2528f3",
+      "modifieddate" : 1468058508,
+      "appversion" : 33554688
     },
     "device" : 2162689,
     "tone" : {
+      "snapshot7" : {
+        "@name" : "SNAPSHOT 8",
+        "@tempo" : 120
+      },
+      "snapshot4" : {
+        "@name" : "SNAPSHOT 5",
+        "@tempo" : 120
+      },
       "dsp1" : {
         "block9" : {
           "@model" : "HD2_DistCompulsiveDrive",
@@ -202,111 +210,38 @@
           "ScaleVoice2" : 0
         }
       },
-      "global" : {
-        "@variax_volumeknob" : -0.1,
-        "@pedalstate" : 1,
-        "@variax_customtuning" : true,
-        "@variax_str1tuning" : 0,
-        "@variax_str2tuning" : 0,
-        "@variax_str4tuning" : 0,
-        "@variax_str6tuning" : 0,
-        "@variax_model" : 0,
-        "@model" : "@global_params",
-        "@topology0" : "SABJ",
-        "@cursor_dsp" : 0,
-        "@cursor_path" : 0,
-        "@tempo" : 120,
-        "@topology1" : "SABJ",
-        "@variax_magmode" : true,
-        "@cursor_position" : 3,
-        "@variax_lockctrls" : 0,
-        "@variax_str3tuning" : 0,
-        "@variax_str5tuning" : 0,
-        "@variax_toneknob" : -0.1,
-        "@cursor_group" : "block0"
+      "snapshot1" : {
+        "@name" : "SNAPSHOT 2",
+        "@tempo" : 120
       },
-      "footswitch" : {
-        "dsp1" : {
-          "block0" : {
-            "@fs_label" : "Courtesan Flange",
-            "@fs_enabled" : false,
-            "@fs_index" : 4,
-            "@fs_ledcolor" : 1037,
-            "@fs_momentary" : false
-          },
-          "block1" : {
-            "@fs_label" : "Simple Delay",
-            "@fs_enabled" : true,
-            "@fs_index" : 9,
-            "@fs_ledcolor" : 458496,
-            "@fs_momentary" : false
-          },
-          "block2" : {
-            "@fs_label" : "Room",
-            "@fs_enabled" : true,
-            "@fs_index" : 10,
-            "@fs_ledcolor" : 16723200,
-            "@fs_momentary" : false
-          },
-          "block3" : {
-            "@fs_label" : "Plate",
-            "@fs_enabled" : true,
-            "@fs_index" : 11,
-            "@fs_ledcolor" : 16723200,
-            "@fs_momentary" : false
-          },
-          "block4" : {
-            "@fs_label" : "Twin Harmony",
-            "@fs_enabled" : false,
-            "@fs_index" : 4,
-            "@fs_ledcolor" : 196619,
-            "@fs_momentary" : false
-          },
-          "block5" : {
-            "@fs_label" : "Script Mod Phase",
-            "@fs_enabled" : false,
-            "@fs_index" : 5,
-            "@fs_ledcolor" : 1037,
-            "@fs_momentary" : false
-          },
-          "block7" : {
-            "@fs_label" : "LA Studio Comp",
-            "@fs_enabled" : true,
-            "@fs_index" : 3,
-            "@fs_ledcolor" : 8716032,
-            "@fs_momentary" : false
-          },
-          "block8" : {
-            "@fs_label" : "Industrial Fuzz",
-            "@fs_enabled" : false,
-            "@fs_index" : 2,
-            "@fs_ledcolor" : 525824,
-            "@fs_momentary" : false
-          },
-          "block9" : {
-            "@fs_label" : "Compulsive Drive",
-            "@fs_enabled" : false,
-            "@fs_index" : 8,
-            "@fs_ledcolor" : 525824,
-            "@fs_momentary" : false
-          }
-        },
+      "controller" : {
         "dsp0" : {
+          "inputA" : {
+            "noiseGate" : {
+              "@min" : false,
+              "@controller" : 5,
+              "@max" : true
+            }
+          },
           "block3" : {
-            "@fs_label" : "Pitch Wham",
-            "@fs_enabled" : true,
-            "@fs_index" : 13,
-            "@fs_ledcolor" : 3277055,
-            "@fs_momentary" : false
+            "Pedal" : {
+              "@min" : 0,
+              "@controller" : 1,
+              "@max" : 1
+            }
           },
           "block2" : {
-            "@fs_label" : "Volume Pedal",
-            "@fs_enabled" : false,
-            "@fs_index" : 13,
-            "@fs_ledcolor" : 3334,
-            "@fs_momentary" : false
+            "Pedal" : {
+              "@min" : 0,
+              "@controller" : 2,
+              "@max" : 1
+            }
           }
         }
+      },
+      "snapshot5" : {
+        "@name" : "SNAPSHOT 6",
+        "@tempo" : 120
       },
       "dsp0" : {
         "join" : {
@@ -439,33 +374,132 @@
           "@enabled" : true
         }
       },
-      "controller" : {
-        "dsp0" : {
-          "inputA" : {
-            "noiseGate" : {
-              "@min" : false,
-              "@controller" : 5,
-              "@max" : true
-            }
+      "snapshot2" : {
+        "@name" : "SNAPSHOT 3",
+        "@tempo" : 120
+      },
+      "global" : {
+        "@variax_volumeknob" : -0.1,
+        "@pedalstate" : 1,
+        "@variax_customtuning" : true,
+        "@variax_str1tuning" : 0,
+        "@variax_str2tuning" : 0,
+        "@variax_str4tuning" : 0,
+        "@variax_str6tuning" : 0,
+        "@variax_model" : 0,
+        "@model" : "@global_params",
+        "@topology0" : "SABJ",
+        "@cursor_dsp" : 0,
+        "@cursor_path" : 0,
+        "@guitarinputZ" : 8,
+        "@tempo" : 120,
+        "@topology1" : "SABJ",
+        "@cursor_position" : 3,
+        "@variax_lockctrls" : 0,
+        "@variax_magmode" : true,
+        "@variax_str3tuning" : 0,
+        "@variax_str5tuning" : 0,
+        "@variax_toneknob" : -0.1,
+        "@current_snapshot" : 0,
+        "@cursor_group" : "block0"
+      },
+      "snapshot6" : {
+        "@name" : "SNAPSHOT 7",
+        "@tempo" : 120
+      },
+      "footswitch" : {
+        "dsp1" : {
+          "block0" : {
+            "@fs_label" : "Courtesan Flange",
+            "@fs_enabled" : false,
+            "@fs_index" : 4,
+            "@fs_ledcolor" : 1037,
+            "@fs_momentary" : false
           },
-          "block3" : {
-            "Pedal" : {
-              "@min" : 0,
-              "@controller" : 1,
-              "@max" : 1
-            }
+          "block1" : {
+            "@fs_label" : "Simple Delay",
+            "@fs_enabled" : true,
+            "@fs_index" : 9,
+            "@fs_ledcolor" : 458496,
+            "@fs_momentary" : false
           },
           "block2" : {
-            "Pedal" : {
-              "@min" : 0,
-              "@controller" : 2,
-              "@max" : 1
-            }
+            "@fs_label" : "Room",
+            "@fs_enabled" : true,
+            "@fs_index" : 10,
+            "@fs_ledcolor" : 16723200,
+            "@fs_momentary" : false
+          },
+          "block3" : {
+            "@fs_label" : "Plate",
+            "@fs_enabled" : true,
+            "@fs_index" : 11,
+            "@fs_ledcolor" : 16723200,
+            "@fs_momentary" : false
+          },
+          "block4" : {
+            "@fs_label" : "Twin Harmony",
+            "@fs_enabled" : false,
+            "@fs_index" : 4,
+            "@fs_ledcolor" : 196619,
+            "@fs_momentary" : false
+          },
+          "block5" : {
+            "@fs_label" : "Script Mod Phase",
+            "@fs_enabled" : false,
+            "@fs_index" : 5,
+            "@fs_ledcolor" : 1037,
+            "@fs_momentary" : false
+          },
+          "block7" : {
+            "@fs_label" : "LA Studio Comp",
+            "@fs_enabled" : true,
+            "@fs_index" : 3,
+            "@fs_ledcolor" : 8716032,
+            "@fs_momentary" : false
+          },
+          "block8" : {
+            "@fs_label" : "Industrial Fuzz",
+            "@fs_enabled" : false,
+            "@fs_index" : 2,
+            "@fs_ledcolor" : 525824,
+            "@fs_momentary" : false
+          },
+          "block9" : {
+            "@fs_label" : "Compulsive Drive",
+            "@fs_enabled" : false,
+            "@fs_index" : 8,
+            "@fs_ledcolor" : 525824,
+            "@fs_momentary" : false
+          }
+        },
+        "dsp0" : {
+          "block3" : {
+            "@fs_label" : "Pitch Wham",
+            "@fs_enabled" : true,
+            "@fs_index" : 13,
+            "@fs_ledcolor" : 3277055,
+            "@fs_momentary" : false
+          },
+          "block2" : {
+            "@fs_label" : "Volume Pedal",
+            "@fs_enabled" : false,
+            "@fs_index" : 13,
+            "@fs_ledcolor" : 3334,
+            "@fs_momentary" : false
           }
         }
+      },
+      "snapshot3" : {
+        "@name" : "SNAPSHOT 4",
+        "@tempo" : 120
+      },
+      "snapshot0" : {
+        "@name" : "SNAPSHOT 1",
+        "@tempo" : 120
       }
     },
-    "device_version" : 17956896
+    "device_version" : 33554464
   },
   "schema" : "L6Preset"
 }

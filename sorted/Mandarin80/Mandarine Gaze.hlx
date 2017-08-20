@@ -4,12 +4,20 @@
     "meta" : {
       "name" : "Mandarine Gaze",
       "application" : "Helix",
-      "build_sha" : "69d8fa6",
-      "modifieddate" : 1463021832,
-      "appversion" : 17956864
+      "build_sha" : "2ed0c3d",
+      "modifieddate" : 1468058573,
+      "appversion" : 33554688
     },
     "device" : 2162689,
     "tone" : {
+      "snapshot7" : {
+        "@name" : "SNAPSHOT 8",
+        "@tempo" : 120
+      },
+      "snapshot4" : {
+        "@name" : "SNAPSHOT 5",
+        "@tempo" : 120
+      },
       "dsp1" : {
         "join" : {
           "@model" : "HD2_AppDSPFlowJoin",
@@ -142,103 +150,43 @@
           "@path" : 1,
           "@trails" : false,
           "@type" : 7,
-          "Mix" : 0.2,
+          "Mix" : 0,
           "Level" : 0,
           "Decay" : 0.72,
           "HighCut" : 9760
         }
       },
-      "global" : {
-        "@variax_volumeknob" : -0.1,
-        "@pedalstate" : 2,
-        "@variax_customtuning" : true,
-        "@variax_str1tuning" : 0,
-        "@variax_str2tuning" : 0,
-        "@variax_str4tuning" : 0,
-        "@variax_str6tuning" : 0,
-        "@variax_model" : 0,
-        "@model" : "@global_params",
-        "@topology0" : "A",
-        "@cursor_dsp" : 0,
-        "@cursor_path" : 0,
-        "@tempo" : 120,
-        "@topology1" : "SABJ",
-        "@variax_magmode" : true,
-        "@cursor_position" : 1,
-        "@variax_lockctrls" : 0,
-        "@variax_str3tuning" : 0,
-        "@variax_str5tuning" : 0,
-        "@variax_toneknob" : -0.1,
-        "@cursor_group" : "block1"
+      "snapshot1" : {
+        "@name" : "SNAPSHOT 2",
+        "@tempo" : 120
       },
-      "footswitch" : {
+      "controller" : {
         "dsp1" : {
-          "block0" : {
-            "@fs_label" : "Simple Delay",
-            "@fs_enabled" : true,
-            "@fs_index" : 4,
-            "@fs_ledcolor" : 458496,
-            "@fs_momentary" : false
-          },
           "block4" : {
-            "@fs_label" : "Octo",
-            "@fs_enabled" : true,
-            "@fs_index" : 11,
-            "@fs_ledcolor" : 16723200,
-            "@fs_momentary" : false
-          },
-          "block1" : {
-            "@fs_label" : "Plate",
-            "@fs_enabled" : true,
-            "@fs_index" : 5,
-            "@fs_ledcolor" : 16723200,
-            "@fs_momentary" : false
-          },
-          "block3" : {
-            "@fs_label" : "Mod\/Chorus Echo",
-            "@fs_enabled" : true,
-            "@fs_index" : 10,
-            "@fs_ledcolor" : 458496,
-            "@fs_momentary" : false
+            "Mix" : {
+              "@min" : 0.2,
+              "@max" : 0.55,
+              "@controller" : 13,
+              "@fs_enabled" : false,
+              "@fs_ledcolor" : 462860,
+              "@fs_label" : "Mix",
+              "@fs_momentary" : false
+            }
           }
         },
         "dsp0" : {
-          "block0" : {
-            "@fs_label" : "Hedgehog D9",
-            "@fs_enabled" : false,
-            "@fs_index" : 9,
-            "@fs_ledcolor" : 525824,
-            "@fs_momentary" : false
-          },
-          "block4" : {
-            "@fs_label" : "Harmonic Flanger",
-            "@fs_enabled" : true,
-            "@fs_index" : 2,
-            "@fs_ledcolor" : 13055,
-            "@fs_momentary" : false
-          },
-          "block5" : {
-            "@fs_label" : "Ducked Delay",
-            "@fs_enabled" : true,
-            "@fs_index" : 3,
-            "@fs_ledcolor" : 458496,
-            "@fs_momentary" : false
-          },
           "block2" : {
-            "@fs_label" : "Volume Pedal",
-            "@fs_enabled" : true,
-            "@fs_index" : 13,
-            "@fs_ledcolor" : 65408,
-            "@fs_momentary" : false
-          },
-          "block3" : {
-            "@fs_label" : "Volume Pedal",
-            "@fs_enabled" : true,
-            "@fs_index" : 13,
-            "@fs_ledcolor" : 65408,
-            "@fs_momentary" : false
+            "Pedal" : {
+              "@min" : 0,
+              "@controller" : 2,
+              "@max" : 1
+            }
           }
         }
+      },
+      "snapshot5" : {
+        "@name" : "SNAPSHOT 6",
+        "@tempo" : 120
       },
       "dsp0" : {
         "join" : {
@@ -253,6 +201,25 @@
           "B Polarity" : false
         },
         "block3" : {
+          "@model" : "HD2_FlangerHarmonicFlanger",
+          "Rate" : 0.35,
+          "@position" : 4,
+          "Harmonic" : true,
+          "SyncSelect1" : 5,
+          "TempoSync1" : false,
+          "@enabled" : true,
+          "@path" : 0,
+          "@type" : 0,
+          "Mix" : 0.5,
+          "Headroom" : 0,
+          "Width" : 0.8,
+          "Enhance" : 0.4300001,
+          "Level" : 0,
+          "@stereo" : true,
+          "Manual" : 0.8399999,
+          "Spread" : 0.26
+        },
+        "block2" : {
           "@model" : "HD2_VolPanVol",
           "@path" : 0,
           "@stereo" : false,
@@ -261,16 +228,6 @@
           "@position" : 3,
           "@enabled" : true,
           "VolumeTaper" : true
-        },
-        "block2" : {
-          "@model" : "HD2_VolPanVol",
-          "@path" : 0,
-          "@stereo" : false,
-          "@type" : 0,
-          "Pedal" : 1,
-          "@position" : 2,
-          "@enabled" : true,
-          "VolumeTaper" : false
         },
         "inputB" : {
           "@input" : 0,
@@ -286,7 +243,7 @@
           "@position" : 1,
           "Drive" : 0.6,
           "Treble" : 0.48,
-          "ChVol" : 1,
+          "ChVol" : 0.79,
           "@enabled" : true,
           "FAC" : 0,
           "Ripple" : 0.5,
@@ -330,6 +287,25 @@
           "@enabled" : false
         },
         "block5" : {
+          "@model" : "HD2_DistTeemah",
+          "Treble" : 0.5,
+          "Bass" : 0.5,
+          "@path" : 0,
+          "@stereo" : true,
+          "@type" : 0,
+          "Clipping" : 0,
+          "Gain" : 0.52,
+          "@position" : 6,
+          "Level" : 0.625,
+          "@enabled" : true
+        },
+        "outputA" : {
+          "@model" : "HD2_AppDSPFlowOutput",
+          "@output" : 2,
+          "pan" : 0.5,
+          "gain" : 0
+        },
+        "block4" : {
           "@trails" : false,
           "@enabled" : true,
           "@type" : 7,
@@ -351,67 +327,149 @@
           "TempoSync1" : true,
           "DynType" : false,
           "Time" : 0.4990001
-        },
-        "outputA" : {
-          "@model" : "HD2_AppDSPFlowOutput",
-          "@output" : 2,
-          "pan" : 0.5,
-          "gain" : 0
-        },
-        "block4" : {
-          "@model" : "HD2_FlangerHarmonicFlanger",
-          "Rate" : 0.35,
-          "@position" : 4,
-          "Harmonic" : true,
-          "SyncSelect1" : 5,
-          "TempoSync1" : false,
-          "@enabled" : true,
-          "@path" : 0,
-          "@type" : 0,
-          "Mix" : 0.5,
-          "Headroom" : 0,
-          "Width" : 0.8,
-          "Enhance" : 0.4300001,
-          "Level" : 0,
-          "@stereo" : true,
-          "Manual" : 0.8399999,
-          "Spread" : 0.26
         }
       },
-      "controller" : {
+      "snapshot2" : {
+        "@name" : "SNAPSHOT 3",
+        "@tempo" : 120
+      },
+      "global" : {
+        "@variax_volumeknob" : -0.1,
+        "@pedalstate" : 2,
+        "@variax_customtuning" : true,
+        "@variax_str1tuning" : 0,
+        "@variax_str2tuning" : 0,
+        "@variax_str4tuning" : 0,
+        "@variax_str6tuning" : 0,
+        "@variax_model" : 0,
+        "@model" : "@global_params",
+        "@topology0" : "A",
+        "@cursor_dsp" : 0,
+        "@cursor_path" : 0,
+        "@guitarinputZ" : 8,
+        "@tempo" : 120,
+        "@topology1" : "SABJ",
+        "@cursor_position" : 1,
+        "@variax_lockctrls" : 0,
+        "@variax_magmode" : true,
+        "@variax_str3tuning" : 0,
+        "@variax_str5tuning" : 0,
+        "@variax_toneknob" : -0.1,
+        "@current_snapshot" : 0,
+        "@cursor_group" : "block1"
+      },
+      "snapshot6" : {
+        "@name" : "SNAPSHOT 7",
+        "@tempo" : 120
+      },
+      "footswitch" : {
         "dsp1" : {
+          "block0" : {
+            "@fs_label" : "Simple Delay",
+            "@fs_enabled" : true,
+            "@fs_index" : 4,
+            "@fs_ledcolor" : 458496,
+            "@fs_momentary" : false
+          },
           "block4" : {
-            "Mix" : {
-              "@fs_momentary" : false,
-              "@min" : 0.2,
-              "@max" : 0.55,
-              "@controller" : 13,
-              "@fs_enabled" : false,
-              "@fs_ledcolor" : 462860,
-              "@fs_customlabel" : "Octo Bump",
-              "@fs_label" : "Mix"
-            }
+            "@fs_label" : "Octo",
+            "@fs_enabled" : true,
+            "@fs_index" : 11,
+            "@fs_ledcolor" : 16723200,
+            "@fs_momentary" : false
+          },
+          "block1" : {
+            "@fs_label" : "Plate",
+            "@fs_enabled" : true,
+            "@fs_index" : 5,
+            "@fs_ledcolor" : 16723200,
+            "@fs_momentary" : false
+          },
+          "block3" : {
+            "@fs_label" : "Mod\/Chorus Echo",
+            "@fs_enabled" : true,
+            "@fs_index" : 10,
+            "@fs_ledcolor" : 458496,
+            "@fs_momentary" : false
           }
         },
         "dsp0" : {
-          "block3" : {
-            "Pedal" : {
-              "@min" : 0,
-              "@controller" : 2,
-              "@max" : 1
-            }
+          "block0" : {
+            "@fs_label" : "Hedgehog D9",
+            "@fs_enabled" : false,
+            "@fs_index" : 9,
+            "@fs_ledcolor" : 525824,
+            "@fs_momentary" : false
+          },
+          "block4" : {
+            "@fs_label" : "Ducked Delay",
+            "@fs_enabled" : true,
+            "@fs_index" : 3,
+            "@fs_ledcolor" : 458496,
+            "@fs_momentary" : false
           },
           "block2" : {
-            "Pedal" : {
-              "@min" : 0,
-              "@controller" : 2,
-              "@max" : 1
-            }
+            "@fs_label" : "Volume Pedal",
+            "@fs_enabled" : true,
+            "@fs_index" : 13,
+            "@fs_ledcolor" : 65408,
+            "@fs_momentary" : false
+          },
+          "block3" : {
+            "@fs_label" : "Harmonic Flanger",
+            "@fs_enabled" : true,
+            "@fs_index" : 2,
+            "@fs_ledcolor" : 13055,
+            "@fs_momentary" : false
           }
         }
+      },
+      "snapshot3" : {
+        "@name" : "SNAPSHOT 4",
+        "@tempo" : 120
+      },
+      "snapshot0" : {
+        "blocks" : {
+          "dsp1" : {
+            "block0" : true,
+            "block4" : true,
+            "block1" : true,
+            "block5" : true,
+            "block2" : true,
+            "block3" : true
+          },
+          "dsp0" : {
+            "block0" : false,
+            "block4" : true,
+            "block1" : true,
+            "block5" : true,
+            "block2" : true,
+            "block3" : true
+          }
+        },
+        "controllers" : {
+          "dsp1" : {
+            "block4" : {
+              "Mix" : {
+                "@fs_enabled" : false,
+                "@value" : 0
+              }
+            }
+          },
+          "dsp0" : {
+            "block2" : {
+              "Pedal" : {
+                "@fs_enabled" : false,
+                "@value" : 1
+              }
+            }
+          }
+        },
+        "@name" : "SNAPSHOT 1",
+        "@tempo" : 120
       }
     },
-    "device_version" : 17956896
+    "device_version" : 33554464
   },
   "schema" : "L6Preset"
 }

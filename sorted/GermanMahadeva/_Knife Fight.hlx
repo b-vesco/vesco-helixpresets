@@ -4,12 +4,20 @@
     "meta" : {
       "name" : "Knife Fight",
       "application" : "Helix",
-      "build_sha" : "f498944",
-      "modifieddate" : 1463021835,
-      "appversion" : 17956864
+      "build_sha" : "e2528f3",
+      "modifieddate" : 1468058589,
+      "appversion" : 33554688
     },
     "device" : 2162689,
     "tone" : {
+      "snapshot7" : {
+        "@name" : "SNAPSHOT 8",
+        "@tempo" : 120
+      },
+      "snapshot4" : {
+        "@name" : "SNAPSHOT 5",
+        "@tempo" : 120
+      },
       "dsp1" : {
         "join" : {
           "@model" : "HD2_AppDSPFlowJoin",
@@ -148,84 +156,43 @@
           "gain" : 0
         }
       },
-      "global" : {
-        "@variax_volumeknob" : 10,
-        "@pedalstate" : 2,
-        "@variax_customtuning" : false,
-        "@variax_str1tuning" : 0,
-        "@variax_str2tuning" : 1,
-        "@variax_str4tuning" : 0,
-        "@variax_str6tuning" : 0,
-        "@variax_model" : 0,
-        "@model" : "@global_params",
-        "@topology0" : "A",
-        "@cursor_dsp" : 0,
-        "@cursor_path" : 0,
-        "@tempo" : 81.1176,
-        "@topology1" : "ABJ",
-        "@variax_magmode" : false,
-        "@cursor_position" : 2,
-        "@variax_lockctrls" : 0,
-        "@variax_str3tuning" : 0,
-        "@variax_str5tuning" : 0,
-        "@variax_toneknob" : 0,
-        "@cursor_group" : "block2"
+      "snapshot1" : {
+        "@name" : "SNAPSHOT 2",
+        "@tempo" : 120
       },
-      "footswitch" : {
+      "controller" : {
         "dsp1" : {
-          "block3" : {
-            "@fs_label" : "Mod\/Chorus Echo",
-            "@fs_enabled" : true,
-            "@fs_index" : 9,
-            "@fs_ledcolor" : 458496,
-            "@fs_momentary" : false
-          },
           "block2" : {
-            "@fs_label" : "Volume Pedal",
-            "@fs_enabled" : true,
-            "@fs_index" : 13,
-            "@fs_ledcolor" : 65408,
-            "@fs_momentary" : false
+            "Pedal" : {
+              "@fs_momentary" : false,
+              "@min" : 0,
+              "@max" : 1,
+              "@controller" : 16,
+              "@fs_enabled" : true,
+              "@fs_ledcolor" : 7077838,
+              "@fs_customlabel" : "Guitar Rig",
+              "@fs_label" : "Position"
+            }
           }
         },
         "dsp0" : {
-          "block0" : {
-            "@fs_label" : "Simple Pitch",
-            "@fs_enabled" : true,
-            "@fs_index" : 2,
-            "@fs_ledcolor" : 3277055,
-            "@fs_momentary" : false
-          },
-          "block4" : {
-            "@fs_label" : "10 Band Graphic",
-            "@fs_enabled" : true,
-            "@fs_index" : 4,
-            "@fs_ledcolor" : 8716032,
-            "@fs_momentary" : false
-          },
-          "block1" : {
-            "@fs_label" : "Bitcrusher",
-            "@fs_enabled" : true,
-            "@fs_index" : 3,
-            "@fs_ledcolor" : 13676288,
-            "@fs_momentary" : false
-          },
           "block5" : {
-            "@fs_label" : "Volume Pedal",
-            "@fs_enabled" : true,
-            "@fs_index" : 13,
-            "@fs_ledcolor" : 65408,
-            "@fs_momentary" : false
-          },
-          "block2" : {
-            "@fs_label" : "Industrial Fuzz",
-            "@fs_enabled" : false,
-            "@fs_index" : 10,
-            "@fs_customlabel" : "Ermahgerd!",
-            "@fs_ledcolor" : 525824,
-            "@fs_momentary" : false
+            "Pedal" : {
+              "@fs_momentary" : false,
+              "@min" : 0,
+              "@max" : 1,
+              "@controller" : 10,
+              "@fs_enabled" : true,
+              "@fs_ledcolor" : 7077838,
+              "@fs_customlabel" : "Bass Rig",
+              "@fs_label" : "Position"
+            }
           }
         }
+      },
+      "snapshot5" : {
+        "@name" : "SNAPSHOT 6",
+        "@tempo" : 120
       },
       "dsp0" : {
         "join" : {
@@ -380,38 +347,105 @@
           "250Hz" : 0
         }
       },
-      "controller" : {
+      "snapshot2" : {
+        "@name" : "SNAPSHOT 3",
+        "@tempo" : 120
+      },
+      "global" : {
+        "@variax_volumeknob" : 10,
+        "@pedalstate" : 2,
+        "@variax_customtuning" : false,
+        "@variax_str1tuning" : 0,
+        "@variax_str2tuning" : 1,
+        "@variax_str4tuning" : 0,
+        "@variax_str6tuning" : 0,
+        "@variax_model" : 0,
+        "@model" : "@global_params",
+        "@topology0" : "A",
+        "@cursor_dsp" : 0,
+        "@cursor_path" : 0,
+        "@guitarinputZ" : 8,
+        "@tempo" : 81.1176,
+        "@topology1" : "ABJ",
+        "@cursor_position" : 2,
+        "@variax_lockctrls" : 0,
+        "@variax_magmode" : false,
+        "@variax_str3tuning" : 0,
+        "@variax_str5tuning" : 0,
+        "@variax_toneknob" : 0,
+        "@current_snapshot" : 0,
+        "@cursor_group" : "block2"
+      },
+      "snapshot6" : {
+        "@name" : "SNAPSHOT 7",
+        "@tempo" : 120
+      },
+      "footswitch" : {
         "dsp1" : {
+          "block3" : {
+            "@fs_label" : "Mod\/Chorus Echo",
+            "@fs_enabled" : true,
+            "@fs_index" : 9,
+            "@fs_ledcolor" : 458496,
+            "@fs_momentary" : false
+          },
           "block2" : {
-            "Pedal" : {
-              "@fs_momentary" : false,
-              "@min" : 0,
-              "@max" : 1,
-              "@controller" : 16,
-              "@fs_enabled" : true,
-              "@fs_ledcolor" : 7077838,
-              "@fs_customlabel" : "Guitar Rig",
-              "@fs_label" : "Position"
-            }
+            "@fs_label" : "Volume Pedal",
+            "@fs_enabled" : true,
+            "@fs_index" : 13,
+            "@fs_ledcolor" : 65408,
+            "@fs_momentary" : false
           }
         },
         "dsp0" : {
+          "block0" : {
+            "@fs_label" : "Simple Pitch",
+            "@fs_enabled" : true,
+            "@fs_index" : 2,
+            "@fs_ledcolor" : 3277055,
+            "@fs_momentary" : false
+          },
+          "block4" : {
+            "@fs_label" : "10 Band Graphic",
+            "@fs_enabled" : true,
+            "@fs_index" : 4,
+            "@fs_ledcolor" : 8716032,
+            "@fs_momentary" : false
+          },
+          "block1" : {
+            "@fs_label" : "Bitcrusher",
+            "@fs_enabled" : true,
+            "@fs_index" : 3,
+            "@fs_ledcolor" : 13676288,
+            "@fs_momentary" : false
+          },
           "block5" : {
-            "Pedal" : {
-              "@fs_momentary" : false,
-              "@min" : 0,
-              "@max" : 1,
-              "@controller" : 10,
-              "@fs_enabled" : true,
-              "@fs_ledcolor" : 7077838,
-              "@fs_customlabel" : "Bass Rig",
-              "@fs_label" : "Position"
-            }
+            "@fs_label" : "Volume Pedal",
+            "@fs_enabled" : true,
+            "@fs_index" : 13,
+            "@fs_ledcolor" : 65408,
+            "@fs_momentary" : false
+          },
+          "block2" : {
+            "@fs_label" : "Industrial Fuzz",
+            "@fs_enabled" : false,
+            "@fs_index" : 10,
+            "@fs_customlabel" : "Ermahgerd!",
+            "@fs_ledcolor" : 525824,
+            "@fs_momentary" : false
           }
         }
+      },
+      "snapshot3" : {
+        "@name" : "SNAPSHOT 4",
+        "@tempo" : 120
+      },
+      "snapshot0" : {
+        "@name" : "SNAPSHOT 1",
+        "@tempo" : 120
       }
     },
-    "device_version" : 17956896
+    "device_version" : 33554464
   },
   "schema" : "L6Preset"
 }
