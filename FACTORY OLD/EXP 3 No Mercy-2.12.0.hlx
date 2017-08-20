@@ -2,11 +2,11 @@
   "version" : 6,
   "data" : {
     "meta" : {
-      "name" : "EXP 1 No Mercy",
+      "name" : "EXP 3 No Mercy",
       "application" : "Helix",
-      "build_sha" : "dd24475",
-      "modifieddate" : 1490936207,
-      "appversion" : 35651584
+      "build_sha" : "87b59c5",
+      "modifieddate" : 1490931682,
+      "appversion" : 34668544
     },
     "device" : 2162689,
     "tone" : {
@@ -92,14 +92,9 @@
             }
           },
           "block5" : {
-            "Level" : {
-              "@min" : 0,
-              "@controller" : 1,
-              "@max" : -4.2
-            },
             "Pedal" : {
               "@min" : 0,
-              "@controller" : 1,
+              "@controller" : 3,
               "@max" : 1
             }
           }
@@ -214,7 +209,7 @@
           "@position" : 5,
           "Drive" : 1,
           "Treble" : 0.41,
-          "ChVol" : 0.28,
+          "ChVol" : 0.35,
           "@enabled" : true,
           "Ripple" : 0.5,
           "@path" : 0,
@@ -255,7 +250,7 @@
           "@type" : 0,
           "Pedal" : 1,
           "@position" : 4,
-          "Level" : -4.2,
+          "Level" : 0,
           "Mix" : 0.72,
           "@enabled" : true,
           "Toe" : 12
@@ -289,7 +284,7 @@
       "global" : {
         "@variax_volumeknob" : -0.1,
         "@pedalstate" : 1,
-        "@variax_customtuning" : false,
+        "@variax_customtuning" : true,
         "@variax_str1tuning" : 0,
         "@variax_str2tuning" : 0,
         "@variax_str4tuning" : 0,
@@ -393,10 +388,6 @@
               }
             },
             "block5" : {
-              "Level" : {
-                "@fs_enabled" : false,
-                "@value" : -4.2
-              },
               "Pedal" : {
                 "@fs_enabled" : false,
                 "@value" : 1
@@ -422,7 +413,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 35651616
+    "device_version" : 34734112
   },
   "schema" : "L6Preset"
 }
