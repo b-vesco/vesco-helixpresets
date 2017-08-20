@@ -5,8 +5,8 @@
       "name" : "Chem Trails",
       "application" : "Helix",
       "build_sha" : "daacb04",
-      "modifieddate" : 1479876235,
-      "appversion" : 34603008
+      "modifieddate" : 1483915552,
+      "appversion" : 34668544
     },
     "device" : 2162689,
     "tone" : {
@@ -459,7 +459,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 34603040
+    "device_version" : 34668576
   },
   "schema" : "L6Preset"
 }

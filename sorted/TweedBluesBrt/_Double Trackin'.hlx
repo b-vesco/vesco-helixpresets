@@ -5,8 +5,8 @@
       "name" : "Double Trackin'",
       "application" : "Helix",
       "build_sha" : "87b59c5",
-      "modifieddate" : 1479876234,
-      "appversion" : 34603008
+      "modifieddate" : 1483915550,
+      "appversion" : 34668544
     },
     "device" : 2162689,
     "tone" : {
@@ -410,7 +410,7 @@
         "@tempo" : 123.267
       }
     },
-    "device_version" : 34603040
+    "device_version" : 34668576
   },
   "schema" : "L6Preset"
 }
