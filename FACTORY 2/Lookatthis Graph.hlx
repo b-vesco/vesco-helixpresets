@@ -1,0 +1,244 @@
+{
+  "version" : 6,
+  "data" : {
+    "meta" : {
+      "name" : "Lookatthis Graph",
+      "application" : "Helix",
+      "build_sha" : "2ed0c3d",
+      "modifieddate" : 1468058595,
+      "appversion" : 33554688
+    },
+    "device" : 2162689,
+    "tone" : {
+      "snapshot7" : {
+        "@name" : "SNAPSHOT 8",
+        "@tempo" : 120
+      },
+      "snapshot4" : {
+        "@name" : "SNAPSHOT 5",
+        "@tempo" : 120
+      },
+      "dsp1" : {
+        "split" : {
+          "@position" : 0,
+          "@model" : "HD2_AppDSPFlowSplitY",
+          "@enabled" : false
+        },
+        "inputA" : {
+          "@input" : 0,
+          "@model" : "HD2_AppDSPFlow1Input",
+          "noiseGate" : false,
+          "decay" : 0.5,
+          "threshold" : -48
+        },
+        "inputB" : {
+          "@input" : 0,
+          "@model" : "HD2_AppDSPFlow2Input",
+          "noiseGate" : false,
+          "decay" : 0.5,
+          "threshold" : -48
+        },
+        "join" : {
+          "@model" : "HD2_AppDSPFlowJoin",
+          "B Pan" : 0.5,
+          "B Level" : 0,
+          "A Level" : 0,
+          "A Pan" : 0.5,
+          "@position" : 8,
+          "Level" : 0,
+          "@enabled" : false,
+          "B Polarity" : false
+        },
+        "outputA" : {
+          "@model" : "HD2_AppDSPFlowOutput",
+          "@output" : 1,
+          "pan" : 0.5,
+          "gain" : 0
+        },
+        "outputB" : {
+          "@model" : "HD2_AppDSPFlowOutput",
+          "@output" : 1,
+          "pan" : 0.5,
+          "gain" : 0
+        }
+      },
+      "snapshot1" : {
+        "@name" : "SNAPSHOT 2",
+        "@tempo" : 120
+      },
+      "snapshot5" : {
+        "@name" : "SNAPSHOT 6",
+        "@tempo" : 120
+      },
+      "dsp0" : {
+        "block0" : {
+          "@model" : "HD2_DistMegaphone",
+          "@position" : 1,
+          "@enabled" : false,
+          "Grit" : 0.76,
+          "Space" : 0.4,
+          "@path" : 0,
+          "@type" : 0,
+          "Mix" : 0.79,
+          "Tone" : 0.5,
+          "Level" : 0.6800001,
+          "@stereo" : false,
+          "Focus" : 0.65
+        },
+        "block1" : {
+          "Bias" : 0.6,
+          "@model" : "HD2_AmpUSSmallTweed",
+          "Master" : 1,
+          "@position" : 2,
+          "Drive" : 0.37,
+          "Treble" : 0.6800001,
+          "ChVol" : 0.8,
+          "@enabled" : true,
+          "Ripple" : 0.5,
+          "@path" : 0,
+          "@type" : 1,
+          "Bass" : 0.53,
+          "BiasX" : 0.5,
+          "Hum" : 0.5,
+          "Mid" : 0.6,
+          "@bypassvolume" : 1,
+          "Presence" : 0.35,
+          "Sag" : 0.5
+        },
+        "block2" : {
+          "@model" : "HD2_CaliQ",
+          "240Hz" : 0,
+          "80Hz" : 0,
+          "@position" : 3,
+          "6600Hz" : -4.9,
+          "@enabled" : true,
+          "750Hz" : 0,
+          "@path" : 0,
+          "@type" : 0,
+          "2200Hz" : -1.7,
+          "Level" : 0,
+          "@stereo" : false
+        },
+        "inputA" : {
+          "@input" : 1,
+          "@model" : "HD2_AppDSPFlow1Input",
+          "noiseGate" : false,
+          "decay" : 0.5,
+          "threshold" : -48
+        },
+        "inputB" : {
+          "@input" : 0,
+          "@model" : "HD2_AppDSPFlow2Input",
+          "noiseGate" : false,
+          "decay" : 0.5,
+          "threshold" : -48
+        },
+        "join" : {
+          "@model" : "HD2_AppDSPFlowJoin",
+          "B Pan" : 0.5,
+          "B Level" : 0,
+          "A Level" : 0,
+          "A Pan" : 0.5,
+          "@position" : 8,
+          "Level" : 0,
+          "@enabled" : false,
+          "B Polarity" : false
+        },
+        "split" : {
+          "@position" : 0,
+          "@model" : "HD2_AppDSPFlowSplitY",
+          "@enabled" : false
+        },
+        "outputB" : {
+          "@model" : "HD2_AppDSPFlowOutput",
+          "@output" : 1,
+          "pan" : 0.5,
+          "gain" : 0
+        },
+        "outputA" : {
+          "@model" : "HD2_AppDSPFlowOutput",
+          "@output" : 1,
+          "pan" : 0.5,
+          "gain" : 0
+        }
+      },
+      "snapshot2" : {
+        "@name" : "SNAPSHOT 3",
+        "@tempo" : 120
+      },
+      "global" : {
+        "@variax_volumeknob" : -0.1,
+        "@pedalstate" : 2,
+        "@variax_customtuning" : true,
+        "@variax_str1tuning" : 0,
+        "@variax_str2tuning" : 0,
+        "@variax_str4tuning" : 0,
+        "@variax_str6tuning" : 0,
+        "@variax_model" : 0,
+        "@model" : "@global_params",
+        "@topology0" : "A",
+        "@cursor_dsp" : 0,
+        "@cursor_path" : 0,
+        "@guitarinputZ" : 0,
+        "@tempo" : 120,
+        "@topology1" : "A",
+        "@cursor_position" : 3,
+        "@variax_lockctrls" : 0,
+        "@variax_magmode" : true,
+        "@variax_str3tuning" : 0,
+        "@variax_str5tuning" : 0,
+        "@variax_toneknob" : -0.1,
+        "@current_snapshot" : 0,
+        "@cursor_group" : "block2"
+      },
+      "snapshot6" : {
+        "@name" : "SNAPSHOT 7",
+        "@tempo" : 120
+      },
+      "footswitch" : {
+        "dsp0" : {
+          "block1" : {
+            "@fs_label" : "US Small Tweed",
+            "@fs_enabled" : true,
+            "@fs_index" : 8,
+            "@fs_customlabel" : "Look-)",
+            "@fs_ledcolor" : 16711683,
+            "@fs_momentary" : false
+          },
+          "block0" : {
+            "@fs_label" : "Megaphone",
+            "@fs_enabled" : false,
+            "@fs_index" : 10,
+            "@fs_customlabel" : "gross grit",
+            "@fs_ledcolor" : 525824,
+            "@fs_momentary" : false
+          },
+          "block2" : {
+            "@fs_label" : "Cali Q Graphic",
+            "@fs_enabled" : true,
+            "@fs_index" : 9,
+            "@fs_ledcolor" : 8716032,
+            "@fs_momentary" : true
+          }
+        }
+      },
+      "snapshot3" : {
+        "@name" : "SNAPSHOT 4",
+        "@tempo" : 120
+      },
+      "snapshot0" : {
+        "@name" : "SNAPSHOT 1",
+        "@tempo" : 120,
+        "blocks" : {
+          "dsp0" : {
+            "block1" : true,
+            "block0" : false,
+            "block2" : true
+          }
+        }
+      }
+    },
+    "device_version" : 33554464
+  },
+  "schema" : "L6Preset"
+}
