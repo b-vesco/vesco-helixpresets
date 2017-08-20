@@ -4,12 +4,20 @@
     "meta" : {
       "name" : "SFX:EXP Disturb",
       "application" : "Helix",
-      "build_sha" : "69d8fa6",
-      "modifieddate" : 1463021835,
-      "appversion" : 17956864
+      "build_sha" : "3583e0d",
+      "modifieddate" : 1468058585,
+      "appversion" : 33554688
     },
     "device" : 2162689,
     "tone" : {
+      "snapshot7" : {
+        "@name" : "SNAPSHOT 8",
+        "@tempo" : 120
+      },
+      "snapshot4" : {
+        "@name" : "SNAPSHOT 5",
+        "@tempo" : 120
+      },
       "dsp1" : {
         "block0" : {
           "@model" : "HD2_DelayPingPong",
@@ -72,70 +80,33 @@
           "gain" : 0
         }
       },
-      "global" : {
-        "@variax_volumeknob" : -0.1,
-        "@pedalstate" : 2,
-        "@variax_customtuning" : true,
-        "@variax_str1tuning" : 0,
-        "@variax_str2tuning" : 0,
-        "@variax_str4tuning" : 0,
-        "@variax_str6tuning" : 0,
-        "@variax_model" : 0,
-        "@model" : "@global_params",
-        "@topology0" : "A",
-        "@cursor_dsp" : 1,
-        "@cursor_path" : 0,
-        "@tempo" : 120,
-        "@topology1" : "A",
-        "@variax_magmode" : true,
-        "@cursor_position" : 3,
-        "@variax_lockctrls" : 0,
-        "@variax_str3tuning" : 0,
-        "@variax_str5tuning" : 0,
-        "@variax_toneknob" : -0.1,
-        "@cursor_group" : "block0"
+      "snapshot1" : {
+        "@name" : "SNAPSHOT 2",
+        "@tempo" : 120
       },
-      "footswitch" : {
+      "controller" : {
         "dsp1" : {
           "block0" : {
-            "@fs_label" : "Ping Pong",
-            "@fs_enabled" : true,
-            "@fs_index" : 9,
-            "@fs_ledcolor" : 458496,
-            "@fs_momentary" : false
+            "Time" : {
+              "@min" : 0,
+              "@controller" : 2,
+              "@max" : 8
+            }
           }
         },
         "dsp0" : {
-          "block0" : {
-            "@fs_label" : "Looper",
-            "@fs_enabled" : false,
-            "@fs_index" : 5,
-            "@fs_ledcolor" : 462860,
-            "@fs_momentary" : false
-          },
           "block4" : {
-            "@fs_label" : "Pitch Wham",
-            "@fs_enabled" : true,
-            "@fs_index" : 13,
-            "@fs_customlabel" : "Glitch Machine",
-            "@fs_ledcolor" : 3277055,
-            "@fs_momentary" : false
-          },
-          "block1" : {
-            "@fs_label" : "Deluxe Comp",
-            "@fs_enabled" : true,
-            "@fs_index" : 8,
-            "@fs_ledcolor" : 8716032,
-            "@fs_momentary" : false
-          },
-          "block3" : {
-            "@fs_label" : "Ping Pong",
-            "@fs_enabled" : true,
-            "@fs_index" : 10,
-            "@fs_ledcolor" : 458496,
-            "@fs_momentary" : false
+            "Pedal" : {
+              "@min" : 1,
+              "@controller" : 2,
+              "@max" : 0
+            }
           }
         }
+      },
+      "snapshot5" : {
+        "@name" : "SNAPSHOT 6",
+        "@tempo" : 120
       },
       "dsp0" : {
         "join" : {
@@ -174,7 +145,7 @@
           "@position" : 2,
           "Drive" : 0.5699999,
           "Treble" : 0.6700001,
-          "ChVol" : 0.65,
+          "ChVol" : 0.4300001,
           "@enabled" : true,
           "Ripple" : 0.5,
           "@path" : 0,
@@ -270,33 +241,121 @@
           "Toe" : 24
         }
       },
-      "controller" : {
+      "snapshot2" : {
+        "@name" : "SNAPSHOT 3",
+        "@tempo" : 120
+      },
+      "global" : {
+        "@variax_volumeknob" : -0.1,
+        "@pedalstate" : 2,
+        "@variax_customtuning" : true,
+        "@variax_str1tuning" : 0,
+        "@variax_str2tuning" : 0,
+        "@variax_str4tuning" : 0,
+        "@variax_str6tuning" : 0,
+        "@variax_model" : 0,
+        "@model" : "@global_params",
+        "@topology0" : "A",
+        "@cursor_dsp" : 0,
+        "@cursor_path" : 0,
+        "@guitarinputZ" : 8,
+        "@tempo" : 120,
+        "@topology1" : "A",
+        "@cursor_position" : 2,
+        "@variax_lockctrls" : 0,
+        "@variax_magmode" : true,
+        "@variax_str3tuning" : 0,
+        "@variax_str5tuning" : 0,
+        "@variax_toneknob" : -0.1,
+        "@current_snapshot" : 0,
+        "@cursor_group" : "block2"
+      },
+      "snapshot6" : {
+        "@name" : "SNAPSHOT 7",
+        "@tempo" : 120
+      },
+      "footswitch" : {
         "dsp1" : {
           "block0" : {
-            "SyncSelect1" : {
-              "@min" : 1,
-              "@controller" : 2,
-              "@max" : 19
-            },
-            "Time" : {
-              "@min" : 0,
-              "@controller" : 2,
-              "@max" : 8
-            }
+            "@fs_label" : "Ping Pong",
+            "@fs_enabled" : true,
+            "@fs_index" : 9,
+            "@fs_ledcolor" : 458496,
+            "@fs_momentary" : false
           }
         },
         "dsp0" : {
+          "block0" : {
+            "@fs_label" : "Looper",
+            "@fs_enabled" : false,
+            "@fs_index" : 5,
+            "@fs_ledcolor" : 462860,
+            "@fs_momentary" : false
+          },
           "block4" : {
-            "Pedal" : {
-              "@min" : 1,
-              "@controller" : 2,
-              "@max" : 0
-            }
+            "@fs_label" : "Pitch Wham",
+            "@fs_enabled" : true,
+            "@fs_index" : 13,
+            "@fs_customlabel" : "Glitch Machine",
+            "@fs_ledcolor" : 3277055,
+            "@fs_momentary" : false
+          },
+          "block1" : {
+            "@fs_label" : "Deluxe Comp",
+            "@fs_enabled" : true,
+            "@fs_index" : 8,
+            "@fs_ledcolor" : 8716032,
+            "@fs_momentary" : false
+          },
+          "block3" : {
+            "@fs_label" : "Ping Pong",
+            "@fs_enabled" : true,
+            "@fs_index" : 10,
+            "@fs_ledcolor" : 458496,
+            "@fs_momentary" : false
           }
         }
+      },
+      "snapshot3" : {
+        "@name" : "SNAPSHOT 4",
+        "@tempo" : 120
+      },
+      "snapshot0" : {
+        "blocks" : {
+          "dsp1" : {
+            "block0" : false
+          },
+          "dsp0" : {
+            "block0" : false,
+            "block4" : true,
+            "block1" : true,
+            "block2" : true,
+            "block3" : true
+          }
+        },
+        "controllers" : {
+          "dsp1" : {
+            "block0" : {
+              "Time" : {
+                "@fs_enabled" : false,
+                "@value" : 4.25787
+              }
+            }
+          },
+          "dsp0" : {
+            "block4" : {
+              "Pedal" : {
+                "@fs_enabled" : false,
+                "@value" : 0.467766
+              }
+            }
+          }
+        },
+        "@name" : "SNAPSHOT 1",
+        "@tempo" : 120
       }
     },
-    "device_version" : 17956896
+    "device_version" : 33554464
   },
   "schema" : "L6Preset"
 }

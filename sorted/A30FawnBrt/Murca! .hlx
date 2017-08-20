@@ -4,12 +4,20 @@
     "meta" : {
       "name" : "Murca! ",
       "application" : "Helix",
-      "build_sha" : "9532b30",
-      "modifieddate" : 1463021836,
-      "appversion" : 17956864
+      "build_sha" : "3583e0d",
+      "modifieddate" : 1468058590,
+      "appversion" : 33554688
     },
     "device" : 2162689,
     "tone" : {
+      "snapshot7" : {
+        "@name" : "SNAPSHOT 8",
+        "@tempo" : 120
+      },
+      "snapshot4" : {
+        "@name" : "SNAPSHOT 5",
+        "@tempo" : 120
+      },
       "dsp1" : {
         "block0" : {
           "Stages" : 8,
@@ -73,113 +81,24 @@
           "gain" : 0
         }
       },
-      "global" : {
-        "@variax_volumeknob" : -0.1,
-        "@pedalstate" : 0,
-        "@variax_customtuning" : true,
-        "@variax_str1tuning" : 0,
-        "@variax_str2tuning" : 0,
-        "@variax_str4tuning" : 0,
-        "@variax_str6tuning" : 0,
-        "@variax_model" : 0,
-        "@model" : "@global_params",
-        "@topology0" : "SABJ",
-        "@cursor_dsp" : 1,
-        "@cursor_path" : 0,
-        "@tempo" : 120,
-        "@topology1" : "A",
-        "@variax_magmode" : true,
-        "@cursor_position" : 7,
-        "@variax_lockctrls" : 0,
-        "@variax_str3tuning" : 0,
-        "@variax_str5tuning" : 0,
-        "@variax_toneknob" : -0.1,
-        "@cursor_group" : "block0"
+      "snapshot1" : {
+        "@name" : "SNAPSHOT 2",
+        "@tempo" : 120
       },
-      "footswitch" : {
-        "dsp1" : {
-          "block0" : {
-            "@fs_momentary" : true,
-            "@fs_customcolor" : 1,
-            "@fs_index" : 11,
-            "@fs_enabled" : false,
-            "@fs_ledcolor" : 1037,
-            "@fs_customlabel" : "Brave!",
-            "@fs_label" : "Deluxe Phaser"
-          }
-        },
+      "controller" : {
         "dsp0" : {
-          "block0" : {
-            "@fs_momentary" : false,
-            "@fs_customcolor" : 2,
-            "@fs_index" : 5,
-            "@fs_enabled" : false,
-            "@fs_ledcolor" : 462860,
-            "@fs_customlabel" : "Free!",
-            "@fs_label" : "Looper"
-          },
-          "block1" : {
-            "@fs_momentary" : false,
-            "@fs_customcolor" : 8,
-            "@fs_index" : 9,
-            "@fs_enabled" : true,
-            "@fs_ledcolor" : 458496,
-            "@fs_customlabel" : "of",
-            "@fs_label" : "Transistor Tape"
-          },
-          "block2" : {
-            "@fs_momentary" : false,
-            "@fs_customcolor" : 2,
-            "@fs_index" : 10,
-            "@fs_enabled" : true,
-            "@fs_ledcolor" : 16723200,
-            "@fs_customlabel" : "the",
-            "@fs_label" : "Echo"
-          },
           "block3" : {
-            "@fs_label" : "Volume Pedal",
-            "@fs_enabled" : true,
-            "@fs_index" : 13,
-            "@fs_ledcolor" : 65408,
-            "@fs_momentary" : false
-          },
-          "block4" : {
-            "@fs_momentary" : false,
-            "@fs_customcolor" : 2,
-            "@fs_index" : 2,
-            "@fs_enabled" : true,
-            "@fs_ledcolor" : 8716032,
-            "@fs_customlabel" : "Land",
-            "@fs_label" : "Red Squeeze"
-          },
-          "block5" : {
-            "@fs_momentary" : false,
-            "@fs_customcolor" : 1,
-            "@fs_index" : 8,
-            "@fs_enabled" : true,
-            "@fs_ledcolor" : 13676288,
-            "@fs_customlabel" : "Home",
-            "@fs_label" : "Teemah!"
-          },
-          "block6" : {
-            "@fs_momentary" : false,
-            "@fs_customcolor" : 1,
-            "@fs_index" : 3,
-            "@fs_enabled" : true,
-            "@fs_ledcolor" : 16711683,
-            "@fs_customlabel" : "of",
-            "@fs_label" : "A30 Fawn Brt"
-          },
-          "block7" : {
-            "@fs_momentary" : false,
-            "@fs_customcolor" : 8,
-            "@fs_index" : 4,
-            "@fs_enabled" : true,
-            "@fs_ledcolor" : 16711683,
-            "@fs_customlabel" : "the",
-            "@fs_label" : "1x12 Lead 80"
+            "Pedal" : {
+              "@min" : 0,
+              "@controller" : 2,
+              "@max" : 1
+            }
           }
         }
+      },
+      "snapshot5" : {
+        "@name" : "SNAPSHOT 6",
+        "@tempo" : 120
       },
       "dsp0" : {
         "join" : {
@@ -277,7 +196,7 @@
           "Cut" : 0.5,
           "Drive" : 0.6600001,
           "Treble" : 0.62,
-          "ChVol" : 0.8,
+          "ChVol" : 0.65,
           "@enabled" : true,
           "Ripple" : 0.5,
           "@path" : 0,
@@ -337,19 +256,159 @@
           "Sensitivity" : 0.4400001
         }
       },
-      "controller" : {
+      "snapshot2" : {
+        "@name" : "SNAPSHOT 3",
+        "@tempo" : 120
+      },
+      "global" : {
+        "@variax_volumeknob" : -0.1,
+        "@pedalstate" : 2,
+        "@variax_customtuning" : true,
+        "@variax_str1tuning" : 0,
+        "@variax_str2tuning" : 0,
+        "@variax_str4tuning" : 0,
+        "@variax_str6tuning" : 0,
+        "@variax_model" : 0,
+        "@model" : "@global_params",
+        "@topology0" : "SABJ",
+        "@cursor_dsp" : 0,
+        "@cursor_path" : 0,
+        "@guitarinputZ" : 0,
+        "@tempo" : 120,
+        "@topology1" : "A",
+        "@cursor_position" : 3,
+        "@variax_lockctrls" : 0,
+        "@variax_magmode" : true,
+        "@variax_str3tuning" : 0,
+        "@variax_str5tuning" : 0,
+        "@variax_toneknob" : -0.1,
+        "@current_snapshot" : 0,
+        "@cursor_group" : "block6"
+      },
+      "snapshot6" : {
+        "@name" : "SNAPSHOT 7",
+        "@tempo" : 120
+      },
+      "footswitch" : {
+        "dsp1" : {
+          "block0" : {
+            "@fs_momentary" : true,
+            "@fs_customcolor" : 1,
+            "@fs_index" : 11,
+            "@fs_enabled" : false,
+            "@fs_ledcolor" : 1037,
+            "@fs_customlabel" : "Brave!",
+            "@fs_label" : "Deluxe Phaser"
+          }
+        },
         "dsp0" : {
+          "block0" : {
+            "@fs_momentary" : false,
+            "@fs_customcolor" : 2,
+            "@fs_index" : 5,
+            "@fs_enabled" : false,
+            "@fs_ledcolor" : 462860,
+            "@fs_customlabel" : "Free!",
+            "@fs_label" : "Looper"
+          },
+          "block1" : {
+            "@fs_momentary" : false,
+            "@fs_customcolor" : 8,
+            "@fs_index" : 9,
+            "@fs_enabled" : true,
+            "@fs_ledcolor" : 458496,
+            "@fs_customlabel" : "of",
+            "@fs_label" : "Transistor Tape"
+          },
+          "block2" : {
+            "@fs_momentary" : false,
+            "@fs_customcolor" : 2,
+            "@fs_index" : 10,
+            "@fs_enabled" : true,
+            "@fs_ledcolor" : 16723200,
+            "@fs_customlabel" : "the",
+            "@fs_label" : "Echo"
+          },
           "block3" : {
-            "Pedal" : {
-              "@min" : 0,
-              "@controller" : 2,
-              "@max" : 1
-            }
+            "@fs_label" : "Volume Pedal",
+            "@fs_enabled" : true,
+            "@fs_index" : 13,
+            "@fs_ledcolor" : 65408,
+            "@fs_momentary" : false
+          },
+          "block4" : {
+            "@fs_momentary" : false,
+            "@fs_customcolor" : 2,
+            "@fs_index" : 2,
+            "@fs_enabled" : true,
+            "@fs_ledcolor" : 8716032,
+            "@fs_customlabel" : "Land",
+            "@fs_label" : "Red Squeeze"
+          },
+          "block5" : {
+            "@fs_momentary" : false,
+            "@fs_customcolor" : 1,
+            "@fs_index" : 8,
+            "@fs_enabled" : true,
+            "@fs_ledcolor" : 13676288,
+            "@fs_customlabel" : "Home",
+            "@fs_label" : "Teemah!"
+          },
+          "block6" : {
+            "@fs_momentary" : false,
+            "@fs_customcolor" : 1,
+            "@fs_index" : 3,
+            "@fs_enabled" : true,
+            "@fs_ledcolor" : 16711683,
+            "@fs_customlabel" : "of",
+            "@fs_label" : "A30 Fawn Brt"
+          },
+          "block7" : {
+            "@fs_momentary" : false,
+            "@fs_customcolor" : 8,
+            "@fs_index" : 4,
+            "@fs_enabled" : true,
+            "@fs_ledcolor" : 16711683,
+            "@fs_customlabel" : "the",
+            "@fs_label" : "1x12 Lead 80"
           }
         }
+      },
+      "snapshot3" : {
+        "@name" : "SNAPSHOT 4",
+        "@tempo" : 120
+      },
+      "snapshot0" : {
+        "blocks" : {
+          "dsp1" : {
+            "block0" : false
+          },
+          "dsp0" : {
+            "block0" : false,
+            "block1" : true,
+            "block2" : true,
+            "block3" : true,
+            "block4" : true,
+            "block5" : true,
+            "block6" : true,
+            "block7" : true
+          }
+        },
+        "controllers" : {
+          "dsp0" : {
+            "block3" : {
+              "Pedal" : {
+                "@fs_enabled" : false,
+                "@value" : 1
+              }
+            }
+          }
+        },
+        "@name" : "SNAPSHOT 1",
+        "@tempo" : 120
       }
     },
-    "device_version" : 17956896
+    "device_version" : 33554464
   },
   "schema" : "L6Preset"
 }

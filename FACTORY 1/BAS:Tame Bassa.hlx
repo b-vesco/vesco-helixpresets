@@ -4,64 +4,95 @@
     "meta" : {
       "name" : "BAS:Tame Bassa",
       "application" : "Helix",
-      "build_sha" : "c3f1cfb",
-      "modifieddate" : 1463021818,
-      "appversion" : 17956864
+      "build_sha" : "e2528f3",
+      "modifieddate" : 1468058523,
+      "appversion" : 33554688
     },
     "device" : 2162689,
     "tone" : {
-      "global" : {
-        "@variax_volumeknob" : -0.1,
-        "@pedalstate" : 2,
-        "@variax_customtuning" : true,
-        "@variax_str1tuning" : 0,
-        "@variax_str2tuning" : 0,
-        "@variax_str4tuning" : 0,
-        "@variax_str6tuning" : 0,
-        "@variax_model" : 0,
-        "@model" : "@global_params",
-        "@topology0" : "SAB",
-        "@cursor_dsp" : 0,
-        "@tempo" : 120,
-        "@topology1" : "A",
-        "@variax_magmode" : true,
-        "@variax_toneknob" : -0.1,
-        "@variax_str3tuning" : 0,
-        "@variax_lockctrls" : 0,
-        "@variax_str5tuning" : 0,
-        "@cursor_group" : "outputB"
+      "snapshot7" : {
+        "@name" : "SNAPSHOT 8",
+        "@tempo" : 120
       },
-      "footswitch" : {
-        "dsp0" : {
-          "block0" : {
-            "@fs_label" : "Chorus",
-            "@fs_enabled" : true,
-            "@fs_index" : 5,
-            "@fs_ledcolor" : 13055,
-            "@fs_momentary" : false
-          },
-          "block4" : {
-            "@fs_label" : "Valve Driver",
-            "@fs_enabled" : true,
-            "@fs_index" : 9,
-            "@fs_ledcolor" : 13676288,
-            "@fs_momentary" : false
-          },
-          "block2" : {
-            "@fs_label" : "Minotaur",
-            "@fs_enabled" : true,
-            "@fs_index" : 10,
-            "@fs_ledcolor" : 13676288,
-            "@fs_momentary" : false
-          },
-          "block3" : {
-            "@fs_label" : "LA Studio Comp",
-            "@fs_enabled" : true,
-            "@fs_index" : 8,
-            "@fs_ledcolor" : 8716032,
-            "@fs_momentary" : false
-          }
+      "snapshot4" : {
+        "@name" : "SNAPSHOT 5",
+        "@tempo" : 120
+      },
+      "dsp1" : {
+        "block0" : {
+          "@model" : "HD2_Cab8x10SVBeast",
+          "@position" : 5,
+          "LowCut" : 19.9,
+          "@enabled" : true,
+          "EarlyReflections" : 0,
+          "@path" : 0,
+          "@mic" : 14,
+          "@type" : 4,
+          "Distance" : 1,
+          "Level" : 0,
+          "@cab" : "cab0",
+          "High Cut" : 20100
+        },
+        "cab0" : {
+          "@model" : "HD2_Cab1x12Lead80",
+          "LowCut" : 19.9,
+          "@mic" : 9,
+          "EarlyReflections" : 0,
+          "Distance" : 4,
+          "Level" : 0,
+          "@enabled" : true,
+          "HighCut" : 20100
+        },
+        "inputA" : {
+          "@input" : 0,
+          "@model" : "HD2_AppDSPFlow1Input",
+          "noiseGate" : false,
+          "decay" : 0.5,
+          "threshold" : -48
+        },
+        "inputB" : {
+          "@input" : 0,
+          "@model" : "HD2_AppDSPFlow2Input",
+          "noiseGate" : false,
+          "decay" : 0.5,
+          "threshold" : -48
+        },
+        "join" : {
+          "@model" : "HD2_AppDSPFlowJoin",
+          "B Pan" : 0.5,
+          "B Level" : 0,
+          "A Level" : 0,
+          "A Pan" : 0.5,
+          "@position" : 8,
+          "Level" : 0,
+          "@enabled" : false,
+          "B Polarity" : false
+        },
+        "split" : {
+          "@position" : 0,
+          "@model" : "HD2_AppDSPFlowSplitY",
+          "@enabled" : true
+        },
+        "outputB" : {
+          "@model" : "HD2_AppDSPFlowOutput",
+          "@output" : 1,
+          "pan" : 0.5,
+          "gain" : 0
+        },
+        "outputA" : {
+          "@model" : "HD2_AppDSPFlowOutput",
+          "@output" : 1,
+          "pan" : 0.5,
+          "gain" : 0
         }
+      },
+      "snapshot1" : {
+        "@name" : "SNAPSHOT 2",
+        "@tempo" : 120
+      },
+      "snapshot5" : {
+        "@name" : "SNAPSHOT 6",
+        "@tempo" : 120
       },
       "dsp0" : {
         "join" : {
@@ -193,76 +224,79 @@
           "@enabled" : true
         }
       },
-      "dsp1" : {
-        "block0" : {
-          "@model" : "HD2_Cab8x10SVBeast",
-          "@position" : 5,
-          "LowCut" : 19.9,
-          "@enabled" : true,
-          "EarlyReflections" : 0,
-          "@path" : 0,
-          "@mic" : 14,
-          "@type" : 4,
-          "Distance" : 1,
-          "Level" : 0,
-          "@cab" : "cab0",
-          "High Cut" : 20100
-        },
-        "cab0" : {
-          "@model" : "HD2_Cab1x12Lead80",
-          "LowCut" : 19.9,
-          "@mic" : 9,
-          "EarlyReflections" : 0,
-          "Distance" : 4,
-          "Level" : 0,
-          "@enabled" : true,
-          "HighCut" : 20100
-        },
-        "inputA" : {
-          "@input" : 0,
-          "@model" : "HD2_AppDSPFlow1Input",
-          "noiseGate" : false,
-          "decay" : 0.5,
-          "threshold" : -48
-        },
-        "inputB" : {
-          "@input" : 0,
-          "@model" : "HD2_AppDSPFlow2Input",
-          "noiseGate" : false,
-          "decay" : 0.5,
-          "threshold" : -48
-        },
-        "join" : {
-          "@model" : "HD2_AppDSPFlowJoin",
-          "B Pan" : 0.5,
-          "B Level" : 0,
-          "A Level" : 0,
-          "A Pan" : 0.5,
-          "@position" : 8,
-          "Level" : 0,
-          "@enabled" : false,
-          "B Polarity" : false
-        },
-        "split" : {
-          "@position" : 0,
-          "@model" : "HD2_AppDSPFlowSplitY",
-          "@enabled" : true
-        },
-        "outputB" : {
-          "@model" : "HD2_AppDSPFlowOutput",
-          "@output" : 1,
-          "pan" : 0.5,
-          "gain" : 0
-        },
-        "outputA" : {
-          "@model" : "HD2_AppDSPFlowOutput",
-          "@output" : 1,
-          "pan" : 0.5,
-          "gain" : 0
+      "snapshot2" : {
+        "@name" : "SNAPSHOT 3",
+        "@tempo" : 120
+      },
+      "global" : {
+        "@variax_volumeknob" : -0.1,
+        "@pedalstate" : 2,
+        "@variax_customtuning" : true,
+        "@variax_str1tuning" : 0,
+        "@variax_str2tuning" : 0,
+        "@variax_str4tuning" : 0,
+        "@variax_str6tuning" : 0,
+        "@variax_model" : 0,
+        "@model" : "@global_params",
+        "@topology0" : "SAB",
+        "@cursor_dsp" : 0,
+        "@guitarinputZ" : 8,
+        "@tempo" : 120,
+        "@topology1" : "A",
+        "@variax_magmode" : true,
+        "@variax_str3tuning" : 0,
+        "@variax_lockctrls" : 0,
+        "@variax_str5tuning" : 0,
+        "@variax_toneknob" : -0.1,
+        "@current_snapshot" : 0,
+        "@cursor_group" : "outputB"
+      },
+      "snapshot6" : {
+        "@name" : "SNAPSHOT 7",
+        "@tempo" : 120
+      },
+      "footswitch" : {
+        "dsp0" : {
+          "block0" : {
+            "@fs_label" : "Chorus",
+            "@fs_enabled" : true,
+            "@fs_index" : 5,
+            "@fs_ledcolor" : 13055,
+            "@fs_momentary" : false
+          },
+          "block4" : {
+            "@fs_label" : "Valve Driver",
+            "@fs_enabled" : true,
+            "@fs_index" : 9,
+            "@fs_ledcolor" : 13676288,
+            "@fs_momentary" : false
+          },
+          "block2" : {
+            "@fs_label" : "Minotaur",
+            "@fs_enabled" : true,
+            "@fs_index" : 10,
+            "@fs_ledcolor" : 13676288,
+            "@fs_momentary" : false
+          },
+          "block3" : {
+            "@fs_label" : "LA Studio Comp",
+            "@fs_enabled" : true,
+            "@fs_index" : 8,
+            "@fs_ledcolor" : 8716032,
+            "@fs_momentary" : false
+          }
         }
+      },
+      "snapshot3" : {
+        "@name" : "SNAPSHOT 4",
+        "@tempo" : 120
+      },
+      "snapshot0" : {
+        "@name" : "SNAPSHOT 1",
+        "@tempo" : 120
       }
     },
-    "device_version" : 17956896
+    "device_version" : 33554464
   },
   "schema" : "L6Preset"
 }

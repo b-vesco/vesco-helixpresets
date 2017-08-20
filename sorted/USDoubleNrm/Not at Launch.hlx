@@ -4,12 +4,20 @@
     "meta" : {
       "name" : "Not at Launch",
       "application" : "Helix",
-      "build_sha" : "69d8fa6",
-      "modifieddate" : 1463021817,
-      "appversion" : 17956864
+      "build_sha" : "3583e0d",
+      "modifieddate" : 1468058516,
+      "appversion" : 33554688
     },
     "device" : 2162689,
     "tone" : {
+      "snapshot7" : {
+        "@name" : "SNAPSHOT 8",
+        "@tempo" : 120
+      },
+      "snapshot4" : {
+        "@name" : "SNAPSHOT 5",
+        "@tempo" : 120
+      },
       "dsp1" : {
         "split" : {
           "@position" : 0,
@@ -54,74 +62,46 @@
           "gain" : 0
         }
       },
-      "global" : {
-        "@variax_volumeknob" : -0.1,
-        "@pedalstate" : 2,
-        "@variax_customtuning" : true,
-        "@variax_str1tuning" : 0,
-        "@variax_str2tuning" : 0,
-        "@variax_str4tuning" : 0,
-        "@variax_str6tuning" : 0,
-        "@variax_model" : 0,
-        "@model" : "@global_params",
-        "@topology0" : "SABJ",
-        "@cursor_dsp" : 0,
-        "@cursor_path" : 0,
-        "@tempo" : 120,
-        "@topology1" : "A",
-        "@variax_magmode" : true,
-        "@cursor_position" : 5,
-        "@variax_lockctrls" : 0,
-        "@variax_str3tuning" : 0,
-        "@variax_str5tuning" : 0,
-        "@variax_toneknob" : -0.1,
-        "@cursor_group" : "block7"
+      "snapshot1" : {
+        "@name" : "SNAPSHOT 2",
+        "@tempo" : 120
       },
-      "footswitch" : {
+      "controller" : {
         "dsp0" : {
           "block7" : {
-            "@fs_label" : "Adriatic Delay",
-            "@fs_enabled" : true,
-            "@fs_index" : 10,
-            "@fs_ledcolor" : 458496,
-            "@fs_momentary" : false
-          },
-          "block4" : {
-            "@fs_label" : "Minotaur",
-            "@fs_enabled" : false,
-            "@fs_index" : 9,
-            "@fs_ledcolor" : 525824,
-            "@fs_momentary" : false
-          },
-          "block8" : {
-            "@fs_label" : "Low and High Cut",
-            "@fs_enabled" : true,
-            "@fs_index" : 4,
-            "@fs_ledcolor" : 8716032,
-            "@fs_momentary" : false
+            "Feedback" : {
+              "@fs_momentary" : true,
+              "@min" : 0,
+              "@max" : 1,
+              "@controller" : 16,
+              "@fs_enabled" : false,
+              "@fs_ledcolor" : 462860,
+              "@fs_customlabel" : "HOLD TO LAUNCH",
+              "@fs_label" : "Feedback"
+            },
+            "Time" : {
+              "@fs_momentary" : true,
+              "@min" : 0.3,
+              "@max" : 1,
+              "@controller" : 16,
+              "@fs_enabled" : false,
+              "@fs_ledcolor" : 462860,
+              "@fs_customlabel" : "HOLD TO LAUNCH",
+              "@fs_label" : "Time"
+            }
           },
           "block2" : {
-            "@fs_label" : "Volume Pedal",
-            "@fs_enabled" : true,
-            "@fs_index" : 13,
-            "@fs_ledcolor" : 65408,
-            "@fs_momentary" : false
-          },
-          "block6" : {
-            "@fs_label" : "Looper",
-            "@fs_enabled" : false,
-            "@fs_index" : 5,
-            "@fs_ledcolor" : 462860,
-            "@fs_momentary" : false
-          },
-          "block3" : {
-            "@fs_label" : "Deluxe Comp",
-            "@fs_enabled" : true,
-            "@fs_index" : 8,
-            "@fs_ledcolor" : 8716032,
-            "@fs_momentary" : false
+            "Pedal" : {
+              "@min" : 0,
+              "@controller" : 2,
+              "@max" : 1
+            }
           }
         }
+      },
+      "snapshot5" : {
+        "@name" : "SNAPSHOT 6",
+        "@tempo" : 120
       },
       "dsp0" : {
         "join" : {
@@ -294,41 +274,128 @@
           "@enabled" : false
         }
       },
-      "controller" : {
+      "snapshot2" : {
+        "@name" : "SNAPSHOT 3",
+        "@tempo" : 120
+      },
+      "global" : {
+        "@variax_volumeknob" : -0.1,
+        "@pedalstate" : 2,
+        "@variax_customtuning" : true,
+        "@variax_str1tuning" : 0,
+        "@variax_str2tuning" : 0,
+        "@variax_str4tuning" : 0,
+        "@variax_str6tuning" : 0,
+        "@variax_model" : 0,
+        "@model" : "@global_params",
+        "@topology0" : "SABJ",
+        "@cursor_dsp" : 0,
+        "@cursor_path" : 0,
+        "@guitarinputZ" : 8,
+        "@tempo" : 120,
+        "@topology1" : "A",
+        "@cursor_position" : 5,
+        "@variax_lockctrls" : 0,
+        "@variax_magmode" : true,
+        "@variax_str3tuning" : 0,
+        "@variax_str5tuning" : 0,
+        "@variax_toneknob" : -0.1,
+        "@current_snapshot" : 0,
+        "@cursor_group" : "block7"
+      },
+      "snapshot6" : {
+        "@name" : "SNAPSHOT 7",
+        "@tempo" : 120
+      },
+      "footswitch" : {
         "dsp0" : {
           "block7" : {
-            "Feedback" : {
-              "@fs_momentary" : true,
-              "@min" : 0.3,
-              "@max" : 1,
-              "@controller" : 16,
-              "@fs_enabled" : false,
-              "@fs_ledcolor" : 462860,
-              "@fs_customlabel" : "HOLD TO LAUNCH",
-              "@fs_label" : "Feedback"
-            },
-            "Time" : {
-              "@fs_momentary" : true,
-              "@min" : 0.52,
-              "@max" : 0.01999998,
-              "@controller" : 16,
-              "@fs_enabled" : false,
-              "@fs_ledcolor" : 462860,
-              "@fs_customlabel" : "HOLD TO LAUNCH",
-              "@fs_label" : "Time"
-            }
+            "@fs_label" : "Adriatic Delay",
+            "@fs_enabled" : true,
+            "@fs_index" : 10,
+            "@fs_ledcolor" : 458496,
+            "@fs_momentary" : false
+          },
+          "block4" : {
+            "@fs_label" : "Minotaur",
+            "@fs_enabled" : false,
+            "@fs_index" : 9,
+            "@fs_ledcolor" : 525824,
+            "@fs_momentary" : false
+          },
+          "block8" : {
+            "@fs_label" : "Low and High Cut",
+            "@fs_enabled" : true,
+            "@fs_index" : 4,
+            "@fs_ledcolor" : 8716032,
+            "@fs_momentary" : false
           },
           "block2" : {
-            "Pedal" : {
-              "@min" : 0,
-              "@controller" : 2,
-              "@max" : 1
-            }
+            "@fs_label" : "Volume Pedal",
+            "@fs_enabled" : true,
+            "@fs_index" : 13,
+            "@fs_ledcolor" : 65408,
+            "@fs_momentary" : false
+          },
+          "block6" : {
+            "@fs_label" : "Looper",
+            "@fs_enabled" : false,
+            "@fs_index" : 5,
+            "@fs_ledcolor" : 462860,
+            "@fs_momentary" : false
+          },
+          "block3" : {
+            "@fs_label" : "Deluxe Comp",
+            "@fs_enabled" : true,
+            "@fs_index" : 8,
+            "@fs_ledcolor" : 8716032,
+            "@fs_momentary" : false
           }
         }
+      },
+      "snapshot3" : {
+        "@name" : "SNAPSHOT 4",
+        "@tempo" : 120
+      },
+      "snapshot0" : {
+        "blocks" : {
+          "dsp0" : {
+            "block0" : true,
+            "block1" : true,
+            "block2" : true,
+            "block3" : true,
+            "block4" : false,
+            "block5" : true,
+            "block6" : false,
+            "block7" : true,
+            "block8" : true
+          }
+        },
+        "controllers" : {
+          "dsp0" : {
+            "block7" : {
+              "Feedback" : {
+                "@fs_enabled" : false,
+                "@value" : 0.3
+              },
+              "Time" : {
+                "@fs_enabled" : false,
+                "@value" : 0.52
+              }
+            },
+            "block2" : {
+              "Pedal" : {
+                "@fs_enabled" : false,
+                "@value" : 1
+              }
+            }
+          }
+        },
+        "@name" : "SNAPSHOT 1",
+        "@tempo" : 120
       }
     },
-    "device_version" : 17956896
+    "device_version" : 33554464
   },
   "schema" : "L6Preset"
 }

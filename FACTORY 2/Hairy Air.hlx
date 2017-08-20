@@ -4,78 +4,128 @@
     "meta" : {
       "name" : "Hairy Air",
       "application" : "Helix",
-      "build_sha" : "9532b30",
-      "modifieddate" : 1463021835,
-      "appversion" : 17956864
+      "build_sha" : "2ed0c3d",
+      "modifieddate" : 1468058589,
+      "appversion" : 33554688
     },
     "device" : 2162689,
     "tone" : {
-      "global" : {
-        "@variax_volumeknob" : -0.1,
-        "@pedalstate" : 0,
-        "@variax_customtuning" : true,
-        "@variax_str1tuning" : 0,
-        "@variax_str2tuning" : 0,
-        "@variax_str4tuning" : 0,
-        "@variax_str6tuning" : 0,
-        "@variax_model" : 0,
-        "@model" : "@global_params",
-        "@topology0" : "A",
-        "@cursor_dsp" : 0,
-        "@cursor_path" : 0,
-        "@tempo" : 120,
-        "@topology1" : "A",
-        "@variax_magmode" : true,
-        "@cursor_position" : 1,
-        "@variax_lockctrls" : 0,
-        "@variax_str3tuning" : 0,
-        "@variax_str5tuning" : 0,
-        "@variax_toneknob" : -0.1,
-        "@cursor_group" : "block1"
+      "snapshot7" : {
+        "@name" : "SNAPSHOT 8",
+        "@tempo" : 120
       },
-      "footswitch" : {
-        "dsp1" : {
-          "block1" : {
-            "@fs_label" : "Tweed Blues Nrm",
-            "@fs_enabled" : false,
-            "@fs_index" : 11,
-            "@fs_customlabel" : "Sasquatch",
-            "@fs_ledcolor" : 786434,
-            "@fs_momentary" : false
-          },
-          "block0" : {
-            "@fs_label" : "Looper",
-            "@fs_enabled" : false,
-            "@fs_index" : 5,
-            "@fs_ledcolor" : 462860,
-            "@fs_momentary" : false
-          },
-          "block2" : {
-            "@fs_label" : "Cave",
-            "@fs_enabled" : true,
-            "@fs_index" : 10,
-            "@fs_customlabel" : "A I R",
-            "@fs_ledcolor" : 16723200,
-            "@fs_momentary" : false
-          }
+      "snapshot4" : {
+        "@name" : "SNAPSHOT 5",
+        "@tempo" : 120
+      },
+      "dsp1" : {
+        "block0" : {
+          "@model" : "HD2_Looper",
+          "Overdub" : 0,
+          "Playback" : 0,
+          "@path" : 0,
+          "@stereo" : true,
+          "@type" : 6,
+          "highCut" : 20000,
+          "lowCut" : 20,
+          "@position" : 7,
+          "@enabled" : false
         },
-        "dsp0" : {
-          "block1" : {
-            "@fs_label" : "Dual Pitch",
-            "@fs_enabled" : true,
-            "@fs_index" : 9,
-            "@fs_ledcolor" : 3277055,
-            "@fs_momentary" : false
-          },
-          "block0" : {
-            "@fs_label" : "KWB",
-            "@fs_enabled" : true,
-            "@fs_index" : 8,
-            "@fs_customlabel" : "H A I R",
-            "@fs_ledcolor" : 13676288,
-            "@fs_momentary" : false
-          }
+        "block1" : {
+          "Bias" : 0.5699999,
+          "@model" : "HD2_AmpTweedBluesNrm",
+          "Master" : 1,
+          "@position" : 2,
+          "Drive" : 0.42,
+          "Treble" : 0.64,
+          "ChVol" : 0.8,
+          "@enabled" : false,
+          "Ripple" : 0.5,
+          "@path" : 0,
+          "@type" : 3,
+          "Bass" : 0.54,
+          "BiasX" : 0.5,
+          "Hum" : 0.5,
+          "Mid" : 0.65,
+          "@bypassvolume" : 1,
+          "@cab" : "cab0",
+          "Presence" : 0.27,
+          "Sag" : 0.5
+        },
+        "block2" : {
+          "@model" : "HD2_ReverbCave",
+          "@position" : 4,
+          "LowCut" : 59,
+          "@enabled" : true,
+          "@path" : 0,
+          "@trails" : false,
+          "@type" : 7,
+          "Mix" : 0.71,
+          "Level" : -0.4,
+          "Decay" : 0.8199999,
+          "HighCut" : 9400,
+          "Predelay" : 0.04999995
+        },
+        "cab0" : {
+          "@model" : "HD2_Cab4x10TweedP10R",
+          "LowCut" : 19.9,
+          "@mic" : 8,
+          "EarlyReflections" : 0,
+          "Distance" : 2,
+          "Level" : 0,
+          "@enabled" : true,
+          "HighCut" : 20100
+        },
+        "inputA" : {
+          "@input" : 0,
+          "@model" : "HD2_AppDSPFlow1Input",
+          "noiseGate" : false,
+          "decay" : 0.5,
+          "threshold" : -48
+        },
+        "inputB" : {
+          "@input" : 0,
+          "@model" : "HD2_AppDSPFlow2Input",
+          "noiseGate" : false,
+          "decay" : 0.5,
+          "threshold" : -48
+        },
+        "join" : {
+          "@model" : "HD2_AppDSPFlowJoin",
+          "B Pan" : 0.5,
+          "B Level" : 0,
+          "A Level" : 0,
+          "A Pan" : 0.5,
+          "@position" : 8,
+          "Level" : 0,
+          "@enabled" : false,
+          "B Polarity" : false
+        },
+        "split" : {
+          "@position" : 0,
+          "@model" : "HD2_AppDSPFlowSplitY",
+          "@enabled" : false
+        },
+        "outputB" : {
+          "@model" : "HD2_AppDSPFlowOutput",
+          "@output" : 1,
+          "pan" : 0.5,
+          "gain" : 0
+        },
+        "outputA" : {
+          "@model" : "HD2_AppDSPFlowOutput",
+          "@output" : 1,
+          "pan" : 0.5,
+          "gain" : 0
         }
+      },
+      "snapshot1" : {
+        "@name" : "SNAPSHOT 2",
+        "@tempo" : 120
+      },
+      "snapshot5" : {
+        "@name" : "SNAPSHOT 6",
+        "@tempo" : 120
       },
       "dsp0" : {
         "block0" : {
@@ -188,109 +238,105 @@
           "gain" : 0
         }
       },
-      "dsp1" : {
-        "block0" : {
-          "@model" : "HD2_Looper",
-          "Overdub" : 0,
-          "Playback" : 0,
-          "@path" : 0,
-          "@stereo" : true,
-          "@type" : 6,
-          "highCut" : 20000,
-          "lowCut" : 20,
-          "@position" : 7,
-          "@enabled" : false
+      "snapshot2" : {
+        "@name" : "SNAPSHOT 3",
+        "@tempo" : 120
+      },
+      "global" : {
+        "@variax_volumeknob" : -0.1,
+        "@pedalstate" : 2,
+        "@variax_customtuning" : true,
+        "@variax_str1tuning" : 0,
+        "@variax_str2tuning" : 0,
+        "@variax_str4tuning" : 0,
+        "@variax_str6tuning" : 0,
+        "@variax_model" : 0,
+        "@model" : "@global_params",
+        "@topology0" : "A",
+        "@cursor_dsp" : 0,
+        "@cursor_path" : 0,
+        "@guitarinputZ" : 8,
+        "@tempo" : 120,
+        "@topology1" : "A",
+        "@cursor_position" : 2,
+        "@variax_lockctrls" : 0,
+        "@variax_magmode" : true,
+        "@variax_str3tuning" : 0,
+        "@variax_str5tuning" : 0,
+        "@variax_toneknob" : -0.1,
+        "@current_snapshot" : 0,
+        "@cursor_group" : "block2"
+      },
+      "snapshot6" : {
+        "@name" : "SNAPSHOT 7",
+        "@tempo" : 120
+      },
+      "footswitch" : {
+        "dsp1" : {
+          "block1" : {
+            "@fs_label" : "Tweed Blues Nrm",
+            "@fs_enabled" : false,
+            "@fs_index" : 11,
+            "@fs_customlabel" : "Sasquatch",
+            "@fs_ledcolor" : 786434,
+            "@fs_momentary" : false
+          },
+          "block0" : {
+            "@fs_label" : "Looper",
+            "@fs_enabled" : false,
+            "@fs_index" : 5,
+            "@fs_ledcolor" : 462860,
+            "@fs_momentary" : false
+          },
+          "block2" : {
+            "@fs_label" : "Cave",
+            "@fs_enabled" : true,
+            "@fs_index" : 10,
+            "@fs_customlabel" : "A I R",
+            "@fs_ledcolor" : 16723200,
+            "@fs_momentary" : false
+          }
         },
-        "block1" : {
-          "Bias" : 0.5699999,
-          "@model" : "HD2_AmpTweedBluesNrm",
-          "Master" : 1,
-          "@position" : 2,
-          "Drive" : 0.42,
-          "Treble" : 0.64,
-          "ChVol" : 0.8,
-          "@enabled" : false,
-          "Ripple" : 0.5,
-          "@path" : 0,
-          "@type" : 3,
-          "Bass" : 0.54,
-          "BiasX" : 0.5,
-          "Hum" : 0.5,
-          "Mid" : 0.65,
-          "@bypassvolume" : 1,
-          "@cab" : "cab0",
-          "Presence" : 0.27,
-          "Sag" : 0.5
-        },
-        "block2" : {
-          "@model" : "HD2_ReverbCave",
-          "@position" : 4,
-          "LowCut" : 59,
-          "@enabled" : true,
-          "@path" : 0,
-          "@trails" : false,
-          "@type" : 7,
-          "Mix" : 0.71,
-          "Level" : -0.4,
-          "Decay" : 0.8199999,
-          "HighCut" : 9400,
-          "Predelay" : 0.04999995
-        },
-        "cab0" : {
-          "@model" : "HD2_Cab4x10TweedP10R",
-          "LowCut" : 19.9,
-          "@mic" : 8,
-          "EarlyReflections" : 0,
-          "Distance" : 2,
-          "Level" : 0,
-          "@enabled" : true,
-          "HighCut" : 20100
-        },
-        "inputA" : {
-          "@input" : 0,
-          "@model" : "HD2_AppDSPFlow1Input",
-          "noiseGate" : false,
-          "decay" : 0.5,
-          "threshold" : -48
-        },
-        "inputB" : {
-          "@input" : 0,
-          "@model" : "HD2_AppDSPFlow2Input",
-          "noiseGate" : false,
-          "decay" : 0.5,
-          "threshold" : -48
-        },
-        "join" : {
-          "@model" : "HD2_AppDSPFlowJoin",
-          "B Pan" : 0.5,
-          "B Level" : 0,
-          "A Level" : 0,
-          "A Pan" : 0.5,
-          "@position" : 8,
-          "Level" : 0,
-          "@enabled" : false,
-          "B Polarity" : false
-        },
-        "split" : {
-          "@position" : 0,
-          "@model" : "HD2_AppDSPFlowSplitY",
-          "@enabled" : false
-        },
-        "outputB" : {
-          "@model" : "HD2_AppDSPFlowOutput",
-          "@output" : 1,
-          "pan" : 0.5,
-          "gain" : 0
-        },
-        "outputA" : {
-          "@model" : "HD2_AppDSPFlowOutput",
-          "@output" : 1,
-          "pan" : 0.5,
-          "gain" : 0
+        "dsp0" : {
+          "block1" : {
+            "@fs_label" : "Dual Pitch",
+            "@fs_enabled" : true,
+            "@fs_index" : 9,
+            "@fs_ledcolor" : 3277055,
+            "@fs_momentary" : false
+          },
+          "block0" : {
+            "@fs_label" : "KWB",
+            "@fs_enabled" : true,
+            "@fs_index" : 8,
+            "@fs_customlabel" : "H A I R",
+            "@fs_ledcolor" : 13676288,
+            "@fs_momentary" : false
+          }
+        }
+      },
+      "snapshot3" : {
+        "@name" : "SNAPSHOT 4",
+        "@tempo" : 120
+      },
+      "snapshot0" : {
+        "@name" : "SNAPSHOT 1",
+        "@tempo" : 120,
+        "blocks" : {
+          "dsp1" : {
+            "block1" : false,
+            "block0" : false,
+            "block2" : true
+          },
+          "dsp0" : {
+            "block1" : true,
+            "block0" : true,
+            "block2" : true
+          }
         }
       }
     },
-    "device_version" : 17956896
+    "device_version" : 33554464
   },
   "schema" : "L6Preset"
 }
