@@ -5,265 +5,11 @@
       "name" : "Prehensile Nose",
       "application" : "Helix",
       "build_sha" : "69d8fa6",
-      "modifieddate" : 1459029812,
-      "appversion" : 17039360
+      "modifieddate" : 1459289937,
+      "appversion" : 17825792
     },
     "device" : 2162689,
     "tone" : {
-      "global" : {
-        "@variax_volumeknob" : -0.1,
-        "@pedalstate" : 2,
-        "@variax_customtuning" : true,
-        "@variax_str1tuning" : 0,
-        "@variax_str2tuning" : 0,
-        "@variax_str4tuning" : 0,
-        "@variax_str6tuning" : 0,
-        "@variax_model" : 11,
-        "@model" : "@global_params",
-        "@topology0" : "SAB",
-        "@cursor_dsp" : 0,
-        "@cursor_path" : 0,
-        "@tempo" : 120,
-        "@topology1" : "ABJ",
-        "@variax_magmode" : true,
-        "@cursor_position" : 0,
-        "@variax_lockctrls" : 0,
-        "@variax_str3tuning" : 0,
-        "@variax_str5tuning" : 0,
-        "@variax_toneknob" : -0.1,
-        "@cursor_group" : "block0"
-      },
-      "footswitches" : {
-        "@fs3" : [
-          {
-            "@group" : "block4",
-            "@label" : "LA Studio Comp",
-            "@dsp" : 0,
-            "@type" : 1,
-            "@ledcolor" : 8716032,
-            "@momentary" : false,
-            "@enabled" : true
-          }
-        ],
-        "@fsExp" : [
-          {
-            "@group" : "block1",
-            "@label" : "Gain",
-            "@dsp" : 0,
-            "@type" : 1,
-            "@ledcolor" : 3334,
-            "@momentary" : false,
-            "@enabled" : false
-          },
-          {
-            "@group" : "block2",
-            "@label" : "Volume Pedal",
-            "@dsp" : 0,
-            "@type" : 1,
-            "@ledcolor" : 65408,
-            "@momentary" : false,
-            "@enabled" : true
-          }
-        ],
-        "@fs11" : [
-          {
-            "@group" : "block5",
-            "@label" : "Low and High Cut",
-            "@dsp" : 1,
-            "@type" : 1,
-            "@ledcolor" : 8716032,
-            "@momentary" : false,
-            "@enabled" : true
-          }
-        ],
-        "@fs5" : [
-          {
-            "@group" : "block1",
-            "@label" : "Looper",
-            "@dsp" : 1,
-            "@type" : 1,
-            "@ledcolor" : 462860,
-            "@momentary" : false,
-            "@enabled" : false
-          }
-        ],
-        "@fs2" : [
-          {
-            "@group" : "block3",
-            "@label" : "Compulsive Drive",
-            "@dsp" : 0,
-            "@type" : 1,
-            "@ledcolor" : 13676288,
-            "@momentary" : false,
-            "@enabled" : true
-          }
-        ],
-        "@fs8" : [
-          {
-            "@group" : "block2",
-            "@label" : "Script Mod Phase",
-            "@dsp" : 1,
-            "@type" : 1,
-            "@ledcolor" : 1037,
-            "@momentary" : false,
-            "@enabled" : false
-          }
-        ],
-        "@fs9" : [
-          {
-            "@group" : "block3",
-            "@label" : "Elephant Man",
-            "@dsp" : 1,
-            "@type" : 1,
-            "@ledcolor" : 458496,
-            "@momentary" : false,
-            "@enabled" : true
-          }
-        ],
-        "@fs10" : [
-          {
-            "@group" : "block4",
-            "@label" : "Echo",
-            "@dsp" : 1,
-            "@type" : 1,
-            "@ledcolor" : 16723200,
-            "@momentary" : false,
-            "@enabled" : true
-          }
-        ]
-      },
-      "controllers" : {
-        "@expPedal2" : [
-          {
-            "@dsp" : 0,
-            "@min" : 0,
-            "@max" : 1,
-            "@group" : "block2",
-            "@param" : "Pedal"
-          }
-        ]
-      },
-      "dsp0" : {
-        "join" : {
-          "@model" : "HD2_AppDSPFlowJoin",
-          "B Pan" : 0.5,
-          "B Level" : 0,
-          "A Level" : 0,
-          "A Pan" : 0.5,
-          "@position" : 8,
-          "Level" : 0,
-          "@enabled" : true,
-          "B Polarity" : false
-        },
-        "block3" : {
-          "@model" : "HD2_DistCompulsiveDrive",
-          "Version" : false,
-          "@path" : 0,
-          "@stereo" : false,
-          "@type" : 0,
-          "Gain" : 0.6600001,
-          "@position" : 1,
-          "Level" : 0.65,
-          "Tone" : 0.5,
-          "@enabled" : true,
-          "LPHP" : false
-        },
-        "block2" : {
-          "@model" : "HD2_VolPanVol",
-          "@path" : 0,
-          "@stereo" : false,
-          "@type" : 0,
-          "Pedal" : 1,
-          "@position" : 0,
-          "@enabled" : true,
-          "VolumeTaper" : false
-        },
-        "inputB" : {
-          "@input" : 0,
-          "@model" : "HD2_AppDSPFlow2Input",
-          "noiseGate" : false,
-          "decay" : 0.5,
-          "threshold" : -48
-        },
-        "block1" : {
-          "@model" : "HD2_VolPanGain",
-          "@path" : 1,
-          "@stereo" : false,
-          "@type" : 0,
-          "Gain" : 0,
-          "@position" : 3,
-          "@enabled" : false
-        },
-        "outputB" : {
-          "@model" : "HD2_AppDSPFlowOutput",
-          "@output" : 3,
-          "pan" : 0.5,
-          "gain" : 0
-        },
-        "inputA" : {
-          "@input" : 1,
-          "@model" : "HD2_AppDSPFlow1Input",
-          "noiseGate" : true,
-          "decay" : 0.5,
-          "threshold" : -48
-        },
-        "split" : {
-          "@position" : 3,
-          "@model" : "HD2_AppDSPFlowSplitY",
-          "@enabled" : true
-        },
-        "block0" : {
-          "Bias" : 0.6,
-          "@model" : "HD2_AmpUSDoubleNrm",
-          "Master" : 1,
-          "@position" : 3,
-          "Drive" : 0.65,
-          "Treble" : 0.7,
-          "ChVol" : 0.51,
-          "@enabled" : true,
-          "Ripple" : 0.5,
-          "@path" : 0,
-          "@type" : 3,
-          "Bass" : 0.4400001,
-          "BiasX" : 0.5,
-          "Hum" : 0.5,
-          "Mid" : 0.52,
-          "@bypassvolume" : 1,
-          "@cab" : "cab0",
-          "Presence" : 0.3,
-          "Sag" : 0.5
-        },
-        "cab0" : {
-          "@model" : "HD2_Cab2x12DoubleC12N",
-          "LowCut" : 20,
-          "@mic" : 7,
-          "EarlyReflections" : 0,
-          "Distance" : 3,
-          "Level" : 0,
-          "@enabled" : true,
-          "HighCut" : 20000
-        },
-        "outputA" : {
-          "@model" : "HD2_AppDSPFlowOutput",
-          "@output" : 2,
-          "pan" : 0.5,
-          "gain" : 0
-        },
-        "block4" : {
-          "@model" : "HD2_CompressorLAStudioComp",
-          "@position" : 2,
-          "@enabled" : true,
-          "Emphasis" : 0.09000003,
-          "@path" : 0,
-          "@type" : 0,
-          "Mix" : 1,
-          "PeakReduction" : 0.78,
-          "Type" : false,
-          "Level" : 0,
-          "@stereo" : false,
-          "Gain" : 0.62
-        }
-      },
       "dsp1" : {
         "join" : {
           "@model" : "HD2_AppDSPFlowJoin",
@@ -410,9 +156,233 @@
           "HighCut" : 7000,
           "Predelay" : 0.08000004
         }
+      },
+      "global" : {
+        "@variax_volumeknob" : -0.1,
+        "@pedalstate" : 2,
+        "@variax_customtuning" : true,
+        "@variax_str1tuning" : 0,
+        "@variax_str2tuning" : 0,
+        "@variax_str4tuning" : 0,
+        "@variax_str6tuning" : 0,
+        "@variax_model" : 11,
+        "@model" : "@global_params",
+        "@topology0" : "SAB",
+        "@cursor_dsp" : 0,
+        "@cursor_path" : 0,
+        "@tempo" : 120,
+        "@topology1" : "ABJ",
+        "@variax_magmode" : true,
+        "@cursor_position" : 3,
+        "@variax_lockctrls" : 0,
+        "@variax_str3tuning" : 0,
+        "@variax_str5tuning" : 0,
+        "@variax_toneknob" : -0.1,
+        "@cursor_group" : "block0"
+      },
+      "footswitch" : {
+        "dsp1" : {
+          "block4" : {
+            "@fs_label" : "Echo",
+            "@fs_enabled" : true,
+            "@fs_index" : 10,
+            "@fs_ledcolor" : 16723200,
+            "@fs_momentary" : false
+          },
+          "block1" : {
+            "@fs_label" : "Looper",
+            "@fs_enabled" : false,
+            "@fs_index" : 5,
+            "@fs_ledcolor" : 462860,
+            "@fs_momentary" : false
+          },
+          "block5" : {
+            "@fs_label" : "Low and High Cut",
+            "@fs_enabled" : true,
+            "@fs_index" : 11,
+            "@fs_ledcolor" : 8716032,
+            "@fs_momentary" : false
+          },
+          "block2" : {
+            "@fs_label" : "Script Mod Phase",
+            "@fs_enabled" : false,
+            "@fs_index" : 8,
+            "@fs_ledcolor" : 1037,
+            "@fs_momentary" : false
+          },
+          "block3" : {
+            "@fs_label" : "Elephant Man",
+            "@fs_enabled" : true,
+            "@fs_index" : 9,
+            "@fs_ledcolor" : 458496,
+            "@fs_momentary" : false
+          }
+        },
+        "dsp0" : {
+          "block4" : {
+            "@fs_label" : "LA Studio Comp",
+            "@fs_enabled" : true,
+            "@fs_index" : 3,
+            "@fs_ledcolor" : 8716032,
+            "@fs_momentary" : false
+          },
+          "block1" : {
+            "@fs_label" : "Gain",
+            "@fs_enabled" : false,
+            "@fs_index" : 13,
+            "@fs_ledcolor" : 3334,
+            "@fs_momentary" : false
+          },
+          "block2" : {
+            "@fs_label" : "Volume Pedal",
+            "@fs_enabled" : true,
+            "@fs_index" : 13,
+            "@fs_ledcolor" : 65408,
+            "@fs_momentary" : false
+          },
+          "block3" : {
+            "@fs_label" : "Compulsive Drive",
+            "@fs_enabled" : true,
+            "@fs_index" : 2,
+            "@fs_ledcolor" : 13676288,
+            "@fs_momentary" : false
+          }
+        }
+      },
+      "dsp0" : {
+        "join" : {
+          "@model" : "HD2_AppDSPFlowJoin",
+          "B Pan" : 0.5,
+          "B Level" : 0,
+          "A Level" : 0,
+          "A Pan" : 0.5,
+          "@position" : 8,
+          "Level" : 0,
+          "@enabled" : true,
+          "B Polarity" : false
+        },
+        "block3" : {
+          "@model" : "HD2_DistCompulsiveDrive",
+          "Version" : false,
+          "@path" : 0,
+          "@stereo" : false,
+          "@type" : 0,
+          "Gain" : 0.6600001,
+          "@position" : 1,
+          "Level" : 0.65,
+          "Tone" : 0.5,
+          "@enabled" : true,
+          "LPHP" : false
+        },
+        "block2" : {
+          "@model" : "HD2_VolPanVol",
+          "@path" : 0,
+          "@stereo" : false,
+          "@type" : 0,
+          "Pedal" : 1,
+          "@position" : 0,
+          "@enabled" : true,
+          "VolumeTaper" : false
+        },
+        "inputB" : {
+          "@input" : 0,
+          "@model" : "HD2_AppDSPFlow2Input",
+          "noiseGate" : false,
+          "decay" : 0.5,
+          "threshold" : -48
+        },
+        "block1" : {
+          "@model" : "HD2_VolPanGain",
+          "@path" : 1,
+          "@stereo" : false,
+          "@type" : 0,
+          "Gain" : 0,
+          "@position" : 3,
+          "@enabled" : false
+        },
+        "outputB" : {
+          "@model" : "HD2_AppDSPFlowOutput",
+          "@output" : 3,
+          "pan" : 0.5,
+          "gain" : 0
+        },
+        "inputA" : {
+          "@input" : 1,
+          "@model" : "HD2_AppDSPFlow1Input",
+          "noiseGate" : true,
+          "decay" : 0.5,
+          "threshold" : -48
+        },
+        "split" : {
+          "@position" : 3,
+          "@model" : "HD2_AppDSPFlowSplitY",
+          "@enabled" : true
+        },
+        "block0" : {
+          "Bias" : 0.6,
+          "@model" : "HD2_AmpUSDoubleNrm",
+          "Master" : 1,
+          "@position" : 3,
+          "Drive" : 0.65,
+          "Treble" : 0.7,
+          "ChVol" : 0.51,
+          "@enabled" : true,
+          "Ripple" : 0.5,
+          "@path" : 0,
+          "@type" : 3,
+          "Bass" : 0.4400001,
+          "BiasX" : 0.5,
+          "Hum" : 0.5,
+          "Mid" : 0.52,
+          "@bypassvolume" : 1,
+          "@cab" : "cab0",
+          "Presence" : 0.3,
+          "Sag" : 0.5
+        },
+        "cab0" : {
+          "@model" : "HD2_Cab2x12DoubleC12N",
+          "LowCut" : 20,
+          "@mic" : 7,
+          "EarlyReflections" : 0,
+          "Distance" : 3,
+          "Level" : 0,
+          "@enabled" : true,
+          "HighCut" : 20000
+        },
+        "outputA" : {
+          "@model" : "HD2_AppDSPFlowOutput",
+          "@output" : 2,
+          "pan" : 0.5,
+          "gain" : 0
+        },
+        "block4" : {
+          "@model" : "HD2_CompressorLAStudioComp",
+          "@position" : 2,
+          "@enabled" : true,
+          "Emphasis" : 0.09000003,
+          "@path" : 0,
+          "@type" : 0,
+          "Mix" : 1,
+          "PeakReduction" : 0.78,
+          "Type" : false,
+          "Level" : 0,
+          "@stereo" : false,
+          "Gain" : 0.62
+        }
+      },
+      "controller" : {
+        "dsp0" : {
+          "block2" : {
+            "Pedal" : {
+              "@min" : 0,
+              "@controller" : 2,
+              "@max" : 1
+            }
+          }
+        }
       }
     },
-    "device_version" : 17171744
+    "device_version" : 17825824
   },
   "schema" : "L6Preset"
 }

@@ -5,8 +5,8 @@
       "name" : "Hairy Air",
       "application" : "Helix",
       "build_sha" : "9532b30",
-      "modifieddate" : 1459029854,
-      "appversion" : 17039360
+      "modifieddate" : 1459289963,
+      "appversion" : 17825792
     },
     "device" : 2162689,
     "tone" : {
@@ -26,72 +26,56 @@
         "@tempo" : 120,
         "@topology1" : "A",
         "@variax_magmode" : true,
-        "@cursor_position" : 0,
+        "@cursor_position" : 1,
         "@variax_lockctrls" : 0,
         "@variax_str3tuning" : 0,
         "@variax_str5tuning" : 0,
         "@variax_toneknob" : -0.1,
         "@cursor_group" : "block1"
       },
-      "footswitches" : {
-        "@fs5" : [
-          {
-            "@group" : "block0",
-            "@label" : "Looper",
-            "@dsp" : 1,
-            "@type" : 1,
-            "@ledcolor" : 462860,
-            "@momentary" : false,
-            "@enabled" : false
+      "footswitch" : {
+        "dsp1" : {
+          "block1" : {
+            "@fs_label" : "Tweed Blues Nrm",
+            "@fs_enabled" : false,
+            "@fs_index" : 11,
+            "@fs_customlabel" : "Sasquatch",
+            "@fs_ledcolor" : 786434,
+            "@fs_momentary" : false
+          },
+          "block0" : {
+            "@fs_label" : "Looper",
+            "@fs_enabled" : false,
+            "@fs_index" : 5,
+            "@fs_ledcolor" : 462860,
+            "@fs_momentary" : false
+          },
+          "block2" : {
+            "@fs_label" : "Cave",
+            "@fs_enabled" : true,
+            "@fs_index" : 10,
+            "@fs_customlabel" : "A I R",
+            "@fs_ledcolor" : 16723200,
+            "@fs_momentary" : false
           }
-        ],
-        "@fs11" : [
-          {
-            "@customlabel" : "Sasquatch",
-            "@group" : "block1",
-            "@dsp" : 1,
-            "@label" : "Tweed Blues Nrm",
-            "@type" : 1,
-            "@ledcolor" : 786434,
-            "@momentary" : false,
-            "@enabled" : false
+        },
+        "dsp0" : {
+          "block1" : {
+            "@fs_label" : "Dual Pitch",
+            "@fs_enabled" : true,
+            "@fs_index" : 9,
+            "@fs_ledcolor" : 3277055,
+            "@fs_momentary" : false
+          },
+          "block0" : {
+            "@fs_label" : "KWB",
+            "@fs_enabled" : true,
+            "@fs_index" : 8,
+            "@fs_customlabel" : "H A I R",
+            "@fs_ledcolor" : 13676288,
+            "@fs_momentary" : false
           }
-        ],
-        "@fs8" : [
-          {
-            "@customlabel" : "H A I R",
-            "@group" : "block0",
-            "@dsp" : 0,
-            "@label" : "KWB",
-            "@type" : 1,
-            "@ledcolor" : 13676288,
-            "@momentary" : false,
-            "@enabled" : true
-          }
-        ],
-        "@fs10" : [
-          {
-            "@customlabel" : "A I R",
-            "@group" : "block2",
-            "@dsp" : 1,
-            "@label" : "Cave",
-            "@type" : 1,
-            "@ledcolor" : 16723200,
-            "@momentary" : false,
-            "@enabled" : true
-          }
-        ],
-        "@fs9" : [
-          {
-            "@group" : "block1",
-            "@label" : "Dual Pitch",
-            "@dsp" : 0,
-            "@type" : 1,
-            "@ledcolor" : 3277055,
-            "@momentary" : false,
-            "@enabled" : true
-          }
-        ]
+        }
       },
       "dsp0" : {
         "block0" : {
@@ -306,7 +290,7 @@
         }
       }
     },
-    "device_version" : 17171744
+    "device_version" : 17825824
   },
   "schema" : "L6Preset"
 }

@@ -5,8 +5,8 @@
       "name" : "X Ray",
       "application" : "Helix",
       "build_sha" : "69d8fa6",
-      "modifieddate" : 1459029812,
-      "appversion" : 17039360
+      "modifieddate" : 1459289937,
+      "appversion" : 17825792
     },
     "device" : 2162689,
     "tone" : {
@@ -26,105 +26,81 @@
         "@tempo" : 84,
         "@topology1" : "A",
         "@variax_magmode" : true,
-        "@cursor_position" : 0,
+        "@cursor_position" : 5,
         "@variax_lockctrls" : 0,
         "@variax_str3tuning" : 0,
         "@variax_str5tuning" : 0,
         "@variax_toneknob" : -0.1,
         "@cursor_group" : "block2"
       },
-      "footswitches" : {
-        "@fs9" : [
-          {
-            "@group" : "block2",
-            "@label" : "Elephant Man",
-            "@dsp" : 0,
-            "@type" : 1,
-            "@ledcolor" : 458496,
-            "@momentary" : false,
-            "@enabled" : true
-          }
-        ],
-        "@fs5" : [
-          {
-            "@group" : "block0",
-            "@label" : "Looper",
-            "@dsp" : 1,
-            "@type" : 1,
-            "@ledcolor" : 462860,
-            "@momentary" : false,
-            "@enabled" : false
-          }
-        ],
-        "@fs11" : [
-          {
-            "@customlabel" : "Last Hall",
-            "@group" : "block3",
-            "@dsp" : 1,
-            "@label" : "Cave",
-            "@type" : 1,
-            "@ledcolor" : 16723200,
-            "@momentary" : false,
-            "@enabled" : true
-          }
-        ],
-        "@fs8" : [
-          {
-            "@customlabel" : "Lil' Edge",
-            "@group" : "block0",
-            "@dsp" : 0,
-            "@label" : "Minotaur",
-            "@type" : 1,
-            "@ledcolor" : 13676288,
-            "@momentary" : false,
-            "@enabled" : true
-          }
-        ],
-        "@fs10" : [
-          {
-            "@customlabel" : "Side Chain Pump",
-            "@group" : "block2",
-            "@dsp" : 1,
-            "@label" : "Optical Trem",
-            "@customcolor" : 7,
-            "@type" : 1,
-            "@ledcolor" : 13055,
-            "@momentary" : false,
-            "@enabled" : true
-          }
-        ],
-        "@fs2" : [
-          {
-            "@customlabel" : "Verb Fam",
-            "@group" : "block3",
-            "@dsp" : 0,
-            "@label" : "Hall",
-            "@type" : 1,
-            "@ledcolor" : 16723200,
-            "@momentary" : false,
-            "@enabled" : true
+      "footswitch" : {
+        "dsp1" : {
+          "block3" : {
+            "@fs_label" : "Cave",
+            "@fs_enabled" : true,
+            "@fs_index" : 11,
+            "@fs_customlabel" : "Last Hall",
+            "@fs_ledcolor" : 16723200,
+            "@fs_momentary" : false
           },
-          {
-            "@customlabel" : "Verb Fam",
-            "@group" : "block4",
-            "@dsp" : 0,
-            "@label" : "Octo",
-            "@type" : 1,
-            "@ledcolor" : 16723200,
-            "@momentary" : false,
-            "@enabled" : true
+          "block0" : {
+            "@fs_label" : "Looper",
+            "@fs_enabled" : false,
+            "@fs_index" : 5,
+            "@fs_ledcolor" : 462860,
+            "@fs_momentary" : false
           },
-          {
-            "@customlabel" : "Verb Fam",
-            "@group" : "block5",
-            "@dsp" : 0,
-            "@label" : "Cave",
-            "@type" : 1,
-            "@ledcolor" : 16723200,
-            "@momentary" : false,
-            "@enabled" : true
+          "block2" : {
+            "@fs_momentary" : false,
+            "@fs_customcolor" : 7,
+            "@fs_index" : 10,
+            "@fs_enabled" : true,
+            "@fs_ledcolor" : 13055,
+            "@fs_customlabel" : "Side Chain Pump",
+            "@fs_label" : "Optical Trem"
           }
-        ]
+        },
+        "dsp0" : {
+          "block0" : {
+            "@fs_label" : "Minotaur",
+            "@fs_enabled" : true,
+            "@fs_index" : 8,
+            "@fs_customlabel" : "Lil' Edge",
+            "@fs_ledcolor" : 13676288,
+            "@fs_momentary" : false
+          },
+          "block4" : {
+            "@fs_label" : "Octo",
+            "@fs_enabled" : true,
+            "@fs_index" : 2,
+            "@fs_customlabel" : "Verb Fam",
+            "@fs_ledcolor" : 16723200,
+            "@fs_momentary" : false
+          },
+          "block5" : {
+            "@fs_label" : "Cave",
+            "@fs_enabled" : true,
+            "@fs_index" : 2,
+            "@fs_customlabel" : "Verb Fam",
+            "@fs_ledcolor" : 16723200,
+            "@fs_momentary" : false
+          },
+          "block2" : {
+            "@fs_label" : "Elephant Man",
+            "@fs_enabled" : true,
+            "@fs_index" : 9,
+            "@fs_ledcolor" : 458496,
+            "@fs_momentary" : false
+          },
+          "block3" : {
+            "@fs_label" : "Hall",
+            "@fs_enabled" : true,
+            "@fs_index" : 2,
+            "@fs_customlabel" : "Verb Fam",
+            "@fs_ledcolor" : 16723200,
+            "@fs_momentary" : false
+          }
+        }
       },
       "dsp0" : {
         "join" : {
@@ -370,7 +346,7 @@
         }
       }
     },
-    "device_version" : 17171744
+    "device_version" : 17825824
   },
   "schema" : "L6Preset"
 }

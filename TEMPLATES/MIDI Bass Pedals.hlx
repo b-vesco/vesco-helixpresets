@@ -5,210 +5,130 @@
       "name" : "MIDI Bass Pedals",
       "application" : "Helix",
       "build_sha" : "69d8fa6",
-      "modifieddate" : 1459029873,
-      "appversion" : 17039360
+      "modifieddate" : 1459289982,
+      "appversion" : 17825792
     },
     "device" : 2162689,
     "tone" : {
-      "global" : {
-        "@variax_volumeknob" : -0.1,
-        "@pedalstate" : 2,
-        "@variax_customtuning" : true,
-        "@variax_str1tuning" : 0,
-        "@variax_str2tuning" : 0,
-        "@variax_str4tuning" : 0,
-        "@variax_str6tuning" : 0,
-        "@variax_model" : 10,
-        "@model" : "@global_params",
-        "@topology0" : "ABJ",
-        "@cursor_dsp" : 0,
-        "@cursor_path" : 0,
-        "@tempo" : 120,
-        "@topology1" : "A",
-        "@variax_magmode" : true,
-        "@cursor_position" : 0,
-        "@variax_lockctrls" : 0,
-        "@variax_str3tuning" : 0,
-        "@variax_str5tuning" : 0,
-        "@variax_toneknob" : -0.1,
-        "@cursor_group" : "block2"
+      "commandFS10" : {
+        "@command" : 5,
+        "@fs_momentary" : true,
+        "@noteoff" : 1,
+        "@pending" : 0,
+        "@velocity" : 100,
+        "@note" : 41,
+        "@channel" : 0,
+        "@fs_enabled" : false,
+        "@fs_ledcolor" : 462860,
+        "@fs_customlabel" : "F",
+        "@fs_label" : "Note"
       },
-      "footswitches" : {
-        "@fsExp" : [
-          {
-            "@group" : "block1",
-            "@label" : "Volume Pedal",
-            "@dsp" : 0,
-            "@type" : 1,
-            "@ledcolor" : 65408,
-            "@momentary" : false,
-            "@enabled" : true
-          },
-          {
-            "@group" : "block0",
-            "@label" : "Gain",
-            "@dsp" : 0,
-            "@type" : 1,
-            "@ledcolor" : 3334,
-            "@momentary" : false,
-            "@enabled" : false
-          }
-        ],
-        "@fs7" : [
-          {
-            "@note" : 36,
-            "@velocity" : 100,
-            "@enabled" : false,
-            "@momentary" : true,
-            "@customlabel" : "C",
-            "@command" : 5,
-            "@channel" : 0,
-            "@pending" : 0,
-            "@type" : 3,
-            "@noteoff" : 1,
-            "@ledcolor" : 462860,
-            "@label" : "Note"
-          }
-        ],
-        "@fs4" : [
-          {
-            "@note" : 42,
-            "@velocity" : 100,
-            "@enabled" : false,
-            "@momentary" : true,
-            "@customlabel" : "F#",
-            "@command" : 5,
-            "@channel" : 0,
-            "@pending" : 0,
-            "@type" : 3,
-            "@noteoff" : 1,
-            "@ledcolor" : 462860,
-            "@label" : "Note"
-          }
-        ],
-        "@fs1" : [
-          {
-            "@note" : 37,
-            "@velocity" : 100,
-            "@enabled" : false,
-            "@momentary" : true,
-            "@customlabel" : "C#",
-            "@command" : 5,
-            "@channel" : 0,
-            "@pending" : 0,
-            "@type" : 3,
-            "@noteoff" : 1,
-            "@ledcolor" : 462860,
-            "@label" : "Note"
-          }
-        ],
-        "@fs11" : [
-          {
-            "@note" : 43,
-            "@velocity" : 100,
-            "@enabled" : false,
-            "@momentary" : true,
-            "@customlabel" : "G",
-            "@command" : 5,
-            "@channel" : 0,
-            "@pending" : 0,
-            "@type" : 3,
-            "@noteoff" : 1,
-            "@ledcolor" : 462860,
-            "@label" : "Note"
-          }
-        ],
-        "@fs5" : [
-          {
-            "@note" : 44,
-            "@velocity" : 100,
-            "@enabled" : false,
-            "@momentary" : true,
-            "@customlabel" : "G#",
-            "@command" : 5,
-            "@channel" : 0,
-            "@pending" : 0,
-            "@type" : 3,
-            "@noteoff" : 1,
-            "@ledcolor" : 462860,
-            "@label" : "Note"
-          }
-        ],
-        "@fs2" : [
-          {
-            "@note" : 39,
-            "@velocity" : 100,
-            "@enabled" : false,
-            "@momentary" : true,
-            "@customlabel" : "D#",
-            "@command" : 5,
-            "@channel" : 0,
-            "@pending" : 0,
-            "@type" : 3,
-            "@noteoff" : 1,
-            "@ledcolor" : 462860,
-            "@label" : "Note"
-          }
-        ],
-        "@fs8" : [
-          {
-            "@note" : 38,
-            "@velocity" : 100,
-            "@enabled" : false,
-            "@momentary" : true,
-            "@customlabel" : "D",
-            "@command" : 5,
-            "@channel" : 0,
-            "@pending" : 0,
-            "@type" : 3,
-            "@noteoff" : 1,
-            "@ledcolor" : 462860,
-            "@label" : "Note"
-          }
-        ],
-        "@fs9" : [
-          {
-            "@note" : 40,
-            "@velocity" : 100,
-            "@enabled" : false,
-            "@momentary" : true,
-            "@customlabel" : "E",
-            "@command" : 5,
-            "@channel" : 0,
-            "@pending" : 0,
-            "@type" : 3,
-            "@noteoff" : 1,
-            "@ledcolor" : 462860,
-            "@label" : "Note"
-          }
-        ],
-        "@fs10" : [
-          {
-            "@note" : 41,
-            "@velocity" : 100,
-            "@enabled" : false,
-            "@momentary" : true,
-            "@customlabel" : "F",
-            "@command" : 5,
-            "@channel" : 0,
-            "@pending" : 0,
-            "@type" : 3,
-            "@noteoff" : 1,
-            "@ledcolor" : 462860,
-            "@label" : "Note"
-          }
-        ]
+      "commandFS11" : {
+        "@command" : 5,
+        "@fs_momentary" : true,
+        "@noteoff" : 1,
+        "@pending" : 0,
+        "@velocity" : 100,
+        "@note" : 43,
+        "@channel" : 0,
+        "@fs_enabled" : false,
+        "@fs_ledcolor" : 462860,
+        "@fs_customlabel" : "G",
+        "@fs_label" : "Note"
       },
-      "controllers" : {
-        "@expPedal2" : [
-          {
-            "@dsp" : 0,
-            "@min" : 0,
-            "@max" : 1,
-            "@group" : "block1",
-            "@param" : "Pedal"
+      "commandFS1" : {
+        "@command" : 5,
+        "@fs_momentary" : true,
+        "@noteoff" : 1,
+        "@pending" : 0,
+        "@velocity" : 100,
+        "@note" : 37,
+        "@channel" : 0,
+        "@fs_enabled" : false,
+        "@fs_ledcolor" : 462860,
+        "@fs_customlabel" : "C#",
+        "@fs_label" : "Note"
+      },
+      "commandFS8" : {
+        "@command" : 5,
+        "@fs_momentary" : true,
+        "@noteoff" : 1,
+        "@pending" : 0,
+        "@velocity" : 100,
+        "@note" : 38,
+        "@channel" : 0,
+        "@fs_enabled" : false,
+        "@fs_ledcolor" : 462860,
+        "@fs_customlabel" : "D",
+        "@fs_label" : "Note"
+      },
+      "dsp1" : {
+        "split" : {
+          "@position" : 0,
+          "@model" : "HD2_AppDSPFlowSplitY",
+          "@enabled" : true
+        },
+        "inputA" : {
+          "@input" : 0,
+          "@model" : "HD2_AppDSPFlow1Input",
+          "noiseGate" : false,
+          "decay" : 0.5,
+          "threshold" : -48
+        },
+        "inputB" : {
+          "@input" : 0,
+          "@model" : "HD2_AppDSPFlow2Input",
+          "noiseGate" : false,
+          "decay" : 0.5,
+          "threshold" : -48
+        },
+        "join" : {
+          "@model" : "HD2_AppDSPFlowJoin",
+          "B Pan" : 0.5,
+          "B Level" : 0,
+          "A Level" : 0,
+          "A Pan" : 0.5,
+          "@position" : 8,
+          "Level" : 0,
+          "@enabled" : true,
+          "B Polarity" : false
+        },
+        "outputA" : {
+          "@model" : "HD2_AppDSPFlowOutput",
+          "@output" : 1,
+          "pan" : 0.5,
+          "gain" : 0
+        },
+        "outputB" : {
+          "@model" : "HD2_AppDSPFlowOutput",
+          "@output" : 1,
+          "pan" : 0.5,
+          "gain" : 0
+        }
+      },
+      "controller" : {
+        "dsp0" : {
+          "block1" : {
+            "Pedal" : {
+              "@min" : 0,
+              "@controller" : 2,
+              "@max" : 1
+            }
           }
-        ]
+        }
+      },
+      "commandFS5" : {
+        "@command" : 5,
+        "@fs_momentary" : true,
+        "@noteoff" : 1,
+        "@pending" : 0,
+        "@velocity" : 100,
+        "@note" : 44,
+        "@channel" : 0,
+        "@fs_enabled" : false,
+        "@fs_ledcolor" : 462860,
+        "@fs_customlabel" : "G#",
+        "@fs_label" : "Note"
       },
       "dsp0" : {
         "block0" : {
@@ -307,52 +227,101 @@
           "gain" : 0
         }
       },
-      "dsp1" : {
-        "split" : {
-          "@position" : 0,
-          "@model" : "HD2_AppDSPFlowSplitY",
-          "@enabled" : true
-        },
-        "inputA" : {
-          "@input" : 0,
-          "@model" : "HD2_AppDSPFlow1Input",
-          "noiseGate" : false,
-          "decay" : 0.5,
-          "threshold" : -48
-        },
-        "inputB" : {
-          "@input" : 0,
-          "@model" : "HD2_AppDSPFlow2Input",
-          "noiseGate" : false,
-          "decay" : 0.5,
-          "threshold" : -48
-        },
-        "join" : {
-          "@model" : "HD2_AppDSPFlowJoin",
-          "B Pan" : 0.5,
-          "B Level" : 0,
-          "A Level" : 0,
-          "A Pan" : 0.5,
-          "@position" : 8,
-          "Level" : 0,
-          "@enabled" : true,
-          "B Polarity" : false
-        },
-        "outputA" : {
-          "@model" : "HD2_AppDSPFlowOutput",
-          "@output" : 1,
-          "pan" : 0.5,
-          "gain" : 0
-        },
-        "outputB" : {
-          "@model" : "HD2_AppDSPFlowOutput",
-          "@output" : 1,
-          "pan" : 0.5,
-          "gain" : 0
+      "commandFS7" : {
+        "@command" : 5,
+        "@fs_momentary" : true,
+        "@noteoff" : 1,
+        "@pending" : 0,
+        "@velocity" : 100,
+        "@note" : 36,
+        "@channel" : 0,
+        "@fs_enabled" : false,
+        "@fs_ledcolor" : 462860,
+        "@fs_customlabel" : "C",
+        "@fs_label" : "Note"
+      },
+      "global" : {
+        "@variax_volumeknob" : -0.1,
+        "@pedalstate" : 2,
+        "@variax_customtuning" : true,
+        "@variax_str1tuning" : 0,
+        "@variax_str2tuning" : 0,
+        "@variax_str4tuning" : 0,
+        "@variax_str6tuning" : 0,
+        "@variax_model" : 10,
+        "@model" : "@global_params",
+        "@topology0" : "ABJ",
+        "@cursor_dsp" : 0,
+        "@cursor_path" : 0,
+        "@tempo" : 120,
+        "@topology1" : "A",
+        "@variax_magmode" : true,
+        "@cursor_position" : 1,
+        "@variax_lockctrls" : 0,
+        "@variax_str3tuning" : 0,
+        "@variax_str5tuning" : 0,
+        "@variax_toneknob" : -0.1,
+        "@cursor_group" : "block2"
+      },
+      "commandFS9" : {
+        "@command" : 5,
+        "@fs_momentary" : true,
+        "@noteoff" : 1,
+        "@pending" : 0,
+        "@velocity" : 100,
+        "@note" : 40,
+        "@channel" : 0,
+        "@fs_enabled" : false,
+        "@fs_ledcolor" : 462860,
+        "@fs_customlabel" : "E",
+        "@fs_label" : "Note"
+      },
+      "commandFS2" : {
+        "@command" : 5,
+        "@fs_momentary" : true,
+        "@noteoff" : 1,
+        "@pending" : 0,
+        "@velocity" : 100,
+        "@note" : 39,
+        "@channel" : 0,
+        "@fs_enabled" : false,
+        "@fs_ledcolor" : 462860,
+        "@fs_customlabel" : "D#",
+        "@fs_label" : "Note"
+      },
+      "footswitch" : {
+        "dsp0" : {
+          "block1" : {
+            "@fs_label" : "Volume Pedal",
+            "@fs_enabled" : true,
+            "@fs_index" : 13,
+            "@fs_ledcolor" : 65408,
+            "@fs_momentary" : false
+          },
+          "block0" : {
+            "@fs_label" : "Gain",
+            "@fs_enabled" : false,
+            "@fs_index" : 13,
+            "@fs_ledcolor" : 3334,
+            "@fs_momentary" : false
+          }
         }
+      },
+      "commandFS4" : {
+        "@command" : 5,
+        "@fs_momentary" : true,
+        "@noteoff" : 1,
+        "@pending" : 0,
+        "@velocity" : 100,
+        "@note" : 42,
+        "@channel" : 0,
+        "@fs_enabled" : false,
+        "@fs_ledcolor" : 462860,
+        "@fs_customlabel" : "F#",
+        "@fs_label" : "Note"
       }
     },
-    "device_version" : 17171744
+    "device_version" : 17825824
   },
   "schema" : "L6Preset"
 }

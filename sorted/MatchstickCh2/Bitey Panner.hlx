@@ -5,8 +5,8 @@
       "name" : "Bitey Panner",
       "application" : "Helix",
       "build_sha" : "9532b30",
-      "modifieddate" : 1459029854,
-      "appversion" : 17039360
+      "modifieddate" : 1459289963,
+      "appversion" : 17825792
     },
     "device" : 2162689,
     "tone" : {
@@ -26,61 +26,47 @@
         "@tempo" : 240,
         "@topology1" : "A",
         "@variax_magmode" : true,
-        "@cursor_position" : 0,
+        "@cursor_position" : 3,
         "@variax_lockctrls" : 0,
         "@variax_str3tuning" : 0,
         "@variax_str5tuning" : 0,
         "@variax_toneknob" : -0.1,
         "@cursor_group" : "block4"
       },
-      "footswitches" : {
-        "@fs9" : [
-          {
-            "@customlabel" : "Xtra Bite",
-            "@group" : "block2",
-            "@dsp" : 0,
-            "@label" : "Teemah!",
-            "@customcolor" : 2,
-            "@type" : 1,
-            "@ledcolor" : 13676288,
-            "@momentary" : false,
-            "@enabled" : true
+      "footswitch" : {
+        "dsp0" : {
+          "block0" : {
+            "@fs_label" : "Looper",
+            "@fs_enabled" : false,
+            "@fs_index" : 5,
+            "@fs_ledcolor" : 462860,
+            "@fs_momentary" : false
+          },
+          "block4" : {
+            "@fs_label" : "Tremolo\/Autopan",
+            "@fs_enabled" : true,
+            "@fs_index" : 11,
+            "@fs_customlabel" : "Danny Panner",
+            "@fs_ledcolor" : 13055,
+            "@fs_momentary" : false
+          },
+          "block1" : {
+            "@fs_label" : "Red Squeeze",
+            "@fs_enabled" : true,
+            "@fs_index" : 2,
+            "@fs_ledcolor" : 8716032,
+            "@fs_momentary" : false
+          },
+          "block2" : {
+            "@fs_momentary" : false,
+            "@fs_customcolor" : 2,
+            "@fs_index" : 9,
+            "@fs_enabled" : true,
+            "@fs_ledcolor" : 13676288,
+            "@fs_customlabel" : "Xtra Bite",
+            "@fs_label" : "Teemah!"
           }
-        ],
-        "@fs5" : [
-          {
-            "@group" : "block0",
-            "@label" : "Looper",
-            "@dsp" : 0,
-            "@type" : 1,
-            "@ledcolor" : 462860,
-            "@momentary" : false,
-            "@enabled" : false
-          }
-        ],
-        "@fs11" : [
-          {
-            "@customlabel" : "Danny Panner",
-            "@group" : "block4",
-            "@dsp" : 0,
-            "@label" : "Tremolo\/Autopan",
-            "@type" : 1,
-            "@ledcolor" : 13055,
-            "@momentary" : false,
-            "@enabled" : true
-          }
-        ],
-        "@fs2" : [
-          {
-            "@group" : "block1",
-            "@label" : "Red Squeeze",
-            "@dsp" : 0,
-            "@type" : 1,
-            "@ledcolor" : 8716032,
-            "@momentary" : false,
-            "@enabled" : true
-          }
-        ]
+        }
       },
       "dsp0" : {
         "join" : {
@@ -253,7 +239,7 @@
         }
       }
     },
-    "device_version" : 17171744
+    "device_version" : 17825824
   },
   "schema" : "L6Preset"
 }
