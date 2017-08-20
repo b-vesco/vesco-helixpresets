@@ -2,11 +2,11 @@
   "version" : 6,
   "data" : {
     "meta" : {
-      "name" : "Murca! ",
+      "name" : "Murca!",
       "application" : "Helix",
-      "build_sha" : "87b59c5",
-      "modifieddate" : 1490931785,
-      "appversion" : 34668544
+      "build_sha" : "6a7d211",
+      "modifieddate" : 1490936286,
+      "appversion" : 35651584
     },
     "device" : 2162689,
     "tone" : {
@@ -27,7 +27,7 @@
           "Stages" : 8,
           "@model" : "HD2_PhaserDeluxePhaser",
           "Rate" : 0.25,
-          "@position" : 7,
+          "@position" : 5,
           "Feedback" : 0.5,
           "SyncSelect1" : 6,
           "TempoSync1" : false,
@@ -41,6 +41,20 @@
           "@stereo" : true,
           "Spread" : 1,
           "Depth" : 0.5
+        },
+        "block1" : {
+          "@model" : "HD2_ReverbHall",
+          "@position" : 6,
+          "LowCut" : 200,
+          "@enabled" : false,
+          "@path" : 0,
+          "@trails" : false,
+          "@type" : 7,
+          "Mix" : 0.3199999,
+          "Level" : 0,
+          "Decay" : 0.8299999,
+          "HighCut" : 3000,
+          "Predelay" : 0.1289999
         },
         "inputA" : {
           "@input" : 0,
@@ -56,14 +70,6 @@
           "decay" : 0.5,
           "threshold" : -48
         },
-        "split" : {
-          "BalanceA" : 0.5,
-          "@model" : "HD2_AppDSPFlowSplitY",
-          "@enabled" : true,
-          "bypass" : false,
-          "@position" : 0,
-          "BalanceB" : 0.5
-        },
         "join" : {
           "@model" : "HD2_AppDSPFlowJoin",
           "B Pan" : 0.5,
@@ -72,8 +78,16 @@
           "A Pan" : 0.5,
           "@position" : 8,
           "Level" : 0,
-          "@enabled" : false,
+          "@enabled" : true,
           "B Polarity" : false
+        },
+        "split" : {
+          "BalanceA" : 0.5,
+          "@model" : "HD2_AppDSPFlowSplitY",
+          "@enabled" : true,
+          "bypass" : false,
+          "@position" : 0,
+          "BalanceB" : 0.5
         },
         "outputB" : {
           "@model" : "HD2_AppDSPFlowOutput",
@@ -279,7 +293,7 @@
       "global" : {
         "@variax_volumeknob" : -0.1,
         "@pedalstate" : 2,
-        "@variax_customtuning" : true,
+        "@variax_customtuning" : false,
         "@variax_str1tuning" : 0,
         "@variax_str2tuning" : 0,
         "@variax_str4tuning" : 0,
@@ -411,6 +425,7 @@
         },
         "blocks" : {
           "dsp1" : {
+            "block1" : false,
             "block0" : false
           },
           "dsp0" : {
@@ -430,7 +445,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 34734112
+    "device_version" : 35651616
   },
   "schema" : "L6Preset"
 }
