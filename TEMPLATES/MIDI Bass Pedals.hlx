@@ -5,7 +5,7 @@
       "name" : "MIDI Bass Pedals",
       "application" : "Helix",
       "build_sha" : "e2528f3",
-      "modifieddate" : 1483915572,
+      "modifieddate" : 1490931838,
       "appversion" : 34668544
     },
     "device" : 2162689,
@@ -825,7 +825,7 @@
         }
       }
     },
-    "device_version" : 34668576
+    "device_version" : 34734112
   },
   "schema" : "L6Preset"
 }

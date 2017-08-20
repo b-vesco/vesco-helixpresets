@@ -5,8 +5,8 @@
       "name" : "WhoWatt 100",
       "application" : "Helix",
       "build_sha" : "87b59c5",
-      "modifieddate" : 1503182378,
-      "appversion" : 35651584
+      "modifieddate" : 1490931663,
+      "appversion" : 34668544
     },
     "device" : 2162689,
     "tone" : {
@@ -480,7 +480,7 @@
         "@tempo" : 123.267
       }
     },
-    "device_version" : 34668576
+    "device_version" : 34734112
   },
   "schema" : "L6Preset"
 }

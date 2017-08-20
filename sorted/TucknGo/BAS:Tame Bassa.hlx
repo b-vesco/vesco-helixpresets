@@ -4,9 +4,9 @@
     "meta" : {
       "name" : "BAS:Tame Bassa",
       "application" : "Helix",
-      "build_sha" : "87b59c5",
-      "modifieddate" : 1503182408,
-      "appversion" : 35651584
+      "build_sha" : "b37ee00",
+      "modifieddate" : 1490931682,
+      "appversion" : 34668544
     },
     "device" : 2162689,
     "tone" : {
@@ -177,7 +177,7 @@
           "gain" : 0
         },
         "inputA" : {
-          "@input" : 2,
+          "@input" : 1,
           "@model" : "HD2_AppDSPFlow1Input",
           "noiseGate" : false,
           "decay" : 0.5,
@@ -332,7 +332,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 34668576
+    "device_version" : 34734112
   },
   "schema" : "L6Preset"
 }

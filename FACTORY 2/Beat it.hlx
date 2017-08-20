@@ -4,8 +4,8 @@
     "meta" : {
       "name" : "Beat it",
       "application" : "Helix",
-      "build_sha" : "87b59c5",
-      "modifieddate" : 1483915546,
+      "build_sha" : "b37ee00",
+      "modifieddate" : 1490931779,
       "appversion" : 34668544
     },
     "device" : 2162689,
@@ -210,11 +210,11 @@
           "Predelay" : 0.09599996
         },
         "cab0" : {
-          "@model" : "HD2_Cab4x12Greenback25",
+          "@model" : "HD2_Cab4X12CaliV30",
           "LowCut" : 19.9,
-          "@mic" : 0,
+          "@mic" : 6,
           "EarlyReflections" : 0,
-          "Distance" : 1.5,
+          "Distance" : 2,
           "Level" : 0,
           "@enabled" : true,
           "HighCut" : 20100
@@ -254,7 +254,7 @@
         "@tempo" : 140
       },
       "global" : {
-        "@variax_volumeknob" : 0,
+        "@variax_volumeknob" : 10,
         "@pedalstate" : 2,
         "@variax_customtuning" : false,
         "@variax_str1tuning" : 0,
@@ -274,7 +274,7 @@
         "@variax_magmode" : false,
         "@variax_str3tuning" : 0,
         "@variax_str5tuning" : 0,
-        "@variax_toneknob" : 10,
+        "@variax_toneknob" : 9.9798,
         "@current_snapshot" : 0,
         "@cursor_group" : "block4"
       },
@@ -357,7 +357,7 @@
         "@tempo" : 140
       }
     },
-    "device_version" : 34668576
+    "device_version" : 34734112
   },
   "schema" : "L6Preset"
 }

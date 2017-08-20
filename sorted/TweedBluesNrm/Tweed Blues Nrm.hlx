@@ -5,8 +5,8 @@
       "name" : "Tweed Blues Nrm",
       "application" : "Helix",
       "build_sha" : "87b59c5",
-      "modifieddate" : 1503182373,
-      "appversion" : 35651584
+      "modifieddate" : 1490931662,
+      "appversion" : 34668544
     },
     "device" : 2162689,
     "tone" : {
@@ -343,7 +343,7 @@
         "@tempo" : 101.266
       }
     },
-    "device_version" : 34668576
+    "device_version" : 34734112
   },
   "schema" : "L6Preset"
 }

@@ -5,7 +5,7 @@
       "name" : "Parallel Spans",
       "application" : "Helix",
       "build_sha" : "73211ae",
-      "modifieddate" : 1483915571,
+      "modifieddate" : 1490931837,
       "appversion" : 34668544
     },
     "device" : 2162689,
@@ -352,7 +352,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 34668576
+    "device_version" : 34734112
   },
   "schema" : "L6Preset"
 }

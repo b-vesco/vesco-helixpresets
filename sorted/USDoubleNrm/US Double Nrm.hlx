@@ -4,9 +4,9 @@
     "meta" : {
       "name" : "US Double Nrm",
       "application" : "Helix",
-      "build_sha" : "2569431",
-      "modifieddate" : 1503182362,
-      "appversion" : 35651584
+      "build_sha" : "87b59c5",
+      "modifieddate" : 1490931656,
+      "appversion" : 34668544
     },
     "device" : 2162689,
     "tone" : {
@@ -385,7 +385,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 34668576
+    "device_version" : 34734112
   },
   "schema" : "L6Preset"
 }

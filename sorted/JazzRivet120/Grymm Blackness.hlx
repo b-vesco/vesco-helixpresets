@@ -4,9 +4,9 @@
     "meta" : {
       "name" : "Grymm Blackness",
       "application" : "Helix",
-      "build_sha" : "87b59c5",
-      "modifieddate" : 1503182392,
-      "appversion" : 35651584
+      "build_sha" : "b37ee00",
+      "modifieddate" : 1490931670,
+      "appversion" : 34668544
     },
     "device" : 2162689,
     "tone" : {
@@ -79,9 +79,9 @@
         "dsp0" : {
           "block4" : {
             "LowFreq" : {
-              "@min" : 20000,
+              "@min" : 20,
               "@controller" : 1,
-              "@max" : 4900
+              "@max" : 430
             }
           },
           "block7" : {
@@ -250,7 +250,7 @@
           "@position" : 3,
           "LowQ" : 0.2,
           "LowCut" : 20,
-          "LowFreq" : 160,
+          "LowFreq" : 430,
           "MidFreq" : 955,
           "@enabled" : true,
           "MidGain" : 8.2,
@@ -368,7 +368,7 @@
             "block4" : {
               "LowFreq" : {
                 "@fs_enabled" : false,
-                "@value" : 160
+                "@value" : 430
               }
             },
             "block7" : {
@@ -397,7 +397,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 34668576
+    "device_version" : 34734112
   },
   "schema" : "L6Preset"
 }
