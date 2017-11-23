@@ -3,10 +3,10 @@
   "data" : {
     "meta" : {
       "name" : "PhD May",
-      "application" : "Helix",
+      "application" : "HX Edit",
       "build_sha" : "6a7d211",
-      "modifieddate" : 1503218431,
-      "appversion" : 35651584
+      "modifieddate" : 1511418600,
+      "appversion" : 36700160
     },
     "device" : 2162689,
     "tone" : {
@@ -35,7 +35,7 @@
           "B Polarity" : false
         },
         "block3" : {
-          "VibratoRate" : 0.28,
+          "VibratoRate" : 0.27999997138977051,
           "@model" : "HD2_Chorus70sChorus",
           "@position" : 5,
           "SyncSelect1" : 6,
@@ -44,14 +44,14 @@
           "@enabled" : true,
           "@path" : 0,
           "@type" : 0,
-          "Mix" : 0.1900001,
+          "Mix" : 0.19000005722045898,
           "Headroom" : 0,
           "Stereo" : false,
           "TempoSync2" : false,
           "VibratoDepth" : 0.5,
           "Level" : 1,
           "@stereo" : false,
-          "ChorusIntensity" : 0.5699999,
+          "ChorusIntensity" : 0.56999993324279785,
           "Mode" : false,
           "Spread" : 0
         },
@@ -107,24 +107,24 @@
           "BalanceB" : 0.5
         },
         "block0" : {
-          "Bias" : 0.7,
+          "Bias" : 0.70000004768371582,
           "@model" : "HD2_AmpA30FawnBrt",
           "Master" : 1,
           "@position" : 4,
-          "Cut" : 0.3,
-          "Drive" : 0.29,
-          "Treble" : 0.7,
-          "ChVol" : 0.7,
+          "Cut" : 0.29999995231628418,
+          "Drive" : 0.28999996185302734,
+          "Treble" : 0.70000004768371582,
+          "ChVol" : 0.70000004768371582,
           "@enabled" : true,
           "Ripple" : 0.5,
           "@path" : 1,
           "@type" : 3,
-          "Bass" : 0.74,
-          "BiasX" : 0.52,
+          "Bass" : 0.74000000953674316,
+          "BiasX" : 0.51999998092651367,
           "Hum" : 0.5,
           "@bypassvolume" : 1,
           "@cab" : "cab0",
-          "Presence" : 0.8,
+          "Presence" : 0.79999995231628418,
           "Sag" : 0.5
         },
         "cab0" : {
@@ -151,11 +151,11 @@
           "@path" : 0,
           "@trails" : false,
           "@type" : 7,
-          "Mix" : 0.3,
+          "Mix" : 0.29999995231628418,
           "Level" : 0,
-          "Decay" : 0.1900001,
+          "Decay" : 0.19000005722045898,
           "HighCut" : 3000,
-          "Predelay" : 0.1
+          "Predelay" : 0.10000002384185791
         }
       },
       "snapshot1" : {
@@ -195,7 +195,7 @@
         },
         "block3" : {
           "8kHz" : 0,
-          "2kHz" : 0.7,
+          "2kHz" : 0.70000004768371582,
           "62p5Hz" : 0,
           "@model" : "HD2_EQGraphic10Band",
           "@position" : 2,
@@ -204,27 +204,27 @@
           "@path" : 0,
           "@type" : 0,
           "4kHz" : 0,
-          "500Hz" : 6.6,
-          "1kHz" : 7.4,
+          "500Hz" : 6.5999999046325684,
+          "1kHz" : 7.3999996185302734,
           "Level" : 0,
           "31p25Hz" : 0,
           "16kHz" : 0,
-          "125Hz" : 0.8,
-          "250Hz" : 3.9
+          "125Hz" : 0.79999995231628418,
+          "250Hz" : 3.9000000953674316
         },
         "block2" : {
           "@model" : "HD2_CompressorLAStudioComp",
           "@position" : 1,
           "@enabled" : true,
-          "Emphasis" : 0.51,
+          "Emphasis" : 0.50999999046325684,
           "@path" : 0,
           "@type" : 0,
           "Mix" : 1,
-          "PeakReduction" : 0.78,
+          "PeakReduction" : 0.77999997138977051,
           "Type" : false,
           "Level" : 0,
           "@stereo" : false,
-          "Gain" : 0.6
+          "Gain" : 0.60000002384185791
         },
         "inputB" : {
           "@input" : 0,
@@ -274,31 +274,31 @@
           "@enabled" : false
         },
         "block5" : {
-          "Bias" : 0.6700001,
+          "Bias" : 0.67000007629394531,
           "@model" : "HD2_AmpA30FawnBrt",
           "Master" : 1,
           "@position" : 4,
-          "Cut" : 0.3,
-          "Drive" : 0.4,
-          "Treble" : 0.65,
-          "ChVol" : 0.8099999,
+          "Cut" : 0.29999995231628418,
+          "Drive" : 0.39999997615814209,
+          "Treble" : 0.64999997615814209,
+          "ChVol" : 0.80999994277954102,
           "@enabled" : true,
           "Ripple" : 0.5,
           "@path" : 0,
           "@type" : 3,
-          "Bass" : 0.65,
+          "Bass" : 0.64999997615814209,
           "BiasX" : 0.5,
           "Hum" : 0.5,
           "@bypassvolume" : 1,
           "@cab" : "cab0",
-          "Presence" : 0.3099999,
+          "Presence" : 0.30999994277954102,
           "Sag" : 0.5
         },
         "cab0" : {
           "@model" : "HD2_Cab2x12BlueBell",
           "LowCut" : 20,
           "@mic" : 2,
-          "EarlyReflections" : 0.6700001,
+          "EarlyReflections" : 0.67000007629394531,
           "Distance" : 1,
           "High Cut" : 3900,
           "@enabled" : true,
@@ -315,10 +315,10 @@
           "@path" : 0,
           "@stereo" : false,
           "@type" : 0,
-          "Gain" : 0.3,
+          "Gain" : 0.29999995231628418,
           "@position" : 3,
-          "Level" : 0.5899999,
-          "Tone" : 0.3199999,
+          "Level" : 0.58999991416931152,
+          "Tone" : 0.31999993324279785,
           "@enabled" : true
         }
       },
@@ -329,7 +329,7 @@
         "@tempo" : 120
       },
       "global" : {
-        "@variax_volumeknob" : -0.1,
+        "@variax_volumeknob" : -0.10000000149011612,
         "@pedalstate" : 2,
         "@variax_customtuning" : false,
         "@variax_str1tuning" : 0,
@@ -349,7 +349,7 @@
         "@variax_magmode" : true,
         "@variax_str3tuning" : 0,
         "@variax_str5tuning" : 0,
-        "@variax_toneknob" : -0.1,
+        "@variax_toneknob" : -0.10000000149011612,
         "@current_snapshot" : 0,
         "@cursor_group" : "block5"
       },
@@ -461,7 +461,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 35717152
+    "device_version" : 36700160
   },
   "schema" : "L6Preset"
 }

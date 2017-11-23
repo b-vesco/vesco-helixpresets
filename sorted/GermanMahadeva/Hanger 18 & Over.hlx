@@ -3,10 +3,10 @@
   "data" : {
     "meta" : {
       "name" : "Hanger 18 & Over",
-      "application" : "Helix",
+      "application" : "HX Edit",
       "build_sha" : "37cfcb5",
-      "modifieddate" : 1503218519,
-      "appversion" : 35651584
+      "modifieddate" : 1511418603,
+      "appversion" : 36700160
     },
     "device" : 2162689,
     "tone" : {
@@ -119,7 +119,7 @@
         "block3" : {
           "@model" : "HD2_Cab4x121960T75",
           "@position" : 3,
-          "LowCut" : 19.9,
+          "LowCut" : 19.899999618530273,
           "@enabled" : true,
           "EarlyReflections" : 0,
           "@path" : 0,
@@ -133,22 +133,22 @@
         "block2" : {
           "Bias" : 0.75,
           "@model" : "HD2_AmpGermanMahadeva",
-          "Master" : 0.3099999,
+          "Master" : 0.30999994277954102,
           "@position" : 2,
-          "Drive" : 0.9,
-          "Treble" : 0.86,
-          "ChVol" : 0.8399999,
+          "Drive" : 0.89999997615814209,
+          "Treble" : 0.86000001430511475,
+          "ChVol" : 0.83999991416931152,
           "@enabled" : true,
           "Ripple" : 0.5,
           "@path" : 0,
           "@type" : 1,
-          "Bass" : 0.53,
+          "Bass" : 0.52999997138977051,
           "BiasX" : 0.5,
           "Hum" : 0.5,
-          "Mid" : 0.87,
+          "Mid" : 0.87000000476837158,
           "@bypassvolume" : 1,
-          "Presence" : 0.8,
-          "Sag" : 0.24
+          "Presence" : 0.79999995231628418,
+          "Sag" : 0.24000000953674316
         },
         "inputB" : {
           "@input" : 0,
@@ -162,10 +162,10 @@
           "@path" : 0,
           "@stereo" : false,
           "@type" : 0,
-          "Gain" : 0.1900001,
+          "Gain" : 0.19000005722045898,
           "@position" : 1,
-          "Level" : 0.5599999,
-          "Tone" : 0.65,
+          "Level" : 0.55999994277954102,
+          "Tone" : 0.64999997615814209,
           "@enabled" : false
         },
         "outputB" : {
@@ -178,7 +178,7 @@
           "@input" : 1,
           "@model" : "HD2_AppDSPFlow1Input",
           "noiseGate" : true,
-          "decay" : 0.04999995,
+          "decay" : 0.04999995231628418,
           "threshold" : -75
         },
         "block6" : {
@@ -189,11 +189,11 @@
           "@path" : 0,
           "@trails" : false,
           "@type" : 7,
-          "Mix" : 0.27,
+          "Mix" : 0.26999998092651367,
           "Level" : 0,
-          "Decay" : 0.15,
+          "Decay" : 0.14999997615814209,
           "HighCut" : 4570,
-          "Predelay" : 0.102
+          "Predelay" : 0.10199999809265137
         },
         "block0" : {
           "@model" : "HD2_VolPanVol",
@@ -216,7 +216,7 @@
         "block5" : {
           "@model" : "HD2_DelaySimpleDelay",
           "@position" : 5,
-          "Feedback" : 0.16,
+          "Feedback" : 0.15999996662139893,
           "SyncSelect1" : 5,
           "TempoSync1" : true,
           "Scale" : 0.75,
@@ -225,13 +225,13 @@
           "@trails" : true,
           "@type" : 7,
           "Mix" : 0.25,
-          "Time" : 0.6,
+          "Time" : 0.60000002384185791,
           "Level" : 0,
           "@stereo" : false
         },
         "cab0" : {
           "@model" : "HD2_Cab4x121960T75",
-          "LowCut" : 19.9,
+          "LowCut" : 19.899999618530273,
           "@mic" : 10,
           "EarlyReflections" : 0,
           "Distance" : 10.5,
@@ -258,8 +258,8 @@
           "LevelVoice1" : 1,
           "KeyVoice2" : 5,
           "LevelVoice2" : 0,
-          "Mix" : 0.38,
-          "Level" : -0.7,
+          "Mix" : 0.37999999523162842,
+          "Level" : -0.69999998807907104,
           "@stereo" : false,
           "PanVoice1" : 0.375,
           "ScaleVoice1" : 1,
@@ -388,7 +388,7 @@
         "@tempo" : 163
       }
     },
-    "device_version" : 35717152
+    "device_version" : 36700160
   },
   "schema" : "L6Preset"
 }

@@ -3,10 +3,10 @@
   "data" : {
     "meta" : {
       "name" : "Blue Wind",
-      "application" : "Helix",
+      "application" : "HX Edit",
       "build_sha" : "905c912",
-      "modifieddate" : 1503218480,
-      "appversion" : 35651584
+      "modifieddate" : 1511418602,
+      "appversion" : 36700160
     },
     "device" : 2162689,
     "tone" : {
@@ -116,10 +116,10 @@
           "@path" : 0,
           "@stereo" : false,
           "@type" : 0,
-          "Gain" : 0.52,
+          "Gain" : 0.51999998092651367,
           "@position" : 2,
-          "Level" : 0.6700001,
-          "Tone" : 0.4,
+          "Level" : 0.67000007629394531,
+          "Tone" : 0.39999997615814209,
           "@enabled" : false
         },
         "block2" : {
@@ -150,11 +150,11 @@
           "@path" : 0,
           "@trails" : false,
           "@type" : 7,
-          "Mix" : 0.2,
+          "Mix" : 0.20000004768371582,
           "Level" : 0,
-          "Decay" : 0.5899999,
+          "Decay" : 0.58999991416931152,
           "HighCut" : 4570,
-          "Predelay" : 0.01499999
+          "Predelay" : 0.014999985694885254
         },
         "block1" : {
           "@model" : "HD2_VolPanVol",
@@ -176,13 +176,13 @@
           "@input" : 1,
           "@model" : "HD2_AppDSPFlow1Input",
           "noiseGate" : true,
-          "decay" : 0.04999995,
+          "decay" : 0.04999995231628418,
           "threshold" : -80
         },
         "block6" : {
           "@model" : "HD2_DelaySimpleDelay",
           "@position" : 5,
-          "Feedback" : 0.21,
+          "Feedback" : 0.21000003814697266,
           "SyncSelect1" : 9,
           "TempoSync1" : true,
           "Scale" : 0.75,
@@ -190,8 +190,8 @@
           "@path" : 0,
           "@trails" : true,
           "@type" : 7,
-          "Mix" : 0.29,
-          "Time" : 0.6,
+          "Mix" : 0.28999996185302734,
+          "Time" : 0.60000002384185791,
           "Level" : 0,
           "@stereo" : false
         },
@@ -216,10 +216,10 @@
           "BalanceB" : 0.5
         },
         "block5" : {
-          "SlowSpeed" : 2.4,
+          "SlowSpeed" : 2.4000000953674316,
           "@model" : "HD2_Rotary145Rotary",
           "@position" : 4,
-          "Drive" : 0.5599999,
+          "Drive" : 0.55999994277954102,
           "SyncSelect1" : 6,
           "Speed" : false,
           "SyncSelect2" : 6,
@@ -228,9 +228,9 @@
           "Blend" : 0.5,
           "@path" : 0,
           "@type" : 0,
-          "Mix" : 0.29,
+          "Mix" : 0.28999996185302734,
           "Headroom" : 0,
-          "FastSpeed" : 5.3,
+          "FastSpeed" : 5.3000001907348633,
           "TempoSync2" : false,
           "RampTime" : 1,
           "Level" : 0
@@ -252,24 +252,24 @@
           "gain" : 0
         },
         "block4" : {
-          "Bias" : 0.7,
+          "Bias" : 0.70000004768371582,
           "@model" : "HD2_AmpBritPlexiBrt",
           "Master" : 1,
           "@position" : 3,
-          "Drive" : 0.16,
-          "Treble" : 0.71,
-          "ChVol" : 0.6700001,
+          "Drive" : 0.15999996662139893,
+          "Treble" : 0.71000003814697266,
+          "ChVol" : 0.67000007629394531,
           "@enabled" : true,
           "Ripple" : 0.5,
           "@path" : 0,
           "@type" : 3,
-          "Bass" : 0.74,
+          "Bass" : 0.74000000953674316,
           "BiasX" : 0.5,
           "Hum" : 0.5,
-          "Mid" : 0.9,
+          "Mid" : 0.89999997615814209,
           "@bypassvolume" : 1,
           "@cab" : "cab0",
-          "Presence" : 0.73,
+          "Presence" : 0.73000001907348633,
           "Sag" : 0.5
         }
       },
@@ -404,7 +404,7 @@
         "@tempo" : 180
       }
     },
-    "device_version" : 35717152
+    "device_version" : 36700160
   },
   "schema" : "L6Preset"
 }

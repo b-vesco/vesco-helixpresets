@@ -3,10 +3,10 @@
   "data" : {
     "meta" : {
       "name" : "Brit Plexi Nrm",
-      "application" : "Helix",
+      "application" : "HX Edit",
       "build_sha" : "905c912",
-      "modifieddate" : 1503218323,
-      "appversion" : 35651584
+      "modifieddate" : 1511418553,
+      "appversion" : 36700160
     },
     "device" : 2162689,
     "tone" : {
@@ -107,29 +107,29 @@
         "block3" : {
           "@model" : "HD2_DelayTransistorTape",
           "@position" : 3,
-          "Feedback" : 0.2,
+          "Feedback" : 0.20000004768371582,
           "SyncSelect1" : 6,
           "TempoSync1" : false,
           "Scale" : 1,
           "@enabled" : false,
-          "WowFlutter" : 0.51,
+          "WowFlutter" : 0.50999999046325684,
           "@path" : 0,
           "@trails" : false,
           "@type" : 7,
           "Headroom" : 0,
-          "Mix" : 0.36,
-          "Time" : 0.386,
+          "Mix" : 0.36000001430511475,
+          "Time" : 0.38600003719329834,
           "Level" : 0,
           "@stereo" : false,
-          "Spread" : 0.29
+          "Spread" : 0.28999999165534973
         },
         "block2" : {
           "@model" : "HD2_DistVerminDist",
-          "Filter" : 0.62,
+          "Filter" : 0.62000000476837158,
           "@path" : 0,
           "@stereo" : false,
           "@type" : 0,
-          "Gain" : 0.48,
+          "Gain" : 0.48000001907348633,
           "@position" : 2,
           "Level" : 0.75,
           "@enabled" : false
@@ -192,15 +192,15 @@
           "@path" : 0,
           "@trails" : false,
           "@type" : 7,
-          "Mix" : 0.13,
+          "Mix" : 0.12999999523162842,
           "Level" : 0,
-          "Decay" : 0.35,
+          "Decay" : 0.35000002384185791,
           "HighCut" : 4570,
-          "Predelay" : 0.03299999
+          "Predelay" : 0.032999992370605469
         },
         "cab0" : {
           "@model" : "HD2_Cab4x12Greenback25",
-          "LowCut" : 19.9,
+          "LowCut" : 19.899999618530273,
           "@mic" : 1,
           "EarlyReflections" : 0,
           "Distance" : 1,
@@ -215,24 +215,24 @@
           "gain" : 0
         },
         "block4" : {
-          "Bias" : 0.65,
+          "Bias" : 0.64999997615814209,
           "@model" : "HD2_AmpBritPlexiNrm",
           "Master" : 1,
           "@position" : 4,
-          "Drive" : 0.4,
-          "Treble" : 0.72,
-          "ChVol" : 0.55,
+          "Drive" : 0.39999997615814209,
+          "Treble" : 0.72000002861022949,
+          "ChVol" : 0.54999995231628418,
           "@enabled" : true,
           "Ripple" : 0.5,
           "@path" : 0,
           "@type" : 3,
-          "Bass" : 0.5899999,
+          "Bass" : 0.58999991416931152,
           "BiasX" : 0.5,
           "Hum" : 0.5,
-          "Mid" : 0.54,
+          "Mid" : 0.53999996185302734,
           "@bypassvolume" : 1,
           "@cab" : "cab0",
-          "Presence" : 0.65,
+          "Presence" : 0.64999997615814209,
           "Sag" : 0.5
         }
       },
@@ -243,7 +243,7 @@
         "@tempo" : 120
       },
       "global" : {
-        "@variax_volumeknob" : -0.1,
+        "@variax_volumeknob" : -0.10000000149011612,
         "@pedalstate" : 2,
         "@variax_customtuning" : false,
         "@variax_str1tuning" : 0,
@@ -263,7 +263,7 @@
         "@variax_magmode" : true,
         "@variax_str3tuning" : 0,
         "@variax_str5tuning" : 0,
-        "@variax_toneknob" : -0.1,
+        "@variax_toneknob" : -0.10000000149011612,
         "@current_snapshot" : 0,
         "@cursor_group" : "block4"
       },
@@ -345,7 +345,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 35717152
+    "device_version" : 36700160
   },
   "schema" : "L6Preset"
 }

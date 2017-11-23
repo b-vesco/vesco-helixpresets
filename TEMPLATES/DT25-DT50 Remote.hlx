@@ -3,15 +3,15 @@
   "data" : {
     "meta" : {
       "name" : "DT25-DT50 Remote",
-      "application" : "Helix",
+      "application" : "HX Edit",
       "build_sha" : "905c912",
-      "modifieddate" : 1503218574,
-      "appversion" : 35651584
+      "modifieddate" : 1511418766,
+      "appversion" : 36700160
     },
     "device" : 2162689,
     "tone" : {
       "global" : {
-        "@variax_volumeknob" : -0.1,
+        "@variax_volumeknob" : -0.10000000149011612,
         "@pedalstate" : 2,
         "@variax_customtuning" : false,
         "@variax_str1tuning" : 0,
@@ -31,7 +31,7 @@
         "@variax_magmode" : true,
         "@variax_str3tuning" : 0,
         "@variax_str5tuning" : 0,
-        "@variax_toneknob" : -0.1,
+        "@variax_toneknob" : -0.10000000149011612,
         "@current_snapshot" : 0,
         "@cursor_group" : "block2"
       },
@@ -278,17 +278,17 @@
           "@model" : "HD2_PreampEssexA15",
           "Master" : 1,
           "@position" : 2,
-          "Drive" : 0.3099999,
-          "ChVol" : 0.8,
+          "Drive" : 0.30999994277954102,
+          "ChVol" : 0.79999995231628418,
           "@enabled" : true,
           "@path" : 1,
           "@type" : 1,
           "Bass" : 0.5,
           "Hum" : 0.5,
-          "Mid" : 0.41,
+          "Mid" : 0.40999996662139893,
           "@bypassvolume" : 1,
           "Sag" : 0.5,
-          "Treble" : 0.5799999
+          "Treble" : 0.57999992370605469
         },
         "block1" : {
           "@model" : "HD2_VolPanVol",
@@ -305,16 +305,16 @@
           "Master" : 1,
           "@position" : 2,
           "Drive" : 0.5,
-          "ChVol" : 0.8,
+          "ChVol" : 0.79999995231628418,
           "@enabled" : true,
           "@path" : 0,
           "@type" : 1,
-          "Bass" : 0.51,
+          "Bass" : 0.50999999046325684,
           "Hum" : 0.5,
           "Mid" : 0.5,
           "@bypassvolume" : 1,
           "Sag" : 0.5,
-          "Treble" : 0.4400001
+          "Treble" : 0.44000005722045898
         },
         "inputA" : {
           "@input" : 1,
@@ -707,7 +707,7 @@
         }
       }
     },
-    "device_version" : 35717152
+    "device_version" : 36700160
   },
   "schema" : "L6Preset"
 }

@@ -3,10 +3,10 @@
   "data" : {
     "meta" : {
       "name" : "In Your House",
-      "application" : "Helix",
+      "application" : "HX Edit",
       "build_sha" : "905c912",
-      "modifieddate" : 1503218400,
-      "appversion" : 35651584
+      "modifieddate" : 1511418598,
+      "appversion" : 36700160
     },
     "device" : 2162689,
     "tone" : {
@@ -47,10 +47,10 @@
         },
         "join" : {
           "@model" : "HD2_AppDSPFlowJoin",
-          "B Pan" : 0.85,
+          "B Pan" : 0.85000002384185791,
           "B Level" : 0,
           "A Level" : 0,
-          "A Pan" : 0.15,
+          "A Pan" : 0.14999997615814209,
           "@position" : 8,
           "Level" : 0,
           "@enabled" : true,
@@ -108,24 +108,24 @@
           "@model" : "HD2_AmpJazzRivet120",
           "Master" : 1,
           "@position" : 2,
-          "Drive" : 0.4,
+          "Drive" : 0.39999997615814209,
           "Bright" : 0,
-          "ChVol" : 0.99,
+          "ChVol" : 0.99000000953674316,
           "@enabled" : true,
           "@path" : 0,
           "@type" : 3,
-          "Bass" : 0.4,
-          "Mid" : 0.39,
+          "Bass" : 0.39999997615814209,
+          "Mid" : 0.38999998569488525,
           "@bypassvolume" : 1,
           "@cab" : "cab0",
-          "Presence" : 0.55,
-          "Treble" : 0.63
+          "Presence" : 0.54999995231628418,
+          "Treble" : 0.62999999523162842
         },
         "block2" : {
           "@model" : "HD2_FlangerGrayFlanger",
-          "Rate" : 0.14,
+          "Rate" : 0.13999998569488525,
           "@position" : 1,
-          "Regen" : 0.5799999,
+          "Regen" : 0.57999992370605469,
           "SyncSelect1" : 6,
           "TempoSync1" : false,
           "@enabled" : false,
@@ -133,10 +133,10 @@
           "@type" : 0,
           "Mix" : 0.5,
           "Headroom" : 0,
-          "Width" : 0.85,
+          "Width" : 0.85000002384185791,
           "Level" : 0,
           "@stereo" : false,
-          "Manual" : 0.9100001,
+          "Manual" : 0.91000008583068848,
           "Spread" : 0.125
         },
         "inputB" : {
@@ -197,9 +197,9 @@
           "@path" : 0,
           "@trails" : false,
           "@type" : 7,
-          "Mix" : 0.23,
+          "Mix" : 0.23000001907348633,
           "Level" : 0,
-          "Decay" : 0.28,
+          "Decay" : 0.27999997138977051,
           "HighCut" : 5800,
           "Predelay" : 0
         },
@@ -220,7 +220,7 @@
           "gain" : 0
         },
         "block4" : {
-          "VibratoRate" : 0.7,
+          "VibratoRate" : 0.70000004768371582,
           "@model" : "HD2_Chorus70sChorus",
           "@position" : 3,
           "SyncSelect1" : 6,
@@ -236,7 +236,7 @@
           "VibratoDepth" : 0.5,
           "Level" : 1,
           "@stereo" : true,
-          "ChorusIntensity" : 0.48,
+          "ChorusIntensity" : 0.48000001907348633,
           "Mode" : false,
           "Spread" : 0
         }
@@ -248,7 +248,7 @@
         "@tempo" : 120
       },
       "global" : {
-        "@variax_volumeknob" : -0.1,
+        "@variax_volumeknob" : -0.10000000149011612,
         "@pedalstate" : 2,
         "@variax_customtuning" : false,
         "@variax_str1tuning" : 0,
@@ -268,7 +268,7 @@
         "@variax_magmode" : true,
         "@variax_str3tuning" : 0,
         "@variax_str5tuning" : 0,
-        "@variax_toneknob" : -0.1,
+        "@variax_toneknob" : -0.10000000149011612,
         "@current_snapshot" : 0,
         "@cursor_group" : "block3"
       },
@@ -350,7 +350,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 35717152
+    "device_version" : 36700160
   },
   "schema" : "L6Preset"
 }

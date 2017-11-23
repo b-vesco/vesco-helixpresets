@@ -3,10 +3,10 @@
   "data" : {
     "meta" : {
       "name" : "Ext Amp & Pedals",
-      "application" : "Helix",
+      "application" : "HX Edit",
       "build_sha" : "905c912",
-      "modifieddate" : 1503218574,
-      "appversion" : 35651584
+      "modifieddate" : 1511418765,
+      "appversion" : 36700160
     },
     "device" : 2162689,
     "tone" : {
@@ -16,12 +16,10 @@
         "blocks" : {
           "dsp0" : {
             "block0" : false,
+            "block4" : false,
             "block1" : true,
             "block2" : false,
-            "block3" : false,
-            "block4" : false,
-            "block5" : false,
-            "block6" : false
+            "block3" : false
           }
         },
         "commands" : {
@@ -59,12 +57,10 @@
         "blocks" : {
           "dsp0" : {
             "block0" : false,
+            "block4" : false,
             "block1" : true,
             "block2" : false,
-            "block3" : false,
-            "block4" : false,
-            "block5" : false,
-            "block6" : false
+            "block3" : false
           }
         },
         "commands" : {
@@ -149,12 +145,10 @@
         "blocks" : {
           "dsp0" : {
             "block0" : false,
+            "block4" : false,
             "block1" : true,
             "block2" : false,
-            "block3" : false,
-            "block4" : false,
-            "block5" : false,
-            "block6" : false
+            "block3" : false
           }
         },
         "commands" : {
@@ -219,12 +213,10 @@
         "blocks" : {
           "dsp0" : {
             "block0" : false,
+            "block4" : false,
             "block1" : true,
             "block2" : false,
-            "block3" : false,
-            "block4" : false,
-            "block5" : false,
-            "block6" : false
+            "block3" : false
           }
         },
         "commands" : {
@@ -257,80 +249,6 @@
         }
       },
       "dsp0" : {
-        "join" : {
-          "@model" : "HD2_AppDSPFlowJoin",
-          "B Pan" : 0.5,
-          "B Level" : 0,
-          "A Level" : 0,
-          "A Pan" : 0.5,
-          "@position" : 8,
-          "Level" : 0,
-          "@enabled" : true,
-          "B Polarity" : false
-        },
-        "block3" : {
-          "@model" : "HD2_FXLoopMono1",
-          "Return" : 0,
-          "Send" : 0,
-          "@path" : 0,
-          "@type" : 7,
-          "@position" : 2,
-          "@trails" : false,
-          "Mix" : 1,
-          "@enabled" : false
-        },
-        "block2" : {
-          "@model" : "HD2_WahTeardrop310",
-          "@path" : 0,
-          "@stereo" : false,
-          "@type" : 0,
-          "Pedal" : 0,
-          "@position" : 1,
-          "Level" : 0,
-          "Mix" : 1,
-          "@enabled" : false
-        },
-        "inputB" : {
-          "@input" : 0,
-          "@model" : "HD2_AppDSPFlow2Input",
-          "noiseGate" : false,
-          "decay" : 0.5,
-          "threshold" : -48
-        },
-        "block1" : {
-          "@model" : "HD2_VolPanVol",
-          "@path" : 0,
-          "@stereo" : false,
-          "@type" : 0,
-          "Pedal" : 1,
-          "@position" : 0,
-          "@enabled" : true,
-          "VolumeTaper" : false
-        },
-        "outputB" : {
-          "@model" : "HD2_AppDSPFlowOutput",
-          "@output" : 1,
-          "pan" : 0.5,
-          "gain" : 0
-        },
-        "inputA" : {
-          "@input" : 1,
-          "@model" : "HD2_AppDSPFlow1Input",
-          "noiseGate" : false,
-          "decay" : 0.5,
-          "threshold" : -48
-        },
-        "block6" : {
-          "@model" : "HD2_FXLoopMono4",
-          "Return" : 0,
-          "Send" : 0,
-          "@path" : 0,
-          "@type" : 7,
-          "@position" : 5,
-          "@trails" : false,
-          "Mix" : 1,
-          "@enabled" : false
-        },
         "block0" : {
           "@model" : "HD2_Looper",
           "Overdub" : 0,
@@ -343,30 +261,37 @@
           "@position" : 7,
           "@enabled" : false
         },
-        "split" : {
-          "BalanceA" : 0.5,
-          "@model" : "HD2_AppDSPFlowSplitY",
-          "@enabled" : true,
-          "bypass" : false,
+        "block1" : {
+          "@model" : "HD2_VolPanVol",
+          "@path" : 0,
+          "@stereo" : false,
+          "@type" : 0,
+          "Pedal" : 1,
           "@position" : 0,
-          "BalanceB" : 0.5
+          "@enabled" : true,
+          "VolumeTaper" : false
         },
-        "block5" : {
-          "@model" : "HD2_FXLoopMono3",
+        "block2" : {
+          "@model" : "HD2_WahTeardrop310",
+          "@path" : 0,
+          "@stereo" : false,
+          "@type" : 0,
+          "Pedal" : 0,
+          "@position" : 1,
+          "Level" : 0,
+          "Mix" : 1,
+          "@enabled" : false
+        },
+        "block3" : {
+          "@model" : "HD2_FXLoopMono1",
           "Return" : 0,
           "Send" : 0,
           "@path" : 0,
           "@type" : 7,
-          "@position" : 4,
+          "@position" : 2,
           "@trails" : false,
           "Mix" : 1,
           "@enabled" : false
-        },
-        "outputA" : {
-          "@model" : "HD2_AppDSPFlowOutput",
-          "@output" : 1,
-          "pan" : 0.5,
-          "gain" : 0
         },
         "block4" : {
           "@model" : "HD2_FXLoopMono2",
@@ -378,6 +303,51 @@
           "@trails" : false,
           "Mix" : 1,
           "@enabled" : false
+        },
+        "inputA" : {
+          "@input" : 1,
+          "@model" : "HD2_AppDSPFlow1Input",
+          "noiseGate" : false,
+          "decay" : 0.5,
+          "threshold" : -48
+        },
+        "inputB" : {
+          "@input" : 0,
+          "@model" : "HD2_AppDSPFlow2Input",
+          "noiseGate" : false,
+          "decay" : 0.5,
+          "threshold" : -48
+        },
+        "join" : {
+          "@model" : "HD2_AppDSPFlowJoin",
+          "B Pan" : 0.5,
+          "B Level" : 0,
+          "A Level" : 0,
+          "A Pan" : 0.5,
+          "@position" : 8,
+          "Level" : 0,
+          "@enabled" : true,
+          "B Polarity" : false
+        },
+        "split" : {
+          "BalanceA" : 0.5,
+          "@model" : "HD2_AppDSPFlowSplitY",
+          "@enabled" : true,
+          "bypass" : false,
+          "@position" : 0,
+          "BalanceB" : 0.5
+        },
+        "outputB" : {
+          "@model" : "HD2_AppDSPFlowOutput",
+          "@output" : 1,
+          "pan" : 0.5,
+          "gain" : 0
+        },
+        "outputA" : {
+          "@model" : "HD2_AppDSPFlowOutput",
+          "@output" : 1,
+          "pan" : 0.5,
+          "gain" : 0
         }
       },
       "snapshot2" : {
@@ -386,12 +356,10 @@
         "blocks" : {
           "dsp0" : {
             "block0" : false,
+            "block4" : false,
             "block1" : true,
             "block2" : false,
-            "block3" : false,
-            "block4" : false,
-            "block5" : false,
-            "block6" : false
+            "block3" : false
           }
         },
         "commands" : {
@@ -424,7 +392,7 @@
         }
       },
       "global" : {
-        "@variax_volumeknob" : -0.1,
+        "@variax_volumeknob" : -0.10000000149011612,
         "@pedalstate" : 2,
         "@variax_customtuning" : false,
         "@variax_str1tuning" : 0,
@@ -444,7 +412,7 @@
         "@variax_magmode" : true,
         "@variax_str3tuning" : 0,
         "@variax_str5tuning" : 0,
-        "@variax_toneknob" : -0.1,
+        "@variax_toneknob" : -0.10000000149011612,
         "@current_snapshot" : 0,
         "@cursor_group" : "block3"
       },
@@ -464,6 +432,13 @@
             "@fs_enabled" : false,
             "@fs_index" : 5,
             "@fs_ledcolor" : 462860,
+            "@fs_momentary" : false
+          },
+          "block4" : {
+            "@fs_label" : "FX Loop 2",
+            "@fs_enabled" : false,
+            "@fs_index" : 9,
+            "@fs_ledcolor" : 3334,
             "@fs_momentary" : false
           },
           "block1" : {
@@ -486,27 +461,6 @@
             "@fs_index" : 8,
             "@fs_ledcolor" : 3334,
             "@fs_momentary" : false
-          },
-          "block4" : {
-            "@fs_label" : "FX Loop 2",
-            "@fs_enabled" : false,
-            "@fs_index" : 9,
-            "@fs_ledcolor" : 3334,
-            "@fs_momentary" : false
-          },
-          "block5" : {
-            "@fs_label" : "FX Loop 3",
-            "@fs_enabled" : false,
-            "@fs_index" : 10,
-            "@fs_ledcolor" : 3334,
-            "@fs_momentary" : false
-          },
-          "block6" : {
-            "@fs_label" : "FX Loop 4",
-            "@fs_enabled" : false,
-            "@fs_index" : 11,
-            "@fs_ledcolor" : 3334,
-            "@fs_momentary" : false
           }
         }
       },
@@ -516,12 +470,10 @@
         "blocks" : {
           "dsp0" : {
             "block0" : false,
+            "block4" : false,
             "block1" : true,
             "block2" : false,
-            "block3" : false,
-            "block4" : false,
-            "block5" : false,
-            "block6" : false
+            "block3" : false
           }
         },
         "commands" : {
@@ -559,12 +511,10 @@
         "blocks" : {
           "dsp0" : {
             "block0" : false,
+            "block4" : false,
             "block1" : true,
             "block2" : false,
-            "block3" : false,
-            "block4" : false,
-            "block5" : false,
-            "block6" : false
+            "block3" : false
           }
         },
         "commands" : {
@@ -602,12 +552,10 @@
         "blocks" : {
           "dsp0" : {
             "block0" : false,
+            "block4" : false,
             "block1" : true,
             "block2" : false,
-            "block3" : false,
-            "block4" : false,
-            "block5" : false,
-            "block6" : false
+            "block3" : false
           }
         },
         "commands" : {
@@ -640,7 +588,7 @@
         }
       }
     },
-    "device_version" : 35717152
+    "device_version" : 36700160
   },
   "schema" : "L6Preset"
 }

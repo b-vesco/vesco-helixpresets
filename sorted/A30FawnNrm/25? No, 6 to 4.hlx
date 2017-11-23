@@ -3,10 +3,10 @@
   "data" : {
     "meta" : {
       "name" : "25? No, 6 to 4",
-      "application" : "Helix",
+      "application" : "HX Edit",
       "build_sha" : "6a7d211",
-      "modifieddate" : 1503218480,
-      "appversion" : 35651584
+      "modifieddate" : 1511418602,
+      "appversion" : 36700160
     },
     "device" : 2162689,
     "tone" : {
@@ -124,23 +124,23 @@
           "B Polarity" : false
         },
         "block3" : {
-          "Bias" : 0.63,
+          "Bias" : 0.62999999523162842,
           "@model" : "HD2_AmpA30FawnNrm",
           "Master" : 1,
           "@position" : 3,
           "Cut" : 0,
           "Drive" : 1,
-          "Treble" : 0.4400001,
-          "ChVol" : 0.7,
+          "Treble" : 0.44000005722045898,
+          "ChVol" : 0.70000004768371582,
           "@enabled" : true,
           "Ripple" : 0.5,
           "@path" : 0,
           "@type" : 1,
-          "Bass" : 0.8,
+          "Bass" : 0.79999995231628418,
           "BiasX" : 0.5,
           "Hum" : 0.5,
           "@bypassvolume" : 1,
-          "Presence" : 0.8199999,
+          "Presence" : 0.81999993324279785,
           "Sag" : 0.5
         },
         "block2" : {
@@ -167,11 +167,11 @@
           "@path" : 0,
           "@trails" : false,
           "@type" : 7,
-          "Mix" : 0.3,
+          "Mix" : 0.29999995231628418,
           "Level" : 0,
           "Decay" : 0.25,
           "HighCut" : 3720,
-          "Predelay" : 0.04999995
+          "Predelay" : 0.04999995231628418
         },
         "block1" : {
           "@model" : "HD2_WahWeeper",
@@ -196,13 +196,13 @@
           "@input" : 1,
           "@model" : "HD2_AppDSPFlow1Input",
           "noiseGate" : true,
-          "decay" : 0.04999995,
+          "decay" : 0.04999995231628418,
           "threshold" : -72
         },
         "block6" : {
           "@model" : "HD2_DelaySimpleDelay",
           "@position" : 6,
-          "Feedback" : 0.2,
+          "Feedback" : 0.20000004768371582,
           "SyncSelect1" : 11,
           "TempoSync1" : true,
           "Scale" : 0.75,
@@ -211,7 +211,7 @@
           "@trails" : true,
           "@type" : 7,
           "Mix" : 0.25,
-          "Time" : 0.6,
+          "Time" : 0.60000002384185791,
           "Level" : 0,
           "@stereo" : false
         },
@@ -238,8 +238,8 @@
           "@position" : 5,
           "SyncSelect1" : 12,
           "TempoSync1" : true,
-          "Intensity" : 0.73,
-          "Speed" : 0.3,
+          "Intensity" : 0.73000001907348633,
+          "Speed" : 0.29999995231628418,
           "@enabled" : false,
           "@path" : 0,
           "@type" : 0,
@@ -257,7 +257,7 @@
         "block4" : {
           "@model" : "HD2_Cab2x15Brute",
           "Level" : 0,
-          "LowCut" : 19.9,
+          "LowCut" : 19.899999618530273,
           "@path" : 0,
           "@mic" : 0,
           "@type" : 2,
@@ -404,7 +404,7 @@
         "@tempo" : 148
       }
     },
-    "device_version" : 35717152
+    "device_version" : 36700160
   },
   "schema" : "L6Preset"
 }

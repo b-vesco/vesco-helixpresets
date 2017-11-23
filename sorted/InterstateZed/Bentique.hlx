@@ -3,10 +3,10 @@
   "data" : {
     "meta" : {
       "name" : "Bentique",
-      "application" : "Helix",
+      "application" : "HX Edit",
       "build_sha" : "905c912",
-      "modifieddate" : 1503218400,
-      "appversion" : 35651584
+      "modifieddate" : 1511418597,
+      "appversion" : 36700160
     },
     "device" : 2162689,
     "tone" : {
@@ -24,26 +24,26 @@
       },
       "dsp1" : {
         "block0" : {
-          "Depth" : 0.03999996,
+          "Depth" : 0.039999961853027344,
           "@trails" : true,
           "@enabled" : false,
           "@type" : 7,
-          "Speed" : 0.02199996,
+          "Speed" : 0.021999955177307129,
           "SyncSelect1" : 3,
           "@model" : "HD2_DelayModChorusEcho",
           "@stereo" : true,
           "LowCut" : 20,
           "@path" : 0,
           "Level" : 0,
-          "Mix" : 0.45,
+          "Mix" : 0.45000004768371582,
           "Spread" : 1,
-          "Feedback" : 0.3,
+          "Feedback" : 0.29999995231628418,
           "HighCut" : 20000,
           "ModulationMode" : 1,
           "Scale" : 0.5,
           "@position" : 5,
           "TempoSync1" : true,
-          "Time" : 0.538
+          "Time" : 0.53799998760223389
         },
         "block1" : {
           "@model" : "HD2_Reverb63Spring",
@@ -53,9 +53,9 @@
           "@path" : 0,
           "@trails" : false,
           "@type" : 7,
-          "Mix" : 0.3199999,
+          "Mix" : 0.31999993324279785,
           "Level" : 0,
-          "Decay" : 0.6900001,
+          "Decay" : 0.69000005722045898,
           "HighCut" : 4700,
           "Predelay" : 0
         },
@@ -75,10 +75,10 @@
         },
         "join" : {
           "@model" : "HD2_AppDSPFlowJoin",
-          "B Pan" : 0.85,
+          "B Pan" : 0.85000002384185791,
           "B Level" : 0,
           "A Level" : 0,
-          "A Pan" : 0.15,
+          "A Pan" : 0.14999997615814209,
           "@position" : 8,
           "Level" : 0,
           "@enabled" : true,
@@ -115,7 +115,7 @@
         "dsp1" : {
           "block0" : {
             "Time" : {
-              "@min" : 0.3,
+              "@min" : 0.29999995231628418,
               "@controller" : 1,
               "@max" : 1
             }
@@ -154,10 +154,10 @@
           "@path" : 0,
           "@stereo" : false,
           "@type" : 0,
-          "Gain" : 0.6,
+          "Gain" : 0.60000002384185791,
           "@position" : 2,
-          "Level" : 0.5699999,
-          "Tone" : 0.53,
+          "Level" : 0.56999993324279785,
+          "Tone" : 0.52999997138977051,
           "@enabled" : false
         },
         "block2" : {
@@ -166,10 +166,10 @@
           "@stereo" : false,
           "@type" : 0,
           "@position" : 1,
-          "Level" : 5.9,
+          "Level" : 5.9000000953674316,
           "Mix" : 0.5,
           "@enabled" : false,
-          "Sensitivity" : 0.37
+          "Sensitivity" : 0.37000000476837158
         },
         "inputB" : {
           "@input" : 0,
@@ -202,20 +202,20 @@
           "threshold" : -48
         },
         "block6" : {
-          "Bias" : 0.74,
+          "Bias" : 0.74000000953674316,
           "@model" : "HD2_AmpInterstateZed",
-          "Master" : 0.9,
+          "Master" : 0.89999997615814209,
           "@position" : 5,
-          "Drive" : 0.3199999,
-          "Treble" : 0.6600001,
-          "ChVol" : 0.8099999,
+          "Drive" : 0.31999993324279785,
+          "Treble" : 0.66000008583068848,
+          "ChVol" : 0.80999994277954102,
           "@enabled" : true,
-          "Ripple" : 0.36,
+          "Ripple" : 0.36000001430511475,
           "@path" : 0,
           "@type" : 3,
-          "Bass" : 0.49,
+          "Bass" : 0.49000000953674316,
           "BiasX" : 0.5,
-          "Hum" : 0.24,
+          "Hum" : 0.24000000953674316,
           "Mid" : 0.5,
           "@bypassvolume" : 1,
           "@cab" : "cab0",
@@ -248,10 +248,10 @@
           "@path" : 0,
           "@stereo" : false,
           "@type" : 0,
-          "Gain" : 0.35,
+          "Gain" : 0.35000002384185791,
           "@position" : 4,
-          "Level" : 0.6,
-          "Tone" : 0.64,
+          "Level" : 0.60000002384185791,
+          "Tone" : 0.63999998569488525,
           "@enabled" : false,
           "LPHP" : false
         },
@@ -272,10 +272,10 @@
           "gain" : 0
         },
         "block4" : {
-          "Depth" : 0.2,
+          "Depth" : 0.20000004768371582,
           "@trails" : false,
           "@enabled" : false,
-          "Noise" : 0.29,
+          "Noise" : 0.28999996185302734,
           "BBD Size" : 3,
           "@type" : 7,
           "SyncSelect1" : 8,
@@ -288,10 +288,10 @@
           "Feedback" : 0.5,
           "Scale" : 0.75,
           "@position" : 3,
-          "Headroom" : 10.4,
-          "Rate" : 0.35,
+          "Headroom" : 10.399999618530273,
+          "Rate" : 0.35000002384185791,
           "TempoSync1" : true,
-          "Time" : 0.4
+          "Time" : 0.39999997615814209
         }
       },
       "snapshot2" : {
@@ -301,7 +301,7 @@
         "@tempo" : 120
       },
       "global" : {
-        "@variax_volumeknob" : -0.1,
+        "@variax_volumeknob" : -0.10000000149011612,
         "@pedalstate" : 2,
         "@variax_customtuning" : false,
         "@variax_str1tuning" : 0,
@@ -321,7 +321,7 @@
         "@variax_magmode" : true,
         "@variax_str3tuning" : 0,
         "@variax_str5tuning" : 0,
-        "@variax_toneknob" : -0.1,
+        "@variax_toneknob" : -0.10000000149011612,
         "@current_snapshot" : 0,
         "@cursor_group" : "block6"
       },
@@ -405,7 +405,7 @@
             "block0" : {
               "Time" : {
                 "@fs_enabled" : false,
-                "@value" : 0.538
+                "@value" : 0.53799998760223389
               }
             }
           },
@@ -439,7 +439,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 35717152
+    "device_version" : 36700160
   },
   "schema" : "L6Preset"
 }

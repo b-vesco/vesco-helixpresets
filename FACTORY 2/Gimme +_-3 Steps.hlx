@@ -3,10 +3,10 @@
   "data" : {
     "meta" : {
       "name" : "Gimme +\/-3 Steps",
-      "application" : "Helix",
+      "application" : "HX Edit",
       "build_sha" : "6a7d211",
-      "modifieddate" : 1503218489,
-      "appversion" : 35651584
+      "modifieddate" : 1511418603,
+      "appversion" : 36700160
     },
     "device" : 2162689,
     "tone" : {
@@ -150,11 +150,11 @@
           "@path" : 0,
           "@trails" : false,
           "@type" : 7,
-          "Mix" : 0.3199999,
+          "Mix" : 0.31999993324279785,
           "Level" : 0,
-          "Decay" : 0.38,
+          "Decay" : 0.37999999523162842,
           "HighCut" : 3720,
-          "Predelay" : 0.01999998
+          "Predelay" : 0.019999980926513672
         },
         "block1" : {
           "@model" : "HD2_VolPanVol",
@@ -176,13 +176,13 @@
           "@input" : 1,
           "@model" : "HD2_AppDSPFlow1Input",
           "noiseGate" : true,
-          "decay" : 0.04999995,
+          "decay" : 0.04999995231628418,
           "threshold" : -48
         },
         "block6" : {
           "@model" : "HD2_DelaySimpleDelay",
           "@position" : 5,
-          "Feedback" : 0.24,
+          "Feedback" : 0.24000000953674316,
           "SyncSelect1" : 6,
           "TempoSync1" : true,
           "Scale" : 0.75,
@@ -190,8 +190,8 @@
           "@path" : 0,
           "@trails" : false,
           "@type" : 7,
-          "Mix" : 0.24,
-          "Time" : 0.6,
+          "Mix" : 0.24000000953674316,
+          "Time" : 0.60000002384185791,
           "Level" : 0,
           "@stereo" : false
         },
@@ -216,31 +216,31 @@
           "BalanceB" : 0.5
         },
         "block5" : {
-          "Bias" : 0.7,
+          "Bias" : 0.70000004768371582,
           "@model" : "HD2_AmpBritJ45Brt",
           "Master" : 1,
           "@position" : 4,
-          "Drive" : 0.5699999,
-          "Treble" : 0.8099999,
-          "ChVol" : 0.63,
+          "Drive" : 0.56999993324279785,
+          "Treble" : 0.80999994277954102,
+          "ChVol" : 0.62999999523162842,
           "@enabled" : true,
           "Ripple" : 0.5,
           "@path" : 0,
           "@type" : 3,
-          "Bass" : 0.55,
+          "Bass" : 0.54999995231628418,
           "BiasX" : 0.5,
           "Hum" : 0.5,
-          "Mid" : 0.95,
+          "Mid" : 0.95000004768371582,
           "@bypassvolume" : 1,
           "@cab" : "cab0",
           "Presence" : 0.75,
-          "Sag" : 0.85
+          "Sag" : 0.85000002384185791
         },
         "cab0" : {
           "@model" : "HD2_Cab4x12Greenback25",
-          "LowCut" : 19.9,
+          "LowCut" : 19.899999618530273,
           "@mic" : 0,
-          "EarlyReflections" : 0.8099999,
+          "EarlyReflections" : 0.80999994277954102,
           "Distance" : 1,
           "Level" : 0,
           "@enabled" : true,
@@ -254,7 +254,7 @@
         },
         "block4" : {
           "@model" : "HD2_PhaserUbiquitousVibe",
-          "Rate" : 0.29,
+          "Rate" : 0.28999996185302734,
           "@position" : 3,
           "SyncSelect1" : 6,
           "TempoSync1" : false,
@@ -401,7 +401,7 @@
         "@tempo" : 132
       }
     },
-    "device_version" : 35717152
+    "device_version" : 36700160
   },
   "schema" : "L6Preset"
 }

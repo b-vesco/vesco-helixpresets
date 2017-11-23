@@ -3,10 +3,10 @@
   "data" : {
     "meta" : {
       "name" : "Goin' Home",
-      "application" : "Helix",
+      "application" : "HX Edit",
       "build_sha" : "905c912",
-      "modifieddate" : 1503218509,
-      "appversion" : 35651584
+      "modifieddate" : 1511418603,
+      "appversion" : 36700160
     },
     "device" : 2162689,
     "tone" : {
@@ -105,24 +105,24 @@
           "B Polarity" : false
         },
         "block3" : {
-          "Bias" : 0.7,
+          "Bias" : 0.70000004768371582,
           "@model" : "HD2_AmpBritPlexiBrt",
           "Master" : 1,
           "@position" : 2,
           "Drive" : 1,
-          "Treble" : 0.71,
-          "ChVol" : 0.61,
+          "Treble" : 0.71000003814697266,
+          "ChVol" : 0.61000001430511475,
           "@enabled" : true,
           "Ripple" : 0.5,
           "@path" : 0,
           "@type" : 3,
-          "Bass" : 0.74,
+          "Bass" : 0.74000000953674316,
           "BiasX" : 0.5,
           "Hum" : 0.5,
-          "Mid" : 0.9,
+          "Mid" : 0.89999997615814209,
           "@bypassvolume" : 1,
           "@cab" : "cab0",
-          "Presence" : 0.5699999,
+          "Presence" : 0.56999993324279785,
           "Sag" : 0.5
         },
         "block2" : {
@@ -161,7 +161,7 @@
           "@input" : 1,
           "@model" : "HD2_AppDSPFlow1Input",
           "noiseGate" : true,
-          "decay" : 0.04999995,
+          "decay" : 0.04999995231628418,
           "threshold" : -80
         },
         "block6" : {
@@ -174,9 +174,9 @@
           "@type" : 7,
           "Mix" : 0.25,
           "Level" : 0,
-          "Decay" : 0.35,
+          "Decay" : 0.35000002384185791,
           "HighCut" : 4300,
-          "Predelay" : 0.1
+          "Predelay" : 0.10000002384185791
         },
         "block0" : {
           "@model" : "HD2_Looper",
@@ -209,8 +209,8 @@
           "@path" : 0,
           "@trails" : true,
           "@type" : 7,
-          "Mix" : 0.2,
-          "Time" : 0.6,
+          "Mix" : 0.20000004768371582,
+          "Time" : 0.60000002384185791,
           "Level" : 0,
           "@stereo" : false
         },
@@ -236,17 +236,17 @@
           "@position" : 3,
           "SyncSelect1" : 1,
           "TempoSync1" : false,
-          "Speed" : 0.04999995,
+          "Speed" : 0.04999995231628418,
           "@enabled" : false,
           "@path" : 0,
           "@type" : 0,
-          "Mix" : 0.3099999,
-          "Tone" : 0.45,
+          "Mix" : 0.30999994277954102,
+          "Tone" : 0.45000004768371582,
           "Level" : 0,
           "@stereo" : false,
           "Spread" : 1,
-          "Predelay" : 0.3199999,
-          "Depth" : 0.3
+          "Predelay" : 0.31999993324279785,
+          "Depth" : 0.29999995231628418
         }
       },
       "snapshot2" : {
@@ -366,7 +366,7 @@
         "@tempo" : 208
       }
     },
-    "device_version" : 35717152
+    "device_version" : 36700160
   },
   "schema" : "L6Preset"
 }

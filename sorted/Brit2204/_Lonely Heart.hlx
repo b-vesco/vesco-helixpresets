@@ -3,10 +3,10 @@
   "data" : {
     "meta" : {
       "name" : "Lonely Heart",
-      "application" : "Helix",
+      "application" : "HX Edit",
       "build_sha" : "37cfcb5",
-      "modifieddate" : 1503218540,
-      "appversion" : 35651584
+      "modifieddate" : 1511418603,
+      "appversion" : 36700160
     },
     "device" : 2162689,
     "tone" : {
@@ -32,7 +32,7 @@
           "Pedal" : 1,
           "@position" : 3,
           "Level" : 0,
-          "Mix" : 0.4,
+          "Mix" : 0.39999997615814209,
           "@enabled" : false,
           "Toe" : -12
         },
@@ -45,7 +45,7 @@
           "Pedal" : 1,
           "@position" : 3,
           "Level" : 0,
-          "Mix" : 0.45,
+          "Mix" : 0.45000004768371582,
           "@enabled" : false,
           "Toe" : 7
         },
@@ -73,7 +73,7 @@
           "@trails" : true,
           "@type" : 7,
           "Mix" : 0.25,
-          "Time" : 0.6,
+          "Time" : 0.60000002384185791,
           "Level" : 0,
           "@stereo" : false
         },
@@ -85,11 +85,11 @@
           "@path" : 0,
           "@trails" : false,
           "@type" : 7,
-          "Mix" : 0.3,
+          "Mix" : 0.29999995231628418,
           "Level" : 0,
-          "Decay" : 0.09000003,
+          "Decay" : 0.090000033378601074,
           "HighCut" : 4300,
-          "Predelay" : 0.1
+          "Predelay" : 0.10000002384185791
         },
         "inputA" : {
           "@input" : 0,
@@ -201,31 +201,31 @@
         },
         "block3" : {
           "@model" : "HD2_AmpJazzRivet120",
-          "Master" : 0.62,
+          "Master" : 0.62000000476837158,
           "@position" : 2,
-          "Drive" : 0.49,
-          "Bright" : 0.3199999,
+          "Drive" : 0.49000000953674316,
+          "Bright" : 0.31999993324279785,
           "ChVol" : 1,
           "@enabled" : true,
           "@path" : 1,
           "@type" : 3,
-          "Bass" : 0.46,
-          "Mid" : 0.28,
+          "Bass" : 0.46000003814697266,
+          "Mid" : 0.27999997138977051,
           "@bypassvolume" : 1,
           "@cab" : "cab1",
           "Presence" : 0.5,
-          "Treble" : 0.6700001
+          "Treble" : 0.67000007629394531
         },
         "block2" : {
           "@model" : "HD2_CompressorDeluxeComp",
           "@position" : 1,
           "Threshold" : -10,
-          "Release" : 0.2,
+          "Release" : 0.20000004768371582,
           "@enabled" : true,
           "Knee" : 6,
           "@path" : 1,
           "@type" : 0,
-          "Attack" : 0.03799999,
+          "Attack" : 0.037999987602233887,
           "Mix" : 1,
           "Ratio" : 4,
           "Level" : 1,
@@ -239,24 +239,24 @@
           "threshold" : -48
         },
         "block1" : {
-          "Bias" : 0.7,
+          "Bias" : 0.70000004768371582,
           "@model" : "HD2_AmpBrit2204",
           "Master" : 0.5,
           "@position" : 2,
-          "Drive" : 0.62,
-          "Treble" : 0.65,
-          "ChVol" : 0.9,
+          "Drive" : 0.62000000476837158,
+          "Treble" : 0.64999997615814209,
+          "ChVol" : 0.89999997615814209,
           "@enabled" : true,
           "Ripple" : 0.5,
           "@path" : 0,
           "@type" : 3,
-          "Bass" : 0.4,
+          "Bass" : 0.39999997615814209,
           "BiasX" : 0.5,
           "Hum" : 0.5,
           "Mid" : 0.5,
           "@bypassvolume" : 1,
           "@cab" : "cab0",
-          "Presence" : 0.6,
+          "Presence" : 0.60000002384185791,
           "Sag" : 0.5
         },
         "outputB" : {
@@ -269,21 +269,21 @@
           "@input" : 1,
           "@model" : "HD2_AppDSPFlow1Input",
           "noiseGate" : true,
-          "decay" : 0.04999995,
+          "decay" : 0.04999995231628418,
           "threshold" : -82
         },
         "block6" : {
-          "HighQ" : 0.707,
+          "HighQ" : 0.7070000171661377,
           "@model" : "HD2_EQParametric",
           "HighGain" : 0,
           "@position" : 3,
-          "LowQ" : 0.707,
-          "LowCut" : 19.9,
+          "LowQ" : 0.7070000171661377,
+          "LowCut" : 19.899999618530273,
           "LowFreq" : 110,
           "MidFreq" : 795,
           "@enabled" : true,
           "MidGain" : -5.5,
-          "MidQ" : 0.707,
+          "MidQ" : 0.7070000171661377,
           "@path" : 0,
           "@type" : 0,
           "LowGain" : 0,
@@ -297,15 +297,15 @@
           "@path" : 0,
           "@stereo" : false,
           "@type" : 0,
-          "Gain" : 0.62,
+          "Gain" : 0.62000000476837158,
           "@position" : 1,
           "Level" : 0.5,
-          "Tone" : 0.34,
+          "Tone" : 0.34000003337860107,
           "@enabled" : false
         },
         "cab1" : {
           "@model" : "HD2_Cab2x12JazzRivet",
-          "LowCut" : 19.9,
+          "LowCut" : 19.899999618530273,
           "@mic" : 2,
           "EarlyReflections" : 0,
           "Distance" : 6,
@@ -332,7 +332,7 @@
         },
         "cab0" : {
           "@model" : "HD2_Cab4x121960T75",
-          "LowCut" : 19.9,
+          "LowCut" : 19.899999618530273,
           "@mic" : 2,
           "EarlyReflections" : 0,
           "Distance" : 3,
@@ -347,7 +347,7 @@
           "gain" : 0
         },
         "block4" : {
-          "VibratoRate" : 0.7,
+          "VibratoRate" : 0.70000004768371582,
           "@model" : "HD2_Chorus70sChorus",
           "@position" : 3,
           "SyncSelect1" : 1,
@@ -356,14 +356,14 @@
           "@enabled" : true,
           "@path" : 1,
           "@type" : 0,
-          "Mix" : 0.8,
+          "Mix" : 0.79999995231628418,
           "Headroom" : 0,
           "Stereo" : false,
           "TempoSync2" : false,
           "VibratoDepth" : 0.5,
           "Level" : 1,
           "@stereo" : true,
-          "ChorusIntensity" : 0.5699999,
+          "ChorusIntensity" : 0.56999993324279785,
           "Mode" : false,
           "Spread" : 1
         }
@@ -446,6 +446,13 @@
           }
         },
         "dsp0" : {
+          "block6" : {
+            "@fs_label" : "Parametric",
+            "@fs_enabled" : true,
+            "@fs_index" : 3,
+            "@fs_ledcolor" : 8716032,
+            "@fs_momentary" : false
+          },
           "block0" : {
             "@fs_label" : "Scream 808",
             "@fs_enabled" : false,
@@ -453,25 +460,11 @@
             "@fs_ledcolor" : 525824,
             "@fs_momentary" : false
           },
-          "block4" : {
-            "@fs_label" : "70s Chorus",
-            "@fs_enabled" : true,
-            "@fs_index" : 7,
-            "@fs_ledcolor" : 13055,
-            "@fs_momentary" : false
-          },
           "block5" : {
             "@fs_label" : "Volume Pedal",
             "@fs_enabled" : true,
             "@fs_index" : 13,
             "@fs_ledcolor" : 65408,
-            "@fs_momentary" : false
-          },
-          "block6" : {
-            "@fs_label" : "Parametric",
-            "@fs_enabled" : true,
-            "@fs_index" : 3,
-            "@fs_ledcolor" : 8716032,
             "@fs_momentary" : false
           }
         }
@@ -537,7 +530,7 @@
         "@tempo" : 125
       }
     },
-    "device_version" : 35717152
+    "device_version" : 36700160
   },
   "schema" : "L6Preset"
 }

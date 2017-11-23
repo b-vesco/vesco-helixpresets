@@ -3,10 +3,10 @@
   "data" : {
     "meta" : {
       "name" : "Rebel Yell",
-      "application" : "Helix",
+      "application" : "HX Edit",
       "build_sha" : "6a7d211",
-      "modifieddate" : 1503218432,
-      "appversion" : 35651584
+      "modifieddate" : 1511418600,
+      "appversion" : 36700160
     },
     "device" : 2162689,
     "tone" : {
@@ -43,11 +43,11 @@
           "@path" : 0,
           "@trails" : false,
           "@type" : 7,
-          "Mix" : 0.21,
+          "Mix" : 0.21000003814697266,
           "Level" : 0,
-          "Decay" : 0.16,
+          "Decay" : 0.15999996662139893,
           "HighCut" : 4400,
-          "Predelay" : 0.08000004
+          "Predelay" : 0.080000042915344238
         },
         "inputA" : {
           "@input" : 0,
@@ -139,9 +139,9 @@
         },
         "block3" : {
           "@model" : "HD2_FlangerCourtesanFlange",
-          "Range" : 0.71,
+          "Range" : 0.71000003814697266,
           "@position" : 3,
-          "Rate" : 0.22,
+          "Rate" : 0.22000002861022949,
           "SyncSelect1" : 1,
           "TempoSync1" : false,
           "@enabled" : false,
@@ -149,20 +149,20 @@
           "@type" : 0,
           "FilterMatrix" : false,
           "Headroom" : 0,
-          "Mix" : 0.88,
-          "Color" : 0.53,
+          "Mix" : 0.87999999523162842,
+          "Color" : 0.52999997138977051,
           "Level" : 0,
           "@stereo" : false,
           "Spread" : 0.125
         },
         "block2" : {
           "@model" : "HD2_DistArbitratorFuzz",
-          "Fuzz" : 0.9,
+          "Fuzz" : 0.89999997615814209,
           "@path" : 0,
           "@stereo" : false,
           "@type" : 0,
           "@position" : 2,
-          "Level" : 0.55,
+          "Level" : 0.54999995231628418,
           "@enabled" : false
         },
         "inputB" : {
@@ -183,8 +183,8 @@
           "@path" : 0,
           "@trails" : false,
           "@type" : 7,
-          "Mix" : 0.3,
-          "Time" : 0.6,
+          "Mix" : 0.29999995231628418,
+          "Time" : 0.60000002384185791,
           "Level" : 0,
           "@stereo" : false
         },
@@ -209,13 +209,13 @@
           "@input" : 1,
           "@model" : "HD2_AppDSPFlow1Input",
           "noiseGate" : true,
-          "decay" : 0.04999995,
+          "decay" : 0.04999995231628418,
           "threshold" : -75
         },
         "block6" : {
           "@model" : "HD2_DelaySimpleDelay",
           "@position" : 6,
-          "Feedback" : 0.35,
+          "Feedback" : 0.35000002384185791,
           "SyncSelect1" : 3,
           "TempoSync1" : true,
           "Scale" : 0.75,
@@ -223,8 +223,8 @@
           "@path" : 0,
           "@trails" : true,
           "@type" : 7,
-          "Mix" : 0.45,
-          "Time" : 0.6,
+          "Mix" : 0.45000004768371582,
+          "Time" : 0.60000002384185791,
           "Level" : 0,
           "@stereo" : false
         },
@@ -249,7 +249,7 @@
         "block5" : {
           "@model" : "HD2_Cab4x12Greenback25",
           "@position" : 5,
-          "LowCut" : 19.9,
+          "LowCut" : 19.899999618530273,
           "@enabled" : true,
           "EarlyReflections" : 0,
           "@path" : 0,
@@ -262,7 +262,7 @@
         },
         "cab0" : {
           "@model" : "HD2_Cab2x12BlueBell",
-          "LowCut" : 19.9,
+          "LowCut" : 19.899999618530273,
           "@mic" : 3,
           "EarlyReflections" : 0,
           "Distance" : 1,
@@ -277,24 +277,24 @@
           "gain" : 0
         },
         "block4" : {
-          "Bias" : 0.7,
+          "Bias" : 0.70000004768371582,
           "@model" : "HD2_AmpBritPlexiBrt",
-          "Master" : 0.8399999,
+          "Master" : 0.83999991416931152,
           "@position" : 4,
-          "Drive" : 0.9,
-          "Treble" : 0.6800001,
-          "ChVol" : 0.55,
+          "Drive" : 0.89999997615814209,
+          "Treble" : 0.68000006675720215,
+          "ChVol" : 0.54999995231628418,
           "@enabled" : true,
           "Ripple" : 0.5,
           "@path" : 0,
           "@type" : 1,
-          "Bass" : 0.54,
+          "Bass" : 0.53999996185302734,
           "BiasX" : 0.5,
           "Hum" : 0.5,
-          "Mid" : 0.35,
+          "Mid" : 0.35000002384185791,
           "@bypassvolume" : 1,
-          "Presence" : 0.77,
-          "Sag" : 0.62
+          "Presence" : 0.76999998092651367,
+          "Sag" : 0.62000000476837158
         }
       },
       "snapshot2" : {
@@ -442,7 +442,7 @@
         "@tempo" : 167
       }
     },
-    "device_version" : 35717152
+    "device_version" : 36700160
   },
   "schema" : "L6Preset"
 }

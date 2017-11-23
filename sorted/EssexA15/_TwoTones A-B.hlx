@@ -3,10 +3,10 @@
   "data" : {
     "meta" : {
       "name" : "TwoTones A-B",
-      "application" : "Helix",
+      "application" : "HX Edit",
       "build_sha" : "905c912",
-      "modifieddate" : 1503218574,
-      "appversion" : 35651584
+      "modifieddate" : 1511418765,
+      "appversion" : 36700160
     },
     "device" : 2162689,
     "tone" : {
@@ -64,7 +64,7 @@
         "block3" : {
           "@model" : "HD2_DelaySimpleDelay",
           "@position" : 5,
-          "Feedback" : 0.35,
+          "Feedback" : 0.35000002384185791,
           "SyncSelect1" : 6,
           "TempoSync1" : false,
           "Scale" : 0.75,
@@ -72,8 +72,8 @@
           "@path" : 0,
           "@trails" : false,
           "@type" : 7,
-          "Mix" : 0.4,
-          "Time" : 0.8,
+          "Mix" : 0.39999997615814209,
+          "Time" : 0.79999995231628418,
           "Level" : 0,
           "@stereo" : true
         },
@@ -85,11 +85,11 @@
           "@path" : 0,
           "@trails" : false,
           "@type" : 7,
-          "Mix" : 0.3199999,
+          "Mix" : 0.31999993324279785,
           "Level" : 0,
-          "Decay" : 0.35,
+          "Decay" : 0.35000002384185791,
           "HighCut" : 4300,
-          "Predelay" : 0.02199996
+          "Predelay" : 0.021999955177307129
         },
         "inputA" : {
           "@input" : 0,
@@ -174,32 +174,32 @@
       },
       "dsp0" : {
         "block0" : {
-          "Bias" : 0.65,
+          "Bias" : 0.64999997615814209,
           "@model" : "HD2_AmpUSDeluxeNrm",
           "Master" : 1,
           "@position" : 7,
           "Drive" : 0.5,
-          "Treble" : 0.4400001,
-          "ChVol" : 0.8,
+          "Treble" : 0.44000005722045898,
+          "ChVol" : 0.79999995231628418,
           "@enabled" : true,
           "Ripple" : 0.5,
           "@path" : 0,
           "@type" : 1,
-          "Bass" : 0.51,
+          "Bass" : 0.50999999046325684,
           "BiasX" : 0.5,
           "Hum" : 0.5,
           "Mid" : 0.5,
           "@bypassvolume" : 1,
-          "Presence" : 0.2,
+          "Presence" : 0.20000004768371582,
           "Sag" : 0.5
         },
         "block1" : {
-          "Bias" : 0.55,
+          "Bias" : 0.54999995231628418,
           "@model" : "HD2_AmpEssexA15",
           "Master" : 1,
           "@position" : 7,
           "Cut" : 0,
-          "Drive" : 0.3099999,
+          "Drive" : 0.30999994277954102,
           "ChVol" : 0.5,
           "@enabled" : true,
           "Ripple" : 0.5,
@@ -208,10 +208,10 @@
           "Bass" : 0.5,
           "BiasX" : 0.5,
           "Hum" : 0.5,
-          "Mid" : 0.41,
+          "Mid" : 0.40999996662139893,
           "@bypassvolume" : 1,
           "Sag" : 0.5,
-          "Treble" : 0.5799999
+          "Treble" : 0.57999992370605469
         },
         "block2" : {
           "@model" : "HD2_VolPanVol",
@@ -275,7 +275,7 @@
         "@tempo" : 120
       },
       "global" : {
-        "@variax_volumeknob" : -0.1,
+        "@variax_volumeknob" : -0.10000000149011612,
         "@pedalstate" : 2,
         "@variax_customtuning" : false,
         "@variax_str1tuning" : 0,
@@ -295,7 +295,7 @@
         "@variax_magmode" : true,
         "@variax_str3tuning" : 0,
         "@variax_str5tuning" : 0,
-        "@variax_toneknob" : -0.1,
+        "@variax_toneknob" : -0.10000000149011612,
         "@current_snapshot" : 0,
         "@cursor_group" : "block0"
       },
@@ -382,7 +382,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 35717152
+    "device_version" : 36700160
   },
   "schema" : "L6Preset"
 }

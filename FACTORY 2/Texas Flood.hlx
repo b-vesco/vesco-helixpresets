@@ -3,10 +3,10 @@
   "data" : {
     "meta" : {
       "name" : "Texas Flood",
-      "application" : "Helix",
+      "application" : "HX Edit",
       "build_sha" : "6a7d211",
-      "modifieddate" : 1503218418,
-      "appversion" : 35651584
+      "modifieddate" : 1511418599,
+      "appversion" : 36700160
     },
     "device" : 2162689,
     "tone" : {
@@ -24,10 +24,10 @@
       },
       "dsp1" : {
         "block0" : {
-          "SlowSpeed" : 0.3199999,
+          "SlowSpeed" : 0.31999993324279785,
           "@model" : "HD2_RotaryVibeRotary",
           "@position" : 1,
-          "Drive" : 0.54,
+          "Drive" : 0.53999996185302734,
           "SyncSelect1" : 6,
           "Speed" : true,
           "SyncSelect2" : 11,
@@ -36,9 +36,9 @@
           "Blend" : 0.5,
           "@path" : 1,
           "@type" : 0,
-          "Mix" : 0.3,
+          "Mix" : 0.29999995231628418,
           "Headroom" : 0,
-          "FastSpeed" : 0.3,
+          "FastSpeed" : 0.29999995231628418,
           "TempoSync2" : true,
           "RampTime" : 1,
           "Level" : 0
@@ -51,9 +51,9 @@
           "@path" : 1,
           "@trails" : false,
           "@type" : 7,
-          "Mix" : 0.4,
+          "Mix" : 0.39999997615814209,
           "Level" : 0,
-          "Decay" : 0.42,
+          "Decay" : 0.41999995708465576,
           "HighCut" : 4263,
           "Predelay" : 0
         },
@@ -77,16 +77,16 @@
           "TempoSync1" : true,
           "Scale" : 1,
           "@enabled" : false,
-          "WowFlutter" : 0.36,
+          "WowFlutter" : 0.36000001430511475,
           "@path" : 0,
           "@trails" : false,
           "@type" : 7,
           "Headroom" : 0,
           "Mix" : 0.25,
-          "Time" : 0.507,
+          "Time" : 0.50699996948242188,
           "Level" : 0,
           "@stereo" : false,
-          "Spread" : 0.29
+          "Spread" : 0.28999999165534973
         },
         "inputA" : {
           "@input" : 0,
@@ -217,25 +217,25 @@
           "threshold" : -48
         },
         "block1" : {
-          "Bias" : 0.6,
+          "Bias" : 0.60000002384185791,
           "@model" : "HD2_AmpUSDoubleNrm",
           "Master" : 1,
           "@position" : 3,
-          "Drive" : 0.7,
+          "Drive" : 0.70000004768371582,
           "Treble" : 0.5,
-          "ChVol" : 0.76,
+          "ChVol" : 0.75999999046325684,
           "@enabled" : true,
           "Ripple" : 0.5,
           "@path" : 1,
           "@type" : 3,
-          "Bass" : 0.9,
+          "Bass" : 0.89999997615814209,
           "BiasX" : 0.5,
-          "Hum" : 0.51,
-          "Mid" : 0.1800001,
+          "Hum" : 0.50999999046325684,
+          "Mid" : 0.18000006675720215,
           "@bypassvolume" : 1,
           "@cab" : "cab1",
           "Presence" : 0.5,
-          "Sag" : 0.8299999
+          "Sag" : 0.82999992370605469
         },
         "outputB" : {
           "@model" : "HD2_AppDSPFlowOutput",
@@ -247,12 +247,12 @@
           "@input" : 1,
           "@model" : "HD2_AppDSPFlow1Input",
           "noiseGate" : true,
-          "decay" : 0.101,
+          "decay" : 0.10099995136260986,
           "threshold" : -70
         },
         "cab1" : {
           "@model" : "HD2_Cab2x12DoubleC12N",
-          "LowCut" : 19.9,
+          "LowCut" : 19.899999618530273,
           "@mic" : 0,
           "EarlyReflections" : 0,
           "Distance" : 3,
@@ -261,13 +261,13 @@
           "HighCut" : 20100
         },
         "block0" : {
-          "Bias" : 0.7,
+          "Bias" : 0.70000004768371582,
           "@model" : "HD2_AmpBritPlexiBrt",
-          "Master" : 0.48,
+          "Master" : 0.48000001907348633,
           "@position" : 3,
-          "Drive" : 0.8299999,
-          "Treble" : 0.33,
-          "ChVol" : 0.9200001,
+          "Drive" : 0.82999992370605469,
+          "Treble" : 0.33000004291534424,
+          "ChVol" : 0.92000007629394531,
           "@enabled" : true,
           "Ripple" : 0.5,
           "@path" : 0,
@@ -278,8 +278,8 @@
           "Mid" : 0.5,
           "@bypassvolume" : 1,
           "@cab" : "cab0",
-          "Presence" : 0.3,
-          "Sag" : 0.63
+          "Presence" : 0.29999995231628418,
+          "Sag" : 0.62999999523162842
         },
         "split" : {
           "@model" : "HD2_AppDSPFlowSplitAB",
@@ -290,9 +290,9 @@
         },
         "cab0" : {
           "@model" : "HD2_Cab4x12Greenback25",
-          "LowCut" : 19.9,
+          "LowCut" : 19.899999618530273,
           "@mic" : 0,
-          "EarlyReflections" : 0.3,
+          "EarlyReflections" : 0.29999995231628418,
           "Distance" : 4,
           "Level" : 0,
           "@enabled" : true,
@@ -309,9 +309,9 @@
           "@path" : 0,
           "@stereo" : false,
           "@type" : 0,
-          "Gain" : 0.16,
+          "Gain" : 0.15999996662139893,
           "@position" : 2,
-          "Level" : 0.8,
+          "Level" : 0.79999995231628418,
           "Tone" : 0.5,
           "@enabled" : true
         }
@@ -458,7 +458,7 @@
         "@tempo" : 122
       }
     },
-    "device_version" : 35717152
+    "device_version" : 36700160
   },
   "schema" : "L6Preset"
 }

@@ -3,10 +3,10 @@
   "data" : {
     "meta" : {
       "name" : "Cali Rectifire",
-      "application" : "Helix",
-      "build_sha" : "dd24475",
-      "modifieddate" : 1503218322,
-      "appversion" : 35651584
+      "application" : "HX Edit",
+      "build_sha" : "cdef813",
+      "modifieddate" : 1511418552,
+      "appversion" : 36700160
     },
     "device" : 2162689,
     "tone" : {
@@ -122,15 +122,15 @@
           "@path" : 0,
           "@trails" : false,
           "@type" : 7,
-          "Mix" : 0.2,
+          "Mix" : 0.20000004768371582,
           "Level" : 0,
           "Decay" : 0.25,
           "HighCut" : 3720,
-          "Predelay" : 0.01100004
+          "Predelay" : 0.01100003719329834
         },
         "block2" : {
           "@model" : "HD2_GateNoiseGate",
-          "Decay" : 0.02999997,
+          "Decay" : 0.029999971389770508,
           "@path" : 0,
           "@stereo" : false,
           "@type" : 0,
@@ -148,7 +148,7 @@
         },
         "block7" : {
           "@model" : "HD2_PhaserScriptModPhase",
-          "Rate" : 0.1900001,
+          "Rate" : 0.19000005722045898,
           "@position" : 5,
           "SyncSelect1" : 6,
           "TempoSync1" : true,
@@ -220,24 +220,24 @@
           "BalanceB" : 0.5
         },
         "block5" : {
-          "Bias" : 0.6,
+          "Bias" : 0.60000002384185791,
           "@model" : "HD2_AmpCaliRectifire",
-          "Master" : 0.3,
+          "Master" : 0.29999995231628418,
           "@position" : 3,
           "Drive" : 0.5,
-          "Treble" : 0.48,
-          "ChVol" : 0.4400001,
+          "Treble" : 0.48000001907348633,
+          "ChVol" : 0.5,
           "@enabled" : true,
           "Ripple" : 0.5,
           "@path" : 0,
           "@type" : 1,
-          "Bass" : 0.55,
-          "BiasX" : 0.48,
-          "Hum" : 0.27,
+          "Bass" : 0.54999995231628418,
+          "BiasX" : 0.48000001907348633,
+          "Hum" : 0.26999998092651367,
           "Mid" : 0.75,
           "@bypassvolume" : 1,
-          "Presence" : 0.3199999,
-          "Sag" : 0.2
+          "Presence" : 0.31999993324279785,
+          "Sag" : 0.20000004768371582
         },
         "outputA" : {
           "@model" : "HD2_AppDSPFlowOutput",
@@ -253,7 +253,7 @@
           "Gain" : 0.25,
           "@position" : 2,
           "Level" : 1,
-          "Tone" : 0.7,
+          "Tone" : 0.70000004768371582,
           "@enabled" : true
         }
       },
@@ -264,7 +264,7 @@
         "@tempo" : 120
       },
       "global" : {
-        "@variax_volumeknob" : -0.1,
+        "@variax_volumeknob" : -0.10000000149011612,
         "@pedalstate" : 2,
         "@variax_customtuning" : false,
         "@variax_str1tuning" : 0,
@@ -284,7 +284,7 @@
         "@variax_magmode" : true,
         "@variax_str3tuning" : 0,
         "@variax_str5tuning" : 0,
-        "@variax_toneknob" : -0.1,
+        "@variax_toneknob" : -0.10000000149011612,
         "@current_snapshot" : 0,
         "@cursor_group" : "block5"
       },
@@ -376,7 +376,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 35717152
+    "device_version" : 36700160
   },
   "schema" : "L6Preset"
 }

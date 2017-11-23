@@ -3,10 +3,10 @@
   "data" : {
     "meta" : {
       "name" : "PV Panama",
-      "application" : "Helix",
+      "application" : "HX Edit",
       "build_sha" : "dd24475",
-      "modifieddate" : 1503218323,
-      "appversion" : 35651584
+      "modifieddate" : 1511418553,
+      "appversion" : 36700160
     },
     "device" : 2162689,
     "tone" : {
@@ -108,15 +108,15 @@
           "@model" : "HD2_CompressorLAStudioComp",
           "@position" : 1,
           "@enabled" : true,
-          "Emphasis" : 0.09000003,
+          "Emphasis" : 0.090000033378601074,
           "@path" : 0,
           "@type" : 0,
           "Mix" : 1,
-          "PeakReduction" : 0.6700001,
+          "PeakReduction" : 0.67000007629394531,
           "Type" : false,
           "Level" : 0,
           "@stereo" : false,
-          "Gain" : 0.7
+          "Gain" : 0.70000004768371582
         },
         "block8" : {
           "@model" : "HD2_ReverbHall",
@@ -126,15 +126,15 @@
           "@path" : 0,
           "@trails" : false,
           "@type" : 7,
-          "Mix" : 0.24,
+          "Mix" : 0.24000000953674316,
           "Level" : 0,
-          "Decay" : 0.36,
+          "Decay" : 0.36000001430511475,
           "HighCut" : 3400,
-          "Predelay" : 0.0004999638
+          "Predelay" : 0.00049996376037597656
         },
         "block2" : {
           "@model" : "HD2_GateNoiseGate",
-          "Decay" : 0.04999995,
+          "Decay" : 0.04999995231628418,
           "@path" : 0,
           "@stereo" : false,
           "@type" : 0,
@@ -189,25 +189,25 @@
           "threshold" : -48
         },
         "block6" : {
-          "Bias" : 0.62,
+          "Bias" : 0.62000000476837158,
           "@model" : "HD2_AmpPVPanama",
-          "Master" : 0.4,
+          "Master" : 0.39999997615814209,
           "@position" : 4,
-          "Drive" : 0.3099999,
-          "Resonance" : 0.46,
-          "Treble" : 0.55,
-          "ChVol" : 0.5999999,
+          "Drive" : 0.30999994277954102,
+          "Resonance" : 0.46000003814697266,
+          "Treble" : 0.54999995231628418,
+          "ChVol" : 0.59999990463256836,
           "@enabled" : true,
           "Ripple" : 0.5,
           "@path" : 0,
           "@type" : 1,
-          "Bass" : 0.64,
+          "Bass" : 0.63999998569488525,
           "BiasX" : 0.5,
           "Hum" : 0.5,
-          "Mid" : 0.4,
+          "Mid" : 0.39999997615814209,
           "@bypassvolume" : 1,
-          "Presence" : 0.49,
-          "Sag" : 0.4
+          "Presence" : 0.49000000953674316,
+          "Sag" : 0.39999997615814209
         },
         "block0" : {
           "@model" : "HD2_Cab4x12UberV30",
@@ -238,7 +238,7 @@
           "Gain" : 0,
           "@position" : 3,
           "Level" : 1,
-          "Tone" : 0.65,
+          "Tone" : 0.64999997615814209,
           "@enabled" : true
         },
         "outputA" : {
@@ -265,7 +265,7 @@
         "@tempo" : 120
       },
       "global" : {
-        "@variax_volumeknob" : -0.1,
+        "@variax_volumeknob" : -0.10000000149011612,
         "@pedalstate" : 2,
         "@variax_customtuning" : false,
         "@variax_str1tuning" : 0,
@@ -285,7 +285,7 @@
         "@variax_magmode" : true,
         "@variax_str3tuning" : 0,
         "@variax_str5tuning" : 0,
-        "@variax_toneknob" : -0.1,
+        "@variax_toneknob" : -0.10000000149011612,
         "@current_snapshot" : 0,
         "@cursor_group" : "block6"
       },
@@ -377,7 +377,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 35717152
+    "device_version" : 36700160
   },
   "schema" : "L6Preset"
 }

@@ -3,10 +3,10 @@
   "data" : {
     "meta" : {
       "name" : "Funk'n Roll",
-      "application" : "Helix",
+      "application" : "HX Edit",
       "build_sha" : "6a7d211",
-      "modifieddate" : 1503218417,
-      "appversion" : 35651584
+      "modifieddate" : 1511418599,
+      "appversion" : 36700160
     },
     "device" : 2162689,
     "tone" : {
@@ -106,7 +106,7 @@
         },
         "block3" : {
           "@model" : "HD2_FilterMutantFilter",
-          "Peak" : 0.4,
+          "Peak" : 0.39999997615814209,
           "@position" : 2,
           "Drive" : true,
           "Range" : false,
@@ -116,7 +116,7 @@
           "Mix" : 0.5,
           "Level" : 0,
           "@stereo" : false,
-          "Gain" : 0.15,
+          "Gain" : 0.14999997615814209,
           "Mode" : 1
         },
         "block2" : {
@@ -125,9 +125,9 @@
           "@path" : 0,
           "@stereo" : false,
           "@type" : 0,
-          "Gain" : 0.6600001,
+          "Gain" : 0.66000008583068848,
           "@position" : 1,
-          "Level" : 0.65,
+          "Level" : 0.64999997615814209,
           "Tone" : 0.5,
           "@enabled" : true,
           "LPHP" : false
@@ -147,9 +147,9 @@
           "@path" : 0,
           "@trails" : false,
           "@type" : 7,
-          "Mix" : 0.14,
+          "Mix" : 0.13999998569488525,
           "Level" : 0,
-          "Decay" : 0.5599999,
+          "Decay" : 0.55999994277954102,
           "HighCut" : 3500,
           "Predelay" : 0
         },
@@ -178,10 +178,10 @@
         },
         "block6" : {
           "SweepDepth" : 2830,
-          "SweepResonance" : 0.45,
+          "SweepResonance" : 0.45000004768371582,
           "SweepShape" : 0,
           "@trails" : false,
-          "SweepSpeed" : 0.34,
+          "SweepSpeed" : 0.34000003337860107,
           "@enabled" : true,
           "SweepStart" : 205,
           "SweepSpread" : 1,
@@ -193,15 +193,15 @@
           "LowCut" : 120,
           "@path" : 0,
           "Level" : 0,
-          "Mix" : 0.24,
-          "Feedback" : 0.5799999,
+          "Mix" : 0.24000000953674316,
+          "Feedback" : 0.57999992370605469,
           "HighCut" : 8000,
           "Scale" : 1,
           "@position" : 5,
           "Headroom" : 0,
           "TempoSync1" : false,
           "SweepSymmetry" : 0.5,
-          "Time" : 0.45
+          "Time" : 0.45000004768371582
         },
         "block0" : {
           "@model" : "HD2_Looper",
@@ -228,17 +228,17 @@
           "@model" : "HD2_AmpEssexA30",
           "Master" : 1,
           "@position" : 4,
-          "Cut" : 0.5599999,
-          "Drive" : 0.3,
-          "Treble" : 0.36,
+          "Cut" : 0.55999994277954102,
+          "Drive" : 0.29999995231628418,
+          "Treble" : 0.36000001430511475,
           "ChVol" : 1,
           "@enabled" : true,
           "Ripple" : 0.5,
           "@path" : 0,
           "@type" : 3,
-          "Bass" : 0.4,
+          "Bass" : 0.39999997615814209,
           "BiasX" : 0.5,
-          "Hum" : 0.42,
+          "Hum" : 0.41999995708465576,
           "@bypassvolume" : 1,
           "@cab" : "cab0",
           "Presence" : 0,
@@ -264,11 +264,11 @@
           "@model" : "HD2_CompressorLAStudioComp",
           "@position" : 3,
           "@enabled" : true,
-          "Emphasis" : 0.09000003,
+          "Emphasis" : 0.090000033378601074,
           "@path" : 0,
           "@type" : 0,
           "Mix" : 1,
-          "PeakReduction" : 0.78,
+          "PeakReduction" : 0.77999997138977051,
           "Type" : false,
           "Level" : 0,
           "@stereo" : false,
@@ -282,7 +282,7 @@
         "@tempo" : 120
       },
       "global" : {
-        "@variax_volumeknob" : -0.1,
+        "@variax_volumeknob" : -0.10000000149011612,
         "@pedalstate" : 2,
         "@variax_customtuning" : false,
         "@variax_str1tuning" : 0,
@@ -302,7 +302,7 @@
         "@variax_magmode" : true,
         "@variax_str3tuning" : 0,
         "@variax_str5tuning" : 0,
-        "@variax_toneknob" : -0.1,
+        "@variax_toneknob" : -0.10000000149011612,
         "@current_snapshot" : 0,
         "@cursor_group" : "block3"
       },
@@ -400,7 +400,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 35717152
+    "device_version" : 36700160
   },
   "schema" : "L6Preset"
 }

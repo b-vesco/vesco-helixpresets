@@ -3,10 +3,10 @@
   "data" : {
     "meta" : {
       "name" : "SC Small Lead",
-      "application" : "Helix",
+      "application" : "HX Edit",
       "build_sha" : "905c912",
-      "modifieddate" : 1503218400,
-      "appversion" : 35651584
+      "modifieddate" : 1511418597,
+      "appversion" : 36700160
     },
     "device" : 2162689,
     "tone" : {
@@ -119,7 +119,7 @@
           "Gain" : 0,
           "@position" : 2,
           "Level" : 1,
-          "Tone" : 0.51,
+          "Tone" : 0.50999999046325684,
           "@enabled" : true
         },
         "block2" : {
@@ -160,7 +160,7 @@
           "@input" : 1,
           "@model" : "HD2_AppDSPFlow1Input",
           "noiseGate" : true,
-          "decay" : 0.1159999,
+          "decay" : 0.11599993705749512,
           "threshold" : -29.5
         },
         "split" : {
@@ -184,17 +184,17 @@
           "@enabled" : false
         },
         "block5" : {
-          "HighQ" : 0.707,
+          "HighQ" : 0.7070000171661377,
           "@model" : "HD2_EQParametric",
           "HighGain" : 0,
           "@position" : 4,
-          "LowQ" : 0.707,
+          "LowQ" : 0.7070000171661377,
           "LowCut" : 20,
           "LowFreq" : 110,
           "MidFreq" : 2000,
           "@enabled" : true,
           "MidGain" : 0,
-          "MidQ" : 0.707,
+          "MidQ" : 0.7070000171661377,
           "@path" : 0,
           "@type" : 0,
           "LowGain" : 0,
@@ -220,13 +220,13 @@
           "gain" : 0
         },
         "block4" : {
-          "Bias" : 0.5699999,
+          "Bias" : 0.56999993324279785,
           "@model" : "HD2_AmpSoloLeadOD",
           "Master" : 0.5,
           "@position" : 3,
-          "Drive" : 0.28,
+          "Drive" : 0.27999997138977051,
           "Treble" : 0.5,
-          "ChVol" : 0.62,
+          "ChVol" : 0.62000000476837158,
           "@enabled" : true,
           "Ripple" : 0.5,
           "@path" : 0,
@@ -234,10 +234,10 @@
           "Bass" : 0.75,
           "BiasX" : 0.5,
           "Hum" : 0.5,
-          "Mid" : 0.45,
+          "Mid" : 0.45000004768371582,
           "@bypassvolume" : 1,
           "@cab" : "cab0",
-          "Presence" : 0.46,
+          "Presence" : 0.46000003814697266,
           "Sag" : 0.5
         }
       },
@@ -248,7 +248,7 @@
         "@tempo" : 120
       },
       "global" : {
-        "@variax_volumeknob" : -0.1,
+        "@variax_volumeknob" : -0.10000000149011612,
         "@pedalstate" : 2,
         "@variax_customtuning" : false,
         "@variax_str1tuning" : 0,
@@ -268,7 +268,7 @@
         "@variax_magmode" : true,
         "@variax_str3tuning" : 0,
         "@variax_str5tuning" : 0,
-        "@variax_toneknob" : -0.1,
+        "@variax_toneknob" : -0.10000000149011612,
         "@current_snapshot" : 0,
         "@cursor_group" : "block4"
       },
@@ -356,7 +356,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 35717152
+    "device_version" : 36700160
   },
   "schema" : "L6Preset"
 }

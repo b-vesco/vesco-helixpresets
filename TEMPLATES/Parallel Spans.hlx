@@ -3,10 +3,10 @@
   "data" : {
     "meta" : {
       "name" : "Parallel Spans",
-      "application" : "Helix",
+      "application" : "HX Edit",
       "build_sha" : "905c912",
-      "modifieddate" : 1503218574,
-      "appversion" : 35651584
+      "modifieddate" : 1511418765,
+      "appversion" : 36700160
     },
     "device" : 2162689,
     "tone" : {
@@ -24,24 +24,24 @@
       },
       "dsp1" : {
         "block0" : {
-          "Bias" : 0.7,
+          "Bias" : 0.70000004768371582,
           "@model" : "HD2_AmpWhoWatt100",
-          "Master" : 0.6600001,
+          "Master" : 0.66000008583068848,
           "@position" : 0,
           "Drive" : 0.5,
-          "Treble" : 0.47,
-          "ChVol" : 0.73,
+          "Treble" : 0.47000002861022949,
+          "ChVol" : 0.73000001907348633,
           "@enabled" : true,
           "Ripple" : 0.5,
           "@path" : 1,
           "@type" : 3,
-          "Bass" : 0.9,
+          "Bass" : 0.89999997615814209,
           "BiasX" : 0.5,
           "Hum" : 0.5,
-          "Mid" : 0.49,
+          "Mid" : 0.49000000953674316,
           "@bypassvolume" : 1,
           "@cab" : "cab0",
-          "Presence" : 0.42,
+          "Presence" : 0.41999995708465576,
           "Sag" : 0.5
         },
         "block1" : {
@@ -64,15 +64,15 @@
           "@path" : 0,
           "@trails" : false,
           "@type" : 7,
-          "Mix" : 0.2,
+          "Mix" : 0.20000004768371582,
           "Level" : 0,
-          "Decay" : 0.2,
+          "Decay" : 0.20000004768371582,
           "HighCut" : 4570,
-          "Predelay" : 0.01499999
+          "Predelay" : 0.014999985694885254
         },
         "cab0" : {
           "@model" : "HD2_Cab4x12WhoWatt100",
-          "LowCut" : 19.9,
+          "LowCut" : 19.899999618530273,
           "@mic" : 2,
           "EarlyReflections" : 0,
           "Distance" : 1,
@@ -151,24 +151,24 @@
       },
       "dsp0" : {
         "block0" : {
-          "Bias" : 0.7,
+          "Bias" : 0.70000004768371582,
           "@model" : "HD2_AmpWhoWatt100",
-          "Master" : 0.6600001,
+          "Master" : 0.66000008583068848,
           "@position" : 7,
           "Drive" : 0.5,
-          "Treble" : 0.47,
-          "ChVol" : 0.8299999,
+          "Treble" : 0.47000002861022949,
+          "ChVol" : 0.82999992370605469,
           "@enabled" : true,
           "Ripple" : 0.5,
           "@path" : 0,
           "@type" : 3,
-          "Bass" : 0.9,
+          "Bass" : 0.89999997615814209,
           "BiasX" : 0.5,
           "Hum" : 0.5,
-          "Mid" : 0.49,
+          "Mid" : 0.49000000953674316,
           "@bypassvolume" : 1,
           "@cab" : "cab0",
-          "Presence" : 0.42,
+          "Presence" : 0.41999995708465576,
           "Sag" : 0.5
         },
         "block1" : {
@@ -192,7 +192,7 @@
         },
         "cab0" : {
           "@model" : "HD2_Cab4x12WhoWatt100",
-          "LowCut" : 19.9,
+          "LowCut" : 19.899999618530273,
           "@mic" : 2,
           "EarlyReflections" : 0,
           "Distance" : 1,
@@ -253,7 +253,7 @@
         "@tempo" : 120
       },
       "global" : {
-        "@variax_volumeknob" : -0.1,
+        "@variax_volumeknob" : -0.10000000149011612,
         "@pedalstate" : 2,
         "@variax_customtuning" : false,
         "@variax_str1tuning" : 0,
@@ -273,7 +273,7 @@
         "@variax_magmode" : true,
         "@variax_str3tuning" : 0,
         "@variax_str5tuning" : 0,
-        "@variax_toneknob" : -0.1,
+        "@variax_toneknob" : -0.10000000149011612,
         "@current_snapshot" : 0,
         "@cursor_group" : "block0"
       },
@@ -352,7 +352,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 35717152
+    "device_version" : 36700160
   },
   "schema" : "L6Preset"
 }

@@ -3,10 +3,10 @@
   "data" : {
     "meta" : {
       "name" : "Hi Octane",
-      "application" : "Helix",
+      "application" : "HX Edit",
       "build_sha" : "905c912",
-      "modifieddate" : 1503218443,
-      "appversion" : 35651584
+      "modifieddate" : 1511418601,
+      "appversion" : 36700160
     },
     "device" : 2162689,
     "tone" : {
@@ -95,26 +95,26 @@
         },
         "block3" : {
           "@model" : "HD2_DistTeemah",
-          "Treble" : 0.5899999,
+          "Treble" : 0.58999991416931152,
           "Bass" : 0.5,
           "@path" : 0,
           "@stereo" : false,
           "@type" : 0,
           "Clipping" : 0,
-          "Gain" : 0.52,
+          "Gain" : 0.51999998092651367,
           "@position" : 1,
           "Level" : 0.625,
           "@enabled" : true
         },
         "block2" : {
           "@model" : "HD2_PitchSimplePitch",
-          "Cents1" : -0.200001,
+          "Cents1" : -0.20000100135803223,
           "@position" : 0,
           "Time1" : 0,
           "@enabled" : true,
           "@path" : 0,
           "@type" : 0,
-          "Mix" : 0.34,
+          "Mix" : 0.34000003337860107,
           "LevelVoice1" : 1,
           "Interval1" : 24,
           "Level" : 0,
@@ -137,30 +137,30 @@
           "@trails" : false,
           "Time" : 1,
           "@enabled" : true,
-          "Tap3Pan" : 0.166,
+          "Tap3Pan" : 0.16600000858306885,
           "@type" : 7,
-          "Tap2Pan" : 0.666,
+          "Tap2Pan" : 0.66600000858306885,
           "SyncSelect1" : 6,
           "@model" : "HD2_DelayMultitap6",
           "Tap6Pan" : 1,
-          "LowCut" : 19.9,
+          "LowCut" : 19.899999618530273,
           "@path" : 1,
           "Level" : 0,
-          "Mix" : 0.4,
-          "Tap1Pan" : 0.3329999,
-          "Feedback" : 0.4300001,
+          "Mix" : 0.39999997615814209,
+          "Tap1Pan" : 0.33299994468688965,
+          "Feedback" : 0.43000006675720215,
           "HighCut" : 20100,
-          "Tap1Delay" : 0.1,
+          "Tap1Delay" : 0.10000002384185791,
           "Tap1Level" : 1,
-          "Tap2Delay" : 0.3,
+          "Tap2Delay" : 0.29999995231628418,
           "@position" : 4,
           "Tap2Level" : 1,
-          "Tap3Delay" : 0.4,
+          "Tap3Delay" : 0.39999997615814209,
           "Tap3Level" : 1,
-          "Tap4Delay" : 0.6,
+          "Tap4Delay" : 0.60000002384185791,
           "Tap4Level" : 1,
-          "Tap4Pan" : 0.666,
-          "Tap5Delay" : 0.822,
+          "Tap4Pan" : 0.66600000858306885,
+          "Tap5Delay" : 0.82200002670288086,
           "Tap5Level" : 1
         },
         "outputB" : {
@@ -196,11 +196,11 @@
           "@path" : 0,
           "@trails" : false,
           "@type" : 7,
-          "Mix" : 0.3,
+          "Mix" : 0.29999995231628418,
           "Level" : 0,
-          "Decay" : 0.8199999,
+          "Decay" : 0.81999993324279785,
           "HighCut" : 9400,
-          "Predelay" : 0.04999995
+          "Predelay" : 0.04999995231628418
         },
         "split" : {
           "BalanceA" : 0.5,
@@ -213,13 +213,13 @@
         "block5" : {
           "@model" : "HD2_CompressorDeluxeComp",
           "@position" : 3,
-          "Threshold" : -37.1,
-          "Release" : 0.2,
+          "Threshold" : -37.099998474121094,
+          "Release" : 0.20000004768371582,
           "@enabled" : true,
           "Knee" : 6,
           "@path" : 0,
           "@type" : 0,
-          "Attack" : 0.03799999,
+          "Attack" : 0.037999987602233887,
           "Mix" : 1,
           "Ratio" : 3,
           "Level" : 7,
@@ -227,7 +227,7 @@
         },
         "cab0" : {
           "@model" : "HD2_Cab2x12BlueBell",
-          "LowCut" : 19.9,
+          "LowCut" : 19.899999618530273,
           "@mic" : 11,
           "EarlyReflections" : 0,
           "Distance" : 1,
@@ -242,24 +242,24 @@
           "gain" : 0
         },
         "block4" : {
-          "Bias" : 0.6700001,
+          "Bias" : 0.67000007629394531,
           "@model" : "HD2_AmpA30FawnBrt",
           "Master" : 1,
           "@position" : 2,
           "Cut" : 0.5,
-          "Drive" : 0.6600001,
-          "Treble" : 0.35,
-          "ChVol" : 0.8,
+          "Drive" : 0.66000008583068848,
+          "Treble" : 0.35000002384185791,
+          "ChVol" : 0.79999995231628418,
           "@enabled" : true,
           "Ripple" : 0.5,
           "@path" : 0,
           "@type" : 3,
-          "Bass" : 0.74,
+          "Bass" : 0.74000000953674316,
           "BiasX" : 0.5,
           "Hum" : 0.5,
           "@bypassvolume" : 1,
           "@cab" : "cab0",
-          "Presence" : 0.3099999,
+          "Presence" : 0.30999994277954102,
           "Sag" : 0.5
         }
       },
@@ -370,7 +370,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 35717152
+    "device_version" : 36700160
   },
   "schema" : "L6Preset"
 }

@@ -3,10 +3,10 @@
   "data" : {
     "meta" : {
       "name" : "Whole Lotta",
-      "application" : "Helix",
+      "application" : "HX Edit",
       "build_sha" : "905c912",
-      "modifieddate" : 1503218326,
-      "appversion" : 35651584
+      "modifieddate" : 1511418557,
+      "appversion" : 36700160
     },
     "device" : 2162689,
     "tone" : {
@@ -119,7 +119,7 @@
           "@type" : 0,
           "Gain" : 0.25,
           "@position" : 2,
-          "Level" : 0.55,
+          "Level" : 0.54999995231628418,
           "Tone" : 0.5,
           "@enabled" : false,
           "LPHP" : false
@@ -174,7 +174,7 @@
           "@input" : 1,
           "@model" : "HD2_AppDSPFlow1Input",
           "noiseGate" : true,
-          "decay" : 0.04999995,
+          "decay" : 0.04999995231628418,
           "threshold" : -64
         },
         "block6" : {
@@ -199,11 +199,11 @@
           "@path" : 1,
           "@trails" : false,
           "@type" : 7,
-          "Mix" : 0.28,
+          "Mix" : 0.27999997138977051,
           "Level" : 0,
-          "Decay" : 0.35,
+          "Decay" : 0.35000002384185791,
           "HighCut" : 4300,
-          "Predelay" : 0.133
+          "Predelay" : 0.13300001621246338
         },
         "split" : {
           "BalanceA" : 0.5,
@@ -214,23 +214,23 @@
           "BalanceB" : 0.5
         },
         "block5" : {
-          "Bias" : 0.7,
+          "Bias" : 0.70000004768371582,
           "@model" : "HD2_AmpBritPlexiBrt",
           "Master" : 1,
           "@position" : 4,
-          "Drive" : 0.52,
+          "Drive" : 0.51999998092651367,
           "Treble" : 1,
-          "ChVol" : 0.74,
+          "ChVol" : 0.74000000953674316,
           "@enabled" : true,
           "Ripple" : 0.5,
           "@path" : 0,
           "@type" : 1,
-          "Bass" : 0.8099999,
+          "Bass" : 0.80999994277954102,
           "BiasX" : 0.5,
           "Hum" : 0.5,
           "Mid" : 1,
           "@bypassvolume" : 1,
-          "Presence" : 0.29,
+          "Presence" : 0.28999996185302734,
           "Sag" : 0.5
         },
         "cab0" : {
@@ -257,16 +257,16 @@
           "TempoSync1" : true,
           "Scale" : 1,
           "@enabled" : false,
-          "WowFlutter" : 0.36,
+          "WowFlutter" : 0.36000001430511475,
           "@path" : 0,
           "@trails" : false,
           "@type" : 7,
           "Headroom" : 0,
-          "Mix" : 0.1,
-          "Time" : 0.507,
+          "Mix" : 0.10000002384185791,
+          "Time" : 0.50699996948242188,
           "Level" : 0,
           "@stereo" : false,
-          "Spread" : 0.29
+          "Spread" : 0.28999999165534973
         }
       },
       "snapshot2" : {
@@ -276,7 +276,7 @@
         "@tempo" : 89
       },
       "global" : {
-        "@variax_volumeknob" : -0.1,
+        "@variax_volumeknob" : -0.10000000149011612,
         "@pedalstate" : 2,
         "@variax_customtuning" : false,
         "@variax_str1tuning" : 0,
@@ -296,7 +296,7 @@
         "@variax_magmode" : true,
         "@variax_str3tuning" : 0,
         "@variax_str5tuning" : 0,
-        "@variax_toneknob" : -0.1,
+        "@variax_toneknob" : -0.10000000149011612,
         "@current_snapshot" : 0,
         "@cursor_group" : "block5"
       },
@@ -393,7 +393,7 @@
         "@tempo" : 89
       }
     },
-    "device_version" : 35717152
+    "device_version" : 36700160
   },
   "schema" : "L6Preset"
 }

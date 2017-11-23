@@ -3,10 +3,10 @@
   "data" : {
     "meta" : {
       "name" : "Matchstick Ch2",
-      "application" : "Helix",
-      "build_sha" : "905c912",
-      "modifieddate" : 1503218322,
-      "appversion" : 35651584
+      "application" : "HX Edit",
+      "build_sha" : "cdef813",
+      "modifieddate" : 1511418553,
+      "appversion" : 36700160
     },
     "device" : 2162689,
     "tone" : {
@@ -14,13 +14,13 @@
         "@pedalstate" : 2,
         "@ledcolor" : 0,
         "@name" : "SNAPSHOT 8",
-        "@tempo" : 124.87
+        "@tempo" : 124.87000274658203
       },
       "snapshot4" : {
         "@pedalstate" : 2,
         "@ledcolor" : 0,
         "@name" : "SNAPSHOT 5",
-        "@tempo" : 124.87
+        "@tempo" : 124.87000274658203
       },
       "dsp1" : {
         "split" : {
@@ -73,7 +73,7 @@
         "@pedalstate" : 2,
         "@ledcolor" : 0,
         "@name" : "SNAPSHOT 2",
-        "@tempo" : 124.87
+        "@tempo" : 124.87000274658203
       },
       "controller" : {
         "dsp0" : {
@@ -90,7 +90,7 @@
         "@pedalstate" : 2,
         "@ledcolor" : 0,
         "@name" : "SNAPSHOT 6",
-        "@tempo" : 124.87
+        "@tempo" : 124.87000274658203
       },
       "dsp0" : {
         "join" : {
@@ -107,21 +107,21 @@
         "block3" : {
           "Bias" : 0.5,
           "@model" : "HD2_AmpMatchstickCh2",
-          "Master" : 0.9300001,
+          "Master" : 0.93000006675720215,
           "@position" : 2,
-          "Cut" : 0.48,
-          "ChVol" : 0.6800001,
+          "Cut" : 0.48000001907348633,
+          "ChVol" : 0.57999992370605469,
           "@enabled" : true,
           "Ripple" : 0.5,
           "@path" : 0,
           "@type" : 3,
-          "Ch2Drive" : 0.36,
+          "Ch2Drive" : 0.36000001430511475,
           "BiasX" : 0.5,
           "Tone" : 3,
           "Hum" : 0.5,
           "@bypassvolume" : 1,
           "@cab" : "cab0",
-          "Presence" : 0.17,
+          "Presence" : 0.16999995708465576,
           "Sag" : 0.5
         },
         "block2" : {
@@ -131,8 +131,8 @@
           "@type" : 0,
           "Gain" : 0.5,
           "@position" : 1,
-          "Level" : 0.9400001,
-          "Tone" : 0.7,
+          "Level" : 0.94000005722045898,
+          "Tone" : 0.70000004768371582,
           "@enabled" : false
         },
         "inputB" : {
@@ -173,11 +173,11 @@
           "@path" : 0,
           "@trails" : false,
           "@type" : 7,
-          "Mix" : 0.27,
+          "Mix" : 0.26999998092651367,
           "Level" : 0,
-          "Decay" : 0.2,
+          "Decay" : 0.20000004768371582,
           "HighCut" : 4300,
-          "Predelay" : 0.02199996
+          "Predelay" : 0.021999955177307129
         },
         "block0" : {
           "@model" : "HD2_Looper",
@@ -202,7 +202,7 @@
         "block5" : {
           "@model" : "HD2_DelayPingPong",
           "@position" : 4,
-          "Feedback" : 0.4,
+          "Feedback" : 0.39999997615814209,
           "LowCut" : 100,
           "SyncSelect1" : 6,
           "Scale" : 0.5,
@@ -211,18 +211,18 @@
           "@path" : 0,
           "@trails" : false,
           "@type" : 7,
-          "Mix" : 0.27,
-          "Time" : 0.6,
+          "Mix" : 0.26999998092651367,
+          "Time" : 0.60000002384185791,
           "Level" : 0,
           "Spread" : 1,
           "HighCut" : 8900
         },
         "cab0" : {
-          "@model" : "HD2_Cab2x12SilverBell",
-          "LowCut" : 19.9,
-          "@mic" : 2,
+          "@model" : "HD2_Cab1x12MatchG25",
+          "LowCut" : 19.899999618530273,
+          "@mic" : 6,
           "EarlyReflections" : 0,
-          "Distance" : 5,
+          "Distance" : 1.5,
           "Level" : 0,
           "@enabled" : true,
           "HighCut" : 20100
@@ -241,21 +241,21 @@
           "@path" : 0,
           "@type" : 0,
           "Mix" : 1,
-          "PeakReduction" : 0.73,
+          "PeakReduction" : 0.73000001907348633,
           "Type" : false,
           "Level" : 0,
           "@stereo" : false,
-          "Gain" : 0.55
+          "Gain" : 0.54999995231628418
         }
       },
       "snapshot2" : {
         "@pedalstate" : 2,
         "@ledcolor" : 0,
         "@name" : "SNAPSHOT 3",
-        "@tempo" : 124.87
+        "@tempo" : 124.87000274658203
       },
       "global" : {
-        "@variax_volumeknob" : -0.1,
+        "@variax_volumeknob" : -0.10000000149011612,
         "@pedalstate" : 2,
         "@variax_customtuning" : false,
         "@variax_str1tuning" : 0,
@@ -268,14 +268,14 @@
         "@cursor_dsp" : 0,
         "@cursor_path" : 0,
         "@guitarinputZ" : 0,
-        "@tempo" : 124.87,
+        "@tempo" : 124.87000274658203,
         "@topology1" : "A",
         "@cursor_position" : 2,
         "@variax_lockctrls" : 0,
         "@variax_magmode" : true,
         "@variax_str3tuning" : 0,
         "@variax_str5tuning" : 0,
-        "@variax_toneknob" : -0.1,
+        "@variax_toneknob" : -0.10000000149011612,
         "@current_snapshot" : 0,
         "@cursor_group" : "block3"
       },
@@ -283,7 +283,7 @@
         "@pedalstate" : 2,
         "@ledcolor" : 0,
         "@name" : "SNAPSHOT 7",
-        "@tempo" : 124.87
+        "@tempo" : 124.87000274658203
       },
       "footswitch" : {
         "dsp0" : {
@@ -335,7 +335,7 @@
         "@pedalstate" : 2,
         "@ledcolor" : 0,
         "@name" : "SNAPSHOT 4",
-        "@tempo" : 124.87
+        "@tempo" : 124.87000274658203
       },
       "snapshot0" : {
         "controllers" : {
@@ -362,10 +362,10 @@
         "@pedalstate" : 2,
         "@ledcolor" : 0,
         "@name" : "SNAPSHOT 1",
-        "@tempo" : 124.87
+        "@tempo" : 124.87000274658203
       }
     },
-    "device_version" : 35717152
+    "device_version" : 36700160
   },
   "schema" : "L6Preset"
 }

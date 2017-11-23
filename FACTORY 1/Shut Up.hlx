@@ -3,10 +3,10 @@
   "data" : {
     "meta" : {
       "name" : "Shut Up",
-      "application" : "Helix",
+      "application" : "HX Edit",
       "build_sha" : "905c912",
-      "modifieddate" : 1503218330,
-      "appversion" : 35651584
+      "modifieddate" : 1511418559,
+      "appversion" : 36700160
     },
     "device" : 2162689,
     "tone" : {
@@ -122,13 +122,13 @@
         },
         "block2" : {
           "@model" : "HD2_DistTeemah",
-          "Treble" : 0.4400001,
-          "Bass" : 0.72,
+          "Treble" : 0.44000005722045898,
+          "Bass" : 0.72000002861022949,
           "@path" : 0,
           "@stereo" : false,
           "@type" : 0,
           "Clipping" : 0,
-          "Gain" : 0.74,
+          "Gain" : 0.74000000953674316,
           "@position" : 1,
           "Level" : 0.5,
           "@enabled" : false
@@ -148,11 +148,11 @@
           "@path" : 0,
           "@trails" : false,
           "@type" : 7,
-          "Mix" : 0.3199999,
+          "Mix" : 0.31999993324279785,
           "Level" : 0,
-          "Decay" : 0.35,
+          "Decay" : 0.35000002384185791,
           "HighCut" : 4300,
-          "Predelay" : 0.02199996
+          "Predelay" : 0.021999955177307129
         },
         "block1" : {
           "@model" : "HD2_VolPanVol",
@@ -180,7 +180,7 @@
         "block6" : {
           "@model" : "HD2_DelayElephantMan",
           "@position" : 5,
-          "Feedback" : 0.3099999,
+          "Feedback" : 0.30999994277954102,
           "SyncSelect1" : 8,
           "TempoSync1" : true,
           "Scale" : 1,
@@ -189,14 +189,14 @@
           "@trails" : false,
           "@type" : 7,
           "Headroom" : 0,
-          "Mix" : 0.4300001,
-          "Noise" : 0.1,
+          "Mix" : 0.43000006675720215,
+          "Noise" : 0.10000002384185791,
           "Time" : 0.375,
           "Level" : 0,
           "@stereo" : false,
           "Mode" : false,
-          "Spread" : 0.272,
-          "Depth" : 0.16
+          "Spread" : 0.2720000147819519,
+          "Depth" : 0.15999996662139893
         },
         "block0" : {
           "@model" : "HD2_Looper",
@@ -223,13 +223,13 @@
           "@path" : 0,
           "@stereo" : false,
           "@type" : 0,
-          "Gain" : 4.39564,
+          "Gain" : 4.3956398963928223,
           "@position" : 4,
           "@enabled" : false
         },
         "cab0" : {
           "@model" : "HD2_Cab2x12SilverBell",
-          "LowCut" : 19.9,
+          "LowCut" : 19.899999618530273,
           "@mic" : 12,
           "EarlyReflections" : 0,
           "Distance" : 2,
@@ -250,7 +250,7 @@
           "@position" : 3,
           "Cut" : 0,
           "Treble" : 0.5,
-          "ChVol" : 0.78,
+          "ChVol" : 0.77999997138977051,
           "@enabled" : true,
           "Ripple" : 0.5,
           "@path" : 0,
@@ -272,7 +272,7 @@
         "@tempo" : 130
       },
       "global" : {
-        "@variax_volumeknob" : -0.1,
+        "@variax_volumeknob" : -0.10000000149011612,
         "@pedalstate" : 2,
         "@variax_customtuning" : false,
         "@variax_str1tuning" : 0,
@@ -292,7 +292,7 @@
         "@variax_magmode" : false,
         "@variax_str3tuning" : 0,
         "@variax_str5tuning" : 0,
-        "@variax_toneknob" : -0.1,
+        "@variax_toneknob" : -0.10000000149011612,
         "@current_snapshot" : 0,
         "@cursor_group" : "block6"
       },
@@ -392,7 +392,7 @@
         "@tempo" : 130
       }
     },
-    "device_version" : 35717152
+    "device_version" : 36700160
   },
   "schema" : "L6Preset"
 }

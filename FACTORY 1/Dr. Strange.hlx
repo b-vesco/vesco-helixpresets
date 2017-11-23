@@ -3,10 +3,10 @@
   "data" : {
     "meta" : {
       "name" : "Dr. Strange",
-      "application" : "Helix",
-      "build_sha" : "dd24475",
-      "modifieddate" : 1503218327,
-      "appversion" : 35651584
+      "application" : "HX Edit",
+      "build_sha" : "61d1df5",
+      "modifieddate" : 1511418557,
+      "appversion" : 36700160
     },
     "device" : 2162689,
     "tone" : {
@@ -23,52 +23,23 @@
         "@tempo" : 120
       },
       "dsp1" : {
-        "block0" : {
-          "HoldTime" : 0.01,
-          "@model" : "HD2_DistBitcrusher",
-          "OpenThreshold" : -70,
-          "@position" : 0,
-          "SampleRate" : 18000,
-          "LowCut" : 19.9,
-          "BitDepth" : 8,
-          "@enabled" : false,
-          "@path" : 0,
-          "@type" : 0,
-          "Mix" : 1,
-          "CloseThreshold" : -70,
+        "join" : {
+          "@model" : "HD2_AppDSPFlowJoin",
+          "B Pan" : 0.5,
+          "B Level" : 0,
+          "A Level" : 0,
+          "A Pan" : 0.5,
+          "@position" : 8,
           "Level" : 0,
-          "@stereo" : true,
-          "Decay" : 0.01,
-          "Gain" : 0,
-          "HighCut" : 8000
-        },
-        "block1" : {
-          "@model" : "HD2_DelayVintageDigitalV2",
-          "Rate" : 0.2,
-          "@position" : 1,
-          "Feedback" : 0.45,
-          "SampleRate" : 3,
-          "SyncSelect1" : 6,
-          "BitDepth" : 1,
           "@enabled" : true,
-          "Scale" : 0.75,
-          "TempoSync1" : true,
-          "@path" : 0,
-          "@trails" : false,
-          "@type" : 7,
-          "Headroom" : 0,
-          "Mix" : 0.45,
-          "Time" : 0.5,
-          "Level" : 0,
-          "@stereo" : true,
-          "Depth" : 0.2
+          "B Polarity" : false
         },
-        "block2" : {
+        "block3" : {
           "@model" : "HD2_DelayReverseDelay",
           "@position" : 2,
           "Feedback" : 0.5,
-          "LowCut" : 19.9,
-          "Speed" : 0.01999998,
+          "LowCut" : 19.899999618530273,
+          "Speed" : 0.019999980926513672,
           "SyncSelect1" : 6,
           "@enabled" : true,
           "TempoSync1" : false,
@@ -84,45 +55,26 @@
           "HighCut" : 20100,
           "Depth" : 0.5
         },
-        "block3" : {
-          "@model" : "HD2_ReverbParticle",
+        "block2" : {
+          "@model" : "HD2_DelayVintageDigitalV2",
+          "Rate" : 0.20000004768371582,
+          "@position" : 1,
+          "Feedback" : 0.45000004768371582,
+          "SampleRate" : 3,
+          "SyncSelect1" : 6,
+          "BitDepth" : 1,
+          "@enabled" : true,
+          "Scale" : 0.75,
+          "TempoSync1" : true,
           "@path" : 0,
-          "@type" : 7,
-          "Dwell" : 0.13,
-          "Condition" : 2,
-          "@position" : 3,
           "@trails" : false,
-          "Level" : 1,
-          "@enabled" : true,
-          "Mix" : 0.5
-        },
-        "block4" : {
-          "Hi Gain" : -2,
-          "@model" : "HD2_Compressor3BandComp",
-          "Lo X Freq" : 400,
-          "@position" : 4,
-          "Mid Thresh" : -35,
-          "Hi X Freq" : 3000,
-          "@enabled" : true,
-          "Release" : 0.2,
-          "@path" : 0,
-          "@type" : 0,
-          "Attack" : 0.03939998,
-          "Detector" : true,
-          "Lo Thresh" : -40,
-          "Lo Gain" : 3.5,
-          "Mid Gain" : 5.98,
-          "Level" : 2,
+          "@type" : 7,
+          "Headroom" : 0,
+          "Mix" : 0.45000004768371582,
+          "Time" : 0.5,
+          "Level" : 0,
           "@stereo" : true,
-          "Ratio" : 2,
-          "Hi Thresh" : -50
-        },
-        "inputA" : {
-          "@input" : 0,
-          "@model" : "HD2_AppDSPFlow1Input",
-          "noiseGate" : false,
-          "decay" : 0.5,
-          "threshold" : -48
+          "Depth" : 0.20000004768371582
         },
         "inputB" : {
           "@input" : 0,
@@ -131,16 +83,37 @@
           "decay" : 0.5,
           "threshold" : -48
         },
-        "join" : {
-          "@model" : "HD2_AppDSPFlowJoin",
-          "B Pan" : 0.5,
-          "B Level" : 0,
-          "A Level" : 0,
-          "A Pan" : 0.5,
-          "@position" : 8,
+        "block1" : {
+          "HoldTime" : 0.0099999997764825821,
+          "@model" : "HD2_DistBitcrusher",
+          "OpenThreshold" : -70,
+          "@position" : 0,
+          "SampleRate" : 18000,
+          "LowCut" : 19.899999618530273,
+          "BitDepth" : 8,
+          "@enabled" : false,
+          "@path" : 0,
+          "@type" : 0,
+          "Mix" : 1,
+          "CloseThreshold" : -70,
           "Level" : 0,
-          "@enabled" : true,
-          "B Polarity" : false
+          "@stereo" : true,
+          "Decay" : 0.0099999997764825821,
+          "Gain" : 0,
+          "HighCut" : 8000
+        },
+        "outputB" : {
+          "@model" : "HD2_AppDSPFlowOutput",
+          "@output" : 1,
+          "pan" : 0.5,
+          "gain" : 0
+        },
+        "inputA" : {
+          "@input" : 0,
+          "@model" : "HD2_AppDSPFlow1Input",
+          "noiseGate" : false,
+          "decay" : 0.5,
+          "threshold" : -48
         },
         "split" : {
           "BalanceA" : 0.5,
@@ -150,17 +123,56 @@
           "@position" : 0,
           "BalanceB" : 0.5
         },
-        "outputB" : {
-          "@model" : "HD2_AppDSPFlowOutput",
-          "@output" : 1,
-          "pan" : 0.5,
-          "gain" : 0
+        "block0" : {
+          "@model" : "HD2_Looper",
+          "Overdub" : 0,
+          "Playback" : 0,
+          "@path" : 0,
+          "@stereo" : true,
+          "@type" : 6,
+          "highCut" : 20000,
+          "lowCut" : 20,
+          "@position" : 7,
+          "@enabled" : false
+        },
+        "block5" : {
+          "Hi Gain" : -2,
+          "@model" : "HD2_Compressor3BandComp",
+          "Lo X Freq" : 400,
+          "@position" : 4,
+          "Mid Thresh" : -35,
+          "Hi X Freq" : 3000,
+          "@enabled" : true,
+          "Release" : 0.20000004768371582,
+          "@path" : 0,
+          "@type" : 0,
+          "Attack" : 0.039399981498718262,
+          "Detector" : true,
+          "Lo Thresh" : -40,
+          "Lo Gain" : 3.5,
+          "Mid Gain" : 5.9800000190734863,
+          "Level" : 2,
+          "@stereo" : true,
+          "Ratio" : 2,
+          "Hi Thresh" : -50
         },
         "outputA" : {
           "@model" : "HD2_AppDSPFlowOutput",
           "@output" : 1,
           "pan" : 0.5,
           "gain" : 0
+        },
+        "block4" : {
+          "@model" : "HD2_ReverbParticle",
+          "@path" : 0,
+          "@type" : 7,
+          "Dwell" : 0.12999999523162842,
+          "Condition" : 2,
+          "@position" : 3,
+          "@trails" : false,
+          "Level" : 1,
+          "@enabled" : true,
+          "Mix" : 0.5
         }
       },
       "snapshot1" : {
@@ -222,10 +234,10 @@
         },
         "block9" : {
           "@model" : "HD2_DelayPitch",
-          "Cents1" : 0.2000008,
+          "Cents1" : 0.20000076293945312,
           "@position" : 6,
           "Feedback" : 0.5,
-          "LowCut" : 19.9,
+          "LowCut" : 19.899999618530273,
           "SyncSelect1" : 12,
           "Scale" : 1,
           "@enabled" : true,
@@ -233,8 +245,8 @@
           "@path" : 0,
           "@trails" : false,
           "@type" : 7,
-          "Mix" : 0.48,
-          "Time" : 0.319,
+          "Mix" : 0.48000001907348633,
+          "Time" : 0.3190000057220459,
           "Interval1" : 12,
           "Level" : 0,
           "@stereo" : true,
@@ -242,11 +254,11 @@
         },
         "block3" : {
           "@model" : "HD2_DistObsidian7000",
-          "Master" : 0.76,
+          "Master" : 0.75999999046325684,
           "@position" : 0,
           "Drive" : 0.5,
           "Grunt" : 2,
-          "HiMid" : -4.6199,
+          "HiMid" : -4.6199002265930176,
           "Distortion" : false,
           "@enabled" : true,
           "LoMid" : -5,
@@ -256,7 +268,7 @@
           "Attack" : 2,
           "Bass" : 5.5,
           "LoMidFreq" : 0,
-          "Level" : 0.6600001,
+          "Level" : 0.66000008583068848,
           "@stereo" : false,
           "Treble" : -1.5,
           "HiMidFreq" : 0
@@ -318,7 +330,7 @@
         },
         "block1" : {
           "@model" : "HD2_ChorusPlastiChorus",
-          "Rate" : 0.35,
+          "Rate" : 0.35000002384185791,
           "@position" : 4,
           "SyncSelect1" : 6,
           "TempoSync1" : false,
@@ -326,13 +338,13 @@
           "@path" : 1,
           "@type" : 0,
           "Mix" : 1,
-          "Headroom" : 1.1,
+          "Headroom" : 1.0999999046325684,
           "Tone" : 0.75,
           "Level" : 0,
           "@stereo" : false,
           "Mode" : false,
           "Spread" : 1,
-          "Depth" : 0.47
+          "Depth" : 0.47000002861022949
         },
         "outputB" : {
           "@model" : "HD2_AppDSPFlowOutput",
@@ -359,7 +371,7 @@
           "@path" : 0,
           "@type" : 0,
           "Mix" : 1,
-          "LevelVoice1" : 0.79,
+          "LevelVoice1" : 0.78999996185302734,
           "LevelVoice2" : 1,
           "Interval1" : 12,
           "Level" : 1.5,
@@ -375,11 +387,11 @@
           "@enabled" : true,
           "@path" : 1,
           "@type" : 0,
-          "Attack" : 0.1,
+          "Attack" : 0.10000002384185791,
           "Rel Offset" : 5.5,
           "Level" : 0.5,
           "@stereo" : false,
-          "Decay" : 0.01499999,
+          "Decay" : 0.014999985694885254,
           "Taper" : true
         },
         "split" : {
@@ -409,14 +421,14 @@
           "@model" : "HD2_Synth3NoteGenerator",
           "@stereo" : false,
           "Decay" : 3,
-          "Osc2Pan" : 0.544,
+          "Osc2Pan" : 0.54400002956390381,
           "@path" : 0,
           "Level" : 0,
-          "Osc1Glide" : 0.2,
+          "Osc1Glide" : 0.20000004768371582,
           "Osc1Level" : 0.5,
           "Osc2Glide" : 0.25,
           "Osc2Level" : 0.5,
-          "Osc1Pan" : 0.478,
+          "Osc1Pan" : 0.4779999852180481,
           "Osc3Glide" : 0.25,
           "@position" : 2,
           "Osc3Level" : 0.5,
@@ -430,16 +442,16 @@
           "@path" : 0,
           "@trails" : false,
           "@type" : 7,
-          "Mix" : 0.35,
+          "Mix" : 0.35000002384185791,
           "Level" : 0,
-          "Decay" : 0.47,
+          "Decay" : 0.47000002861022949,
           "HighCut" : 4700,
-          "Predelay" : 0.1
+          "Predelay" : 0.10000002384185791
         },
         "block4" : {
           "@model" : "HD2_Cab4x10Rhino",
           "Level" : 0,
-          "LowCut" : 19.9,
+          "LowCut" : 19.899999618530273,
           "@path" : 0,
           "@mic" : 2,
           "@type" : 2,
@@ -457,7 +469,7 @@
         "@tempo" : 120
       },
       "global" : {
-        "@variax_volumeknob" : -0.1,
+        "@variax_volumeknob" : -0.10000000149011612,
         "@pedalstate" : 2,
         "@variax_customtuning" : false,
         "@variax_str1tuning" : 0,
@@ -470,14 +482,14 @@
         "@cursor_dsp" : 0,
         "@cursor_path" : 0,
         "@guitarinputZ" : 0,
-        "@tempo" : 166.6667,
+        "@tempo" : 166.66670227050781,
         "@topology1" : "A",
         "@cursor_position" : 2,
         "@variax_lockctrls" : 0,
         "@variax_magmode" : true,
         "@variax_str3tuning" : 0,
         "@variax_str5tuning" : 0,
-        "@variax_toneknob" : -0.1,
+        "@variax_toneknob" : -0.10000000149011612,
         "@current_snapshot" : 0,
         "@cursor_group" : "block5"
       },
@@ -489,7 +501,15 @@
       },
       "footswitch" : {
         "dsp1" : {
-          "block0" : {
+          "block4" : {
+            "@fs_label" : "Particle Verb",
+            "@fs_enabled" : true,
+            "@fs_index" : 2,
+            "@fs_customlabel" : "Space",
+            "@fs_ledcolor" : 16723200,
+            "@fs_momentary" : false
+          },
+          "block1" : {
             "@fs_label" : "Bitcrusher",
             "@fs_enabled" : false,
             "@fs_index" : 8,
@@ -497,7 +517,7 @@
             "@fs_ledcolor" : 525824,
             "@fs_momentary" : false
           },
-          "block1" : {
+          "block2" : {
             "@fs_label" : "Vintage Digital",
             "@fs_enabled" : true,
             "@fs_index" : 3,
@@ -505,20 +525,12 @@
             "@fs_ledcolor" : 458496,
             "@fs_momentary" : false
           },
-          "block2" : {
+          "block3" : {
             "@fs_label" : "Reverse Delay",
             "@fs_enabled" : true,
             "@fs_index" : 3,
             "@fs_customlabel" : "Time",
             "@fs_ledcolor" : 458496,
-            "@fs_momentary" : false
-          },
-          "block3" : {
-            "@fs_label" : "Particle Verb",
-            "@fs_enabled" : true,
-            "@fs_index" : 2,
-            "@fs_customlabel" : "Space",
-            "@fs_ledcolor" : 16723200,
             "@fs_momentary" : false
           }
         },
@@ -623,7 +635,8 @@
           "dsp1" : {
             "block0" : false,
             "block4" : true,
-            "block1" : true,
+            "block1" : false,
+            "block5" : true,
             "block2" : true,
             "block3" : true
           },
@@ -647,7 +660,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 35717152
+    "device_version" : 36700160
   },
   "schema" : "L6Preset"
 }

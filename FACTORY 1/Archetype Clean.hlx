@@ -3,10 +3,10 @@
   "data" : {
     "meta" : {
       "name" : "Archetype Clean",
-      "application" : "Helix",
-      "build_sha" : "dd24475",
-      "modifieddate" : 1503218325,
-      "appversion" : 35651584
+      "application" : "HX Edit",
+      "build_sha" : "cdef813",
+      "modifieddate" : 1511418555,
+      "appversion" : 36700160
     },
     "device" : 2162689,
     "tone" : {
@@ -105,7 +105,7 @@
           "B Polarity" : false
         },
         "block3" : {
-          "Depth" : 0.8,
+          "Depth" : 0.79999995231628418,
           "@enabled" : true,
           "@bypassvolume" : 1,
           "Mid" : 0.5,
@@ -117,26 +117,26 @@
           "BrightSW" : true,
           "@model" : "HD2_AmpArchetypeClean",
           "Drive" : 0.5,
-          "Master" : 0.35,
-          "ChVol" : 0.8,
+          "Master" : 0.35000002384185791,
+          "ChVol" : 0.88999998569488525,
           "@path" : 0,
-          "Presence" : 0.21,
+          "Presence" : 0.21000003814697266,
           "Ripple" : 0.5,
           "@position" : 1,
           "Sag" : 0.5,
-          "Bass" : 0.42
+          "Bass" : 0.41999995708465576
         },
         "block8" : {
           "@model" : "HD2_CompressorDeluxeComp",
           "@position" : 6,
           "Threshold" : -26,
-          "Release" : 0.2,
+          "Release" : 0.20000004768371582,
           "@enabled" : true,
           "Knee" : 6,
           "@path" : 0,
           "@type" : 0,
-          "Attack" : 0.03799999,
-          "Mix" : 0.85,
+          "Attack" : 0.037999987602233887,
+          "Mix" : 0.85000002384185791,
           "Ratio" : 2,
           "Level" : 2,
           "@stereo" : true
@@ -166,16 +166,16 @@
           "@path" : 0,
           "@trails" : false,
           "@type" : 7,
-          "Mix" : 0.3199999,
+          "Mix" : 0.31999993324279785,
           "Level" : 0,
-          "Decay" : 0.35,
+          "Decay" : 0.35000002384185791,
           "HighCut" : 4300,
-          "Predelay" : 0.02199996
+          "Predelay" : 0.021999955177307129
         },
         "block1" : {
           "@model" : "HD2_Cab4X12CaliV30",
           "Level" : 0,
-          "LowCut" : 19.9,
+          "LowCut" : 19.899999618530273,
           "@path" : 1,
           "@mic" : 5,
           "@type" : 2,
@@ -199,10 +199,10 @@
           "threshold" : -48
         },
         "block6" : {
-          "Depth" : 0.22,
+          "Depth" : 0.22000002861022949,
           "@trails" : false,
           "@enabled" : true,
-          "Noise" : 0.36,
+          "Noise" : 0.36000001430511475,
           "BBD Size" : 2,
           "@type" : 7,
           "SyncSelect1" : 8,
@@ -210,20 +210,20 @@
           "@stereo" : true,
           "@path" : 0,
           "Level" : 0,
-          "Mix" : 0.24,
+          "Mix" : 0.24000000953674316,
           "Spread" : 0.5,
           "Feedback" : 0.5,
           "Scale" : 0.75,
           "@position" : 4,
           "Headroom" : 0,
-          "Rate" : 0.35,
+          "Rate" : 0.35000002384185791,
           "TempoSync1" : false,
           "Time" : 0.5
         },
         "block0" : {
           "@model" : "HD2_Cab4X12CaliV30",
           "Level" : 0,
-          "LowCut" : 19.9,
+          "LowCut" : 19.899999618530273,
           "@path" : 0,
           "@mic" : 0,
           "@type" : 2,
@@ -243,19 +243,19 @@
         },
         "block5" : {
           "@model" : "HD2_ChorusTrinityChorus",
-          "Rate" : 0.33,
+          "Rate" : 0.33000004291534424,
           "@position" : 3,
           "SyncSelect1" : 6,
           "Preset" : true,
-          "Left" : 0.46,
-          "Right" : 0.47,
+          "Left" : 0.46000003814697266,
+          "Right" : 0.47000002861022949,
           "@enabled" : true,
           "RightBoost" : false,
           "TempoSync1" : false,
           "@path" : 0,
           "@type" : 0,
-          "Center" : 0.26,
-          "Mix" : 0.35,
+          "Center" : 0.25999999046325684,
+          "Mix" : 0.35000002384185791,
           "LeftBoost" : false,
           "Level" : 0,
           "Manual" : true,
@@ -288,7 +288,7 @@
         "@tempo" : 120
       },
       "global" : {
-        "@variax_volumeknob" : -0.1,
+        "@variax_volumeknob" : -0.10000000149011612,
         "@pedalstate" : 2,
         "@variax_customtuning" : false,
         "@variax_str1tuning" : 0,
@@ -308,7 +308,7 @@
         "@variax_magmode" : true,
         "@variax_str3tuning" : 0,
         "@variax_str5tuning" : 0,
-        "@variax_toneknob" : -0.1,
+        "@variax_toneknob" : -0.10000000149011612,
         "@current_snapshot" : 0,
         "@cursor_group" : "block3"
       },
@@ -400,7 +400,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 35717152
+    "device_version" : 36700160
   },
   "schema" : "L6Preset"
 }

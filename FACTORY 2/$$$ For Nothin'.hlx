@@ -3,10 +3,10 @@
   "data" : {
     "meta" : {
       "name" : "$$$ For Nothin'",
-      "application" : "Helix",
+      "application" : "HX Edit",
       "build_sha" : "37cfcb5",
-      "modifieddate" : 1503218540,
-      "appversion" : 35651584
+      "modifieddate" : 1511418603,
+      "appversion" : 36700160
     },
     "device" : 2162689,
     "tone" : {
@@ -129,7 +129,7 @@
           "@stereo" : false,
           "@type" : 0,
           "@position" : 3,
-          "Level" : 5.4,
+          "Level" : 5.4000000953674316,
           "Mix" : 0.5,
           "@enabled" : true,
           "Sensitivity" : 0.5
@@ -140,9 +140,9 @@
           "@path" : 0,
           "@stereo" : false,
           "@type" : 0,
-          "Gain" : 0.6600001,
+          "Gain" : 0.66000008583068848,
           "@position" : 2,
-          "Level" : 0.65,
+          "Level" : 0.64999997615814209,
           "Tone" : 0.5,
           "@enabled" : true,
           "LPHP" : true
@@ -162,11 +162,11 @@
           "@path" : 0,
           "@trails" : false,
           "@type" : 7,
-          "Mix" : 0.46,
+          "Mix" : 0.46000003814697266,
           "Level" : 0,
-          "Decay" : 0.45,
+          "Decay" : 0.45000004768371582,
           "HighCut" : 3720,
-          "Predelay" : 0.01100004
+          "Predelay" : 0.01100003719329834
         },
         "block1" : {
           "@model" : "HD2_WahWeeper",
@@ -175,7 +175,7 @@
           "@stereo" : false,
           "@type" : 0,
           "FcLow" : 435,
-          "Pedal" : 0.46,
+          "Pedal" : 0.46000003814697266,
           "@position" : 1,
           "Level" : 0,
           "Mix" : 1,
@@ -191,19 +191,19 @@
           "@input" : 1,
           "@model" : "HD2_AppDSPFlow1Input",
           "noiseGate" : true,
-          "decay" : 0.04999995,
+          "decay" : 0.04999995231628418,
           "threshold" : -48
         },
         "block6" : {
           "@trails" : false,
           "@enabled" : false,
           "@type" : 7,
-          "DynAttack" : 0.5599999,
-          "Ducking" : 0.61,
+          "DynAttack" : 0.55999994277954102,
+          "Ducking" : 0.61000001430511475,
           "SyncSelect1" : 6,
           "@model" : "HD2_DelayDuckedDelay",
           "@stereo" : false,
-          "DynRel" : 0.51,
+          "DynRel" : 0.50999999046325684,
           "LowCut" : 60,
           "@path" : 0,
           "Level" : 0,
@@ -211,7 +211,7 @@
           "Feedback" : 0.375,
           "HighCut" : 10300,
           "Scale" : 1,
-          "Threshold" : 0.49,
+          "Threshold" : 0.49000000953674316,
           "@position" : 6,
           "TempoSync1" : true,
           "DynType" : false,
@@ -238,7 +238,7 @@
         "block5" : {
           "@model" : "HD2_Cab4x12Greenback25",
           "Level" : 0,
-          "LowCut" : 19.9,
+          "LowCut" : 19.899999618530273,
           "@path" : 0,
           "@mic" : 10,
           "@type" : 2,
@@ -250,7 +250,7 @@
         },
         "cab0" : {
           "@model" : "HD2_Cab4x12Greenback20",
-          "LowCut" : 19.9,
+          "LowCut" : 19.899999618530273,
           "@mic" : 0,
           "EarlyReflections" : 0,
           "Distance" : 3,
@@ -265,18 +265,18 @@
           "gain" : 0
         },
         "block4" : {
-          "Bias" : 0.7,
+          "Bias" : 0.70000004768371582,
           "@model" : "HD2_AmpBritJ45Brt",
           "Master" : 1,
           "@position" : 4,
-          "Drive" : 0.6,
-          "Treble" : 0.8,
-          "ChVol" : 0.8099999,
+          "Drive" : 0.60000002384185791,
+          "Treble" : 0.79999995231628418,
+          "ChVol" : 0.80999994277954102,
           "@enabled" : true,
           "Ripple" : 0.5,
           "@path" : 0,
           "@type" : 3,
-          "Bass" : 0.8,
+          "Bass" : 0.79999995231628418,
           "BiasX" : 0.5,
           "Hum" : 0.5,
           "Mid" : 1,
@@ -390,7 +390,7 @@
             "block1" : {
               "Pedal" : {
                 "@fs_enabled" : false,
-                "@value" : 0.46
+                "@value" : 0.46000003814697266
               }
             },
             "block0" : {
@@ -422,7 +422,7 @@
         "@tempo" : 135
       }
     },
-    "device_version" : 35717152
+    "device_version" : 36700160
   },
   "schema" : "L6Preset"
 }

@@ -3,10 +3,10 @@
   "data" : {
     "meta" : {
       "name" : "Every Breath",
-      "application" : "Helix",
+      "application" : "HX Edit",
       "build_sha" : "37cfcb5",
-      "modifieddate" : 1503218326,
-      "appversion" : 35651584
+      "modifieddate" : 1511418556,
+      "appversion" : 36700160
     },
     "device" : 2162689,
     "tone" : {
@@ -113,7 +113,7 @@
           "Level" : 0,
           "Mix" : 1,
           "@enabled" : true,
-          "Sensitivity" : 0.4
+          "Sensitivity" : 0.39999997615814209
         },
         "block2" : {
           "@model" : "HD2_VolPanGain",
@@ -140,10 +140,10 @@
           "@trails" : true,
           "@type" : 7,
           "Mix" : 0.25,
-          "Level" : -0.0999999,
-          "Decay" : 0.39,
+          "Level" : -0.099999904632568359,
+          "Decay" : 0.38999998569488525,
           "HighCut" : 4570,
-          "Predelay" : 0.101
+          "Predelay" : 0.10099995136260986
         },
         "block1" : {
           "@model" : "HD2_VolPanVol",
@@ -165,12 +165,12 @@
           "@input" : 1,
           "@model" : "HD2_AppDSPFlow1Input",
           "noiseGate" : true,
-          "decay" : 0.04999995,
+          "decay" : 0.04999995231628418,
           "threshold" : -70
         },
         "block6" : {
           "@model" : "HD2_ChorusPlastiChorus",
-          "Rate" : 0.35,
+          "Rate" : 0.35000002384185791,
           "@position" : 5,
           "SyncSelect1" : 1,
           "TempoSync1" : false,
@@ -184,7 +184,7 @@
           "@stereo" : true,
           "Mode" : false,
           "Spread" : 1,
-          "Depth" : 0.47
+          "Depth" : 0.47000002861022949
         },
         "block0" : {
           "@model" : "HD2_Looper",
@@ -208,16 +208,16 @@
         },
         "block5" : {
           "@model" : "HD2_AmpJazzRivet120",
-          "Master" : 0.85,
+          "Master" : 0.85000002384185791,
           "@position" : 4,
-          "Drive" : 0.61,
-          "Bright" : 0.51,
+          "Drive" : 0.61000001430511475,
+          "Bright" : 0.50999999046325684,
           "ChVol" : 1,
           "@enabled" : true,
           "@path" : 0,
           "@type" : 3,
-          "Bass" : 0.7,
-          "Mid" : 0.36,
+          "Bass" : 0.70000004768371582,
+          "Mid" : 0.36000001430511475,
           "@bypassvolume" : 1,
           "@cab" : "cab0",
           "Presence" : 0.5,
@@ -251,9 +251,9 @@
           "@trails" : false,
           "@type" : 7,
           "Headroom" : 0,
-          "Mix" : 0.37,
-          "Noise" : 0.28,
-          "Time" : 0.238,
+          "Mix" : 0.37000000476837158,
+          "Noise" : 0.27999997138977051,
+          "Time" : 0.23800003528594971,
           "Level" : 0,
           "@stereo" : false
         }
@@ -265,7 +265,7 @@
         "@tempo" : 116
       },
       "global" : {
-        "@variax_volumeknob" : -0.1,
+        "@variax_volumeknob" : -0.10000000149011612,
         "@pedalstate" : 2,
         "@variax_customtuning" : false,
         "@variax_str1tuning" : -1,
@@ -285,7 +285,7 @@
         "@variax_magmode" : true,
         "@variax_str3tuning" : -1,
         "@variax_str5tuning" : -1,
-        "@variax_toneknob" : -0.1,
+        "@variax_toneknob" : -0.10000000149011612,
         "@current_snapshot" : 0,
         "@cursor_group" : "block5"
       },
@@ -383,7 +383,7 @@
         "@tempo" : 116
       }
     },
-    "device_version" : 35717152
+    "device_version" : 36700160
   },
   "schema" : "L6Preset"
 }

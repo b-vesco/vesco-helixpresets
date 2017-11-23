@@ -3,10 +3,10 @@
   "data" : {
     "meta" : {
       "name" : "Jonny VibeZ",
-      "application" : "Helix",
+      "application" : "HX Edit",
       "build_sha" : "905c912",
-      "modifieddate" : 1503218326,
-      "appversion" : 35651584
+      "modifieddate" : 1511418556,
+      "appversion" : 36700160
     },
     "device" : 2162689,
     "tone" : {
@@ -36,38 +36,38 @@
           "@enabled" : false
         },
         "block1" : {
-          "Depth" : 0.49,
+          "Depth" : 0.49000000953674316,
           "@trails" : false,
           "@enabled" : true,
           "@type" : 7,
-          "Speed" : 0.02199996,
+          "Speed" : 0.021999955177307129,
           "SyncSelect1" : 9,
           "@model" : "HD2_DelayModChorusEcho",
           "@stereo" : true,
           "LowCut" : 155,
           "@path" : 0,
           "Level" : 0,
-          "Mix" : 0.36,
+          "Mix" : 0.36000001430511475,
           "Spread" : 1,
-          "Feedback" : 0.28,
+          "Feedback" : 0.27999997138977051,
           "HighCut" : 9540,
           "ModulationMode" : 1,
           "Scale" : 0.75,
           "@position" : 5,
           "TempoSync1" : true,
-          "Time" : 0.538
+          "Time" : 0.53799998760223389
         },
         "block2" : {
           "@model" : "HD2_ReverbParticle",
           "@path" : 0,
           "@type" : 7,
-          "Dwell" : 0.26,
+          "Dwell" : 0.25999999046325684,
           "Condition" : 2,
           "@position" : 6,
           "@trails" : false,
           "Level" : 1,
           "@enabled" : false,
-          "Mix" : 0.29
+          "Mix" : 0.28999996185302734
         },
         "inputA" : {
           "@input" : 0,
@@ -144,10 +144,10 @@
           "@path" : 0,
           "@stereo" : false,
           "@type" : 0,
-          "Gain" : 0.12,
+          "Gain" : 0.12000000476837158,
           "@position" : 1,
-          "Level" : 0.86,
-          "Tone" : 0.65,
+          "Level" : 0.86000001430511475,
+          "Tone" : 0.64999997615814209,
           "@enabled" : false
         },
         "block2" : {
@@ -156,10 +156,10 @@
           "@stereo" : false,
           "@type" : 0,
           "@position" : 0,
-          "Level" : 5.4,
+          "Level" : 5.4000000953674316,
           "Mix" : 1,
           "@enabled" : true,
-          "Sensitivity" : 0.4400001
+          "Sensitivity" : 0.44000005722045898
         },
         "inputB" : {
           "@input" : 0,
@@ -170,20 +170,20 @@
         },
         "block1" : {
           "@model" : "HD2_AmpJazzRivet120",
-          "Master" : 0.8199999,
+          "Master" : 0.81999993324279785,
           "@position" : 2,
-          "Drive" : 0.8,
+          "Drive" : 0.79999995231628418,
           "Bright" : 0,
-          "ChVol" : 0.7,
+          "ChVol" : 0.70000004768371582,
           "@enabled" : true,
           "@path" : 1,
           "@type" : 3,
-          "Bass" : 0.4400001,
-          "Mid" : 0.27,
+          "Bass" : 0.44000005722045898,
+          "Mid" : 0.26999998092651367,
           "@bypassvolume" : 1,
           "@cab" : "cab1",
-          "Presence" : 0.62,
-          "Treble" : 0.47
+          "Presence" : 0.62000000476837158,
+          "Treble" : 0.47000002861022949
         },
         "outputB" : {
           "@model" : "HD2_AppDSPFlowOutput",
@@ -200,7 +200,7 @@
         },
         "cab1" : {
           "@model" : "HD2_Cab2x12JazzRivet",
-          "LowCut" : 19.9,
+          "LowCut" : 19.899999618530273,
           "@mic" : 6,
           "EarlyReflections" : 0,
           "Distance" : 1,
@@ -209,24 +209,24 @@
           "HighCut" : 20100
         },
         "block0" : {
-          "Bias" : 0.6700001,
+          "Bias" : 0.67000007629394531,
           "@model" : "HD2_AmpA30FawnBrt",
-          "Master" : 0.8199999,
+          "Master" : 0.81999993324279785,
           "@position" : 2,
           "Cut" : 0.5,
-          "Drive" : 0.71,
-          "Treble" : 0.35,
-          "ChVol" : 0.76,
+          "Drive" : 0.71000003814697266,
+          "Treble" : 0.35000002384185791,
+          "ChVol" : 0.75999999046325684,
           "@enabled" : true,
           "Ripple" : 0.5,
           "@path" : 0,
           "@type" : 3,
-          "Bass" : 0.74,
+          "Bass" : 0.74000000953674316,
           "BiasX" : 0.5,
           "Hum" : 0.5,
           "@bypassvolume" : 1,
           "@cab" : "cab0",
-          "Presence" : 0.3099999,
+          "Presence" : 0.30999994277954102,
           "Sag" : 0.5
         },
         "split" : {
@@ -239,7 +239,7 @@
         },
         "cab0" : {
           "@model" : "HD2_Cab2x12BlueBell",
-          "LowCut" : 19.9,
+          "LowCut" : 19.899999618530273,
           "@mic" : 3,
           "EarlyReflections" : 0,
           "Distance" : 1,
@@ -255,11 +255,11 @@
         },
         "block4" : {
           "@model" : "HD2_VibratoBubbleVibrato",
-          "RiseTime" : 0.6600001,
+          "RiseTime" : 0.66000008583068848,
           "@position" : 3,
           "SyncSelect1" : 6,
           "TempoSync1" : false,
-          "Speed" : 0.632,
+          "Speed" : 0.63199996948242188,
           "@enabled" : true,
           "@path" : 0,
           "@type" : 0,
@@ -268,8 +268,8 @@
           "RiseTimeSwitch" : true,
           "Level" : 0,
           "@stereo" : true,
-          "Spread" : 0.554,
-          "Depth" : 0.7
+          "Spread" : 0.55400002002716064,
+          "Depth" : 0.70000004768371582
         }
       },
       "snapshot2" : {
@@ -279,7 +279,7 @@
         "@tempo" : 120
       },
       "global" : {
-        "@variax_volumeknob" : -0.1,
+        "@variax_volumeknob" : -0.10000000149011612,
         "@pedalstate" : 2,
         "@variax_customtuning" : false,
         "@variax_str1tuning" : 0,
@@ -299,7 +299,7 @@
         "@variax_magmode" : true,
         "@variax_str3tuning" : 0,
         "@variax_str5tuning" : 0,
-        "@variax_toneknob" : -0.1,
+        "@variax_toneknob" : -0.10000000149011612,
         "@current_snapshot" : 0,
         "@cursor_group" : "block4"
       },
@@ -377,7 +377,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 35717152
+    "device_version" : 36700160
   },
   "schema" : "L6Preset"
 }

@@ -3,10 +3,10 @@
   "data" : {
     "meta" : {
       "name" : "Sunset Shimmer",
-      "application" : "Helix",
+      "application" : "HX Edit",
       "build_sha" : "6a7d211",
-      "modifieddate" : 1503218417,
-      "appversion" : 35651584
+      "modifieddate" : 1511418599,
+      "appversion" : 36700160
     },
     "device" : 2162689,
     "tone" : {
@@ -37,21 +37,21 @@
         "block3" : {
           "@model" : "HD2_FilterMysterFilter",
           "@position" : 2,
-          "Frequency" : 0.8,
-          "Resonance" : 0.8,
-          "Release" : 0.97,
+          "Frequency" : 0.79999995231628418,
+          "Resonance" : 0.79999995231628418,
+          "Release" : 0.97000002861022949,
           "@enabled" : true,
-          "Sensitivity" : 0.52,
+          "Sensitivity" : 0.51999998092651367,
           "@path" : 1,
           "@type" : 0,
-          "Attack" : 0.13,
+          "Attack" : 0.12999999523162842,
           "Mix" : 1,
           "Level" : -1,
           "@stereo" : false
         },
         "block8" : {
           "@model" : "HD2_EQLowCutHighCut",
-          "LowCut" : 19.9,
+          "LowCut" : 19.899999618530273,
           "@path" : 0,
           "@stereo" : true,
           "@type" : 0,
@@ -61,7 +61,7 @@
           "HighCut" : 12000
         },
         "block2" : {
-          "SlowSpeed" : 0.33,
+          "SlowSpeed" : 0.33000004291534424,
           "@model" : "HD2_RotaryVibeRotary",
           "@position" : 1,
           "Drive" : 0,
@@ -75,7 +75,7 @@
           "@type" : 0,
           "Mix" : 1,
           "Headroom" : 0,
-          "FastSpeed" : 0.53,
+          "FastSpeed" : 0.52999997138977051,
           "TempoSync2" : false,
           "RampTime" : 1,
           "Level" : 0
@@ -91,19 +91,19 @@
           "@model" : "HD2_ReverbOcto",
           "@position" : 5,
           "LowCut" : 122,
-          "Intensity" : 0.63,
+          "Intensity" : 0.62999999523162842,
           "@enabled" : true,
           "@path" : 0,
           "@trails" : true,
           "@type" : 7,
           "Mix" : 0.5,
           "Level" : 0,
-          "Decay" : 0.72,
+          "Decay" : 0.72000002861022949,
           "HighCut" : 11000
         },
         "block1" : {
           "@model" : "HD2_FilterMutantFilter",
-          "Peak" : 0.8,
+          "Peak" : 0.79999995231628418,
           "@position" : 2,
           "Drive" : true,
           "Range" : true,
@@ -113,7 +113,7 @@
           "Mix" : 1,
           "Level" : 1,
           "@stereo" : true,
-          "Gain" : 0.15,
+          "Gain" : 0.14999997615814209,
           "Mode" : 1
         },
         "outputB" : {
@@ -133,7 +133,7 @@
           "@model" : "HD2_ReverbParticle",
           "@path" : 0,
           "@type" : 7,
-          "Dwell" : 0.8,
+          "Dwell" : 0.79999995231628418,
           "Condition" : 2,
           "@position" : 4,
           "@trails" : true,
@@ -142,10 +142,10 @@
           "Mix" : 0.5
         },
         "block0" : {
-          "SlowSpeed" : 0.24,
+          "SlowSpeed" : 0.24000000953674316,
           "@model" : "HD2_Rotary122Rotary",
           "@position" : 1,
-          "Drive" : 0.71,
+          "Drive" : 0.71000003814697266,
           "SyncSelect1" : 6,
           "Speed" : true,
           "SyncSelect2" : 6,
@@ -156,10 +156,10 @@
           "@type" : 0,
           "Mix" : 1,
           "Headroom" : 0,
-          "FastSpeed" : 0.73,
+          "FastSpeed" : 0.73000001907348633,
           "TempoSync2" : false,
           "RampTime" : 1,
-          "Level" : -5.7
+          "Level" : -5.6999998092651367
         },
         "split" : {
           "BalanceA" : 0.5,
@@ -170,23 +170,23 @@
           "BalanceB" : 0.5
         },
         "block5" : {
-          "FMPitch" : 1.4,
+          "FMPitch" : 1.4000000953674316,
           "@model" : "HD2_RingModulatorPitchRingMod",
-          "FMAmount" : 0.6700001,
+          "FMAmount" : 0.67000007629394531,
           "@position" : 3,
           "FMOctave" : 1,
-          "LowCut" : 19.9,
+          "LowCut" : 19.899999618530273,
           "Octave" : -1,
-          "FMShape" : 0.77,
+          "FMShape" : 0.76999998092651367,
           "@enabled" : false,
           "DutyCycle" : 0.5,
-          "Pitch" : -2.4,
+          "Pitch" : -2.4000000953674316,
           "@path" : 0,
           "@type" : 0,
           "Mix" : 0.5,
           "Shape" : 0.5,
           "Level" : 5.5,
-          "FMDuty" : 0.7,
+          "FMDuty" : 0.70000004768371582,
           "HighCut" : 20000
         },
         "outputA" : {
@@ -247,21 +247,21 @@
           "@model" : "HD2_AmpJazzRivet120",
           "Master" : 1,
           "@position" : 3,
-          "Drive" : 0.39,
+          "Drive" : 0.38999998569488525,
           "Bright" : 0,
-          "ChVol" : 0.7,
+          "ChVol" : 0.70000004768371582,
           "@enabled" : true,
           "@path" : 1,
           "@type" : 3,
-          "Bass" : 0.5599999,
-          "Mid" : 0.27,
+          "Bass" : 0.55999994277954102,
+          "Mid" : 0.26999998092651367,
           "@bypassvolume" : 1,
           "@cab" : "cab1",
-          "Presence" : 0.65,
-          "Treble" : 0.6600001
+          "Presence" : 0.64999997615814209,
+          "Treble" : 0.66000008583068848
         },
         "block2" : {
-          "Time" : 0.9,
+          "Time" : 0.89999997615814209,
           "Key" : 0,
           "@trails" : true,
           "@enabled" : true,
@@ -279,8 +279,8 @@
           "Feedback" : 0.5,
           "HighCut" : 20000,
           "Scale" : 0,
-          "DelayVoice2" : 0.6600001,
-          "DelayVoice1" : 0.33,
+          "DelayVoice2" : 0.66000008583068848,
+          "DelayVoice1" : 0.33000004291534424,
           "@position" : 2,
           "LevelVoice1" : 1,
           "LevelVoice2" : 1,
@@ -299,18 +299,18 @@
           "@model" : "HD2_AmpJazzRivet120",
           "Master" : 1,
           "@position" : 3,
-          "Drive" : 0.3,
+          "Drive" : 0.29999995231628418,
           "Bright" : 0,
-          "ChVol" : 0.7,
+          "ChVol" : 0.70000004768371582,
           "@enabled" : true,
           "@path" : 0,
           "@type" : 3,
-          "Bass" : 0.4,
-          "Mid" : 0.4,
+          "Bass" : 0.39999997615814209,
+          "Mid" : 0.39999997615814209,
           "@bypassvolume" : 1,
           "@cab" : "cab0",
-          "Presence" : 0.65,
-          "Treble" : 0.6600001
+          "Presence" : 0.64999997615814209,
+          "Treble" : 0.66000008583068848
         },
         "outputB" : {
           "@model" : "HD2_AppDSPFlowOutput",
@@ -322,7 +322,7 @@
           "@input" : 1,
           "@model" : "HD2_AppDSPFlow1Input",
           "noiseGate" : true,
-          "decay" : 0.15,
+          "decay" : 0.14999997615814209,
           "threshold" : -40
         },
         "cab1" : {
@@ -336,7 +336,7 @@
           "HighCut" : 20000
         },
         "block0" : {
-          "Time" : 0.4,
+          "Time" : 0.39999997615814209,
           "Key" : 7,
           "@trails" : true,
           "@enabled" : true,
@@ -354,8 +354,8 @@
           "Feedback" : 0.5,
           "HighCut" : 20000,
           "Scale" : 0,
-          "DelayVoice2" : 0.6600001,
-          "DelayVoice1" : 0.33,
+          "DelayVoice2" : 0.66000008583068848,
+          "DelayVoice1" : 0.33000004291534424,
           "@position" : 2,
           "LevelVoice1" : 1,
           "LevelVoice2" : 1,
@@ -405,7 +405,7 @@
         "@tempo" : 120
       },
       "global" : {
-        "@variax_volumeknob" : -0.1,
+        "@variax_volumeknob" : -0.10000000149011612,
         "@pedalstate" : 2,
         "@variax_customtuning" : false,
         "@variax_str1tuning" : 0,
@@ -425,7 +425,7 @@
         "@variax_magmode" : true,
         "@variax_str3tuning" : 0,
         "@variax_str5tuning" : 0,
-        "@variax_toneknob" : -0.1,
+        "@variax_toneknob" : -0.10000000149011612,
         "@current_snapshot" : 0,
         "@cursor_group" : "block1"
       },
@@ -556,7 +556,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 35717152
+    "device_version" : 36700160
   },
   "schema" : "L6Preset"
 }

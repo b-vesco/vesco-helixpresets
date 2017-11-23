@@ -3,10 +3,10 @@
   "data" : {
     "meta" : {
       "name" : "Sultans",
-      "application" : "Helix",
+      "application" : "HX Edit",
       "build_sha" : "905c912",
-      "modifieddate" : 1503218480,
-      "appversion" : 35651584
+      "modifieddate" : 1511418602,
+      "appversion" : 36700160
     },
     "device" : 2162689,
     "tone" : {
@@ -105,24 +105,24 @@
           "B Polarity" : false
         },
         "block3" : {
-          "Bias" : 0.6,
+          "Bias" : 0.60000002384185791,
           "@model" : "HD2_AmpUSDoubleNrm",
-          "Master" : 0.7,
+          "Master" : 0.70000004768371582,
           "@position" : 2,
           "Drive" : 0.5,
-          "Treble" : 0.5699999,
+          "Treble" : 0.56999993324279785,
           "ChVol" : 1,
           "@enabled" : true,
           "Ripple" : 0.5,
           "@path" : 0,
           "@type" : 3,
-          "Bass" : 0.4400001,
+          "Bass" : 0.44000005722045898,
           "BiasX" : 0.5,
           "Hum" : 0.5,
-          "Mid" : 0.52,
+          "Mid" : 0.51999998092651367,
           "@bypassvolume" : 1,
           "@cab" : "cab0",
-          "Presence" : 0.41,
+          "Presence" : 0.40999996662139893,
           "Sag" : 0.5
         },
         "block2" : {
@@ -149,11 +149,11 @@
           "@path" : 0,
           "@trails" : false,
           "@type" : 7,
-          "Mix" : 0.23,
+          "Mix" : 0.23000001907348633,
           "Level" : 0,
           "Decay" : 0.5,
           "HighCut" : 4570,
-          "Predelay" : 0.09899998
+          "Predelay" : 0.098999977111816406
         },
         "block1" : {
           "@model" : "HD2_VolPanVol",
@@ -175,7 +175,7 @@
           "@input" : 1,
           "@model" : "HD2_AppDSPFlow1Input",
           "noiseGate" : true,
-          "decay" : 0.04999995,
+          "decay" : 0.04999995231628418,
           "threshold" : -76
         },
         "block6" : {
@@ -189,8 +189,8 @@
           "@path" : 0,
           "@trails" : true,
           "@type" : 7,
-          "Mix" : 0.34,
-          "Time" : 0.6,
+          "Mix" : 0.34000003337860107,
+          "Time" : 0.60000002384185791,
           "Level" : 0,
           "@stereo" : false
         },
@@ -219,8 +219,8 @@
           "@position" : 4,
           "SyncSelect1" : 6,
           "TempoSync1" : false,
-          "Intensity" : 0.6700001,
-          "Speed" : 0.6600001,
+          "Intensity" : 0.67000007629394531,
+          "Speed" : 0.66000008583068848,
           "@enabled" : false,
           "@path" : 0,
           "@type" : 0,
@@ -230,11 +230,11 @@
         },
         "cab0" : {
           "@model" : "HD2_Cab2x12DoubleC12N",
-          "LowCut" : 19.9,
+          "LowCut" : 19.899999618530273,
           "@mic" : 5,
           "EarlyReflections" : 0,
           "Distance" : 3,
-          "Level" : 4.6,
+          "Level" : 4.5999999046325684,
           "@enabled" : true,
           "HighCut" : 20100
         },
@@ -250,8 +250,8 @@
           "@stereo" : false,
           "@type" : 0,
           "@position" : 3,
-          "Level" : 5.6,
-          "Mix" : 0.5599999,
+          "Level" : 5.5999999046325684,
+          "Mix" : 0.55999994277954102,
           "@enabled" : true,
           "Sensitivity" : 0.5
         }
@@ -374,7 +374,7 @@
         "@tempo" : 146
       }
     },
-    "device_version" : 35717152
+    "device_version" : 36700160
   },
   "schema" : "L6Preset"
 }

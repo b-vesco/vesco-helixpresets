@@ -3,10 +3,10 @@
   "data" : {
     "meta" : {
       "name" : "Brit P75 Nrm",
-      "application" : "Helix",
-      "build_sha" : "905c912",
-      "modifieddate" : 1503218323,
-      "appversion" : 35651584
+      "application" : "HX Edit",
+      "build_sha" : "cdef813",
+      "modifieddate" : 1511418553,
+      "appversion" : 36700160
     },
     "device" : 2162689,
     "tone" : {
@@ -14,13 +14,13 @@
         "@pedalstate" : 2,
         "@ledcolor" : 0,
         "@name" : "SNAPSHOT 8",
-        "@tempo" : 92.5212
+        "@tempo" : 92.521202087402344
       },
       "snapshot4" : {
         "@pedalstate" : 2,
         "@ledcolor" : 0,
         "@name" : "SNAPSHOT 5",
-        "@tempo" : 92.5212
+        "@tempo" : 92.521202087402344
       },
       "dsp1" : {
         "split" : {
@@ -73,7 +73,7 @@
         "@pedalstate" : 2,
         "@ledcolor" : 0,
         "@name" : "SNAPSHOT 2",
-        "@tempo" : 92.5212
+        "@tempo" : 92.521202087402344
       },
       "controller" : {
         "dsp0" : {
@@ -90,15 +90,15 @@
         "@pedalstate" : 2,
         "@ledcolor" : 0,
         "@name" : "SNAPSHOT 6",
-        "@tempo" : 92.5212
+        "@tempo" : 92.521202087402344
       },
       "dsp0" : {
         "join" : {
           "@model" : "HD2_AppDSPFlowJoin",
-          "B Pan" : 0.885,
+          "B Pan" : 0.88499999046325684,
           "B Level" : 0,
           "A Level" : 0,
-          "A Pan" : 0.115,
+          "A Pan" : 0.11500000953674316,
           "@position" : 8,
           "Level" : 0,
           "@enabled" : true,
@@ -106,7 +106,7 @@
         },
         "block3" : {
           "@model" : "HD2_PhaserScriptModPhase",
-          "Rate" : 0.4,
+          "Rate" : 0.39999997615814209,
           "@position" : 2,
           "SyncSelect1" : 6,
           "TempoSync1" : false,
@@ -123,10 +123,10 @@
           "@path" : 0,
           "@stereo" : false,
           "@type" : 0,
-          "Gain" : 0.51,
+          "Gain" : 0.50999999046325684,
           "@position" : 1,
-          "Level" : 0.79,
-          "Tone" : 0.36,
+          "Level" : 0.78999996185302734,
+          "Tone" : 0.36000001430511475,
           "@enabled" : true
         },
         "inputB" : {
@@ -167,11 +167,11 @@
           "@path" : 0,
           "@trails" : false,
           "@type" : 7,
-          "Mix" : 0.14,
+          "Mix" : 0.13999998569488525,
           "Level" : 0,
-          "Decay" : 0.4300001,
+          "Decay" : 0.43000006675720215,
           "HighCut" : 3720,
-          "Predelay" : 0.01100004
+          "Predelay" : 0.01100003719329834
         },
         "block0" : {
           "@model" : "HD2_Looper",
@@ -196,7 +196,7 @@
         "block5" : {
           "@model" : "HD2_DelayPingPong",
           "@position" : 5,
-          "Feedback" : 0.4,
+          "Feedback" : 0.39999997615814209,
           "LowCut" : 100,
           "SyncSelect1" : 6,
           "Scale" : 0.5,
@@ -205,16 +205,16 @@
           "@path" : 0,
           "@trails" : false,
           "@type" : 7,
-          "Mix" : 0.38,
-          "Time" : 0.6,
+          "Mix" : 0.37999999523162842,
+          "Time" : 0.60000002384185791,
           "Level" : 0,
           "Spread" : 1,
           "HighCut" : 8900
         },
         "cab0" : {
           "@model" : "HD2_Cab4x12Blackback30",
-          "LowCut" : 19.9,
-          "@mic" : 9,
+          "LowCut" : 19.899999618530273,
+          "@mic" : 1,
           "EarlyReflections" : 0,
           "Distance" : 2,
           "Level" : 0,
@@ -228,24 +228,24 @@
           "gain" : 0
         },
         "block4" : {
-          "Bias" : 0.6600001,
+          "Bias" : 0.66000008583068848,
           "@model" : "HD2_AmpBritP75Nrm",
-          "Master" : 0.5,
+          "Master" : 0.79999995231628418,
           "@position" : 3,
-          "Drive" : 0.3199999,
-          "Treble" : 0.9,
-          "ChVol" : 0.71,
+          "Drive" : 0.48000001907348633,
+          "Treble" : 0.89999997615814209,
+          "ChVol" : 0.50999999046325684,
           "@enabled" : true,
           "Ripple" : 0.5,
           "@path" : 0,
           "@type" : 3,
-          "Bass" : 0.36,
+          "Bass" : 0.39999997615814209,
           "BiasX" : 0.5,
           "Hum" : 0.5,
-          "Mid" : 0.6700001,
+          "Mid" : 0.67000007629394531,
           "@bypassvolume" : 1,
           "@cab" : "cab0",
-          "Presence" : 0.8,
+          "Presence" : 0.75999999046325684,
           "Sag" : 0.5
         }
       },
@@ -253,10 +253,10 @@
         "@pedalstate" : 2,
         "@ledcolor" : 0,
         "@name" : "SNAPSHOT 3",
-        "@tempo" : 92.5212
+        "@tempo" : 92.521202087402344
       },
       "global" : {
-        "@variax_volumeknob" : -0.1,
+        "@variax_volumeknob" : -0.10000000149011612,
         "@pedalstate" : 2,
         "@variax_customtuning" : false,
         "@variax_str1tuning" : 0,
@@ -269,14 +269,14 @@
         "@cursor_dsp" : 0,
         "@cursor_path" : 0,
         "@guitarinputZ" : 0,
-        "@tempo" : 92.5212,
+        "@tempo" : 92.521202087402344,
         "@topology1" : "A",
         "@cursor_position" : 3,
         "@variax_lockctrls" : 0,
         "@variax_magmode" : true,
         "@variax_str3tuning" : 0,
         "@variax_str5tuning" : 0,
-        "@variax_toneknob" : -0.1,
+        "@variax_toneknob" : -0.10000000149011612,
         "@current_snapshot" : 0,
         "@cursor_group" : "block4"
       },
@@ -284,7 +284,7 @@
         "@pedalstate" : 2,
         "@ledcolor" : 0,
         "@name" : "SNAPSHOT 7",
-        "@tempo" : 92.5212
+        "@tempo" : 92.521202087402344
       },
       "footswitch" : {
         "dsp0" : {
@@ -336,7 +336,7 @@
         "@pedalstate" : 2,
         "@ledcolor" : 0,
         "@name" : "SNAPSHOT 4",
-        "@tempo" : 92.5212
+        "@tempo" : 92.521202087402344
       },
       "snapshot0" : {
         "controllers" : {
@@ -363,10 +363,10 @@
         "@pedalstate" : 2,
         "@ledcolor" : 0,
         "@name" : "SNAPSHOT 1",
-        "@tempo" : 92.5212
+        "@tempo" : 92.521202087402344
       }
     },
-    "device_version" : 35717152
+    "device_version" : 36700160
   },
   "schema" : "L6Preset"
 }

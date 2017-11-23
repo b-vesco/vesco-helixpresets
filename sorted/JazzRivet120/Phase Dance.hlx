@@ -3,10 +3,10 @@
   "data" : {
     "meta" : {
       "name" : "Phase Dance",
-      "application" : "Helix",
+      "application" : "HX Edit",
       "build_sha" : "905c912",
-      "modifieddate" : 1503218540,
-      "appversion" : 35651584
+      "modifieddate" : 1511418603,
+      "appversion" : 36700160
     },
     "device" : 2162689,
     "tone" : {
@@ -37,7 +37,7 @@
         "block3" : {
           "@model" : "HD2_Cab2x12JazzRivet",
           "Level" : 0,
-          "LowCut" : 19.9,
+          "LowCut" : 19.899999618530273,
           "@path" : 1,
           "@mic" : 0,
           "@type" : 2,
@@ -51,17 +51,17 @@
           "@model" : "HD2_AmpJazzRivet120",
           "Master" : 1,
           "@position" : 3,
-          "Drive" : 0.17,
+          "Drive" : 0.16999995708465576,
           "Bright" : 0,
           "ChVol" : 1,
           "@enabled" : true,
           "@path" : 1,
           "@type" : 1,
-          "Bass" : 0.2,
-          "Mid" : 0.8,
+          "Bass" : 0.20000004768371582,
+          "Mid" : 0.79999995231628418,
           "@bypassvolume" : 1,
           "Presence" : 0.5,
-          "Treble" : 0.4
+          "Treble" : 0.39999997615814209
         },
         "inputB" : {
           "@input" : 0,
@@ -73,7 +73,7 @@
         "block1" : {
           "@model" : "HD2_Cab2x12JazzRivet",
           "Level" : 0,
-          "LowCut" : 19.9,
+          "LowCut" : 19.899999618530273,
           "@path" : 0,
           "@mic" : 5,
           "@type" : 2,
@@ -107,17 +107,17 @@
           "@model" : "HD2_AmpJazzRivet120",
           "Master" : 1,
           "@position" : 3,
-          "Drive" : 0.1800001,
+          "Drive" : 0.18000006675720215,
           "Bright" : 0,
-          "ChVol" : 0.96,
+          "ChVol" : 0.96000003814697266,
           "@enabled" : true,
           "@path" : 0,
           "@type" : 1,
-          "Bass" : 0.21,
-          "Mid" : 0.8,
+          "Bass" : 0.21000003814697266,
+          "Mid" : 0.79999995231628418,
           "@bypassvolume" : 1,
           "Presence" : 0.5,
-          "Treble" : 0.4
+          "Treble" : 0.39999997615814209
         },
         "block5" : {
           "@model" : "HD2_ReverbPlate",
@@ -127,11 +127,11 @@
           "@path" : 0,
           "@trails" : false,
           "@type" : 7,
-          "Mix" : 0.15,
+          "Mix" : 0.14999997615814209,
           "Level" : 0,
-          "Decay" : 0.7,
+          "Decay" : 0.70000004768371582,
           "HighCut" : 4570,
-          "Predelay" : 0.01499999
+          "Predelay" : 0.014999985694885254
         },
         "outputA" : {
           "@model" : "HD2_AppDSPFlowOutput",
@@ -190,7 +190,7 @@
         "block3" : {
           "@model" : "HD2_DelaySimpleDelay",
           "@position" : 1,
-          "Feedback" : 0.2,
+          "Feedback" : 0.20000004768371582,
           "SyncSelect1" : 6,
           "TempoSync1" : false,
           "Scale" : 0.75,
@@ -198,8 +198,8 @@
           "@path" : 0,
           "@trails" : false,
           "@type" : 7,
-          "Mix" : 0.15,
-          "Time" : 0.45,
+          "Mix" : 0.14999997615814209,
+          "Time" : 0.45000004768371582,
           "Level" : 0,
           "@stereo" : false
         },
@@ -221,7 +221,7 @@
           "threshold" : -48
         },
         "block1" : {
-          "Depth" : 0.77,
+          "Depth" : 0.76999998092651367,
           "@trails" : false,
           "@enabled" : true,
           "Noise" : 0,
@@ -232,15 +232,15 @@
           "@stereo" : false,
           "@path" : 1,
           "Level" : 0,
-          "Mix" : 0.88,
+          "Mix" : 0.87999999523162842,
           "Spread" : 0.5,
           "Feedback" : 0.5,
           "Scale" : 0.75,
           "@position" : 3,
           "Headroom" : 0,
-          "Rate" : 0.35,
+          "Rate" : 0.35000002384185791,
           "TempoSync1" : false,
-          "Time" : 0.02600002
+          "Time" : 0.026000022888183594
         },
         "outputB" : {
           "@model" : "HD2_AppDSPFlowOutput",
@@ -252,7 +252,7 @@
           "@input" : 1,
           "@model" : "HD2_AppDSPFlow1Input",
           "noiseGate" : true,
-          "decay" : 0.04999995,
+          "decay" : 0.04999995231628418,
           "threshold" : -48
         },
         "split" : {
@@ -264,30 +264,30 @@
           "BalanceB" : 0.5
         },
         "block0" : {
-          "Depth" : 0.26,
+          "Depth" : 0.25999999046325684,
           "@trails" : false,
           "@enabled" : true,
           "@type" : 7,
-          "Speed" : 0.02199996,
+          "Speed" : 0.021999955177307129,
           "SyncSelect1" : 6,
           "@model" : "HD2_DelayModChorusEcho",
           "@stereo" : false,
           "LowCut" : 155,
           "@path" : 0,
           "Level" : 0,
-          "Mix" : 0.76,
+          "Mix" : 0.75999999046325684,
           "Spread" : 1,
-          "Feedback" : 0.28,
+          "Feedback" : 0.27999997138977051,
           "HighCut" : 9540,
           "ModulationMode" : 0,
           "Scale" : 0.75,
           "@position" : 4,
           "TempoSync1" : false,
-          "Time" : 0.01400006
+          "Time" : 0.014000058174133301
         },
         "cab0" : {
           "@model" : "HD2_Cab2x12JazzRivet",
-          "LowCut" : 19.9,
+          "LowCut" : 19.899999618530273,
           "@mic" : 5,
           "EarlyReflections" : 0,
           "Distance" : 1,
@@ -305,18 +305,18 @@
           "@model" : "HD2_AmpJazzRivet120",
           "Master" : 1,
           "@position" : 2,
-          "Drive" : 0.1800001,
+          "Drive" : 0.18000006675720215,
           "Bright" : 0,
           "ChVol" : 1,
           "@enabled" : true,
           "@path" : 0,
           "@type" : 3,
-          "Bass" : 0.2,
-          "Mid" : 0.8,
+          "Bass" : 0.20000004768371582,
+          "Mid" : 0.79999995231628418,
           "@bypassvolume" : 1,
           "@cab" : "cab0",
           "Presence" : 0.5,
-          "Treble" : 0.4
+          "Treble" : 0.39999997615814209
         }
       },
       "snapshot2" : {
@@ -444,7 +444,7 @@
         "@tempo" : 97
       }
     },
-    "device_version" : 35717152
+    "device_version" : 36700160
   },
   "schema" : "L6Preset"
 }

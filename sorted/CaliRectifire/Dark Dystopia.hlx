@@ -3,10 +3,10 @@
   "data" : {
     "meta" : {
       "name" : "Dark Dystopia",
-      "application" : "Helix",
+      "application" : "HX Edit",
       "build_sha" : "6a7d211",
-      "modifieddate" : 1503218418,
-      "appversion" : 35651584
+      "modifieddate" : 1511418600,
+      "appversion" : 36700160
     },
     "device" : 2162689,
     "tone" : {
@@ -59,7 +59,7 @@
         "outputA" : {
           "@model" : "HD2_AppDSPFlowOutput",
           "@output" : 1,
-          "pan" : 0.895,
+          "pan" : 0.89499998092651367,
           "gain" : 8
         },
         "outputB" : {
@@ -116,23 +116,23 @@
           "@enabled" : true
         },
         "block2" : {
-          "Bias" : 0.6,
+          "Bias" : 0.60000002384185791,
           "@model" : "HD2_AmpCaliRectifire",
-          "Master" : 0.45,
+          "Master" : 0.45000004768371582,
           "@position" : 1,
-          "Drive" : 0.8,
-          "Treble" : 0.7,
-          "ChVol" : 0.61,
+          "Drive" : 0.79999995231628418,
+          "Treble" : 0.70000004768371582,
+          "ChVol" : 0.61000001430511475,
           "@enabled" : true,
           "Ripple" : 0.5,
           "@path" : 0,
           "@type" : 1,
           "Bass" : 0.5,
-          "BiasX" : 0.48,
+          "BiasX" : 0.48000001907348633,
           "Hum" : 0.5,
-          "Mid" : 0.6,
+          "Mid" : 0.60000002384185791,
           "@bypassvolume" : 1,
-          "Presence" : 0.6,
+          "Presence" : 0.60000002384185791,
           "Sag" : 0.5
         },
         "inputB" : {
@@ -144,7 +144,7 @@
         },
         "block7" : {
           "@model" : "HD2_EQLowCutHighCut",
-          "LowCut" : 19.9,
+          "LowCut" : 19.899999618530273,
           "@path" : 0,
           "@stereo" : false,
           "@type" : 0,
@@ -212,14 +212,14 @@
         "block5" : {
           "@model" : "HD2_Reverb63Spring",
           "@position" : 4,
-          "LowCut" : 91.4,
+          "LowCut" : 91.400001525878906,
           "@enabled" : true,
           "@path" : 0,
           "@trails" : false,
           "@type" : 7,
-          "Mix" : 0.34,
+          "Mix" : 0.34000003337860107,
           "Level" : 0,
-          "Decay" : 0.5599999,
+          "Decay" : 0.55999994277954102,
           "HighCut" : 3500,
           "Predelay" : 0
         },
@@ -231,10 +231,10 @@
         },
         "block4" : {
           "SweepDepth" : 2830,
-          "SweepResonance" : 0.34,
+          "SweepResonance" : 0.34000003337860107,
           "SweepShape" : 0,
           "@trails" : false,
-          "SweepSpeed" : 0.34,
+          "SweepSpeed" : 0.34000003337860107,
           "@enabled" : true,
           "SweepStart" : 205,
           "SweepSpread" : 1,
@@ -247,14 +247,14 @@
           "@path" : 0,
           "Level" : 0,
           "Mix" : 0.5,
-          "Feedback" : 0.5799999,
+          "Feedback" : 0.57999992370605469,
           "HighCut" : 8000,
           "Scale" : 1,
           "@position" : 3,
           "Headroom" : 0,
           "TempoSync1" : false,
           "SweepSymmetry" : 0.5,
-          "Time" : 0.45
+          "Time" : 0.45000004768371582
         }
       },
       "snapshot2" : {
@@ -264,7 +264,7 @@
         "@tempo" : 120
       },
       "global" : {
-        "@variax_volumeknob" : -0.1,
+        "@variax_volumeknob" : -0.10000000149011612,
         "@pedalstate" : 2,
         "@variax_customtuning" : false,
         "@variax_str1tuning" : 0,
@@ -284,7 +284,7 @@
         "@variax_magmode" : true,
         "@variax_str3tuning" : 0,
         "@variax_str5tuning" : 0,
-        "@variax_toneknob" : -0.1,
+        "@variax_toneknob" : -0.10000000149011612,
         "@current_snapshot" : 0,
         "@cursor_group" : "block2"
       },
@@ -368,7 +368,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 35717152
+    "device_version" : 36700160
   },
   "schema" : "L6Preset"
 }

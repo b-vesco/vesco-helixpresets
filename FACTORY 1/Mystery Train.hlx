@@ -3,10 +3,10 @@
   "data" : {
     "meta" : {
       "name" : "Mystery Train",
-      "application" : "Helix",
+      "application" : "HX Edit",
       "build_sha" : "6a7d211",
-      "modifieddate" : 1503218326,
-      "appversion" : 35651584
+      "modifieddate" : 1511418557,
+      "appversion" : 36700160
     },
     "device" : 2162689,
     "tone" : {
@@ -109,20 +109,20 @@
           "@model" : "HD2_AmpUSDoubleNrm",
           "Master" : 1,
           "@position" : 3,
-          "Drive" : 0.4,
-          "Treble" : 0.6600001,
+          "Drive" : 0.39999997615814209,
+          "Treble" : 0.66000008583068848,
           "ChVol" : 1,
           "@enabled" : true,
           "Ripple" : 0.5,
           "@path" : 0,
           "@type" : 3,
-          "Bass" : 0.2,
+          "Bass" : 0.20000004768371582,
           "BiasX" : 0.5,
           "Hum" : 0.5,
-          "Mid" : 0.42,
+          "Mid" : 0.41999995708465576,
           "@bypassvolume" : 1,
           "@cab" : "cab0",
-          "Presence" : 0.5599999,
+          "Presence" : 0.55999994277954102,
           "Sag" : 0.5
         },
         "block2" : {
@@ -161,7 +161,7 @@
           "@input" : 1,
           "@model" : "HD2_AppDSPFlow1Input",
           "noiseGate" : true,
-          "decay" : 0.04999995,
+          "decay" : 0.04999995231628418,
           "threshold" : -80
         },
         "split" : {
@@ -180,11 +180,11 @@
           "@path" : 1,
           "@trails" : false,
           "@type" : 7,
-          "Mix" : 0.3,
+          "Mix" : 0.29999995231628418,
           "Level" : 0,
           "Decay" : 0.5,
           "HighCut" : 4570,
-          "Predelay" : 0.1
+          "Predelay" : 0.10000002384185791
         },
         "block5" : {
           "@model" : "HD2_Looper",
@@ -222,16 +222,16 @@
           "TempoSync1" : false,
           "Scale" : 1,
           "@enabled" : true,
-          "WowFlutter" : 0.36,
+          "WowFlutter" : 0.36000001430511475,
           "@path" : 0,
           "@trails" : true,
           "@type" : 7,
           "Headroom" : 0,
-          "Mix" : 0.4400001,
-          "Time" : 0.135,
+          "Mix" : 0.44000005722045898,
+          "Time" : 0.13499999046325684,
           "Level" : 0,
           "@stereo" : false,
-          "Spread" : 0.29
+          "Spread" : 0.28999999165534973
         }
       },
       "snapshot2" : {
@@ -241,7 +241,7 @@
         "@tempo" : 119
       },
       "global" : {
-        "@variax_volumeknob" : -0.1,
+        "@variax_volumeknob" : -0.10000000149011612,
         "@pedalstate" : 2,
         "@variax_customtuning" : false,
         "@variax_str1tuning" : 0,
@@ -261,7 +261,7 @@
         "@variax_magmode" : true,
         "@variax_str3tuning" : 0,
         "@variax_str5tuning" : 0,
-        "@variax_toneknob" : -0.1,
+        "@variax_toneknob" : -0.10000000149011612,
         "@current_snapshot" : 0,
         "@cursor_group" : "block3"
       },
@@ -343,7 +343,7 @@
         "@tempo" : 119
       }
     },
-    "device_version" : 35717152
+    "device_version" : 36700160
   },
   "schema" : "L6Preset"
 }

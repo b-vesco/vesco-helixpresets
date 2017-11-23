@@ -3,10 +3,10 @@
   "data" : {
     "meta" : {
       "name" : "Rhythm Sandman",
-      "application" : "Helix",
+      "application" : "HX Edit",
       "build_sha" : "905c912",
-      "modifieddate" : 1503218418,
-      "appversion" : 35651584
+      "modifieddate" : 1511418599,
+      "appversion" : 36700160
     },
     "device" : 2162689,
     "tone" : {
@@ -63,24 +63,24 @@
           "threshold" : -48
         },
         "block1" : {
-          "Bias" : 0.61,
+          "Bias" : 0.61000001430511475,
           "@model" : "HD2_AmpLine6Epic",
-          "Master" : 0.45,
+          "Master" : 0.45000004768371582,
           "@position" : 3,
-          "Drive" : 0.9,
-          "Treble" : 0.71,
-          "ChVol" : 0.7,
+          "Drive" : 0.89999997615814209,
+          "Treble" : 0.71000003814697266,
+          "ChVol" : 0.70000004768371582,
           "@enabled" : true,
           "Ripple" : 0.5,
           "@path" : 1,
           "@type" : 3,
-          "Bass" : 0.6700001,
+          "Bass" : 0.67000007629394531,
           "BiasX" : 0.5,
           "Hum" : 0.5,
-          "Mid" : 0.14,
+          "Mid" : 0.13999998569488525,
           "@bypassvolume" : 1,
           "@cab" : "cab1",
-          "Presence" : 0.4,
+          "Presence" : 0.39999997615814209,
           "Sag" : 0.5
         },
         "outputB" : {
@@ -107,25 +107,25 @@
           "HighCut" : 20000
         },
         "block0" : {
-          "Bias" : 0.6,
+          "Bias" : 0.60000002384185791,
           "@model" : "HD2_AmpCaliRectifire",
-          "Master" : 0.49,
+          "Master" : 0.49000000953674316,
           "@position" : 3,
-          "Drive" : 0.9,
-          "Treble" : 0.6,
-          "ChVol" : 0.53,
+          "Drive" : 0.89999997615814209,
+          "Treble" : 0.60000002384185791,
+          "ChVol" : 0.52999997138977051,
           "@enabled" : true,
           "Ripple" : 0.5,
           "@path" : 0,
           "@type" : 3,
-          "Bass" : 0.3,
-          "BiasX" : 0.48,
-          "Hum" : 0.27,
-          "Mid" : 0.1800001,
+          "Bass" : 0.29999995231628418,
+          "BiasX" : 0.48000001907348633,
+          "Hum" : 0.26999998092651367,
+          "Mid" : 0.18000006675720215,
           "@bypassvolume" : 1,
           "@cab" : "cab0",
           "Presence" : 0.5,
-          "Sag" : 0.2
+          "Sag" : 0.20000004768371582
         },
         "split" : {
           "BalanceA" : 0.5,
@@ -137,7 +137,7 @@
         },
         "cab0" : {
           "@model" : "HD2_Cab4X12CaliV30",
-          "LowCut" : 19.9,
+          "LowCut" : 19.899999618530273,
           "@mic" : 8,
           "EarlyReflections" : 0,
           "Distance" : 2,
@@ -159,11 +159,11 @@
           "@path" : 0,
           "@trails" : false,
           "@type" : 7,
-          "Mix" : 0.46,
+          "Mix" : 0.46000003814697266,
           "Level" : 0,
-          "Decay" : 0.45,
+          "Decay" : 0.45000004768371582,
           "HighCut" : 3720,
-          "Predelay" : 0.01100004
+          "Predelay" : 0.01100003719329834
         }
       },
       "snapshot1" : {
@@ -218,24 +218,24 @@
           "B Polarity" : false
         },
         "block3" : {
-          "Bias" : 0.6,
+          "Bias" : 0.60000002384185791,
           "@model" : "HD2_AmpUSDoubleNrm",
           "Master" : 1,
           "@position" : 3,
-          "Drive" : 0.45,
+          "Drive" : 0.45000004768371582,
           "Treble" : 0.5,
-          "ChVol" : 0.85,
+          "ChVol" : 0.85000002384185791,
           "@enabled" : false,
           "Ripple" : 0.5,
           "@path" : 0,
           "@type" : 3,
-          "Bass" : 0.37,
+          "Bass" : 0.37000000476837158,
           "BiasX" : 0.5,
           "Hum" : 0.5,
-          "Mid" : 0.45,
+          "Mid" : 0.45000004768371582,
           "@bypassvolume" : 1,
           "@cab" : "cab0",
-          "Presence" : 0.1,
+          "Presence" : 0.10000002384185791,
           "Sag" : 0.5
         },
         "block2" : {
@@ -278,7 +278,7 @@
           "@input" : 1,
           "@model" : "HD2_AppDSPFlow1Input",
           "noiseGate" : true,
-          "decay" : 0.08000004,
+          "decay" : 0.080000042915344238,
           "threshold" : -40
         },
         "split" : {
@@ -309,11 +309,11 @@
           "@path" : 0,
           "@trails" : false,
           "@type" : 7,
-          "Mix" : 0.39,
+          "Mix" : 0.38999998569488525,
           "Level" : 0,
-          "Decay" : 0.6600001,
+          "Decay" : 0.66000008583068848,
           "HighCut" : 4700,
-          "Predelay" : 0.1
+          "Predelay" : 0.10000002384185791
         },
         "cab0" : {
           "@model" : "HD2_Cab2x12DoubleC12N",
@@ -332,7 +332,7 @@
           "gain" : 0
         },
         "block4" : {
-          "VibratoRate" : 0.7,
+          "VibratoRate" : 0.70000004768371582,
           "@model" : "HD2_Chorus70sChorus",
           "@position" : 4,
           "SyncSelect1" : 6,
@@ -341,14 +341,14 @@
           "@enabled" : false,
           "@path" : 0,
           "@type" : 0,
-          "Mix" : 0.49,
+          "Mix" : 0.49000000953674316,
           "Headroom" : 0,
           "Stereo" : false,
           "TempoSync2" : false,
           "VibratoDepth" : 0.5,
           "Level" : 1,
           "@stereo" : false,
-          "ChorusIntensity" : 0.15,
+          "ChorusIntensity" : 0.14999997615814209,
           "Mode" : false,
           "Spread" : 0
         }
@@ -360,7 +360,7 @@
         "@tempo" : 120
       },
       "global" : {
-        "@variax_volumeknob" : -0.1,
+        "@variax_volumeknob" : -0.10000000149011612,
         "@pedalstate" : 2,
         "@variax_customtuning" : false,
         "@variax_str1tuning" : 0,
@@ -380,7 +380,7 @@
         "@variax_magmode" : true,
         "@variax_str3tuning" : 0,
         "@variax_str5tuning" : 0,
-        "@variax_toneknob" : -0.1,
+        "@variax_toneknob" : -0.10000000149011612,
         "@current_snapshot" : 0,
         "@cursor_group" : "block0"
       },
@@ -524,7 +524,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 35717152
+    "device_version" : 36700160
   },
   "schema" : "L6Preset"
 }

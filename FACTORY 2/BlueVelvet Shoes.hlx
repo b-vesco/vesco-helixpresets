@@ -3,10 +3,10 @@
   "data" : {
     "meta" : {
       "name" : "BlueVelvet Shoes",
-      "application" : "Helix",
+      "application" : "HX Edit",
       "build_sha" : "905c912",
-      "modifieddate" : 1503218443,
-      "appversion" : 35651584
+      "modifieddate" : 1511418602,
+      "appversion" : 36700160
     },
     "device" : 2162689,
     "tone" : {
@@ -105,24 +105,24 @@
           "B Polarity" : false
         },
         "block3" : {
-          "Bias" : 0.6,
+          "Bias" : 0.60000002384185791,
           "@model" : "HD2_AmpUSDoubleNrm",
           "Master" : 1,
           "@position" : 2,
-          "Drive" : 0.4300001,
-          "Treble" : 0.5699999,
+          "Drive" : 0.43000006675720215,
+          "Treble" : 0.56999993324279785,
           "ChVol" : 1,
           "@enabled" : true,
           "Ripple" : 0.5,
           "@path" : 0,
           "@type" : 3,
-          "Bass" : 0.4400001,
+          "Bass" : 0.44000005722045898,
           "BiasX" : 0.5,
           "Hum" : 0.5,
-          "Mid" : 0.52,
+          "Mid" : 0.51999998092651367,
           "@bypassvolume" : 1,
           "@cab" : "cab0",
-          "Presence" : 0.1,
+          "Presence" : 0.10000002384185791,
           "Sag" : 0.5
         },
         "block2" : {
@@ -133,16 +133,16 @@
           "TempoSync1" : true,
           "Scale" : 1,
           "@enabled" : true,
-          "WowFlutter" : 0.4400001,
+          "WowFlutter" : 0.44000005722045898,
           "@path" : 0,
           "@trails" : false,
           "@type" : 7,
           "Headroom" : 0,
-          "Mix" : 0.4,
-          "Time" : 0.507,
+          "Mix" : 0.39999997615814209,
+          "Time" : 0.50699996948242188,
           "Level" : 0,
           "@stereo" : false,
-          "Spread" : 0.29
+          "Spread" : 0.28999999165534973
         },
         "inputB" : {
           "@input" : 0,
@@ -156,7 +156,7 @@
           "@path" : 0,
           "@stereo" : false,
           "@type" : 0,
-          "Pedal" : 0.93611,
+          "Pedal" : 0.93611001968383789,
           "@position" : 0,
           "@enabled" : true,
           "VolumeTaper" : false
@@ -202,16 +202,16 @@
           "@path" : 0,
           "@trails" : false,
           "@type" : 7,
-          "Mix" : 0.41,
+          "Mix" : 0.40999996662139893,
           "Level" : 0,
-          "Decay" : 0.1,
+          "Decay" : 0.10000002384185791,
           "HighCut" : 3720,
-          "Predelay" : 0.01100004
+          "Predelay" : 0.01100003719329834
         },
         "cab0" : {
           "@model" : "HD2_Cab1x8SmallTweed",
-          "Early Reflections" : 0.3099999,
-          "LowCut" : 19.9,
+          "Early Reflections" : 0.30999994277954102,
+          "LowCut" : 19.899999618530273,
           "@mic" : 2,
           "Distance" : 4,
           "Level" : 3.5,
@@ -229,8 +229,8 @@
           "@position" : 3,
           "SyncSelect1" : 6,
           "TempoSync1" : false,
-          "Intensity" : 0.6700001,
-          "Speed" : 0.6600001,
+          "Intensity" : 0.67000007629394531,
+          "Speed" : 0.66000008583068848,
           "@enabled" : false,
           "@path" : 0,
           "@type" : 0,
@@ -327,7 +327,7 @@
             "block1" : {
               "Pedal" : {
                 "@fs_enabled" : false,
-                "@value" : 0.93611
+                "@value" : 0.93611001968383789
               }
             }
           }
@@ -348,7 +348,7 @@
         "@tempo" : 90
       }
     },
-    "device_version" : 35717152
+    "device_version" : 36700160
   },
   "schema" : "L6Preset"
 }

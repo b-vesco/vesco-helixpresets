@@ -3,10 +3,10 @@
   "data" : {
     "meta" : {
       "name" : "SnpshotSanctuary",
-      "application" : "Helix",
+      "application" : "HX Edit",
       "build_sha" : "37cfcb5",
-      "modifieddate" : 1503218328,
-      "appversion" : 35651584
+      "modifieddate" : 1511418557,
+      "appversion" : 36700160
     },
     "device" : 2162689,
     "tone" : {
@@ -16,11 +16,11 @@
             "block1" : {
               "Decay" : {
                 "@fs_enabled" : false,
-                "@value" : 0.98
+                "@value" : 0.98000001907348633
               },
               "Mix" : {
                 "@fs_enabled" : false,
-                "@value" : 0.72
+                "@value" : 0.72000002861022949
               }
             }
           },
@@ -34,19 +34,19 @@
             "block4" : {
               "Rate" : {
                 "@fs_enabled" : false,
-                "@value" : 0.35
+                "@value" : 0.35000002384185791
               }
             },
             "block2" : {
               "Gain" : {
                 "@fs_enabled" : false,
-                "@value" : 0.63
+                "@value" : 0.62999999523162842
               }
             },
             "block3" : {
               "ChVol" : {
                 "@fs_enabled" : false,
-                "@value" : 0.76
+                "@value" : 0.75999999046325684
               },
               "Tone" : {
                 "@fs_enabled" : false,
@@ -81,11 +81,11 @@
             "block1" : {
               "Decay" : {
                 "@fs_enabled" : false,
-                "@value" : 0.55
+                "@value" : 0.54999995231628418
               },
               "Mix" : {
                 "@fs_enabled" : false,
-                "@value" : 0.34
+                "@value" : 0.34000003337860107
               }
             }
           },
@@ -99,19 +99,19 @@
             "block4" : {
               "Rate" : {
                 "@fs_enabled" : false,
-                "@value" : 0.35
+                "@value" : 0.35000002384185791
               }
             },
             "block2" : {
               "Gain" : {
                 "@fs_enabled" : false,
-                "@value" : 0.42
+                "@value" : 0.41999995708465576
               }
             },
             "block3" : {
               "ChVol" : {
                 "@fs_enabled" : false,
-                "@value" : 0.76
+                "@value" : 0.75999999046325684
               },
               "Tone" : {
                 "@fs_enabled" : false,
@@ -161,9 +161,9 @@
           "@path" : 0,
           "@trails" : true,
           "@type" : 7,
-          "Mix" : 0.72,
+          "Mix" : 0.72000002861022949,
           "Level" : 0,
-          "Decay" : 0.98,
+          "Decay" : 0.98000001907348633,
           "HighCut" : 3929,
           "Predelay" : 0
         },
@@ -171,14 +171,14 @@
           "@model" : "HD2_ReverbOcto",
           "@position" : 6,
           "LowCut" : 122,
-          "Intensity" : 0.63,
+          "Intensity" : 0.62999999523162842,
           "@enabled" : false,
           "@path" : 0,
           "@trails" : false,
           "@type" : 7,
           "Mix" : 0.5,
           "Level" : 0,
-          "Decay" : 0.72,
+          "Decay" : 0.72000002861022949,
           "HighCut" : 9760
         },
         "inputA" : {
@@ -224,7 +224,7 @@
           "@model" : "HD2_AppDSPFlowOutput",
           "@output" : 1,
           "pan" : 0.5,
-          "gain" : -2.6
+          "gain" : -2.5999999046325684
         }
       },
       "snapshot1" : {
@@ -233,11 +233,11 @@
             "block1" : {
               "Decay" : {
                 "@fs_enabled" : false,
-                "@value" : 0.55
+                "@value" : 0.54999995231628418
               },
               "Mix" : {
                 "@fs_enabled" : false,
-                "@value" : 0.34
+                "@value" : 0.34000003337860107
               }
             }
           },
@@ -251,19 +251,19 @@
             "block4" : {
               "Rate" : {
                 "@fs_enabled" : false,
-                "@value" : 0.35
+                "@value" : 0.35000002384185791
               }
             },
             "block2" : {
               "Gain" : {
                 "@fs_enabled" : false,
-                "@value" : 0.42
+                "@value" : 0.41999995708465576
               }
             },
             "block3" : {
               "ChVol" : {
                 "@fs_enabled" : false,
-                "@value" : 0.76
+                "@value" : 0.75999999046325684
               },
               "Tone" : {
                 "@fs_enabled" : false,
@@ -349,11 +349,11 @@
             "block1" : {
               "Decay" : {
                 "@fs_enabled" : false,
-                "@value" : 0.55
+                "@value" : 0.54999995231628418
               },
               "Mix" : {
                 "@fs_enabled" : false,
-                "@value" : 0.34
+                "@value" : 0.34000003337860107
               }
             }
           },
@@ -367,19 +367,19 @@
             "block4" : {
               "Rate" : {
                 "@fs_enabled" : false,
-                "@value" : 0.35
+                "@value" : 0.35000002384185791
               }
             },
             "block2" : {
               "Gain" : {
                 "@fs_enabled" : false,
-                "@value" : 0.42
+                "@value" : 0.41999995708465576
               }
             },
             "block3" : {
               "ChVol" : {
                 "@fs_enabled" : false,
-                "@value" : 0.76
+                "@value" : 0.75999999046325684
               },
               "Tone" : {
                 "@fs_enabled" : false,
@@ -429,17 +429,17 @@
           "@type" : 3,
           "Hum" : 0.5,
           "Treble" : 0.5,
-          "Ch2Drive" : 0.14,
+          "Ch2Drive" : 0.13999998569488525,
           "@cab" : "cab0",
           "@model" : "HD2_AmpMatchstickJump",
           "Master" : 1,
-          "ChVol" : 0.76,
+          "ChVol" : 0.75999999046325684,
           "@path" : 0,
           "Presence" : 0,
           "Tone" : 3,
           "Ripple" : 0.5,
           "@position" : 3,
-          "Ch1Drive" : 0.26,
+          "Ch1Drive" : 0.25999999046325684,
           "Sag" : 0.5,
           "Bass" : 0.5
         },
@@ -448,9 +448,9 @@
           "@path" : 0,
           "@stereo" : false,
           "@type" : 0,
-          "Gain" : 0.63,
+          "Gain" : 0.62999999523162842,
           "@position" : 2,
-          "Level" : 0.6,
+          "Level" : 0.60000002384185791,
           "Tone" : 0.5,
           "@enabled" : false
         },
@@ -467,10 +467,10 @@
           "@stereo" : false,
           "@type" : 0,
           "@position" : 1,
-          "Level" : 5.4,
+          "Level" : 5.4000000953674316,
           "Mix" : 1,
           "@enabled" : true,
-          "Sensitivity" : 0.4400001
+          "Sensitivity" : 0.44000005722045898
         },
         "outputB" : {
           "@model" : "HD2_AppDSPFlowOutput",
@@ -504,33 +504,33 @@
           "VolumeTaper" : false
         },
         "block5" : {
-          "Depth" : 0.35,
+          "Depth" : 0.35000002384185791,
           "@trails" : false,
           "MixR" : 0.5,
           "@enabled" : false,
           "@type" : 7,
-          "Speed" : 0.04999995,
-          "LeftFeedback" : 0.3,
+          "Speed" : 0.04999995231628418,
+          "LeftFeedback" : 0.29999995231628418,
           "SyncSelect2" : 8,
           "SyncSelect1" : 9,
           "@model" : "HD2_DelayDualDelay",
-          "LowCut" : 19.9,
+          "LowCut" : 19.899999618530273,
           "@path" : 0,
           "Level" : 0,
           "Spread" : 1,
-          "MixL" : 0.35,
+          "MixL" : 0.35000002384185791,
           "HighCut" : 20100,
           "ModulationMode" : 1,
           "Right Time" : 0.5,
           "@position" : 5,
           "Left Time" : 0.375,
-          "RightFeedback" : 0.4,
+          "RightFeedback" : 0.39999997615814209,
           "TempoSync1" : false,
           "TempoSync2" : false
         },
         "cab0" : {
           "@model" : "HD2_Cab2x12SilverBell",
-          "LowCut" : 19.9,
+          "LowCut" : 19.899999618530273,
           "@mic" : 5,
           "EarlyReflections" : 0,
           "Distance" : 5,
@@ -546,7 +546,7 @@
         },
         "block4" : {
           "@model" : "HD2_ChorusPlastiChorus",
-          "Rate" : 0.35,
+          "Rate" : 0.35000002384185791,
           "@position" : 4,
           "SyncSelect1" : 2,
           "TempoSync1" : false,
@@ -555,12 +555,12 @@
           "@type" : 0,
           "Mix" : 0.5,
           "Headroom" : 0,
-          "Tone" : 0.7,
+          "Tone" : 0.70000004768371582,
           "Level" : 0,
           "@stereo" : true,
           "Mode" : false,
           "Spread" : 1,
-          "Depth" : 0.45
+          "Depth" : 0.45000004768371582
         }
       },
       "snapshot2" : {
@@ -569,11 +569,11 @@
             "block1" : {
               "Decay" : {
                 "@fs_enabled" : false,
-                "@value" : 0.55
+                "@value" : 0.54999995231628418
               },
               "Mix" : {
                 "@fs_enabled" : false,
-                "@value" : 0.34
+                "@value" : 0.34000003337860107
               }
             }
           },
@@ -587,19 +587,19 @@
             "block4" : {
               "Rate" : {
                 "@fs_enabled" : false,
-                "@value" : 0.35
+                "@value" : 0.35000002384185791
               }
             },
             "block2" : {
               "Gain" : {
                 "@fs_enabled" : false,
-                "@value" : 0.42
+                "@value" : 0.41999995708465576
               }
             },
             "block3" : {
               "ChVol" : {
                 "@fs_enabled" : false,
-                "@value" : 0.76
+                "@value" : 0.75999999046325684
               },
               "Tone" : {
                 "@fs_enabled" : false,
@@ -629,7 +629,7 @@
         "@tempo" : 120
       },
       "global" : {
-        "@variax_volumeknob" : -0.1,
+        "@variax_volumeknob" : -0.10000000149011612,
         "@pedalstate" : 2,
         "@variax_customtuning" : false,
         "@variax_str1tuning" : 0,
@@ -649,7 +649,7 @@
         "@variax_magmode" : true,
         "@variax_str3tuning" : 0,
         "@variax_str5tuning" : 0,
-        "@variax_toneknob" : -0.1,
+        "@variax_toneknob" : -0.10000000149011612,
         "@current_snapshot" : 0,
         "@cursor_group" : "block3"
       },
@@ -659,11 +659,11 @@
             "block1" : {
               "Decay" : {
                 "@fs_enabled" : false,
-                "@value" : 0.55
+                "@value" : 0.54999995231628418
               },
               "Mix" : {
                 "@fs_enabled" : false,
-                "@value" : 0.34
+                "@value" : 0.34000003337860107
               }
             }
           },
@@ -677,19 +677,19 @@
             "block4" : {
               "Rate" : {
                 "@fs_enabled" : false,
-                "@value" : 0.35
+                "@value" : 0.35000002384185791
               }
             },
             "block2" : {
               "Gain" : {
                 "@fs_enabled" : false,
-                "@value" : 0.63
+                "@value" : 0.62999999523162842
               }
             },
             "block3" : {
               "ChVol" : {
                 "@fs_enabled" : false,
-                "@value" : 0.8299999
+                "@value" : 0.82999992370605469
               },
               "Tone" : {
                 "@fs_enabled" : false,
@@ -779,11 +779,11 @@
             "block1" : {
               "Decay" : {
                 "@fs_enabled" : false,
-                "@value" : 0.55
+                "@value" : 0.54999995231628418
               },
               "Mix" : {
                 "@fs_enabled" : false,
-                "@value" : 0.34
+                "@value" : 0.34000003337860107
               }
             }
           },
@@ -797,19 +797,19 @@
             "block4" : {
               "Rate" : {
                 "@fs_enabled" : false,
-                "@value" : 0.12
+                "@value" : 0.12000000476837158
               }
             },
             "block2" : {
               "Gain" : {
                 "@fs_enabled" : false,
-                "@value" : 0.42
+                "@value" : 0.41999995708465576
               }
             },
             "block3" : {
               "ChVol" : {
                 "@fs_enabled" : false,
-                "@value" : 0.76
+                "@value" : 0.75999999046325684
               },
               "Tone" : {
                 "@fs_enabled" : false,
@@ -844,11 +844,11 @@
             "block1" : {
               "Decay" : {
                 "@fs_enabled" : false,
-                "@value" : 0.98
+                "@value" : 0.98000001907348633
               },
               "Mix" : {
                 "@fs_enabled" : false,
-                "@value" : 0.72
+                "@value" : 0.72000002861022949
               }
             }
           },
@@ -862,19 +862,19 @@
             "block4" : {
               "Rate" : {
                 "@fs_enabled" : false,
-                "@value" : 0.35
+                "@value" : 0.35000002384185791
               }
             },
             "block2" : {
               "Gain" : {
                 "@fs_enabled" : false,
-                "@value" : 0.63
+                "@value" : 0.62999999523162842
               }
             },
             "block3" : {
               "ChVol" : {
                 "@fs_enabled" : false,
-                "@value" : 0.76
+                "@value" : 0.75999999046325684
               },
               "Tone" : {
                 "@fs_enabled" : false,
@@ -904,7 +904,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 35717152
+    "device_version" : 36700160
   },
   "schema" : "L6Preset"
 }
