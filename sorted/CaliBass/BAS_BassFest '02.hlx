@@ -3,10 +3,10 @@
   "data" : {
     "meta" : {
       "name" : "BAS:BassFest '02",
-      "application" : "Helix",
+      "application" : "HX Edit",
       "build_sha" : "905c912",
-      "modifieddate" : 1503218432,
-      "appversion" : 35651584
+      "modifieddate" : 1511418601,
+      "appversion" : 36700160
     },
     "device" : 2162689,
     "tone" : {
@@ -105,20 +105,20 @@
           "B Polarity" : false
         },
         "block3" : {
-          "HighQ" : 6.1,
+          "HighQ" : 6.0999999046325684,
           "@model" : "HD2_EQParametric",
           "HighGain" : 2,
           "@position" : 2,
-          "LowQ" : 0.707,
+          "LowQ" : 0.7070000171661377,
           "LowCut" : 20,
           "LowFreq" : 110,
           "MidFreq" : 2000,
           "@enabled" : true,
-          "MidGain" : -1.2,
-          "MidQ" : 4.6,
+          "MidGain" : -1.2000000476837158,
+          "MidQ" : 4.5999999046325684,
           "@path" : 0,
           "@type" : 0,
-          "LowGain" : -2.7,
+          "LowGain" : -2.7000000476837158,
           "Level" : 0,
           "@stereo" : false,
           "HighCut" : 20000,
@@ -130,10 +130,10 @@
           "@stereo" : false,
           "@type" : 0,
           "@position" : 1,
-          "Level" : 1.7,
+          "Level" : 1.7000000476837158,
           "Mix" : 1,
           "@enabled" : true,
-          "Sensitivity" : 0.76
+          "Sensitivity" : 0.75999999046325684
         },
         "inputB" : {
           "@input" : 0,
@@ -162,7 +162,7 @@
           "@input" : 1,
           "@model" : "HD2_AppDSPFlow1Input",
           "noiseGate" : true,
-          "decay" : 0.08000004,
+          "decay" : 0.080000042915344238,
           "threshold" : -40
         },
         "split" : {
@@ -201,25 +201,25 @@
         "outputA" : {
           "@model" : "HD2_AppDSPFlowOutput",
           "@output" : 1,
-          "pan" : 0.495,
+          "pan" : 0.49500000476837158,
           "gain" : 0
         },
         "block4" : {
           "@model" : "HD2_AmpCaliBass",
-          "Master" : 0.6,
+          "Master" : 0.60000002384185791,
           "@position" : 3,
-          "Drive" : 0.3099999,
+          "Drive" : 0.30999994277954102,
           "Voice" : 1,
           "ChVol" : 1,
           "@enabled" : true,
-          "HighMid" : 0.5899999,
+          "HighMid" : 0.58999991416931152,
           "@path" : 0,
           "@type" : 1,
           "Bass" : 0.75,
-          "Mid" : 0.53,
+          "Mid" : 0.52999997138977051,
           "@bypassvolume" : 1,
-          "Sag" : 0.3,
-          "Treble" : 0.86
+          "Sag" : 0.29999995231628418,
+          "Treble" : 0.86000001430511475
         }
       },
       "snapshot2" : {
@@ -229,7 +229,7 @@
         "@tempo" : 30
       },
       "global" : {
-        "@variax_volumeknob" : -0.1,
+        "@variax_volumeknob" : -0.10000000149011612,
         "@pedalstate" : 2,
         "@variax_customtuning" : false,
         "@variax_str1tuning" : 0,
@@ -249,7 +249,7 @@
         "@variax_magmode" : true,
         "@variax_str3tuning" : 0,
         "@variax_str5tuning" : 0,
-        "@variax_toneknob" : -0.1,
+        "@variax_toneknob" : -0.10000000149011612,
         "@current_snapshot" : 0,
         "@cursor_group" : "block4"
       },
@@ -324,7 +324,7 @@
         "@tempo" : 30
       }
     },
-    "device_version" : 35717152
+    "device_version" : 36700160
   },
   "schema" : "L6Preset"
 }

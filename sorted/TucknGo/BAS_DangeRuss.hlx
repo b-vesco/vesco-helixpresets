@@ -3,10 +3,10 @@
   "data" : {
     "meta" : {
       "name" : "BAS:DangeRuss",
-      "application" : "Helix",
+      "application" : "HX Edit",
       "build_sha" : "6a7d211",
-      "modifieddate" : 1503218442,
-      "appversion" : 35651584
+      "modifieddate" : 1511418601,
+      "appversion" : 36700160
     },
     "device" : 2162689,
     "tone" : {
@@ -106,13 +106,13 @@
         },
         "block3" : {
           "@model" : "HD2_DistVerminDist",
-          "Filter" : 0.38,
+          "Filter" : 0.37999999523162842,
           "@path" : 0,
           "@stereo" : false,
           "@type" : 0,
-          "Gain" : 0.27,
+          "Gain" : 0.26999998092651367,
           "@position" : 1,
-          "Level" : 0.85,
+          "Level" : 0.85000002384185791,
           "@enabled" : true
         },
         "block2" : {
@@ -135,7 +135,7 @@
         "block1" : {
           "@model" : "HD2_Cab8x10SVBeast",
           "Level" : 0,
-          "LowCut" : 19.9,
+          "LowCut" : 19.899999618530273,
           "@path" : 1,
           "@mic" : 12,
           "@type" : 2,
@@ -155,16 +155,16 @@
           "@input" : 1,
           "@model" : "HD2_AppDSPFlow1Input",
           "noiseGate" : true,
-          "decay" : 0.08000004,
+          "decay" : 0.080000042915344238,
           "threshold" : -40
         },
         "block6" : {
           "@model" : "HD2_GateNoiseGate",
-          "Decay" : 0.07200003,
+          "Decay" : 0.072000026702880859,
           "@path" : 0,
           "@stereo" : false,
           "@type" : 0,
-          "Threshold" : -19.4,
+          "Threshold" : -19.399999618530273,
           "@position" : 5,
           "Level" : 0,
           "@enabled" : true
@@ -172,7 +172,7 @@
         "block0" : {
           "@model" : "HD2_Cab2x15Brute",
           "Level" : 0,
-          "LowCut" : 19.9,
+          "LowCut" : 19.899999618530273,
           "@path" : 0,
           "@mic" : 12,
           "@type" : 2,
@@ -209,24 +209,24 @@
           "gain" : 0
         },
         "block4" : {
-          "Bias" : 0.6600001,
+          "Bias" : 0.66000008583068848,
           "@model" : "HD2_AmpTucknGo",
-          "Master" : 0.72,
+          "Master" : 0.72000002861022949,
           "@position" : 3,
-          "Drive" : 0.55,
+          "Drive" : 0.54999995231628418,
           "ChVol" : 1,
           "@enabled" : true,
-          "HighMid" : 0.6,
+          "HighMid" : 0.60000002384185791,
           "Ripple" : 0.5,
           "@path" : 0,
           "@type" : 1,
-          "LowMid" : 0.65,
-          "Bass" : 0.6700001,
+          "LowMid" : 0.64999997615814209,
+          "Bass" : 0.67000007629394531,
           "BiasX" : 0.5,
           "Hum" : 0.5,
           "@bypassvolume" : 1,
           "Sag" : 0.5,
-          "Treble" : 0.76
+          "Treble" : 0.75999999046325684
         }
       },
       "snapshot2" : {
@@ -236,7 +236,7 @@
         "@tempo" : 120
       },
       "global" : {
-        "@variax_volumeknob" : -0.1,
+        "@variax_volumeknob" : -0.10000000149011612,
         "@pedalstate" : 2,
         "@variax_customtuning" : false,
         "@variax_str1tuning" : 0,
@@ -256,7 +256,7 @@
         "@variax_magmode" : true,
         "@variax_str3tuning" : 0,
         "@variax_str5tuning" : 0,
-        "@variax_toneknob" : -0.1,
+        "@variax_toneknob" : -0.10000000149011612,
         "@current_snapshot" : 0,
         "@cursor_group" : "block4"
       },
@@ -339,7 +339,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 35717152
+    "device_version" : 36700160
   },
   "schema" : "L6Preset"
 }

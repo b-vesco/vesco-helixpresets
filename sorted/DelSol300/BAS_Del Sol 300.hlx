@@ -3,10 +3,10 @@
   "data" : {
     "meta" : {
       "name" : "BAS:Del Sol 300",
-      "application" : "Helix",
-      "build_sha" : "6a7d211",
-      "modifieddate" : 1503218325,
-      "appversion" : 35651584
+      "application" : "HX Edit",
+      "build_sha" : "460b9f0",
+      "modifieddate" : 1511418555,
+      "appversion" : 36700160
     },
     "device" : 2162689,
     "tone" : {
@@ -98,8 +98,8 @@
               "@min" : false,
               "@max" : true,
               "@controller" : 14,
-              "@fs_enabled" : false,
-              "@fs_ledcolor" : 462860,
+              "@fs_enabled" : true,
+              "@fs_ledcolor" : 7077838,
               "@fs_label" : "Bright",
               "@fs_momentary" : false
             }
@@ -125,36 +125,29 @@
           "B Polarity" : false
         },
         "block3" : {
-          "ODTone" : 0.73,
-          "@model" : "HD2_DistClawthornDrive",
-          "FuzzOct" : false,
+          "@model" : "HD2_DistThrifterFuzz",
           "@position" : 2,
-          "Fuzz" : false,
-          "ODLowBoost" : true,
-          "FuzzTone" : 0.5,
+          "Drive" : 0.59999990463256836,
+          "Notch Gain" : -3.4000000953674316,
           "@enabled" : false,
-          "FuzzLevel" : 0.2,
+          "Thick" : 1,
+          "Notch Freq" : 1600,
           "@path" : 0,
           "@type" : 0,
-          "ODGain" : 0.4400001,
-          "FuzzGain" : 0.5,
-          "@stereo" : false,
-          "ODLevel" : 0.35
+          "Attack" : 0.36000001430511475,
+          "Level" : 0.76999998092651367,
+          "@stereo" : true
         },
         "block2" : {
-          "@model" : "HD2_CompressorDeluxeComp",
-          "@position" : 1,
-          "Threshold" : -37.1,
-          "Release" : 0.2,
-          "@enabled" : true,
-          "Knee" : 6,
+          "@model" : "HD2_DistKinkyBoost",
+          "Bright" : true,
           "@path" : 0,
+          "@stereo" : false,
           "@type" : 0,
-          "Attack" : 0.03799999,
-          "Mix" : 1,
-          "Ratio" : 3,
-          "Level" : 7,
-          "@stereo" : false
+          "Drive" : 0.44000005722045898,
+          "@position" : 1,
+          "@enabled" : true,
+          "Boost" : false
         },
         "inputB" : {
           "@input" : 0,
@@ -187,7 +180,7 @@
           "threshold" : -48
         },
         "block6" : {
-          "VibratoRate" : 0.7,
+          "VibratoRate" : 0.70000004768371582,
           "@model" : "HD2_Chorus70sChorus",
           "@position" : 5,
           "SyncSelect1" : 6,
@@ -203,7 +196,7 @@
           "VibratoDepth" : 0.5,
           "Level" : 1,
           "@stereo" : false,
-          "ChorusIntensity" : 0.41,
+          "ChorusIntensity" : 0.40999996662139893,
           "Mode" : false,
           "Spread" : 0
         },
@@ -228,15 +221,26 @@
           "BalanceB" : 0.5
         },
         "block5" : {
-          "@model" : "HD2_Cab1x18DelSol",
-          "Level" : 0,
-          "LowCut" : 19.9,
+          "@model" : "HD2_Cab1x12DelSol",
+          "@position" : 4,
+          "LowCut" : 19.899999618530273,
+          "@enabled" : true,
+          "EarlyReflections" : 0,
           "@path" : 0,
           "@mic" : 1,
-          "@type" : 2,
-          "@position" : 4,
+          "@type" : 4,
           "Distance" : 1.5,
+          "Level" : 0,
+          "@cab" : "cab0",
+          "HighCut" : 20100
+        },
+        "cab0" : {
+          "@model" : "HD2_Cab1x18DelSol",
+          "LowCut" : 19.899999618530273,
+          "@mic" : 1,
           "EarlyReflections" : 0,
+          "Distance" : 1.5,
+          "Level" : 0,
           "@enabled" : true,
           "HighCut" : 20100
         },
@@ -247,24 +251,24 @@
           "gain" : 0
         },
         "block4" : {
-          "2kHz" : -1.7,
-          "62p5Hz" : 9,
+          "2kHz" : -1.7000000476837158,
+          "62p5Hz" : 4.400001049041748,
           "@model" : "HD2_AmpDelSol300",
           "@position" : 3,
-          "Bright" : false,
+          "Bright" : true,
           "Contour" : true,
-          "ChVol" : 0.8,
+          "ChVol" : 0.91000008583068848,
           "@enabled" : true,
-          "Master" : 0.65,
+          "Master" : 0.64999997615814209,
           "@path" : 0,
           "@type" : 1,
-          "4kHz" : 3.8,
+          "4kHz" : 3.8000001907348633,
           "500Hz" : -2,
-          "1kHz" : 3.7,
+          "1kHz" : 3.6999998092651367,
           "@bypassvolume" : 1,
-          "Gain" : 0.73,
-          "125Hz" : 4.7,
-          "250Hz" : 1.3
+          "Gain" : 0.96000003814697266,
+          "125Hz" : 4.6999998092651367,
+          "250Hz" : 1.2999999523162842
         }
       },
       "snapshot2" : {
@@ -274,7 +278,7 @@
         "@tempo" : 120
       },
       "global" : {
-        "@variax_volumeknob" : -0.1,
+        "@variax_volumeknob" : -0.10000000149011612,
         "@pedalstate" : 2,
         "@variax_customtuning" : false,
         "@variax_str1tuning" : 0,
@@ -294,7 +298,7 @@
         "@variax_magmode" : true,
         "@variax_str3tuning" : 0,
         "@variax_str5tuning" : 0,
-        "@variax_toneknob" : -0.1,
+        "@variax_toneknob" : -0.10000000149011612,
         "@current_snapshot" : 0,
         "@cursor_group" : "block4"
       },
@@ -320,6 +324,13 @@
             "@fs_ledcolor" : 65408,
             "@fs_momentary" : false
           },
+          "block2" : {
+            "@fs_label" : "Kinky Boost",
+            "@fs_enabled" : true,
+            "@fs_index" : 2,
+            "@fs_ledcolor" : 13676288,
+            "@fs_momentary" : false
+          },
           "block6" : {
             "@fs_label" : "70s Chorus",
             "@fs_enabled" : false,
@@ -328,7 +339,7 @@
             "@fs_momentary" : false
           },
           "block3" : {
-            "@fs_label" : "Clawthorn Drive",
+            "@fs_label" : "Thrifter Fuzz",
             "@fs_enabled" : false,
             "@fs_index" : 11,
             "@fs_customlabel" : "Lil' Grit",
@@ -358,8 +369,8 @@
                 "@value" : true
               },
               "Bright" : {
-                "@fs_enabled" : false,
-                "@value" : false
+                "@fs_enabled" : true,
+                "@value" : true
               }
             }
           }
@@ -381,7 +392,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 35717152
+    "device_version" : 36700160
   },
   "schema" : "L6Preset"
 }

@@ -3,10 +3,10 @@
   "data" : {
     "meta" : {
       "name" : "BAS:Cali 400 Ch1",
-      "application" : "Helix",
-      "build_sha" : "37cfcb5",
-      "modifieddate" : 1503218325,
-      "appversion" : 35651584
+      "application" : "HX Edit",
+      "build_sha" : "460b9f0",
+      "modifieddate" : 1511418555,
+      "appversion" : 36700160
     },
     "device" : 2162689,
     "tone" : {
@@ -105,29 +105,31 @@
           "B Polarity" : false
         },
         "block3" : {
-          "@model" : "HD2_DistScream808",
+          "@model" : "HD2_DistTeemah",
+          "Treble" : 0.48000001907348633,
+          "Bass" : 0,
           "@path" : 0,
           "@stereo" : false,
           "@type" : 0,
-          "Gain" : 0.52,
+          "Clipping" : 0,
+          "Gain" : 0.29999995231628418,
           "@position" : 2,
-          "Level" : 0.6700001,
-          "Tone" : 0.65,
+          "Level" : 0.49000000953674316,
           "@enabled" : false
         },
         "block2" : {
           "@model" : "HD2_CompressorLAStudioComp",
           "@position" : 1,
           "@enabled" : false,
-          "Emphasis" : 0.09000003,
+          "Emphasis" : 0.090000033378601074,
           "@path" : 0,
           "@type" : 0,
           "Mix" : 1,
-          "PeakReduction" : 0.78,
+          "PeakReduction" : 0.77999997138977051,
           "Type" : false,
           "Level" : 0,
           "@stereo" : false,
-          "Gain" : 0.62
+          "Gain" : 0.62000000476837158
         },
         "inputB" : {
           "@input" : 0,
@@ -181,7 +183,7 @@
         },
         "cab0" : {
           "@model" : "HD2_Cab2x15Brute",
-          "LowCut" : 19.9,
+          "LowCut" : 19.899999618530273,
           "@mic" : 12,
           "EarlyReflections" : 0,
           "Distance" : 1,
@@ -196,25 +198,25 @@
           "gain" : 0
         },
         "block4" : {
-          "Bias" : 0.55,
+          "Bias" : 0.54999995231628418,
           "@model" : "HD2_AmpCali400Ch1",
-          "Master" : 0.6700001,
+          "Master" : 0.67000007629394531,
           "@position" : 3,
-          "Drive" : 0.55,
-          "ChVol" : 0.88,
+          "Drive" : 0.45000004768371582,
+          "ChVol" : 0.98000001907348633,
           "@enabled" : true,
           "HighMid" : 0.5,
           "Ripple" : 0.5,
           "@path" : 0,
           "@type" : 3,
-          "Bass" : 0.5,
+          "Bass" : 0.54999995231628418,
           "BiasX" : 0.5,
           "Hum" : 0.5,
-          "Mid" : 0.5599999,
+          "Mid" : 0.55999994277954102,
           "@bypassvolume" : 1,
           "@cab" : "cab0",
           "Sag" : 0.5,
-          "Treble" : 0.4
+          "Treble" : 0.39999997615814209
         }
       },
       "snapshot2" : {
@@ -224,7 +226,7 @@
         "@tempo" : 120
       },
       "global" : {
-        "@variax_volumeknob" : -0.1,
+        "@variax_volumeknob" : -0.10000000149011612,
         "@pedalstate" : 2,
         "@variax_customtuning" : false,
         "@variax_str1tuning" : 0,
@@ -244,7 +246,7 @@
         "@variax_magmode" : true,
         "@variax_str3tuning" : 0,
         "@variax_str5tuning" : 0,
-        "@variax_toneknob" : -0.1,
+        "@variax_toneknob" : -0.10000000149011612,
         "@current_snapshot" : 0,
         "@cursor_group" : "block4"
       },
@@ -278,7 +280,7 @@
             "@fs_momentary" : false
           },
           "block3" : {
-            "@fs_label" : "Scream 808",
+            "@fs_label" : "Teemah!",
             "@fs_enabled" : false,
             "@fs_index" : 9,
             "@fs_ledcolor" : 525824,
@@ -318,7 +320,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 35717152
+    "device_version" : 36700160
   },
   "schema" : "L6Preset"
 }

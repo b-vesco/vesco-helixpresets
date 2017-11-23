@@ -3,10 +3,10 @@
   "data" : {
     "meta" : {
       "name" : "BAS:Cali Bass",
-      "application" : "Helix",
-      "build_sha" : "37cfcb5",
-      "modifieddate" : 1503218325,
-      "appversion" : 35651584
+      "application" : "HX Edit",
+      "build_sha" : "460b9f0",
+      "modifieddate" : 1511418556,
+      "appversion" : 36700160
     },
     "device" : 2162689,
     "tone" : {
@@ -106,32 +106,32 @@
         },
         "block3" : {
           "@model" : "HD2_AmpCaliBass",
-          "Master" : 0.8199999,
+          "Master" : 0.84999990463256836,
           "@position" : 2,
-          "Drive" : 0.3099999,
+          "Drive" : 0.21000003814697266,
           "Voice" : 1,
           "ChVol" : 1,
           "@enabled" : true,
-          "HighMid" : 0.72,
+          "HighMid" : 0.73000001907348633,
           "@path" : 0,
           "@type" : 3,
-          "Bass" : 0.49,
-          "Mid" : 0.53,
+          "Bass" : 0.49000000953674316,
+          "Mid" : 0.52999997138977051,
           "@bypassvolume" : 1,
           "@cab" : "cab0",
-          "Sag" : 0.3,
-          "Treble" : 0.74
+          "Sag" : 0.29999995231628418,
+          "Treble" : 0.73000001907348633
         },
         "block2" : {
           "@model" : "HD2_DistObsidian7000",
-          "Master" : 0.55,
+          "Master" : 0.54999995231628418,
           "@position" : 1,
           "Drive" : 0.5,
           "Grunt" : 2,
-          "HiMid" : -1.7,
+          "HiMid" : -1.7000000476837158,
           "Distortion" : true,
           "@enabled" : false,
-          "LoMid" : -0.7999997,
+          "LoMid" : -0.79999971389770508,
           "Blend" : 1,
           "@path" : 0,
           "@type" : 0,
@@ -195,7 +195,7 @@
         },
         "cab0" : {
           "@model" : "HD2_Cab6x10CaliPower",
-          "LowCut" : 19.9,
+          "LowCut" : 19.899999618530273,
           "@mic" : 14,
           "EarlyReflections" : 0,
           "Distance" : 1,
@@ -207,21 +207,21 @@
           "@model" : "HD2_AppDSPFlowOutput",
           "@output" : 1,
           "pan" : 0.5,
-          "gain" : 0
+          "gain" : 5
         },
         "block4" : {
           "@model" : "HD2_CompressorLAStudioComp",
           "@position" : 3,
-          "@enabled" : true,
-          "Emphasis" : 0.09000003,
+          "@enabled" : false,
+          "Emphasis" : 0.090000033378601074,
           "@path" : 0,
           "@type" : 0,
           "Mix" : 1,
-          "PeakReduction" : 0.78,
+          "PeakReduction" : 0.77999997138977051,
           "Type" : false,
           "Level" : 0,
           "@stereo" : false,
-          "Gain" : 0.62
+          "Gain" : 0.62000000476837158
         }
       },
       "snapshot2" : {
@@ -231,7 +231,7 @@
         "@tempo" : 120
       },
       "global" : {
-        "@variax_volumeknob" : -0.1,
+        "@variax_volumeknob" : -0.10000000149011612,
         "@pedalstate" : 2,
         "@variax_customtuning" : false,
         "@variax_str1tuning" : 0,
@@ -251,7 +251,7 @@
         "@variax_magmode" : true,
         "@variax_str3tuning" : 0,
         "@variax_str5tuning" : 0,
-        "@variax_toneknob" : -0.1,
+        "@variax_toneknob" : -0.10000000149011612,
         "@current_snapshot" : 0,
         "@cursor_group" : "block3"
       },
@@ -272,9 +272,9 @@
           },
           "block4" : {
             "@fs_label" : "LA Studio Comp",
-            "@fs_enabled" : true,
+            "@fs_enabled" : false,
             "@fs_index" : 8,
-            "@fs_ledcolor" : 8716032,
+            "@fs_ledcolor" : 527360,
             "@fs_momentary" : false
           },
           "block1" : {
@@ -313,7 +313,7 @@
         "blocks" : {
           "dsp0" : {
             "block0" : false,
-            "block4" : true,
+            "block4" : false,
             "block1" : true,
             "block2" : false,
             "block3" : true
@@ -325,7 +325,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 35717152
+    "device_version" : 36700160
   },
   "schema" : "L6Preset"
 }

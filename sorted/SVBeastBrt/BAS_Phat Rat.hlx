@@ -3,10 +3,10 @@
   "data" : {
     "meta" : {
       "name" : "BAS:Phat Rat",
-      "application" : "Helix",
+      "application" : "HX Edit",
       "build_sha" : "6a7d211",
-      "modifieddate" : 1503218442,
-      "appversion" : 35651584
+      "modifieddate" : 1511418601,
+      "appversion" : 36700160
     },
     "device" : 2162689,
     "tone" : {
@@ -127,13 +127,13 @@
         "block2" : {
           "@model" : "HD2_CompressorDeluxeComp",
           "@position" : 1,
-          "Threshold" : -37.1,
-          "Release" : 0.2,
+          "Threshold" : -37.099998474121094,
+          "Release" : 0.20000004768371582,
           "@enabled" : true,
           "Knee" : 6,
           "@path" : 0,
           "@type" : 0,
-          "Attack" : 0.03799999,
+          "Attack" : 0.037999987602233887,
           "Mix" : 1,
           "Ratio" : 3,
           "Level" : 7,
@@ -166,7 +166,7 @@
           "@input" : 1,
           "@model" : "HD2_AppDSPFlow1Input",
           "noiseGate" : true,
-          "decay" : 0.15,
+          "decay" : 0.14999997615814209,
           "threshold" : -48
         },
         "split" : {
@@ -190,21 +190,21 @@
           "@enabled" : false
         },
         "block5" : {
-          "Bias" : 0.74,
+          "Bias" : 0.74000000953674316,
           "@model" : "HD2_AmpSVBeastBrt",
-          "Master" : 0.5999999,
+          "Master" : 0.59999990463256836,
           "@position" : 4,
-          "Drive" : 0.6,
-          "Treble" : 0.88,
-          "ChVol" : 0.78,
+          "Drive" : 0.60000002384185791,
+          "Treble" : 0.87999999523162842,
+          "ChVol" : 0.77999997138977051,
           "@enabled" : true,
           "Ripple" : 0.5,
           "@path" : 0,
           "@type" : 3,
-          "Bass" : 0.41,
+          "Bass" : 0.40999996662139893,
           "BiasX" : 0.5,
           "Hum" : 0.5,
-          "Mid" : 0.79,
+          "Mid" : 0.78999996185302734,
           "@bypassvolume" : 1,
           "@cab" : "cab0",
           "Sag" : 0.5,
@@ -232,9 +232,9 @@
           "@path" : 0,
           "@stereo" : false,
           "@type" : 0,
-          "Gain" : 0.6800001,
+          "Gain" : 0.68000006675720215,
           "@position" : 3,
-          "Level" : 0.85,
+          "Level" : 0.85000002384185791,
           "@enabled" : true
         }
       },
@@ -245,7 +245,7 @@
         "@tempo" : 120
       },
       "global" : {
-        "@variax_volumeknob" : -0.1,
+        "@variax_volumeknob" : -0.10000000149011612,
         "@pedalstate" : 2,
         "@variax_customtuning" : false,
         "@variax_str1tuning" : 0,
@@ -265,7 +265,7 @@
         "@variax_magmode" : true,
         "@variax_str3tuning" : 0,
         "@variax_str5tuning" : 0,
-        "@variax_toneknob" : -0.1,
+        "@variax_toneknob" : -0.10000000149011612,
         "@current_snapshot" : 0,
         "@cursor_group" : "block4"
       },
@@ -354,7 +354,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 35717152
+    "device_version" : 36700160
   },
   "schema" : "L6Preset"
 }
