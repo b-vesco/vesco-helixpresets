@@ -3,10 +3,10 @@
   "data" : {
     "meta" : {
       "name" : "Interstate Zed",
-      "application" : "Helix",
-      "build_sha" : "905c912",
-      "modifieddate" : 1503218323,
-      "appversion" : 35651584
+      "application" : "HX Edit",
+      "build_sha" : "cdef813",
+      "modifieddate" : 1511418554,
+      "appversion" : 36700160
     },
     "device" : 2162689,
     "tone" : {
@@ -14,13 +14,13 @@
         "@pedalstate" : 2,
         "@ledcolor" : 0,
         "@name" : "SNAPSHOT 8",
-        "@tempo" : 81.0263
+        "@tempo" : 81.026298522949219
       },
       "snapshot4" : {
         "@pedalstate" : 2,
         "@ledcolor" : 0,
         "@name" : "SNAPSHOT 5",
-        "@tempo" : 81.0263
+        "@tempo" : 81.026298522949219
       },
       "dsp1" : {
         "split" : {
@@ -73,7 +73,7 @@
         "@pedalstate" : 2,
         "@ledcolor" : 0,
         "@name" : "SNAPSHOT 2",
-        "@tempo" : 81.0263
+        "@tempo" : 81.026298522949219
       },
       "controller" : {
         "dsp0" : {
@@ -90,7 +90,7 @@
         "@pedalstate" : 2,
         "@ledcolor" : 0,
         "@name" : "SNAPSHOT 6",
-        "@tempo" : 81.0263
+        "@tempo" : 81.026298522949219
       },
       "dsp0" : {
         "join" : {
@@ -119,10 +119,10 @@
           "@path" : 0,
           "@stereo" : false,
           "@type" : 0,
-          "Gain" : 0.53,
+          "Gain" : 0.52999997138977051,
           "@position" : 1,
-          "Level" : 0.6,
-          "Tone" : 0.45,
+          "Level" : 0.60000002384185791,
+          "Tone" : 0.45000004768371582,
           "@enabled" : false
         },
         "inputB" : {
@@ -138,10 +138,10 @@
           "@stereo" : false,
           "@type" : 0,
           "@position" : 0,
-          "Level" : 5.7,
-          "Mix" : 0.78,
+          "Level" : 5.6999998092651367,
+          "Mix" : 0.77999997138977051,
           "@enabled" : false,
-          "Sensitivity" : 0.4
+          "Sensitivity" : 0.39999997615814209
         },
         "outputB" : {
           "@model" : "HD2_AppDSPFlowOutput",
@@ -164,11 +164,11 @@
           "@path" : 0,
           "@trails" : false,
           "@type" : 7,
-          "Mix" : 0.22,
+          "Mix" : 0.22000002861022949,
           "Level" : 0,
-          "Decay" : 0.27,
+          "Decay" : 0.26999998092651367,
           "HighCut" : 4400,
-          "Predelay" : 0.02900004
+          "Predelay" : 0.029000043869018555
         },
         "block0" : {
           "@model" : "HD2_Looper",
@@ -191,10 +191,10 @@
           "BalanceB" : 0.5
         },
         "block5" : {
-          "Depth" : 0.1900001,
+          "Depth" : 0.19000005722045898,
           "@trails" : true,
           "@enabled" : false,
-          "Noise" : 0.36,
+          "Noise" : 0.36000001430511475,
           "BBD Size" : 3,
           "@type" : 7,
           "SyncSelect1" : 6,
@@ -202,20 +202,20 @@
           "@stereo" : true,
           "@path" : 0,
           "Level" : 0,
-          "Mix" : 0.33,
+          "Mix" : 0.33000004291534424,
           "Spread" : 1,
           "Feedback" : 0.5,
           "Scale" : 0.75,
           "@position" : 4,
           "Headroom" : 12,
-          "Rate" : 0.35,
+          "Rate" : 0.35000002384185791,
           "TempoSync1" : true,
           "Time" : 0.5
         },
         "cab0" : {
           "@model" : "HD2_Cab2x12Interstate",
           "@mic" : 10,
-          "Low Cut" : 19.9,
+          "Low Cut" : 19.899999618530273,
           "EarlyReflections" : 0,
           "Distance" : 1,
           "Level" : 0,
@@ -229,35 +229,35 @@
           "gain" : 0
         },
         "block4" : {
-          "Bias" : 0.65,
+          "Bias" : 0.64999997615814209,
           "@model" : "HD2_AmpInterstateZed",
           "Master" : 1,
           "@position" : 3,
-          "Drive" : 0.29,
-          "Treble" : 0.55,
-          "ChVol" : 0.71,
+          "Drive" : 0.28999996185302734,
+          "Treble" : 0.54999995231628418,
+          "ChVol" : 0.79999995231628418,
           "@enabled" : true,
           "Ripple" : 0.5,
           "@path" : 0,
           "@type" : 3,
-          "Bass" : 0.6900001,
+          "Bass" : 0.69000005722045898,
           "BiasX" : 0.5,
-          "Hum" : 0.38,
-          "Mid" : 0.4300001,
+          "Hum" : 0.37999999523162842,
+          "Mid" : 0.43000006675720215,
           "@bypassvolume" : 1,
           "@cab" : "cab0",
           "Presence" : 0,
-          "Sag" : 0.33
+          "Sag" : 0.33000004291534424
         }
       },
       "snapshot2" : {
         "@pedalstate" : 2,
         "@ledcolor" : 0,
         "@name" : "SNAPSHOT 3",
-        "@tempo" : 81.0263
+        "@tempo" : 81.026298522949219
       },
       "global" : {
-        "@variax_volumeknob" : -0.1,
+        "@variax_volumeknob" : -0.10000000149011612,
         "@pedalstate" : 2,
         "@variax_customtuning" : false,
         "@variax_str1tuning" : 0,
@@ -270,14 +270,14 @@
         "@cursor_dsp" : 0,
         "@cursor_path" : 0,
         "@guitarinputZ" : 0,
-        "@tempo" : 81.0263,
+        "@tempo" : 81.026298522949219,
         "@topology1" : "A",
         "@cursor_position" : 3,
         "@variax_lockctrls" : 0,
         "@variax_magmode" : true,
         "@variax_str3tuning" : 0,
         "@variax_str5tuning" : 0,
-        "@variax_toneknob" : -0.1,
+        "@variax_toneknob" : -0.10000000149011612,
         "@current_snapshot" : 0,
         "@cursor_group" : "block4"
       },
@@ -285,7 +285,7 @@
         "@pedalstate" : 2,
         "@ledcolor" : 0,
         "@name" : "SNAPSHOT 7",
-        "@tempo" : 81.0263
+        "@tempo" : 81.026298522949219
       },
       "footswitch" : {
         "dsp0" : {
@@ -337,7 +337,7 @@
         "@pedalstate" : 2,
         "@ledcolor" : 0,
         "@name" : "SNAPSHOT 4",
-        "@tempo" : 81.0263
+        "@tempo" : 81.026298522949219
       },
       "snapshot0" : {
         "controllers" : {
@@ -364,10 +364,10 @@
         "@pedalstate" : 2,
         "@ledcolor" : 0,
         "@name" : "SNAPSHOT 1",
-        "@tempo" : 81.0263
+        "@tempo" : 81.026298522949219
       }
     },
-    "device_version" : 35717152
+    "device_version" : 36700160
   },
   "schema" : "L6Preset"
 }

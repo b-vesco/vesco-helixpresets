@@ -3,10 +3,10 @@
   "data" : {
     "meta" : {
       "name" : "Hair of The Dog",
-      "application" : "Helix",
+      "application" : "HX Edit",
       "build_sha" : "6a7d211",
-      "modifieddate" : 1503218443,
-      "appversion" : 35651584
+      "modifieddate" : 1511418602,
+      "appversion" : 36700160
     },
     "device" : 2162689,
     "tone" : {
@@ -116,10 +116,10 @@
           "@path" : 0,
           "@stereo" : false,
           "@type" : 0,
-          "Sustain" : 0.34,
+          "Sustain" : 0.34000003337860107,
           "@position" : 2,
-          "Level" : 0.63,
-          "Tone" : 0.5599999,
+          "Level" : 0.62999999523162842,
+          "Tone" : 0.55999994277954102,
           "@enabled" : false
         },
         "block2" : {
@@ -150,18 +150,18 @@
           "@path" : 0,
           "@trails" : false,
           "@type" : 7,
-          "Mix" : 0.3,
+          "Mix" : 0.29999995231628418,
           "Level" : 0,
-          "Decay" : 0.7,
+          "Decay" : 0.70000004768371582,
           "HighCut" : 4570,
-          "Predelay" : 0.01499999
+          "Predelay" : 0.014999985694885254
         },
         "block1" : {
           "@model" : "HD2_VolPanVol",
           "@path" : 0,
           "@stereo" : false,
           "@type" : 0,
-          "Pedal" : 0.910555,
+          "Pedal" : 0.91055500507354736,
           "@position" : 0,
           "@enabled" : true,
           "VolumeTaper" : false
@@ -176,13 +176,13 @@
           "@input" : 1,
           "@model" : "HD2_AppDSPFlow1Input",
           "noiseGate" : true,
-          "decay" : 0.01,
+          "decay" : 0.0099999997764825821,
           "threshold" : -65
         },
         "block6" : {
           "@model" : "HD2_DelaySimpleDelay",
           "@position" : 5,
-          "Feedback" : 0.35,
+          "Feedback" : 0.35000002384185791,
           "SyncSelect1" : 6,
           "TempoSync1" : false,
           "Scale" : 0.75,
@@ -190,8 +190,8 @@
           "@path" : 0,
           "@trails" : false,
           "@type" : 7,
-          "Mix" : 0.4,
-          "Time" : 0.6,
+          "Mix" : 0.39999997615814209,
+          "Time" : 0.60000002384185791,
           "Level" : 0,
           "@stereo" : false
         },
@@ -216,32 +216,32 @@
           "BalanceB" : 0.5
         },
         "block5" : {
-          "NrmDrive" : 0.71,
+          "NrmDrive" : 0.71000003814697266,
           "@enabled" : true,
           "@bypassvolume" : 1,
-          "Mid" : 0.8199999,
+          "Mid" : 0.81999993324279785,
           "BiasX" : 0.5,
-          "Bias" : 0.65,
+          "Bias" : 0.64999997615814209,
           "@type" : 3,
           "Hum" : 0.5,
-          "Treble" : 0.79,
+          "Treble" : 0.78999996185302734,
           "@cab" : "cab0",
           "@model" : "HD2_AmpBritPlexiJump",
           "Master" : 1,
-          "ChVol" : 0.6700001,
+          "ChVol" : 0.67000007629394531,
           "@path" : 0,
-          "Presence" : 0.7,
-          "Ripple" : 0.74,
+          "Presence" : 0.70000004768371582,
+          "Ripple" : 0.74000000953674316,
           "@position" : 4,
-          "Sag" : 0.72,
-          "BrtDrive" : 0.9,
-          "Bass" : 0.78
+          "Sag" : 0.72000002861022949,
+          "BrtDrive" : 0.89999997615814209,
+          "Bass" : 0.77999997138977051
         },
         "cab0" : {
           "@model" : "HD2_Cab4x12Greenback25",
-          "LowCut" : 19.9,
+          "LowCut" : 19.899999618530273,
           "@mic" : 2,
-          "EarlyReflections" : 0.28,
+          "EarlyReflections" : 0.27999997138977051,
           "Distance" : 1.5,
           "Level" : 0,
           "@enabled" : true,
@@ -254,7 +254,7 @@
           "gain" : 0
         },
         "block4" : {
-          "VibratoRate" : 0.7,
+          "VibratoRate" : 0.70000004768371582,
           "@model" : "HD2_Chorus70sChorus",
           "@position" : 3,
           "SyncSelect1" : 1,
@@ -270,7 +270,7 @@
           "VibratoDepth" : 0.5,
           "Level" : 1,
           "@stereo" : false,
-          "ChorusIntensity" : 0.5599999,
+          "ChorusIntensity" : 0.55999994277954102,
           "Mode" : false,
           "Spread" : 0
         }
@@ -377,7 +377,7 @@
             "block1" : {
               "Pedal" : {
                 "@fs_enabled" : false,
-                "@value" : 0.910555
+                "@value" : 0.91055500507354736
               }
             },
             "block2" : {
@@ -406,7 +406,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 35717152
+    "device_version" : 36700160
   },
   "schema" : "L6Preset"
 }

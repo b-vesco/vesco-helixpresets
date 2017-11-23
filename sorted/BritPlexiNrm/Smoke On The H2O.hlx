@@ -3,10 +3,10 @@
   "data" : {
     "meta" : {
       "name" : "Smoke on the H2O",
-      "application" : "Helix",
+      "application" : "HX Edit",
       "build_sha" : "6a7d211",
-      "modifieddate" : 1503218443,
-      "appversion" : 35651584
+      "modifieddate" : 1511418602,
+      "appversion" : 36700160
     },
     "device" : 2162689,
     "tone" : {
@@ -14,13 +14,13 @@
         "@pedalstate" : 2,
         "@ledcolor" : 0,
         "@name" : "SNAPSHOT 8",
-        "@tempo" : 113.636
+        "@tempo" : 113.63600158691406
       },
       "snapshot4" : {
         "@pedalstate" : 2,
         "@ledcolor" : 0,
         "@name" : "SNAPSHOT 5",
-        "@tempo" : 113.636
+        "@tempo" : 113.63600158691406
       },
       "dsp1" : {
         "block0" : {
@@ -85,7 +85,7 @@
         "@pedalstate" : 2,
         "@ledcolor" : 0,
         "@name" : "SNAPSHOT 2",
-        "@tempo" : 113.636
+        "@tempo" : 113.63600158691406
       },
       "controller" : {
         "dsp0" : {
@@ -102,7 +102,7 @@
         "@pedalstate" : 2,
         "@ledcolor" : 0,
         "@name" : "SNAPSHOT 6",
-        "@tempo" : 113.636
+        "@tempo" : 113.63600158691406
       },
       "dsp0" : {
         "join" : {
@@ -118,12 +118,12 @@
         },
         "block3" : {
           "@model" : "HD2_DistArbitratorFuzz",
-          "Fuzz" : 0.15,
+          "Fuzz" : 0.14999997615814209,
           "@path" : 0,
           "@stereo" : false,
           "@type" : 0,
           "@position" : 3,
-          "Level" : 0.4,
+          "Level" : 0.39999997615814209,
           "@enabled" : false
         },
         "block2" : {
@@ -149,20 +149,20 @@
         "block7" : {
           "@model" : "HD2_ReverbRoom",
           "@position" : 7,
-          "LowCut" : 19.9,
+          "LowCut" : 19.899999618530273,
           "@enabled" : true,
           "@path" : 0,
           "@trails" : false,
           "@type" : 7,
-          "Mix" : 0.35,
+          "Mix" : 0.35000002384185791,
           "Level" : 0,
-          "Decay" : 0.35,
+          "Decay" : 0.35000002384185791,
           "HighCut" : 1900,
-          "Predelay" : 0.006999969
+          "Predelay" : 0.006999969482421875
         },
         "block1" : {
           "@model" : "HD2_GateNoiseGate",
-          "Decay" : 0.1,
+          "Decay" : 0.10000002384185791,
           "@path" : 0,
           "@stereo" : false,
           "@type" : 0,
@@ -181,29 +181,29 @@
           "@input" : 1,
           "@model" : "HD2_AppDSPFlow1Input",
           "noiseGate" : true,
-          "decay" : 0.04999995,
+          "decay" : 0.04999995231628418,
           "threshold" : -48
         },
         "block6" : {
-          "Bias" : 0.7,
+          "Bias" : 0.70000004768371582,
           "@model" : "HD2_AmpBritPlexiNrm",
           "Master" : 1,
           "@position" : 6,
-          "Drive" : 0.96,
-          "Treble" : 0.6,
-          "ChVol" : 0.62,
+          "Drive" : 0.96000003814697266,
+          "Treble" : 0.60000002384185791,
+          "ChVol" : 0.62000000476837158,
           "@enabled" : true,
-          "Ripple" : 0.7,
+          "Ripple" : 0.70000004768371582,
           "@path" : 0,
           "@type" : 3,
-          "Bass" : 0.5899999,
-          "BiasX" : 0.54,
+          "Bass" : 0.58999991416931152,
+          "BiasX" : 0.53999996185302734,
           "Hum" : 0.5,
-          "Mid" : 0.54,
+          "Mid" : 0.53999996185302734,
           "@bypassvolume" : 1,
           "@cab" : "cab0",
           "Presence" : 0.5,
-          "Sag" : 0.7
+          "Sag" : 0.70000004768371582
         },
         "block0" : {
           "@model" : "HD2_VolPanVol",
@@ -231,24 +231,24 @@
           "TempoSync1" : true,
           "Scale" : 1,
           "@enabled" : false,
-          "WowFlutter" : 0.36,
+          "WowFlutter" : 0.36000001430511475,
           "@path" : 0,
           "@trails" : false,
           "@type" : 7,
           "Headroom" : 0,
-          "Mix" : 0.12,
-          "Time" : 0.507,
+          "Mix" : 0.12000000476837158,
+          "Time" : 0.50699996948242188,
           "Level" : 0,
           "@stereo" : false,
-          "Spread" : 0.29
+          "Spread" : 0.28999999165534973
         },
         "cab0" : {
           "@model" : "HD2_Cab4x12Greenback25",
-          "LowCut" : 19.9,
+          "LowCut" : 19.899999618530273,
           "@mic" : 0,
-          "EarlyReflections" : 0.2,
+          "EarlyReflections" : 0.20000004768371582,
           "Distance" : 3,
-          "Level" : 0.0999999,
+          "Level" : 0.099999904632568359,
           "@enabled" : true,
           "HighCut" : 20100
         },
@@ -260,14 +260,14 @@
         },
         "block4" : {
           "@model" : "HD2_PhaserScriptModPhase",
-          "Rate" : 0.1900001,
+          "Rate" : 0.19000005722045898,
           "@position" : 4,
           "SyncSelect1" : 1,
           "TempoSync1" : true,
           "@enabled" : false,
           "@path" : 0,
           "@type" : 0,
-          "Mix" : 0.45,
+          "Mix" : 0.45000004768371582,
           "Level" : 1,
           "@stereo" : false,
           "Spread" : 0
@@ -277,7 +277,7 @@
         "@pedalstate" : 2,
         "@ledcolor" : 0,
         "@name" : "SNAPSHOT 3",
-        "@tempo" : 113.636
+        "@tempo" : 113.63600158691406
       },
       "global" : {
         "@variax_volumeknob" : 10,
@@ -293,7 +293,7 @@
         "@cursor_dsp" : 0,
         "@cursor_path" : 0,
         "@guitarinputZ" : 0,
-        "@tempo" : 113.636,
+        "@tempo" : 113.63600158691406,
         "@topology1" : "A",
         "@cursor_position" : 6,
         "@variax_lockctrls" : 0,
@@ -308,7 +308,7 @@
         "@pedalstate" : 2,
         "@ledcolor" : 0,
         "@name" : "SNAPSHOT 7",
-        "@tempo" : 113.636
+        "@tempo" : 113.63600158691406
       },
       "footswitch" : {
         "dsp1" : {
@@ -376,7 +376,7 @@
         "@pedalstate" : 2,
         "@ledcolor" : 0,
         "@name" : "SNAPSHOT 4",
-        "@tempo" : 113.636
+        "@tempo" : 113.63600158691406
       },
       "snapshot0" : {
         "controllers" : {
@@ -407,10 +407,10 @@
         "@pedalstate" : 2,
         "@ledcolor" : 0,
         "@name" : "SNAPSHOT 1",
-        "@tempo" : 113.636
+        "@tempo" : 113.63600158691406
       }
     },
-    "device_version" : 35717152
+    "device_version" : 36700160
   },
   "schema" : "L6Preset"
 }

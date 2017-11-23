@@ -3,10 +3,10 @@
   "data" : {
     "meta" : {
       "name" : "Tweed Blues Nrm",
-      "application" : "Helix",
-      "build_sha" : "905c912",
-      "modifieddate" : 1503218324,
-      "appversion" : 35651584
+      "application" : "HX Edit",
+      "build_sha" : "cdef813",
+      "modifieddate" : 1511418554,
+      "appversion" : 36700160
     },
     "device" : 2162689,
     "tone" : {
@@ -14,13 +14,13 @@
         "@pedalstate" : 2,
         "@ledcolor" : 0,
         "@name" : "SNAPSHOT 8",
-        "@tempo" : 101.266
+        "@tempo" : 101.26599884033203
       },
       "snapshot4" : {
         "@pedalstate" : 2,
         "@ledcolor" : 0,
         "@name" : "SNAPSHOT 5",
-        "@tempo" : 101.266
+        "@tempo" : 101.26599884033203
       },
       "dsp1" : {
         "split" : {
@@ -73,7 +73,7 @@
         "@pedalstate" : 2,
         "@ledcolor" : 0,
         "@name" : "SNAPSHOT 2",
-        "@tempo" : 101.266
+        "@tempo" : 101.26599884033203
       },
       "controller" : {
         "dsp0" : {
@@ -90,7 +90,7 @@
         "@pedalstate" : 2,
         "@ledcolor" : 0,
         "@name" : "SNAPSHOT 6",
-        "@tempo" : 101.266
+        "@tempo" : 101.26599884033203
       },
       "dsp0" : {
         "join" : {
@@ -106,16 +106,16 @@
         },
         "block3" : {
           "@model" : "HD2_PhaserUbiquitousVibe",
-          "Rate" : 0.29,
+          "Rate" : 0.28999996185302734,
           "@position" : 2,
           "SyncSelect1" : 6,
           "TempoSync1" : false,
-          "Intensity" : 0.5699999,
+          "Intensity" : 0.56999993324279785,
           "@enabled" : false,
           "@path" : 0,
           "@type" : 0,
           "LampBias" : 0.5,
-          "Mix" : 0.3,
+          "Mix" : 0.29999995231628418,
           "Level" : 0,
           "@stereo" : false,
           "Mode" : false,
@@ -126,10 +126,10 @@
           "@path" : 0,
           "@stereo" : false,
           "@type" : 0,
-          "Gain" : 0.45,
+          "Gain" : 0.45000004768371582,
           "@position" : 1,
-          "Level" : 0.5699999,
-          "Tone" : 0.4400001,
+          "Level" : 0.56999993324279785,
+          "Tone" : 0.44000005722045898,
           "@enabled" : false
         },
         "inputB" : {
@@ -190,11 +190,11 @@
           "@path" : 0,
           "@trails" : false,
           "@type" : 7,
-          "Mix" : 0.2,
+          "Mix" : 0.20000004768371582,
           "Level" : 0,
-          "Decay" : 0.28,
+          "Decay" : 0.27999997138977051,
           "HighCut" : 3720,
-          "Predelay" : 0.01100004
+          "Predelay" : 0.01100003719329834
         },
         "cab0" : {
           "@model" : "HD2_Cab4x10TweedP10R",
@@ -213,24 +213,24 @@
           "gain" : 0
         },
         "block4" : {
-          "Bias" : 0.73,
+          "Bias" : 0.73000001907348633,
           "@model" : "HD2_AmpTweedBluesNrm",
           "Master" : 1,
           "@position" : 3,
-          "Drive" : 0.42,
-          "Treble" : 0.64,
-          "ChVol" : 0.6900001,
+          "Drive" : 0.41999995708465576,
+          "Treble" : 0.63999998569488525,
+          "ChVol" : 0.72000002861022949,
           "@enabled" : true,
           "Ripple" : 0.5,
           "@path" : 0,
           "@type" : 3,
-          "Bass" : 0.54,
+          "Bass" : 0.53999996185302734,
           "BiasX" : 0.5,
           "Hum" : 0.5,
-          "Mid" : 0.65,
+          "Mid" : 0.64999997615814209,
           "@bypassvolume" : 1,
           "@cab" : "cab0",
-          "Presence" : 0.27,
+          "Presence" : 0.26999998092651367,
           "Sag" : 0.5
         }
       },
@@ -238,10 +238,10 @@
         "@pedalstate" : 2,
         "@ledcolor" : 0,
         "@name" : "SNAPSHOT 3",
-        "@tempo" : 101.266
+        "@tempo" : 101.26599884033203
       },
       "global" : {
-        "@variax_volumeknob" : -0.1,
+        "@variax_volumeknob" : -0.10000000149011612,
         "@pedalstate" : 2,
         "@variax_customtuning" : false,
         "@variax_str1tuning" : 0,
@@ -254,14 +254,14 @@
         "@cursor_dsp" : 0,
         "@cursor_path" : 0,
         "@guitarinputZ" : 0,
-        "@tempo" : 101.266,
+        "@tempo" : 101.26599884033203,
         "@topology1" : "A",
         "@cursor_position" : 3,
         "@variax_lockctrls" : 0,
         "@variax_magmode" : true,
         "@variax_str3tuning" : 0,
         "@variax_str5tuning" : 0,
-        "@variax_toneknob" : -0.1,
+        "@variax_toneknob" : -0.10000000149011612,
         "@current_snapshot" : 0,
         "@cursor_group" : "block4"
       },
@@ -269,7 +269,7 @@
         "@pedalstate" : 2,
         "@ledcolor" : 0,
         "@name" : "SNAPSHOT 7",
-        "@tempo" : 101.266
+        "@tempo" : 101.26599884033203
       },
       "footswitch" : {
         "dsp0" : {
@@ -314,7 +314,7 @@
         "@pedalstate" : 2,
         "@ledcolor" : 0,
         "@name" : "SNAPSHOT 4",
-        "@tempo" : 101.266
+        "@tempo" : 101.26599884033203
       },
       "snapshot0" : {
         "controllers" : {
@@ -340,10 +340,10 @@
         "@pedalstate" : 2,
         "@ledcolor" : 0,
         "@name" : "SNAPSHOT 1",
-        "@tempo" : 101.266
+        "@tempo" : 101.26599884033203
       }
     },
-    "device_version" : 35717152
+    "device_version" : 36700160
   },
   "schema" : "L6Preset"
 }

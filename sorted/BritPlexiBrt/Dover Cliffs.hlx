@@ -3,10 +3,10 @@
   "data" : {
     "meta" : {
       "name" : "Dover Cliffs",
-      "application" : "Helix",
+      "application" : "HX Edit",
       "build_sha" : "37cfcb5",
-      "modifieddate" : 1503218509,
-      "appversion" : 35651584
+      "modifieddate" : 1511418603,
+      "appversion" : 36700160
     },
     "device" : 2162689,
     "tone" : {
@@ -126,31 +126,31 @@
         "block3" : {
           "@model" : "HD2_DelayTransistorTape",
           "@position" : 3,
-          "Feedback" : 0.3,
+          "Feedback" : 0.29999995231628418,
           "SyncSelect1" : 7,
           "TempoSync1" : true,
           "Scale" : 1,
           "@enabled" : true,
-          "WowFlutter" : 0.36,
+          "WowFlutter" : 0.36000001430511475,
           "@path" : 0,
           "@trails" : true,
           "@type" : 7,
           "Headroom" : 0,
-          "Mix" : 0.2,
-          "Time" : 0.2460001,
+          "Mix" : 0.20000004768371582,
+          "Time" : 0.24600005149841309,
           "Level" : -4,
           "@stereo" : false,
-          "Spread" : 0.29
+          "Spread" : 0.28999999165534973
         },
         "block2" : {
           "@model" : "HD2_DistScream808",
           "@path" : 0,
           "@stereo" : false,
           "@type" : 0,
-          "Gain" : 0.5699999,
+          "Gain" : 0.56999993324279785,
           "@position" : 2,
-          "Level" : 0.55,
-          "Tone" : 0.2,
+          "Level" : 0.54999995231628418,
+          "Tone" : 0.20000004768371582,
           "@enabled" : true
         },
         "inputB" : {
@@ -162,9 +162,9 @@
         },
         "block7" : {
           "@model" : "HD2_FlangerGrayFlanger",
-          "Rate" : 0.16,
+          "Rate" : 0.15999996662139893,
           "@position" : 7,
-          "Regen" : 0.5599999,
+          "Regen" : 0.55999994277954102,
           "SyncSelect1" : 6,
           "TempoSync1" : false,
           "@enabled" : false,
@@ -172,10 +172,10 @@
           "@type" : 0,
           "Mix" : 0.5,
           "Headroom" : 0,
-          "Width" : 0.78,
+          "Width" : 0.77999997138977051,
           "Level" : 0,
           "@stereo" : false,
-          "Manual" : 0.77,
+          "Manual" : 0.76999998092651367,
           "Spread" : 0.125
         },
         "block1" : {
@@ -201,7 +201,7 @@
           "@input" : 1,
           "@model" : "HD2_AppDSPFlow1Input",
           "noiseGate" : true,
-          "decay" : 0.04999995,
+          "decay" : 0.04999995231628418,
           "threshold" : -66
         },
         "block6" : {
@@ -212,11 +212,11 @@
           "@path" : 0,
           "@trails" : false,
           "@type" : 7,
-          "Mix" : 0.3099999,
+          "Mix" : 0.30999994277954102,
           "Level" : 0,
-          "Decay" : 0.5599999,
+          "Decay" : 0.55999994277954102,
           "HighCut" : 4570,
-          "Predelay" : 0.105
+          "Predelay" : 0.10500001907348633
         },
         "block0" : {
           "@model" : "HD2_VolPanVol",
@@ -237,29 +237,29 @@
           "BalanceB" : 0.5
         },
         "block5" : {
-          "Bias" : 0.73,
+          "Bias" : 0.73000001907348633,
           "@model" : "HD2_AmpBritPlexiBrt",
           "Master" : 1,
           "@position" : 5,
-          "Drive" : 0.6600001,
+          "Drive" : 0.66000008583068848,
           "Treble" : 0,
-          "ChVol" : 0.5899999,
+          "ChVol" : 0.58999991416931152,
           "@enabled" : true,
           "Ripple" : 0.5,
           "@path" : 0,
           "@type" : 3,
-          "Bass" : 0.9,
+          "Bass" : 0.89999997615814209,
           "BiasX" : 0.5,
           "Hum" : 0.5,
-          "Mid" : 0.4,
+          "Mid" : 0.39999997615814209,
           "@bypassvolume" : 1,
           "@cab" : "cab0",
-          "Presence" : 0.7,
+          "Presence" : 0.70000004768371582,
           "Sag" : 0.5
         },
         "cab0" : {
           "@model" : "HD2_Cab4x12Greenback25",
-          "LowCut" : 19.9,
+          "LowCut" : 19.899999618530273,
           "@mic" : 0,
           "EarlyReflections" : 0,
           "Distance" : 3,
@@ -275,14 +275,14 @@
         },
         "block4" : {
           "@model" : "HD2_DistValveDriver",
-          "Treble" : 0.35,
-          "Bass" : 0.73,
+          "Treble" : 0.35000002384185791,
+          "Bass" : 0.73000001907348633,
           "@path" : 0,
           "@stereo" : false,
           "@type" : 0,
-          "Gain" : 0.2,
+          "Gain" : 0.20000004768371582,
           "@position" : 4,
-          "Level" : 0.99,
+          "Level" : 0.99000000953674316,
           "@enabled" : true
         }
       },
@@ -429,7 +429,7 @@
         "@tempo" : 190
       }
     },
-    "device_version" : 35717152
+    "device_version" : 36700160
   },
   "schema" : "L6Preset"
 }

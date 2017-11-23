@@ -3,10 +3,10 @@
   "data" : {
     "meta" : {
       "name" : "7-Cable Method",
-      "application" : "Helix",
-      "build_sha" : "905c912",
-      "modifieddate" : 1503218574,
-      "appversion" : 35651584
+      "application" : "HX Edit",
+      "build_sha" : "61d1df5",
+      "modifieddate" : 1511418765,
+      "appversion" : 36700160
     },
     "device" : 2162689,
     "tone" : {
@@ -25,10 +25,10 @@
       "dsp1" : {
         "join" : {
           "@model" : "HD2_AppDSPFlowJoin",
-          "B Pan" : 0.8,
+          "B Pan" : 0.79999995231628418,
           "B Level" : 0,
           "A Level" : 0,
-          "A Pan" : 0.2,
+          "A Pan" : 0.20000004768371582,
           "@position" : 7,
           "Level" : 0,
           "@enabled" : true,
@@ -39,10 +39,10 @@
           "@path" : 0,
           "@stereo" : false,
           "@type" : 0,
-          "Gain" : 0.42,
+          "Gain" : 0.41999995708465576,
           "@position" : 1,
-          "Level" : 0.6,
-          "Tone" : 0.53,
+          "Level" : 0.60000002384185791,
+          "Tone" : 0.52999997138977051,
           "@enabled" : true
         },
         "block2" : {
@@ -71,11 +71,11 @@
           "@path" : 1,
           "@trails" : false,
           "@type" : 7,
-          "Mix" : 0.7,
+          "Mix" : 0.70000004768371582,
           "Level" : 0,
-          "Decay" : 0.45,
+          "Decay" : 0.45000004768371582,
           "HighCut" : 3720,
-          "Predelay" : 0.01100004
+          "Predelay" : 0.01100003719329834
         },
         "outputB" : {
           "@model" : "HD2_AppDSPFlowOutput",
@@ -103,7 +103,7 @@
         "block0" : {
           "@model" : "HD2_DelaySimpleDelay",
           "@position" : 5,
-          "Feedback" : 0.35,
+          "Feedback" : 0.35000002384185791,
           "SyncSelect1" : 6,
           "TempoSync1" : false,
           "Scale" : 0.75,
@@ -111,8 +111,8 @@
           "@path" : 1,
           "@trails" : false,
           "@type" : 7,
-          "Mix" : 0.7,
-          "Time" : 0.6,
+          "Mix" : 0.70000004768371582,
+          "Time" : 0.60000002384185791,
           "Level" : 0,
           "@stereo" : false
         },
@@ -129,16 +129,16 @@
           "Master" : 1,
           "@position" : 3,
           "Drive" : 0.5,
-          "ChVol" : 0.8,
+          "ChVol" : 0.79999995231628418,
           "@enabled" : false,
           "@path" : 0,
           "@type" : 1,
-          "Bass" : 0.51,
+          "Bass" : 0.50999999046325684,
           "Hum" : 0.5,
           "Mid" : 0.5,
           "@bypassvolume" : 1,
           "Sag" : 0.5,
-          "Treble" : 0.4400001
+          "Treble" : 0.44000005722045898
         },
         "outputA" : {
           "@model" : "HD2_AppDSPFlowOutput",
@@ -221,10 +221,10 @@
           "@path" : 0,
           "@stereo" : false,
           "@type" : 0,
-          "Gain" : 0.42,
+          "Gain" : 0.41999995708465576,
           "@position" : 1,
-          "Level" : 0.6,
-          "Tone" : 0.53,
+          "Level" : 0.60000002384185791,
+          "Tone" : 0.52999997138977051,
           "@enabled" : true
         },
         "block2" : {
@@ -265,11 +265,11 @@
           "@path" : 1,
           "@trails" : false,
           "@type" : 7,
-          "Mix" : 0.7,
+          "Mix" : 0.70000004768371582,
           "Level" : 0,
-          "Decay" : 0.45,
+          "Decay" : 0.45000004768371582,
           "HighCut" : 3720,
-          "Predelay" : 0.01100004
+          "Predelay" : 0.01100003719329834
         },
         "outputB" : {
           "@model" : "HD2_AppDSPFlowOutput",
@@ -297,7 +297,7 @@
         "block0" : {
           "@model" : "HD2_DelaySimpleDelay",
           "@position" : 5,
-          "Feedback" : 0.35,
+          "Feedback" : 0.35000002384185791,
           "SyncSelect1" : 6,
           "TempoSync1" : false,
           "Scale" : 0.75,
@@ -305,8 +305,8 @@
           "@path" : 1,
           "@trails" : false,
           "@type" : 7,
-          "Mix" : 0.7,
-          "Time" : 0.6,
+          "Mix" : 0.70000004768371582,
+          "Time" : 0.60000002384185791,
           "Level" : 0,
           "@stereo" : false
         },
@@ -323,16 +323,16 @@
           "Master" : 1,
           "@position" : 3,
           "Drive" : 0.5,
-          "ChVol" : 0.8,
+          "ChVol" : 0.79999995231628418,
           "@enabled" : false,
           "@path" : 0,
           "@type" : 1,
-          "Bass" : 0.51,
+          "Bass" : 0.50999999046325684,
           "Hum" : 0.5,
           "Mid" : 0.5,
           "@bypassvolume" : 1,
           "Sag" : 0.5,
-          "Treble" : 0.4400001
+          "Treble" : 0.44000005722045898
         },
         "outputA" : {
           "@model" : "HD2_AppDSPFlowOutput",
@@ -359,7 +359,7 @@
         "@tempo" : 120
       },
       "global" : {
-        "@variax_volumeknob" : -0.1,
+        "@variax_volumeknob" : -0.10000000149011612,
         "@pedalstate" : 2,
         "@variax_customtuning" : false,
         "@variax_str1tuning" : 0,
@@ -369,7 +369,7 @@
         "@variax_model" : 10,
         "@model" : "@global_params",
         "@topology0" : "SABJ",
-        "@cursor_dsp" : 0,
+        "@cursor_dsp" : 1,
         "@cursor_path" : 0,
         "@guitarinputZ" : 0,
         "@tempo" : 120,
@@ -379,7 +379,7 @@
         "@variax_magmode" : true,
         "@variax_str3tuning" : 0,
         "@variax_str5tuning" : 0,
-        "@variax_toneknob" : -0.1,
+        "@variax_toneknob" : -0.10000000149011612,
         "@current_snapshot" : 0,
         "@cursor_group" : "block3"
       },
@@ -568,13 +568,13 @@
             "block7" : false
           }
         },
-        "@pedalstate" : 0,
+        "@pedalstate" : 2,
         "@ledcolor" : 0,
         "@name" : "SNAPSHOT 1",
         "@tempo" : 120
       }
     },
-    "device_version" : 35717152
+    "device_version" : 36700160
   },
   "schema" : "L6Preset"
 }

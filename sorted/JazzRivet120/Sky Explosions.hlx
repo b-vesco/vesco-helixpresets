@@ -3,10 +3,10 @@
   "data" : {
     "meta" : {
       "name" : "Sky Explosions",
-      "application" : "Helix",
+      "application" : "HX Edit",
       "build_sha" : "905c912",
-      "modifieddate" : 1503218417,
-      "appversion" : 35651584
+      "modifieddate" : 1511418598,
+      "appversion" : 36700160
     },
     "device" : 2162689,
     "tone" : {
@@ -27,14 +27,14 @@
           "@model" : "HD2_ReverbOcto",
           "@position" : 0,
           "LowCut" : 122,
-          "Intensity" : 0.85,
+          "Intensity" : 0.85000002384185791,
           "@enabled" : false,
           "@path" : 0,
           "@trails" : false,
           "@type" : 7,
-          "Mix" : 0.4,
-          "Level" : 0.2,
-          "Decay" : 0.86,
+          "Mix" : 0.39999997615814209,
+          "Level" : 0.20000004768371582,
+          "Decay" : 0.86000001430511475,
           "HighCut" : 9760
         },
         "inputA" : {
@@ -122,10 +122,10 @@
           "@path" : 0,
           "@stereo" : false,
           "@type" : 0,
-          "Gain" : 0.52,
+          "Gain" : 0.51999998092651367,
           "@position" : 2,
-          "Level" : 0.6700001,
-          "Tone" : 0.65,
+          "Level" : 0.67000007629394531,
+          "Tone" : 0.64999997615814209,
           "@enabled" : true
         },
         "block2" : {
@@ -148,32 +148,32 @@
         "block7" : {
           "@model" : "HD2_DelayTransistorTape",
           "@position" : 6,
-          "Feedback" : 0.54,
+          "Feedback" : 0.53999996185302734,
           "SyncSelect1" : 7,
           "TempoSync1" : true,
           "Scale" : 1,
           "@enabled" : true,
-          "WowFlutter" : 0.5599999,
+          "WowFlutter" : 0.55999994277954102,
           "@path" : 0,
           "@trails" : false,
           "@type" : 7,
-          "Headroom" : 11.4,
-          "Mix" : 0.4,
-          "Time" : 0.507,
+          "Headroom" : 11.399999618530273,
+          "Mix" : 0.39999997615814209,
+          "Time" : 0.50699996948242188,
           "Level" : 0,
           "@stereo" : true,
-          "Spread" : 0.29
+          "Spread" : 0.28999996185302734
         },
         "block1" : {
           "@model" : "HD2_CompressorDeluxeComp",
           "@position" : 0,
-          "Threshold" : -37.1,
-          "Release" : 0.2,
+          "Threshold" : -37.099998474121094,
+          "Release" : 0.20000004768371582,
           "@enabled" : true,
           "Knee" : 6,
           "@path" : 0,
           "@type" : 0,
-          "Attack" : 0.03799999,
+          "Attack" : 0.037999987602233887,
           "Mix" : 1,
           "Ratio" : 3,
           "Level" : 0,
@@ -189,7 +189,7 @@
           "@input" : 1,
           "@model" : "HD2_AppDSPFlow1Input",
           "noiseGate" : true,
-          "decay" : 0.15,
+          "decay" : 0.14999997615814209,
           "threshold" : -40
         },
         "block6" : {
@@ -200,11 +200,11 @@
           "@path" : 0,
           "@trails" : false,
           "@type" : 7,
-          "Mix" : 0.5699999,
+          "Mix" : 0.56999993324279785,
           "Level" : 0,
-          "Decay" : 0.8099999,
+          "Decay" : 0.80999994277954102,
           "HighCut" : 9400,
-          "Predelay" : 0.04999995
+          "Predelay" : 0.04999995231628418
         },
         "block0" : {
           "@model" : "HD2_Looper",
@@ -229,7 +229,7 @@
         "block5" : {
           "@model" : "HD2_DelayElephantMan",
           "@position" : 4,
-          "Feedback" : 0.39,
+          "Feedback" : 0.38999998569488525,
           "SyncSelect1" : 7,
           "TempoSync1" : true,
           "Scale" : 1,
@@ -239,17 +239,17 @@
           "@type" : 7,
           "Headroom" : 12,
           "Mix" : 0.5,
-          "Noise" : 0.1,
+          "Noise" : 0.10000002384185791,
           "Time" : 0.375,
           "Level" : 0,
           "@stereo" : true,
           "Mode" : false,
-          "Spread" : 0.2720001,
-          "Depth" : 0.28
+          "Spread" : 0.27200007438659668,
+          "Depth" : 0.27999997138977051
         },
         "cab0" : {
           "@model" : "HD2_Cab2x12JazzRivet",
-          "LowCut" : 19.9,
+          "LowCut" : 19.899999618530273,
           "@mic" : 8,
           "EarlyReflections" : 0,
           "Distance" : 1,
@@ -267,18 +267,18 @@
           "@model" : "HD2_AmpJazzRivet120",
           "Master" : 1,
           "@position" : 3,
-          "Drive" : 0.28,
+          "Drive" : 0.27999997138977051,
           "Bright" : 0,
-          "ChVol" : 0.99,
+          "ChVol" : 0.99000000953674316,
           "@enabled" : true,
           "@path" : 0,
           "@type" : 3,
-          "Bass" : 0.5599999,
-          "Mid" : 0.27,
+          "Bass" : 0.55999994277954102,
+          "Mid" : 0.26999998092651367,
           "@bypassvolume" : 1,
           "@cab" : "cab0",
-          "Presence" : 0.85,
-          "Treble" : 0.47
+          "Presence" : 0.85000002384185791,
+          "Treble" : 0.47000002861022949
         }
       },
       "snapshot2" : {
@@ -288,7 +288,7 @@
         "@tempo" : 120
       },
       "global" : {
-        "@variax_volumeknob" : -0.1,
+        "@variax_volumeknob" : -0.10000000149011612,
         "@pedalstate" : 2,
         "@variax_customtuning" : false,
         "@variax_str1tuning" : 0,
@@ -308,7 +308,7 @@
         "@variax_magmode" : true,
         "@variax_str3tuning" : 0,
         "@variax_str5tuning" : 0,
-        "@variax_toneknob" : -0.1,
+        "@variax_toneknob" : -0.10000000149011612,
         "@current_snapshot" : 0,
         "@cursor_group" : "block4"
       },
@@ -418,7 +418,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 35717152
+    "device_version" : 36700160
   },
   "schema" : "L6Preset"
 }

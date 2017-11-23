@@ -3,10 +3,10 @@
   "data" : {
     "meta" : {
       "name" : "Nesbit",
-      "application" : "Helix",
+      "application" : "HX Edit",
       "build_sha" : "6a7d211",
-      "modifieddate" : 1503218431,
-      "appversion" : 35651584
+      "modifieddate" : 1511418600,
+      "appversion" : 36700160
     },
     "device" : 2162689,
     "tone" : {
@@ -48,7 +48,7 @@
         "block1" : {
           "@model" : "HD2_Cab4x12WhoWatt100",
           "Level" : 0,
-          "LowCut" : 19.9,
+          "LowCut" : 19.899999618530273,
           "@path" : 0,
           "@mic" : 1,
           "@type" : 2,
@@ -153,7 +153,7 @@
           "Level" : 0,
           "@stereo" : true,
           "PanDry" : 0.5,
-          "PanVoice1" : 0.45
+          "PanVoice1" : 0.45000004768371582
         },
         "block2" : {
           "@model" : "HD2_PitchSimplePitch",
@@ -183,7 +183,7 @@
           "@path" : 0,
           "@stereo" : true,
           "@type" : 0,
-          "Pedal" : 0.820734,
+          "Pedal" : 0.82073402404785156,
           "@position" : 6,
           "@enabled" : true,
           "VolumeTaper" : false
@@ -195,7 +195,7 @@
           "@type" : 0,
           "Drive" : 0.625,
           "@position" : 0,
-          "Level" : 0.29,
+          "Level" : 0.28999996185302734,
           "Tone" : 0.5,
           "@enabled" : true
         },
@@ -213,22 +213,22 @@
           "threshold" : -48
         },
         "block6" : {
-          "HoldTime" : 0.01,
+          "HoldTime" : 0.0099999997764825821,
           "@model" : "HD2_DistBitcrusher",
           "OpenThreshold" : -96,
           "@position" : 5,
-          "SampleRate" : 3156.12,
-          "LowCut" : 63.8675,
-          "BitDepth" : 14.2869,
+          "SampleRate" : 3156.1201171875,
+          "LowCut" : 63.867500305175781,
+          "BitDepth" : 14.286899566650391,
           "@enabled" : true,
           "@path" : 0,
           "@type" : 0,
           "Mix" : 1,
           "CloseThreshold" : -96,
-          "Level" : -7.72656,
+          "Level" : -7.726560115814209,
           "@stereo" : false,
-          "Decay" : 0.01,
-          "Gain" : 18.3958,
+          "Decay" : 0.0099999997764825821,
+          "Gain" : 18.39579963684082,
           "HighCut" : 20100
         },
         "block0" : {
@@ -255,8 +255,8 @@
           "@model" : "HD2_DelayPitch",
           "Cents1" : 0,
           "@position" : 4,
-          "Feedback" : 0.4,
-          "LowCut" : 19.9,
+          "Feedback" : 0.39999997615814209,
+          "LowCut" : 19.899999618530273,
           "SyncSelect1" : 6,
           "Scale" : 1,
           "@enabled" : true,
@@ -264,8 +264,8 @@
           "@path" : 0,
           "@trails" : false,
           "@type" : 7,
-          "Mix" : 0.4,
-          "Time" : 0.1389999,
+          "Mix" : 0.39999997615814209,
+          "Time" : 0.13899993896484375,
           "Interval1" : 5,
           "Level" : 0,
           "@stereo" : true,
@@ -285,12 +285,12 @@
           "Intensity" : 1,
           "Speed" : 10,
           "@enabled" : false,
-          "DutyCycle" : 0.39,
+          "DutyCycle" : 0.38999998569488525,
           "@path" : 0,
           "@type" : 0,
           "Level" : 0,
           "@stereo" : true,
-          "Spread" : 0.05999994,
+          "Spread" : 0.059999942779541016,
           "WaveShape" : 4
         }
       },
@@ -301,7 +301,7 @@
         "@tempo" : 110
       },
       "global" : {
-        "@variax_volumeknob" : -0.1,
+        "@variax_volumeknob" : -0.10000000149011612,
         "@pedalstate" : 2,
         "@variax_customtuning" : true,
         "@variax_str1tuning" : 0,
@@ -321,7 +321,7 @@
         "@variax_magmode" : true,
         "@variax_str3tuning" : 0,
         "@variax_str5tuning" : 0,
-        "@variax_toneknob" : -0.1,
+        "@variax_toneknob" : -0.10000000149011612,
         "@current_snapshot" : 0,
         "@cursor_group" : "block0"
       },
@@ -405,7 +405,7 @@
             "block7" : {
               "Pedal" : {
                 "@fs_enabled" : false,
-                "@value" : 0.820734
+                "@value" : 0.82073402404785156
               }
             }
           }
@@ -432,7 +432,7 @@
         "@tempo" : 110
       }
     },
-    "device_version" : 35717152
+    "device_version" : 36700160
   },
   "schema" : "L6Preset"
 }

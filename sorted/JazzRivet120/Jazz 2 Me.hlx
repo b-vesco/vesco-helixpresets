@@ -3,10 +3,10 @@
   "data" : {
     "meta" : {
       "name" : "Jazz 2 Me",
-      "application" : "Helix",
+      "application" : "HX Edit",
       "build_sha" : "905c912",
-      "modifieddate" : 1503218329,
-      "appversion" : 35651584
+      "modifieddate" : 1511418558,
+      "appversion" : 36700160
     },
     "device" : 2162689,
     "tone" : {
@@ -108,32 +108,32 @@
           "@model" : "HD2_AmpJazzRivet120",
           "Master" : 1,
           "@position" : 2,
-          "Drive" : 0.45,
+          "Drive" : 0.45000004768371582,
           "Bright" : 0,
           "ChVol" : 1,
           "@enabled" : true,
           "@path" : 0,
           "@type" : 3,
-          "Bass" : 0.5599999,
-          "Mid" : 0.27,
+          "Bass" : 0.55999994277954102,
+          "Mid" : 0.26999998092651367,
           "@bypassvolume" : 1,
           "@cab" : "cab0",
           "Presence" : 0.5,
-          "Treble" : 0.47
+          "Treble" : 0.47000002861022949
         },
         "block2" : {
           "@model" : "HD2_CompressorLAStudioComp",
           "@position" : 1,
           "@enabled" : true,
-          "Emphasis" : 0.17,
+          "Emphasis" : 0.16999995708465576,
           "@path" : 0,
           "@type" : 0,
           "Mix" : 1,
-          "PeakReduction" : 0.26,
+          "PeakReduction" : 0.25999999046325684,
           "Type" : false,
           "Level" : 0,
           "@stereo" : false,
-          "Gain" : 0.42
+          "Gain" : 0.41999995708465576
         },
         "inputB" : {
           "@input" : 0,
@@ -173,9 +173,9 @@
           "@path" : 0,
           "@trails" : false,
           "@type" : 7,
-          "Mix" : 0.3099999,
+          "Mix" : 0.30999994277954102,
           "Level" : 0,
-          "Decay" : 0.26,
+          "Decay" : 0.25999999046325684,
           "HighCut" : 4263,
           "Predelay" : 0
         },
@@ -205,21 +205,21 @@
           "@position" : 4,
           "SyncSelect1" : 6,
           "TempoSync1" : false,
-          "Speed" : 0.48,
+          "Speed" : 0.48000001907348633,
           "@enabled" : false,
           "@path" : 0,
           "@type" : 0,
           "Mix" : 0.5,
-          "Tone" : 0.73,
+          "Tone" : 0.73000001907348633,
           "Level" : 0,
           "@stereo" : false,
           "Spread" : 1,
-          "Predelay" : 0.3099999,
-          "Depth" : 0.8099999
+          "Predelay" : 0.30999994277954102,
+          "Depth" : 0.80999994277954102
         },
         "cab0" : {
           "@model" : "HD2_Cab2x12JazzRivet",
-          "LowCut" : 19.9,
+          "LowCut" : 19.899999618530273,
           "@mic" : 8,
           "EarlyReflections" : 0,
           "Distance" : 1,
@@ -234,7 +234,7 @@
           "gain" : 0
         },
         "block4" : {
-          "VibratoRate" : 0.7,
+          "VibratoRate" : 0.70000004768371582,
           "@model" : "HD2_Chorus70sChorus",
           "@position" : 3,
           "SyncSelect1" : 6,
@@ -243,14 +243,14 @@
           "@enabled" : false,
           "@path" : 0,
           "@type" : 0,
-          "Mix" : 0.21,
+          "Mix" : 0.21000003814697266,
           "Headroom" : 0,
           "Stereo" : false,
           "TempoSync2" : false,
           "VibratoDepth" : 0.5,
           "Level" : 1,
           "@stereo" : false,
-          "ChorusIntensity" : 0.5699999,
+          "ChorusIntensity" : 0.56999993324279785,
           "Mode" : false,
           "Spread" : 0
         }
@@ -262,7 +262,7 @@
         "@tempo" : 120
       },
       "global" : {
-        "@variax_volumeknob" : -0.1,
+        "@variax_volumeknob" : -0.10000000149011612,
         "@pedalstate" : 2,
         "@variax_customtuning" : false,
         "@variax_str1tuning" : 0,
@@ -282,7 +282,7 @@
         "@variax_magmode" : true,
         "@variax_str3tuning" : 0,
         "@variax_str5tuning" : 0,
-        "@variax_toneknob" : -0.1,
+        "@variax_toneknob" : -0.10000000149011612,
         "@current_snapshot" : 0,
         "@cursor_group" : "block3"
       },
@@ -372,7 +372,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 35717152
+    "device_version" : 36700160
   },
   "schema" : "L6Preset"
 }

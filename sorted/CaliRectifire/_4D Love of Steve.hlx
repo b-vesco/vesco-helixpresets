@@ -3,10 +3,10 @@
   "data" : {
     "meta" : {
       "name" : "4D Love of Steve",
-      "application" : "Helix",
+      "application" : "HX Edit",
       "build_sha" : "6a7d211",
-      "modifieddate" : 1503218418,
-      "appversion" : 35651584
+      "modifieddate" : 1511418600,
+      "appversion" : 36700160
     },
     "device" : 2162689,
     "tone" : {
@@ -35,7 +35,7 @@
           "B Polarity" : false
         },
         "block3" : {
-          "VibratoRate" : 0.7,
+          "VibratoRate" : 0.70000004768371582,
           "@model" : "HD2_Chorus70sChorus",
           "@position" : 2,
           "SyncSelect1" : 6,
@@ -44,36 +44,36 @@
           "@enabled" : false,
           "@path" : 0,
           "@type" : 0,
-          "Mix" : 0.39,
+          "Mix" : 0.38999998569488525,
           "Headroom" : 0,
           "Stereo" : false,
           "TempoSync2" : false,
           "VibratoDepth" : 0.5,
           "Level" : 1,
           "@stereo" : false,
-          "ChorusIntensity" : 0.28,
+          "ChorusIntensity" : 0.27999997138977051,
           "Mode" : false,
           "Spread" : 0
         },
         "block2" : {
-          "Bias" : 0.6,
+          "Bias" : 0.60000002384185791,
           "@model" : "HD2_AmpUSDoubleNrm",
           "Master" : 1,
           "@position" : 1,
-          "Drive" : 0.4,
-          "Treble" : 0.5699999,
+          "Drive" : 0.39999997615814209,
+          "Treble" : 0.56999993324279785,
           "ChVol" : 0.75,
           "@enabled" : false,
           "Ripple" : 0.5,
           "@path" : 0,
           "@type" : 3,
-          "Bass" : 0.88,
+          "Bass" : 0.87999999523162842,
           "BiasX" : 0.5,
           "Hum" : 0.5,
-          "Mid" : 0.52,
+          "Mid" : 0.51999998092651367,
           "@bypassvolume" : 1,
           "@cab" : "cab0",
-          "Presence" : 0.1,
+          "Presence" : 0.10000002384185791,
           "Sag" : 0.5
         },
         "inputB" : {
@@ -91,25 +91,25 @@
           "@path" : 0,
           "@trails" : false,
           "@type" : 7,
-          "Mix" : 0.39,
+          "Mix" : 0.38999998569488525,
           "Level" : 0,
-          "Decay" : 0.6600001,
+          "Decay" : 0.66000008583068848,
           "HighCut" : 4700,
-          "Predelay" : 0.1
+          "Predelay" : 0.10000002384185791
         },
         "block1" : {
           "@model" : "HD2_CompressorLAStudioComp",
           "@position" : 0,
           "@enabled" : false,
-          "Emphasis" : 0.09000003,
+          "Emphasis" : 0.090000033378601074,
           "@path" : 0,
           "@type" : 0,
           "Mix" : 1,
-          "PeakReduction" : 0.78,
+          "PeakReduction" : 0.77999997138977051,
           "Type" : false,
           "Level" : 0,
           "@stereo" : false,
-          "Gain" : 0.6
+          "Gain" : 0.60000002384185791
         },
         "outputB" : {
           "@model" : "HD2_AppDSPFlowOutput",
@@ -127,7 +127,7 @@
         "block6" : {
           "@model" : "HD2_DelaySimpleDelay",
           "@position" : 5,
-          "Feedback" : 0.35,
+          "Feedback" : 0.35000002384185791,
           "SyncSelect1" : 6,
           "TempoSync1" : false,
           "Scale" : 0.75,
@@ -135,8 +135,8 @@
           "@path" : 0,
           "@trails" : false,
           "@type" : 7,
-          "Mix" : 0.3,
-          "Time" : 0.6,
+          "Mix" : 0.29999995231628418,
+          "Time" : 0.60000002384185791,
           "Level" : 0,
           "@stereo" : false
         },
@@ -163,21 +163,21 @@
         "block5" : {
           "@model" : "HD2_DelayTransistorTape",
           "@position" : 4,
-          "Feedback" : 0.54,
+          "Feedback" : 0.53999996185302734,
           "SyncSelect1" : 6,
           "TempoSync1" : false,
           "Scale" : 1,
           "@enabled" : false,
-          "WowFlutter" : 0.36,
+          "WowFlutter" : 0.36000001430511475,
           "@path" : 0,
           "@trails" : false,
           "@type" : 7,
           "Headroom" : 0,
-          "Mix" : 0.23,
-          "Time" : 0.488,
+          "Mix" : 0.23000001907348633,
+          "Time" : 0.48800003528594971,
           "Level" : 0,
           "@stereo" : false,
-          "Spread" : 0.29
+          "Spread" : 0.28999999165534973
         },
         "cab0" : {
           "@model" : "HD2_Cab2x12DoubleC12N",
@@ -197,7 +197,7 @@
         },
         "block4" : {
           "@model" : "HD2_PhaserScriptModPhase",
-          "Rate" : 0.1900001,
+          "Rate" : 0.19000005722045898,
           "@position" : 3,
           "SyncSelect1" : 6,
           "TempoSync1" : false,
@@ -218,10 +218,10 @@
       },
       "controller" : {
         "dsp0" : {
-          "block1" : {
+          "block4" : {
             "Pedal" : {
               "@min" : 0,
-              "@controller" : 3,
+              "@controller" : 2,
               "@max" : 1
             }
           },
@@ -229,13 +229,6 @@
             "Pedal" : {
               "@min" : 0,
               "@controller" : 1,
-              "@max" : 1
-            }
-          },
-          "block4" : {
-            "Pedal" : {
-              "@min" : 0,
-              "@controller" : 2,
               "@max" : 1
             }
           }
@@ -250,10 +243,10 @@
       "dsp0" : {
         "join" : {
           "@model" : "HD2_AppDSPFlowJoin",
-          "B Pan" : 0.9,
+          "B Pan" : 0.89999997615814209,
           "B Level" : 0,
           "A Level" : 0,
-          "A Pan" : 0.1,
+          "A Pan" : 0.10000002384185791,
           "@position" : 8,
           "Level" : 0,
           "@enabled" : true,
@@ -264,22 +257,22 @@
           "@path" : 0,
           "@stereo" : false,
           "@type" : 0,
-          "Gain" : 0.52,
+          "Gain" : 0.51999998092651367,
           "@position" : 3,
-          "Level" : 0.6700001,
-          "Tone" : 0.65,
+          "Level" : 0.67000007629394531,
+          "Tone" : 0.64999997615814209,
           "@enabled" : true
         },
         "block2" : {
           "@model" : "HD2_DistValveDriver",
-          "Treble" : 0.45,
-          "Bass" : 0.55,
+          "Treble" : 0.45000004768371582,
+          "Bass" : 0.54999995231628418,
           "@path" : 0,
           "@stereo" : false,
           "@type" : 0,
-          "Gain" : 0.65,
+          "Gain" : 0.64999997615814209,
           "@position" : 2,
-          "Level" : 0.6600001,
+          "Level" : 0.66000008583068848,
           "@enabled" : false
         },
         "inputB" : {
@@ -346,25 +339,25 @@
           "BalanceB" : 0.5
         },
         "block5" : {
-          "Bias" : 0.6,
+          "Bias" : 0.60000002384185791,
           "@model" : "HD2_AmpCaliRectifire",
-          "Master" : 0.3,
+          "Master" : 0.29999995231628418,
           "@position" : 5,
-          "Drive" : 0.73,
-          "Treble" : 0.48,
-          "ChVol" : 0.63,
+          "Drive" : 0.73000001907348633,
+          "Treble" : 0.48000001907348633,
+          "ChVol" : 0.62999999523162842,
           "@enabled" : true,
           "Ripple" : 0.5,
           "@path" : 0,
           "@type" : 3,
-          "Bass" : 0.45,
-          "BiasX" : 0.48,
-          "Hum" : 0.27,
-          "Mid" : 0.64,
+          "Bass" : 0.45000004768371582,
+          "BiasX" : 0.48000001907348633,
+          "Hum" : 0.26999998092651367,
+          "Mid" : 0.63999998569488525,
           "@bypassvolume" : 1,
           "@cab" : "cab0",
-          "Presence" : 0.2,
-          "Sag" : 0.2
+          "Presence" : 0.20000004768371582,
+          "Sag" : 0.20000004768371582
         },
         "cab0" : {
           "@model" : "HD2_Cab4X12CaliV30",
@@ -400,7 +393,7 @@
         "@tempo" : 120
       },
       "global" : {
-        "@variax_volumeknob" : -0.1,
+        "@variax_volumeknob" : -0.10000000149011612,
         "@pedalstate" : 2,
         "@variax_customtuning" : false,
         "@variax_str1tuning" : 0,
@@ -420,7 +413,7 @@
         "@variax_magmode" : true,
         "@variax_str3tuning" : 0,
         "@variax_str5tuning" : 0,
-        "@variax_toneknob" : -0.1,
+        "@variax_toneknob" : -0.10000000149011612,
         "@current_snapshot" : 0,
         "@cursor_group" : "block5"
       },
@@ -541,19 +534,13 @@
       "snapshot0" : {
         "controllers" : {
           "dsp0" : {
-            "block1" : {
+            "block4" : {
               "Pedal" : {
                 "@fs_enabled" : false,
                 "@value" : 1
               }
             },
             "block0" : {
-              "Pedal" : {
-                "@fs_enabled" : false,
-                "@value" : 1
-              }
-            },
-            "block4" : {
               "Pedal" : {
                 "@fs_enabled" : false,
                 "@value" : 1
@@ -588,7 +575,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 35717152
+    "device_version" : 36700160
   },
   "schema" : "L6Preset"
 }

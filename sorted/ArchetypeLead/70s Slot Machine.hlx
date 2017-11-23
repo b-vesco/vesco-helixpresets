@@ -3,10 +3,10 @@
   "data" : {
     "meta" : {
       "name" : "70s Slot Machine",
-      "application" : "Helix",
+      "application" : "HX Edit",
       "build_sha" : "905c912",
-      "modifieddate" : 1503218540,
-      "appversion" : 35651584
+      "modifieddate" : 1511418603,
+      "appversion" : 36700160
     },
     "device" : 2162689,
     "tone" : {
@@ -168,7 +168,7 @@
           "Drive" : 1,
           "@position" : 1,
           "Level" : 1,
-          "Tone" : 0.7329006,
+          "Tone" : 0.73290061950683594,
           "@enabled" : false
         },
         "inputB" : {
@@ -207,12 +207,12 @@
           "SyncSelect1" : 6,
           "TempoSync1" : false,
           "Intensity" : 1,
-          "Speed" : 10.35598,
+          "Speed" : 10.355979919433594,
           "@enabled" : true,
           "DutyCycle" : 0.5,
           "@path" : 0,
           "@type" : 0,
-          "Level" : 0.9000001,
+          "Level" : 0.90000009536743164,
           "@stereo" : true,
           "Spread" : 1,
           "WaveShape" : 4
@@ -241,8 +241,8 @@
           "@model" : "HD2_DelayPitch",
           "Cents1" : 0,
           "@position" : 4,
-          "Feedback" : 0.4,
-          "LowCut" : 19.9,
+          "Feedback" : 0.39999997615814209,
+          "LowCut" : 19.899999618530273,
           "SyncSelect1" : 6,
           "Scale" : 1,
           "@enabled" : true,
@@ -250,8 +250,8 @@
           "@path" : 0,
           "@trails" : false,
           "@type" : 7,
-          "Mix" : 0.4,
-          "Time" : 0.176,
+          "Mix" : 0.39999997615814209,
+          "Time" : 0.17599999904632568,
           "Interval1" : 5,
           "Level" : 0,
           "@stereo" : true,
@@ -259,7 +259,7 @@
         },
         "cab0" : {
           "@model" : "HD2_Cab4X12CaliV30",
-          "LowCut" : 19.9,
+          "LowCut" : 19.899999618530273,
           "@mic" : 6,
           "EarlyReflections" : 0,
           "Distance" : 2,
@@ -271,22 +271,22 @@
           "@model" : "HD2_AppDSPFlowOutput",
           "@output" : 1,
           "pan" : 0.5,
-          "gain" : -4.9
+          "gain" : -4.9000000953674316
         },
         "block4" : {
           "@model" : "HD2_ChorusTrinityChorus",
-          "Rate" : 0.33,
+          "Rate" : 0.33000004291534424,
           "@position" : 3,
           "SyncSelect1" : 6,
           "Preset" : true,
-          "Left" : 0.79,
-          "Right" : 0.85,
+          "Left" : 0.78999996185302734,
+          "Right" : 0.85000002384185791,
           "@enabled" : true,
           "RightBoost" : false,
           "TempoSync1" : false,
           "@path" : 0,
           "@type" : 0,
-          "Center" : 0.52,
+          "Center" : 0.51999998092651367,
           "Mix" : 0.5,
           "LeftBoost" : false,
           "Level" : 0,
@@ -307,7 +307,7 @@
             "block6" : {
               "Speed" : {
                 "@fs_enabled" : false,
-                "@value" : 0.9880068
+                "@value" : 0.9880068302154541
               }
             }
           }
@@ -329,7 +329,7 @@
         "@tempo" : 120
       },
       "global" : {
-        "@variax_volumeknob" : -0.1,
+        "@variax_volumeknob" : -0.10000000149011612,
         "@pedalstate" : 1,
         "@variax_customtuning" : false,
         "@variax_str1tuning" : 0,
@@ -349,7 +349,7 @@
         "@variax_magmode" : true,
         "@variax_str3tuning" : 0,
         "@variax_str5tuning" : 0,
-        "@variax_toneknob" : -0.1,
+        "@variax_toneknob" : -0.10000000149011612,
         "@current_snapshot" : 0,
         "@cursor_group" : "block5"
       },
@@ -417,7 +417,7 @@
             "block6" : {
               "Speed" : {
                 "@fs_enabled" : false,
-                "@value" : 3.186359
+                "@value" : 3.1863589286804199
               }
             }
           }
@@ -450,7 +450,7 @@
             "block6" : {
               "Speed" : {
                 "@fs_enabled" : false,
-                "@value" : 10.35598
+                "@value" : 10.355979919433594
               }
             }
           }
@@ -472,7 +472,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 35717152
+    "device_version" : 36700160
   },
   "schema" : "L6Preset"
 }

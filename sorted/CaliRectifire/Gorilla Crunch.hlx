@@ -3,10 +3,10 @@
   "data" : {
     "meta" : {
       "name" : "Gorilla Crunch",
-      "application" : "Helix",
+      "application" : "HX Edit",
       "build_sha" : "905c912",
-      "modifieddate" : 1503218418,
-      "appversion" : 35651584
+      "modifieddate" : 1511418599,
+      "appversion" : 36700160
     },
     "device" : 2162689,
     "tone" : {
@@ -106,7 +106,7 @@
         },
         "block3" : {
           "@model" : "HD2_PhaserUbiquitousVibe",
-          "Rate" : 0.29,
+          "Rate" : 0.28999996185302734,
           "@position" : 1,
           "SyncSelect1" : 6,
           "TempoSync1" : false,
@@ -151,24 +151,24 @@
           "threshold" : -48
         },
         "block7" : {
-          "Bias" : 0.28,
+          "Bias" : 0.27999997138977051,
           "@model" : "HD2_AmpCaliRectifire",
-          "Master" : 0.6800001,
+          "Master" : 0.68000006675720215,
           "@position" : 5,
           "Drive" : 1,
-          "Treble" : 0.78,
-          "ChVol" : 0.49,
+          "Treble" : 0.77999997138977051,
+          "ChVol" : 0.49000000953674316,
           "@enabled" : true,
           "Ripple" : 0.5,
           "@path" : 0,
           "@type" : 1,
-          "Bass" : 0.54,
-          "BiasX" : 0.03999996,
-          "Hum" : 0.51,
-          "Mid" : 0.35,
+          "Bass" : 0.53999996185302734,
+          "BiasX" : 0.039999961853027344,
+          "Hum" : 0.50999999046325684,
+          "Mid" : 0.35000002384185791,
           "@bypassvolume" : 1,
-          "Presence" : 0.6700001,
-          "Sag" : 0.3099999
+          "Presence" : 0.67000007629394531,
+          "Sag" : 0.30999994277954102
         },
         "block1" : {
           "@model" : "HD2_Cab4x12Greenback25",
@@ -193,7 +193,7 @@
           "@input" : 1,
           "@model" : "HD2_AppDSPFlow1Input",
           "noiseGate" : true,
-          "decay" : 0.15,
+          "decay" : 0.14999997615814209,
           "threshold" : -48
         },
         "block6" : {
@@ -202,9 +202,9 @@
           "@path" : 0,
           "@stereo" : false,
           "@type" : 0,
-          "Gain" : 0.6600001,
+          "Gain" : 0.66000008583068848,
           "@position" : 4,
-          "Level" : 0.65,
+          "Level" : 0.64999997615814209,
           "Tone" : 0.5,
           "@enabled" : false,
           "LPHP" : false
@@ -232,9 +232,9 @@
         },
         "block5" : {
           "@model" : "HD2_FlangerGrayFlanger",
-          "Rate" : 0.16,
+          "Rate" : 0.15999996662139893,
           "@position" : 3,
-          "Regen" : 0.5599999,
+          "Regen" : 0.55999994277954102,
           "SyncSelect1" : 6,
           "TempoSync1" : false,
           "@enabled" : false,
@@ -242,10 +242,10 @@
           "@type" : 0,
           "Mix" : 0.5,
           "Headroom" : 0,
-          "Width" : 0.78,
+          "Width" : 0.77999997138977051,
           "Level" : 0,
           "@stereo" : false,
-          "Manual" : 0.78,
+          "Manual" : 0.77999997138977051,
           "Spread" : 0.125
         },
         "outputA" : {
@@ -259,8 +259,8 @@
           "@position" : 2,
           "SyncSelect1" : 6,
           "TempoSync1" : false,
-          "Intensity" : 0.73,
-          "Speed" : 0.3,
+          "Intensity" : 0.73000001907348633,
+          "Speed" : 0.29999995231628418,
           "@enabled" : false,
           "@path" : 0,
           "@type" : 0,
@@ -277,7 +277,7 @@
         "@tempo" : 120
       },
       "global" : {
-        "@variax_volumeknob" : -0.1,
+        "@variax_volumeknob" : -0.10000000149011612,
         "@pedalstate" : 2,
         "@variax_customtuning" : false,
         "@variax_str1tuning" : 0,
@@ -297,7 +297,7 @@
         "@variax_magmode" : true,
         "@variax_str3tuning" : 0,
         "@variax_str5tuning" : 0,
-        "@variax_toneknob" : -0.1,
+        "@variax_toneknob" : -0.10000000149011612,
         "@current_snapshot" : 0,
         "@cursor_group" : "block7"
       },
@@ -389,7 +389,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 35717152
+    "device_version" : 36700160
   },
   "schema" : "L6Preset"
 }

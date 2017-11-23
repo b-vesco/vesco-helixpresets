@@ -3,10 +3,10 @@
   "data" : {
     "meta" : {
       "name" : "WookieSpongeBath",
-      "application" : "Helix",
+      "application" : "HX Edit",
       "build_sha" : "6a7d211",
-      "modifieddate" : 1503218329,
-      "appversion" : 35651584
+      "modifieddate" : 1511418558,
+      "appversion" : 36700160
     },
     "device" : 2162689,
     "tone" : {
@@ -47,10 +47,10 @@
         },
         "join" : {
           "@model" : "HD2_AppDSPFlowJoin",
-          "B Pan" : 0.88,
+          "B Pan" : 0.87999999523162842,
           "B Level" : 0,
           "A Level" : 0,
-          "A Pan" : 0.12,
+          "A Pan" : 0.12000000476837158,
           "@position" : 8,
           "Level" : 0,
           "@enabled" : true,
@@ -112,15 +112,15 @@
           "@path" : 0,
           "@trails" : false,
           "@type" : 7,
-          "Mix" : 0.3,
+          "Mix" : 0.29999995231628418,
           "Level" : 0,
-          "Decay" : 0.52,
+          "Decay" : 0.51999998092651367,
           "HighCut" : 9850,
-          "Predelay" : 0.01999998
+          "Predelay" : 0.019999980926513672
         },
         "block2" : {
           "@model" : "HD2_PhaserUbiquitousVibe",
-          "Rate" : 0.29,
+          "Rate" : 0.28999996185302734,
           "@position" : 3,
           "SyncSelect1" : 6,
           "TempoSync1" : false,
@@ -129,7 +129,7 @@
           "@path" : 0,
           "@type" : 0,
           "LampBias" : 0.5,
-          "Mix" : 0.3,
+          "Mix" : 0.29999995231628418,
           "Level" : 0,
           "@stereo" : true,
           "Mode" : false,
@@ -155,13 +155,13 @@
           "@enabled" : false
         },
         "block1" : {
-          "Bias" : 0.7,
+          "Bias" : 0.70000004768371582,
           "@model" : "HD2_AmpStoneAge185",
           "Master" : 1,
           "@position" : 2,
-          "Drive" : 0.55,
+          "Drive" : 0.54999995231628418,
           "Treble" : 0.5,
-          "ChVol" : 0.8,
+          "ChVol" : 0.79999995231628418,
           "@enabled" : true,
           "Ripple" : 0,
           "@path" : 0,
@@ -169,11 +169,11 @@
           "Bass" : 0.5,
           "BiasX" : 0.5,
           "Hum" : 0,
-          "Mid" : 0.52,
+          "Mid" : 0.51999998092651367,
           "@bypassvolume" : 1,
           "@cab" : "cab0",
-          "Presence" : 0.1,
-          "Sag" : 0.4
+          "Presence" : 0.10000002384185791,
+          "Sag" : 0.39999997615814209
         },
         "outputB" : {
           "@model" : "HD2_AppDSPFlowOutput",
@@ -200,12 +200,12 @@
         },
         "block0" : {
           "@model" : "HD2_DistArbitratorFuzz",
-          "Fuzz" : 0.6,
+          "Fuzz" : 0.60000002384185791,
           "@path" : 0,
           "@stereo" : false,
           "@type" : 0,
           "@position" : 1,
-          "Level" : 0.63,
+          "Level" : 0.62999999523162842,
           "@enabled" : true
         },
         "split" : {
@@ -229,7 +229,7 @@
         },
         "cab0" : {
           "@model" : "HD2_Cab2x12SilverBell",
-          "LowCut" : 19.9,
+          "LowCut" : 19.899999618530273,
           "@mic" : 5,
           "EarlyReflections" : 0,
           "Distance" : 5,
@@ -264,7 +264,7 @@
         "@tempo" : 120
       },
       "global" : {
-        "@variax_volumeknob" : -0.1,
+        "@variax_volumeknob" : -0.10000000149011612,
         "@pedalstate" : 2,
         "@variax_customtuning" : false,
         "@variax_str1tuning" : 0,
@@ -284,7 +284,7 @@
         "@variax_magmode" : true,
         "@variax_str3tuning" : 0,
         "@variax_str5tuning" : 0,
-        "@variax_toneknob" : -0.1,
+        "@variax_toneknob" : -0.10000000149011612,
         "@current_snapshot" : 0,
         "@cursor_group" : "block1"
       },
@@ -383,7 +383,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 35717152
+    "device_version" : 36700160
   },
   "schema" : "L6Preset"
 }

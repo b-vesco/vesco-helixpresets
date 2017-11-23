@@ -3,10 +3,10 @@
   "data" : {
     "meta" : {
       "name" : "Bit Like Heaven",
-      "application" : "Helix",
+      "application" : "HX Edit",
       "build_sha" : "6a7d211",
-      "modifieddate" : 1503218443,
-      "appversion" : 35651584
+      "modifieddate" : 1511418602,
+      "appversion" : 36700160
     },
     "device" : 2162689,
     "tone" : {
@@ -39,18 +39,18 @@
           "@model" : "HD2_AmpJazzRivet120",
           "Master" : 1,
           "@position" : 0,
-          "Drive" : 0.4400001,
+          "Drive" : 0.44000005722045898,
           "Bright" : 0,
-          "ChVol" : 0.89,
+          "ChVol" : 0.88999998569488525,
           "@enabled" : true,
           "@path" : 0,
           "@type" : 3,
-          "Bass" : 0.5599999,
-          "Mid" : 0.27,
+          "Bass" : 0.55999994277954102,
+          "Mid" : 0.26999998092651367,
           "@bypassvolume" : 1,
           "@cab" : "cab0",
           "Presence" : 0.5,
-          "Treble" : 0.47
+          "Treble" : 0.47000002861022949
         },
         "block2" : {
           "@model" : "HD2_ReverbRoom",
@@ -60,15 +60,15 @@
           "@path" : 0,
           "@trails" : false,
           "@type" : 7,
-          "Mix" : 0.26,
+          "Mix" : 0.25999999046325684,
           "Level" : 0,
-          "Decay" : 0.37,
+          "Decay" : 0.37000000476837158,
           "HighCut" : 3720,
-          "Predelay" : 0.01100004
+          "Predelay" : 0.01100003719329834
         },
         "cab0" : {
           "@model" : "HD2_Cab2x12JazzRivet",
-          "LowCut" : 19.9,
+          "LowCut" : 19.899999618530273,
           "@mic" : 2,
           "EarlyReflections" : 0,
           "Distance" : 2,
@@ -169,15 +169,15 @@
           "@path" : 0,
           "@stereo" : false,
           "@type" : 0,
-          "Gain" : 0.42,
+          "Gain" : 0.41999995708465576,
           "@position" : 3,
-          "Level" : 0.6,
-          "Tone" : 0.53,
+          "Level" : 0.60000002384185791,
+          "Tone" : 0.52999997138977051,
           "@enabled" : false
         },
         "block2" : {
           "@model" : "HD2_GateNoiseGate",
-          "Decay" : 0.1,
+          "Decay" : 0.10000002384185791,
           "@path" : 0,
           "@stereo" : false,
           "@type" : 0,
@@ -204,8 +204,8 @@
           "@path" : 0,
           "@trails" : true,
           "@type" : 7,
-          "Mix" : 0.38,
-          "Time" : 0.6,
+          "Mix" : 0.37999999523162842,
+          "Time" : 0.60000002384185791,
           "Level" : 0,
           "@stereo" : false
         },
@@ -237,11 +237,11 @@
         },
         "block6" : {
           "@model" : "HD2_VibratoBubbleVibrato",
-          "RiseTime" : 0.6600001,
+          "RiseTime" : 0.66000008583068848,
           "@position" : 6,
           "SyncSelect1" : 12,
           "TempoSync1" : true,
-          "Speed" : 0.632,
+          "Speed" : 0.63199996948242188,
           "@enabled" : false,
           "@path" : 0,
           "@type" : 0,
@@ -250,7 +250,7 @@
           "RiseTimeSwitch" : true,
           "Level" : 0,
           "@stereo" : false,
-          "Spread" : 0.554,
+          "Spread" : 0.55400002002716064,
           "Depth" : 1
         },
         "block0" : {
@@ -272,7 +272,7 @@
           "BalanceB" : 0.5
         },
         "block5" : {
-          "VibratoRate" : 0.7,
+          "VibratoRate" : 0.70000004768371582,
           "@model" : "HD2_Chorus70sChorus",
           "@position" : 5,
           "SyncSelect1" : 1,
@@ -288,7 +288,7 @@
           "VibratoDepth" : 0.5,
           "Level" : 1,
           "@stereo" : false,
-          "ChorusIntensity" : 0.02999997,
+          "ChorusIntensity" : 0.029999971389770508,
           "Mode" : false,
           "Spread" : 0
         },
@@ -300,14 +300,14 @@
         },
         "block4" : {
           "@model" : "HD2_PhaserScriptModPhase",
-          "Rate" : 0.1900001,
+          "Rate" : 0.19000005722045898,
           "@position" : 4,
           "SyncSelect1" : 1,
           "TempoSync1" : true,
           "@enabled" : false,
           "@path" : 0,
           "@type" : 0,
-          "Mix" : 0.4,
+          "Mix" : 0.39999997615814209,
           "Level" : 1,
           "@stereo" : false,
           "Spread" : 0
@@ -465,7 +465,7 @@
         "@tempo" : 144
       }
     },
-    "device_version" : 35717152
+    "device_version" : 36700160
   },
   "schema" : "L6Preset"
 }

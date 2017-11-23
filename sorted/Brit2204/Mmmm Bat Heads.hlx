@@ -3,10 +3,10 @@
   "data" : {
     "meta" : {
       "name" : "Mmmm Bat Heads",
-      "application" : "Helix",
+      "application" : "HX Edit",
       "build_sha" : "6a7d211",
-      "modifieddate" : 1503218400,
-      "appversion" : 35651584
+      "modifieddate" : 1511418598,
+      "appversion" : 36700160
     },
     "device" : 2162689,
     "tone" : {
@@ -47,10 +47,10 @@
         },
         "join" : {
           "@model" : "HD2_AppDSPFlowJoin",
-          "B Pan" : 0.85,
+          "B Pan" : 0.85000002384185791,
           "B Level" : 0,
           "A Level" : 0,
-          "A Pan" : 0.15,
+          "A Pan" : 0.14999997615814209,
           "@position" : 8,
           "Level" : 0,
           "@enabled" : true,
@@ -112,23 +112,23 @@
           "B Polarity" : false
         },
         "block3" : {
-          "Bias" : 0.7,
+          "Bias" : 0.70000004768371582,
           "@model" : "HD2_AmpBrit2204",
-          "Master" : 0.42,
+          "Master" : 0.41999995708465576,
           "@position" : 1,
-          "Drive" : 0.89,
-          "Treble" : 0.65,
-          "ChVol" : 0.6600001,
+          "Drive" : 0.88999998569488525,
+          "Treble" : 0.64999997615814209,
+          "ChVol" : 0.66000008583068848,
           "@enabled" : true,
           "Ripple" : 0.5,
           "@path" : 0,
           "@type" : 1,
-          "Bass" : 0.4,
+          "Bass" : 0.39999997615814209,
           "BiasX" : 0.5,
           "Hum" : 0.5,
           "Mid" : 0.5,
           "@bypassvolume" : 1,
-          "Presence" : 0.6,
+          "Presence" : 0.60000002384185791,
           "Sag" : 0.5
         },
         "block8" : {
@@ -182,11 +182,11 @@
           "@path" : 1,
           "@trails" : false,
           "@type" : 7,
-          "Mix" : 0.39,
+          "Mix" : 0.38999998569488525,
           "Level" : 0,
-          "Decay" : 0.6600001,
+          "Decay" : 0.66000008583068848,
           "HighCut" : 4700,
-          "Predelay" : 0.1
+          "Predelay" : 0.10000002384185791
         },
         "outputB" : {
           "@model" : "HD2_AppDSPFlowOutput",
@@ -198,7 +198,7 @@
           "@input" : 1,
           "@model" : "HD2_AppDSPFlow1Input",
           "noiseGate" : true,
-          "decay" : 0.15,
+          "decay" : 0.14999997615814209,
           "threshold" : -48
         },
         "block6" : {
@@ -218,7 +218,7 @@
         "block0" : {
           "@model" : "HD2_DelayPingPong",
           "@position" : 5,
-          "Feedback" : 0.4,
+          "Feedback" : 0.39999997615814209,
           "LowCut" : 100,
           "SyncSelect1" : 6,
           "Scale" : 0.5,
@@ -227,8 +227,8 @@
           "@path" : 1,
           "@trails" : false,
           "@type" : 7,
-          "Mix" : 0.22,
-          "Time" : 0.6,
+          "Mix" : 0.22000002861022949,
+          "Time" : 0.60000002384185791,
           "Level" : 0,
           "Spread" : 1,
           "HighCut" : 8900
@@ -251,13 +251,13 @@
           "@enabled" : true,
           "@path" : 0,
           "@type" : 0,
-          "Mix" : 0.36,
+          "Mix" : 0.36000001430511475,
           "Tone" : 0.5,
           "Level" : 0,
           "@stereo" : true,
           "Spread" : 1,
-          "Predelay" : 0.3199999,
-          "Depth" : 0.8099999
+          "Predelay" : 0.31999993324279785,
+          "Depth" : 0.80999994277954102
         },
         "cab0" : {
           "@model" : "HD2_Cab4x12Greenback20",
@@ -293,7 +293,7 @@
         "@tempo" : 120
       },
       "global" : {
-        "@variax_volumeknob" : -0.1,
+        "@variax_volumeknob" : -0.10000000149011612,
         "@pedalstate" : 2,
         "@variax_customtuning" : false,
         "@variax_str1tuning" : 0,
@@ -313,7 +313,7 @@
         "@variax_magmode" : true,
         "@variax_str3tuning" : 0,
         "@variax_str5tuning" : 0,
-        "@variax_toneknob" : -0.1,
+        "@variax_toneknob" : -0.10000000149011612,
         "@current_snapshot" : 0,
         "@cursor_group" : "block3"
       },
@@ -411,7 +411,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 35717152
+    "device_version" : 36700160
   },
   "schema" : "L6Preset"
 }

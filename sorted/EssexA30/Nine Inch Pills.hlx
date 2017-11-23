@@ -3,10 +3,10 @@
   "data" : {
     "meta" : {
       "name" : "Nine Inch Pills",
-      "application" : "Helix",
+      "application" : "HX Edit",
       "build_sha" : "6a7d211",
-      "modifieddate" : 1503218418,
-      "appversion" : 35651584
+      "modifieddate" : 1511418599,
+      "appversion" : 36700160
     },
     "device" : 2162689,
     "tone" : {
@@ -37,24 +37,24 @@
         "block3" : {
           "@model" : "HD2_DelayTransistorTape",
           "@position" : 3,
-          "Feedback" : 0.54,
+          "Feedback" : 0.53999996185302734,
           "SyncSelect1" : 6,
           "TempoSync1" : false,
           "Scale" : 1,
           "@enabled" : true,
-          "WowFlutter" : 0.36,
+          "WowFlutter" : 0.36000001430511475,
           "@path" : 0,
           "@trails" : false,
           "@type" : 7,
           "Headroom" : 0,
-          "Mix" : 0.4,
-          "Time" : 0.507,
+          "Mix" : 0.39999997615814209,
+          "Time" : 0.50699996948242188,
           "Level" : 0,
           "@stereo" : false,
-          "Spread" : 0.29
+          "Spread" : 0.28999999165534973
         },
         "block2" : {
-          "VibratoRate" : 0.7,
+          "VibratoRate" : 0.70000004768371582,
           "@model" : "HD2_Chorus70sChorus",
           "@position" : 2,
           "SyncSelect1" : 6,
@@ -70,7 +70,7 @@
           "VibratoDepth" : 0.5,
           "Level" : 1,
           "@stereo" : false,
-          "ChorusIntensity" : 0.5699999,
+          "ChorusIntensity" : 0.56999993324279785,
           "Mode" : false,
           "Spread" : 0
         },
@@ -117,15 +117,15 @@
           "@model" : "HD2_AmpEssexA30",
           "Master" : 1,
           "@position" : 0,
-          "Cut" : 0.5599999,
-          "Drive" : 0.3199999,
+          "Cut" : 0.55999994277954102,
+          "Drive" : 0.31999993324279785,
           "Treble" : 0,
-          "ChVol" : 0.8,
+          "ChVol" : 0.79999995231628418,
           "@enabled" : true,
           "Ripple" : 0.5,
           "@path" : 0,
           "@type" : 3,
-          "Bass" : 0.4,
+          "Bass" : 0.39999997615814209,
           "BiasX" : 0.5,
           "Hum" : 0.5,
           "@bypassvolume" : 1,
@@ -135,7 +135,7 @@
         },
         "cab0" : {
           "@model" : "HD2_Cab2x12SilverBell",
-          "LowCut" : 19.9,
+          "LowCut" : 19.899999618530273,
           "@mic" : 2,
           "EarlyReflections" : 0,
           "Distance" : 5,
@@ -159,9 +159,9 @@
           "@type" : 7,
           "Mix" : 1,
           "Level" : 0,
-          "Decay" : 0.7,
+          "Decay" : 0.70000004768371582,
           "HighCut" : 4570,
-          "Predelay" : 0.01499999
+          "Predelay" : 0.014999985694885254
         }
       },
       "snapshot1" : {
@@ -224,12 +224,12 @@
         },
         "block3" : {
           "@model" : "HD2_DistArbitratorFuzz",
-          "Fuzz" : 0.9,
+          "Fuzz" : 0.89999997615814209,
           "@path" : 0,
           "@stereo" : false,
           "@type" : 0,
           "@position" : 3,
-          "Level" : 0.55,
+          "Level" : 0.54999995231628418,
           "@enabled" : true
         },
         "block2" : {
@@ -260,7 +260,7 @@
           "Pedal" : 1,
           "@position" : 2,
           "Level" : 0,
-          "Mix" : 0.7,
+          "Mix" : 0.70000004768371582,
           "@enabled" : true,
           "Toe" : 24
         },
@@ -297,7 +297,7 @@
           "Pedal" : 0,
           "@position" : 2,
           "Level" : 0,
-          "Mix" : 0.76,
+          "Mix" : 0.75999999046325684,
           "@enabled" : true,
           "Toe" : 0
         },
@@ -315,10 +315,10 @@
           "@stereo" : false,
           "@type" : 0,
           "@position" : 5,
-          "Level" : 5.4,
+          "Level" : 5.4000000953674316,
           "Mix" : 1,
           "@enabled" : true,
-          "Sensitivity" : 0.4400001
+          "Sensitivity" : 0.44000005722045898
         },
         "outputA" : {
           "@model" : "HD2_AppDSPFlowOutput",
@@ -331,9 +331,9 @@
           "@path" : 0,
           "@stereo" : false,
           "@type" : 0,
-          "Gain" : 0.65,
+          "Gain" : 0.64999997615814209,
           "@position" : 4,
-          "Level" : 0.6700001,
+          "Level" : 0.67000007629394531,
           "Tone" : 0,
           "@enabled" : true
         }
@@ -345,7 +345,7 @@
         "@tempo" : 120
       },
       "global" : {
-        "@variax_volumeknob" : -0.1,
+        "@variax_volumeknob" : -0.10000000149011612,
         "@pedalstate" : 2,
         "@variax_customtuning" : false,
         "@variax_str1tuning" : 0,
@@ -365,7 +365,7 @@
         "@variax_magmode" : true,
         "@variax_str3tuning" : 0,
         "@variax_str5tuning" : 0,
-        "@variax_toneknob" : -0.1,
+        "@variax_toneknob" : -0.10000000149011612,
         "@current_snapshot" : 0,
         "@cursor_group" : "block0"
       },
@@ -464,7 +464,7 @@
             "block4" : {
               "Decay" : {
                 "@fs_enabled" : false,
-                "@value" : 0.7
+                "@value" : 0.70000004768371582
               }
             }
           },
@@ -507,7 +507,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 35717152
+    "device_version" : 36700160
   },
   "schema" : "L6Preset"
 }

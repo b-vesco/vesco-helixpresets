@@ -3,10 +3,10 @@
   "data" : {
     "meta" : {
       "name" : "Brit J-45 Brt",
-      "application" : "Helix",
-      "build_sha" : "905c912",
-      "modifieddate" : 1503218324,
-      "appversion" : 35651584
+      "application" : "HX Edit",
+      "build_sha" : "cdef813",
+      "modifieddate" : 1511418554,
+      "appversion" : 36700160
     },
     "device" : 2162689,
     "tone" : {
@@ -120,7 +120,7 @@
           "Level" : 9,
           "Mix" : 0.5,
           "@enabled" : false,
-          "Sensitivity" : 0.39
+          "Sensitivity" : 0.38999998569488525
         },
         "block2" : {
           "@model" : "HD2_WahTeardrop310",
@@ -171,11 +171,11 @@
           "@path" : 0,
           "@trails" : false,
           "@type" : 7,
-          "Mix" : 0.15,
-          "Level" : -0.3,
-          "Decay" : 0.22,
+          "Mix" : 0.14999997615814209,
+          "Level" : -0.30000001192092896,
+          "Decay" : 0.22000002861022949,
           "HighCut" : 4300,
-          "Predelay" : 0.02199996
+          "Predelay" : 0.021999955177307129
         },
         "block0" : {
           "@model" : "HD2_Looper",
@@ -198,18 +198,18 @@
           "BalanceB" : 0.5
         },
         "block5" : {
-          "Bias" : 0.7,
+          "Bias" : 0.70000004768371582,
           "@model" : "HD2_AmpBritJ45Brt",
           "Master" : 1,
           "@position" : 4,
-          "Drive" : 0.6,
-          "Treble" : 0.8299999,
-          "ChVol" : 0.51,
+          "Drive" : 0.60000002384185791,
+          "Treble" : 0.82999992370605469,
+          "ChVol" : 0.46000003814697266,
           "@enabled" : true,
           "Ripple" : 0.5,
           "@path" : 0,
           "@type" : 3,
-          "Bass" : 0.74,
+          "Bass" : 0.74000000953674316,
           "BiasX" : 0.5,
           "Hum" : 0.5,
           "Mid" : 1,
@@ -240,10 +240,10 @@
           "@path" : 0,
           "@stereo" : false,
           "@type" : 0,
-          "Gain" : 0.5699999,
+          "Gain" : 0.56999993324279785,
           "@position" : 3,
-          "Level" : 0.73,
-          "Tone" : 0.38,
+          "Level" : 0.73000001907348633,
+          "Tone" : 0.37999999523162842,
           "@enabled" : false,
           "LPHP" : false
         }
@@ -255,7 +255,7 @@
         "@tempo" : 120
       },
       "global" : {
-        "@variax_volumeknob" : -0.1,
+        "@variax_volumeknob" : -0.10000000149011612,
         "@pedalstate" : 2,
         "@variax_customtuning" : false,
         "@variax_str1tuning" : 0,
@@ -275,7 +275,7 @@
         "@variax_magmode" : true,
         "@variax_str3tuning" : 0,
         "@variax_str5tuning" : 0,
-        "@variax_toneknob" : -0.1,
+        "@variax_toneknob" : -0.10000000149011612,
         "@current_snapshot" : 0,
         "@cursor_group" : "block5"
       },
@@ -371,7 +371,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 35717152
+    "device_version" : 36700160
   },
   "schema" : "L6Preset"
 }

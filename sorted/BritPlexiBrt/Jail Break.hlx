@@ -3,10 +3,10 @@
   "data" : {
     "meta" : {
       "name" : "Jail Break",
-      "application" : "Helix",
+      "application" : "HX Edit",
       "build_sha" : "37cfcb5",
-      "modifieddate" : 1503218526,
-      "appversion" : 35651584
+      "modifieddate" : 1511418603,
+      "appversion" : 36700160
     },
     "device" : 2162689,
     "tone" : {
@@ -125,7 +125,7 @@
         },
         "block3" : {
           "@model" : "HD2_PhaserScriptModPhase",
-          "Rate" : 0.1900001,
+          "Rate" : 0.19000005722045898,
           "@position" : 3,
           "SyncSelect1" : 1,
           "TempoSync1" : true,
@@ -139,20 +139,20 @@
         },
         "block2" : {
           "@model" : "HD2_FlangerGrayFlanger",
-          "Rate" : 0.16,
+          "Rate" : 0.15999996662139893,
           "@position" : 2,
-          "Regen" : 0.5599999,
+          "Regen" : 0.55999994277954102,
           "SyncSelect1" : 1,
           "TempoSync1" : true,
           "@enabled" : false,
           "@path" : 0,
           "@type" : 0,
-          "Mix" : 0.4,
+          "Mix" : 0.39999997615814209,
           "Headroom" : 0,
-          "Width" : 0.78,
+          "Width" : 0.77999997138977051,
           "Level" : 0,
           "@stereo" : false,
-          "Manual" : 0.77,
+          "Manual" : 0.76999998092651367,
           "Spread" : 0.125
         },
         "inputB" : {
@@ -170,11 +170,11 @@
           "@path" : 0,
           "@trails" : false,
           "@type" : 7,
-          "Mix" : 0.46,
+          "Mix" : 0.46000003814697266,
           "Level" : 0,
-          "Decay" : 0.45,
+          "Decay" : 0.45000004768371582,
           "HighCut" : 3720,
-          "Predelay" : 0.01100004
+          "Predelay" : 0.01100003719329834
         },
         "block1" : {
           "@model" : "HD2_WahTeardrop310",
@@ -197,7 +197,7 @@
           "@input" : 1,
           "@model" : "HD2_AppDSPFlow1Input",
           "noiseGate" : true,
-          "decay" : 0.04999995,
+          "decay" : 0.04999995231628418,
           "threshold" : -75
         },
         "block6" : {
@@ -211,8 +211,8 @@
           "@path" : 0,
           "@trails" : true,
           "@type" : 7,
-          "Mix" : 0.33,
-          "Time" : 0.6,
+          "Mix" : 0.33000004291534424,
+          "Time" : 0.60000002384185791,
           "Level" : 0,
           "@stereo" : false
         },
@@ -244,10 +244,10 @@
           "@path" : 0,
           "@type" : 0,
           "IntervalVoice2" : 0,
-          "LevelVoice1" : 0.5599999,
+          "LevelVoice1" : 0.55999994277954102,
           "KeyVoice2" : 0,
           "LevelVoice2" : 1,
-          "Mix" : 0.38,
+          "Mix" : 0.37999999523162842,
           "Level" : 0,
           "@stereo" : false,
           "PanVoice1" : 0.375,
@@ -271,24 +271,24 @@
           "gain" : 0
         },
         "block4" : {
-          "Bias" : 0.7,
+          "Bias" : 0.70000004768371582,
           "@model" : "HD2_AmpBritPlexiBrt",
           "Master" : 1,
           "@position" : 4,
           "Drive" : 0.75,
-          "Treble" : 0.5599999,
-          "ChVol" : 0.53,
+          "Treble" : 0.55999994277954102,
+          "ChVol" : 0.52999997138977051,
           "@enabled" : true,
           "Ripple" : 0.5,
           "@path" : 0,
           "@type" : 3,
-          "Bass" : 0.8,
+          "Bass" : 0.79999995231628418,
           "BiasX" : 0.5,
           "Hum" : 0.5,
-          "Mid" : 0.9,
+          "Mid" : 0.89999997615814209,
           "@bypassvolume" : 1,
           "@cab" : "cab0",
-          "Presence" : 0.9,
+          "Presence" : 0.89999997615814209,
           "Sag" : 0.5
         }
       },
@@ -435,7 +435,7 @@
         "@tempo" : 145
       }
     },
-    "device_version" : 35717152
+    "device_version" : 36700160
   },
   "schema" : "L6Preset"
 }
