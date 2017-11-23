@@ -3,10 +3,10 @@
   "data" : {
     "meta" : {
       "name" : "Slowish Ride",
-      "application" : "Helix",
+      "application" : "HX Edit",
       "build_sha" : "6a7d211",
-      "modifieddate" : 1503218443,
-      "appversion" : 35651584
+      "modifieddate" : 1511418602,
+      "appversion" : 36700160
     },
     "device" : 2162689,
     "tone" : {
@@ -106,9 +106,9 @@
         },
         "block3" : {
           "@model" : "HD2_FlangerGrayFlanger",
-          "Rate" : 0.15,
+          "Rate" : 0.14999997615814209,
           "@position" : 2,
-          "Regen" : 0.5599999,
+          "Regen" : 0.55999994277954102,
           "SyncSelect1" : 1,
           "TempoSync1" : true,
           "@enabled" : false,
@@ -116,10 +116,10 @@
           "@type" : 0,
           "Mix" : 0.5,
           "Headroom" : 0,
-          "Width" : 0.78,
+          "Width" : 0.77999997138977051,
           "Level" : 0,
           "@stereo" : false,
-          "Manual" : 0.77,
+          "Manual" : 0.76999998092651367,
           "Spread" : 0.125
         },
         "block2" : {
@@ -127,10 +127,10 @@
           "@path" : 0,
           "@stereo" : false,
           "@type" : 0,
-          "Gain" : 0.35,
+          "Gain" : 0.35000002384185791,
           "@position" : 1,
-          "Level" : 0.61,
-          "Tone" : 0.5699999,
+          "Level" : 0.61000001430511475,
+          "Tone" : 0.56999993324279785,
           "@enabled" : false
         },
         "inputB" : {
@@ -145,7 +145,7 @@
           "@path" : 0,
           "@stereo" : false,
           "@type" : 0,
-          "Pedal" : 0.9084849,
+          "Pedal" : 0.90848493576049805,
           "@position" : 0,
           "@enabled" : true,
           "VolumeTaper" : false
@@ -160,7 +160,7 @@
           "@input" : 1,
           "@model" : "HD2_AppDSPFlow1Input",
           "noiseGate" : true,
-          "decay" : 0.01,
+          "decay" : 0.0099999997764825821,
           "threshold" : -63
         },
         "block6" : {
@@ -171,11 +171,11 @@
           "@path" : 0,
           "@trails" : false,
           "@type" : 7,
-          "Mix" : 0.46,
+          "Mix" : 0.46000003814697266,
           "Level" : 0,
-          "Decay" : 0.38,
+          "Decay" : 0.37999999523162842,
           "HighCut" : 3720,
-          "Predelay" : 0.01100004
+          "Predelay" : 0.01100003719329834
         },
         "block0" : {
           "@model" : "HD2_Looper",
@@ -200,7 +200,7 @@
         "block5" : {
           "@model" : "HD2_DelayBucketBrigade",
           "@position" : 5,
-          "Feedback" : 0.4300001,
+          "Feedback" : 0.43000006675720215,
           "SyncSelect1" : 6,
           "TempoSync1" : true,
           "Scale" : 1,
@@ -209,17 +209,17 @@
           "@trails" : false,
           "@type" : 7,
           "Headroom" : 0,
-          "Mix" : 0.34,
-          "Noise" : 0.28,
-          "Time" : 0.238,
+          "Mix" : 0.34000003337860107,
+          "Noise" : 0.27999997138977051,
+          "Time" : 0.23800003528594971,
           "Level" : 0,
           "@stereo" : false
         },
         "cab0" : {
           "@model" : "HD2_Cab4x12Greenback25",
-          "LowCut" : 19.9,
+          "LowCut" : 19.899999618530273,
           "@mic" : 0,
-          "EarlyReflections" : 0.1,
+          "EarlyReflections" : 0.10000002384185791,
           "Distance" : 2,
           "Level" : 0,
           "@enabled" : true,
@@ -232,24 +232,24 @@
           "gain" : 0
         },
         "block4" : {
-          "Bias" : 0.7,
+          "Bias" : 0.70000004768371582,
           "@model" : "HD2_AmpBritPlexiBrt",
           "Master" : 1,
           "@position" : 3,
-          "Drive" : 0.33,
-          "Treble" : 0.9,
-          "ChVol" : 0.6600001,
+          "Drive" : 0.33000004291534424,
+          "Treble" : 0.89999997615814209,
+          "ChVol" : 0.66000008583068848,
           "@enabled" : true,
           "Ripple" : 0.5,
           "@path" : 0,
           "@type" : 3,
-          "Bass" : 0.6900001,
+          "Bass" : 0.69000005722045898,
           "BiasX" : 0.5,
           "Hum" : 0.5,
-          "Mid" : 0.9,
+          "Mid" : 0.89999997615814209,
           "@bypassvolume" : 1,
           "@cab" : "cab0",
-          "Presence" : 0.85,
+          "Presence" : 0.85000002384185791,
           "Sag" : 0.5
         }
       },
@@ -348,7 +348,7 @@
             "block1" : {
               "Pedal" : {
                 "@fs_enabled" : false,
-                "@value" : 0.9084849
+                "@value" : 0.90848493576049805
               }
             }
           }
@@ -370,7 +370,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 35717152
+    "device_version" : 36700160
   },
   "schema" : "L6Preset"
 }

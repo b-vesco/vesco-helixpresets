@@ -3,10 +3,10 @@
   "data" : {
     "meta" : {
       "name" : "Hellish Cowboys",
-      "application" : "Helix",
+      "application" : "HX Edit",
       "build_sha" : "37cfcb5",
-      "modifieddate" : 1503218526,
-      "appversion" : 35651584
+      "modifieddate" : 1511418603,
+      "appversion" : 36700160
     },
     "device" : 2162689,
     "tone" : {
@@ -134,8 +134,8 @@
           "@path" : 0,
           "@trails" : true,
           "@type" : 7,
-          "Mix" : 0.1,
-          "Time" : 0.6,
+          "Mix" : 0.10000002384185791,
+          "Time" : 0.60000002384185791,
           "Level" : 0,
           "@stereo" : false
         },
@@ -144,10 +144,10 @@
           "@path" : 0,
           "@stereo" : false,
           "@type" : 0,
-          "Gain" : 0.12,
+          "Gain" : 0.12000000476837158,
           "@position" : 2,
-          "Level" : 0.6700001,
-          "Tone" : 0.52,
+          "Level" : 0.67000007629394531,
+          "Tone" : 0.51999998092651367,
           "@enabled" : false
         },
         "inputB" : {
@@ -165,11 +165,11 @@
           "@path" : 0,
           "@trails" : false,
           "@type" : 7,
-          "Mix" : 0.36,
+          "Mix" : 0.36000001430511475,
           "Level" : 0,
-          "Decay" : 0.45,
+          "Decay" : 0.45000004768371582,
           "HighCut" : 3720,
-          "Predelay" : 0.01100004
+          "Predelay" : 0.01100003719329834
         },
         "block1" : {
           "@model" : "HD2_WahWeeper",
@@ -194,7 +194,7 @@
           "@input" : 1,
           "@model" : "HD2_AppDSPFlow1Input",
           "noiseGate" : true,
-          "decay" : 0.04999995,
+          "decay" : 0.04999995231628418,
           "threshold" : -70
         },
         "block6" : {
@@ -208,9 +208,9 @@
           "@path" : 0,
           "@type" : 0,
           "4kHz" : -5.5,
-          "500Hz" : -6.8,
+          "500Hz" : -6.8000001907348633,
           "1kHz" : -6,
-          "Level" : 5.9,
+          "Level" : 5.9000000953674316,
           "31p25Hz" : 0,
           "16kHz" : 0,
           "125Hz" : 0,
@@ -238,23 +238,23 @@
           "BalanceB" : 0.5
         },
         "block5" : {
-          "Bias" : 0.62,
+          "Bias" : 0.62000000476837158,
           "@model" : "HD2_AmpLine6Elektrik",
-          "Master" : 0.49,
+          "Master" : 0.49000000953674316,
           "@position" : 5,
-          "Drive" : 0.6600001,
-          "Treble" : 0.87,
-          "ChVol" : 0.52,
+          "Drive" : 0.66000008583068848,
+          "Treble" : 0.87000000476837158,
+          "ChVol" : 0.51999998092651367,
           "@enabled" : true,
           "Ripple" : 0.5,
           "@path" : 0,
           "@type" : 3,
-          "Bass" : 0.6,
+          "Bass" : 0.60000002384185791,
           "BiasX" : 0.5,
-          "Mid" : 0.95,
+          "Mid" : 0.95000004768371582,
           "@bypassvolume" : 1,
           "@cab" : "cab0",
-          "Presence" : 0.8,
+          "Presence" : 0.79999995231628418,
           "Sag" : 0
         },
         "cab0" : {
@@ -275,20 +275,20 @@
         },
         "block4" : {
           "@model" : "HD2_FlangerGrayFlanger",
-          "Rate" : 0.16,
+          "Rate" : 0.15999996662139893,
           "@position" : 4,
-          "Regen" : 0.48,
+          "Regen" : 0.48000001907348633,
           "SyncSelect1" : 6,
           "TempoSync1" : true,
           "@enabled" : false,
           "@path" : 0,
           "@type" : 0,
-          "Mix" : 0.39,
+          "Mix" : 0.38999998569488525,
           "Headroom" : 0,
-          "Width" : 0.74,
+          "Width" : 0.74000000953674316,
           "Level" : 0,
           "@stereo" : false,
-          "Manual" : 0.3199999,
+          "Manual" : 0.31999993324279785,
           "Spread" : 0.125
         }
       },
@@ -435,7 +435,7 @@
         "@tempo" : 116
       }
     },
-    "device_version" : 35717152
+    "device_version" : 36700160
   },
   "schema" : "L6Preset"
 }

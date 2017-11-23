@@ -3,10 +3,10 @@
   "data" : {
     "meta" : {
       "name" : "You've Got",
-      "application" : "Helix",
+      "application" : "HX Edit",
       "build_sha" : "6a7d211",
-      "modifieddate" : 1503218326,
-      "appversion" : 35651584
+      "modifieddate" : 1511418557,
+      "appversion" : 36700160
     },
     "device" : 2162689,
     "tone" : {
@@ -116,10 +116,10 @@
           "@path" : 0,
           "@stereo" : false,
           "@type" : 0,
-          "Gain" : 0.04999995,
+          "Gain" : 0.04999995231628418,
           "@position" : 2,
           "Level" : 0.5,
-          "Tone" : 0.1,
+          "Tone" : 0.10000002384185791,
           "@enabled" : true
         },
         "block8" : {
@@ -157,7 +157,7 @@
         "block7" : {
           "@model" : "HD2_DelaySimpleDelay",
           "@position" : 6,
-          "Feedback" : 0.1,
+          "Feedback" : 0.10000002384185791,
           "SyncSelect1" : 11,
           "TempoSync1" : true,
           "Scale" : 0.75,
@@ -166,7 +166,7 @@
           "@trails" : true,
           "@type" : 7,
           "Mix" : 0.25,
-          "Time" : 0.6,
+          "Time" : 0.60000002384185791,
           "Level" : 0,
           "@stereo" : false
         },
@@ -190,11 +190,11 @@
           "@input" : 1,
           "@model" : "HD2_AppDSPFlow1Input",
           "noiseGate" : true,
-          "decay" : 0.03999996,
+          "decay" : 0.039999961853027344,
           "threshold" : -66
         },
         "block6" : {
-          "VibratoRate" : 0.7,
+          "VibratoRate" : 0.70000004768371582,
           "@model" : "HD2_Chorus70sChorus",
           "@position" : 5,
           "SyncSelect1" : 1,
@@ -203,14 +203,14 @@
           "@enabled" : false,
           "@path" : 0,
           "@type" : 0,
-          "Mix" : 0.35,
+          "Mix" : 0.35000002384185791,
           "Headroom" : 0,
           "Stereo" : false,
           "TempoSync2" : false,
           "VibratoDepth" : 0.5,
           "Level" : 0,
           "@stereo" : false,
-          "ChorusIntensity" : 0.04999995,
+          "ChorusIntensity" : 0.04999995231628418,
           "Mode" : false,
           "Spread" : 0
         },
@@ -222,11 +222,11 @@
           "@path" : 1,
           "@trails" : false,
           "@type" : 7,
-          "Mix" : 0.37,
+          "Mix" : 0.37000000476837158,
           "Level" : 0,
-          "Decay" : 0.6600001,
+          "Decay" : 0.66000008583068848,
           "HighCut" : 4700,
-          "Predelay" : 0.12
+          "Predelay" : 0.12000000476837158
         },
         "split" : {
           "BalanceA" : 0.5,
@@ -267,24 +267,24 @@
           "gain" : 0
         },
         "block4" : {
-          "Bias" : 0.7,
+          "Bias" : 0.70000004768371582,
           "@model" : "HD2_AmpBrit2204",
-          "Master" : 0.42,
+          "Master" : 0.41999995708465576,
           "@position" : 3,
-          "Drive" : 0.65,
+          "Drive" : 0.64999997615814209,
           "Treble" : 1,
-          "ChVol" : 0.54,
+          "ChVol" : 0.53999996185302734,
           "@enabled" : true,
           "Ripple" : 0.5,
           "@path" : 0,
           "@type" : 1,
-          "Bass" : 0.15,
+          "Bass" : 0.14999997615814209,
           "BiasX" : 0.5,
           "Hum" : 0.5,
-          "Mid" : 0.21,
+          "Mid" : 0.21000003814697266,
           "@bypassvolume" : 1,
-          "Presence" : 0.7,
-          "Sag" : 0.22
+          "Presence" : 0.70000004768371582,
+          "Sag" : 0.22000002861022949
         }
       },
       "snapshot2" : {
@@ -294,7 +294,7 @@
         "@tempo" : 135
       },
       "global" : {
-        "@variax_volumeknob" : -0.1,
+        "@variax_volumeknob" : -0.10000000149011612,
         "@pedalstate" : 2,
         "@variax_customtuning" : false,
         "@variax_str1tuning" : 0,
@@ -314,7 +314,7 @@
         "@variax_magmode" : true,
         "@variax_str3tuning" : 0,
         "@variax_str5tuning" : 0,
-        "@variax_toneknob" : -0.1,
+        "@variax_toneknob" : -0.10000000149011612,
         "@current_snapshot" : 0,
         "@cursor_group" : "block4"
       },
@@ -419,7 +419,7 @@
         "@tempo" : 135
       }
     },
-    "device_version" : 35717152
+    "device_version" : 36700160
   },
   "schema" : "L6Preset"
 }

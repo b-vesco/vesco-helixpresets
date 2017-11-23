@@ -3,10 +3,10 @@
   "data" : {
     "meta" : {
       "name" : "Look! A Py Py",
-      "application" : "Helix",
+      "application" : "HX Edit",
       "build_sha" : "905c912",
-      "modifieddate" : 1503218540,
-      "appversion" : 35651584
+      "modifieddate" : 1511418603,
+      "appversion" : 36700160
     },
     "device" : 2162689,
     "tone" : {
@@ -116,10 +116,10 @@
           "@path" : 0,
           "@stereo" : false,
           "@type" : 0,
-          "Gain" : 0.52,
+          "Gain" : 0.51999998092651367,
           "@position" : 2,
-          "Level" : 0.6700001,
-          "Tone" : 0.65,
+          "Level" : 0.67000007629394531,
+          "Tone" : 0.64999997615814209,
           "@enabled" : false
         },
         "block2" : {
@@ -153,8 +153,8 @@
           "@path" : 0,
           "@trails" : false,
           "@type" : 7,
-          "Mix" : 0.2,
-          "Time" : 0.6,
+          "Mix" : 0.20000004768371582,
+          "Time" : 0.60000002384185791,
           "Level" : 0,
           "@stereo" : false
         },
@@ -178,7 +178,7 @@
           "@input" : 1,
           "@model" : "HD2_AppDSPFlow1Input",
           "noiseGate" : true,
-          "decay" : 0.02999997,
+          "decay" : 0.029999971389770508,
           "threshold" : -48
         },
         "block6" : {
@@ -223,15 +223,15 @@
           "@path" : 0,
           "@trails" : false,
           "@type" : 7,
-          "Mix" : 0.26,
+          "Mix" : 0.25999999046325684,
           "Level" : 0,
-          "Decay" : 0.4,
+          "Decay" : 0.39999997615814209,
           "HighCut" : 3929,
           "Predelay" : 0
         },
         "cab0" : {
           "@model" : "HD2_Cab2x12DoubleC12N",
-          "LowCut" : 19.9,
+          "LowCut" : 19.899999618530273,
           "@mic" : 0,
           "EarlyReflections" : 0,
           "Distance" : 3,
@@ -246,12 +246,12 @@
           "gain" : 0
         },
         "block4" : {
-          "Bias" : 0.6,
+          "Bias" : 0.60000002384185791,
           "@model" : "HD2_AmpUSDoubleNrm",
           "Master" : 1,
           "@position" : 3,
-          "Drive" : 0.49,
-          "Treble" : 0.5799999,
+          "Drive" : 0.49000000953674316,
+          "Treble" : 0.57999992370605469,
           "ChVol" : 1,
           "@enabled" : true,
           "Ripple" : 0.5,
@@ -260,7 +260,7 @@
           "Bass" : 0.5,
           "BiasX" : 0.5,
           "Hum" : 0.5,
-          "Mid" : 0.5699999,
+          "Mid" : 0.56999993324279785,
           "@bypassvolume" : 1,
           "@cab" : "cab0",
           "Presence" : 0.5,
@@ -398,7 +398,7 @@
         "@tempo" : 88
       }
     },
-    "device_version" : 35717152
+    "device_version" : 36700160
   },
   "schema" : "L6Preset"
 }

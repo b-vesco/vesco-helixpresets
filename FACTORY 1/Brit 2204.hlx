@@ -3,10 +3,10 @@
   "data" : {
     "meta" : {
       "name" : "Brit 2204",
-      "application" : "Helix",
-      "build_sha" : "905c912",
-      "modifieddate" : 1503218322,
-      "appversion" : 35651584
+      "application" : "HX Edit",
+      "build_sha" : "cdef813",
+      "modifieddate" : 1511418553,
+      "appversion" : 36700160
     },
     "device" : 2162689,
     "tone" : {
@@ -132,9 +132,9 @@
           "@type" : 7,
           "Mix" : 0.25,
           "Level" : 0,
-          "Decay" : 0.45,
+          "Decay" : 0.45000004768371582,
           "HighCut" : 3720,
-          "Predelay" : 0.01100004
+          "Predelay" : 0.01100003719329834
         },
         "block2" : {
           "@model" : "HD2_VolPanVol",
@@ -156,7 +156,7 @@
         "block7" : {
           "@model" : "HD2_DelaySimpleDelay",
           "@position" : 5,
-          "Feedback" : 0.35,
+          "Feedback" : 0.35000002384185791,
           "SyncSelect1" : 6,
           "TempoSync1" : true,
           "Scale" : 0.5,
@@ -164,8 +164,8 @@
           "@path" : 0,
           "@trails" : true,
           "@type" : 7,
-          "Mix" : 0.2,
-          "Time" : 0.8,
+          "Mix" : 0.20000004768371582,
+          "Time" : 0.79999995231628418,
           "Level" : 0,
           "@stereo" : true
         },
@@ -229,23 +229,23 @@
           "BalanceB" : 0.5
         },
         "block5" : {
-          "Bias" : 0.7,
+          "Bias" : 0.70000004768371582,
           "@model" : "HD2_AmpBrit2204",
           "Master" : 0.5,
           "@position" : 3,
-          "Drive" : 0.55,
-          "Treble" : 0.65,
-          "ChVol" : 0.78,
+          "Drive" : 0.54999995231628418,
+          "Treble" : 0.64999997615814209,
+          "ChVol" : 0.71000003814697266,
           "@enabled" : true,
           "Ripple" : 0.5,
           "@path" : 0,
           "@type" : 1,
-          "Bass" : 0.4,
+          "Bass" : 0.39999997615814209,
           "BiasX" : 0.5,
           "Hum" : 0.5,
           "Mid" : 0.5,
           "@bypassvolume" : 1,
-          "Presence" : 0.53,
+          "Presence" : 0.52999997138977051,
           "Sag" : 0.5
         },
         "outputA" : {
@@ -259,10 +259,10 @@
           "@path" : 0,
           "@stereo" : false,
           "@type" : 0,
-          "Gain" : 0.15,
+          "Gain" : 0.14999997615814209,
           "@position" : 2,
           "Level" : 1,
-          "Tone" : 0.76,
+          "Tone" : 0.75999999046325684,
           "@enabled" : true
         }
       },
@@ -273,7 +273,7 @@
         "@tempo" : 120
       },
       "global" : {
-        "@variax_volumeknob" : -0.1,
+        "@variax_volumeknob" : -0.10000000149011612,
         "@pedalstate" : 2,
         "@variax_customtuning" : false,
         "@variax_str1tuning" : 0,
@@ -293,7 +293,7 @@
         "@variax_magmode" : true,
         "@variax_str3tuning" : 0,
         "@variax_str5tuning" : 0,
-        "@variax_toneknob" : -0.1,
+        "@variax_toneknob" : -0.10000000149011612,
         "@current_snapshot" : 0,
         "@cursor_group" : "block5"
       },
@@ -391,7 +391,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 35717152
+    "device_version" : 36700160
   },
   "schema" : "L6Preset"
 }

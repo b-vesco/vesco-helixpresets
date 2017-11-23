@@ -3,10 +3,10 @@
   "data" : {
     "meta" : {
       "name" : "Paranoia",
-      "application" : "Helix",
+      "application" : "HX Edit",
       "build_sha" : "6a7d211",
-      "modifieddate" : 1503218443,
-      "appversion" : 35651584
+      "modifieddate" : 1511418602,
+      "appversion" : 36700160
     },
     "device" : 2162689,
     "tone" : {
@@ -14,13 +14,13 @@
         "@pedalstate" : 2,
         "@ledcolor" : 0,
         "@name" : "SNAPSHOT 8",
-        "@tempo" : 101.266
+        "@tempo" : 101.26599884033203
       },
       "snapshot4" : {
         "@pedalstate" : 2,
         "@ledcolor" : 0,
         "@name" : "SNAPSHOT 5",
-        "@tempo" : 101.266
+        "@tempo" : 101.26599884033203
       },
       "dsp1" : {
         "split" : {
@@ -73,7 +73,7 @@
         "@pedalstate" : 2,
         "@ledcolor" : 0,
         "@name" : "SNAPSHOT 2",
-        "@tempo" : 101.266
+        "@tempo" : 101.26599884033203
       },
       "controller" : {
         "dsp0" : {
@@ -90,7 +90,7 @@
         "@pedalstate" : 2,
         "@ledcolor" : 0,
         "@name" : "SNAPSHOT 6",
-        "@tempo" : 101.266
+        "@tempo" : 101.26599884033203
       },
       "dsp0" : {
         "join" : {
@@ -106,7 +106,7 @@
         },
         "block3" : {
           "@model" : "HD2_GateNoiseGate",
-          "Decay" : 0.01,
+          "Decay" : 0.0099999997764825821,
           "@path" : 0,
           "@stereo" : false,
           "@type" : 0,
@@ -147,25 +147,25 @@
         "block1" : {
           "TempoSync1" : true,
           "Time" : 1,
-          "Depth" : 0.38,
+          "Depth" : 0.37999999523162842,
           "@trails" : false,
           "@enabled" : false,
-          "Diffusion" : 0.4,
-          "Tap3Pan" : 0.6600001,
+          "Diffusion" : 0.39999997615814209,
+          "Tap3Pan" : 0.66000008583068848,
           "@type" : 7,
-          "Speed" : 0.1,
-          "Tap2Pan" : 0.33,
+          "Speed" : 0.10000002384185791,
+          "Tap2Pan" : 0.33000004291534424,
           "SyncSelect1" : 6,
           "@model" : "HD2_DelayMultitap4",
-          "LowCut" : 19.9,
+          "LowCut" : 19.899999618530273,
           "@path" : 1,
           "Level" : 0,
-          "Mix" : 0.4300001,
-          "Spread" : 0.5799999,
+          "Mix" : 0.43000006675720215,
+          "Spread" : 0.57999992370605469,
           "Feedback" : 0,
           "HighCut" : 20100,
           "ModulationMode" : 1,
-          "Tap1Delay" : 0.24,
+          "Tap1Delay" : 0.24000000953674316,
           "Tap1Level" : 1,
           "@position" : 5,
           "Tap1Pan" : 0,
@@ -187,29 +187,29 @@
           "@input" : 1,
           "@model" : "HD2_AppDSPFlow1Input",
           "noiseGate" : true,
-          "decay" : 0.01,
+          "decay" : 0.0099999997764825821,
           "threshold" : -63
         },
         "block6" : {
-          "Bias" : 0.8099999,
+          "Bias" : 0.80999994277954102,
           "@model" : "HD2_AmpBritJ45Brt",
           "Master" : 1,
           "@position" : 4,
           "Drive" : 1,
           "Treble" : 1,
-          "ChVol" : 0.45,
+          "ChVol" : 0.45000004768371582,
           "@enabled" : true,
-          "Ripple" : 0.62,
+          "Ripple" : 0.62000000476837158,
           "@path" : 0,
           "@type" : 3,
-          "Bass" : 0.35,
-          "BiasX" : 0.63,
+          "Bass" : 0.35000002384185791,
+          "BiasX" : 0.62999999523162842,
           "Hum" : 0.5,
           "Mid" : 1,
           "@bypassvolume" : 1,
           "@cab" : "cab0",
-          "Presence" : 0.62,
-          "Sag" : 0.7
+          "Presence" : 0.62000000476837158,
+          "Sag" : 0.70000004768371582
         },
         "block0" : {
           "@model" : "HD2_ReverbRoom",
@@ -219,11 +219,11 @@
           "@path" : 0,
           "@trails" : false,
           "@type" : 7,
-          "Mix" : 0.46,
+          "Mix" : 0.46000003814697266,
           "Level" : 0,
-          "Decay" : 0.45,
+          "Decay" : 0.45000004768371582,
           "HighCut" : 3720,
-          "Predelay" : 0.01100004
+          "Predelay" : 0.01100003719329834
         },
         "split" : {
           "BalanceA" : 0.5,
@@ -235,27 +235,27 @@
         },
         "block5" : {
           "@model" : "HD2_FlangerGrayFlanger",
-          "Rate" : 0.3,
+          "Rate" : 0.29999995231628418,
           "@position" : 3,
-          "Regen" : 0.5599999,
+          "Regen" : 0.55999994277954102,
           "SyncSelect1" : 6,
           "TempoSync1" : false,
           "@enabled" : false,
           "@path" : 0,
           "@type" : 0,
-          "Mix" : 0.35,
+          "Mix" : 0.35000002384185791,
           "Headroom" : 0,
-          "Width" : 0.88,
+          "Width" : 0.87999999523162842,
           "Level" : 0,
           "@stereo" : false,
-          "Manual" : 0.77,
+          "Manual" : 0.76999998092651367,
           "Spread" : 0.125
         },
         "cab0" : {
           "@model" : "HD2_Cab4x12Greenback25",
-          "LowCut" : 19.9,
+          "LowCut" : 19.899999618530273,
           "@mic" : 2,
-          "EarlyReflections" : 0.16,
+          "EarlyReflections" : 0.15999996662139893,
           "Distance" : 2.5,
           "Level" : 0,
           "@enabled" : true,
@@ -272,9 +272,9 @@
           "@path" : 0,
           "@stereo" : false,
           "@type" : 0,
-          "Gain" : 0.1800001,
+          "Gain" : 0.18000006675720215,
           "@position" : 2,
-          "Level" : 0.85,
+          "Level" : 0.85000002384185791,
           "@enabled" : true
         }
       },
@@ -282,7 +282,7 @@
         "@pedalstate" : 2,
         "@ledcolor" : 0,
         "@name" : "SNAPSHOT 3",
-        "@tempo" : 101.266
+        "@tempo" : 101.26599884033203
       },
       "global" : {
         "@variax_volumeknob" : 10,
@@ -298,7 +298,7 @@
         "@cursor_dsp" : 0,
         "@cursor_path" : 0,
         "@guitarinputZ" : 0,
-        "@tempo" : 101.266,
+        "@tempo" : 101.26599884033203,
         "@topology1" : "A",
         "@cursor_position" : 4,
         "@variax_lockctrls" : 0,
@@ -313,7 +313,7 @@
         "@pedalstate" : 2,
         "@ledcolor" : 0,
         "@name" : "SNAPSHOT 7",
-        "@tempo" : 101.266
+        "@tempo" : 101.26599884033203
       },
       "footswitch" : {
         "dsp0" : {
@@ -372,7 +372,7 @@
         "@pedalstate" : 2,
         "@ledcolor" : 0,
         "@name" : "SNAPSHOT 4",
-        "@tempo" : 101.266
+        "@tempo" : 101.26599884033203
       },
       "snapshot0" : {
         "controllers" : {
@@ -400,10 +400,10 @@
         "@pedalstate" : 2,
         "@ledcolor" : 0,
         "@name" : "SNAPSHOT 1",
-        "@tempo" : 101.266
+        "@tempo" : 101.26599884033203
       }
     },
-    "device_version" : 35717152
+    "device_version" : 36700160
   },
   "schema" : "L6Preset"
 }

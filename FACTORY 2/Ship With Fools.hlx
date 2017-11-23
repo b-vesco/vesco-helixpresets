@@ -3,10 +3,10 @@
   "data" : {
     "meta" : {
       "name" : "Ship With Fools",
-      "application" : "Helix",
+      "application" : "HX Edit",
       "build_sha" : "905c912",
-      "modifieddate" : 1503218540,
-      "appversion" : 35651584
+      "modifieddate" : 1511418603,
+      "appversion" : 36700160
     },
     "device" : 2162689,
     "tone" : {
@@ -107,13 +107,13 @@
         "block3" : {
           "@model" : "HD2_CompressorDeluxeComp",
           "@position" : 2,
-          "Threshold" : -37.1,
-          "Release" : 0.2,
+          "Threshold" : -37.099998474121094,
+          "Release" : 0.20000004768371582,
           "@enabled" : true,
           "Knee" : 6,
           "@path" : 0,
           "@type" : 0,
-          "Attack" : 0.03799999,
+          "Attack" : 0.037999987602233887,
           "Mix" : 0.5,
           "Ratio" : 3,
           "Level" : 7,
@@ -123,18 +123,18 @@
           "@model" : "HD2_AmpJazzRivet120",
           "Master" : 1,
           "@position" : 1,
-          "Drive" : 0.28,
-          "Bright" : 0.33,
-          "ChVol" : 0.6700001,
+          "Drive" : 0.27999997138977051,
+          "Bright" : 0.33000004291534424,
+          "ChVol" : 0.67000007629394531,
           "@enabled" : true,
           "@path" : 0,
           "@type" : 3,
-          "Bass" : 0.6,
-          "Mid" : 0.29,
+          "Bass" : 0.60000002384185791,
+          "Mid" : 0.28999996185302734,
           "@bypassvolume" : 1,
           "@cab" : "cab0",
           "Presence" : 0.5,
-          "Treble" : 0.6
+          "Treble" : 0.60000002384185791
         },
         "inputB" : {
           "@input" : 0,
@@ -163,13 +163,13 @@
           "@input" : 1,
           "@model" : "HD2_AppDSPFlow1Input",
           "noiseGate" : true,
-          "decay" : 0.04999995,
+          "decay" : 0.04999995231628418,
           "threshold" : -48
         },
         "block6" : {
           "@model" : "HD2_DelaySimpleDelay",
           "@position" : 5,
-          "Feedback" : 0.35,
+          "Feedback" : 0.35000002384185791,
           "SyncSelect1" : 6,
           "TempoSync1" : false,
           "Scale" : 0.75,
@@ -177,8 +177,8 @@
           "@path" : 0,
           "@trails" : false,
           "@type" : 7,
-          "Mix" : 0.4,
-          "Time" : 0.6,
+          "Mix" : 0.39999997615814209,
+          "Time" : 0.60000002384185791,
           "Level" : 0,
           "@stereo" : false
         },
@@ -210,15 +210,15 @@
           "@path" : 0,
           "@trails" : false,
           "@type" : 7,
-          "Mix" : 0.3,
+          "Mix" : 0.29999995231628418,
           "Level" : 0,
-          "Decay" : 0.6,
+          "Decay" : 0.60000002384185791,
           "HighCut" : 4570,
-          "Predelay" : 0.01499999
+          "Predelay" : 0.014999985694885254
         },
         "cab0" : {
           "@model" : "HD2_Cab2x12JazzRivet",
-          "LowCut" : 19.9,
+          "LowCut" : 19.899999618530273,
           "@mic" : 14,
           "EarlyReflections" : 0,
           "Distance" : 1,
@@ -242,13 +242,13 @@
           "@enabled" : false,
           "@path" : 0,
           "@type" : 0,
-          "Mix" : 0.24,
+          "Mix" : 0.24000000953674316,
           "Tone" : 0.5,
           "Level" : 0,
           "@stereo" : false,
           "Spread" : 1,
-          "Predelay" : 0.3199999,
-          "Depth" : 0.8099999
+          "Predelay" : 0.31999993324279785,
+          "Depth" : 0.80999994277954102
         }
       },
       "snapshot2" : {
@@ -368,7 +368,7 @@
         "@tempo" : 93
       }
     },
-    "device_version" : 35717152
+    "device_version" : 36700160
   },
   "schema" : "L6Preset"
 }

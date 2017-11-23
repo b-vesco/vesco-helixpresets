@@ -3,10 +3,10 @@
   "data" : {
     "meta" : {
       "name" : "US Deluxe Nrm",
-      "application" : "Helix",
-      "build_sha" : "905c912",
-      "modifieddate" : 1503218323,
-      "appversion" : 35651584
+      "application" : "HX Edit",
+      "build_sha" : "cdef813",
+      "modifieddate" : 1511418554,
+      "appversion" : 36700160
     },
     "device" : 2162689,
     "tone" : {
@@ -109,10 +109,10 @@
           "@path" : 0,
           "@stereo" : false,
           "@type" : 0,
-          "Gain" : 0.76,
+          "Gain" : 0.75999999046325684,
           "@position" : 2,
-          "Level" : 0.5599999,
-          "Tone" : 0.27,
+          "Level" : 0.55999994277954102,
+          "Tone" : 0.26999998092651367,
           "@enabled" : false
         },
         "block2" : {
@@ -121,10 +121,10 @@
           "@stereo" : false,
           "@type" : 0,
           "@position" : 1,
-          "Level" : 5.8,
-          "Mix" : 0.64,
+          "Level" : 5.8000001907348633,
+          "Mix" : 0.63999998569488525,
           "@enabled" : false,
-          "Sensitivity" : 0.26
+          "Sensitivity" : 0.25999999046325684
         },
         "inputB" : {
           "@input" : 0,
@@ -161,8 +161,8 @@
           "@position" : 5,
           "SyncSelect1" : 6,
           "TempoSync1" : false,
-          "Intensity" : 0.54,
-          "Speed" : 0.49,
+          "Intensity" : 0.53999996185302734,
+          "Speed" : 0.49000000953674316,
           "@enabled" : false,
           "@path" : 0,
           "@type" : 0,
@@ -198,15 +198,15 @@
           "@path" : 0,
           "@trails" : false,
           "@type" : 7,
-          "Mix" : 0.23,
+          "Mix" : 0.23000001907348633,
           "Level" : 0,
-          "Decay" : 0.45,
+          "Decay" : 0.45000004768371582,
           "HighCut" : 4400,
           "Predelay" : 0
         },
         "cab0" : {
           "@model" : "HD2_Cab1x12USDeluxe",
-          "LowCut" : 19.9,
+          "LowCut" : 19.899999618530273,
           "@mic" : 8,
           "EarlyReflections" : 0,
           "Distance" : 2,
@@ -221,24 +221,24 @@
           "gain" : 0
         },
         "block4" : {
-          "Bias" : 0.65,
+          "Bias" : 0.64999997615814209,
           "@model" : "HD2_AmpUSDeluxeNrm",
           "Master" : 1,
           "@position" : 3,
-          "Drive" : 0.36,
-          "Treble" : 0.51,
+          "Drive" : 0.36000001430511475,
+          "Treble" : 0.54999995231628418,
           "ChVol" : 1,
           "@enabled" : true,
           "Ripple" : 0.5,
           "@path" : 0,
           "@type" : 3,
-          "Bass" : 0.51,
+          "Bass" : 0.50999999046325684,
           "BiasX" : 0.5,
           "Hum" : 0.5,
           "Mid" : 0.5,
           "@bypassvolume" : 1,
           "@cab" : "cab0",
-          "Presence" : 0.2,
+          "Presence" : 0.24000000953674316,
           "Sag" : 0.5
         }
       },
@@ -249,7 +249,7 @@
         "@tempo" : 120
       },
       "global" : {
-        "@variax_volumeknob" : -0.1,
+        "@variax_volumeknob" : -0.10000000149011612,
         "@pedalstate" : 2,
         "@variax_customtuning" : false,
         "@variax_str1tuning" : 0,
@@ -269,7 +269,7 @@
         "@variax_magmode" : true,
         "@variax_str3tuning" : 0,
         "@variax_str5tuning" : 0,
-        "@variax_toneknob" : -0.1,
+        "@variax_toneknob" : -0.10000000149011612,
         "@current_snapshot" : 0,
         "@cursor_group" : "block4"
       },
@@ -359,7 +359,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 35717152
+    "device_version" : 36700160
   },
   "schema" : "L6Preset"
 }

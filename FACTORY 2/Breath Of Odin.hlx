@@ -3,10 +3,10 @@
   "data" : {
     "meta" : {
       "name" : "Breath Of Odin",
-      "application" : "Helix",
+      "application" : "HX Edit",
       "build_sha" : "6a7d211",
-      "modifieddate" : 1503218417,
-      "appversion" : 35651584
+      "modifieddate" : 1511418599,
+      "appversion" : 36700160
     },
     "device" : 2162689,
     "tone" : {
@@ -110,9 +110,9 @@
           "@path" : 0,
           "@stereo" : false,
           "@type" : 0,
-          "Gain" : 0.4,
+          "Gain" : 0.39999997615814209,
           "@position" : 2,
-          "Level" : 0.8199999,
+          "Level" : 0.81999993324279785,
           "@enabled" : true
         },
         "block2" : {
@@ -120,10 +120,10 @@
           "@path" : 0,
           "@stereo" : false,
           "@type" : 0,
-          "Gain" : 0.4300001,
+          "Gain" : 0.43000006675720215,
           "@position" : 1,
-          "Level" : 0.6800001,
-          "Tone" : 0.55,
+          "Level" : 0.68000006675720215,
+          "Tone" : 0.54999995231628418,
           "@enabled" : true
         },
         "inputB" : {
@@ -139,7 +139,7 @@
           "@path" : 0,
           "@stereo" : false,
           "@type" : 0,
-          "HoldTime" : 0.01,
+          "HoldTime" : 0.0099999997764825821,
           "OpenThreshold" : -50,
           "@position" : 0,
           "CloseThreshold" : -60,
@@ -162,24 +162,24 @@
         "block6" : {
           "@enabled" : true,
           "@bypassvolume" : 1,
-          "Mid" : 0.37,
+          "Mid" : 0.37000000476837158,
           "BiasX" : 0.5,
-          "Bias" : 0.6900001,
+          "Bias" : 0.69000005722045898,
           "@type" : 3,
           "Hum" : 0.5,
-          "Treble" : 0.6700001,
+          "Treble" : 0.67000007629394531,
           "@cab" : "cab0",
           "@model" : "HD2_AmpANGLMeteor",
-          "Drive" : 0.2,
-          "Master" : 0.4300001,
-          "ChVol" : 0.79,
+          "Drive" : 0.20000004768371582,
+          "Master" : 0.43000006675720215,
+          "ChVol" : 0.78999996185302734,
           "@path" : 0,
-          "Presence" : 0.38,
+          "Presence" : 0.37999999523162842,
           "Ripple" : 0.5,
           "MidBoost" : false,
           "@position" : 5,
-          "Sag" : 0.2,
-          "Bass" : 0.38
+          "Sag" : 0.20000004768371582,
+          "Bass" : 0.37999999523162842
         },
         "block0" : {
           "@model" : "HD2_Looper",
@@ -213,7 +213,7 @@
         },
         "cab0" : {
           "@model" : "HD2_Cab4x12XXLV30",
-          "LowCut" : 19.9,
+          "LowCut" : 19.899999618530273,
           "@mic" : 1,
           "EarlyReflections" : 0,
           "Distance" : 1,
@@ -224,24 +224,24 @@
         "outputA" : {
           "@model" : "HD2_AppDSPFlowOutput",
           "@output" : 1,
-          "pan" : 0.495,
+          "pan" : 0.49500000476837158,
           "gain" : 0
         },
         "block4" : {
-          "HighQ" : 0.6,
+          "HighQ" : 0.60000002384185791,
           "@model" : "HD2_EQParametric",
-          "HighGain" : 0.9,
+          "HighGain" : 0.89999997615814209,
           "@position" : 3,
-          "LowQ" : 1.6,
+          "LowQ" : 1.5999999046325684,
           "LowCut" : 20,
           "LowFreq" : 150,
           "MidFreq" : 755,
           "@enabled" : true,
-          "MidGain" : 6.6,
-          "MidQ" : 0.6,
+          "MidGain" : 6.5999999046325684,
+          "MidQ" : 0.60000002384185791,
           "@path" : 0,
           "@type" : 0,
-          "LowGain" : 2.7,
+          "LowGain" : 2.7000000476837158,
           "Level" : 0,
           "@stereo" : false,
           "HighCut" : 20000,
@@ -255,7 +255,7 @@
         "@tempo" : 120
       },
       "global" : {
-        "@variax_volumeknob" : -0.1,
+        "@variax_volumeknob" : -0.10000000149011612,
         "@pedalstate" : 2,
         "@variax_customtuning" : false,
         "@variax_str1tuning" : 0,
@@ -275,7 +275,7 @@
         "@variax_magmode" : true,
         "@variax_str3tuning" : 0,
         "@variax_str5tuning" : 0,
-        "@variax_toneknob" : -0.1,
+        "@variax_toneknob" : -0.10000000149011612,
         "@current_snapshot" : 0,
         "@cursor_group" : "block6"
       },
@@ -365,7 +365,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 35717152
+    "device_version" : 36700160
   },
   "schema" : "L6Preset"
 }

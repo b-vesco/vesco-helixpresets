@@ -3,10 +3,10 @@
   "data" : {
     "meta" : {
       "name" : "Ointment",
-      "application" : "Helix",
+      "application" : "HX Edit",
       "build_sha" : "905c912",
-      "modifieddate" : 1503218419,
-      "appversion" : 35651584
+      "modifieddate" : 1511418600,
+      "appversion" : 36700160
     },
     "device" : 2162689,
     "tone" : {
@@ -109,9 +109,9 @@
           "@path" : 0,
           "@stereo" : false,
           "@type" : 0,
-          "Gain" : 0.4300001,
+          "Gain" : 0.43000006675720215,
           "@position" : 2,
-          "Level" : 0.87,
+          "Level" : 0.87000000476837158,
           "@enabled" : true
         },
         "block2" : {
@@ -132,10 +132,10 @@
           "threshold" : -48
         },
         "block1" : {
-          "Depth" : 0.1,
+          "Depth" : 0.10000002384185791,
           "@trails" : false,
           "@enabled" : true,
-          "Noise" : 0.51,
+          "Noise" : 0.50999999046325684,
           "BBD Size" : 0,
           "@type" : 7,
           "SyncSelect1" : 6,
@@ -143,15 +143,15 @@
           "@stereo" : false,
           "@path" : 1,
           "Level" : 1,
-          "Mix" : 0.6600001,
+          "Mix" : 0.66000008583068848,
           "Spread" : 0.5,
-          "Feedback" : 0.6800001,
+          "Feedback" : 0.68000006675720215,
           "Scale" : 0.75,
           "@position" : 5,
           "Headroom" : 12,
-          "Rate" : 1.4,
+          "Rate" : 1.4000000953674316,
           "TempoSync1" : false,
-          "Time" : 0.023
+          "Time" : 0.023000001907348633
         },
         "outputB" : {
           "@model" : "HD2_AppDSPFlowOutput",
@@ -176,15 +176,15 @@
         },
         "block0" : {
           "@model" : "HD2_FlangerGrayFlanger",
-          "Rate" : 0.95,
+          "Rate" : 0.95000004768371582,
           "@position" : 5,
-          "Regen" : 0.9,
+          "Regen" : 0.89999997615814209,
           "SyncSelect1" : 6,
           "TempoSync1" : false,
           "@enabled" : true,
           "@path" : 0,
           "@type" : 0,
-          "Mix" : 0.61,
+          "Mix" : 0.61000001430511475,
           "Headroom" : 12,
           "Width" : 0,
           "Level" : 0,
@@ -206,7 +206,7 @@
         },
         "cab0" : {
           "@model" : "HD2_Cab2x12DoubleC12N",
-          "LowCut" : 19.9,
+          "LowCut" : 19.899999618530273,
           "@mic" : 2,
           "EarlyReflections" : 0,
           "Distance" : 3,
@@ -221,21 +221,21 @@
           "gain" : 0
         },
         "block4" : {
-          "Bias" : 0.6,
+          "Bias" : 0.60000002384185791,
           "@model" : "HD2_AmpUSDoubleNrm",
           "Master" : 1,
           "@position" : 3,
-          "Drive" : 0.45,
-          "Treble" : 0.3199999,
+          "Drive" : 0.45000004768371582,
+          "Treble" : 0.31999993324279785,
           "ChVol" : 1,
           "@enabled" : true,
           "Ripple" : 0.5,
           "@path" : 0,
           "@type" : 3,
-          "Bass" : 0.42,
+          "Bass" : 0.41999995708465576,
           "BiasX" : 0.5,
           "Hum" : 0.5,
-          "Mid" : 0.73,
+          "Mid" : 0.73000001907348633,
           "@bypassvolume" : 1,
           "@cab" : "cab0",
           "Presence" : 0,
@@ -249,7 +249,7 @@
         "@tempo" : 120
       },
       "global" : {
-        "@variax_volumeknob" : -0.1,
+        "@variax_volumeknob" : -0.10000000149011612,
         "@pedalstate" : 2,
         "@variax_customtuning" : false,
         "@variax_str1tuning" : 0,
@@ -269,7 +269,7 @@
         "@variax_magmode" : true,
         "@variax_str3tuning" : 0,
         "@variax_str5tuning" : 0,
-        "@variax_toneknob" : -0.1,
+        "@variax_toneknob" : -0.10000000149011612,
         "@current_snapshot" : 0,
         "@cursor_group" : "block4"
       },
@@ -351,7 +351,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 35717152
+    "device_version" : 36700160
   },
   "schema" : "L6Preset"
 }

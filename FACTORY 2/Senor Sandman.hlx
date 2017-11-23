@@ -3,10 +3,10 @@
   "data" : {
     "meta" : {
       "name" : "Senor Sandman",
-      "application" : "Helix",
+      "application" : "HX Edit",
       "build_sha" : "905c912",
-      "modifieddate" : 1503218540,
-      "appversion" : 35651584
+      "modifieddate" : 1511418603,
+      "appversion" : 36700160
     },
     "device" : 2162689,
     "tone" : {
@@ -107,22 +107,22 @@
         "block3" : {
           "Bias" : 0.5,
           "@model" : "HD2_AmpEssexA30",
-          "Master" : 0.87,
+          "Master" : 0.87000000476837158,
           "@position" : 3,
-          "Cut" : 0.5599999,
-          "Drive" : 0.24,
+          "Cut" : 0.55999994277954102,
+          "Drive" : 0.24000000953674316,
           "Treble" : 0.5,
-          "ChVol" : 0.85,
+          "ChVol" : 0.85000002384185791,
           "@enabled" : true,
           "Ripple" : 0.5,
           "@path" : 0,
           "@type" : 3,
-          "Bass" : 0.61,
+          "Bass" : 0.61000001430511475,
           "BiasX" : 0.5,
           "Hum" : 0.5,
           "@bypassvolume" : 1,
           "@cab" : "cab0",
-          "Presence" : 0.4400001,
+          "Presence" : 0.44000005722045898,
           "Sag" : 0.5
         },
         "block2" : {
@@ -161,7 +161,7 @@
           "@input" : 1,
           "@model" : "HD2_AppDSPFlow1Input",
           "noiseGate" : true,
-          "decay" : 0.04999995,
+          "decay" : 0.04999995231628418,
           "threshold" : -80
         },
         "block6" : {
@@ -172,11 +172,11 @@
           "@path" : 0,
           "@trails" : false,
           "@type" : 7,
-          "Mix" : 0.33,
+          "Mix" : 0.33000004291534424,
           "Level" : 0,
-          "Decay" : 0.45,
+          "Decay" : 0.45000004768371582,
           "HighCut" : 3720,
-          "Predelay" : 0.01100004
+          "Predelay" : 0.01100003719329834
         },
         "block0" : {
           "@model" : "HD2_Looper",
@@ -201,27 +201,27 @@
         "block5" : {
           "@model" : "HD2_DelayTransistorTape",
           "@position" : 5,
-          "Feedback" : 0.3,
+          "Feedback" : 0.29999995231628418,
           "SyncSelect1" : 6,
           "TempoSync1" : false,
           "Scale" : 1,
           "@enabled" : true,
-          "WowFlutter" : 0.36,
+          "WowFlutter" : 0.36000001430511475,
           "@path" : 0,
           "@trails" : false,
           "@type" : 7,
           "Headroom" : 0,
           "Mix" : 0.25,
-          "Time" : 0.09800005,
+          "Time" : 0.098000049591064453,
           "Level" : 0,
           "@stereo" : false,
-          "Spread" : 0.29
+          "Spread" : 0.28999999165534973
         },
         "cab0" : {
           "@model" : "HD2_Cab1x12FieldCoil",
           "LowCut" : 20,
           "@mic" : 0,
-          "EarlyReflections" : 0.24,
+          "EarlyReflections" : 0.24000000953674316,
           "Distance" : 1,
           "Level" : 4,
           "@enabled" : true,
@@ -238,12 +238,12 @@
           "@position" : 4,
           "SyncSelect1" : 12,
           "TempoSync1" : true,
-          "Intensity" : 0.73,
-          "Speed" : 0.3,
+          "Intensity" : 0.73000001907348633,
+          "Speed" : 0.29999995231628418,
           "@enabled" : false,
           "@path" : 0,
           "@type" : 0,
-          "Level" : 2.6,
+          "Level" : 2.5999999046325684,
           "@stereo" : false,
           "Mode" : false,
           "Spread" : 0
@@ -366,7 +366,7 @@
         "@tempo" : 112
       }
     },
-    "device_version" : 35717152
+    "device_version" : 36700160
   },
   "schema" : "L6Preset"
 }

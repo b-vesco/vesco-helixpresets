@@ -3,10 +3,10 @@
   "data" : {
     "meta" : {
       "name" : "Untitled Streets",
-      "application" : "Helix",
+      "application" : "HX Edit",
       "build_sha" : "905c912",
-      "modifieddate" : 1503218326,
-      "appversion" : 35651584
+      "modifieddate" : 1511418556,
+      "appversion" : 36700160
     },
     "device" : 2162689,
     "tone" : {
@@ -113,7 +113,7 @@
           "Level" : 0,
           "Mix" : 1,
           "@enabled" : true,
-          "Sensitivity" : 0.2
+          "Sensitivity" : 0.20000004768371582
         },
         "block2" : {
           "@model" : "HD2_VolPanVol",
@@ -140,33 +140,33 @@
           "@path" : 0,
           "@trails" : false,
           "@type" : 7,
-          "Mix" : 0.3199999,
+          "Mix" : 0.31999993324279785,
           "Level" : 0,
           "Decay" : 0.5,
           "HighCut" : 4700,
-          "Predelay" : 0.1
+          "Predelay" : 0.10000002384185791
         },
         "block1" : {
-          "Depth" : 0.7,
+          "Depth" : 0.70000004768371582,
           "@trails" : true,
           "@enabled" : true,
           "@type" : 7,
-          "Speed" : 0.04999995,
+          "Speed" : 0.04999995231628418,
           "SyncSelect1" : 8,
           "@model" : "HD2_DelayModChorusEcho",
           "@stereo" : false,
           "LowCut" : 155,
           "@path" : 1,
           "Level" : 0,
-          "Mix" : 0.53,
+          "Mix" : 0.52999997138977051,
           "Spread" : 1,
-          "Feedback" : 0.4,
+          "Feedback" : 0.39999997615814209,
           "HighCut" : 6000,
           "ModulationMode" : 1,
           "Scale" : 0.75,
           "@position" : 4,
           "TempoSync1" : true,
-          "Time" : 0.538
+          "Time" : 0.53799998760223389
         },
         "outputB" : {
           "@model" : "HD2_AppDSPFlowOutput",
@@ -178,7 +178,7 @@
           "@input" : 1,
           "@model" : "HD2_AppDSPFlow1Input",
           "noiseGate" : true,
-          "decay" : 0.04999995,
+          "decay" : 0.04999995231628418,
           "threshold" : -80
         },
         "block6" : {
@@ -196,7 +196,7 @@
         "block0" : {
           "@model" : "HD2_DelaySimpleDelay",
           "@position" : 4,
-          "Feedback" : 0.4,
+          "Feedback" : 0.39999997615814209,
           "SyncSelect1" : 6,
           "TempoSync1" : true,
           "Scale" : 0.75,
@@ -204,8 +204,8 @@
           "@path" : 0,
           "@trails" : true,
           "@type" : 7,
-          "Mix" : 0.53,
-          "Time" : 0.6,
+          "Mix" : 0.52999997138977051,
+          "Time" : 0.60000002384185791,
           "Level" : 0,
           "@stereo" : false
         },
@@ -248,14 +248,14 @@
           "gain" : 0
         },
         "block4" : {
-          "Bias" : 0.63,
+          "Bias" : 0.62999999523162842,
           "@model" : "HD2_AmpA30FawnNrm",
           "Master" : 1,
           "@position" : 2,
           "Cut" : 0,
-          "Drive" : 0.47,
+          "Drive" : 0.47000002861022949,
           "Treble" : 1,
-          "ChVol" : 0.9200001,
+          "ChVol" : 0.92000007629394531,
           "@enabled" : true,
           "Ripple" : 0.5,
           "@path" : 0,
@@ -264,7 +264,7 @@
           "BiasX" : 0.5,
           "Hum" : 0.5,
           "@bypassvolume" : 1,
-          "Presence" : 0.7,
+          "Presence" : 0.70000004768371582,
           "Sag" : 0.5
         }
       },
@@ -275,7 +275,7 @@
         "@tempo" : 126
       },
       "global" : {
-        "@variax_volumeknob" : -0.1,
+        "@variax_volumeknob" : -0.10000000149011612,
         "@pedalstate" : 2,
         "@variax_customtuning" : false,
         "@variax_str1tuning" : 0,
@@ -295,7 +295,7 @@
         "@variax_magmode" : true,
         "@variax_str3tuning" : 0,
         "@variax_str5tuning" : 0,
-        "@variax_toneknob" : -0.1,
+        "@variax_toneknob" : -0.10000000149011612,
         "@current_snapshot" : 0,
         "@cursor_group" : "block4"
       },
@@ -386,7 +386,7 @@
         "@tempo" : 126
       }
     },
-    "device_version" : 35717152
+    "device_version" : 36700160
   },
   "schema" : "L6Preset"
 }

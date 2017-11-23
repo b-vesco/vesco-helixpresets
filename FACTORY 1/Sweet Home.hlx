@@ -3,10 +3,10 @@
   "data" : {
     "meta" : {
       "name" : "Sweet Home",
-      "application" : "Helix",
+      "application" : "HX Edit",
       "build_sha" : "905c912",
-      "modifieddate" : 1503218326,
-      "appversion" : 35651584
+      "modifieddate" : 1511418557,
+      "appversion" : 36700160
     },
     "device" : 2162689,
     "tone" : {
@@ -138,11 +138,11 @@
           "@path" : 1,
           "@trails" : false,
           "@type" : 7,
-          "Mix" : 0.2,
+          "Mix" : 0.20000004768371582,
           "Level" : 0,
-          "Decay" : 0.4,
+          "Decay" : 0.39999997615814209,
           "HighCut" : 4570,
-          "Predelay" : 0.1
+          "Predelay" : 0.10000002384185791
         },
         "outputB" : {
           "@model" : "HD2_AppDSPFlowOutput",
@@ -154,7 +154,7 @@
           "@input" : 1,
           "@model" : "HD2_AppDSPFlow1Input",
           "noiseGate" : true,
-          "decay" : 0.04999995,
+          "decay" : 0.04999995231628418,
           "threshold" : -66
         },
         "block6" : {
@@ -165,24 +165,24 @@
           "TempoSync1" : true,
           "Scale" : 1,
           "@enabled" : false,
-          "WowFlutter" : 0.36,
+          "WowFlutter" : 0.36000001430511475,
           "@path" : 0,
           "@trails" : true,
           "@type" : 7,
           "Headroom" : 0,
-          "Mix" : 0.4,
-          "Time" : 0.507,
+          "Mix" : 0.39999997615814209,
+          "Time" : 0.50699996948242188,
           "Level" : 0,
           "@stereo" : false,
-          "Spread" : 0.29
+          "Spread" : 0.28999999165534973
         },
         "block0" : {
           "@model" : "HD2_TremoloOpticalTrem",
           "@position" : 4,
           "SyncSelect1" : 6,
           "TempoSync1" : false,
-          "Intensity" : 0.6700001,
-          "Speed" : 0.6600001,
+          "Intensity" : 0.67000007629394531,
+          "Speed" : 0.66000008583068848,
           "@enabled" : false,
           "@path" : 0,
           "@type" : 0,
@@ -227,21 +227,21 @@
           "gain" : 0
         },
         "block4" : {
-          "Bias" : 0.6,
+          "Bias" : 0.60000002384185791,
           "@model" : "HD2_AmpUSDoubleNrm",
           "Master" : 1,
           "@position" : 3,
           "Drive" : 0.75,
-          "Treble" : 0.55,
-          "ChVol" : 0.4400001,
+          "Treble" : 0.54999995231628418,
+          "ChVol" : 0.44000005722045898,
           "@enabled" : true,
           "Ripple" : 0.5,
           "@path" : 0,
           "@type" : 3,
-          "Bass" : 0.54,
+          "Bass" : 0.53999996185302734,
           "BiasX" : 0.5,
           "Hum" : 0.5,
-          "Mid" : 0.9,
+          "Mid" : 0.89999997615814209,
           "@bypassvolume" : 1,
           "@cab" : "cab0",
           "Presence" : 0.25,
@@ -255,7 +255,7 @@
         "@tempo" : 100
       },
       "global" : {
-        "@variax_volumeknob" : -0.1,
+        "@variax_volumeknob" : -0.10000000149011612,
         "@pedalstate" : 2,
         "@variax_customtuning" : false,
         "@variax_str1tuning" : 0,
@@ -275,7 +275,7 @@
         "@variax_magmode" : true,
         "@variax_str3tuning" : 0,
         "@variax_str5tuning" : 0,
-        "@variax_toneknob" : -0.1,
+        "@variax_toneknob" : -0.10000000149011612,
         "@current_snapshot" : 0,
         "@cursor_group" : "block4"
       },
@@ -365,7 +365,7 @@
         "@tempo" : 100
       }
     },
-    "device_version" : 35717152
+    "device_version" : 36700160
   },
   "schema" : "L6Preset"
 }

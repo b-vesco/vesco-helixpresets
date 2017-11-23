@@ -3,10 +3,10 @@
   "data" : {
     "meta" : {
       "name" : "Bitey Panner",
-      "application" : "Helix",
+      "application" : "HX Edit",
       "build_sha" : "905c912",
-      "modifieddate" : 1503218443,
-      "appversion" : 35651584
+      "modifieddate" : 1511418601,
+      "appversion" : 36700160
     },
     "device" : 2162689,
     "tone" : {
@@ -98,30 +98,30 @@
           "@model" : "HD2_AmpMatchstickCh2",
           "Master" : 1,
           "@position" : 2,
-          "Cut" : 0.00999999,
-          "ChVol" : 0.78,
+          "Cut" : 0.0099999904632568359,
+          "ChVol" : 0.77999997138977051,
           "@enabled" : true,
           "Ripple" : 0.5,
           "@path" : 0,
           "@type" : 3,
-          "Ch2Drive" : 0.33,
+          "Ch2Drive" : 0.33000004291534424,
           "BiasX" : 0.5,
           "Tone" : 5,
           "Hum" : 0.5,
           "@bypassvolume" : 1,
           "@cab" : "cab0",
-          "Presence" : 0.51,
+          "Presence" : 0.50999999046325684,
           "Sag" : 0.5
         },
         "block2" : {
           "@model" : "HD2_DistTeemah",
-          "Treble" : 0.88,
+          "Treble" : 0.87999999523162842,
           "Bass" : 0.5,
           "@path" : 0,
           "@stereo" : false,
           "@type" : 0,
           "Clipping" : 0,
-          "Gain" : 0.52,
+          "Gain" : 0.51999998092651367,
           "@position" : 1,
           "Level" : 0.625,
           "@enabled" : true
@@ -139,10 +139,10 @@
           "@stereo" : false,
           "@type" : 0,
           "@position" : 0,
-          "Level" : 5.4,
-          "Mix" : 0.9,
+          "Level" : 5.4000000953674316,
+          "Mix" : 0.89999997615814209,
           "@enabled" : true,
-          "Sensitivity" : 0.4400001
+          "Sensitivity" : 0.44000005722045898
         },
         "outputB" : {
           "@model" : "HD2_AppDSPFlowOutput",
@@ -179,7 +179,7 @@
         },
         "cab0" : {
           "@model" : "HD2_Cab2x12SilverBell",
-          "LowCut" : 19.9,
+          "LowCut" : 19.899999618530273,
           "@mic" : 2,
           "EarlyReflections" : 0,
           "Distance" : 5,
@@ -199,7 +199,7 @@
           "SyncSelect1" : 8,
           "TempoSync1" : true,
           "Intensity" : 1,
-          "Speed" : 2.91,
+          "Speed" : 2.9100000858306885,
           "@enabled" : true,
           "DutyCycle" : 0.5,
           "@path" : 0,
@@ -217,7 +217,7 @@
         "@tempo" : 240
       },
       "global" : {
-        "@variax_volumeknob" : -0.1,
+        "@variax_volumeknob" : -0.10000000149011612,
         "@pedalstate" : 2,
         "@variax_customtuning" : false,
         "@variax_str1tuning" : 0,
@@ -237,7 +237,7 @@
         "@variax_magmode" : true,
         "@variax_str3tuning" : 0,
         "@variax_str5tuning" : 0,
-        "@variax_toneknob" : -0.1,
+        "@variax_toneknob" : -0.10000000149011612,
         "@current_snapshot" : 0,
         "@cursor_group" : "block4"
       },
@@ -304,7 +304,7 @@
         "@tempo" : 240
       }
     },
-    "device_version" : 35717152
+    "device_version" : 36700160
   },
   "schema" : "L6Preset"
 }

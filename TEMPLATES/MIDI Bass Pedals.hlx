@@ -3,15 +3,15 @@
   "data" : {
     "meta" : {
       "name" : "MIDI Bass Pedals",
-      "application" : "Helix",
+      "application" : "HX Edit",
       "build_sha" : "dd24475",
-      "modifieddate" : 1503218574,
-      "appversion" : 35651584
+      "modifieddate" : 1511418766,
+      "appversion" : 36700160
     },
     "device" : 2162689,
     "tone" : {
       "global" : {
-        "@variax_volumeknob" : -0.1,
+        "@variax_volumeknob" : -0.10000000149011612,
         "@pedalstate" : 2,
         "@variax_customtuning" : false,
         "@variax_str1tuning" : 0,
@@ -31,7 +31,7 @@
         "@variax_magmode" : true,
         "@variax_str3tuning" : 0,
         "@variax_str5tuning" : 0,
-        "@variax_toneknob" : -0.1,
+        "@variax_toneknob" : -0.10000000149011612,
         "@current_snapshot" : 0,
         "@cursor_group" : "block2"
       },
@@ -314,10 +314,10 @@
           "VolumeTaper" : false
         },
         "block2" : {
-          "SlowSpeed" : 1.4,
+          "SlowSpeed" : 1.4000000953674316,
           "@model" : "HD2_Rotary145Rotary",
           "@position" : 1,
-          "Drive" : 0.42,
+          "Drive" : 0.41999995708465576,
           "SyncSelect1" : 6,
           "Speed" : false,
           "SyncSelect2" : 6,
@@ -328,14 +328,14 @@
           "@type" : 0,
           "Mix" : 1,
           "Headroom" : 0,
-          "FastSpeed" : 5.3,
+          "FastSpeed" : 5.3000001907348633,
           "TempoSync2" : false,
           "RampTime" : 1,
           "Level" : -6
         },
         "block3" : {
           "@model" : "HD2_PhaserScriptModPhase",
-          "Rate" : 0.1900001,
+          "Rate" : 0.19000005722045898,
           "@position" : 2,
           "SyncSelect1" : 6,
           "TempoSync1" : false,
@@ -780,7 +780,7 @@
         }
       }
     },
-    "device_version" : 35717152
+    "device_version" : 36700160
   },
   "schema" : "L6Preset"
 }

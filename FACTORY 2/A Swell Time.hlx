@@ -3,10 +3,10 @@
   "data" : {
     "meta" : {
       "name" : "A Swell Time",
-      "application" : "Helix",
+      "application" : "HX Edit",
       "build_sha" : "dd24475",
-      "modifieddate" : 1503218400,
-      "appversion" : 35651584
+      "modifieddate" : 1511418597,
+      "appversion" : 36700160
     },
     "device" : 2162689,
     "tone" : {
@@ -40,8 +40,8 @@
           "@position" : 6,
           "SyncSelect1" : 6,
           "TempoSync1" : false,
-          "Intensity" : 0.77,
-          "Speed" : 1.1,
+          "Intensity" : 0.76999998092651367,
+          "Speed" : 1.0999999046325684,
           "@enabled" : false,
           "DutyCycle" : 0.5,
           "@path" : 0,
@@ -146,13 +146,13 @@
           "@model" : "HD2_ReverbParticle",
           "@path" : 0,
           "@type" : 7,
-          "Dwell" : 0.4,
+          "Dwell" : 0.39999997615814209,
           "Condition" : 0,
           "@position" : 5,
           "@trails" : false,
           "Level" : 1,
           "@enabled" : true,
-          "Mix" : 0.52
+          "Mix" : 0.51999998092651367
         },
         "block2" : {
           "@model" : "HD2_ReverbChamber",
@@ -162,11 +162,11 @@
           "@path" : 1,
           "@trails" : false,
           "@type" : 7,
-          "Mix" : 0.39,
-          "Level" : 0.0999999,
-          "Decay" : 0.8399999,
+          "Mix" : 0.38999998569488525,
+          "Level" : 0.099999904632568359,
+          "Decay" : 0.83999991416931152,
           "HighCut" : 4700,
-          "Predelay" : 0.1
+          "Predelay" : 0.10000002384185791
         },
         "inputB" : {
           "@input" : 0,
@@ -177,10 +177,10 @@
         },
         "block7" : {
           "SweepDepth" : 2830,
-          "SweepResonance" : 0.45,
+          "SweepResonance" : 0.45000004768371582,
           "SweepShape" : 0,
           "@trails" : false,
-          "SweepSpeed" : 0.34,
+          "SweepSpeed" : 0.34000003337860107,
           "@enabled" : false,
           "SweepStart" : 205,
           "SweepSpread" : 1,
@@ -193,23 +193,23 @@
           "@path" : 0,
           "Level" : 0,
           "Mix" : 0.5,
-          "Feedback" : 0.5799999,
+          "Feedback" : 0.57999992370605469,
           "HighCut" : 8000,
           "Scale" : 1,
           "@position" : 4,
           "Headroom" : 0,
           "TempoSync1" : false,
           "SweepSymmetry" : 0.5,
-          "Time" : 0.45
+          "Time" : 0.45000004768371582
         },
         "block1" : {
           "@model" : "HD2_DistArbitratorFuzz",
-          "Fuzz" : 0.74,
+          "Fuzz" : 0.74000000953674316,
           "@path" : 1,
           "@stereo" : false,
           "@type" : 0,
           "@position" : 5,
-          "Level" : 0.3299999,
+          "Level" : 0.32999992370605469,
           "@enabled" : false
         },
         "outputB" : {
@@ -229,24 +229,24 @@
           "@model" : "HD2_AmpJazzRivet120",
           "Master" : 1,
           "@position" : 3,
-          "Drive" : 0.28,
+          "Drive" : 0.27999997138977051,
           "Bright" : 0,
-          "ChVol" : 0.85,
+          "ChVol" : 0.85000002384185791,
           "@enabled" : true,
           "@path" : 0,
           "@type" : 3,
-          "Bass" : 0.5599999,
-          "Mid" : 0.27,
+          "Bass" : 0.55999994277954102,
+          "Mid" : 0.26999998092651367,
           "@bypassvolume" : 1,
           "@cab" : "cab0",
           "Presence" : 0.5,
-          "Treble" : 0.47
+          "Treble" : 0.47000002861022949
         },
         "block0" : {
-          "Depth" : 0.22,
+          "Depth" : 0.22000002861022949,
           "@trails" : false,
           "@enabled" : true,
-          "Noise" : 0.36,
+          "Noise" : 0.36000001430511475,
           "BBD Size" : 2,
           "Attack" : 1,
           "@type" : 7,
@@ -262,7 +262,7 @@
           "Threshold" : -60,
           "@position" : 3,
           "Headroom" : 0,
-          "Rate" : 0.35,
+          "Rate" : 0.35000002384185791,
           "TempoSync1" : false,
           "Time" : 0.5
         },
@@ -281,16 +281,16 @@
           "@enabled" : true,
           "@path" : 0,
           "@type" : 0,
-          "Attack" : 0.747,
+          "Attack" : 0.74699997901916504,
           "Rel Offset" : 5,
           "Level" : 0,
           "@stereo" : true,
-          "Decay" : 0.07200003,
+          "Decay" : 0.072000026702880859,
           "Taper" : true
         },
         "cab0" : {
           "@model" : "HD2_Cab2x12JazzRivet",
-          "LowCut" : 19.9,
+          "LowCut" : 19.899999618530273,
           "@mic" : 6,
           "EarlyReflections" : 0,
           "Distance" : 1,
@@ -310,10 +310,10 @@
           "@stereo" : false,
           "@type" : 0,
           "@position" : 1,
-          "Level" : 5.4,
+          "Level" : 5.4000000953674316,
           "Mix" : 1,
           "@enabled" : true,
-          "Sensitivity" : 0.4400001
+          "Sensitivity" : 0.44000005722045898
         }
       },
       "snapshot2" : {
@@ -323,7 +323,7 @@
         "@tempo" : 120
       },
       "global" : {
-        "@variax_volumeknob" : -0.1,
+        "@variax_volumeknob" : -0.10000000149011612,
         "@pedalstate" : 2,
         "@variax_customtuning" : true,
         "@variax_str1tuning" : 0,
@@ -343,7 +343,7 @@
         "@variax_magmode" : true,
         "@variax_str3tuning" : 0,
         "@variax_str5tuning" : 0,
-        "@variax_toneknob" : -0.1,
+        "@variax_toneknob" : -0.10000000149011612,
         "@current_snapshot" : 0,
         "@cursor_group" : "block0"
       },
@@ -457,7 +457,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 35717152
+    "device_version" : 36700160
   },
   "schema" : "L6Preset"
 }

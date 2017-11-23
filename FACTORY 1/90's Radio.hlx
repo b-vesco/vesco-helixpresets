@@ -3,10 +3,10 @@
   "data" : {
     "meta" : {
       "name" : "90's Radio",
-      "application" : "Helix",
+      "application" : "HX Edit",
       "build_sha" : "6a7d211",
-      "modifieddate" : 1503218327,
-      "appversion" : 35651584
+      "modifieddate" : 1511418557,
+      "appversion" : 36700160
     },
     "device" : 2162689,
     "tone" : {
@@ -112,9 +112,9 @@
           "@stereo" : false,
           "@type" : 0,
           "Clipping" : 0,
-          "Gain" : 0.52,
+          "Gain" : 0.51999998092651367,
           "@position" : 1,
-          "Level" : 0.48,
+          "Level" : 0.48000001907348633,
           "@enabled" : false
         },
         "block2" : {
@@ -142,16 +142,16 @@
           "@path" : 0,
           "@trails" : false,
           "@type" : 7,
-          "Mix" : 0.41,
+          "Mix" : 0.40999996662139893,
           "Level" : 0,
-          "Decay" : 0.9300001,
+          "Decay" : 0.93000006675720215,
           "HighCut" : 4263,
           "Predelay" : 0
         },
         "block1" : {
           "@model" : "HD2_Cab1x12MatchH30",
           "Level" : 0,
-          "LowCut" : 19.9,
+          "LowCut" : 19.899999618530273,
           "@path" : 1,
           "@mic" : 1,
           "@type" : 2,
@@ -176,9 +176,9 @@
         },
         "block6" : {
           "@model" : "HD2_DelayVintageDigitalV2",
-          "Rate" : 0.2,
+          "Rate" : 0.20000004768371582,
           "@position" : 4,
-          "Feedback" : 0.45,
+          "Feedback" : 0.45000004768371582,
           "SampleRate" : 3,
           "SyncSelect1" : 6,
           "BitDepth" : 4,
@@ -189,16 +189,16 @@
           "@trails" : false,
           "@type" : 7,
           "Headroom" : 0,
-          "Mix" : 0.45,
+          "Mix" : 0.45000004768371582,
           "Time" : 0.5,
           "Level" : 0,
           "@stereo" : true,
-          "Depth" : 0.2
+          "Depth" : 0.20000004768371582
         },
         "block0" : {
           "@model" : "HD2_Cab4x121960T75",
           "Level" : 0,
-          "LowCut" : 19.9,
+          "LowCut" : 19.899999618530273,
           "@path" : 0,
           "@mic" : 1,
           "@type" : 2,
@@ -235,23 +235,23 @@
           "gain" : 0
         },
         "block4" : {
-          "Bias" : 0.6700001,
+          "Bias" : 0.67000007629394531,
           "@model" : "HD2_AmpA30FawnBrt",
           "Master" : 1,
           "@position" : 2,
           "Cut" : 0.5,
-          "Drive" : 0.6600001,
-          "Treble" : 0.35,
-          "ChVol" : 0.8,
+          "Drive" : 0.66000008583068848,
+          "Treble" : 0.35000002384185791,
+          "ChVol" : 0.79999995231628418,
           "@enabled" : true,
           "Ripple" : 0.5,
           "@path" : 0,
           "@type" : 1,
-          "Bass" : 0.74,
+          "Bass" : 0.74000000953674316,
           "BiasX" : 0.5,
           "Hum" : 0.5,
           "@bypassvolume" : 1,
-          "Presence" : 0.3099999,
+          "Presence" : 0.30999994277954102,
           "Sag" : 0.5
         }
       },
@@ -262,7 +262,7 @@
         "@tempo" : 120
       },
       "global" : {
-        "@variax_volumeknob" : -0.1,
+        "@variax_volumeknob" : -0.10000000149011612,
         "@pedalstate" : 2,
         "@variax_customtuning" : false,
         "@variax_str1tuning" : 0,
@@ -282,7 +282,7 @@
         "@variax_magmode" : true,
         "@variax_str3tuning" : 0,
         "@variax_str5tuning" : 0,
-        "@variax_toneknob" : -0.1,
+        "@variax_toneknob" : -0.10000000149011612,
         "@current_snapshot" : 0,
         "@cursor_group" : "block4"
       },
@@ -366,7 +366,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 35717152
+    "device_version" : 36700160
   },
   "schema" : "L6Preset"
 }

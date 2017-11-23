@@ -3,10 +3,10 @@
   "data" : {
     "meta" : {
       "name" : "Line 6 Elektrik",
-      "application" : "Helix",
-      "build_sha" : "905c912",
-      "modifieddate" : 1503218323,
-      "appversion" : 35651584
+      "application" : "HX Edit",
+      "build_sha" : "cdef813",
+      "modifieddate" : 1511418553,
+      "appversion" : 36700160
     },
     "device" : 2162689,
     "tone" : {
@@ -109,10 +109,10 @@
           "@path" : 0,
           "@stereo" : false,
           "@type" : 0,
-          "Gain" : 0.2,
+          "Gain" : 0.20000004768371582,
           "@position" : 1,
           "Level" : 1,
-          "Tone" : 0.5799999,
+          "Tone" : 0.57999992370605469,
           "@enabled" : true
         },
         "block2" : {
@@ -166,11 +166,11 @@
           "@path" : 0,
           "@trails" : false,
           "@type" : 7,
-          "Mix" : 0.22,
+          "Mix" : 0.22000002861022949,
           "Level" : 0,
-          "Decay" : 0.45,
+          "Decay" : 0.45000004768371582,
           "HighCut" : 3720,
-          "Predelay" : 0.01100004
+          "Predelay" : 0.01100003719329834
         },
         "block0" : {
           "@model" : "HD2_Cab4X12CaliV30",
@@ -212,22 +212,22 @@
           "gain" : 0
         },
         "block4" : {
-          "Bias" : 0.62,
+          "Bias" : 0.62000000476837158,
           "@model" : "HD2_AmpLine6Elektrik",
-          "Master" : 0.36,
+          "Master" : 0.47000002861022949,
           "@position" : 2,
-          "Drive" : 0.41,
-          "Treble" : 0.89,
-          "ChVol" : 0.52,
+          "Drive" : 0.40999996662139893,
+          "Treble" : 0.88999998569488525,
+          "ChVol" : 0.45000004768371582,
           "@enabled" : true,
           "Ripple" : 0.5,
           "@path" : 0,
           "@type" : 1,
           "Bass" : 1,
           "BiasX" : 0.5,
-          "Mid" : 0.9,
+          "Mid" : 0.89999997615814209,
           "@bypassvolume" : 1,
-          "Presence" : 0.9200001,
+          "Presence" : 0.92000007629394531,
           "Sag" : 0.5
         }
       },
@@ -238,7 +238,7 @@
         "@tempo" : 120
       },
       "global" : {
-        "@variax_volumeknob" : -0.1,
+        "@variax_volumeknob" : -0.10000000149011612,
         "@pedalstate" : 2,
         "@variax_customtuning" : false,
         "@variax_str1tuning" : 0,
@@ -258,7 +258,7 @@
         "@variax_magmode" : true,
         "@variax_str3tuning" : 0,
         "@variax_str5tuning" : 0,
-        "@variax_toneknob" : -0.1,
+        "@variax_toneknob" : -0.10000000149011612,
         "@current_snapshot" : 0,
         "@cursor_group" : "block4"
       },
@@ -334,7 +334,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 35717152
+    "device_version" : 36700160
   },
   "schema" : "L6Preset"
 }

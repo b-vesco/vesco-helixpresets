@@ -3,10 +3,10 @@
   "data" : {
     "meta" : {
       "name" : "Low E Sludge",
-      "application" : "Helix",
+      "application" : "HX Edit",
       "build_sha" : "6a7d211",
-      "modifieddate" : 1503218431,
-      "appversion" : 35651584
+      "modifieddate" : 1511418600,
+      "appversion" : 36700160
     },
     "device" : 2162689,
     "tone" : {
@@ -39,25 +39,25 @@
           "@path" : 0,
           "@stereo" : false,
           "@type" : 0,
-          "Sustain" : 0.8299999,
+          "Sustain" : 0.82999992370605469,
           "@position" : 3,
-          "Level" : 0.6,
-          "Tone" : 0.5599999,
+          "Level" : 0.60000002384185791,
+          "Tone" : 0.55999994277954102,
           "@enabled" : true
         },
         "block2" : {
           "@model" : "HD2_CompressorLAStudioComp",
           "@position" : 2,
           "@enabled" : true,
-          "Emphasis" : 0.09000003,
+          "Emphasis" : 0.090000033378601074,
           "@path" : 0,
           "@type" : 0,
           "Mix" : 1,
-          "PeakReduction" : 0.78,
+          "PeakReduction" : 0.77999997138977051,
           "Type" : false,
           "Level" : 0,
           "@stereo" : false,
-          "Gain" : 0.62
+          "Gain" : 0.62000000476837158
         },
         "inputB" : {
           "@input" : 0,
@@ -114,7 +114,7 @@
         },
         "cab0" : {
           "@model" : "HD2_Cab8x10SVBeast",
-          "LowCut" : 19.9,
+          "LowCut" : 19.899999618530273,
           "@mic" : 12,
           "EarlyReflections" : 0,
           "Distance" : 1,
@@ -131,22 +131,22 @@
         "block4" : {
           "Bias" : 0.5,
           "@model" : "HD2_AmpSVBeastNrm",
-          "Master" : 0.85,
+          "Master" : 0.85000002384185791,
           "@position" : 4,
-          "Drive" : 0.7,
-          "Treble" : 0.8,
+          "Drive" : 0.70000004768371582,
+          "Treble" : 0.79999995231628418,
           "ChVol" : 1,
           "@enabled" : true,
           "Ripple" : 0.5,
           "@path" : 0,
           "@type" : 3,
-          "Bass" : 0.52,
+          "Bass" : 0.51999998092651367,
           "BiasX" : 0.5,
           "Hum" : 0,
-          "Mid" : 0.45,
+          "Mid" : 0.45000004768371582,
           "@bypassvolume" : 1,
           "@cab" : "cab0",
-          "Sag" : 0.7,
+          "Sag" : 0.70000004768371582,
           "MidFreq" : 0
         }
       },
@@ -207,11 +207,11 @@
           "@path" : 0,
           "@trails" : true,
           "@type" : 7,
-          "Mix" : 0.15,
+          "Mix" : 0.14999997615814209,
           "Level" : 0,
-          "Decay" : 0.2,
+          "Decay" : 0.20000004768371582,
           "HighCut" : 3000,
-          "Predelay" : 0.03299999
+          "Predelay" : 0.032999992370605469
         },
         "block2" : {
           "@model" : "HD2_DelaySimpleDelay",
@@ -225,7 +225,7 @@
           "@trails" : false,
           "@type" : 7,
           "Mix" : 1,
-          "Time" : 0.004999995,
+          "Time" : 0.004999995231628418,
           "Level" : 0,
           "@stereo" : false
         },
@@ -238,11 +238,11 @@
         },
         "block7" : {
           "@model" : "HD2_PhaserUbiquitousVibe",
-          "Rate" : 0.00999999,
+          "Rate" : 0.0099999904632568359,
           "@position" : 5,
           "SyncSelect1" : 6,
           "TempoSync1" : false,
-          "Intensity" : 0.6,
+          "Intensity" : 0.60000002384185791,
           "@enabled" : true,
           "@path" : 0,
           "@type" : 0,
@@ -276,7 +276,7 @@
           "@input" : 1,
           "@model" : "HD2_AppDSPFlow1Input",
           "noiseGate" : true,
-          "decay" : 0.04999995,
+          "decay" : 0.04999995231628418,
           "threshold" : -76
         },
         "block6" : {
@@ -313,25 +313,25 @@
           "BalanceB" : 0.5
         },
         "block5" : {
-          "Bias" : 0.6700001,
+          "Bias" : 0.67000007629394531,
           "@model" : "HD2_AmpMandarin80",
-          "Master" : 0.8,
+          "Master" : 0.79999995231628418,
           "@position" : 2,
           "Drive" : 0.75,
-          "Treble" : 0.6,
+          "Treble" : 0.60000002384185791,
           "ChVol" : 1,
           "@enabled" : true,
           "FAC" : 2,
           "Ripple" : 0.5,
           "@path" : 0,
           "@type" : 1,
-          "Bass" : 0.6,
+          "Bass" : 0.60000002384185791,
           "BiasX" : 0.5,
           "Hum" : 0.5,
           "Mid" : 0.5,
           "@bypassvolume" : 1,
-          "Presence" : 0.4,
-          "Sag" : 0.8
+          "Presence" : 0.39999997615814209,
+          "Sag" : 0.79999995231628418
         },
         "outputA" : {
           "@model" : "HD2_AppDSPFlowOutput",
@@ -341,14 +341,14 @@
         },
         "block4" : {
           "@model" : "HD2_DistWringerFuzz",
-          "Treble" : 0.34,
-          "Bass" : 0.4,
+          "Treble" : 0.34000003337860107,
+          "Bass" : 0.39999997615814209,
           "@path" : 0,
           "@stereo" : false,
           "@type" : 0,
-          "Gain" : 0.6,
+          "Gain" : 0.60000002384185791,
           "@position" : 1,
-          "Level" : 0.4,
+          "Level" : 0.39999997615814209,
           "@enabled" : true,
           "FuzzType" : 1
         }
@@ -506,7 +506,7 @@
         "@tempo" : 146
       }
     },
-    "device_version" : 35717152
+    "device_version" : 36700160
   },
   "schema" : "L6Preset"
 }

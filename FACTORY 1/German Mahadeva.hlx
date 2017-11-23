@@ -3,10 +3,10 @@
   "data" : {
     "meta" : {
       "name" : "German Mahadeva",
-      "application" : "Helix",
-      "build_sha" : "905c912",
-      "modifieddate" : 1503218323,
-      "appversion" : 35651584
+      "application" : "HX Edit",
+      "build_sha" : "cdef813",
+      "modifieddate" : 1511418554,
+      "appversion" : 36700160
     },
     "device" : 2162689,
     "tone" : {
@@ -110,10 +110,10 @@
           "@path" : 0,
           "@stereo" : false,
           "@type" : 0,
-          "Gain" : 0.54,
+          "Gain" : 0.53999996185302734,
           "@position" : 2,
-          "Level" : 0.79,
-          "Tone" : 0.64,
+          "Level" : 0.78999996185302734,
+          "Tone" : 0.63999998569488525,
           "@enabled" : false,
           "LPHP" : false
         },
@@ -136,7 +136,7 @@
         },
         "block1" : {
           "@model" : "HD2_GateNoiseGate",
-          "Decay" : 0.365,
+          "Decay" : 0.36500000953674316,
           "@path" : 0,
           "@stereo" : false,
           "@type" : 0,
@@ -166,11 +166,11 @@
           "@path" : 0,
           "@trails" : false,
           "@type" : 7,
-          "Mix" : 0.15,
+          "Mix" : 0.14999997615814209,
           "Level" : 0,
-          "Decay" : 0.38,
+          "Decay" : 0.37999999523162842,
           "HighCut" : 3720,
-          "Predelay" : 0.01999998
+          "Predelay" : 0.019999980926513672
         },
         "block0" : {
           "@model" : "HD2_Looper",
@@ -194,26 +194,26 @@
         },
         "block5" : {
           "8kHz" : 0,
-          "2kHz" : 2.2,
-          "62p5Hz" : 2.4,
+          "2kHz" : 2.2000000476837158,
+          "62p5Hz" : 2.4000000953674316,
           "@model" : "HD2_EQGraphic10Band",
           "@position" : 4,
           "@stereo" : false,
           "@enabled" : false,
           "@path" : 0,
           "@type" : 0,
-          "4kHz" : 2.3,
-          "500Hz" : -2.6,
-          "1kHz" : 2.2,
+          "4kHz" : 2.2999999523162842,
+          "500Hz" : -2.5999999046325684,
+          "1kHz" : 2.2000000476837158,
           "Level" : 0,
           "31p25Hz" : 0,
-          "16kHz" : -6.2,
-          "125Hz" : 2.6,
+          "16kHz" : -6.1999998092651367,
+          "125Hz" : 2.5999999046325684,
           "250Hz" : -2
         },
         "cab0" : {
           "@model" : "HD2_Cab1x12Lead80",
-          "LowCut" : 19.9,
+          "LowCut" : 19.899999618530273,
           "@mic" : 9,
           "EarlyReflections" : 0,
           "Distance" : 4,
@@ -230,22 +230,22 @@
         "block4" : {
           "Bias" : 0.75,
           "@model" : "HD2_AmpGermanMahadeva",
-          "Master" : 0.53,
+          "Master" : 0.52999997138977051,
           "@position" : 3,
-          "Drive" : 0.45,
-          "Treble" : 0.76,
-          "ChVol" : 0.73,
+          "Drive" : 0.45000004768371582,
+          "Treble" : 0.75999999046325684,
+          "ChVol" : 0.68000006675720215,
           "@enabled" : true,
           "Ripple" : 0.5,
           "@path" : 0,
           "@type" : 3,
-          "Bass" : 0.34,
+          "Bass" : 0.34000003337860107,
           "BiasX" : 0.5,
           "Hum" : 0.5,
-          "Mid" : 0.35,
+          "Mid" : 0.35000002384185791,
           "@bypassvolume" : 1,
           "@cab" : "cab0",
-          "Presence" : 0.64,
+          "Presence" : 0.63999998569488525,
           "Sag" : 0.5
         }
       },
@@ -256,7 +256,7 @@
         "@tempo" : 120
       },
       "global" : {
-        "@variax_volumeknob" : -0.1,
+        "@variax_volumeknob" : -0.10000000149011612,
         "@pedalstate" : 2,
         "@variax_customtuning" : false,
         "@variax_str1tuning" : 0,
@@ -276,7 +276,7 @@
         "@variax_magmode" : true,
         "@variax_str3tuning" : 0,
         "@variax_str5tuning" : 0,
-        "@variax_toneknob" : -0.1,
+        "@variax_toneknob" : -0.10000000149011612,
         "@current_snapshot" : 0,
         "@cursor_group" : "block4"
       },
@@ -366,7 +366,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 35717152
+    "device_version" : 36700160
   },
   "schema" : "L6Preset"
 }
