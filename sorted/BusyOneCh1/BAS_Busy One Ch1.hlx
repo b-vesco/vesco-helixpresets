@@ -3,10 +3,10 @@
   "data" : {
     "meta" : {
       "name" : "BAS:Busy One Ch1",
-      "application" : "Helix",
+      "application" : "HX Edit",
       "build_sha" : "37cfcb5",
-      "modifieddate" : 1503218325,
-      "appversion" : 35651584
+      "modifieddate" : 1511418556,
+      "appversion" : 36700160
     },
     "device" : 2162689,
     "tone" : {
@@ -117,33 +117,33 @@
         },
         "block3" : {
           "@model" : "HD2_AmpBusyOneCh1",
-          "Ch1 Drive" : 0.34,
+          "Ch1 Drive" : 0.34000003337860107,
           "@position" : 2,
           "Ch1 Treble" : 0.5,
           "Ch1 Mid Freq" : 700,
-          "Threshold" : -6.3,
+          "Threshold" : -6.3000001907348633,
           "@enabled" : true,
           "@path" : 0,
           "@type" : 3,
-          "Ch1 Master" : 0.6700001,
-          "Ch1 Mid" : -0.2999997,
-          "Ch Vol" : 0.8759167,
+          "Ch1 Master" : 0.67000007629394531,
+          "Ch1 Mid" : -0.29999971389770508,
+          "Ch Vol" : 0.87591671943664551,
           "Limiter" : false,
           "@bypassvolume" : 1,
           "Input Pad" : 1,
           "@cab" : "cab0",
-          "Ch1 Bass" : 0.8599999,
+          "Ch1 Bass" : 0.8599998950958252,
           "Ch1 Boost" : false
         },
         "block2" : {
           "@model" : "HD2_DistVerminDist",
-          "Filter" : 0.6,
+          "Filter" : 0.60000002384185791,
           "@path" : 0,
           "@stereo" : false,
           "@type" : 0,
-          "Gain" : 0.51,
+          "Gain" : 0.50999999046325684,
           "@position" : 1,
-          "Level" : 0.85,
+          "Level" : 0.85000002384185791,
           "@enabled" : false
         },
         "inputB" : {
@@ -204,15 +204,15 @@
           "@path" : 0,
           "@trails" : false,
           "@type" : 7,
-          "Mix" : 0.3199999,
+          "Mix" : 0.31999993324279785,
           "Level" : 0,
-          "Decay" : 0.35,
+          "Decay" : 0.35000002384185791,
           "HighCut" : 4300,
-          "Predelay" : 0.02199996
+          "Predelay" : 0.021999955177307129
         },
         "cab0" : {
           "@model" : "HD2_Cab8x10SVBeast",
-          "LowCut" : 19.9,
+          "LowCut" : 19.899999618530273,
           "@mic" : 12,
           "EarlyReflections" : 0,
           "Distance" : 1,
@@ -230,15 +230,15 @@
           "@model" : "HD2_CompressorLAStudioComp",
           "@position" : 3,
           "@enabled" : true,
-          "Emphasis" : 0.09000003,
+          "Emphasis" : 0.090000033378601074,
           "@path" : 0,
           "@type" : 0,
-          "Mix" : 0.8,
-          "PeakReduction" : 0.78,
+          "Mix" : 0.79999995231628418,
+          "PeakReduction" : 0.77999997138977051,
           "Type" : false,
           "Level" : 0,
           "@stereo" : true,
-          "Gain" : 0.62
+          "Gain" : 0.62000000476837158
         }
       },
       "snapshot2" : {
@@ -248,7 +248,7 @@
         "@tempo" : 120
       },
       "global" : {
-        "@variax_volumeknob" : -0.1,
+        "@variax_volumeknob" : -0.10000000149011612,
         "@pedalstate" : 2,
         "@variax_customtuning" : false,
         "@variax_str1tuning" : 0,
@@ -268,7 +268,7 @@
         "@variax_magmode" : true,
         "@variax_str3tuning" : 0,
         "@variax_str5tuning" : 0,
-        "@variax_toneknob" : -0.1,
+        "@variax_toneknob" : -0.10000000149011612,
         "@current_snapshot" : 0,
         "@cursor_group" : "block3"
       },
@@ -349,7 +349,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 35717152
+    "device_version" : 36700160
   },
   "schema" : "L6Preset"
 }
