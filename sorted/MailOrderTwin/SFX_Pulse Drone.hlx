@@ -3,10 +3,10 @@
   "data" : {
     "meta" : {
       "name" : "SFX:Pulse Drone",
-      "application" : "Helix",
+      "application" : "HX Edit",
       "build_sha" : "6a7d211",
-      "modifieddate" : 1503218432,
-      "appversion" : 35651584
+      "modifieddate" : 1511418601,
+      "appversion" : 36700160
     },
     "device" : 2162689,
     "tone" : {
@@ -25,10 +25,10 @@
       "dsp1" : {
         "block0" : {
           "SweepDepth" : 283,
-          "SweepResonance" : 0.45,
+          "SweepResonance" : 0.45000004768371582,
           "SweepShape" : 0,
           "@trails" : false,
-          "SweepSpeed" : 0.34,
+          "SweepSpeed" : 0.34000003337860107,
           "@enabled" : true,
           "SweepStart" : 205,
           "SweepSpread" : 1,
@@ -41,19 +41,19 @@
           "@path" : 0,
           "Level" : 0,
           "Mix" : 0.5,
-          "Feedback" : 0.5799999,
+          "Feedback" : 0.57999992370605469,
           "HighCut" : 19100,
           "Scale" : 1,
           "@position" : 4,
           "Headroom" : 0,
           "TempoSync1" : true,
           "SweepSymmetry" : 0.5,
-          "Time" : 0.45
+          "Time" : 0.45000004768371582
         },
         "block1" : {
           "@model" : "HD2_RingModulatorAMRingMod",
           "@position" : 5,
-          "AMFreq" : 1650.8,
+          "AMFreq" : 1650.800048828125,
           "AM" : false,
           "Frequency" : 4000,
           "SyncSelect1" : 6,
@@ -62,24 +62,24 @@
           "LFO" : false,
           "@path" : 0,
           "@type" : 0,
-          "Mix" : 0.6700001,
+          "Mix" : 0.67000007629394531,
           "LFOShape" : 2,
           "Level" : 4.5,
           "@stereo" : true,
-          "LFORate" : 5.7249
+          "LFORate" : 5.7248997688293457
         },
         "block2" : {
           "@model" : "HD2_ReverbOcto",
           "@position" : 6,
           "LowCut" : 122,
-          "Intensity" : 0.63,
+          "Intensity" : 0.62999999523162842,
           "@enabled" : true,
           "@path" : 0,
           "@trails" : false,
           "@type" : 7,
           "Mix" : 0.5,
           "Level" : 5,
-          "Decay" : 0.72,
+          "Decay" : 0.72000002861022949,
           "HighCut" : 9760
         },
         "inputA" : {
@@ -177,14 +177,14 @@
           "@model" : "HD2_AmpMailOrderTwin",
           "Master" : 1,
           "@position" : 2,
-          "Drive" : 0.73,
-          "Treble" : 0.6,
-          "ChVol" : 0.5999999,
+          "Drive" : 0.73000001907348633,
+          "Treble" : 0.60000002384185791,
+          "ChVol" : 0.59999990463256836,
           "@enabled" : true,
           "Ripple" : 0.5,
           "@path" : 0,
           "@type" : 3,
-          "Bass" : 0.5899999,
+          "Bass" : 0.58999991416931152,
           "BiasX" : 0.5,
           "Hum" : 0.5,
           "Mid" : 0.5,
@@ -199,10 +199,10 @@
           "@stereo" : false,
           "@type" : 0,
           "@position" : 1,
-          "Level" : 5.4,
+          "Level" : 5.4000000953674316,
           "Mix" : 1,
           "@enabled" : true,
-          "Sensitivity" : 0.4400001
+          "Sensitivity" : 0.44000005722045898
         },
         "inputB" : {
           "@input" : 0,
@@ -267,7 +267,7 @@
         },
         "cab0" : {
           "@model" : "HD2_Cab2x12MailC12Q",
-          "LowCut" : 19.9,
+          "LowCut" : 19.899999618530273,
           "@mic" : 2,
           "EarlyReflections" : 0,
           "Distance" : 2.5,
@@ -282,7 +282,7 @@
           "gain" : 0
         },
         "block4" : {
-          "PanVoice3" : 0.4779999,
+          "PanVoice3" : 0.47799992561340332,
           "OctaveVoice3" : -1,
           "@enabled" : true,
           "OctaveVoice2" : -3,
@@ -294,22 +294,22 @@
           "ShapeVoice3" : 1,
           "SynthPreset" : 0,
           "@model" : "HD2_SynthSubtractive",
-          "PanVoice2" : 0.544,
-          "LowCut" : 19.9,
+          "PanVoice2" : 0.54400002956390381,
+          "LowCut" : 19.899999618530273,
           "@path" : 0,
           "Level" : 0,
           "Mix" : 1,
           "PitchVoice1" : 12,
-          "PitchVoice2" : -0.1,
+          "PitchVoice2" : -0.10000002384185791,
           "HighCut" : 20000,
-          "DutyVoice1" : 0.76,
-          "DutyVoice2" : 0.302,
-          "DutyVoice3" : 0.72,
+          "DutyVoice1" : 0.75999999046325684,
+          "DutyVoice2" : 0.30200004577636719,
+          "DutyVoice3" : 0.72000002861022949,
           "@position" : 3,
           "LevelVoice1" : 0.5,
           "LevelVoice2" : 0.5,
           "LevelVoice3" : 0.5,
-          "PitchVoice3" : -0.15,
+          "PitchVoice3" : -0.14999997615814209,
           "PanVoice1" : 0.5
         }
       },
@@ -320,7 +320,7 @@
         "@tempo" : 120
       },
       "global" : {
-        "@variax_volumeknob" : -0.1,
+        "@variax_volumeknob" : -0.10000000149011612,
         "@pedalstate" : 2,
         "@variax_customtuning" : false,
         "@variax_str1tuning" : 0,
@@ -340,7 +340,7 @@
         "@variax_magmode" : true,
         "@variax_str3tuning" : 0,
         "@variax_str5tuning" : 0,
-        "@variax_toneknob" : -0.1,
+        "@variax_toneknob" : -0.10000000149011612,
         "@current_snapshot" : 0,
         "@cursor_group" : "block3"
       },
@@ -451,7 +451,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 35717152
+    "device_version" : 36700160
   },
   "schema" : "L6Preset"
 }
