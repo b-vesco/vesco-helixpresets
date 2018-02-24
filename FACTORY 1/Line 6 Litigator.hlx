@@ -4,9 +4,9 @@
     "meta" : {
       "name" : "Line 6 Litigator",
       "application" : "HX Edit",
-      "build_sha" : "dd24475",
-      "modifieddate" : 1511418554,
-      "appversion" : 36700160
+      "build_sha" : "223fb6e",
+      "modifieddate" : 1518068803,
+      "appversion" : 38862848
     },
     "device" : 2162689,
     "tone" : {
@@ -109,9 +109,9 @@
           "@model" : "HD2_AmpLine6Litigator",
           "Master" : 0.62000000476837158,
           "@position" : 2,
-          "Drive" : 0.41999995708465576,
+          "Drive" : 0.34000003337860107,
           "Treble" : 0.5,
-          "ChVol" : 0.81999993324279785,
+          "ChVol" : 0.83999991416931152,
           "@enabled" : true,
           "Ripple" : 0.375,
           "@path" : 0,
@@ -390,7 +390,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 36700160
+    "device_version" : 38797312
   },
   "schema" : "L6Preset"
 }

@@ -5,8 +5,8 @@
       "name" : "Archetype Lead",
       "application" : "HX Edit",
       "build_sha" : "dd24475",
-      "modifieddate" : 1511418555,
-      "appversion" : 36700160
+      "modifieddate" : 1518068803,
+      "appversion" : 38862848
     },
     "device" : 2162689,
     "tone" : {
@@ -412,7 +412,8 @@
             "block5" : false,
             "block6" : false,
             "block7" : false,
-            "block8" : false
+            "block8" : false,
+            "split" : true
           }
         },
         "@pedalstate" : 2,
@@ -421,7 +422,7 @@
         "@tempo" : 197.36799621582031
       }
     },
-    "device_version" : 36700160
+    "device_version" : 38797312
   },
   "schema" : "L6Preset"
 }

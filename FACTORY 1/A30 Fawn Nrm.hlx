@@ -4,9 +4,9 @@
     "meta" : {
       "name" : "A30 Fawn Nrm",
       "application" : "HX Edit",
-      "build_sha" : "905c912",
-      "modifieddate" : 1511418553,
-      "appversion" : 36700160
+      "build_sha" : "223fb6e",
+      "modifieddate" : 1518068802,
+      "appversion" : 38862848
     },
     "device" : 2162689,
     "tone" : {
@@ -218,7 +218,7 @@
           "Cut" : 0,
           "Drive" : 0.46000003814697266,
           "Treble" : 0.60000002384185791,
-          "ChVol" : 0.70000004768371582,
+          "ChVol" : 0.64999997615814209,
           "@enabled" : true,
           "Ripple" : 0.5,
           "@path" : 0,
@@ -341,7 +341,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 36700160
+    "device_version" : 38797312
   },
   "schema" : "L6Preset"
 }

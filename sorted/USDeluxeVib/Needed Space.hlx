@@ -4,9 +4,9 @@
     "meta" : {
       "name" : "Needed Space",
       "application" : "HX Edit",
-      "build_sha" : "6a7d211",
-      "modifieddate" : 1511418598,
-      "appversion" : 36700160
+      "build_sha" : "223fb6e",
+      "modifieddate" : 1518068784,
+      "appversion" : 38862848
     },
     "device" : 2162689,
     "tone" : {
@@ -175,7 +175,7 @@
         "block7" : {
           "Bias" : 0.64999997615814209,
           "@model" : "HD2_AmpUSDeluxeVib",
-          "Master" : 1,
+          "Master" : 0.80999994277954102,
           "@position" : 2,
           "Drive" : 0.35000002384185791,
           "Treble" : 0.52999997138977051,
@@ -393,7 +393,8 @@
             "block5" : true,
             "block6" : true,
             "block7" : true,
-            "block8" : true
+            "block8" : true,
+            "split" : true
           }
         },
         "@pedalstate" : 2,
@@ -402,7 +403,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 36700160
+    "device_version" : 38797312
   },
   "schema" : "L6Preset"
 }

@@ -5,8 +5,8 @@
       "name" : "TwoTones A-B",
       "application" : "HX Edit",
       "build_sha" : "905c912",
-      "modifieddate" : 1511418765,
-      "appversion" : 36700160
+      "modifieddate" : 1518068765,
+      "appversion" : 38862848
     },
     "device" : 2162689,
     "tone" : {
@@ -371,8 +371,9 @@
             "block3" : true
           },
           "dsp0" : {
-            "block1" : true,
             "block0" : true,
+            "split" : true,
+            "block1" : true,
             "block2" : true
           }
         },
@@ -382,7 +383,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 36700160
+    "device_version" : 38797312
   },
   "schema" : "L6Preset"
 }

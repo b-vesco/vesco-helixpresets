@@ -5,8 +5,8 @@
       "name" : "Double Parked",
       "application" : "HX Edit",
       "build_sha" : "6a7d211",
-      "modifieddate" : 1511418558,
-      "appversion" : 36700160
+      "modifieddate" : 1518068807,
+      "appversion" : 38862848
     },
     "device" : 2162689,
     "tone" : {
@@ -336,13 +336,12 @@
         "@model" : "@global_params",
         "@topology0" : "SABJ",
         "@cursor_dsp" : 0,
-        "@cursor_path" : null,
         "@guitarinputZ" : 0,
         "@tempo" : 120,
         "@topology1" : "SABJ",
+        "@variax_magmode" : true,
         "@cursor_position" : 4,
         "@variax_lockctrls" : 0,
-        "@variax_magmode" : true,
         "@variax_str3tuning" : 0,
         "@variax_str5tuning" : 0,
         "@variax_toneknob" : -0.10000000149011612,
@@ -450,11 +449,13 @@
             "block3" : false,
             "block4" : false,
             "block5" : false,
-            "block6" : true
+            "block6" : true,
+            "split" : true
           },
           "dsp0" : {
-            "block1" : true,
             "block0" : true,
+            "split" : true,
+            "block1" : true,
             "block2" : false
           }
         },
@@ -464,7 +465,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 36700160
+    "device_version" : 38797312
   },
   "schema" : "L6Preset"
 }

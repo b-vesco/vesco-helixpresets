@@ -4,9 +4,9 @@
     "meta" : {
       "name" : "Nesbit",
       "application" : "HX Edit",
-      "build_sha" : "6a7d211",
-      "modifieddate" : 1511418600,
-      "appversion" : 36700160
+      "build_sha" : "223fb6e",
+      "modifieddate" : 1518068786,
+      "appversion" : 38862848
     },
     "device" : 2162689,
     "tone" : {
@@ -37,7 +37,7 @@
           "@model" : "HD2_AmpArchetypeClean",
           "Drive" : 0.5,
           "Master" : 0.5,
-          "ChVol" : 1,
+          "ChVol" : 0.80999994277954102,
           "@path" : 0,
           "Presence" : 0.25,
           "Ripple" : 0.5,
@@ -432,7 +432,7 @@
         "@tempo" : 110
       }
     },
-    "device_version" : 36700160
+    "device_version" : 38797312
   },
   "schema" : "L6Preset"
 }

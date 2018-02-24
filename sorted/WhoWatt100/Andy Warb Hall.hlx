@@ -4,9 +4,9 @@
     "meta" : {
       "name" : "Andy Warb Hall",
       "application" : "HX Edit",
-      "build_sha" : "37cfcb5",
-      "modifieddate" : 1511418598,
-      "appversion" : 36700160
+      "build_sha" : "223fb6e",
+      "modifieddate" : 1518068784,
+      "appversion" : 38862848
     },
     "device" : 2162689,
     "tone" : {
@@ -122,7 +122,7 @@
           "@position" : 3,
           "SyncSelect1" : 6,
           "TempoSync1" : false,
-          "@enabled" : false,
+          "@enabled" : true,
           "@path" : 0,
           "@type" : 0,
           "Mix" : 0.39999997615814209,
@@ -141,7 +141,7 @@
           "@position" : 2,
           "Drive" : 0.61000001430511475,
           "Treble" : 0.52999997138977051,
-          "ChVol" : 0.75,
+          "ChVol" : 0.71000003814697266,
           "@enabled" : true,
           "Ripple" : 0.20000004768371582,
           "@path" : 0,
@@ -278,14 +278,14 @@
         "@guitarinputZ" : 0,
         "@tempo" : 120,
         "@topology1" : "A",
-        "@cursor_position" : 5,
+        "@cursor_position" : 2,
         "@variax_lockctrls" : 0,
         "@variax_magmode" : true,
         "@variax_str3tuning" : 0,
         "@variax_str5tuning" : 0,
         "@variax_toneknob" : -0.10000000149011612,
         "@current_snapshot" : 0,
-        "@cursor_group" : "block5"
+        "@cursor_group" : "block2"
       },
       "snapshot6" : {
         "@pedalstate" : 2,
@@ -334,10 +334,10 @@
           },
           "block3" : {
             "@fs_label" : "PlastiChorus",
-            "@fs_enabled" : false,
+            "@fs_enabled" : true,
             "@fs_index" : 2,
             "@fs_customlabel" : "MORE WARB",
-            "@fs_ledcolor" : 1037,
+            "@fs_ledcolor" : 13055,
             "@fs_momentary" : false
           }
         }
@@ -369,7 +369,7 @@
             "block1" : true,
             "block5" : true,
             "block2" : true,
-            "block3" : false
+            "block3" : true
           }
         },
         "@pedalstate" : 2,
@@ -378,7 +378,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 36700160
+    "device_version" : 38797312
   },
   "schema" : "L6Preset"
 }

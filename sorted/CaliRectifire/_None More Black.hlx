@@ -5,8 +5,8 @@
       "name" : "None More Black",
       "application" : "HX Edit",
       "build_sha" : "6a7d211",
-      "modifieddate" : 1511418597,
-      "appversion" : 36700160
+      "modifieddate" : 1518068783,
+      "appversion" : 38862848
     },
     "device" : 2162689,
     "tone" : {
@@ -473,7 +473,8 @@
             "block3" : false,
             "block4" : true,
             "block5" : true,
-            "block6" : true
+            "block6" : true,
+            "split" : true
           }
         },
         "@pedalstate" : 2,
@@ -482,7 +483,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 36700160
+    "device_version" : 38797312
   },
   "schema" : "L6Preset"
 }

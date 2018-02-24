@@ -4,9 +4,9 @@
     "meta" : {
       "name" : "BAS: Aqua 51",
       "application" : "HX Edit",
-      "build_sha" : "cdef813",
-      "modifieddate" : 1511418555,
-      "appversion" : 36700160
+      "build_sha" : "223fb6e",
+      "modifieddate" : 1518068804,
+      "appversion" : 38862848
     },
     "device" : 2162689,
     "tone" : {
@@ -204,7 +204,7 @@
         },
         "block5" : {
           "@model" : "HD2_AmpAgua51",
-          "Master" : 0.31999993324279785,
+          "Master" : 0.45000004768371582,
           "@position" : 4,
           "Drive" : 0.25,
           "Bright" : true,
@@ -212,12 +212,12 @@
           "@path" : 0,
           "@type" : 3,
           "Bass" : 0.62000000476837158,
-          "Ch Vol" : 0.80999994277954102,
+          "Ch Vol" : 0.87000000476837158,
           "Mid" : 0.70000004768371582,
           "@bypassvolume" : 1,
           "@cab" : "cab0",
           "Deep" : true,
-          "Treble" : 0.70000004768371582
+          "Treble" : 0.74000000953674316
         },
         "cab0" : {
           "@model" : "HD2_Cab2x15Brute",
@@ -363,7 +363,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 36700160
+    "device_version" : 38797312
   },
   "schema" : "L6Preset"
 }

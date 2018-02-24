@@ -4,9 +4,9 @@
     "meta" : {
       "name" : "Cali Rectifire",
       "application" : "HX Edit",
-      "build_sha" : "cdef813",
-      "modifieddate" : 1511418552,
-      "appversion" : 36700160
+      "build_sha" : "e1abd91",
+      "modifieddate" : 1518068801,
+      "appversion" : 38862848
     },
     "device" : 2162689,
     "tone" : {
@@ -134,10 +134,10 @@
           "@path" : 0,
           "@stereo" : false,
           "@type" : 0,
-          "Threshold" : -36,
+          "Threshold" : -48,
           "@position" : 0,
           "Level" : 0,
-          "@enabled" : false
+          "@enabled" : true
         },
         "inputB" : {
           "@input" : 0,
@@ -228,16 +228,16 @@
           "Treble" : 0.48000001907348633,
           "ChVol" : 0.5,
           "@enabled" : true,
-          "Ripple" : 0.5,
+          "Ripple" : 0.48000001907348633,
           "@path" : 0,
           "@type" : 1,
           "Bass" : 0.54999995231628418,
           "BiasX" : 0.48000001907348633,
-          "Hum" : 0.26999998092651367,
+          "Hum" : 0,
           "Mid" : 0.75,
           "@bypassvolume" : 1,
           "Presence" : 0.31999993324279785,
-          "Sag" : 0.20000004768371582
+          "Sag" : 0
         },
         "outputA" : {
           "@model" : "HD2_AppDSPFlowOutput",
@@ -319,9 +319,9 @@
           },
           "block2" : {
             "@fs_label" : "Noise Gate",
-            "@fs_enabled" : false,
+            "@fs_enabled" : true,
             "@fs_index" : 8,
-            "@fs_ledcolor" : 527360,
+            "@fs_ledcolor" : 8716032,
             "@fs_momentary" : false
           },
           "block6" : {
@@ -361,13 +361,14 @@
           "dsp0" : {
             "block0" : true,
             "block1" : true,
-            "block2" : false,
+            "block2" : true,
             "block3" : true,
             "block4" : true,
             "block5" : true,
             "block6" : false,
             "block7" : false,
-            "block8" : true
+            "block8" : true,
+            "split" : true
           }
         },
         "@pedalstate" : 2,
@@ -376,7 +377,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 36700160
+    "device_version" : 38797312
   },
   "schema" : "L6Preset"
 }

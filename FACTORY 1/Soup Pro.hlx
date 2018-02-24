@@ -4,9 +4,9 @@
     "meta" : {
       "name" : "Soup Pro",
       "application" : "HX Edit",
-      "build_sha" : "cdef813",
-      "modifieddate" : 1511418553,
-      "appversion" : 36700160
+      "build_sha" : "223fb6e",
+      "modifieddate" : 1518068802,
+      "appversion" : 38862848
     },
     "device" : 2162689,
     "tone" : {
@@ -173,7 +173,7 @@
         },
         "block6" : {
           "@model" : "HD2_ReverbRoom",
-          "@position" : 5,
+          "@position" : 6,
           "LowCut" : 140,
           "@enabled" : true,
           "@path" : 0,
@@ -212,7 +212,7 @@
           "@position" : 4,
           "Drive" : 0.50999999046325684,
           "Treble" : 0.50999999046325684,
-          "ChVol" : 0.92000007629394531,
+          "ChVol" : 0.80999994277954102,
           "@enabled" : true,
           "Ripple" : 0.5,
           "@path" : 0,
@@ -388,7 +388,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 36700160
+    "device_version" : 38797312
   },
   "schema" : "L6Preset"
 }

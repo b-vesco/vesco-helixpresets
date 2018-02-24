@@ -5,8 +5,8 @@
       "name" : "Gtr+Vox+Bas+Keys",
       "application" : "HX Edit",
       "build_sha" : "905c912",
-      "modifieddate" : 1511418766,
-      "appversion" : 36700160
+      "modifieddate" : 1518068765,
+      "appversion" : 38862848
     },
     "device" : 2162689,
     "tone" : {
@@ -498,7 +498,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 36700160
+    "device_version" : 38797312
   },
   "schema" : "L6Preset"
 }

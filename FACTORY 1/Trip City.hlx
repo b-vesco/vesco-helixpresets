@@ -4,9 +4,9 @@
     "meta" : {
       "name" : "Trip City",
       "application" : "HX Edit",
-      "build_sha" : "6a7d211",
-      "modifieddate" : 1511418556,
-      "appversion" : 36700160
+      "build_sha" : "e1abd91",
+      "modifieddate" : 1518068805,
+      "appversion" : 38862848
     },
     "device" : 2162689,
     "tone" : {
@@ -28,7 +28,7 @@
           "Cents1" : 0,
           "@position" : 5,
           "Time1" : 0,
-          "@enabled" : false,
+          "@enabled" : true,
           "@path" : 0,
           "@type" : 0,
           "Mix" : 0.5,
@@ -46,7 +46,7 @@
           "SyncSelect1" : 6,
           "TempoSync1" : false,
           "Intensity" : 1,
-          "@enabled" : false,
+          "@enabled" : true,
           "@path" : 0,
           "@type" : 0,
           "LampBias" : 0.5,
@@ -63,7 +63,7 @@
           "LowCut" : 19.899999618530273,
           "Speed" : 0.019999980926513672,
           "SyncSelect1" : 6,
-          "@enabled" : false,
+          "@enabled" : true,
           "TempoSync1" : false,
           "@path" : 0,
           "@trails" : false,
@@ -202,7 +202,7 @@
           "@position" : 6,
           "LowCut" : 122,
           "Intensity" : 1,
-          "@enabled" : false,
+          "@enabled" : true,
           "@path" : 0,
           "@trails" : false,
           "@type" : 7,
@@ -242,7 +242,7 @@
           "@type" : 0,
           "@position" : 5,
           "Level" : 0,
-          "@enabled" : true,
+          "@enabled" : false,
           "HighCut" : 7200
         },
         "block0" : {
@@ -336,12 +336,12 @@
         "@variax_model" : 0,
         "@model" : "@global_params",
         "@topology0" : "A",
-        "@cursor_dsp" : 0,
+        "@cursor_dsp" : 1,
         "@cursor_path" : 0,
         "@guitarinputZ" : 0,
         "@tempo" : 120,
         "@topology1" : "A",
-        "@cursor_position" : 1,
+        "@cursor_position" : 7,
         "@variax_lockctrls" : 0,
         "@variax_magmode" : true,
         "@variax_str3tuning" : 0,
@@ -362,8 +362,8 @@
             "@fs_momentary" : false,
             "@fs_customcolor" : 7,
             "@fs_index" : 2,
-            "@fs_enabled" : false,
-            "@fs_ledcolor" : 1037,
+            "@fs_enabled" : true,
+            "@fs_ledcolor" : 13055,
             "@fs_customlabel" : "Bad Trip",
             "@fs_label" : "Ubiquitous Vibe"
           },
@@ -371,8 +371,8 @@
             "@fs_momentary" : false,
             "@fs_customcolor" : 7,
             "@fs_index" : 2,
-            "@fs_enabled" : false,
-            "@fs_ledcolor" : 196619,
+            "@fs_enabled" : true,
+            "@fs_ledcolor" : 3277055,
             "@fs_customlabel" : "Bad Trip",
             "@fs_label" : "Simple Pitch"
           },
@@ -380,8 +380,8 @@
             "@fs_momentary" : false,
             "@fs_customcolor" : 7,
             "@fs_index" : 2,
-            "@fs_enabled" : false,
-            "@fs_ledcolor" : 67840,
+            "@fs_enabled" : true,
+            "@fs_ledcolor" : 458496,
             "@fs_customlabel" : "Bad Trip",
             "@fs_label" : "Reverse Delay"
           }
@@ -426,16 +426,16 @@
             "@fs_momentary" : false,
             "@fs_customcolor" : 7,
             "@fs_index" : 2,
-            "@fs_enabled" : true,
-            "@fs_ledcolor" : 8716032,
+            "@fs_enabled" : false,
+            "@fs_ledcolor" : 527360,
             "@fs_customlabel" : "Bad Trip",
             "@fs_label" : "Low and High Cut"
           },
           "block7" : {
             "@fs_label" : "Octo",
-            "@fs_enabled" : false,
+            "@fs_enabled" : true,
             "@fs_index" : 11,
-            "@fs_ledcolor" : 1049600,
+            "@fs_ledcolor" : 16723200,
             "@fs_momentary" : false
           }
         }
@@ -459,9 +459,9 @@
         },
         "blocks" : {
           "dsp1" : {
-            "block1" : false,
-            "block0" : false,
-            "block2" : false
+            "block1" : true,
+            "block0" : true,
+            "block2" : true
           },
           "dsp0" : {
             "block0" : false,
@@ -470,8 +470,8 @@
             "block3" : true,
             "block4" : true,
             "block5" : true,
-            "block6" : true,
-            "block7" : false
+            "block6" : false,
+            "block7" : true
           }
         },
         "@pedalstate" : 2,
@@ -480,7 +480,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 36700160
+    "device_version" : 38797312
   },
   "schema" : "L6Preset"
 }

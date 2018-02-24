@@ -4,9 +4,9 @@
     "meta" : {
       "name" : "US Double Nrm",
       "application" : "HX Edit",
-      "build_sha" : "dd24475",
-      "modifieddate" : 1511418552,
-      "appversion" : 36700160
+      "build_sha" : "223fb6e",
+      "modifieddate" : 1518068801,
+      "appversion" : 38862848
     },
     "device" : 2162689,
     "tone" : {
@@ -207,7 +207,7 @@
         "block5" : {
           "Bias" : 0.60000002384185791,
           "@model" : "HD2_AmpUSDoubleNrm",
-          "Master" : 1,
+          "Master" : 0.80999994277954102,
           "@position" : 4,
           "Drive" : 0.45000004768371582,
           "Treble" : 0.56999993324279785,
@@ -385,7 +385,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 36700160
+    "device_version" : 38797312
   },
   "schema" : "L6Preset"
 }

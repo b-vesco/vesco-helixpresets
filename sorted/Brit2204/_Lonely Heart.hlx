@@ -5,8 +5,8 @@
       "name" : "Lonely Heart",
       "application" : "HX Edit",
       "build_sha" : "37cfcb5",
-      "modifieddate" : 1511418603,
-      "appversion" : 36700160
+      "modifieddate" : 1518068789,
+      "appversion" : 38862848
     },
     "device" : 2162689,
     "tone" : {
@@ -511,6 +511,7 @@
             "block0" : false,
             "block4" : true,
             "block1" : false,
+            "split" : true,
             "block2" : false,
             "block3" : false
           },
@@ -521,7 +522,8 @@
             "block3" : true,
             "block4" : true,
             "block5" : true,
-            "block6" : true
+            "block6" : true,
+            "split" : true
           }
         },
         "@pedalstate" : 2,
@@ -530,7 +532,7 @@
         "@tempo" : 125
       }
     },
-    "device_version" : 36700160
+    "device_version" : 38797312
   },
   "schema" : "L6Preset"
 }

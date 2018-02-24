@@ -4,9 +4,9 @@
     "meta" : {
       "name" : "Brit P75 Nrm",
       "application" : "HX Edit",
-      "build_sha" : "cdef813",
-      "modifieddate" : 1511418553,
-      "appversion" : 36700160
+      "build_sha" : "223fb6e",
+      "modifieddate" : 1518068802,
+      "appversion" : 38862848
     },
     "device" : 2162689,
     "tone" : {
@@ -127,7 +127,7 @@
           "@position" : 1,
           "Level" : 0.78999996185302734,
           "Tone" : 0.36000001430511475,
-          "@enabled" : true
+          "@enabled" : false
         },
         "inputB" : {
           "@input" : 0,
@@ -234,19 +234,19 @@
           "@position" : 3,
           "Drive" : 0.48000001907348633,
           "Treble" : 0.89999997615814209,
-          "ChVol" : 0.50999999046325684,
+          "ChVol" : 0.63999998569488525,
           "@enabled" : true,
-          "Ripple" : 0.5,
+          "Ripple" : 0.32999992370605469,
           "@path" : 0,
           "@type" : 3,
           "Bass" : 0.39999997615814209,
           "BiasX" : 0.5,
-          "Hum" : 0.5,
+          "Hum" : 0,
           "Mid" : 0.67000007629394531,
           "@bypassvolume" : 1,
           "@cab" : "cab0",
           "Presence" : 0.75999999046325684,
-          "Sag" : 0.5
+          "Sag" : 0.29999995231628418
         }
       },
       "snapshot2" : {
@@ -311,9 +311,9 @@
           },
           "block2" : {
             "@fs_label" : "Hedgehog D9",
-            "@fs_enabled" : true,
+            "@fs_enabled" : false,
             "@fs_index" : 8,
-            "@fs_ledcolor" : 13676288,
+            "@fs_ledcolor" : 525824,
             "@fs_momentary" : false
           },
           "block6" : {
@@ -353,7 +353,7 @@
           "dsp0" : {
             "block0" : false,
             "block1" : true,
-            "block2" : true,
+            "block2" : false,
             "block3" : false,
             "block4" : true,
             "block5" : false,
@@ -366,7 +366,7 @@
         "@tempo" : 92.521202087402344
       }
     },
-    "device_version" : 36700160
+    "device_version" : 38797312
   },
   "schema" : "L6Preset"
 }

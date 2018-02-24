@@ -4,9 +4,9 @@
     "meta" : {
       "name" : "Fuzzy Kat",
       "application" : "HX Edit",
-      "build_sha" : "6a7d211",
-      "modifieddate" : 1511418558,
-      "appversion" : 36700160
+      "build_sha" : "e1abd91",
+      "modifieddate" : 1518068807,
+      "appversion" : 38862848
     },
     "device" : 2162689,
     "tone" : {
@@ -23,13 +23,24 @@
         "@tempo" : 120
       },
       "dsp1" : {
-        "split" : {
-          "BalanceA" : 0.5,
-          "@model" : "HD2_AppDSPFlowSplitY",
-          "@enabled" : true,
-          "bypass" : false,
-          "@position" : 0,
-          "BalanceB" : 0.5
+        "block0" : {
+          "Spread" : 1,
+          "@model" : "HD2_ReverbSearchlights",
+          "@position" : 7,
+          "LowCut" : 19.899999618530273,
+          "Intensity" : 0.62599992752075195,
+          "Speed" : 0.36640000343322754,
+          "@enabled" : false,
+          "@path" : 0,
+          "@trails" : false,
+          "@type" : 7,
+          "Mix" : 0.5,
+          "Modulation" : 0.20799994468688965,
+          "Level" : 0,
+          "@stereo" : false,
+          "Decay" : 1,
+          "HighCut" : 8455,
+          "Predelay" : 0
         },
         "inputA" : {
           "@input" : 0,
@@ -45,6 +56,14 @@
           "decay" : 0.5,
           "threshold" : -48
         },
+        "split" : {
+          "BalanceA" : 0.5,
+          "@model" : "HD2_AppDSPFlowSplitY",
+          "@enabled" : true,
+          "bypass" : false,
+          "@position" : 0,
+          "BalanceB" : 0.5
+        },
         "join" : {
           "@model" : "HD2_AppDSPFlowJoin",
           "B Pan" : 0.5,
@@ -56,13 +75,13 @@
           "@enabled" : true,
           "B Polarity" : false
         },
-        "outputA" : {
+        "outputB" : {
           "@model" : "HD2_AppDSPFlowOutput",
           "@output" : 1,
           "pan" : 0.5,
           "gain" : 0
         },
-        "outputB" : {
+        "outputA" : {
           "@model" : "HD2_AppDSPFlowOutput",
           "@output" : 1,
           "pan" : 0.5,
@@ -126,15 +145,17 @@
           "@stereo" : false
         },
         "block2" : {
-          "@model" : "HD2_CompressorRedSqueeze",
+          "@model" : "HD2_CompressorKinkyComp",
+          "Attack" : 0,
+          "Sensitivity" : 0.5,
           "@path" : 0,
           "@stereo" : false,
           "@type" : 0,
           "@position" : 1,
-          "Level" : 5.4000000953674316,
+          "Level" : 0.5,
           "Mix" : 1,
           "@enabled" : true,
-          "Sensitivity" : 0.44000005722045898
+          "Release" : 1
         },
         "inputB" : {
           "@input" : 0,
@@ -231,7 +252,7 @@
         },
         "outputA" : {
           "@model" : "HD2_AppDSPFlowOutput",
-          "@output" : 1,
+          "@output" : 2,
           "pan" : 0.5,
           "gain" : 0
         },
@@ -295,6 +316,15 @@
         "@tempo" : 120
       },
       "footswitch" : {
+        "dsp1" : {
+          "block0" : {
+            "@fs_label" : "Searchlights",
+            "@fs_enabled" : false,
+            "@fs_index" : 11,
+            "@fs_ledcolor" : 1049600,
+            "@fs_momentary" : false
+          }
+        },
         "dsp0" : {
           "block0" : {
             "@fs_label" : "Looper",
@@ -318,7 +348,7 @@
             "@fs_momentary" : false
           },
           "block2" : {
-            "@fs_label" : "Red Squeeze",
+            "@fs_label" : "Kinky Comp",
             "@fs_enabled" : true,
             "@fs_index" : 8,
             "@fs_ledcolor" : 8716032,
@@ -364,6 +394,9 @@
           }
         },
         "blocks" : {
+          "dsp1" : {
+            "block0" : false
+          },
           "dsp0" : {
             "block0" : false,
             "block1" : false,
@@ -381,7 +414,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 36700160
+    "device_version" : 38797312
   },
   "schema" : "L6Preset"
 }

@@ -4,9 +4,9 @@
     "meta" : {
       "name" : "Brit Plexi Brt",
       "application" : "HX Edit",
-      "build_sha" : "cdef813",
-      "modifieddate" : 1511418553,
-      "appversion" : 36700160
+      "build_sha" : "223fb6e",
+      "modifieddate" : 1518068802,
+      "appversion" : 38862848
     },
     "device" : 2162689,
     "tone" : {
@@ -200,7 +200,7 @@
           "@position" : 4,
           "Drive" : 0.51999998092651367,
           "Treble" : 0.71000003814697266,
-          "ChVol" : 0.53999996185302734,
+          "ChVol" : 0.55999994277954102,
           "@enabled" : true,
           "Ripple" : 0.5,
           "@path" : 0,
@@ -367,7 +367,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 36700160
+    "device_version" : 38797312
   },
   "schema" : "L6Preset"
 }

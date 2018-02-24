@@ -4,9 +4,9 @@
     "meta" : {
       "name" : "Barracuda",
       "application" : "HX Edit",
-      "build_sha" : "905c912",
-      "modifieddate" : 1511418602,
-      "appversion" : 36700160
+      "build_sha" : "223fb6e",
+      "modifieddate" : 1518068788,
+      "appversion" : 38862848
     },
     "device" : 2162689,
     "tone" : {
@@ -250,7 +250,7 @@
           "Treble" : 0.73000001907348633,
           "@cab" : "cab0",
           "@model" : "HD2_AmpMandarin80",
-          "Drive" : 0.69000005722045898,
+          "Drive" : 0.62000000476837158,
           "FAC" : 3,
           "Master" : 1,
           "ChVol" : 1,
@@ -387,7 +387,7 @@
         "@tempo" : 136.59599304199219
       }
     },
-    "device_version" : 36700160
+    "device_version" : 38797312
   },
   "schema" : "L6Preset"
 }

@@ -5,8 +5,8 @@
       "name" : "Low E Sludge",
       "application" : "HX Edit",
       "build_sha" : "6a7d211",
-      "modifieddate" : 1511418600,
-      "appversion" : 36700160
+      "modifieddate" : 1518068786,
+      "appversion" : 38862848
     },
     "device" : 2162689,
     "tone" : {
@@ -497,7 +497,8 @@
             "block5" : true,
             "block6" : false,
             "block7" : true,
-            "block8" : true
+            "block8" : true,
+            "split" : true
           }
         },
         "@pedalstate" : 2,
@@ -506,7 +507,7 @@
         "@tempo" : 146
       }
     },
-    "device_version" : 36700160
+    "device_version" : 38797312
   },
   "schema" : "L6Preset"
 }

@@ -4,9 +4,9 @@
     "meta" : {
       "name" : "Hellish Cowboys",
       "application" : "HX Edit",
-      "build_sha" : "37cfcb5",
-      "modifieddate" : 1511418603,
-      "appversion" : 36700160
+      "build_sha" : "223fb6e",
+      "modifieddate" : 1518068789,
+      "appversion" : 38862848
     },
     "device" : 2162689,
     "tone" : {
@@ -240,7 +240,7 @@
         "block5" : {
           "Bias" : 0.62000000476837158,
           "@model" : "HD2_AmpLine6Elektrik",
-          "Master" : 0.49000000953674316,
+          "Master" : 0.4299999475479126,
           "@position" : 5,
           "Drive" : 0.66000008583068848,
           "Treble" : 0.87000000476837158,
@@ -435,7 +435,7 @@
         "@tempo" : 116
       }
     },
-    "device_version" : 36700160
+    "device_version" : 38797312
   },
   "schema" : "L6Preset"
 }

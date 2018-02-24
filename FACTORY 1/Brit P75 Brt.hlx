@@ -4,9 +4,9 @@
     "meta" : {
       "name" : "Brit P75 Brt",
       "application" : "HX Edit",
-      "build_sha" : "cdef813",
-      "modifieddate" : 1511418554,
-      "appversion" : 36700160
+      "build_sha" : "223fb6e",
+      "modifieddate" : 1518068803,
+      "appversion" : 38862848
     },
     "device" : 2162689,
     "tone" : {
@@ -111,7 +111,7 @@
           "@position" : 2,
           "Drive" : 0.63999998569488525,
           "Treble" : 0.60000002384185791,
-          "ChVol" : 0.49000000953674316,
+          "ChVol" : 0.52999997138977051,
           "@enabled" : true,
           "Ripple" : 0.5,
           "@path" : 0,
@@ -366,7 +366,7 @@
         "@tempo" : 92.521202087402344
       }
     },
-    "device_version" : 36700160
+    "device_version" : 38797312
   },
   "schema" : "L6Preset"
 }

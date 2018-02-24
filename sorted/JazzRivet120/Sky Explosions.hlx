@@ -4,9 +4,9 @@
     "meta" : {
       "name" : "Sky Explosions",
       "application" : "HX Edit",
-      "build_sha" : "905c912",
-      "modifieddate" : 1511418598,
-      "appversion" : 36700160
+      "build_sha" : "223fb6e",
+      "modifieddate" : 1518068785,
+      "appversion" : 38862848
     },
     "device" : 2162689,
     "tone" : {
@@ -265,7 +265,7 @@
         },
         "block4" : {
           "@model" : "HD2_AmpJazzRivet120",
-          "Master" : 1,
+          "Master" : 0.78999996185302734,
           "@position" : 3,
           "Drive" : 0.27999997138977051,
           "Bright" : 0,
@@ -418,7 +418,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 36700160
+    "device_version" : 38797312
   },
   "schema" : "L6Preset"
 }

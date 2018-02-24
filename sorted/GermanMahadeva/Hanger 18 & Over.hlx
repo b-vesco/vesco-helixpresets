@@ -4,9 +4,9 @@
     "meta" : {
       "name" : "Hanger 18 & Over",
       "application" : "HX Edit",
-      "build_sha" : "37cfcb5",
-      "modifieddate" : 1511418603,
-      "appversion" : 36700160
+      "build_sha" : "223fb6e",
+      "modifieddate" : 1518068789,
+      "appversion" : 38862848
     },
     "device" : 2162689,
     "tone" : {
@@ -137,7 +137,7 @@
           "@position" : 2,
           "Drive" : 0.89999997615814209,
           "Treble" : 0.86000001430511475,
-          "ChVol" : 0.83999991416931152,
+          "ChVol" : 0.72000002861022949,
           "@enabled" : true,
           "Ripple" : 0.5,
           "@path" : 0,
@@ -388,7 +388,7 @@
         "@tempo" : 163
       }
     },
-    "device_version" : 36700160
+    "device_version" : 38797312
   },
   "schema" : "L6Preset"
 }
