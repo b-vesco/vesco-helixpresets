@@ -4,9 +4,9 @@
     "meta" : {
       "name" : "BAS:Liberator",
       "application" : "HX Edit",
-      "build_sha" : "223fb6e",
-      "modifieddate" : 1518068787,
-      "appversion" : 38862848
+      "build_sha" : "37cfcb5",
+      "modifieddate" : 1511418601,
+      "appversion" : 36700160
     },
     "device" : 2162689,
     "tone" : {
@@ -60,7 +60,7 @@
           "@model" : "HD2_DistClawthornDrive",
           "FuzzOct" : true,
           "@position" : 2,
-          "Fuzz" : true,
+          "Fuzz" : false,
           "ODLowBoost" : true,
           "FuzzTone" : 0.61000001430511475,
           "@enabled" : true,
@@ -80,15 +80,20 @@
           "threshold" : -48
         },
         "block1" : {
-          "@model" : "HD2_DM4BassOctaver",
-          "Normal" : 1,
-          "Octave" : 0.85000002384185791,
+          "@model" : "HD2_PitchSimplePitch",
+          "Cents1" : 0,
+          "@position" : 1,
+          "Time1" : 0,
+          "@enabled" : false,
           "@path" : 0,
           "@type" : 0,
-          "@position" : 1,
+          "Mix" : 0.5,
+          "LevelVoice1" : 1,
+          "Interval1" : -12,
           "Level" : 0,
-          "Tone" : 0.5,
-          "@enabled" : false
+          "@stereo" : false,
+          "PanDry" : 0.5,
+          "PanVoice1" : 0.125
         },
         "outputB" : {
           "@model" : "HD2_AppDSPFlowOutput",
@@ -179,8 +184,8 @@
               "@min" : false,
               "@max" : true,
               "@controller" : 15,
-              "@fs_enabled" : true,
-              "@fs_ledcolor" : 7077838,
+              "@fs_enabled" : false,
+              "@fs_ledcolor" : 462860,
               "@fs_label" : "Fuzz",
               "@fs_momentary" : false
             }
@@ -222,7 +227,7 @@
           "Grunt" : 2,
           "HiMid" : -4.6199002265930176,
           "Distortion" : true,
-          "@enabled" : true,
+          "@enabled" : false,
           "LoMid" : -3.2999999523162842,
           "Blend" : 0.83999991416931152,
           "@path" : 1,
@@ -372,19 +377,19 @@
         "@variax_model" : 0,
         "@model" : "@global_params",
         "@topology0" : "SAB",
-        "@cursor_dsp" : 0,
+        "@cursor_dsp" : 1,
         "@cursor_path" : 0,
         "@guitarinputZ" : 0,
         "@tempo" : 120,
         "@topology1" : "A",
-        "@cursor_position" : 2,
+        "@cursor_position" : 3,
         "@variax_lockctrls" : 0,
         "@variax_magmode" : true,
         "@variax_str3tuning" : 0,
         "@variax_str5tuning" : 0,
         "@variax_toneknob" : -0.10000000149011612,
         "@current_snapshot" : 0,
-        "@cursor_group" : "block1"
+        "@cursor_group" : "block3"
       },
       "snapshot6" : {
         "@pedalstate" : 2,
@@ -395,7 +400,7 @@
       "footswitch" : {
         "dsp1" : {
           "block1" : {
-            "@fs_label" : "Bass Octaver",
+            "@fs_label" : "Simple Pitch",
             "@fs_enabled" : false,
             "@fs_index" : 11,
             "@fs_customlabel" : "Octaver",
@@ -434,9 +439,9 @@
           },
           "block3" : {
             "@fs_label" : "Obsidian 7000",
-            "@fs_enabled" : true,
+            "@fs_enabled" : false,
             "@fs_index" : 8,
-            "@fs_ledcolor" : 13676288,
+            "@fs_ledcolor" : 525824,
             "@fs_momentary" : false
           }
         }
@@ -458,8 +463,8 @@
             },
             "block2" : {
               "Fuzz" : {
-                "@fs_enabled" : true,
-                "@value" : true
+                "@fs_enabled" : false,
+                "@value" : false
               }
             }
           },
@@ -484,11 +489,10 @@
             "block0" : false,
             "block1" : true,
             "block2" : true,
-            "block3" : true,
+            "block3" : false,
             "block4" : true,
             "block5" : true,
-            "block6" : true,
-            "split" : true
+            "block6" : true
           }
         },
         "@pedalstate" : 2,
@@ -497,7 +501,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 38797312
+    "device_version" : 36700160
   },
   "schema" : "L6Preset"
 }

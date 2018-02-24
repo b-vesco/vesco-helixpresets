@@ -4,9 +4,9 @@
     "meta" : {
       "name" : "BAS:Brit Bass",
       "application" : "HX Edit",
-      "build_sha" : "223fb6e",
-      "modifieddate" : 1518068787,
-      "appversion" : 38862848
+      "build_sha" : "460b9f0",
+      "modifieddate" : 1511418601,
+      "appversion" : 36700160
     },
     "device" : 2162689,
     "tone" : {
@@ -23,42 +23,13 @@
         "@tempo" : 120
       },
       "dsp1" : {
-        "block0" : {
-          "@model" : "HD2_ChorusPlastiChorus",
-          "Rate" : 0.23000001907348633,
-          "@position" : 4,
-          "SyncSelect1" : 6,
-          "TempoSync1" : false,
-          "@enabled" : false,
-          "@path" : 0,
-          "@type" : 0,
-          "Mix" : 0.29999995231628418,
-          "Headroom" : 0,
-          "Tone" : 0.75,
-          "Level" : 0,
-          "@stereo" : true,
-          "Mode" : true,
-          "Spread" : 1,
-          "Depth" : 0.29999995231628418
-        },
-        "block1" : {
-          "@model" : "HD2_DelayTransistorTape",
-          "@position" : 5,
-          "Feedback" : 0.12000000476837158,
-          "SyncSelect1" : 4,
-          "TempoSync1" : false,
-          "Scale" : 1,
-          "@enabled" : false,
-          "WowFlutter" : 0.84999990463256836,
-          "@path" : 0,
-          "@trails" : true,
-          "@type" : 7,
-          "Headroom" : 0,
-          "Mix" : 0.45000004768371582,
-          "Time" : 0.12000000476837158,
-          "Level" : 0,
-          "@stereo" : true,
-          "Spread" : 0.28999996185302734
+        "split" : {
+          "BalanceA" : 0.5,
+          "@model" : "HD2_AppDSPFlowSplitY",
+          "@enabled" : true,
+          "bypass" : false,
+          "@position" : 0,
+          "BalanceB" : 0.5
         },
         "inputA" : {
           "@input" : 0,
@@ -85,21 +56,13 @@
           "@enabled" : true,
           "B Polarity" : false
         },
-        "split" : {
-          "BalanceA" : 0.5,
-          "@model" : "HD2_AppDSPFlowSplitY",
-          "@enabled" : true,
-          "bypass" : false,
-          "@position" : 0,
-          "BalanceB" : 0.5
-        },
-        "outputB" : {
+        "outputA" : {
           "@model" : "HD2_AppDSPFlowOutput",
           "@output" : 1,
           "pan" : 0.5,
           "gain" : 0
         },
-        "outputA" : {
+        "outputB" : {
           "@model" : "HD2_AppDSPFlowOutput",
           "@output" : 1,
           "pan" : 0.5,
@@ -146,14 +109,14 @@
           "@model" : "HD2_DistClawthornDrive",
           "FuzzOct" : false,
           "@position" : 2,
-          "Fuzz" : true,
+          "Fuzz" : false,
           "ODLowBoost" : true,
           "FuzzTone" : 0.5,
           "@enabled" : false,
-          "FuzzLevel" : 0.10000002384185791,
+          "FuzzLevel" : 0.20000004768371582,
           "@path" : 0,
           "@type" : 0,
-          "ODGain" : 0.39999997615814209,
+          "ODGain" : 0.25999999046325684,
           "FuzzGain" : 0.5,
           "@stereo" : false,
           "ODLevel" : 0.53999996185302734
@@ -255,18 +218,18 @@
         },
         "outputA" : {
           "@model" : "HD2_AppDSPFlowOutput",
-          "@output" : 2,
+          "@output" : 1,
           "pan" : 0.5,
           "gain" : 0
         },
         "block4" : {
           "Bias" : 0.70000004768371582,
           "@model" : "HD2_AmpWhoWatt100",
-          "Master" : 0.81999993324279785,
+          "Master" : 0.66000008583068848,
           "@position" : 3,
           "Drive" : 0.48000001907348633,
           "Treble" : 0.47000002861022949,
-          "ChVol" : 0.98000001907348633,
+          "ChVol" : 0.84999990463256836,
           "@enabled" : true,
           "Ripple" : 0.5,
           "@path" : 0,
@@ -318,24 +281,6 @@
         "@tempo" : 120
       },
       "footswitch" : {
-        "dsp1" : {
-          "block1" : {
-            "@fs_label" : "Transistor Tape",
-            "@fs_enabled" : false,
-            "@fs_index" : 11,
-            "@fs_customlabel" : "Tape On",
-            "@fs_ledcolor" : 67840,
-            "@fs_momentary" : false
-          },
-          "block0" : {
-            "@fs_label" : "PlastiChorus",
-            "@fs_enabled" : false,
-            "@fs_index" : 10,
-            "@fs_customlabel" : "Warble On",
-            "@fs_ledcolor" : 1037,
-            "@fs_momentary" : false
-          }
-        },
         "dsp0" : {
           "block0" : {
             "@fs_label" : "Looper",
@@ -385,10 +330,6 @@
           }
         },
         "blocks" : {
-          "dsp1" : {
-            "block1" : false,
-            "block0" : false
-          },
           "dsp0" : {
             "block0" : false,
             "block4" : true,
@@ -404,7 +345,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 38797312
+    "device_version" : 36700160
   },
   "schema" : "L6Preset"
 }

@@ -4,9 +4,9 @@
     "meta" : {
       "name" : "Smooth Autopan",
       "application" : "HX Edit",
-      "build_sha" : "223fb6e",
-      "modifieddate" : 1518068785,
-      "appversion" : 38862848
+      "build_sha" : "905c912",
+      "modifieddate" : 1511418599,
+      "appversion" : 36700160
     },
     "device" : 2162689,
     "tone" : {
@@ -155,20 +155,19 @@
           "gain" : 0
         },
         "block4" : {
-          "@model" : "HD2_TremoloTremolo",
+          "@model" : "HD2_Tremolo60sBiasTrem",
           "@position" : 6,
           "SyncSelect1" : 9,
           "TempoSync1" : true,
-          "Intensity" : 0.77999997138977051,
-          "Speed" : 3,
+          "Intensity" : 0.73000001907348633,
+          "Speed" : 0.33000004291534424,
           "@enabled" : true,
-          "DutyCycle" : 0.5,
           "@path" : 0,
           "@type" : 0,
-          "Level" : 0,
+          "Level" : 6,
           "@stereo" : true,
-          "Spread" : 1,
-          "WaveShape" : 2
+          "Mode" : false,
+          "Spread" : 1
         }
       },
       "snapshot1" : {
@@ -221,28 +220,15 @@
           "@enabled" : false
         },
         "block2" : {
-          "@model" : "HD2_CompressorKinkyComp",
-          "Attack" : 0,
-          "Sensitivity" : 0.5,
-          "@path" : 0,
-          "@stereo" : false,
-          "@type" : 0,
-          "@position" : 1,
-          "Level" : 0.5,
-          "Mix" : 0.59999990463256836,
-          "@enabled" : true,
-          "Release" : 1
-        },
-        "block3" : {
           "@model" : "HD2_DistScream808",
           "@path" : 0,
           "@stereo" : false,
           "@type" : 0,
           "Gain" : 0.47000002861022949,
-          "@position" : 2,
+          "@position" : 1,
           "Level" : 0.69000005722045898,
           "Tone" : 0.64999997615814209,
-          "@enabled" : false
+          "@enabled" : true
         },
         "inputA" : {
           "@input" : 1,
@@ -312,14 +298,14 @@
         "@guitarinputZ" : 0,
         "@tempo" : 120,
         "@topology1" : "SABJ",
-        "@cursor_position" : 6,
+        "@cursor_position" : 3,
         "@variax_lockctrls" : 0,
         "@variax_magmode" : true,
         "@variax_str3tuning" : 0,
         "@variax_str5tuning" : 0,
         "@variax_toneknob" : -0.10000000149011612,
         "@current_snapshot" : 0,
-        "@cursor_group" : "block4"
+        "@cursor_group" : "block1"
       },
       "snapshot6" : {
         "@pedalstate" : 2,
@@ -337,7 +323,7 @@
             "@fs_momentary" : false
           },
           "block4" : {
-            "@fs_label" : "Tremolo\/Autopan",
+            "@fs_label" : "60s Bias Trem",
             "@fs_enabled" : true,
             "@fs_index" : 9,
             "@fs_ledcolor" : 13055,
@@ -373,11 +359,11 @@
             "@fs_ledcolor" : 462860,
             "@fs_momentary" : false
           },
-          "block3" : {
+          "block2" : {
             "@fs_label" : "Scream 808",
-            "@fs_enabled" : false,
+            "@fs_enabled" : true,
             "@fs_index" : 8,
-            "@fs_ledcolor" : 525824,
+            "@fs_ledcolor" : 13676288,
             "@fs_momentary" : false
           }
         }
@@ -402,18 +388,16 @@
         "blocks" : {
           "dsp1" : {
             "block0" : true,
-            "block1" : true,
-            "block2" : true,
-            "block3" : true,
             "block4" : true,
+            "block1" : true,
             "block5" : true,
-            "split" : true
+            "block2" : true,
+            "block3" : true
           },
           "dsp0" : {
-            "block0" : false,
             "block1" : false,
-            "block2" : true,
-            "block3" : false
+            "block0" : false,
+            "block2" : true
           }
         },
         "@pedalstate" : 2,
@@ -422,7 +406,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 38797312
+    "device_version" : 36700160
   },
   "schema" : "L6Preset"
 }
