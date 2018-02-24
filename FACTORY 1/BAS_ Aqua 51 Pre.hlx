@@ -4,9 +4,9 @@
     "meta" : {
       "name" : "BAS: Aqua 51 Pre",
       "application" : "HX Edit",
-      "build_sha" : "cdef813",
-      "modifieddate" : 1511418555,
-      "appversion" : 36700160
+      "build_sha" : "223fb6e",
+      "modifieddate" : 1518068804,
+      "appversion" : 38862848
     },
     "device" : 2162689,
     "tone" : {
@@ -203,20 +203,24 @@
           "BalanceB" : 0.5
         },
         "block5" : {
-          "@model" : "HD2_AmpAgua51",
-          "Master" : 0.20000004768371582,
+          "Bias" : 0.75,
+          "@model" : "HD2_AmpSVBeastNrm",
+          "Master" : 0.79999995231628418,
           "@position" : 4,
-          "Drive" : 0.16999995708465576,
-          "Bright" : true,
+          "Drive" : 0.36000001430511475,
+          "Treble" : 0.70000004768371582,
+          "ChVol" : 0.79999995231628418,
           "@enabled" : true,
+          "Ripple" : 0.5,
           "@path" : 0,
           "@type" : 1,
-          "Bass" : 0.60000002384185791,
-          "Ch Vol" : 0.79999995231628418,
-          "Mid" : 0.70000004768371582,
+          "Bass" : 0.51999998092651367,
+          "BiasX" : 0.5,
+          "Hum" : 0,
+          "Mid" : 0.45000004768371582,
           "@bypassvolume" : 1,
-          "Deep" : true,
-          "Treble" : 0.54999995231628418
+          "Sag" : 0.32999992370605469,
+          "MidFreq" : 0
         },
         "outputA" : {
           "@model" : "HD2_AppDSPFlowOutput",
@@ -352,7 +356,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 36700160
+    "device_version" : 38797312
   },
   "schema" : "L6Preset"
 }

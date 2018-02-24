@@ -4,9 +4,9 @@
     "meta" : {
       "name" : "Jonny VibeZ",
       "application" : "HX Edit",
-      "build_sha" : "e1abd91",
-      "modifieddate" : 1518068805,
-      "appversion" : 38862848
+      "build_sha" : "905c912",
+      "modifieddate" : 1511418556,
+      "appversion" : 36700160
     },
     "device" : 2162689,
     "tone" : {
@@ -58,23 +58,16 @@
           "Time" : 0.53799998760223389
         },
         "block2" : {
-          "Spread" : 1,
-          "@model" : "HD2_ReverbSearchlights",
-          "@position" : 6,
-          "LowCut" : 170,
-          "Intensity" : 0.62599992752075195,
-          "Speed" : 0.36640000343322754,
-          "@enabled" : true,
+          "@model" : "HD2_ReverbParticle",
           "@path" : 0,
-          "@trails" : true,
           "@type" : 7,
-          "Mix" : 0.4299999475479126,
-          "Modulation" : 0.20799994468688965,
-          "Level" : 0,
-          "@stereo" : true,
-          "Decay" : 0.39999997615814209,
-          "HighCut" : 8455,
-          "Predelay" : 0
+          "Dwell" : 0.25999999046325684,
+          "Condition" : 2,
+          "@position" : 6,
+          "@trails" : false,
+          "Level" : 1,
+          "@enabled" : false,
+          "Mix" : 0.28999996185302734
         },
         "inputA" : {
           "@input" : 0,
@@ -333,10 +326,10 @@
             "@fs_momentary" : false
           },
           "block2" : {
-            "@fs_label" : "Searchlights",
-            "@fs_enabled" : true,
+            "@fs_label" : "Particle Verb",
+            "@fs_enabled" : false,
             "@fs_index" : 11,
-            "@fs_ledcolor" : 16723200,
+            "@fs_ledcolor" : 1049600,
             "@fs_momentary" : false
           }
         },
@@ -368,13 +361,12 @@
           "dsp1" : {
             "block1" : true,
             "block0" : false,
-            "block2" : true
+            "block2" : false
           },
           "dsp0" : {
             "block0" : true,
             "block4" : true,
             "block1" : true,
-            "split" : true,
             "block2" : true,
             "block3" : false
           }
@@ -385,7 +377,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 38797312
+    "device_version" : 36700160
   },
   "schema" : "L6Preset"
 }

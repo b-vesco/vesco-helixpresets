@@ -4,9 +4,9 @@
     "meta" : {
       "name" : "X Ray",
       "application" : "HX Edit",
-      "build_sha" : "37cfcb5",
-      "modifieddate" : 1511418557,
-      "appversion" : 36700160
+      "build_sha" : "e1abd91",
+      "modifieddate" : 1518068806,
+      "appversion" : 38862848
     },
     "device" : 2162689,
     "tone" : {
@@ -36,6 +36,28 @@
           "@enabled" : false
         },
         "block1" : {
+          "Xover" : 900,
+          "Depth" : 0.38400006294250488,
+          "@trails" : false,
+          "@enabled" : true,
+          "@type" : 7,
+          "SyncSelect1" : 6,
+          "@model" : "HD2_ReverbGlitz",
+          "@stereo" : true,
+          "Decay" : 0.69199991226196289,
+          "LowCut" : 19.899999618530273,
+          "@path" : 0,
+          "Level" : 0,
+          "Mix" : 0.45000004768371582,
+          "HighCut" : 16000,
+          "@position" : 3,
+          "Rate" : 1.8380000591278076,
+          "TempoSync1" : false,
+          "Mod Mix" : 0.5,
+          "Predelay" : 0.018499970436096191,
+          "Delay" : 0.064300060272216797
+        },
+        "block2" : {
           "@model" : "HD2_CompressorLAStudioComp",
           "@position" : 4,
           "@enabled" : true,
@@ -49,7 +71,7 @@
           "@stereo" : true,
           "Gain" : 0.64999997615814209
         },
-        "block2" : {
+        "block3" : {
           "@model" : "HD2_TremoloOpticalTrem",
           "@position" : 5,
           "SyncSelect1" : 6,
@@ -63,19 +85,20 @@
           "@stereo" : true,
           "Spread" : 1
         },
-        "block3" : {
-          "@model" : "HD2_ReverbCave",
+        "block4" : {
+          "@model" : "HD2_ReverbGanymede",
           "@position" : 6,
-          "LowCut" : 59,
           "@enabled" : true,
           "@path" : 0,
           "@trails" : false,
           "@type" : 7,
-          "Mix" : 0.29999995231628418,
+          "Mix" : 0.5,
+          "Modulation" : 0.70000004768371582,
+          "Tone" : 0.5,
           "Level" : 0,
-          "Decay" : 0.81999993324279785,
-          "HighCut" : 9400,
-          "Predelay" : 0.04999995231628418
+          "@stereo" : true,
+          "Decay" : 0.64999997615814209,
+          "Predelay" : 0
         },
         "inputA" : {
           "@input" : 0,
@@ -120,7 +143,7 @@
           "@model" : "HD2_AppDSPFlowOutput",
           "@output" : 1,
           "pan" : 0.5,
-          "gain" : 0
+          "gain" : -6
         }
       },
       "snapshot1" : {
@@ -180,21 +203,25 @@
           "Depth" : 0.27999997138977051
         },
         "block2" : {
-          "@model" : "HD2_AmpJazzRivet120",
-          "Master" : 0.64999997615814209,
+          "Bias" : 0.67000007629394531,
+          "@model" : "HD2_AmpA30FawnBrt",
+          "Master" : 1,
           "@position" : 2,
-          "Drive" : 0.27999997138977051,
-          "Bright" : 0,
-          "ChVol" : 0.83999991416931152,
+          "Cut" : 0.5,
+          "Drive" : 0.57999992370605469,
+          "Treble" : 0.35000002384185791,
+          "ChVol" : 0.79999995231628418,
           "@enabled" : true,
+          "Ripple" : 0.5,
           "@path" : 0,
           "@type" : 3,
-          "Bass" : 0.55999994277954102,
-          "Mid" : 0.26999998092651367,
+          "Bass" : 0.74000000953674316,
+          "BiasX" : 0.5,
+          "Hum" : 0.5,
           "@bypassvolume" : 1,
           "@cab" : "cab0",
-          "Presence" : 0.5,
-          "Treble" : 0.47000002861022949
+          "Presence" : 0.32999992370605469,
+          "Sag" : 0.5
         },
         "inputB" : {
           "@input" : 0,
@@ -227,19 +254,13 @@
           "decay" : 0.5,
           "threshold" : -48
         },
-        "block6" : {
-          "@model" : "HD2_ReverbCave",
-          "@position" : 6,
-          "LowCut" : 59,
+        "split" : {
+          "BalanceA" : 0.5,
+          "@model" : "HD2_AppDSPFlowSplitY",
           "@enabled" : true,
-          "@path" : 0,
-          "@trails" : false,
-          "@type" : 7,
-          "Mix" : 0.49000000953674316,
-          "Level" : 0,
-          "Decay" : 0.81999993324279785,
-          "HighCut" : 9400,
-          "Predelay" : 0.04999995231628418
+          "bypass" : false,
+          "@position" : 0,
+          "BalanceB" : 0.5
         },
         "block0" : {
           "@model" : "HD2_VolPanVol",
@@ -250,14 +271,6 @@
           "@position" : 0,
           "@enabled" : true,
           "VolumeTaper" : false
-        },
-        "split" : {
-          "BalanceA" : 0.5,
-          "@model" : "HD2_AppDSPFlowSplitY",
-          "@enabled" : true,
-          "bypass" : false,
-          "@position" : 0,
-          "BalanceB" : 0.5
         },
         "block5" : {
           "@model" : "HD2_ReverbOcto",
@@ -274,14 +287,14 @@
           "HighCut" : 9760
         },
         "cab0" : {
-          "@model" : "HD2_Cab2x12JazzRivet",
+          "@model" : "HD2_Cab2x12BlueBell",
           "LowCut" : 19.899999618530273,
-          "@mic" : 8,
+          "@mic" : 3,
           "EarlyReflections" : 0,
           "Distance" : 1,
-          "Level" : 0,
+          "High Cut" : 20100,
           "@enabled" : true,
-          "HighCut" : 20100
+          "Level" : 0
         },
         "outputA" : {
           "@model" : "HD2_AppDSPFlowOutput",
@@ -321,19 +334,19 @@
         "@variax_model" : 0,
         "@model" : "@global_params",
         "@topology0" : "A",
-        "@cursor_dsp" : 0,
+        "@cursor_dsp" : 1,
         "@cursor_path" : 0,
         "@guitarinputZ" : 0,
         "@tempo" : 84,
         "@topology1" : "A",
-        "@cursor_position" : 2,
+        "@cursor_position" : 5,
         "@variax_lockctrls" : 0,
         "@variax_magmode" : true,
         "@variax_str3tuning" : 0,
         "@variax_str5tuning" : 0,
         "@variax_toneknob" : -0.10000000149011612,
         "@current_snapshot" : 0,
-        "@cursor_group" : "block2"
+        "@cursor_group" : "block3"
       },
       "snapshot6" : {
         "@pedalstate" : 2,
@@ -343,14 +356,6 @@
       },
       "footswitch" : {
         "dsp1" : {
-          "block3" : {
-            "@fs_label" : "Cave",
-            "@fs_enabled" : true,
-            "@fs_index" : 11,
-            "@fs_customlabel" : "Last Hall",
-            "@fs_ledcolor" : 16723200,
-            "@fs_momentary" : false
-          },
           "block0" : {
             "@fs_label" : "Looper",
             "@fs_enabled" : false,
@@ -358,7 +363,23 @@
             "@fs_ledcolor" : 462860,
             "@fs_momentary" : false
           },
-          "block2" : {
+          "block4" : {
+            "@fs_label" : "Ganymede",
+            "@fs_enabled" : true,
+            "@fs_index" : 11,
+            "@fs_customlabel" : "Last Hall",
+            "@fs_ledcolor" : 16723200,
+            "@fs_momentary" : false
+          },
+          "block1" : {
+            "@fs_label" : "Glitz",
+            "@fs_enabled" : true,
+            "@fs_index" : 2,
+            "@fs_customlabel" : "Verb Fam",
+            "@fs_ledcolor" : 16723200,
+            "@fs_momentary" : false
+          },
+          "block3" : {
             "@fs_momentary" : false,
             "@fs_customcolor" : 7,
             "@fs_index" : 10,
@@ -400,14 +421,6 @@
             "@fs_ledcolor" : 16723200,
             "@fs_momentary" : false
           },
-          "block6" : {
-            "@fs_label" : "Cave",
-            "@fs_enabled" : true,
-            "@fs_index" : 2,
-            "@fs_customlabel" : "Verb Fam",
-            "@fs_ledcolor" : 16723200,
-            "@fs_momentary" : false
-          },
           "block3" : {
             "@fs_label" : "Elephant Man",
             "@fs_enabled" : true,
@@ -437,18 +450,18 @@
         "blocks" : {
           "dsp1" : {
             "block0" : false,
+            "block4" : true,
             "block1" : true,
             "block2" : true,
             "block3" : true
           },
           "dsp0" : {
             "block0" : true,
-            "block1" : true,
-            "block2" : true,
-            "block3" : true,
             "block4" : true,
+            "block1" : true,
             "block5" : true,
-            "block6" : true
+            "block2" : true,
+            "block3" : true
           }
         },
         "@pedalstate" : 2,
@@ -457,7 +470,7 @@
         "@tempo" : 84
       }
     },
-    "device_version" : 36700160
+    "device_version" : 38797312
   },
   "schema" : "L6Preset"
 }

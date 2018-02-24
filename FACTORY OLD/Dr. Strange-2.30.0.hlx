@@ -4,9 +4,9 @@
     "meta" : {
       "name" : "Dr. Strange",
       "application" : "HX Edit",
-      "build_sha" : "e1abd91",
-      "modifieddate" : 1518068806,
-      "appversion" : 38862848
+      "build_sha" : "61d1df5",
+      "modifieddate" : 1511418557,
+      "appversion" : 36700160
     },
     "device" : 2162689,
     "tone" : {
@@ -435,24 +435,18 @@
           "RiseTimeSwitch" : true
         },
         "block10" : {
-          "Predelay" : 0.021999955177307129,
-          "@model" : "HD2_ReverbPlateaux",
-          "Cents1" : 0,
+          "@model" : "HD2_ReverbChamber",
           "@position" : 7,
-          "Pitch1" : -12,
+          "LowCut" : 143,
           "@enabled" : true,
           "@path" : 0,
           "@trails" : false,
           "@type" : 7,
-          "Mix" : 0.5,
-          "Modulation" : 0.5,
-          "PitchMix" : 0.5,
-          "Tone" : 0.75,
+          "Mix" : 0.35000002384185791,
           "Level" : 0,
-          "@stereo" : true,
-          "Decay" : 0.79999995231628418,
-          "Cents2" : 0,
-          "Pitch2" : 12
+          "Decay" : 0.47000002861022949,
+          "HighCut" : 4700,
+          "Predelay" : 0.10000002384185791
         },
         "block4" : {
           "@model" : "HD2_Cab4x10Rhino",
@@ -490,14 +484,14 @@
         "@guitarinputZ" : 0,
         "@tempo" : 166.66670227050781,
         "@topology1" : "A",
-        "@cursor_position" : 7,
+        "@cursor_position" : 2,
         "@variax_lockctrls" : 0,
         "@variax_magmode" : true,
         "@variax_str3tuning" : 0,
         "@variax_str5tuning" : 0,
         "@variax_toneknob" : -0.10000000149011612,
         "@current_snapshot" : 0,
-        "@cursor_group" : "block10"
+        "@cursor_group" : "block5"
       },
       "snapshot6" : {
         "@pedalstate" : 2,
@@ -595,7 +589,7 @@
             "@fs_momentary" : false
           },
           "block10" : {
-            "@fs_label" : "Plateaux",
+            "@fs_label" : "Chamber",
             "@fs_enabled" : true,
             "@fs_index" : 2,
             "@fs_customlabel" : "Space",
@@ -647,18 +641,17 @@
             "block3" : true
           },
           "dsp0" : {
-            "block9" : true,
-            "block3" : true,
-            "block8" : true,
-            "block2" : false,
-            "block7" : true,
-            "block1" : true,
-            "block6" : true,
             "block0" : true,
-            "split" : true,
+            "block1" : true,
+            "block2" : false,
+            "block3" : true,
+            "block4" : true,
             "block5" : false,
+            "block6" : true,
             "block10" : true,
-            "block4" : true
+            "block7" : true,
+            "block8" : true,
+            "block9" : true
           }
         },
         "@pedalstate" : 2,
@@ -667,7 +660,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 38797312
+    "device_version" : 36700160
   },
   "schema" : "L6Preset"
 }

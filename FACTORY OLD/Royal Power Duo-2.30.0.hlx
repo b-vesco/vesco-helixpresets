@@ -4,9 +4,9 @@
     "meta" : {
       "name" : "Royal Power Duo",
       "application" : "HX Edit",
-      "build_sha" : "e1abd91",
-      "modifieddate" : 1518068806,
-      "appversion" : 38862848
+      "build_sha" : "6a7d211",
+      "modifieddate" : 1511418557,
+      "appversion" : 36700160
     },
     "device" : 2162689,
     "tone" : {
@@ -35,26 +35,28 @@
           "B Polarity" : false
         },
         "block3" : {
+          "@model" : "HD2_EQLowCutHighCut",
+          "LowCut" : 20,
+          "@path" : 0,
+          "@stereo" : false,
+          "@type" : 0,
+          "@position" : 3,
+          "Level" : 0,
+          "@enabled" : true,
+          "HighCut" : 1000
+        },
+        "block2" : {
           "@model" : "HD2_PitchPitchWham",
           "Heel" : -12,
           "@path" : 0,
           "@stereo" : false,
           "@type" : 0,
           "Pedal" : 0,
-          "@position" : 3,
+          "@position" : 2,
           "Level" : 0,
           "Mix" : 0.5,
           "@enabled" : true,
           "Toe" : 12
-        },
-        "block2" : {
-          "@model" : "HD2_VolPanGain",
-          "@path" : 0,
-          "@stereo" : false,
-          "@type" : 0,
-          "Gain" : 12,
-          "@position" : 2,
-          "@enabled" : true
         },
         "inputB" : {
           "@input" : 0,
@@ -63,26 +65,14 @@
           "decay" : 0.5,
           "threshold" : -48
         },
-        "block7" : {
-          "@model" : "HD2_EQLowCutHighCut",
-          "LowCut" : 370,
-          "@path" : 0,
-          "@stereo" : false,
-          "@type" : 0,
-          "@position" : 7,
-          "Level" : 4.3000001907348633,
-          "@enabled" : false,
-          "HighCut" : 4000
-        },
         "block1" : {
-          "@model" : "HD2_VolPanVol",
+          "@model" : "HD2_VolPanGain",
           "@path" : 0,
           "@stereo" : false,
           "@type" : 0,
-          "Pedal" : 1,
+          "Gain" : 12,
           "@position" : 1,
-          "@enabled" : true,
-          "VolumeTaper" : false
+          "@enabled" : true
         },
         "outputB" : {
           "@model" : "HD2_AppDSPFlowOutput",
@@ -98,10 +88,39 @@
           "threshold" : -40
         },
         "block6" : {
+          "@model" : "HD2_EQLowCutHighCut",
+          "LowCut" : 370,
+          "@path" : 0,
+          "@stereo" : false,
+          "@type" : 0,
+          "@position" : 6,
+          "Level" : 4.3000001907348633,
+          "@enabled" : false,
+          "HighCut" : 4000
+        },
+        "block0" : {
+          "@model" : "HD2_VolPanVol",
+          "@path" : 0,
+          "@stereo" : false,
+          "@type" : 0,
+          "Pedal" : 1,
+          "@position" : 0,
+          "@enabled" : true,
+          "VolumeTaper" : false
+        },
+        "split" : {
+          "BalanceA" : 0.5,
+          "@model" : "HD2_AppDSPFlowSplitY",
+          "@enabled" : true,
+          "bypass" : false,
+          "@position" : 0,
+          "BalanceB" : 0.5
+        },
+        "block5" : {
           "Bias" : 0.74000000953674316,
           "@model" : "HD2_AmpSVBeastBrt",
           "Master" : 1,
-          "@position" : 6,
+          "@position" : 5,
           "Drive" : 0.60000002384185791,
           "Treble" : 0.85000002384185791,
           "ChVol" : 0.50999999046325684,
@@ -117,37 +136,6 @@
           "@cab" : "cab0",
           "Sag" : 0,
           "MidFreq" : 2
-        },
-        "block0" : {
-          "@model" : "HD2_FM4TronDown",
-          "Q" : 1,
-          "@path" : 0,
-          "@type" : 0,
-          "Freq" : 0.69000005722045898,
-          "Type" : 0,
-          "@position" : 0,
-          "Level" : 0,
-          "Mix" : 1,
-          "@enabled" : true,
-          "Range" : false
-        },
-        "split" : {
-          "BalanceA" : 0.5,
-          "@model" : "HD2_AppDSPFlowSplitY",
-          "@enabled" : true,
-          "bypass" : false,
-          "@position" : 0,
-          "BalanceB" : 0.5
-        },
-        "block5" : {
-          "@model" : "HD2_DistTopSecretOD",
-          "@path" : 0,
-          "@stereo" : false,
-          "@type" : 0,
-          "Gain" : 0.64999997615814209,
-          "@position" : 5,
-          "Level" : 0.82999992370605469,
-          "@enabled" : true
         },
         "cab0" : {
           "@model" : "HD2_Cab8x10SVBeast",
@@ -166,15 +154,14 @@
           "gain" : 0
         },
         "block4" : {
-          "@model" : "HD2_EQLowCutHighCut",
-          "LowCut" : 20,
+          "@model" : "HD2_DistTopSecretOD",
           "@path" : 0,
           "@stereo" : false,
           "@type" : 0,
+          "Gain" : 0.64999997615814209,
           "@position" : 4,
-          "Level" : 0,
-          "@enabled" : true,
-          "HighCut" : 1000
+          "Level" : 0.82999992370605469,
+          "@enabled" : true
         }
       },
       "snapshot1" : {
@@ -186,13 +173,6 @@
       "controller" : {
         "dsp1" : {
           "block1" : {
-            "Pedal" : {
-              "@min" : 0,
-              "@controller" : 2,
-              "@max" : 1
-            }
-          },
-          "block2" : {
             "Gain" : {
               "@fs_momentary" : false,
               "@min" : -120,
@@ -202,6 +182,13 @@
               "@fs_ledcolor" : 7077838,
               "@fs_customlabel" : "BASS DROP!",
               "@fs_label" : "Gain"
+            }
+          },
+          "block0" : {
+            "Pedal" : {
+              "@min" : 0,
+              "@controller" : 2,
+              "@max" : 1
             }
           }
         },
@@ -419,17 +406,18 @@
         "@model" : "@global_params",
         "@topology0" : "SABJ",
         "@cursor_dsp" : 0,
+        "@cursor_path" : 0,
         "@guitarinputZ" : 0,
         "@tempo" : 120,
         "@topology1" : "A",
-        "@variax_magmode" : true,
-        "@cursor_position" : 6,
+        "@cursor_position" : 5,
         "@variax_lockctrls" : 0,
+        "@variax_magmode" : true,
         "@variax_str3tuning" : 0,
         "@variax_str5tuning" : 0,
         "@variax_toneknob" : -0.10000000149011612,
         "@current_snapshot" : 0,
-        "@cursor_group" : "join"
+        "@cursor_group" : "block0"
       },
       "snapshot6" : {
         "@pedalstate" : 2,
@@ -439,33 +427,33 @@
       },
       "footswitch" : {
         "dsp1" : {
-          "block7" : {
-            "@fs_label" : "Low and High Cut",
-            "@fs_enabled" : false,
-            "@fs_index" : 8,
-            "@fs_customlabel" : "INTRO FILTER",
-            "@fs_ledcolor" : 527360,
-            "@fs_momentary" : false
-          },
-          "block1" : {
+          "block0" : {
             "@fs_label" : "Volume Pedal",
             "@fs_enabled" : true,
             "@fs_index" : 13,
             "@fs_ledcolor" : 65408,
             "@fs_momentary" : false
           },
-          "block5" : {
+          "block4" : {
             "@fs_label" : "Top Secret OD",
             "@fs_enabled" : true,
             "@fs_index" : 4,
             "@fs_ledcolor" : 13676288,
             "@fs_momentary" : false
           },
-          "block3" : {
+          "block2" : {
             "@fs_label" : "Pitch Wham",
             "@fs_enabled" : true,
             "@fs_index" : 3,
             "@fs_ledcolor" : 3277055,
+            "@fs_momentary" : false
+          },
+          "block6" : {
+            "@fs_label" : "Low and High Cut",
+            "@fs_enabled" : false,
+            "@fs_index" : 8,
+            "@fs_customlabel" : "INTRO FILTER",
+            "@fs_ledcolor" : 527360,
             "@fs_momentary" : false
           }
         },
@@ -511,15 +499,15 @@
         "controllers" : {
           "dsp1" : {
             "block1" : {
-              "Pedal" : {
-                "@fs_enabled" : false,
-                "@value" : 1
-              }
-            },
-            "block2" : {
               "Gain" : {
                 "@fs_enabled" : true,
                 "@value" : 12
+              }
+            },
+            "block0" : {
+              "Pedal" : {
+                "@fs_enabled" : false,
+                "@value" : 1
               }
             }
           },
@@ -546,8 +534,7 @@
             "block3" : true,
             "block4" : true,
             "block5" : true,
-            "block6" : true,
-            "block7" : false
+            "block6" : false
           },
           "dsp0" : {
             "block0" : true,
@@ -556,8 +543,7 @@
             "block3" : true,
             "block4" : true,
             "block5" : false,
-            "block6" : false,
-            "split" : true
+            "block6" : false
           }
         },
         "@pedalstate" : 2,
@@ -566,7 +552,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 38797312
+    "device_version" : 36700160
   },
   "schema" : "L6Preset"
 }

@@ -4,9 +4,9 @@
     "meta" : {
       "name" : "Vicegrip Funk",
       "application" : "HX Edit",
-      "build_sha" : "905c912",
-      "modifieddate" : 1511418557,
-      "appversion" : 36700160
+      "build_sha" : "e1abd91",
+      "modifieddate" : 1518068806,
+      "appversion" : 38862848
     },
     "device" : 2162689,
     "tone" : {
@@ -23,13 +23,58 @@
         "@tempo" : 120
       },
       "dsp1" : {
-        "split" : {
-          "BalanceA" : 0.5,
-          "@model" : "HD2_AppDSPFlowSplitY",
+        "block0" : {
+          "VibratoRate" : 0.70000004768371582,
+          "@model" : "HD2_Chorus70sChorus",
+          "@position" : 4,
+          "SyncSelect1" : 6,
+          "SyncSelect2" : 6,
+          "TempoSync1" : false,
           "@enabled" : true,
-          "bypass" : false,
-          "@position" : 0,
-          "BalanceB" : 0.5
+          "@path" : 0,
+          "@type" : 0,
+          "Mix" : 0.16999995708465576,
+          "Headroom" : 0,
+          "Stereo" : false,
+          "TempoSync2" : false,
+          "VibratoDepth" : 0.5,
+          "Level" : 1,
+          "@stereo" : false,
+          "ChorusIntensity" : 0.56999993324279785,
+          "Mode" : false,
+          "Spread" : 0
+        },
+        "block1" : {
+          "@model" : "HD2_FlangerGrayFlanger",
+          "Rate" : 0.60000002384185791,
+          "@position" : 5,
+          "Regen" : 0.55999994277954102,
+          "SyncSelect1" : 6,
+          "TempoSync1" : false,
+          "@enabled" : false,
+          "@path" : 0,
+          "@type" : 0,
+          "Mix" : 0.35000002384185791,
+          "Headroom" : 0,
+          "Width" : 0.77999997138977051,
+          "Level" : 0,
+          "@stereo" : false,
+          "Manual" : 0.76999998092651367,
+          "Spread" : 0.125
+        },
+        "block2" : {
+          "@model" : "HD2_ReverbRoom",
+          "@position" : 6,
+          "LowCut" : 117,
+          "@enabled" : true,
+          "@path" : 0,
+          "@trails" : false,
+          "@type" : 7,
+          "Mix" : 0.30999994277954102,
+          "Level" : 0,
+          "Decay" : 0.45000004768371582,
+          "HighCut" : 3720,
+          "Predelay" : 0.01100003719329834
         },
         "inputA" : {
           "@input" : 0,
@@ -56,13 +101,21 @@
           "@enabled" : true,
           "B Polarity" : false
         },
-        "outputA" : {
+        "split" : {
+          "BalanceA" : 0.5,
+          "@model" : "HD2_AppDSPFlowSplitY",
+          "@enabled" : true,
+          "bypass" : false,
+          "@position" : 0,
+          "BalanceB" : 0.5
+        },
+        "outputB" : {
           "@model" : "HD2_AppDSPFlowOutput",
           "@output" : 1,
           "pan" : 0.5,
           "gain" : 0
         },
-        "outputB" : {
+        "outputA" : {
           "@model" : "HD2_AppDSPFlowOutput",
           "@output" : 1,
           "pan" : 0.5,
@@ -112,15 +165,17 @@
           "B Polarity" : false
         },
         "block3" : {
-          "@model" : "HD2_CompressorRedSqueeze",
+          "@model" : "HD2_FM4TronUp",
+          "Q" : 0.62000000476837158,
           "@path" : 0,
-          "@stereo" : false,
           "@type" : 0,
+          "Freq" : 0.23000001907348633,
+          "Type" : 1,
           "@position" : 2,
-          "Level" : 5.4000000953674316,
-          "Mix" : 1,
+          "Level" : 0,
+          "Mix" : 0.20000004768371582,
           "@enabled" : true,
-          "Sensitivity" : 0.44000005722045898
+          "Range" : false
         },
         "block2" : {
           "@model" : "HD2_WahChromeCustom",
@@ -141,20 +196,6 @@
           "noiseGate" : false,
           "decay" : 0.5,
           "threshold" : -48
-        },
-        "block7" : {
-          "@model" : "HD2_ReverbRoom",
-          "@position" : 6,
-          "LowCut" : 117,
-          "@enabled" : true,
-          "@path" : 0,
-          "@trails" : false,
-          "@type" : 7,
-          "Mix" : 0.30999994277954102,
-          "Level" : 0,
-          "Decay" : 0.45000004768371582,
-          "HighCut" : 3720,
-          "Predelay" : 0.01100003719329834
         },
         "block1" : {
           "@model" : "HD2_VolPanVol",
@@ -179,23 +220,13 @@
           "decay" : 0.5,
           "threshold" : -48
         },
-        "block6" : {
-          "@model" : "HD2_FlangerGrayFlanger",
-          "Rate" : 0.60000002384185791,
-          "@position" : 5,
-          "Regen" : 0.55999994277954102,
-          "SyncSelect1" : 6,
-          "TempoSync1" : false,
-          "@enabled" : false,
-          "@path" : 0,
-          "@type" : 0,
-          "Mix" : 0.35000002384185791,
-          "Headroom" : 0,
-          "Width" : 0.77999997138977051,
-          "Level" : 0,
-          "@stereo" : false,
-          "Manual" : 0.76999998092651367,
-          "Spread" : 0.125
+        "split" : {
+          "BalanceA" : 0.5,
+          "@model" : "HD2_AppDSPFlowSplitY",
+          "@enabled" : true,
+          "bypass" : false,
+          "@position" : 0,
+          "BalanceB" : 0.5
         },
         "block0" : {
           "@model" : "HD2_Looper",
@@ -209,34 +240,26 @@
           "@position" : 7,
           "@enabled" : false
         },
-        "split" : {
-          "BalanceA" : 0.5,
-          "@model" : "HD2_AppDSPFlowSplitY",
-          "@enabled" : true,
-          "bypass" : false,
-          "@position" : 0,
-          "BalanceB" : 0.5
-        },
         "block5" : {
-          "VibratoRate" : 0.70000004768371582,
-          "@model" : "HD2_Chorus70sChorus",
+          "Bias" : 0.64999997615814209,
+          "@model" : "HD2_AmpUSDeluxeNrm",
+          "Master" : 1,
           "@position" : 4,
-          "SyncSelect1" : 6,
-          "SyncSelect2" : 6,
-          "TempoSync1" : false,
-          "@enabled" : false,
+          "Drive" : 0.5,
+          "Treble" : 0.60000002384185791,
+          "ChVol" : 0.95000004768371582,
+          "@enabled" : true,
+          "Ripple" : 0.5,
           "@path" : 0,
-          "@type" : 0,
-          "Mix" : 0.25999999046325684,
-          "Headroom" : 0,
-          "Stereo" : false,
-          "TempoSync2" : false,
-          "VibratoDepth" : 0.5,
-          "Level" : 1,
-          "@stereo" : false,
-          "ChorusIntensity" : 0.56999993324279785,
-          "Mode" : false,
-          "Spread" : 0
+          "@type" : 3,
+          "Bass" : 0.46000003814697266,
+          "BiasX" : 0.5,
+          "Hum" : 0.5,
+          "Mid" : 0.5,
+          "@bypassvolume" : 1,
+          "@cab" : "cab0",
+          "Presence" : 0,
+          "Sag" : 0.5
         },
         "cab0" : {
           "@model" : "HD2_Cab1x12USDeluxe",
@@ -250,30 +273,20 @@
         },
         "outputA" : {
           "@model" : "HD2_AppDSPFlowOutput",
-          "@output" : 1,
+          "@output" : 2,
           "pan" : 0.5,
           "gain" : 0
         },
         "block4" : {
-          "Bias" : 0.64999997615814209,
-          "@model" : "HD2_AmpUSDeluxeNrm",
-          "Master" : 1,
-          "@position" : 3,
-          "Drive" : 0.5,
-          "Treble" : 0.60000002384185791,
-          "ChVol" : 0.95000004768371582,
-          "@enabled" : true,
-          "Ripple" : 0.5,
+          "@model" : "HD2_CompressorRedSqueeze",
           "@path" : 0,
-          "@type" : 3,
-          "Bass" : 0.70000004768371582,
-          "BiasX" : 0.5,
-          "Hum" : 0.5,
-          "Mid" : 0.5,
-          "@bypassvolume" : 1,
-          "@cab" : "cab0",
-          "Presence" : 0,
-          "Sag" : 0.5
+          "@stereo" : false,
+          "@type" : 0,
+          "@position" : 3,
+          "Level" : 5.4000000953674316,
+          "Mix" : 1,
+          "@enabled" : true,
+          "Sensitivity" : 0.44000005722045898
         }
       },
       "snapshot2" : {
@@ -298,14 +311,14 @@
         "@guitarinputZ" : 0,
         "@tempo" : 120,
         "@topology1" : "A",
-        "@cursor_position" : 3,
+        "@cursor_position" : 2,
         "@variax_lockctrls" : 0,
         "@variax_magmode" : true,
         "@variax_str3tuning" : 0,
         "@variax_str5tuning" : 0,
         "@variax_toneknob" : -0.10000000149011612,
         "@current_snapshot" : 0,
-        "@cursor_group" : "block4"
+        "@cursor_group" : "block3"
       },
       "snapshot6" : {
         "@pedalstate" : 2,
@@ -314,12 +327,42 @@
         "@tempo" : 120
       },
       "footswitch" : {
+        "dsp1" : {
+          "block1" : {
+            "@fs_label" : "Gray Flanger",
+            "@fs_enabled" : false,
+            "@fs_index" : 10,
+            "@fs_ledcolor" : 1037,
+            "@fs_momentary" : false
+          },
+          "block0" : {
+            "@fs_label" : "70s Chorus",
+            "@fs_enabled" : true,
+            "@fs_index" : 9,
+            "@fs_ledcolor" : 13055,
+            "@fs_momentary" : false
+          },
+          "block2" : {
+            "@fs_label" : "Room",
+            "@fs_enabled" : true,
+            "@fs_index" : 11,
+            "@fs_ledcolor" : 16723200,
+            "@fs_momentary" : false
+          }
+        },
         "dsp0" : {
           "block0" : {
             "@fs_label" : "Looper",
             "@fs_enabled" : false,
             "@fs_index" : 5,
             "@fs_ledcolor" : 462860,
+            "@fs_momentary" : false
+          },
+          "block4" : {
+            "@fs_label" : "Red Squeeze",
+            "@fs_enabled" : true,
+            "@fs_index" : 8,
+            "@fs_ledcolor" : 8716032,
             "@fs_momentary" : false
           },
           "block1" : {
@@ -337,31 +380,10 @@
             "@fs_momentary" : false
           },
           "block3" : {
-            "@fs_label" : "Red Squeeze",
+            "@fs_label" : "Tron Up",
             "@fs_enabled" : true,
-            "@fs_index" : 8,
-            "@fs_ledcolor" : 8716032,
-            "@fs_momentary" : false
-          },
-          "block5" : {
-            "@fs_label" : "70s Chorus",
-            "@fs_enabled" : false,
-            "@fs_index" : 9,
-            "@fs_ledcolor" : 1037,
-            "@fs_momentary" : false
-          },
-          "block6" : {
-            "@fs_label" : "Gray Flanger",
-            "@fs_enabled" : false,
-            "@fs_index" : 10,
-            "@fs_ledcolor" : 1037,
-            "@fs_momentary" : false
-          },
-          "block7" : {
-            "@fs_label" : "Room",
-            "@fs_enabled" : true,
-            "@fs_index" : 11,
-            "@fs_ledcolor" : 16723200,
+            "@fs_index" : 2,
+            "@fs_ledcolor" : 3277055,
             "@fs_momentary" : false
           }
         }
@@ -390,15 +412,18 @@
           }
         },
         "blocks" : {
+          "dsp1" : {
+            "block1" : false,
+            "block0" : true,
+            "block2" : true
+          },
           "dsp0" : {
             "block0" : false,
-            "block1" : true,
-            "block2" : false,
-            "block3" : true,
             "block4" : true,
-            "block5" : false,
-            "block6" : false,
-            "block7" : true
+            "block1" : true,
+            "block5" : true,
+            "block2" : false,
+            "block3" : true
           }
         },
         "@pedalstate" : 2,
@@ -407,7 +432,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 36700160
+    "device_version" : 38797312
   },
   "schema" : "L6Preset"
 }

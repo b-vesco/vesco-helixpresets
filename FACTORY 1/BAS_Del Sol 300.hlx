@@ -4,9 +4,9 @@
     "meta" : {
       "name" : "BAS:Del Sol 300",
       "application" : "HX Edit",
-      "build_sha" : "460b9f0",
-      "modifieddate" : 1511418555,
-      "appversion" : 36700160
+      "build_sha" : "e1abd91",
+      "modifieddate" : 1518068804,
+      "appversion" : 38862848
     },
     "device" : 2162689,
     "tone" : {
@@ -82,26 +82,6 @@
               "@min" : 0,
               "@controller" : 2,
               "@max" : 1
-            }
-          },
-          "block4" : {
-            "Contour" : {
-              "@min" : false,
-              "@max" : true,
-              "@controller" : 15,
-              "@fs_enabled" : true,
-              "@fs_ledcolor" : 7077838,
-              "@fs_label" : "Contour",
-              "@fs_momentary" : false
-            },
-            "Bright" : {
-              "@min" : false,
-              "@max" : true,
-              "@controller" : 14,
-              "@fs_enabled" : true,
-              "@fs_ledcolor" : 7077838,
-              "@fs_label" : "Bright",
-              "@fs_momentary" : false
             }
           }
         }
@@ -251,24 +231,24 @@
           "gain" : 0
         },
         "block4" : {
-          "2kHz" : -1.7000000476837158,
-          "62p5Hz" : 4.400001049041748,
-          "@model" : "HD2_AmpDelSol300",
+          "Bias" : 0.54999995231628418,
+          "@model" : "HD2_AmpCali400Ch1",
+          "Master" : 0.60000002384185791,
           "@position" : 3,
-          "Bright" : true,
-          "Contour" : true,
-          "ChVol" : 0.91000008583068848,
+          "Drive" : 0.54999995231628418,
+          "ChVol" : 0.79999995231628418,
           "@enabled" : true,
-          "Master" : 0.64999997615814209,
+          "HighMid" : 0.5,
+          "Ripple" : 0.5,
           "@path" : 0,
           "@type" : 1,
-          "4kHz" : 3.8000001907348633,
-          "500Hz" : -2,
-          "1kHz" : 3.6999998092651367,
+          "Bass" : 0.5,
+          "BiasX" : 0.5,
+          "Hum" : 0.5,
+          "Mid" : 0.55999994277954102,
           "@bypassvolume" : 1,
-          "Gain" : 0.96000003814697266,
-          "125Hz" : 4.6999998092651367,
-          "250Hz" : 1.2999999523162842
+          "Sag" : 0.5,
+          "Treble" : 0.39999997615814209
         }
       },
       "snapshot2" : {
@@ -362,16 +342,6 @@
                 "@fs_enabled" : false,
                 "@value" : 1
               }
-            },
-            "block4" : {
-              "Contour" : {
-                "@fs_enabled" : true,
-                "@value" : true
-              },
-              "Bright" : {
-                "@fs_enabled" : true,
-                "@value" : true
-              }
             }
           }
         },
@@ -392,7 +362,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 36700160
+    "device_version" : 38797312
   },
   "schema" : "L6Preset"
 }

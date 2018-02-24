@@ -2,11 +2,11 @@
   "version" : 6,
   "data" : {
     "meta" : {
-      "name" : "Raining Princess",
+      "name" : "Vicegrip Funk",
       "application" : "HX Edit",
-      "build_sha" : "e1abd91",
-      "modifieddate" : 1518068807,
-      "appversion" : 38862848
+      "build_sha" : "905c912",
+      "modifieddate" : 1511418557,
+      "appversion" : 36700160
     },
     "device" : 2162689,
     "tone" : {
@@ -83,6 +83,13 @@
               "@controller" : 2,
               "@max" : 1
             }
+          },
+          "block2" : {
+            "Pedal" : {
+              "@min" : 0,
+              "@controller" : 1,
+              "@max" : 1
+            }
           }
         }
       },
@@ -105,28 +112,27 @@
           "B Polarity" : false
         },
         "block3" : {
-          "@model" : "HD2_CompressorLAStudioComp",
-          "@position" : 2,
-          "@enabled" : true,
-          "Emphasis" : 0.090000033378601074,
+          "@model" : "HD2_CompressorRedSqueeze",
           "@path" : 0,
-          "@type" : 0,
-          "Mix" : 1,
-          "PeakReduction" : 0.77999997138977051,
-          "Type" : false,
-          "Level" : 0,
           "@stereo" : false,
-          "Gain" : 0.5
+          "@type" : 0,
+          "@position" : 2,
+          "Level" : 5.4000000953674316,
+          "Mix" : 1,
+          "@enabled" : true,
+          "Sensitivity" : 0.44000005722045898
         },
         "block2" : {
-          "@model" : "HD2_DistScream808",
+          "@model" : "HD2_WahChromeCustom",
+          "FcHigh" : 1975,
           "@path" : 0,
           "@stereo" : false,
           "@type" : 0,
-          "Gain" : 0.51999998092651367,
+          "FcLow" : 300,
+          "Pedal" : 0,
           "@position" : 1,
-          "Level" : 0.67000007629394531,
-          "Tone" : 0.64999997615814209,
+          "Level" : 0,
+          "Mix" : 1,
           "@enabled" : false
         },
         "inputB" : {
@@ -137,26 +143,18 @@
           "threshold" : -48
         },
         "block7" : {
-          "Xover" : 900,
-          "Depth" : 0.38400006294250488,
-          "@trails" : false,
-          "@enabled" : true,
-          "@type" : 7,
-          "SyncSelect1" : 6,
-          "@model" : "HD2_ReverbGlitz",
-          "@stereo" : true,
-          "Decay" : 0.39999997615814209,
-          "LowCut" : 80,
-          "@path" : 0,
-          "Level" : 0,
-          "Mix" : 0.5,
-          "HighCut" : 12000,
+          "@model" : "HD2_ReverbRoom",
           "@position" : 6,
-          "Rate" : 1.8380000591278076,
-          "TempoSync1" : false,
-          "Mod Mix" : 0.5,
-          "Predelay" : 0.029999971389770508,
-          "Delay" : 0.064300060272216797
+          "LowCut" : 117,
+          "@enabled" : true,
+          "@path" : 0,
+          "@trails" : false,
+          "@type" : 7,
+          "Mix" : 0.30999994277954102,
+          "Level" : 0,
+          "Decay" : 0.45000004768371582,
+          "HighCut" : 3720,
+          "Predelay" : 0.01100003719329834
         },
         "block1" : {
           "@model" : "HD2_VolPanVol",
@@ -177,31 +175,27 @@
         "inputA" : {
           "@input" : 1,
           "@model" : "HD2_AppDSPFlow1Input",
-          "noiseGate" : false,
+          "noiseGate" : true,
           "decay" : 0.5,
           "threshold" : -48
         },
         "block6" : {
-          "Depth" : 0.49000000953674316,
-          "@trails" : false,
-          "@enabled" : true,
-          "@type" : 7,
-          "Speed" : 0.021999955177307129,
-          "SyncSelect1" : 6,
-          "@model" : "HD2_DelayModChorusEcho",
-          "@stereo" : false,
-          "LowCut" : 155,
-          "@path" : 0,
-          "Level" : 0,
-          "Mix" : 0.26999998092651367,
-          "Spread" : 1,
-          "Feedback" : 0.43000006675720215,
-          "HighCut" : 9540,
-          "ModulationMode" : 1,
-          "Scale" : 0.75,
+          "@model" : "HD2_FlangerGrayFlanger",
+          "Rate" : 0.60000002384185791,
           "@position" : 5,
+          "Regen" : 0.55999994277954102,
+          "SyncSelect1" : 6,
           "TempoSync1" : false,
-          "Time" : 0.53799998760223389
+          "@enabled" : false,
+          "@path" : 0,
+          "@type" : 0,
+          "Mix" : 0.35000002384185791,
+          "Headroom" : 0,
+          "Width" : 0.77999997138977051,
+          "Level" : 0,
+          "@stereo" : false,
+          "Manual" : 0.76999998092651367,
+          "Spread" : 0.125
         },
         "block0" : {
           "@model" : "HD2_Looper",
@@ -230,11 +224,11 @@
           "SyncSelect1" : 6,
           "SyncSelect2" : 6,
           "TempoSync1" : false,
-          "@enabled" : true,
+          "@enabled" : false,
           "@path" : 0,
           "@type" : 0,
-          "Mix" : 0.39999997615814209,
-          "Headroom" : 3,
+          "Mix" : 0.25999999046325684,
+          "Headroom" : 0,
           "Stereo" : false,
           "TempoSync2" : false,
           "VibratoDepth" : 0.5,
@@ -245,11 +239,11 @@
           "Spread" : 0
         },
         "cab0" : {
-          "@model" : "HD2_Cab2x12JazzRivet",
+          "@model" : "HD2_Cab1x12USDeluxe",
           "LowCut" : 19.899999618530273,
           "@mic" : 8,
           "EarlyReflections" : 0,
-          "Distance" : 1,
+          "Distance" : 2,
           "Level" : 0,
           "@enabled" : true,
           "HighCut" : 20100
@@ -261,21 +255,25 @@
           "gain" : 0
         },
         "block4" : {
-          "@model" : "HD2_AmpJazzRivet120",
+          "Bias" : 0.64999997615814209,
+          "@model" : "HD2_AmpUSDeluxeNrm",
           "Master" : 1,
           "@position" : 3,
-          "Drive" : 0.27999997138977051,
-          "Bright" : 0,
-          "ChVol" : 0.85000002384185791,
+          "Drive" : 0.5,
+          "Treble" : 0.60000002384185791,
+          "ChVol" : 0.95000004768371582,
           "@enabled" : true,
+          "Ripple" : 0.5,
           "@path" : 0,
           "@type" : 3,
-          "Bass" : 0.45000004768371582,
-          "Mid" : 0.54999995231628418,
+          "Bass" : 0.70000004768371582,
+          "BiasX" : 0.5,
+          "Hum" : 0.5,
+          "Mid" : 0.5,
           "@bypassvolume" : 1,
           "@cab" : "cab0",
-          "Presence" : 0.5,
-          "Treble" : 0.58999991416931152
+          "Presence" : 0,
+          "Sag" : 0.5
         }
       },
       "snapshot2" : {
@@ -292,7 +290,7 @@
         "@variax_str2tuning" : 0,
         "@variax_str4tuning" : 0,
         "@variax_str6tuning" : 0,
-        "@variax_model" : 0,
+        "@variax_model" : 20,
         "@model" : "@global_params",
         "@topology0" : "A",
         "@cursor_dsp" : 0,
@@ -332,35 +330,35 @@
             "@fs_momentary" : false
           },
           "block2" : {
-            "@fs_label" : "Scream 808",
+            "@fs_label" : "Chrome Custom",
             "@fs_enabled" : false,
-            "@fs_index" : 8,
-            "@fs_ledcolor" : 525824,
+            "@fs_index" : 13,
+            "@fs_ledcolor" : 196619,
             "@fs_momentary" : false
           },
           "block3" : {
-            "@fs_label" : "LA Studio Comp",
+            "@fs_label" : "Red Squeeze",
             "@fs_enabled" : true,
-            "@fs_index" : 2,
+            "@fs_index" : 8,
             "@fs_ledcolor" : 8716032,
             "@fs_momentary" : false
           },
           "block5" : {
             "@fs_label" : "70s Chorus",
-            "@fs_enabled" : true,
+            "@fs_enabled" : false,
             "@fs_index" : 9,
-            "@fs_ledcolor" : 13055,
+            "@fs_ledcolor" : 1037,
             "@fs_momentary" : false
           },
           "block6" : {
-            "@fs_label" : "Mod\/Chorus Echo",
-            "@fs_enabled" : true,
+            "@fs_label" : "Gray Flanger",
+            "@fs_enabled" : false,
             "@fs_index" : 10,
-            "@fs_ledcolor" : 458496,
+            "@fs_ledcolor" : 1037,
             "@fs_momentary" : false
           },
           "block7" : {
-            "@fs_label" : "Glitz",
+            "@fs_label" : "Room",
             "@fs_enabled" : true,
             "@fs_index" : 11,
             "@fs_ledcolor" : 16723200,
@@ -382,6 +380,12 @@
                 "@fs_enabled" : false,
                 "@value" : 1
               }
+            },
+            "block2" : {
+              "Pedal" : {
+                "@fs_enabled" : false,
+                "@value" : 0
+              }
             }
           }
         },
@@ -392,8 +396,8 @@
             "block2" : false,
             "block3" : true,
             "block4" : true,
-            "block5" : true,
-            "block6" : true,
+            "block5" : false,
+            "block6" : false,
             "block7" : true
           }
         },
@@ -403,7 +407,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 38797312
+    "device_version" : 36700160
   },
   "schema" : "L6Preset"
 }
