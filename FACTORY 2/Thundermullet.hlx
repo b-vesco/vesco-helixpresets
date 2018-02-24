@@ -5,8 +5,8 @@
       "name" : "Thundermullet",
       "application" : "HX Edit",
       "build_sha" : "37cfcb5",
-      "modifieddate" : 1511418600,
-      "appversion" : 36700160
+      "modifieddate" : 1518068786,
+      "appversion" : 38862848
     },
     "device" : 2162689,
     "tone" : {
@@ -423,6 +423,7 @@
           },
           "dsp0" : {
             "block0" : true,
+            "split" : true,
             "block1" : true,
             "block2" : false,
             "block3" : false
@@ -434,7 +435,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 36700160
+    "device_version" : 38797312
   },
   "schema" : "L6Preset"
 }

@@ -4,9 +4,9 @@
     "meta" : {
       "name" : "Brit Trem Brt",
       "application" : "HX Edit",
-      "build_sha" : "978f961",
-      "modifieddate" : 1511418555,
-      "appversion" : 36700160
+      "build_sha" : "223fb6e",
+      "modifieddate" : 1518068804,
+      "appversion" : 38862848
     },
     "device" : 2162689,
     "tone" : {
@@ -109,7 +109,7 @@
           "@model" : "HD2_AmpBritTremBrt",
           "BrtDrive" : 0.87999999523162842,
           "@position" : 2,
-          "Master" : 1,
+          "Master" : 0.8599998950958252,
           "Treble" : 0.73000001907348633,
           "ChVol" : 0.47000002861022949,
           "@enabled" : true,
@@ -348,7 +348,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 36700160
+    "device_version" : 38797312
   },
   "schema" : "L6Preset"
 }

@@ -4,9 +4,9 @@
     "meta" : {
       "name" : "Rhythm Sandman",
       "application" : "HX Edit",
-      "build_sha" : "905c912",
-      "modifieddate" : 1511418599,
-      "appversion" : 36700160
+      "build_sha" : "223fb6e",
+      "modifieddate" : 1518068786,
+      "appversion" : 38862848
     },
     "device" : 2162689,
     "tone" : {
@@ -113,7 +113,7 @@
           "@position" : 3,
           "Drive" : 0.89999997615814209,
           "Treble" : 0.60000002384185791,
-          "ChVol" : 0.52999997138977051,
+          "ChVol" : 0.47000002861022949,
           "@enabled" : true,
           "Ripple" : 0.5,
           "@path" : 0,
@@ -506,6 +506,7 @@
             "block0" : true,
             "block4" : true,
             "block1" : true,
+            "split" : true,
             "block2" : true,
             "block3" : true
           },
@@ -524,7 +525,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 36700160
+    "device_version" : 38797312
   },
   "schema" : "L6Preset"
 }

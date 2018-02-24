@@ -4,9 +4,9 @@
     "meta" : {
       "name" : "Solo Lead OD",
       "application" : "HX Edit",
-      "build_sha" : "cdef813",
-      "modifieddate" : 1511418554,
-      "appversion" : 36700160
+      "build_sha" : "223fb6e",
+      "modifieddate" : 1518068803,
+      "appversion" : 38862848
     },
     "device" : 2162689,
     "tone" : {
@@ -154,7 +154,7 @@
         "inputA" : {
           "@input" : 1,
           "@model" : "HD2_AppDSPFlow1Input",
-          "noiseGate" : false,
+          "noiseGate" : true,
           "decay" : 0.5,
           "threshold" : -48
         },
@@ -218,18 +218,18 @@
           "@position" : 2,
           "Drive" : 0.40999996662139893,
           "Treble" : 0.50999999046325684,
-          "ChVol" : 0.59999990463256836,
+          "ChVol" : 0.63999998569488525,
           "@enabled" : true,
           "Ripple" : 0.5,
           "@path" : 0,
           "@type" : 1,
           "Bass" : 0.67000007629394531,
           "BiasX" : 0.5,
-          "Hum" : 0.5,
+          "Hum" : 0.14999997615814209,
           "Mid" : 0.35000002384185791,
           "@bypassvolume" : 1,
           "Presence" : 0.66000008583068848,
-          "Sag" : 0.5
+          "Sag" : 0.30999994277954102
         }
       },
       "snapshot2" : {
@@ -326,7 +326,8 @@
             "block3" : true,
             "block4" : true,
             "block5" : false,
-            "block6" : true
+            "block6" : true,
+            "split" : true
           }
         },
         "@pedalstate" : 2,
@@ -335,7 +336,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 36700160
+    "device_version" : 38797312
   },
   "schema" : "L6Preset"
 }

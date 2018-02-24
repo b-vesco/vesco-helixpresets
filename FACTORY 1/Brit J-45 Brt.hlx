@@ -4,9 +4,9 @@
     "meta" : {
       "name" : "Brit J-45 Brt",
       "application" : "HX Edit",
-      "build_sha" : "cdef813",
-      "modifieddate" : 1511418554,
-      "appversion" : 36700160
+      "build_sha" : "223fb6e",
+      "modifieddate" : 1518068802,
+      "appversion" : 38862848
     },
     "device" : 2162689,
     "tone" : {
@@ -200,11 +200,11 @@
         "block5" : {
           "Bias" : 0.70000004768371582,
           "@model" : "HD2_AmpBritJ45Brt",
-          "Master" : 1,
+          "Master" : 0.69000005722045898,
           "@position" : 4,
           "Drive" : 0.60000002384185791,
-          "Treble" : 0.82999992370605469,
-          "ChVol" : 0.46000003814697266,
+          "Treble" : 0.73000001907348633,
+          "ChVol" : 0.60000002384185791,
           "@enabled" : true,
           "Ripple" : 0.5,
           "@path" : 0,
@@ -215,7 +215,7 @@
           "Mid" : 1,
           "@bypassvolume" : 1,
           "@cab" : "cab0",
-          "Presence" : 0.75,
+          "Presence" : 0.51999998092651367,
           "Sag" : 0.5
         },
         "cab0" : {
@@ -371,7 +371,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 36700160
+    "device_version" : 38797312
   },
   "schema" : "L6Preset"
 }

@@ -4,9 +4,9 @@
     "meta" : {
       "name" : "BAS:DangeRuss",
       "application" : "HX Edit",
-      "build_sha" : "6a7d211",
-      "modifieddate" : 1511418601,
-      "appversion" : 36700160
+      "build_sha" : "223fb6e",
+      "modifieddate" : 1518068787,
+      "appversion" : 38862848
     },
     "device" : 2162689,
     "tone" : {
@@ -110,7 +110,7 @@
           "@path" : 0,
           "@stereo" : false,
           "@type" : 0,
-          "Gain" : 0.26999998092651367,
+          "Gain" : 0.35000002384185791,
           "@position" : 1,
           "Level" : 0.85000002384185791,
           "@enabled" : true
@@ -330,7 +330,8 @@
             "block3" : true,
             "block4" : true,
             "block5" : false,
-            "block6" : true
+            "block6" : true,
+            "split" : true
           }
         },
         "@pedalstate" : 2,
@@ -339,7 +340,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 36700160
+    "device_version" : 38797312
   },
   "schema" : "L6Preset"
 }

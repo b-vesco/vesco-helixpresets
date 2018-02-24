@@ -4,9 +4,9 @@
     "meta" : {
       "name" : "Voltage Queen",
       "application" : "HX Edit",
-      "build_sha" : "978f961",
-      "modifieddate" : 1511418555,
-      "appversion" : 36700160
+      "build_sha" : "223fb6e",
+      "modifieddate" : 1518068803,
+      "appversion" : 38862848
     },
     "device" : 2162689,
     "tone" : {
@@ -222,7 +222,7 @@
           "@position" : 4,
           "Drive 1" : 0.24000000953674316,
           "Drive Trem" : 0.1799999475479126,
-          "ChVol" : 0.79999995231628418,
+          "ChVol" : 0.75999999046325684,
           "@enabled" : true,
           "Ripple" : 0.5,
           "@path" : 0,
@@ -393,7 +393,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 36700160
+    "device_version" : 38797312
   },
   "schema" : "L6Preset"
 }

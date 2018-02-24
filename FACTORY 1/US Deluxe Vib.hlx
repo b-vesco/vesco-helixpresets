@@ -4,9 +4,9 @@
     "meta" : {
       "name" : "US Deluxe Vib",
       "application" : "HX Edit",
-      "build_sha" : "905c912",
-      "modifieddate" : 1511418554,
-      "appversion" : 36700160
+      "build_sha" : "223fb6e",
+      "modifieddate" : 1518068803,
+      "appversion" : 38862848
     },
     "device" : 2162689,
     "tone" : {
@@ -223,7 +223,7 @@
         "block4" : {
           "Bias" : 0.64999997615814209,
           "@model" : "HD2_AmpUSDeluxeVib",
-          "Master" : 1,
+          "Master" : 0.79999995231628418,
           "@position" : 3,
           "Drive" : 0.43000006675720215,
           "Treble" : 0.44000005722045898,
@@ -359,7 +359,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 36700160
+    "device_version" : 38797312
   },
   "schema" : "L6Preset"
 }

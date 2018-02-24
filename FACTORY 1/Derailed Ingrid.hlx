@@ -4,9 +4,9 @@
     "meta" : {
       "name" : "Derailed Ingrid",
       "application" : "HX Edit",
-      "build_sha" : "094d750",
-      "modifieddate" : 1511418555,
-      "appversion" : 36700160
+      "build_sha" : "223fb6e",
+      "modifieddate" : 1518068803,
+      "appversion" : 38862848
     },
     "device" : 2162689,
     "tone" : {
@@ -130,7 +130,7 @@
           "Bright" : 1,
           "Drive" : 0.37000000476837158,
           "Master" : 0.73000001907348633,
-          "ChVol" : 0.89999997615814209,
+          "ChVol" : 0.82999992370605469,
           "@path" : 0,
           "Presence" : 0.36000001430511475,
           "Ripple" : 0.5,
@@ -404,7 +404,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 36700160
+    "device_version" : 38797312
   },
   "schema" : "L6Preset"
 }

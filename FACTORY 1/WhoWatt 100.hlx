@@ -4,9 +4,9 @@
     "meta" : {
       "name" : "WhoWatt 100",
       "application" : "HX Edit",
-      "build_sha" : "460b9f0",
-      "modifieddate" : 1511418555,
-      "appversion" : 36700160
+      "build_sha" : "223fb6e",
+      "modifieddate" : 1518068803,
+      "appversion" : 38862848
     },
     "device" : 2162689,
     "tone" : {
@@ -60,7 +60,7 @@
           "@position" : 3,
           "Drive" : 0.64999997615814209,
           "Treble" : 0.47000002861022949,
-          "ChVol" : 0.64999997615814209,
+          "ChVol" : 0.62999999523162842,
           "@enabled" : true,
           "Ripple" : 0.5,
           "@path" : 0,
@@ -480,7 +480,7 @@
         "@tempo" : 123.26699829101562
       }
     },
-    "device_version" : 36700160
+    "device_version" : 38797312
   },
   "schema" : "L6Preset"
 }

@@ -4,9 +4,9 @@
     "meta" : {
       "name" : "BEL HAVEN, boi!",
       "application" : "HX Edit",
-      "build_sha" : "37cfcb5",
-      "modifieddate" : 1511418598,
-      "appversion" : 36700160
+      "build_sha" : "223fb6e",
+      "modifieddate" : 1518068784,
+      "appversion" : 38862848
     },
     "device" : 2162689,
     "tone" : {
@@ -26,11 +26,11 @@
         "block0" : {
           "Bias" : 0.60000002384185791,
           "@model" : "HD2_AmpUSDoubleNrm",
-          "Master" : 0.66000008583068848,
+          "Master" : 0.62999999523162842,
           "@position" : 0,
           "Drive" : 0.45000004768371582,
           "Treble" : 0.47000002861022949,
-          "ChVol" : 1,
+          "ChVol" : 0.8599998950958252,
           "@enabled" : true,
           "Ripple" : 0.5,
           "@path" : 0,
@@ -425,7 +425,7 @@
         "@tempo" : 102
       }
     },
-    "device_version" : 36700160
+    "device_version" : 38797312
   },
   "schema" : "L6Preset"
 }

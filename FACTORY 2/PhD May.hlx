@@ -4,9 +4,9 @@
     "meta" : {
       "name" : "PhD May",
       "application" : "HX Edit",
-      "build_sha" : "6a7d211",
-      "modifieddate" : 1511418600,
-      "appversion" : 36700160
+      "build_sha" : "223fb6e",
+      "modifieddate" : 1518068786,
+      "appversion" : 38862848
     },
     "device" : 2162689,
     "tone" : {
@@ -281,7 +281,7 @@
           "Cut" : 0.29999995231628418,
           "Drive" : 0.39999997615814209,
           "Treble" : 0.64999997615814209,
-          "ChVol" : 0.80999994277954102,
+          "ChVol" : 0.74000000953674316,
           "@enabled" : true,
           "Ripple" : 0.5,
           "@path" : 0,
@@ -448,11 +448,12 @@
           },
           "dsp0" : {
             "block0" : false,
-            "block4" : true,
             "block1" : true,
-            "block5" : true,
             "block2" : true,
-            "block3" : true
+            "block3" : true,
+            "block4" : true,
+            "block5" : true,
+            "split" : true
           }
         },
         "@pedalstate" : 2,
@@ -461,7 +462,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 36700160
+    "device_version" : 38797312
   },
   "schema" : "L6Preset"
 }

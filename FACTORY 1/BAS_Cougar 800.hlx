@@ -5,8 +5,8 @@
       "name" : "BAS:Cougar 800",
       "application" : "HX Edit",
       "build_sha" : "37cfcb5",
-      "modifieddate" : 1511418555,
-      "appversion" : 36700160
+      "modifieddate" : 1518068804,
+      "appversion" : 38862848
     },
     "device" : 2162689,
     "tone" : {
@@ -315,7 +315,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 36700160
+    "device_version" : 38797312
   },
   "schema" : "L6Preset"
 }

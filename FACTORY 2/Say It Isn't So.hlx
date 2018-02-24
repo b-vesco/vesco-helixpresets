@@ -5,8 +5,8 @@
       "name" : "Say It Isn't So",
       "application" : "HX Edit",
       "build_sha" : "6a7d211",
-      "modifieddate" : 1511418602,
-      "appversion" : 36700160
+      "modifieddate" : 1518068788,
+      "appversion" : 38862848
     },
     "device" : 2162689,
     "tone" : {
@@ -528,7 +528,8 @@
             "block3" : true,
             "block4" : false,
             "block5" : true,
-            "block6" : false
+            "block6" : false,
+            "split" : true
           }
         },
         "@pedalstate" : 2,
@@ -537,7 +538,7 @@
         "@tempo" : 76
       }
     },
-    "device_version" : 36700160
+    "device_version" : 38797312
   },
   "schema" : "L6Preset"
 }

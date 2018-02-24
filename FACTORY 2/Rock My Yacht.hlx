@@ -5,8 +5,8 @@
       "name" : "Rock My Yacht",
       "application" : "HX Edit",
       "build_sha" : "61d1df5",
-      "modifieddate" : 1511418603,
-      "appversion" : 36700160
+      "modifieddate" : 1518068789,
+      "appversion" : 38862848
     },
     "device" : 2162689,
     "tone" : {
@@ -414,7 +414,8 @@
             "block4" : false,
             "block5" : true,
             "block6" : true,
-            "block7" : false
+            "block7" : false,
+            "split" : true
           }
         },
         "@pedalstate" : 2,
@@ -423,7 +424,7 @@
         "@tempo" : 119.46199798583984
       }
     },
-    "device_version" : 36700160
+    "device_version" : 38797312
   },
   "schema" : "L6Preset"
 }

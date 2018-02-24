@@ -4,9 +4,9 @@
     "meta" : {
       "name" : "Line 6 Elektrik",
       "application" : "HX Edit",
-      "build_sha" : "cdef813",
-      "modifieddate" : 1511418553,
-      "appversion" : 36700160
+      "build_sha" : "223fb6e",
+      "modifieddate" : 1518068802,
+      "appversion" : 38862848
     },
     "device" : 2162689,
     "tone" : {
@@ -218,7 +218,7 @@
           "@position" : 2,
           "Drive" : 0.40999996662139893,
           "Treble" : 0.88999998569488525,
-          "ChVol" : 0.45000004768371582,
+          "ChVol" : 0.51999998092651367,
           "@enabled" : true,
           "Ripple" : 0.5,
           "@path" : 0,
@@ -228,7 +228,7 @@
           "Mid" : 0.89999997615814209,
           "@bypassvolume" : 1,
           "Presence" : 0.92000007629394531,
-          "Sag" : 0.5
+          "Sag" : 0.15999996662139893
         }
       },
       "snapshot2" : {
@@ -325,7 +325,8 @@
             "block3" : true,
             "block4" : true,
             "block5" : false,
-            "block6" : true
+            "block6" : true,
+            "split" : true
           }
         },
         "@pedalstate" : 2,
@@ -334,7 +335,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 36700160
+    "device_version" : 38797312
   },
   "schema" : "L6Preset"
 }

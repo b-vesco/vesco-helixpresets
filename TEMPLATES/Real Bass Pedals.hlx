@@ -5,8 +5,8 @@
       "name" : "Real Bass Pedals",
       "application" : "HX Edit",
       "build_sha" : "dd24475",
-      "modifieddate" : 1511418766,
-      "appversion" : 36700160
+      "modifieddate" : 1518068766,
+      "appversion" : 38862848
     },
     "device" : 2162689,
     "tone" : {
@@ -1174,14 +1174,12 @@
         "@model" : "@global_params",
         "@topology0" : "A",
         "@cursor_dsp" : 1,
-        "@cursor_path" : null,
         "@guitarinputZ" : 8,
         "@tempo" : 120,
         "@topology1" : "A",
-        "@cursor_position" : null,
-        "@variax_lockctrls" : 0,
         "@variax_magmode" : true,
         "@variax_str3tuning" : 0,
+        "@variax_lockctrls" : 0,
         "@variax_str5tuning" : 0,
         "@variax_toneknob" : -0.10000000149011612,
         "@current_snapshot" : 0,
@@ -1577,7 +1575,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 36700160
+    "device_version" : 38797312
   },
   "schema" : "L6Preset"
 }

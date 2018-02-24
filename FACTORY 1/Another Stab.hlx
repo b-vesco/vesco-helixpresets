@@ -5,8 +5,8 @@
       "name" : "Another Stab",
       "application" : "HX Edit",
       "build_sha" : "6a7d211",
-      "modifieddate" : 1511418557,
-      "appversion" : 36700160
+      "modifieddate" : 1518068806,
+      "appversion" : 38862848
     },
     "device" : 2162689,
     "tone" : {
@@ -502,6 +502,7 @@
             "block0" : true,
             "block4" : true,
             "block1" : true,
+            "split" : true,
             "block2" : false,
             "block3" : true
           }
@@ -512,7 +513,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 36700160
+    "device_version" : 38797312
   },
   "schema" : "L6Preset"
 }

@@ -4,9 +4,9 @@
     "meta" : {
       "name" : "Plexi Monster",
       "application" : "HX Edit",
-      "build_sha" : "6a7d211",
-      "modifieddate" : 1511418599,
-      "appversion" : 36700160
+      "build_sha" : "223fb6e",
+      "modifieddate" : 1518068786,
+      "appversion" : 38862848
     },
     "device" : 2162689,
     "tone" : {
@@ -223,7 +223,7 @@
         "block4" : {
           "Bias" : 0.70000004768371582,
           "@model" : "HD2_AmpBritPlexiBrt",
-          "Master" : 1,
+          "Master" : 0.80999994277954102,
           "@position" : 3,
           "Drive" : 0.70000004768371582,
           "Treble" : 0.79999995231628418,
@@ -352,7 +352,7 @@
         "@tempo" : 30
       }
     },
-    "device_version" : 36700160
+    "device_version" : 38797312
   },
   "schema" : "L6Preset"
 }
