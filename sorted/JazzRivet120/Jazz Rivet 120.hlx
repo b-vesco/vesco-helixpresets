@@ -4,9 +4,9 @@
     "meta" : {
       "name" : "Jazz Rivet 120",
       "application" : "HX Edit",
-      "build_sha" : "905c912",
-      "modifieddate" : 1511418553,
-      "appversion" : 36700160
+      "build_sha" : "223fb6e",
+      "modifieddate" : 1518068802,
+      "appversion" : 38862848
     },
     "device" : 2162689,
     "tone" : {
@@ -126,7 +126,7 @@
         "block2" : {
           "@model" : "HD2_CompressorLAStudioComp",
           "@position" : 1,
-          "@enabled" : false,
+          "@enabled" : true,
           "Emphasis" : 1,
           "@path" : 0,
           "@type" : 0,
@@ -242,13 +242,13 @@
           "@model" : "HD2_AmpJazzRivet120",
           "Master" : 0.77999997138977051,
           "@position" : 3,
-          "Drive" : 0.28999996185302734,
+          "Drive" : 0.32999992370605469,
           "Bright" : 0,
-          "ChVol" : 0.82999992370605469,
+          "ChVol" : 0.79999995231628418,
           "@enabled" : true,
           "@path" : 0,
           "@type" : 3,
-          "Bass" : 0.79999995231628418,
+          "Bass" : 0.70000004768371582,
           "Mid" : 0.38999998569488525,
           "@bypassvolume" : 1,
           "@cab" : "cab0",
@@ -318,9 +318,9 @@
           },
           "block2" : {
             "@fs_label" : "LA Studio Comp",
-            "@fs_enabled" : false,
+            "@fs_enabled" : true,
             "@fs_index" : 8,
-            "@fs_ledcolor" : 527360,
+            "@fs_ledcolor" : 8716032,
             "@fs_momentary" : false
           },
           "block6" : {
@@ -360,7 +360,7 @@
           "dsp0" : {
             "block0" : false,
             "block1" : true,
-            "block2" : false,
+            "block2" : true,
             "block3" : false,
             "block4" : true,
             "block5" : true,
@@ -373,7 +373,7 @@
         "@tempo" : 121.08999633789062
       }
     },
-    "device_version" : 36700160
+    "device_version" : 38797312
   },
   "schema" : "L6Preset"
 }

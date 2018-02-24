@@ -4,9 +4,9 @@
     "meta" : {
       "name" : "Divided Duo",
       "application" : "HX Edit",
-      "build_sha" : "905c912",
-      "modifieddate" : 1511418553,
-      "appversion" : 36700160
+      "build_sha" : "223fb6e",
+      "modifieddate" : 1518068802,
+      "appversion" : 38862848
     },
     "device" : 2162689,
     "tone" : {
@@ -221,9 +221,9 @@
           "@model" : "HD2_AmpDividedDuo",
           "Master" : 0.78999996185302734,
           "@position" : 3,
-          "Cut" : 0.69000005722045898,
+          "Cut" : 0.75999999046325684,
           "Drive 1" : 0.39999997615814209,
-          "ChVol" : 0.81999993324279785,
+          "ChVol" : 0.69000005722045898,
           "@enabled" : true,
           "Ripple" : 0.5,
           "@path" : 0,
@@ -232,7 +232,7 @@
           "BiasX" : 0.5,
           "Hum" : 0.5,
           "@bypassvolume" : 1,
-          "Drive 2" : 0.12999999523162842,
+          "Drive 2" : 0.20000004768371582,
           "@cab" : "cab0",
           "Presence" : 0.039999961853027344,
           "Sag" : 0.67000007629394531
@@ -347,7 +347,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 36700160
+    "device_version" : 38797312
   },
   "schema" : "L6Preset"
 }

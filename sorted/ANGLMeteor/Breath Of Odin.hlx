@@ -4,9 +4,9 @@
     "meta" : {
       "name" : "Breath Of Odin",
       "application" : "HX Edit",
-      "build_sha" : "6a7d211",
-      "modifieddate" : 1511418599,
-      "appversion" : 36700160
+      "build_sha" : "223fb6e",
+      "modifieddate" : 1518068785,
+      "appversion" : 38862848
     },
     "device" : 2162689,
     "tone" : {
@@ -172,7 +172,7 @@
           "@model" : "HD2_AmpANGLMeteor",
           "Drive" : 0.20000004768371582,
           "Master" : 0.43000006675720215,
-          "ChVol" : 0.78999996185302734,
+          "ChVol" : 0.84999990463256836,
           "@path" : 0,
           "Presence" : 0.37999999523162842,
           "Ripple" : 0.5,
@@ -365,7 +365,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 36700160
+    "device_version" : 38797312
   },
   "schema" : "L6Preset"
 }

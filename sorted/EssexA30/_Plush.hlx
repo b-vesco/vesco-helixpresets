@@ -5,8 +5,8 @@
       "name" : "Plush",
       "application" : "HX Edit",
       "build_sha" : "37cfcb5",
-      "modifieddate" : 1511418602,
-      "appversion" : 36700160
+      "modifieddate" : 1518068788,
+      "appversion" : 38862848
     },
     "device" : 2162689,
     "tone" : {
@@ -442,7 +442,8 @@
             "block3" : true,
             "block4" : true,
             "block5" : false,
-            "block6" : true
+            "block6" : true,
+            "split" : true
           }
         },
         "@pedalstate" : 2,
@@ -451,7 +452,7 @@
         "@tempo" : 73.800003051757812
       }
     },
-    "device_version" : 36700160
+    "device_version" : 38797312
   },
   "schema" : "L6Preset"
 }

@@ -4,9 +4,9 @@
     "meta" : {
       "name" : "Solo Lead Crunch",
       "application" : "HX Edit",
-      "build_sha" : "905c912",
-      "modifieddate" : 1511418554,
-      "appversion" : 36700160
+      "build_sha" : "223fb6e",
+      "modifieddate" : 1518068803,
+      "appversion" : 38862848
     },
     "device" : 2162689,
     "tone" : {
@@ -151,7 +151,7 @@
         "block2" : {
           "Bias" : 0.64999997615814209,
           "@model" : "HD2_AmpSoloLeadCrunch",
-          "Master" : 0.5,
+          "Master" : 0.47000002861022949,
           "@position" : 3,
           "Drive" : 0.54999995231628418,
           "Treble" : 0.60000002384185791,
@@ -378,7 +378,7 @@
         "@tempo" : 105.17099761962891
       }
     },
-    "device_version" : 36700160
+    "device_version" : 38797312
   },
   "schema" : "L6Preset"
 }

@@ -5,8 +5,8 @@
       "name" : "Plug In Baby",
       "application" : "HX Edit",
       "build_sha" : "61d1df5",
-      "modifieddate" : 1511418556,
-      "appversion" : 36700160
+      "modifieddate" : 1518068805,
+      "appversion" : 38862848
     },
     "device" : 2162689,
     "tone" : {
@@ -556,7 +556,8 @@
             "block6" : true,
             "block7" : true,
             "block8" : false,
-            "block9" : false
+            "block9" : false,
+            "split" : true
           },
           "dsp0" : {
             "block0" : true,
@@ -565,7 +566,8 @@
             "block3" : true,
             "block4" : true,
             "block5" : false,
-            "block6" : true
+            "block6" : true,
+            "split" : true
           }
         },
         "@pedalstate" : 1,
@@ -574,7 +576,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 36700160
+    "device_version" : 38797312
   },
   "schema" : "L6Preset"
 }

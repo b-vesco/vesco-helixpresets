@@ -4,9 +4,9 @@
     "meta" : {
       "name" : "British Twang",
       "application" : "HX Edit",
-      "build_sha" : "905c912",
-      "modifieddate" : 1511418557,
-      "appversion" : 36700160
+      "build_sha" : "e1abd91",
+      "modifieddate" : 1518068806,
+      "appversion" : 38862848
     },
     "device" : 2162689,
     "tone" : {
@@ -105,19 +105,17 @@
           "B Polarity" : false
         },
         "block3" : {
-          "@model" : "HD2_CompressorDeluxeComp",
-          "@position" : 2,
-          "Threshold" : -37.099998474121094,
-          "Release" : 0.20000004768371582,
-          "@enabled" : true,
-          "Knee" : 6,
+          "@model" : "HD2_CompressorKinkyComp",
+          "Attack" : 0,
+          "Sensitivity" : 0.5,
           "@path" : 0,
+          "@stereo" : false,
           "@type" : 0,
-          "Attack" : 0.037999987602233887,
+          "@position" : 2,
+          "Level" : 0.5,
           "Mix" : 1,
-          "Ratio" : 3,
-          "Level" : 7,
-          "@stereo" : false
+          "@enabled" : true,
+          "Release" : 1
         },
         "block2" : {
           "@model" : "HD2_DistScream808",
@@ -255,14 +253,14 @@
         "@guitarinputZ" : 0,
         "@tempo" : 120,
         "@topology1" : "A",
-        "@cursor_position" : 3,
+        "@cursor_position" : 2,
         "@variax_lockctrls" : 0,
         "@variax_magmode" : true,
         "@variax_str3tuning" : 0,
         "@variax_str5tuning" : 0,
         "@variax_toneknob" : -0.10000000149011612,
         "@current_snapshot" : 0,
-        "@cursor_group" : "block4"
+        "@cursor_group" : "block3"
       },
       "snapshot6" : {
         "@pedalstate" : 2,
@@ -301,7 +299,7 @@
             "@fs_momentary" : false
           },
           "block3" : {
-            "@fs_label" : "Deluxe Comp",
+            "@fs_label" : "Kinky Comp",
             "@fs_enabled" : true,
             "@fs_index" : 9,
             "@fs_ledcolor" : 8716032,
@@ -342,7 +340,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 36700160
+    "device_version" : 38797312
   },
   "schema" : "L6Preset"
 }

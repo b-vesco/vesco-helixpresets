@@ -4,9 +4,9 @@
     "meta" : {
       "name" : "Funk'n Roll",
       "application" : "HX Edit",
-      "build_sha" : "6a7d211",
-      "modifieddate" : 1511418599,
-      "appversion" : 36700160
+      "build_sha" : "223fb6e",
+      "modifieddate" : 1518068785,
+      "appversion" : 38862848
     },
     "device" : 2162689,
     "tone" : {
@@ -120,17 +120,15 @@
           "Mode" : 1
         },
         "block2" : {
-          "@model" : "HD2_DistCompulsiveDrive",
-          "Version" : false,
+          "@model" : "HD2_DistMinotaur",
           "@path" : 0,
           "@stereo" : false,
           "@type" : 0,
-          "Gain" : 0.66000008583068848,
+          "Gain" : 0.41999995708465576,
           "@position" : 1,
-          "Level" : 0.64999997615814209,
-          "Tone" : 0.5,
-          "@enabled" : true,
-          "LPHP" : false
+          "Level" : 0.60000002384185791,
+          "Tone" : 0.52999997138977051,
+          "@enabled" : true
         },
         "inputB" : {
           "@input" : 0,
@@ -231,7 +229,7 @@
           "Cut" : 0.55999994277954102,
           "Drive" : 0.29999995231628418,
           "Treble" : 0.36000001430511475,
-          "ChVol" : 1,
+          "ChVol" : 0.8599998950958252,
           "@enabled" : true,
           "Ripple" : 0.5,
           "@path" : 0,
@@ -297,14 +295,14 @@
         "@guitarinputZ" : 0,
         "@tempo" : 120,
         "@topology1" : "A",
-        "@cursor_position" : 2,
+        "@cursor_position" : 4,
         "@variax_lockctrls" : 0,
         "@variax_magmode" : true,
         "@variax_str3tuning" : 0,
         "@variax_str5tuning" : 0,
         "@variax_toneknob" : -0.10000000149011612,
         "@current_snapshot" : 0,
-        "@cursor_group" : "block3"
+        "@cursor_group" : "block5"
       },
       "snapshot6" : {
         "@pedalstate" : 2,
@@ -329,7 +327,7 @@
             "@fs_momentary" : false
           },
           "block2" : {
-            "@fs_label" : "Compulsive Drive",
+            "@fs_label" : "Minotaur",
             "@fs_enabled" : true,
             "@fs_index" : 8,
             "@fs_ledcolor" : 13676288,
@@ -400,7 +398,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 36700160
+    "device_version" : 38797312
   },
   "schema" : "L6Preset"
 }

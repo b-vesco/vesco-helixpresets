@@ -4,9 +4,9 @@
     "meta" : {
       "name" : "Djentrified",
       "application" : "HX Edit",
-      "build_sha" : "6a7d211",
-      "modifieddate" : 1511418597,
-      "appversion" : 36700160
+      "build_sha" : "223fb6e",
+      "modifieddate" : 1518068783,
+      "appversion" : 38862848
     },
     "device" : 2162689,
     "tone" : {
@@ -239,7 +239,7 @@
           "@model" : "HD2_AppDSPFlow1Input",
           "noiseGate" : true,
           "decay" : 0.5,
-          "threshold" : -48
+          "threshold" : -35
         },
         "inputB" : {
           "@input" : 0,
@@ -387,11 +387,12 @@
         "blocks" : {
           "dsp1" : {
             "block0" : true,
-            "block4" : true,
             "block1" : true,
-            "block5" : true,
             "block2" : false,
-            "block3" : false
+            "block3" : false,
+            "block4" : true,
+            "block5" : true,
+            "split" : true
           },
           "dsp0" : {
             "block1" : true,
@@ -405,7 +406,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 36700160
+    "device_version" : 38797312
   },
   "schema" : "L6Preset"
 }

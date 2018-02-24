@@ -4,9 +4,9 @@
     "meta" : {
       "name" : "Cavernous Clean",
       "application" : "HX Edit",
-      "build_sha" : "6a7d211",
-      "modifieddate" : 1511418597,
-      "appversion" : 36700160
+      "build_sha" : "223fb6e",
+      "modifieddate" : 1518068783,
+      "appversion" : 38862848
     },
     "device" : 2162689,
     "tone" : {
@@ -179,7 +179,7 @@
         "block5" : {
           "Bias" : 0.5,
           "@model" : "HD2_AmpEssexA30",
-          "Master" : 0.89999997615814209,
+          "Master" : 0.74000000953674316,
           "@position" : 3,
           "Cut" : 0.59999990463256836,
           "Drive" : 0.48332870006561279,
@@ -367,7 +367,7 @@
           "BrightSW" : false,
           "@model" : "HD2_AmpArchetypeClean",
           "Drive" : 0.74714517593383789,
-          "Master" : 0.5,
+          "Master" : 0.46000003814697266,
           "ChVol" : 0.8047025203704834,
           "@path" : 0,
           "Presence" : 0.48000001907348633,
@@ -451,7 +451,7 @@
         "@variax_model" : 0,
         "@model" : "@global_params",
         "@topology0" : "SABJ",
-        "@cursor_dsp" : 0,
+        "@cursor_dsp" : 1,
         "@cursor_path" : 0,
         "@guitarinputZ" : 0,
         "@tempo" : 120,
@@ -463,7 +463,7 @@
         "@variax_str5tuning" : 0,
         "@variax_toneknob" : -0.10000000149011612,
         "@current_snapshot" : 0,
-        "@cursor_group" : "block6"
+        "@cursor_group" : "block5"
       },
       "snapshot6" : {
         "@pedalstate" : 2,
@@ -604,7 +604,8 @@
             "block5" : true,
             "block6" : false,
             "block7" : true,
-            "block8" : true
+            "block8" : true,
+            "split" : true
           },
           "dsp0" : {
             "block0" : false,
@@ -615,7 +616,8 @@
             "block5" : false,
             "block6" : true,
             "block7" : true,
-            "block8" : true
+            "block8" : true,
+            "split" : true
           }
         },
         "@pedalstate" : 2,
@@ -624,7 +626,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 36700160
+    "device_version" : 38797312
   },
   "schema" : "L6Preset"
 }

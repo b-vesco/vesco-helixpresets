@@ -4,9 +4,9 @@
     "meta" : {
       "name" : "BAS:Sydcar Synth",
       "application" : "HX Edit",
-      "build_sha" : "6a7d211",
-      "modifieddate" : 1511418601,
-      "appversion" : 36700160
+      "build_sha" : "223fb6e",
+      "modifieddate" : 1518068787,
+      "appversion" : 38862848
     },
     "device" : 2162689,
     "tone" : {
@@ -59,7 +59,7 @@
           "@model" : "HD2_ReverbPlate",
           "@position" : 6,
           "LowCut" : 90,
-          "@enabled" : false,
+          "@enabled" : true,
           "@path" : 0,
           "@trails" : false,
           "@type" : 7,
@@ -254,11 +254,11 @@
         "block4" : {
           "Bias" : 0.75,
           "@model" : "HD2_AmpSVBeastNrm",
-          "Master" : 0.85000002384185791,
+          "Master" : 1,
           "@position" : 3,
           "Drive" : 0.25,
           "Treble" : 0.70000004768371582,
-          "ChVol" : 0.92000007629394531,
+          "ChVol" : 1,
           "@enabled" : true,
           "Ripple" : 0.5,
           "@path" : 0,
@@ -289,19 +289,19 @@
         "@variax_model" : 10,
         "@model" : "@global_params",
         "@topology0" : "A",
-        "@cursor_dsp" : 1,
+        "@cursor_dsp" : 0,
         "@cursor_path" : 0,
         "@guitarinputZ" : 0,
         "@tempo" : 30,
         "@topology1" : "A",
-        "@cursor_position" : 5,
+        "@cursor_position" : 3,
         "@variax_lockctrls" : 0,
         "@variax_magmode" : true,
         "@variax_str3tuning" : 0,
         "@variax_str5tuning" : 0,
         "@variax_toneknob" : -0.10000000149011612,
         "@current_snapshot" : 0,
-        "@cursor_group" : "block0"
+        "@cursor_group" : "block4"
       },
       "snapshot6" : {
         "@pedalstate" : 2,
@@ -313,10 +313,10 @@
         "dsp1" : {
           "block1" : {
             "@fs_label" : "Plate",
-            "@fs_enabled" : false,
+            "@fs_enabled" : true,
             "@fs_index" : 11,
             "@fs_customlabel" : "Synth Verb",
-            "@fs_ledcolor" : 1049600,
+            "@fs_ledcolor" : 16723200,
             "@fs_momentary" : false
           },
           "block0" : {
@@ -378,7 +378,7 @@
         },
         "blocks" : {
           "dsp1" : {
-            "block1" : false,
+            "block1" : true,
             "block0" : false
           },
           "dsp0" : {
@@ -396,7 +396,7 @@
         "@tempo" : 30
       }
     },
-    "device_version" : 36700160
+    "device_version" : 38797312
   },
   "schema" : "L6Preset"
 }

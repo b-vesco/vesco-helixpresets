@@ -4,9 +4,9 @@
     "meta" : {
       "name" : "Raining Princess",
       "application" : "HX Edit",
-      "build_sha" : "905c912",
-      "modifieddate" : 1511418558,
-      "appversion" : 36700160
+      "build_sha" : "e1abd91",
+      "modifieddate" : 1518068807,
+      "appversion" : 38862848
     },
     "device" : 2162689,
     "tone" : {
@@ -137,18 +137,26 @@
           "threshold" : -48
         },
         "block7" : {
-          "@model" : "HD2_ReverbRoom",
-          "@position" : 6,
-          "LowCut" : 117,
-          "@enabled" : true,
-          "@path" : 0,
+          "Xover" : 900,
+          "Depth" : 0.38400006294250488,
           "@trails" : false,
+          "@enabled" : true,
           "@type" : 7,
-          "Mix" : 0.46000003814697266,
+          "SyncSelect1" : 6,
+          "@model" : "HD2_ReverbGlitz",
+          "@stereo" : true,
+          "Decay" : 0.39999997615814209,
+          "LowCut" : 80,
+          "@path" : 0,
           "Level" : 0,
-          "Decay" : 0.45000004768371582,
-          "HighCut" : 3720,
-          "Predelay" : 0.01100003719329834
+          "Mix" : 0.5,
+          "HighCut" : 12000,
+          "@position" : 6,
+          "Rate" : 1.8380000591278076,
+          "TempoSync1" : false,
+          "Mod Mix" : 0.5,
+          "Predelay" : 0.029999971389770508,
+          "Delay" : 0.064300060272216797
         },
         "block1" : {
           "@model" : "HD2_VolPanVol",
@@ -262,7 +270,7 @@
           "@enabled" : true,
           "@path" : 0,
           "@type" : 3,
-          "Bass" : 0.55999994277954102,
+          "Bass" : 0.45000004768371582,
           "Mid" : 0.54999995231628418,
           "@bypassvolume" : 1,
           "@cab" : "cab0",
@@ -352,7 +360,7 @@
             "@fs_momentary" : false
           },
           "block7" : {
-            "@fs_label" : "Room",
+            "@fs_label" : "Glitz",
             "@fs_enabled" : true,
             "@fs_index" : 11,
             "@fs_ledcolor" : 16723200,
@@ -395,7 +403,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 36700160
+    "device_version" : 38797312
   },
   "schema" : "L6Preset"
 }

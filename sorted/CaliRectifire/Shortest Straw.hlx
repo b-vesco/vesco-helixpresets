@@ -5,8 +5,8 @@
       "name" : "Shortest Straw",
       "application" : "HX Edit",
       "build_sha" : "6a7d211",
-      "modifieddate" : 1511418557,
-      "appversion" : 36700160
+      "modifieddate" : 1518068806,
+      "appversion" : 38862848
     },
     "device" : 2162689,
     "tone" : {
@@ -409,7 +409,8 @@
             "block5" : true,
             "block6" : true,
             "block7" : false,
-            "block8" : false
+            "block8" : false,
+            "split" : true
           }
         },
         "@pedalstate" : 2,
@@ -418,7 +419,7 @@
         "@tempo" : 126
       }
     },
-    "device_version" : 36700160
+    "device_version" : 38797312
   },
   "schema" : "L6Preset"
 }

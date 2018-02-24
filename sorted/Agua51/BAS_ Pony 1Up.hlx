@@ -4,9 +4,9 @@
     "meta" : {
       "name" : "BAS: Pony 1Up",
       "application" : "HX Edit",
-      "build_sha" : "460b9f0",
-      "modifieddate" : 1511418601,
-      "appversion" : 36700160
+      "build_sha" : "223fb6e",
+      "modifieddate" : 1518068787,
+      "appversion" : 38862848
     },
     "device" : 2162689,
     "tone" : {
@@ -212,7 +212,7 @@
         },
         "block4" : {
           "@model" : "HD2_AmpAgua51",
-          "Master" : 0.31999993324279785,
+          "Master" : 0.35000002384185791,
           "@position" : 3,
           "Drive" : 0.25,
           "Bright" : true,
@@ -220,7 +220,7 @@
           "@path" : 0,
           "@type" : 3,
           "Bass" : 0.62000000476837158,
-          "Ch Vol" : 0.80999994277954102,
+          "Ch Vol" : 0.96000003814697266,
           "Mid" : 0.70000004768371582,
           "@bypassvolume" : 1,
           "@cab" : "cab0",
@@ -313,7 +313,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 36700160
+    "device_version" : 38797312
   },
   "schema" : "L6Preset"
 }
