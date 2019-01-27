@@ -1,16 +1,35 @@
 {
-  "version" : 6,
   "data" : {
     "meta" : {
       "name" : "SnpshotSanctuary",
       "application" : "HX Edit",
-      "build_sha" : "e1abd91",
-      "modifieddate" : 1518068806,
-      "appversion" : 38862848
+      "build_sha" : "144c270",
+      "modifieddate" : 1539806027,
+      "appversion" : 40894464
     },
     "device" : 2162689,
     "tone" : {
       "snapshot7" : {
+        "@name" : "OUTRO",
+        "@tempo" : 120,
+        "@valid" : true,
+        "blocks" : {
+          "dsp1" : {
+            "block1" : true,
+            "block0" : false,
+            "block2" : true
+          },
+          "dsp0" : {
+            "block0" : true,
+            "block4" : false,
+            "block1" : true,
+            "block5" : false,
+            "block2" : true,
+            "block3" : true
+          }
+        },
+        "@pedalstate" : 2,
+        "@ledcolor" : 0,
         "controllers" : {
           "dsp1" : {
             "block1" : {
@@ -54,28 +73,29 @@
               }
             }
           }
-        },
+        }
+      },
+      "snapshot4" : {
+        "@name" : "CHORUS 2",
+        "@tempo" : 120,
+        "@valid" : true,
         "blocks" : {
           "dsp1" : {
             "block1" : true,
             "block0" : false,
-            "block2" : true
+            "block2" : false
           },
           "dsp0" : {
             "block0" : true,
-            "block4" : false,
+            "block4" : true,
             "block1" : true,
-            "block5" : false,
+            "block5" : true,
             "block2" : true,
             "block3" : true
           }
         },
         "@pedalstate" : 2,
         "@ledcolor" : 0,
-        "@name" : "OUTRO",
-        "@tempo" : 120
-      },
-      "snapshot4" : {
         "controllers" : {
           "dsp1" : {
             "block1" : {
@@ -119,26 +139,7 @@
               }
             }
           }
-        },
-        "blocks" : {
-          "dsp1" : {
-            "block1" : true,
-            "block0" : false,
-            "block2" : false
-          },
-          "dsp0" : {
-            "block0" : true,
-            "block4" : true,
-            "block1" : true,
-            "block5" : true,
-            "block2" : true,
-            "block3" : true
-          }
-        },
-        "@pedalstate" : 2,
-        "@ledcolor" : 0,
-        "@name" : "CHORUS 2",
-        "@tempo" : 120
+        }
       },
       "dsp1" : {
         "block0" : {
@@ -216,7 +217,7 @@
         },
         "outputB" : {
           "@model" : "HD2_AppDSPFlowOutput",
-          "@output" : 1,
+          "@output" : 0,
           "pan" : 0.5,
           "gain" : 0
         },
@@ -228,6 +229,26 @@
         }
       },
       "snapshot1" : {
+        "@name" : "Verse 1",
+        "@tempo" : 120,
+        "@valid" : true,
+        "blocks" : {
+          "dsp1" : {
+            "block1" : false,
+            "block0" : false,
+            "block2" : false
+          },
+          "dsp0" : {
+            "block0" : true,
+            "block4" : false,
+            "block1" : true,
+            "block5" : false,
+            "block2" : false,
+            "block3" : true
+          }
+        },
+        "@pedalstate" : 2,
+        "@ledcolor" : 0,
         "controllers" : {
           "dsp1" : {
             "block1" : {
@@ -271,26 +292,7 @@
               }
             }
           }
-        },
-        "blocks" : {
-          "dsp1" : {
-            "block1" : false,
-            "block0" : false,
-            "block2" : false
-          },
-          "dsp0" : {
-            "block0" : true,
-            "block4" : false,
-            "block1" : true,
-            "block5" : false,
-            "block2" : false,
-            "block3" : true
-          }
-        },
-        "@pedalstate" : 2,
-        "@ledcolor" : 0,
-        "@name" : "Verse 1",
-        "@tempo" : 120
+        }
       },
       "controller" : {
         "dsp1" : {
@@ -344,6 +346,26 @@
         }
       },
       "snapshot5" : {
+        "@name" : "BRIDGE",
+        "@tempo" : 120,
+        "@valid" : true,
+        "blocks" : {
+          "dsp1" : {
+            "block1" : true,
+            "block0" : false,
+            "block2" : true
+          },
+          "dsp0" : {
+            "block0" : true,
+            "block4" : false,
+            "block1" : true,
+            "block5" : false,
+            "block2" : true,
+            "block3" : true
+          }
+        },
+        "@pedalstate" : 2,
+        "@ledcolor" : 0,
         "controllers" : {
           "dsp1" : {
             "block1" : {
@@ -387,26 +409,7 @@
               }
             }
           }
-        },
-        "blocks" : {
-          "dsp1" : {
-            "block1" : true,
-            "block0" : false,
-            "block2" : true
-          },
-          "dsp0" : {
-            "block0" : true,
-            "block4" : false,
-            "block1" : true,
-            "block5" : false,
-            "block2" : true,
-            "block3" : true
-          }
-        },
-        "@pedalstate" : 2,
-        "@ledcolor" : 0,
-        "@name" : "BRIDGE",
-        "@tempo" : 120
+        }
       },
       "dsp0" : {
         "join" : {
@@ -564,6 +567,26 @@
         }
       },
       "snapshot2" : {
+        "@name" : "CHORUS 1",
+        "@tempo" : 120,
+        "@valid" : true,
+        "blocks" : {
+          "dsp1" : {
+            "block1" : false,
+            "block0" : false,
+            "block2" : false
+          },
+          "dsp0" : {
+            "block0" : true,
+            "block4" : false,
+            "block1" : true,
+            "block5" : true,
+            "block2" : true,
+            "block3" : true
+          }
+        },
+        "@pedalstate" : 2,
+        "@ledcolor" : 0,
         "controllers" : {
           "dsp1" : {
             "block1" : {
@@ -607,26 +630,7 @@
               }
             }
           }
-        },
-        "blocks" : {
-          "dsp1" : {
-            "block1" : false,
-            "block0" : false,
-            "block2" : false
-          },
-          "dsp0" : {
-            "block0" : true,
-            "block4" : false,
-            "block1" : true,
-            "block5" : true,
-            "block2" : true,
-            "block3" : true
-          }
-        },
-        "@pedalstate" : 2,
-        "@ledcolor" : 0,
-        "@name" : "CHORUS 1",
-        "@tempo" : 120
+        }
       },
       "global" : {
         "@variax_volumeknob" : -0.10000000149011612,
@@ -654,6 +658,26 @@
         "@cursor_group" : "block3"
       },
       "snapshot6" : {
+        "@name" : "SOLO",
+        "@tempo" : 120,
+        "@valid" : true,
+        "blocks" : {
+          "dsp1" : {
+            "block1" : true,
+            "block0" : false,
+            "block2" : true
+          },
+          "dsp0" : {
+            "block0" : true,
+            "block4" : false,
+            "block1" : true,
+            "block5" : true,
+            "block2" : true,
+            "block3" : true
+          }
+        },
+        "@pedalstate" : 2,
+        "@ledcolor" : 0,
         "controllers" : {
           "dsp1" : {
             "block1" : {
@@ -697,26 +721,7 @@
               }
             }
           }
-        },
-        "blocks" : {
-          "dsp1" : {
-            "block1" : true,
-            "block0" : false,
-            "block2" : true
-          },
-          "dsp0" : {
-            "block0" : true,
-            "block4" : false,
-            "block1" : true,
-            "block5" : true,
-            "block2" : true,
-            "block3" : true
-          }
-        },
-        "@pedalstate" : 2,
-        "@ledcolor" : 0,
-        "@name" : "SOLO",
-        "@tempo" : 120
+        }
       },
       "footswitch" : {
         "dsp1" : {
@@ -725,13 +730,15 @@
             "@fs_enabled" : true,
             "@fs_index" : 11,
             "@fs_ledcolor" : 16723200,
+            "@fs_primary" : true,
             "@fs_momentary" : false
           },
           "block0" : {
-            "@fs_label" : "Looper",
+            "@fs_label" : "6 Switch Looper",
             "@fs_enabled" : false,
             "@fs_index" : 5,
             "@fs_ledcolor" : 462860,
+            "@fs_primary" : true,
             "@fs_momentary" : false
           },
           "block2" : {
@@ -739,6 +746,7 @@
             "@fs_enabled" : false,
             "@fs_index" : 4,
             "@fs_ledcolor" : 1049600,
+            "@fs_primary" : true,
             "@fs_momentary" : false
           }
         },
@@ -748,6 +756,7 @@
             "@fs_enabled" : true,
             "@fs_index" : 13,
             "@fs_ledcolor" : 65408,
+            "@fs_primary" : true,
             "@fs_momentary" : false
           },
           "block4" : {
@@ -755,6 +764,7 @@
             "@fs_enabled" : false,
             "@fs_index" : 9,
             "@fs_ledcolor" : 1037,
+            "@fs_primary" : true,
             "@fs_momentary" : false
           },
           "block5" : {
@@ -762,6 +772,7 @@
             "@fs_enabled" : false,
             "@fs_index" : 10,
             "@fs_ledcolor" : 67840,
+            "@fs_primary" : true,
             "@fs_momentary" : false
           },
           "block2" : {
@@ -769,11 +780,32 @@
             "@fs_enabled" : false,
             "@fs_index" : 8,
             "@fs_ledcolor" : 525824,
+            "@fs_primary" : true,
             "@fs_momentary" : false
           }
         }
       },
       "snapshot3" : {
+        "@name" : "Verse 2",
+        "@tempo" : 120,
+        "@valid" : true,
+        "blocks" : {
+          "dsp1" : {
+            "block1" : true,
+            "block0" : false,
+            "block2" : false
+          },
+          "dsp0" : {
+            "block0" : true,
+            "block4" : true,
+            "block1" : true,
+            "block5" : false,
+            "block2" : false,
+            "block3" : true
+          }
+        },
+        "@pedalstate" : 2,
+        "@ledcolor" : 0,
         "controllers" : {
           "dsp1" : {
             "block1" : {
@@ -817,7 +849,12 @@
               }
             }
           }
-        },
+        }
+      },
+      "snapshot0" : {
+        "@name" : "INTRO",
+        "@tempo" : 120,
+        "@valid" : true,
         "blocks" : {
           "dsp1" : {
             "block1" : true,
@@ -826,7 +863,7 @@
           },
           "dsp0" : {
             "block0" : true,
-            "block4" : true,
+            "block4" : false,
             "block1" : true,
             "block5" : false,
             "block2" : false,
@@ -835,10 +872,6 @@
         },
         "@pedalstate" : 2,
         "@ledcolor" : 0,
-        "@name" : "Verse 2",
-        "@tempo" : 120
-      },
-      "snapshot0" : {
         "controllers" : {
           "dsp1" : {
             "block1" : {
@@ -882,29 +915,16 @@
               }
             }
           }
-        },
-        "blocks" : {
-          "dsp1" : {
-            "block1" : true,
-            "block0" : false,
-            "block2" : false
-          },
-          "dsp0" : {
-            "block0" : true,
-            "block4" : false,
-            "block1" : true,
-            "block5" : false,
-            "block2" : false,
-            "block3" : true
-          }
-        },
-        "@pedalstate" : 2,
-        "@ledcolor" : 0,
-        "@name" : "INTRO",
-        "@tempo" : 120
+        }
       }
     },
-    "device_version" : 38797312
+    "device_version" : 39845888
   },
-  "schema" : "L6Preset"
+  "meta" : {
+    "original" : 0,
+    "pbn" : 0,
+    "premium" : 0
+  },
+  "schema" : "L6Preset",
+  "version" : 6
 }
