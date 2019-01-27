@@ -4,7 +4,7 @@
       "name" : "Unicorns Forever",
       "application" : "HX Edit",
       "build_sha" : "07fbd59",
-      "modifieddate" : 1539806006,
+      "modifieddate" : 1539826350,
       "appversion" : 40894464
     },
     "device" : 2162689,
@@ -780,7 +780,7 @@
         }
       }
     },
-    "device_version" : 39845888
+    "device_version" : 40894464
   },
   "meta" : {
     "original" : 0,
