@@ -4,7 +4,7 @@
       "name" : "Rezz Score",
       "application" : "HX Edit",
       "build_sha" : "144c270",
-      "modifieddate" : 1539806005,
+      "modifieddate" : 1539826350,
       "appversion" : 40894464
     },
     "device" : 2162689,
@@ -680,7 +680,7 @@
         }
       }
     },
-    "device_version" : 39845888
+    "device_version" : 40894464
   },
   "meta" : {
     "original" : 0,

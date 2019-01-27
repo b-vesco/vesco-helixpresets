@@ -4,7 +4,7 @@
       "name" : "Admission 2 Ride",
       "application" : "HX Edit",
       "build_sha" : "e5f45bf",
-      "modifieddate" : 1539806025,
+      "modifieddate" : 1539826314,
       "appversion" : 40894464
     },
     "device" : 2162689,
@@ -534,7 +534,7 @@
         }
       }
     },
-    "device_version" : 39845888
+    "device_version" : 40894464
   },
   "meta" : {
     "original" : 0,
