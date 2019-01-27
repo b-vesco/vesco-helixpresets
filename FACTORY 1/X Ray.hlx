@@ -4,7 +4,7 @@
       "name" : "X Ray",
       "application" : "HX Edit",
       "build_sha" : "4a6e662",
-      "modifieddate" : 1539806026,
+      "modifieddate" : 1539826315,
       "appversion" : 40894464
     },
     "device" : 2162689,
@@ -673,7 +673,7 @@
         }
       }
     },
-    "device_version" : 39845888
+    "device_version" : 40894464
   },
   "meta" : {
     "original" : 0,
