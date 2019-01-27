@@ -1,22 +1,45 @@
 {
-  "version" : 6,
   "data" : {
     "meta" : {
       "name" : "Bitey Panner",
       "application" : "HX Edit",
-      "build_sha" : "e1abd91",
-      "modifieddate" : 1518068788,
-      "appversion" : 38862848
+      "build_sha" : "4a6e662",
+      "modifieddate" : 1539806006,
+      "appversion" : 40894464
     },
     "device" : 2162689,
     "tone" : {
       "snapshot7" : {
+        "@valid" : false,
+        "blocks" : {
+          "dsp0" : {
+            "block0" : false,
+            "block1" : true,
+            "block2" : true,
+            "block3" : true,
+            "block4" : true,
+            "block5" : true,
+            "block6" : true
+          }
+        },
         "@pedalstate" : 2,
         "@ledcolor" : 0,
         "@name" : "SNAPSHOT 8",
         "@tempo" : 240
       },
       "snapshot4" : {
+        "@valid" : false,
+        "blocks" : {
+          "dsp0" : {
+            "block0" : false,
+            "block1" : true,
+            "block2" : true,
+            "block3" : true,
+            "block4" : true,
+            "block5" : true,
+            "block6" : true
+          }
+        },
         "@pedalstate" : 2,
         "@ledcolor" : 0,
         "@name" : "SNAPSHOT 5",
@@ -64,18 +87,42 @@
         },
         "outputB" : {
           "@model" : "HD2_AppDSPFlowOutput",
-          "@output" : 1,
+          "@output" : 0,
           "pan" : 0.5,
           "gain" : 0
         }
       },
       "snapshot1" : {
+        "@valid" : false,
+        "blocks" : {
+          "dsp0" : {
+            "block0" : false,
+            "block1" : true,
+            "block2" : true,
+            "block3" : true,
+            "block4" : true,
+            "block5" : true,
+            "block6" : true
+          }
+        },
         "@pedalstate" : 2,
         "@ledcolor" : 0,
         "@name" : "SNAPSHOT 2",
         "@tempo" : 240
       },
       "snapshot5" : {
+        "@valid" : false,
+        "blocks" : {
+          "dsp0" : {
+            "block0" : false,
+            "block1" : true,
+            "block2" : true,
+            "block3" : true,
+            "block4" : true,
+            "block5" : true,
+            "block6" : true
+          }
+        },
         "@pedalstate" : 2,
         "@ledcolor" : 0,
         "@name" : "SNAPSHOT 6",
@@ -104,7 +151,7 @@
           "Gain" : 0.51999998092651367,
           "@position" : 2,
           "Level" : 0.625,
-          "@enabled" : true
+          "@enabled" : false
         },
         "block2" : {
           "@model" : "HD2_CompressorRedSqueeze",
@@ -137,7 +184,7 @@
         },
         "outputB" : {
           "@model" : "HD2_AppDSPFlowOutput",
-          "@output" : 1,
+          "@output" : 0,
           "pan" : 0.5,
           "gain" : 0
         },
@@ -148,13 +195,21 @@
           "decay" : 0.5,
           "threshold" : -48
         },
-        "split" : {
-          "BalanceA" : 0.5,
-          "@model" : "HD2_AppDSPFlowSplitY",
+        "block6" : {
+          "@model" : "HD2_TremoloTremolo",
+          "@position" : 5,
+          "SyncSelect1" : 6,
+          "TempoSync1" : true,
+          "Intensity" : 1,
+          "Speed" : 2.9100000858306885,
           "@enabled" : true,
-          "bypass" : false,
-          "@position" : 0,
-          "BalanceB" : 0.5
+          "DutyCycle" : 0.5,
+          "@path" : 0,
+          "@type" : 0,
+          "Level" : 0,
+          "@stereo" : true,
+          "Spread" : 1,
+          "WaveShape" : 4
         },
         "block0" : {
           "@model" : "HD2_Looper",
@@ -168,21 +223,32 @@
           "@position" : 7,
           "@enabled" : false
         },
-        "block5" : {
-          "@model" : "HD2_TremoloTremolo",
-          "@position" : 4,
-          "SyncSelect1" : 8,
-          "TempoSync1" : true,
-          "Intensity" : 1,
-          "Speed" : 2.9100000858306885,
+        "split" : {
+          "BalanceA" : 0.5,
+          "@model" : "HD2_AppDSPFlowSplitY",
           "@enabled" : true,
-          "DutyCycle" : 0.5,
+          "bypass" : false,
+          "@position" : 0,
+          "BalanceB" : 0.5
+        },
+        "block5" : {
+          "Spread" : 1,
+          "@model" : "HD2_ReverbSearchlights",
+          "@position" : 4,
+          "LowCut" : 19.899999618530273,
+          "Intensity" : 0.62599992752075195,
+          "Speed" : 0.36640000343322754,
+          "@enabled" : false,
           "@path" : 0,
-          "@type" : 0,
+          "@trails" : false,
+          "@type" : 7,
+          "Mix" : 0.38999998569488525,
+          "Modulation" : 0.20799994468688965,
           "Level" : 0,
           "@stereo" : true,
-          "Spread" : 1,
-          "WaveShape" : 4
+          "Decay" : 0.75999999046325684,
+          "HighCut" : 8455,
+          "Predelay" : 0
         },
         "cab0" : {
           "@model" : "HD2_Cab2x12SilverBell",
@@ -222,6 +288,18 @@
         }
       },
       "snapshot2" : {
+        "@valid" : false,
+        "blocks" : {
+          "dsp0" : {
+            "block0" : false,
+            "block1" : true,
+            "block2" : true,
+            "block3" : true,
+            "block4" : true,
+            "block5" : true,
+            "block6" : true
+          }
+        },
         "@pedalstate" : 2,
         "@ledcolor" : 0,
         "@name" : "SNAPSHOT 3",
@@ -243,16 +321,28 @@
         "@guitarinputZ" : 0,
         "@tempo" : 240,
         "@topology1" : "A",
-        "@cursor_position" : 3,
+        "@cursor_position" : 5,
         "@variax_lockctrls" : 0,
         "@variax_magmode" : true,
         "@variax_str3tuning" : 0,
         "@variax_str5tuning" : 0,
         "@variax_toneknob" : -0.10000000149011612,
         "@current_snapshot" : 0,
-        "@cursor_group" : "block4"
+        "@cursor_group" : "block6"
       },
       "snapshot6" : {
+        "@valid" : false,
+        "blocks" : {
+          "dsp0" : {
+            "block0" : false,
+            "block1" : true,
+            "block2" : true,
+            "block3" : true,
+            "block4" : true,
+            "block5" : true,
+            "block6" : true
+          }
+        },
         "@pedalstate" : 2,
         "@ledcolor" : 0,
         "@name" : "SNAPSHOT 7",
@@ -261,10 +351,11 @@
       "footswitch" : {
         "dsp0" : {
           "block0" : {
-            "@fs_label" : "Looper",
+            "@fs_label" : "6 Switch Looper",
             "@fs_enabled" : false,
             "@fs_index" : 5,
             "@fs_ledcolor" : 462860,
+            "@fs_primary" : true,
             "@fs_momentary" : false
           },
           "block1" : {
@@ -272,14 +363,15 @@
             "@fs_enabled" : true,
             "@fs_index" : 2,
             "@fs_ledcolor" : 8716032,
+            "@fs_primary" : true,
             "@fs_momentary" : false
           },
           "block5" : {
-            "@fs_label" : "Tremolo\/Autopan",
-            "@fs_enabled" : true,
-            "@fs_index" : 10,
-            "@fs_customlabel" : "Danny Panner",
-            "@fs_ledcolor" : 13055,
+            "@fs_label" : "Searchlights",
+            "@fs_enabled" : false,
+            "@fs_index" : 11,
+            "@fs_ledcolor" : 1049600,
+            "@fs_primary" : true,
             "@fs_momentary" : false
           },
           "block2" : {
@@ -287,33 +379,58 @@
             "@fs_enabled" : true,
             "@fs_index" : 3,
             "@fs_ledcolor" : 8716032,
+            "@fs_primary" : true,
             "@fs_momentary" : false
           },
-          "block3" : {
-            "@fs_label" : "Teemah!",
+          "block6" : {
+            "@fs_momentary" : false,
+            "@fs_primary" : true,
+            "@fs_index" : 10,
             "@fs_enabled" : true,
+            "@fs_ledcolor" : 13055,
+            "@fs_customlabel" : "Danny Panner",
+            "@fs_label" : "Tremolo\/Autopan"
+          },
+          "block3" : {
+            "@fs_momentary" : false,
+            "@fs_primary" : true,
             "@fs_index" : 9,
+            "@fs_enabled" : false,
+            "@fs_ledcolor" : 525824,
             "@fs_customlabel" : "Xtra Bite",
-            "@fs_ledcolor" : 13676288,
-            "@fs_momentary" : false
+            "@fs_label" : "Teemah!"
           }
         }
       },
       "snapshot3" : {
+        "@valid" : false,
+        "blocks" : {
+          "dsp0" : {
+            "block0" : false,
+            "block1" : true,
+            "block2" : true,
+            "block3" : true,
+            "block4" : true,
+            "block5" : true,
+            "block6" : true
+          }
+        },
         "@pedalstate" : 2,
         "@ledcolor" : 0,
         "@name" : "SNAPSHOT 4",
         "@tempo" : 240
       },
       "snapshot0" : {
+        "@valid" : true,
         "blocks" : {
           "dsp0" : {
             "block0" : false,
-            "block4" : true,
             "block1" : true,
-            "block5" : true,
             "block2" : true,
-            "block3" : true
+            "block3" : false,
+            "block4" : true,
+            "block5" : false,
+            "block6" : true
           }
         },
         "@pedalstate" : 2,
@@ -322,7 +439,13 @@
         "@tempo" : 240
       }
     },
-    "device_version" : 38797312
+    "device_version" : 39845888
   },
-  "schema" : "L6Preset"
+  "meta" : {
+    "original" : 0,
+    "pbn" : 0,
+    "premium" : 0
+  },
+  "schema" : "L6Preset",
+  "version" : 6
 }

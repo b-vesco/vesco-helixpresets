@@ -1,12 +1,11 @@
 {
-  "version" : 6,
   "data" : {
     "meta" : {
       "name" : "New Preset",
       "application" : "HX Edit",
       "build_sha" : "dd24475",
-      "modifieddate" : 1511418766,
-      "appversion" : 36700160
+      "modifieddate" : 1539805951,
+      "appversion" : 40894464
     },
     "device" : 2162689,
     "tone" : {
@@ -52,7 +51,7 @@
         },
         "outputB" : {
           "@model" : "HD2_AppDSPFlowOutput",
-          "@output" : 1,
+          "@output" : 0,
           "pan" : 0.5,
           "gain" : 0
         }
@@ -83,36 +82,42 @@
         "@cursor_group" : ""
       },
       "snapshot1" : {
+        "@valid" : false,
         "@pedalstate" : 2,
         "@ledcolor" : 0,
         "@name" : "SNAPSHOT 2",
         "@tempo" : 120
       },
       "snapshot3" : {
+        "@valid" : false,
         "@pedalstate" : 2,
         "@ledcolor" : 0,
         "@name" : "SNAPSHOT 4",
         "@tempo" : 120
       },
       "snapshot5" : {
+        "@valid" : false,
         "@pedalstate" : 2,
         "@ledcolor" : 0,
         "@name" : "SNAPSHOT 6",
         "@tempo" : 120
       },
       "snapshot6" : {
+        "@valid" : false,
         "@pedalstate" : 2,
         "@ledcolor" : 0,
         "@name" : "SNAPSHOT 7",
         "@tempo" : 120
       },
       "snapshot4" : {
+        "@valid" : false,
         "@pedalstate" : 2,
         "@ledcolor" : 0,
         "@name" : "SNAPSHOT 5",
         "@tempo" : 120
       },
       "snapshot2" : {
+        "@valid" : false,
         "@pedalstate" : 2,
         "@ledcolor" : 0,
         "@name" : "SNAPSHOT 3",
@@ -160,25 +165,33 @@
         },
         "outputB" : {
           "@model" : "HD2_AppDSPFlowOutput",
-          "@output" : 1,
+          "@output" : 0,
           "pan" : 0.5,
           "gain" : 0
         }
       },
       "snapshot0" : {
+        "@valid" : false,
         "@pedalstate" : 2,
         "@ledcolor" : 0,
         "@name" : "SNAPSHOT 1",
         "@tempo" : 120
       },
       "snapshot7" : {
+        "@valid" : false,
         "@pedalstate" : 2,
         "@ledcolor" : 0,
         "@name" : "SNAPSHOT 8",
         "@tempo" : 120
       }
     },
-    "device_version" : 36700160
+    "device_version" : 39845888
   },
-  "schema" : "L6Preset"
+  "meta" : {
+    "original" : 0,
+    "pbn" : 0,
+    "premium" : 0
+  },
+  "schema" : "L6Preset",
+  "version" : 6
 }

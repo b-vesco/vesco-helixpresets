@@ -1,22 +1,53 @@
 {
-  "version" : 6,
   "data" : {
     "meta" : {
       "name" : "Jonny VibeZ",
       "application" : "HX Edit",
-      "build_sha" : "e1abd91",
-      "modifieddate" : 1518068805,
-      "appversion" : 38862848
+      "build_sha" : "144c270",
+      "modifieddate" : 1539806025,
+      "appversion" : 40894464
     },
     "device" : 2162689,
     "tone" : {
       "snapshot7" : {
+        "@valid" : false,
+        "blocks" : {
+          "dsp1" : {
+            "block1" : true,
+            "block0" : false,
+            "block2" : true
+          },
+          "dsp0" : {
+            "block0" : true,
+            "block4" : true,
+            "block1" : true,
+            "split" : true,
+            "block2" : true,
+            "block3" : false
+          }
+        },
         "@pedalstate" : 2,
         "@ledcolor" : 0,
         "@name" : "SNAPSHOT 8",
         "@tempo" : 120
       },
       "snapshot4" : {
+        "@valid" : false,
+        "blocks" : {
+          "dsp1" : {
+            "block1" : true,
+            "block0" : false,
+            "block2" : true
+          },
+          "dsp0" : {
+            "block0" : true,
+            "block4" : true,
+            "block1" : true,
+            "split" : true,
+            "block2" : true,
+            "block3" : false
+          }
+        },
         "@pedalstate" : 2,
         "@ledcolor" : 0,
         "@name" : "SNAPSHOT 5",
@@ -111,7 +142,7 @@
         },
         "outputB" : {
           "@model" : "HD2_AppDSPFlowOutput",
-          "@output" : 1,
+          "@output" : 0,
           "pan" : 0.5,
           "gain" : 0
         },
@@ -123,12 +154,44 @@
         }
       },
       "snapshot1" : {
+        "@valid" : false,
+        "blocks" : {
+          "dsp1" : {
+            "block1" : true,
+            "block0" : false,
+            "block2" : true
+          },
+          "dsp0" : {
+            "block0" : true,
+            "block4" : true,
+            "block1" : true,
+            "split" : true,
+            "block2" : true,
+            "block3" : false
+          }
+        },
         "@pedalstate" : 2,
         "@ledcolor" : 0,
         "@name" : "SNAPSHOT 2",
         "@tempo" : 120
       },
       "snapshot5" : {
+        "@valid" : false,
+        "blocks" : {
+          "dsp1" : {
+            "block1" : true,
+            "block0" : false,
+            "block2" : true
+          },
+          "dsp0" : {
+            "block0" : true,
+            "block4" : true,
+            "block1" : true,
+            "split" : true,
+            "block2" : true,
+            "block3" : false
+          }
+        },
         "@pedalstate" : 2,
         "@ledcolor" : 0,
         "@name" : "SNAPSHOT 6",
@@ -280,6 +343,22 @@
         }
       },
       "snapshot2" : {
+        "@valid" : false,
+        "blocks" : {
+          "dsp1" : {
+            "block1" : true,
+            "block0" : false,
+            "block2" : true
+          },
+          "dsp0" : {
+            "block0" : true,
+            "block4" : true,
+            "block1" : true,
+            "split" : true,
+            "block2" : true,
+            "block3" : false
+          }
+        },
         "@pedalstate" : 2,
         "@ledcolor" : 0,
         "@name" : "SNAPSHOT 3",
@@ -301,16 +380,32 @@
         "@guitarinputZ" : 0,
         "@tempo" : 120,
         "@topology1" : "A",
-        "@cursor_position" : 3,
+        "@cursor_position" : 2,
         "@variax_lockctrls" : 0,
         "@variax_magmode" : true,
         "@variax_str3tuning" : 0,
         "@variax_str5tuning" : 0,
         "@variax_toneknob" : -0.10000000149011612,
         "@current_snapshot" : 0,
-        "@cursor_group" : "block4"
+        "@cursor_group" : "block0"
       },
       "snapshot6" : {
+        "@valid" : false,
+        "blocks" : {
+          "dsp1" : {
+            "block1" : true,
+            "block0" : false,
+            "block2" : true
+          },
+          "dsp0" : {
+            "block0" : true,
+            "block4" : true,
+            "block1" : true,
+            "split" : true,
+            "block2" : true,
+            "block3" : false
+          }
+        },
         "@pedalstate" : 2,
         "@ledcolor" : 0,
         "@name" : "SNAPSHOT 7",
@@ -323,13 +418,15 @@
             "@fs_enabled" : true,
             "@fs_index" : 10,
             "@fs_ledcolor" : 458496,
+            "@fs_primary" : true,
             "@fs_momentary" : false
           },
           "block0" : {
-            "@fs_label" : "Looper",
+            "@fs_label" : "6 Switch Looper",
             "@fs_enabled" : false,
             "@fs_index" : 5,
             "@fs_ledcolor" : 462860,
+            "@fs_primary" : true,
             "@fs_momentary" : false
           },
           "block2" : {
@@ -337,6 +434,7 @@
             "@fs_enabled" : true,
             "@fs_index" : 11,
             "@fs_ledcolor" : 16723200,
+            "@fs_primary" : true,
             "@fs_momentary" : false
           }
         },
@@ -346,6 +444,7 @@
             "@fs_enabled" : true,
             "@fs_index" : 9,
             "@fs_ledcolor" : 13055,
+            "@fs_primary" : true,
             "@fs_momentary" : false
           },
           "block3" : {
@@ -353,17 +452,35 @@
             "@fs_enabled" : false,
             "@fs_index" : 8,
             "@fs_ledcolor" : 525824,
+            "@fs_primary" : true,
             "@fs_momentary" : false
           }
         }
       },
       "snapshot3" : {
+        "@valid" : false,
+        "blocks" : {
+          "dsp1" : {
+            "block1" : true,
+            "block0" : false,
+            "block2" : true
+          },
+          "dsp0" : {
+            "block0" : true,
+            "block4" : true,
+            "block1" : true,
+            "split" : true,
+            "block2" : true,
+            "block3" : false
+          }
+        },
         "@pedalstate" : 2,
         "@ledcolor" : 0,
         "@name" : "SNAPSHOT 4",
         "@tempo" : 120
       },
       "snapshot0" : {
+        "@valid" : true,
         "blocks" : {
           "dsp1" : {
             "block1" : true,
@@ -385,7 +502,13 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 38797312
+    "device_version" : 39845888
   },
-  "schema" : "L6Preset"
+  "meta" : {
+    "original" : 0,
+    "pbn" : 0,
+    "premium" : 0
+  },
+  "schema" : "L6Preset",
+  "version" : 6
 }
