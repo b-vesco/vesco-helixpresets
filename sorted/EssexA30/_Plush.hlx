@@ -1,26 +1,99 @@
 {
-  "version" : 6,
   "data" : {
     "meta" : {
-      "name" : "Plush",
+      "name" : "Plush Doll",
       "application" : "HX Edit",
-      "build_sha" : "37cfcb5",
-      "modifieddate" : 1518068788,
-      "appversion" : 38862848
+      "build_sha" : "07fbd59",
+      "modifieddate" : 1539806007,
+      "appversion" : 40894464
     },
     "device" : 2162689,
     "tone" : {
       "snapshot7" : {
+        "@name" : "SNAPSHOT 8",
+        "@tempo" : 73.800003051757812,
+        "@valid" : false,
+        "blocks" : {
+          "dsp1" : {
+            "block0" : false,
+            "block1" : true,
+            "block2" : false,
+            "block3" : true
+          },
+          "dsp0" : {
+            "block0" : false,
+            "block1" : true,
+            "block2" : true,
+            "block3" : true,
+            "block4" : true,
+            "block5" : false,
+            "block6" : true,
+            "split" : true
+          }
+        },
         "@pedalstate" : 2,
         "@ledcolor" : 0,
-        "@name" : "SNAPSHOT 8",
-        "@tempo" : 73.800003051757812
+        "controllers" : {
+          "dsp1" : {
+            "block3" : {
+              "Pedal" : {
+                "@fs_enabled" : false,
+                "@value" : 1
+              }
+            }
+          },
+          "dsp0" : {
+            "block5" : {
+              "Pedal" : {
+                "@fs_enabled" : false,
+                "@value" : 0
+              }
+            }
+          }
+        }
       },
       "snapshot4" : {
+        "@name" : "SNAPSHOT 5",
+        "@tempo" : 73.800003051757812,
+        "@valid" : false,
+        "blocks" : {
+          "dsp1" : {
+            "block0" : false,
+            "block1" : true,
+            "block2" : false,
+            "block3" : true
+          },
+          "dsp0" : {
+            "block0" : false,
+            "block1" : true,
+            "block2" : true,
+            "block3" : true,
+            "block4" : true,
+            "block5" : false,
+            "block6" : true,
+            "split" : true
+          }
+        },
         "@pedalstate" : 2,
         "@ledcolor" : 0,
-        "@name" : "SNAPSHOT 5",
-        "@tempo" : 73.800003051757812
+        "controllers" : {
+          "dsp1" : {
+            "block3" : {
+              "Pedal" : {
+                "@fs_enabled" : false,
+                "@value" : 1
+              }
+            }
+          },
+          "dsp0" : {
+            "block5" : {
+              "Pedal" : {
+                "@fs_enabled" : false,
+                "@value" : 0
+              }
+            }
+          }
+        }
       },
       "dsp1" : {
         "block0" : {
@@ -122,10 +195,47 @@
         }
       },
       "snapshot1" : {
+        "@name" : "SNAPSHOT 2",
+        "@tempo" : 73.800003051757812,
+        "@valid" : false,
+        "blocks" : {
+          "dsp1" : {
+            "block0" : false,
+            "block1" : true,
+            "block2" : false,
+            "block3" : true
+          },
+          "dsp0" : {
+            "block0" : false,
+            "block1" : true,
+            "block2" : true,
+            "block3" : true,
+            "block4" : true,
+            "block5" : false,
+            "block6" : true,
+            "split" : true
+          }
+        },
         "@pedalstate" : 2,
         "@ledcolor" : 0,
-        "@name" : "SNAPSHOT 2",
-        "@tempo" : 73.800003051757812
+        "controllers" : {
+          "dsp1" : {
+            "block3" : {
+              "Pedal" : {
+                "@fs_enabled" : false,
+                "@value" : 1
+              }
+            }
+          },
+          "dsp0" : {
+            "block5" : {
+              "Pedal" : {
+                "@fs_enabled" : false,
+                "@value" : 0
+              }
+            }
+          }
+        }
       },
       "controller" : {
         "dsp1" : {
@@ -148,10 +258,47 @@
         }
       },
       "snapshot5" : {
+        "@name" : "SNAPSHOT 6",
+        "@tempo" : 73.800003051757812,
+        "@valid" : false,
+        "blocks" : {
+          "dsp1" : {
+            "block0" : false,
+            "block1" : true,
+            "block2" : false,
+            "block3" : true
+          },
+          "dsp0" : {
+            "block0" : false,
+            "block1" : true,
+            "block2" : true,
+            "block3" : true,
+            "block4" : true,
+            "block5" : false,
+            "block6" : true,
+            "split" : true
+          }
+        },
         "@pedalstate" : 2,
         "@ledcolor" : 0,
-        "@name" : "SNAPSHOT 6",
-        "@tempo" : 73.800003051757812
+        "controllers" : {
+          "dsp1" : {
+            "block3" : {
+              "Pedal" : {
+                "@fs_enabled" : false,
+                "@value" : 1
+              }
+            }
+          },
+          "dsp0" : {
+            "block5" : {
+              "Pedal" : {
+                "@fs_enabled" : false,
+                "@value" : 0
+              }
+            }
+          }
+        }
       },
       "dsp0" : {
         "join" : {
@@ -312,10 +459,47 @@
         }
       },
       "snapshot2" : {
+        "@name" : "SNAPSHOT 3",
+        "@tempo" : 73.800003051757812,
+        "@valid" : false,
+        "blocks" : {
+          "dsp1" : {
+            "block0" : false,
+            "block1" : true,
+            "block2" : false,
+            "block3" : true
+          },
+          "dsp0" : {
+            "block0" : false,
+            "block1" : true,
+            "block2" : true,
+            "block3" : true,
+            "block4" : true,
+            "block5" : false,
+            "block6" : true,
+            "split" : true
+          }
+        },
         "@pedalstate" : 2,
         "@ledcolor" : 0,
-        "@name" : "SNAPSHOT 3",
-        "@tempo" : 73.800003051757812
+        "controllers" : {
+          "dsp1" : {
+            "block3" : {
+              "Pedal" : {
+                "@fs_enabled" : false,
+                "@value" : 1
+              }
+            }
+          },
+          "dsp0" : {
+            "block5" : {
+              "Pedal" : {
+                "@fs_enabled" : false,
+                "@value" : 0
+              }
+            }
+          }
+        }
       },
       "global" : {
         "@variax_volumeknob" : 10,
@@ -343,91 +527,9 @@
         "@cursor_group" : "block1"
       },
       "snapshot6" : {
-        "@pedalstate" : 2,
-        "@ledcolor" : 0,
         "@name" : "SNAPSHOT 7",
-        "@tempo" : 73.800003051757812
-      },
-      "footswitch" : {
-        "dsp1" : {
-          "block0" : {
-            "@fs_label" : "Simple Delay",
-            "@fs_enabled" : false,
-            "@fs_index" : 10,
-            "@fs_ledcolor" : 67840,
-            "@fs_momentary" : false
-          },
-          "block1" : {
-            "@fs_label" : "Room",
-            "@fs_enabled" : true,
-            "@fs_index" : 11,
-            "@fs_ledcolor" : 16723200,
-            "@fs_momentary" : false
-          },
-          "block2" : {
-            "@fs_label" : "Looper",
-            "@fs_enabled" : false,
-            "@fs_index" : 5,
-            "@fs_ledcolor" : 462860,
-            "@fs_momentary" : false
-          },
-          "block3" : {
-            "@fs_label" : "Volume Pedal",
-            "@fs_enabled" : true,
-            "@fs_index" : 13,
-            "@fs_ledcolor" : 65408,
-            "@fs_momentary" : false
-          }
-        },
-        "dsp0" : {
-          "block6" : {
-            "@fs_label" : "70s Chorus",
-            "@fs_enabled" : true,
-            "@fs_index" : 9,
-            "@fs_ledcolor" : 13055,
-            "@fs_momentary" : false
-          },
-          "block0" : {
-            "@fs_label" : "Scream 808",
-            "@fs_enabled" : false,
-            "@fs_index" : 8,
-            "@fs_ledcolor" : 525824,
-            "@fs_momentary" : false
-          },
-          "block5" : {
-            "@fs_label" : "Fassel",
-            "@fs_enabled" : false,
-            "@fs_index" : 13,
-            "@fs_ledcolor" : 196619,
-            "@fs_momentary" : false
-          }
-        }
-      },
-      "snapshot3" : {
-        "@pedalstate" : 2,
-        "@ledcolor" : 0,
-        "@name" : "SNAPSHOT 4",
-        "@tempo" : 73.800003051757812
-      },
-      "snapshot0" : {
-        "controllers" : {
-          "dsp1" : {
-            "block3" : {
-              "Pedal" : {
-                "@fs_enabled" : false,
-                "@value" : 1
-              }
-            }
-          },
-          "dsp0" : {
-            "block5" : {
-              "Pedal" : {
-                "@fs_enabled" : false,
-                "@value" : 0
-              }
-            }
-          }
-        },
+        "@tempo" : 73.800003051757812,
+        "@valid" : false,
         "blocks" : {
           "dsp1" : {
             "block0" : false,
@@ -448,11 +550,180 @@
         },
         "@pedalstate" : 2,
         "@ledcolor" : 0,
+        "controllers" : {
+          "dsp1" : {
+            "block3" : {
+              "Pedal" : {
+                "@fs_enabled" : false,
+                "@value" : 1
+              }
+            }
+          },
+          "dsp0" : {
+            "block5" : {
+              "Pedal" : {
+                "@fs_enabled" : false,
+                "@value" : 0
+              }
+            }
+          }
+        }
+      },
+      "footswitch" : {
+        "dsp1" : {
+          "block0" : {
+            "@fs_label" : "Simple Delay",
+            "@fs_enabled" : false,
+            "@fs_index" : 10,
+            "@fs_ledcolor" : 67840,
+            "@fs_primary" : true,
+            "@fs_momentary" : false
+          },
+          "block1" : {
+            "@fs_label" : "Room",
+            "@fs_enabled" : true,
+            "@fs_index" : 11,
+            "@fs_ledcolor" : 16723200,
+            "@fs_primary" : true,
+            "@fs_momentary" : false
+          },
+          "block2" : {
+            "@fs_label" : "6 Switch Looper",
+            "@fs_enabled" : false,
+            "@fs_index" : 5,
+            "@fs_ledcolor" : 462860,
+            "@fs_primary" : true,
+            "@fs_momentary" : false
+          },
+          "block3" : {
+            "@fs_label" : "Volume Pedal",
+            "@fs_enabled" : true,
+            "@fs_index" : 13,
+            "@fs_ledcolor" : 65408,
+            "@fs_momentary" : false
+          }
+        },
+        "dsp0" : {
+          "block6" : {
+            "@fs_label" : "70s Chorus",
+            "@fs_enabled" : true,
+            "@fs_index" : 9,
+            "@fs_ledcolor" : 13055,
+            "@fs_primary" : true,
+            "@fs_momentary" : false
+          },
+          "block0" : {
+            "@fs_label" : "Scream 808",
+            "@fs_enabled" : false,
+            "@fs_index" : 8,
+            "@fs_ledcolor" : 525824,
+            "@fs_primary" : true,
+            "@fs_momentary" : false
+          },
+          "block5" : {
+            "@fs_label" : "Fassel",
+            "@fs_enabled" : false,
+            "@fs_index" : 13,
+            "@fs_ledcolor" : 196619,
+            "@fs_primary" : true,
+            "@fs_momentary" : false
+          }
+        }
+      },
+      "snapshot3" : {
+        "@name" : "SNAPSHOT 4",
+        "@tempo" : 73.800003051757812,
+        "@valid" : false,
+        "blocks" : {
+          "dsp1" : {
+            "block0" : false,
+            "block1" : true,
+            "block2" : false,
+            "block3" : true
+          },
+          "dsp0" : {
+            "block0" : false,
+            "block1" : true,
+            "block2" : true,
+            "block3" : true,
+            "block4" : true,
+            "block5" : false,
+            "block6" : true,
+            "split" : true
+          }
+        },
+        "@pedalstate" : 2,
+        "@ledcolor" : 0,
+        "controllers" : {
+          "dsp1" : {
+            "block3" : {
+              "Pedal" : {
+                "@fs_enabled" : false,
+                "@value" : 1
+              }
+            }
+          },
+          "dsp0" : {
+            "block5" : {
+              "Pedal" : {
+                "@fs_enabled" : false,
+                "@value" : 0
+              }
+            }
+          }
+        }
+      },
+      "snapshot0" : {
         "@name" : "SNAPSHOT 1",
-        "@tempo" : 73.800003051757812
+        "@tempo" : 73.800003051757812,
+        "@valid" : true,
+        "blocks" : {
+          "dsp1" : {
+            "block0" : false,
+            "block1" : true,
+            "block2" : false,
+            "block3" : true
+          },
+          "dsp0" : {
+            "block0" : false,
+            "block1" : true,
+            "block2" : true,
+            "block3" : true,
+            "block4" : true,
+            "block5" : false,
+            "block6" : true,
+            "split" : true
+          }
+        },
+        "@pedalstate" : 2,
+        "@ledcolor" : 0,
+        "controllers" : {
+          "dsp1" : {
+            "block3" : {
+              "Pedal" : {
+                "@fs_enabled" : false,
+                "@value" : 1
+              }
+            }
+          },
+          "dsp0" : {
+            "block5" : {
+              "Pedal" : {
+                "@fs_enabled" : false,
+                "@value" : 0
+              }
+            }
+          }
+        }
       }
     },
-    "device_version" : 38797312
+    "device_version" : 39845888
   },
-  "schema" : "L6Preset"
+  "meta" : {
+    "original" : 0,
+    "pbn" : 0,
+    "premium" : 0
+  },
+  "schema" : "L6Preset",
+  "version" : 6
 }
