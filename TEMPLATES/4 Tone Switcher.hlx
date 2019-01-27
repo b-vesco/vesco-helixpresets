@@ -4,7 +4,7 @@
       "name" : "4 Tone Switcher",
       "application" : "HX Edit",
       "build_sha" : "905c912",
-      "modifieddate" : 1539805951,
+      "modifieddate" : 1539826455,
       "appversion" : 40894464
     },
     "device" : 2162689,
@@ -343,7 +343,7 @@
         "@tempo" : 120
       }
     },
-    "device_version" : 39845888
+    "device_version" : 40894464
   },
   "meta" : {
     "original" : 0,
